@@ -1,0 +1,412 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "ChronoMyst Lore Entry",
+  "description": "Schema for lore entries in the ChronoMyst universe - covering mythology, cosmology, magic systems, and deep world knowledge",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$",
+      "description": "Unique identifier for the lore entry"
+    },
+    "title": {
+      "type": "string",
+      "description": "Title of the lore entry"
+    },
+    "category": {
+      "type": "string",
+      "enum": ["cosmology", "mythology", "magic-system", "religion", "philosophy", "natural-law", "prophecy", "legend", "theory", "mystery", "creation-myth", "pantheon", "divine-realm", "planar-structure", "time-mechanics"],
+      "description": "Primary category of lore"
+    },
+    "subcategory": {
+      "type": "string",
+      "description": "More specific subcategory within the main category"
+    },
+    "knowledge_level": {
+      "type": "string",
+      "enum": ["common", "scholarly", "secret", "forbidden", "divine", "lost", "theoretical"],
+      "description": "How widely known or accessible this knowledge is"
+    },
+    "certainty": {
+      "type": "string",
+      "enum": ["fact", "widely-accepted", "scholarly-consensus", "disputed", "theory", "speculation", "myth", "legend"],
+      "description": "How certain or verifiable this knowledge is"
+    },
+    "description": {
+      "type": "object",
+      "properties": {
+        "summary": {
+          "type": "string",
+          "maxLength": 300,
+          "description": "Brief summary of the lore concept"
+        },
+        "detailed": {
+          "type": "string",
+          "description": "Comprehensive explanation of the lore"
+        },
+        "implications": {
+          "type": "string",
+          "description": "What this means for the world and its inhabitants"
+        }
+      },
+      "required": ["summary", "detailed"]
+    },
+    "origins": {
+      "type": "object",
+      "properties": {
+        "source": {
+          "type": "string",
+          "enum": ["divine-revelation", "ancient-texts", "scholarly-research", "magical-discovery", "prophetic-vision", "oral-tradition", "archaeological-evidence", "direct-observation", "theoretical-deduction"],
+          "description": "How this knowledge was originally obtained"
+        },
+        "first_recorded": {
+          "type": "object",
+          "properties": {
+            "era": {
+              "type": "string",
+              "description": "When this was first recorded"
+            },
+            "location": {
+              "type": "string",
+              "description": "Where it was first recorded"
+            },
+            "recorder": {
+              "type": "string",
+              "description": "Who first recorded it"
+            }
+          }
+        },
+        "cultural_origin": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Which cultures or civilizations this knowledge comes from"
+        }
+      }
+    },
+    "mechanics": {
+      "type": "object",
+      "description": "For magic systems, natural laws, or other systematic knowledge",
+      "properties": {
+        "principles": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "name": {
+                "type": "string",
+                "description": "Name of the principle"
+              },
+              "description": {
+                "type": "string",
+                "description": "How this principle works"
+              },
+              "limitations": {
+                "type": "string",
+                "description": "Known limitations or restrictions"
+              }
+            },
+            "required": ["name", "description"]
+          }
+        },
+        "components": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Key components or elements involved"
+        },
+        "interactions": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "with": {
+                "type": "string",
+                "description": "What this interacts with"
+              },
+              "type": {
+                "type": "string",
+                "enum": ["enhances", "inhibits", "transforms", "destroys", "creates", "conflicts"],
+                "description": "Type of interaction"
+              },
+              "result": {
+                "type": "string",
+                "description": "What happens during this interaction"
+              }
+            },
+            "required": ["with", "type", "result"]
+          }
+        }
+      }
+    },
+    "entities": {
+      "type": "object",
+      "description": "For pantheons, divine beings, cosmic entities",
+      "properties": {
+        "primary_entities": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "name": {
+                "type": "string",
+                "description": "Name of the entity"
+              },
+              "role": {
+                "type": "string",
+                "description": "Role or domain of the entity"
+              },
+              "description": {
+                "type": "string",
+                "description": "Description of the entity"
+              },
+              "power_level": {
+                "type": "string",
+                "enum": ["minor", "major", "greater", "supreme", "cosmic", "transcendent"],
+                "description": "Relative power level"
+              },
+              "relationships": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "entity": {
+                      "type": "string",
+                      "description": "Name of related entity"
+                    },
+                    "relationship": {
+                      "type": "string",
+                      "description": "Nature of the relationship"
+                    }
+                  }
+                }
+              }
+            },
+            "required": ["name", "role", "description"]
+          }
+        },
+        "hierarchies": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "name": {
+                "type": "string",
+                "description": "Name of the hierarchy"
+              },
+              "structure": {
+                "type": "string",
+                "description": "How the hierarchy is organized"
+              },
+              "members": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                },
+                "description": "Members of this hierarchy"
+              }
+            }
+          }
+        }
+      }
+    },
+    "prophecies": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "description": "Name of the prophecy"
+          },
+          "text": {
+            "type": "string",
+            "description": "The prophetic text"
+          },
+          "interpretation": {
+            "type": "string",
+            "description": "Current scholarly interpretation"
+          },
+          "status": {
+            "type": "string",
+            "enum": ["unfulfilled", "partially-fulfilled", "fulfilled", "failed", "ongoing"],
+            "description": "Fulfillment status"
+          },
+          "related_events": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "Timeline events related to this prophecy"
+          }
+        },
+        "required": ["name", "text", "status"]
+      }
+    },
+    "mysteries": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "question": {
+            "type": "string",
+            "description": "The mysterious question or phenomenon"
+          },
+          "theories": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "theory": {
+                  "type": "string",
+                  "description": "Proposed explanation"
+                },
+                "evidence": {
+                  "type": "string",
+                  "description": "Supporting evidence"
+                },
+                "proponent": {
+                  "type": "string",
+                  "description": "Who proposed this theory"
+                }
+              }
+            }
+          },
+          "clues": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "Known clues or evidence"
+          }
+        },
+        "required": ["question"]
+      }
+    },
+    "related_content": {
+      "type": "object",
+      "properties": {
+        "characters": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Character IDs related to this lore"
+        },
+        "locations": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Location IDs related to this lore"
+        },
+        "events": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Timeline event IDs related to this lore"
+        },
+        "artifacts": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Artifact IDs related to this lore"
+        },
+        "other_lore": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Other lore entry IDs that relate to this one"
+        }
+      }
+    },
+    "scholarly_notes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "scholar": {
+            "type": "string",
+            "description": "Name of the scholar"
+          },
+          "institution": {
+            "type": "string",
+            "description": "Scholarly institution or affiliation"
+          },
+          "note": {
+            "type": "string",
+            "description": "The scholarly note or commentary"
+          },
+          "date": {
+            "type": "string",
+            "description": "When this note was made"
+          }
+        },
+        "required": ["scholar", "note"]
+      }
+    },
+    "contradictions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "conflicting_source": {
+            "type": "string",
+            "description": "What source contradicts this lore"
+          },
+          "nature_of_conflict": {
+            "type": "string",
+            "description": "How the sources contradict each other"
+          },
+          "resolution_attempts": {
+            "type": "string",
+            "description": "Attempts to resolve the contradiction"
+          }
+        },
+        "required": ["conflicting_source", "nature_of_conflict"]
+      }
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Searchable tags for categorization"
+    },
+    "metadata": {
+      "type": "object",
+      "properties": {
+        "created": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Creation timestamp"
+        },
+        "last_updated": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Last update timestamp"
+        },
+        "author": {
+          "type": "string",
+          "description": "Content creator/author"
+        },
+        "version": {
+          "type": "string",
+          "description": "Content version"
+        },
+        "canonical": {
+          "type": "boolean",
+          "description": "Whether this is official canonical content"
+        }
+      },
+      "required": ["created", "last_updated", "canonical"]
+    }
+  },
+  "required": ["id", "title", "category", "knowledge_level", "certainty", "description", "metadata"],
+  "additionalProperties": false
+}

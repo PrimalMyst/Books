@@ -1,0 +1,233 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "ChronoMyst Character",
+  "description": "Schema for character entries in the ChronoMyst universe",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$",
+      "description": "Unique identifier for the character"
+    },
+    "name": {
+      "type": "string",
+      "description": "Character's full name"
+    },
+    "aliases": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Known aliases, titles, or alternate names"
+    },
+    "status": {
+      "type": "string",
+      "enum": ["alive", "dead", "missing", "unknown", "mythical"],
+      "description": "Current status of the character"
+    },
+    "faction": {
+      "type": "string",
+      "description": "Primary faction or organization affiliation"
+    },
+    "race": {
+      "type": "string",
+      "description": "Character's race or species"
+    },
+    "class": {
+      "type": "string",
+      "description": "Character class or profession"
+    },
+    "age": {
+      "type": "object",
+      "properties": {
+        "apparent": {
+          "type": "integer",
+          "description": "Apparent age"
+        },
+        "actual": {
+          "type": "integer",
+          "description": "Actual age (if different from apparent)"
+        },
+        "era": {
+          "type": "string",
+          "description": "Time period or era of birth"
+        }
+      }
+    },
+    "location": {
+      "type": "object",
+      "properties": {
+        "current": {
+          "type": "string",
+          "description": "Current location or last known whereabouts"
+        },
+        "origin": {
+          "type": "string",
+          "description": "Place of birth or origin"
+        }
+      }
+    },
+    "description": {
+      "type": "object",
+      "properties": {
+        "brief": {
+          "type": "string",
+          "maxLength": 200,
+          "description": "Brief character description"
+        },
+        "physical": {
+          "type": "string",
+          "description": "Physical appearance description"
+        },
+        "personality": {
+          "type": "string",
+          "description": "Personality traits and characteristics"
+        }
+      },
+      "required": ["brief"]
+    },
+    "background": {
+      "type": "object",
+      "properties": {
+        "summary": {
+          "type": "string",
+          "description": "Character background summary"
+        },
+        "history": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "period": {
+                "type": "string",
+                "description": "Time period or era"
+              },
+              "event": {
+                "type": "string",
+                "description": "Significant event or development"
+              },
+              "location": {
+                "type": "string",
+                "description": "Where this event occurred"
+              }
+            }
+          }
+        }
+      }
+    },
+    "relationships": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "character_id": {
+            "type": "string",
+            "description": "ID of related character"
+          },
+          "relationship": {
+            "type": "string",
+            "enum": ["family", "friend", "enemy", "ally", "neutral", "romantic", "mentor", "student", "rival"],
+            "description": "Type of relationship"
+          },
+          "description": {
+            "type": "string",
+            "description": "Description of the relationship"
+          }
+        },
+        "required": ["character_id", "relationship"]
+      }
+    },
+    "abilities": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "description": "Name of the ability"
+          },
+          "type": {
+            "type": "string",
+            "enum": ["magic", "skill", "talent", "curse", "blessing", "technology"],
+            "description": "Type of ability"
+          },
+          "description": {
+            "type": "string",
+            "description": "Detailed description of the ability"
+          },
+          "power_level": {
+            "type": "string",
+            "enum": ["minor", "moderate", "major", "legendary", "mythical"],
+            "description": "Relative power level"
+          }
+        },
+        "required": ["name", "type", "description"]
+      }
+    },
+    "notable_events": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "description": "References to timeline events this character was involved in"
+      }
+    },
+    "quotes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "text": {
+            "type": "string",
+            "description": "The quote text"
+          },
+          "context": {
+            "type": "string",
+            "description": "Context or situation of the quote"
+          },
+          "source": {
+            "type": "string",
+            "description": "Source reference (book, game event, etc.)"
+          }
+        },
+        "required": ["text"]
+      }
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Searchable tags for categorization"
+    },
+    "metadata": {
+      "type": "object",
+      "properties": {
+        "created": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Creation timestamp"
+        },
+        "last_updated": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Last update timestamp"
+        },
+        "author": {
+          "type": "string",
+          "description": "Content creator/author"
+        },
+        "version": {
+          "type": "string",
+          "description": "Content version"
+        },
+        "canonical": {
+          "type": "boolean",
+          "description": "Whether this is official canonical content"
+        }
+      },
+      "required": ["created", "last_updated", "canonical"]
+    }
+  },
+  "required": ["id", "name", "status", "description", "metadata"],
+  "additionalProperties": false
+}

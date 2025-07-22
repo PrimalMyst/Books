@@ -1,0 +1,187 @@
+{
+  "project": "ChronoMyst Wiki Data Index",
+  "version": "1.0.0",
+  "last_updated": "2025-07-22T10:20:00Z",
+  "description": "Master index of all structured data in the ChronoMyst Wiki",
+  
+  "schemas": {
+    "character": {
+      "file": "data/schemas/character.schema.json",
+      "description": "Character entries including NPCs, protagonists, and historical figures",
+      "required_fields": ["id", "name", "status", "description", "metadata"],
+      "example": "data/json/characters/example-character.json"
+    },
+    "location": {
+      "file": "data/schemas/location.schema.json", 
+      "description": "Locations including cities, dungeons, natural areas, and structures",
+      "required_fields": ["id", "name", "type", "status", "description", "metadata"],
+      "example": "data/json/locations/example-location.json"
+    },
+    "timeline-event": {
+      "file": "data/schemas/timeline-event.schema.json",
+      "description": "Historical events that shaped the world",
+      "required_fields": ["id", "name", "type", "significance", "date", "description", "metadata"],
+      "example": "data/json/timeline-events/example-event.json"
+    },
+    "lore": {
+      "file": "data/schemas/lore.schema.json",
+      "description": "Deep world knowledge including cosmology, mythology, and magic systems",
+      "required_fields": ["id", "title", "category", "knowledge_level", "certainty", "description", "metadata"],
+      "example": "data/json/lore/example-lore.json"
+    }
+  },
+
+  "data_categories": {
+    "characters": {
+      "path": "data/json/characters/",
+      "schema": "character",
+      "count": 1,
+      "subcategories": {
+        "protagonists": "Major player characters and heroes",
+        "antagonists": "Villains and opposing forces", 
+        "npcs": "Non-player characters",
+        "historical": "Important historical figures",
+        "mythical": "Legendary or divine beings"
+      }
+    },
+    "locations": {
+      "path": "data/json/locations/",
+      "schema": "location", 
+      "count": 1,
+      "subcategories": {
+        "cities": "Urban settlements and capitals",
+        "dungeons": "Underground complexes and ruins",
+        "structures": "Important buildings and monuments",
+        "natural": "Geographic features and wilderness",
+        "realms": "Dimensions and planes of existence"
+      }
+    },
+    "timeline-events": {
+      "path": "data/json/timeline-events/",
+      "schema": "timeline-event",
+      "count": 1,
+      "subcategories": {
+        "wars": "Major conflicts and battles",
+        "discoveries": "Important revelations and inventions",
+        "founding": "Creation of cities, organizations, etc.",
+        "catastrophes": "Disasters and world-changing events", 
+        "convergences": "Temporal and cosmic phenomena"
+      }
+    },
+    "lore": {
+      "path": "data/json/lore/",
+      "schema": "lore",
+      "count": 1,
+      "subcategories": {
+        "cosmology": "Universal structure and cosmic laws",
+        "mythology": "Creation myths and divine stories",
+        "magic-systems": "How supernatural powers work",
+        "prophecies": "Predictions and their interpretations",
+        "mysteries": "Unexplained phenomena and questions"
+      }
+    }
+  },
+
+  "relationships": {
+    "description": "How different data types interconnect",
+    "character_to_location": "Characters have origin and current locations",
+    "character_to_event": "Characters participate in timeline events",
+    "character_to_character": "Characters have relationships with each other",
+    "character_to_lore": "Characters embody or are related to lore concepts",
+    "location_to_event": "Events occur at specific locations",
+    "location_to_location": "Locations can contain or connect to other locations",
+    "location_to_lore": "Locations may have mythological or magical significance",
+    "event_to_event": "Events can be preceded or followed by other events",
+    "event_to_lore": "Events may fulfill prophecies or embody lore concepts",
+    "lore_to_lore": "Lore entries can reference and build upon each other"
+  },
+
+  "id_conventions": {
+    "format": "kebab-case",
+    "pattern": "^[a-z0-9-]+$",
+    "examples": [
+      "aethon-the-timekeeper",
+      "the-nexus-observatory", 
+      "the-great-temporal-convergence",
+      "the-nature-of-time"
+    ],
+    "guidelines": [
+      "Use descriptive names that clearly identify the entity",
+      "Include titles or epithets for important characters",
+      "Use 'the-' prefix for unique locations and events",
+      "Keep IDs reasonably short but unambiguous"
+    ]
+  },
+
+  "validation": {
+    "tools": [
+      "JSON Schema validation for structure",
+      "Cross-reference validation for ID consistency",
+      "Timeline chronology validation",
+      "Relationship integrity checks"
+    ],
+    "required_metadata": [
+      "created: ISO 8601 timestamp",
+      "last_updated: ISO 8601 timestamp", 
+      "canonical: boolean indicating official status"
+    ],
+    "optional_metadata": [
+      "author: content creator name",
+      "version: semantic version string"
+    ]
+  },
+
+  "workflow": {
+    "new_content": [
+      "1. Choose appropriate schema (character, location, timeline-event, lore)",
+      "2. Create unique ID following naming conventions",
+      "3. Fill required fields according to schema",
+      "4. Add cross-references to related content",
+      "5. Validate JSON structure and relationships",
+      "6. Create or update corresponding narrative documentation",
+      "7. Update this index if adding new categories"
+    ],
+    "updates": [
+      "1. Modify JSON data maintaining schema compliance", 
+      "2. Update last_updated timestamp",
+      "3. Increment version if significant changes",
+      "4. Validate all cross-references still work",
+      "5. Update related narrative documentation",
+      "6. Run consistency checks across affected content"
+    ]
+  },
+
+  "integration": {
+    "game_systems": {
+      "character_stats": "JSON character data can populate game character sheets",
+      "location_data": "Location JSON provides world map and area information", 
+      "quest_integration": "Timeline events can trigger or reference game quests",
+      "lore_systems": "In-game codex can pull from lore JSON entries"
+    },
+    "wiki_display": {
+      "dynamic_pages": "JSON data can generate wiki pages automatically",
+      "cross_linking": "ID references can become hyperlinks",
+      "search_indexing": "Tags and descriptions enable full-text search",
+      "timeline_views": "Event data can generate interactive timelines"
+    },
+    "community_tools": {
+      "contribution_forms": "Schemas can generate input forms for community content",
+      "validation_tools": "Schema validation can check community submissions",
+      "content_management": "JSON structure enables programmatic content organization"
+    }
+  },
+
+  "expansion_guidelines": {
+    "new_schemas": "Only add new schemas for fundamentally different content types",
+    "schema_updates": "Use semantic versioning and backward compatibility when possible", 
+    "data_migration": "Provide migration tools when schema changes break existing data",
+    "documentation": "Update this index and all related documentation when making changes"
+  },
+
+  "examples": {
+    "character_entry": "data/json/characters/example-character.json",
+    "location_entry": "data/json/locations/example-location.json",
+    "timeline_event": "data/json/timeline-events/example-event.json", 
+    "lore_entry": "data/json/lore/example-lore.json"
+  }
+}

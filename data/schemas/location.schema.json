@@ -1,0 +1,349 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "ChronoMyst Location",
+  "description": "Schema for location entries in the ChronoMyst universe",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$",
+      "description": "Unique identifier for the location"
+    },
+    "name": {
+      "type": "string",
+      "description": "Official name of the location"
+    },
+    "alternate_names": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Alternative names, ancient names, or colloquial terms"
+    },
+    "type": {
+      "type": "string",
+      "enum": ["city", "town", "village", "fortress", "ruins", "temple", "dungeon", "forest", "mountain", "river", "lake", "sea", "desert", "plain", "realm", "dimension", "structure", "landmark"],
+      "description": "Type of location"
+    },
+    "status": {
+      "type": "string",
+      "enum": ["thriving", "declining", "abandoned", "ruined", "hidden", "mythical", "destroyed", "restored"],
+      "description": "Current status of the location"
+    },
+    "parent_location": {
+      "type": "string",
+      "description": "ID of parent location (e.g., city within a realm)"
+    },
+    "sub_locations": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "IDs of locations contained within this location"
+    },
+    "coordinates": {
+      "type": "object",
+      "properties": {
+        "x": {
+          "type": "number",
+          "description": "X coordinate on world map"
+        },
+        "y": {
+          "type": "number",
+          "description": "Y coordinate on world map"
+        },
+        "z": {
+          "type": "number",
+          "description": "Z coordinate (elevation or dimension)"
+        }
+      }
+    },
+    "climate": {
+      "type": "string",
+      "enum": ["tropical", "temperate", "arid", "arctic", "magical", "varied", "unknown"],
+      "description": "General climate of the location"
+    },
+    "description": {
+      "type": "object",
+      "properties": {
+        "brief": {
+          "type": "string",
+          "maxLength": 200,
+          "description": "Brief location description"
+        },
+        "detailed": {
+          "type": "string",
+          "description": "Detailed description of the location"
+        },
+        "visual": {
+          "type": "string",
+          "description": "Visual description for imagery"
+        },
+        "atmosphere": {
+          "type": "string",
+          "description": "Atmospheric description (mood, feeling)"
+        }
+      },
+      "required": ["brief"]
+    },
+    "geography": {
+      "type": "object",
+      "properties": {
+        "terrain": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Types of terrain present"
+        },
+        "notable_features": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Notable geographical features"
+        },
+        "size": {
+          "type": "object",
+          "properties": {
+            "area": {
+              "type": "string",
+              "description": "Area measurement or relative size"
+            },
+            "population": {
+              "type": "integer",
+              "description": "Population count (if applicable)"
+            }
+          }
+        }
+      }
+    },
+    "history": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "era": {
+            "type": "string",
+            "description": "Historical era or time period"
+          },
+          "event": {
+            "type": "string",
+            "description": "Historical event or change"
+          },
+          "impact": {
+            "type": "string",
+            "description": "How this event affected the location"
+          }
+        },
+        "required": ["era", "event"]
+      }
+    },
+    "governance": {
+      "type": "object",
+      "properties": {
+        "ruling_faction": {
+          "type": "string",
+          "description": "Current ruling faction or government"
+        },
+        "government_type": {
+          "type": "string",
+          "enum": ["monarchy", "republic", "democracy", "theocracy", "magocracy", "anarchy", "tribal", "imperial", "none"],
+          "description": "Type of government"
+        },
+        "laws": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Notable laws or regulations"
+        }
+      }
+    },
+    "culture": {
+      "type": "object",
+      "properties": {
+        "dominant_races": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Primary races/species inhabiting the location"
+        },
+        "languages": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Languages spoken in the location"
+        },
+        "customs": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Cultural customs and traditions"
+        },
+        "festivals": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "name": {
+                "type": "string"
+              },
+              "description": {
+                "type": "string"
+              },
+              "frequency": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    },
+    "economy": {
+      "type": "object",
+      "properties": {
+        "primary_industries": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Main economic activities"
+        },
+        "trade_goods": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Goods commonly traded"
+        },
+        "currency": {
+          "type": "string",
+          "description": "Local currency or exchange system"
+        }
+      }
+    },
+    "notable_residents": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "IDs of notable characters associated with this location"
+    },
+    "connected_locations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "location_id": {
+            "type": "string",
+            "description": "ID of connected location"
+          },
+          "connection_type": {
+            "type": "string",
+            "enum": ["road", "river", "sea", "portal", "tunnel", "bridge", "magical", "hidden"],
+            "description": "Type of connection"
+          },
+          "travel_time": {
+            "type": "string",
+            "description": "Typical travel time between locations"
+          },
+          "difficulty": {
+            "type": "string",
+            "enum": ["easy", "moderate", "hard", "dangerous", "impossible"],
+            "description": "Difficulty of travel"
+          }
+        },
+        "required": ["location_id", "connection_type"]
+      }
+    },
+    "resources": {
+      "type": "object",
+      "properties": {
+        "natural": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Natural resources available"
+        },
+        "magical": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Magical resources or phenomena"
+        },
+        "artifacts": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Notable artifacts found or stored here"
+        }
+      }
+    },
+    "dangers": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "type": {
+            "type": "string",
+            "description": "Type of danger"
+          },
+          "description": {
+            "type": "string",
+            "description": "Description of the danger"
+          },
+          "severity": {
+            "type": "string",
+            "enum": ["minor", "moderate", "major", "extreme", "lethal"],
+            "description": "Severity level"
+          }
+        },
+        "required": ["type", "description", "severity"]
+      }
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Searchable tags for categorization"
+    },
+    "metadata": {
+      "type": "object",
+      "properties": {
+        "created": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Creation timestamp"
+        },
+        "last_updated": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Last update timestamp"
+        },
+        "author": {
+          "type": "string",
+          "description": "Content creator/author"
+        },
+        "version": {
+          "type": "string",
+          "description": "Content version"
+        },
+        "canonical": {
+          "type": "boolean",
+          "description": "Whether this is official canonical content"
+        }
+      },
+      "required": ["created", "last_updated", "canonical"]
+    }
+  },
+  "required": ["id", "name", "type", "status", "description", "metadata"],
+  "additionalProperties": false
+}

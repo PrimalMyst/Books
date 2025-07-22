@@ -1,0 +1,327 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "ChronoMyst Timeline Event",
+  "description": "Schema for timeline events in the ChronoMyst universe",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$",
+      "description": "Unique identifier for the event"
+    },
+    "name": {
+      "type": "string",
+      "description": "Name or title of the event"
+    },
+    "alternate_names": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Alternative names for the event"
+    },
+    "type": {
+      "type": "string",
+      "enum": ["battle", "discovery", "founding", "destruction", "treaty", "birth", "death", "coronation", "catastrophe", "migration", "invention", "ritual", "prophecy", "awakening", "convergence"],
+      "description": "Type of event"
+    },
+    "significance": {
+      "type": "string",
+      "enum": ["minor", "local", "regional", "major", "world-changing", "cosmic", "legendary"],
+      "description": "Historical significance level"
+    },
+    "date": {
+      "type": "object",
+      "properties": {
+        "era": {
+          "type": "string",
+          "description": "Historical era (e.g., 'First Age', 'Age of Shadows')"
+        },
+        "year": {
+          "type": "integer",
+          "description": "Year within the era"
+        },
+        "season": {
+          "type": "string",
+          "enum": ["spring", "summer", "autumn", "winter", "unknown"],
+          "description": "Season when the event occurred"
+        },
+        "precise_date": {
+          "type": "string",
+          "description": "More precise date if known (e.g., 'Third day of Harvest Moon')"
+        },
+        "duration": {
+          "type": "string",
+          "description": "How long the event lasted"
+        },
+        "uncertainty": {
+          "type": "boolean",
+          "default": false,
+          "description": "Whether the date is uncertain or disputed"
+        }
+      },
+      "required": ["era"]
+    },
+    "location": {
+      "type": "object",
+      "properties": {
+        "primary_location": {
+          "type": "string",
+          "description": "ID of the main location where event occurred"
+        },
+        "affected_locations": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "IDs of other locations affected by the event"
+        }
+      }
+    },
+    "description": {
+      "type": "object",
+      "properties": {
+        "brief": {
+          "type": "string",
+          "maxLength": 300,
+          "description": "Brief summary of the event"
+        },
+        "detailed": {
+          "type": "string",
+          "description": "Detailed description of what happened"
+        },
+        "prelude": {
+          "type": "string",
+          "description": "Events leading up to this event"
+        },
+        "aftermath": {
+          "type": "string",
+          "description": "Immediate consequences and aftermath"
+        }
+      },
+      "required": ["brief"]
+    },
+    "participants": {
+      "type": "object",
+      "properties": {
+        "primary_characters": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "character_id": {
+                "type": "string",
+                "description": "ID of the character"
+              },
+              "role": {
+                "type": "string",
+                "description": "Role in the event"
+              },
+              "outcome": {
+                "type": "string",
+                "description": "What happened to them during/after the event"
+              }
+            },
+            "required": ["character_id", "role"]
+          }
+        },
+        "factions": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "faction_id": {
+                "type": "string",
+                "description": "ID of the faction"
+              },
+              "role": {
+                "type": "string",
+                "enum": ["aggressor", "defender", "mediator", "observer", "victim", "beneficiary"],
+                "description": "Role of the faction in the event"
+              },
+              "outcome": {
+                "type": "string",
+                "description": "How the faction was affected"
+              }
+            },
+            "required": ["faction_id", "role"]
+          }
+        },
+        "other_entities": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Other entities involved (gods, spirits, etc.)"
+        }
+      }
+    },
+    "causes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "type": {
+            "type": "string",
+            "enum": ["political", "economic", "religious", "magical", "natural", "personal", "prophecy", "accident"],
+            "description": "Type of cause"
+          },
+          "description": {
+            "type": "string",
+            "description": "Description of the cause"
+          },
+          "related_events": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "IDs of related events that contributed"
+          }
+        },
+        "required": ["type", "description"]
+      }
+    },
+    "consequences": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "type": {
+            "type": "string",
+            "enum": ["political", "economic", "social", "magical", "geographical", "technological", "religious"],
+            "description": "Type of consequence"
+          },
+          "scope": {
+            "type": "string",
+            "enum": ["local", "regional", "continental", "global", "cosmic"],
+            "description": "Scope of the consequence"
+          },
+          "description": {
+            "type": "string",
+            "description": "Description of the consequence"
+          },
+          "duration": {
+            "type": "string",
+            "enum": ["temporary", "short-term", "long-term", "permanent", "ongoing"],
+            "description": "How long the consequence lasted"
+          }
+        },
+        "required": ["type", "scope", "description"]
+      }
+    },
+    "related_events": {
+      "type": "object",
+      "properties": {
+        "preceded_by": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "IDs of events that directly led to this event"
+        },
+        "followed_by": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "IDs of events that directly resulted from this event"
+        },
+        "concurrent": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "IDs of events that occurred at the same time"
+        }
+      }
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "type": {
+            "type": "string",
+            "enum": ["historical_record", "eyewitness", "archaeological", "magical_scrying", "prophecy", "legend", "rumor"],
+            "description": "Type of source"
+          },
+          "reliability": {
+            "type": "string",
+            "enum": ["confirmed", "likely", "disputed", "questionable", "mythical"],
+            "description": "Reliability of the source"
+          },
+          "description": {
+            "type": "string",
+            "description": "Description of the source"
+          }
+        },
+        "required": ["type", "reliability", "description"]
+      }
+    },
+    "artifacts": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "IDs of artifacts created, destroyed, or discovered during this event"
+    },
+    "prophecies": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "text": {
+            "type": "string",
+            "description": "The prophecy text"
+          },
+          "fulfilled": {
+            "type": "boolean",
+            "description": "Whether this event fulfilled the prophecy"
+          },
+          "source": {
+            "type": "string",
+            "description": "Who made the prophecy"
+          }
+        },
+        "required": ["text", "fulfilled"]
+      }
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Searchable tags for categorization"
+    },
+    "metadata": {
+      "type": "object",
+      "properties": {
+        "created": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Creation timestamp"
+        },
+        "last_updated": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Last update timestamp"
+        },
+        "author": {
+          "type": "string",
+          "description": "Content creator/author"
+        },
+        "version": {
+          "type": "string",
+          "description": "Content version"
+        },
+        "canonical": {
+          "type": "boolean",
+          "description": "Whether this is official canonical content"
+        }
+      },
+      "required": ["created", "last_updated", "canonical"]
+    }
+  },
+  "required": ["id", "name", "type", "significance", "date", "description", "metadata"],
+  "additionalProperties": false
+}

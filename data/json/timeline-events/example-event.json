@@ -1,0 +1,145 @@
+{
+  "id": "the-great-temporal-convergence",
+  "name": "The Great Temporal Convergence",
+  "alternate_names": ["The Joining of All Hours", "The Moment of Infinite Present"],
+  "type": "convergence",
+  "significance": "cosmic",
+  "date": {
+    "era": "Second Age of Mysteries",
+    "year": 23,
+    "season": "spring",
+    "precise_date": "First day of the Eternal Dawn",
+    "duration": "Seven days and seven nights, though experienced differently across timelines",
+    "uncertainty": false
+  },
+  "location": {
+    "primary_location": "the-nexus-observatory",
+    "affected_locations": [
+      "floating-isle-of-kairos",
+      "crystal-desert-of-echoes",
+      "the-sundered-realms",
+      "dimensional-nexus-points"
+    ]
+  },
+  "description": {
+    "brief": "A cosmic event where all possible timelines briefly converged into a single moment, fundamentally altering the nature of time and reality in the ChronoMyst universe.",
+    "detailed": "The Great Temporal Convergence occurred when the natural flow of time became disrupted by the accumulated paradoxes of the First Age. All possible past, present, and future timelines collapsed into a single point of existence at the Nexus Observatory. During this convergence, the barriers between what was, what is, and what could be dissolved completely. Every soul experienced all possible versions of their life simultaneously, and every choice that had ever been made or could be made existed in the same moment. The event lasted seven days from an external perspective, but those who lived through it experienced lifetimes of possibility.",
+    "prelude": "Strange temporal anomalies had been increasing throughout the Second Age. Seers reported visions of multiple futures occurring simultaneously, and scholars noted increasing instances of paradoxes that refused to resolve themselves naturally.",
+    "aftermath": "The Convergence fundamentally changed the relationship between time and consciousness in the world. Many individuals retained memories of alternate timelines, leading to the emergence of the Chronarch race and the founding of the Temporal Guardians."
+  },
+  "participants": {
+    "primary_characters": [
+      {
+        "character_id": "aethon-the-timekeeper",
+        "role": "Newly awakened Chronarch who helped stabilize the convergence",
+        "outcome": "Gained his temporal abilities and was chosen as the first Timekeeper"
+      },
+      {
+        "character_id": "the-first-oracle",
+        "role": "Ancient seer who predicted the convergence",
+        "outcome": "Transcended physical form and became one with the timestream"
+      }
+    ],
+    "factions": [
+      {
+        "faction_id": "proto-temporal-guardians",
+        "role": "mediator",
+        "outcome": "Evolved into the official Temporal Guardians organization"
+      },
+      {
+        "faction_id": "reality-scholars",
+        "role": "observer",
+        "outcome": "Many gained the ability to perceive multiple timelines"
+      }
+    ],
+    "other_entities": [
+      "The Cosmic Weaver - primordial entity of time and fate",
+      "Temporal Spirits - beings of pure time energy"
+    ]
+  },
+  "causes": [
+    {
+      "type": "magical",
+      "description": "Accumulation of unresolved temporal paradoxes from the First Age",
+      "related_events": ["the-first-time-wars", "creation-of-the-temporal-anchors"]
+    },
+    {
+      "type": "natural",
+      "description": "Natural cycle of temporal realignment that occurs every cosmic age",
+      "related_events": ["the-cosmic-awakening"]
+    }
+  ],
+  "consequences": [
+    {
+      "type": "magical",
+      "scope": "cosmic",
+      "description": "Creation of the Chronarch race - beings with innate temporal sensitivity",
+      "duration": "permanent"
+    },
+    {
+      "type": "political",
+      "scope": "global",
+      "description": "Establishment of the Temporal Guardians to prevent future convergences",
+      "duration": "ongoing"
+    },
+    {
+      "type": "social",
+      "scope": "global",
+      "description": "Many individuals retained memories of alternate lives, leading to philosophical and religious upheavals",
+      "duration": "long-term"
+    },
+    {
+      "type": "geographical",
+      "scope": "regional",
+      "description": "Certain locations became permanently temporal anomalies, existing in multiple time states",
+      "duration": "permanent"
+    }
+  ],
+  "related_events": {
+    "preceded_by": ["the-first-time-wars", "the-oracle-wars", "creation-of-the-temporal-anchors"],
+    "followed_by": ["founding-of-the-temporal-guardians", "the-great-awakening", "construction-of-paradox-barriers"],
+    "concurrent": []
+  },
+  "sources": [
+    {
+      "type": "eyewitness",
+      "reliability": "confirmed",
+      "description": "The Convergence Chronicles - firsthand accounts from survivors compiled by the Temporal Guardians"
+    },
+    {
+      "type": "magical_scrying",
+      "reliability": "confirmed",
+      "description": "Temporal echoes preserved in Chronicle Crystals at the Nexus Observatory"
+    },
+    {
+      "type": "archaeological",
+      "reliability": "likely",
+      "description": "Temporal residue found at convergence sites across multiple dimensions"
+    }
+  ],
+  "artifacts": [
+    "the-convergence-crystals",
+    "the-memory-stones-of-all-possibilities",
+    "the-temporal-anchor-array"
+  ],
+  "prophecies": [
+    {
+      "text": "When all hours become one hour, and all choices become one choice, the children of time shall be born from the union of what was and what shall be.",
+      "fulfilled": true,
+      "source": "The First Oracle"
+    },
+    {
+      "text": "In the moment when time stands still, the guardians of tomorrow shall rise from the ashes of yesterday.",
+      "fulfilled": true,
+      "source": "Ancient Chronish Prophecies"
+    }
+  ],
+  "tags": ["cosmic-event", "temporal-convergence", "timeline-alteration", "chronarch-origin", "guardian-founding", "reality-changing"],
+  "metadata": {
+    "created": "2025-07-22T10:10:00Z",
+    "last_updated": "2025-07-22T10:10:00Z",
+    "author": "ChronoMyst Development Team",
+    "version": "1.0.0",
+    "canonical": true
+  }
+}
