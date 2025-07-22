@@ -2,7 +2,7 @@
 
 ![ChronoMyst Logo](assets/logo.png) <!-- Add your game logo here -->
 
-**The definitive source of truth for ChronoMyst - A comprehensive codex and community-driven wiki for the epic temporal fantasy RPG where time itself is your greatest ally and most dangerous enemy**
+**The definitive source of truth for ChronoMyst - A comprehensive codex and community-driven wiki for the free-to-play temporal action RPG featuring league-based seasons and cooperative gameplay**
 
 ---
 
@@ -12,42 +12,61 @@ Welcome to the ChronoMyst Wiki repository! This project serves as the central hu
 
 ### What is ChronoMyst?
 
-**ChronoMyst** is an epic fantasy RPG that weaves together time manipulation, cosmic mysteries, and deep character-driven storytelling. Set in a universe where time itself is a living force that can be shaped by those with the knowledge and power to do so, players explore a reality where past, present, and future intersect in ways that challenge conventional understanding.
+**ChronoMyst** is a free-to-play online action RPG that fuses the exploration freedom of Skyrim, the fast-paced cooperative gameplay of Warframe, and the deep character progression of Path of Exile. Set in a universe where time itself is a living force, players become Chronarchs—temporal warriors who manipulate time's flow in intense combat while exploring a reality where past, present, and future intersect.
 
 #### **Core Concept**
-In ChronoMyst, time is not a river flowing in one direction—it's an ocean with currents that touch all shores. The Great Temporal Convergence fundamentally altered reality, creating a world where:
-- **Multiple timelines coexist** and occasionally intersect
-- **Temporal magic** allows manipulation of time's flow
-- **Chronarchs** - beings evolved from the Convergence - can perceive multiple possibilities
-- **Ancient mysteries** from civilizations that predate time itself drive the narrative
+ChronoMyst operates on **Temporal Leagues** - cyclical seasons where reality resets and players begin fresh journeys. Each league represents a new timeline branch following the Great Temporal Convergence, featuring:
+- **League-specific mechanics** that introduce unique temporal phenomena and challenges
+- **Fresh economy and progression** - all players start equal with new builds to discover
+- **Evolving world state** - league events reshape locations and unlock new content
+- **Chronarch abilities** that blend magic and technology for dynamic combat
+- **Cooperative temporal missions** requiring coordination across time streams
 
 #### **Key Features**
-- **🕰️ Temporal Mechanics**: Manipulate time to solve puzzles, alter outcomes, and explore "what if" scenarios
-- **🌌 Cosmic Scope**: Uncover the secrets of reality itself, from the nature of consciousness to the origin of time
-- **📜 Deep Lore**: A rich, interconnected mythology with mysteries that reward exploration and investigation  
-- **⚔️ Meaningful Choices**: Decisions ripple across timelines, affecting not just the present but past and future
-- **🏛️ Living World**: A universe that feels ancient and alive, where every location has history and purpose
-- **🔮 Character Evolution**: Develop temporal abilities and unlock memories from alternate timelines
+- **⚔️ Fast-Paced Combat**: Fluid action combat combining temporal abilities with weapon mastery
+- **🔄 League System**: Fresh seasonal content with unique mechanics and league-specific rewards
+- **🤝 Cooperative Gameplay**: 1-4 player missions requiring temporal coordination and strategy
+- **🌌 Open World Exploration**: Skyrim-inspired freedom to discover secrets across multiple timeline zones
+- **� Deep Character Building**: PoE-style passive skill trees with temporal ability specializations
+- **⚡ Temporal Mechanics**: Slow time, rewind damage, glimpse future enemy attacks, create temporal echoes
+- **🏛️ Endgame Mapping**: Procedurally generated temporal rifts with escalating difficulty and rewards
+- **� Crafting & Economy**: League-based economies with temporal essence crafting systems
 
 #### **Setting**
-The world exists in the Third Age of Mysteries, centuries after the Great Temporal Convergence reshaped reality. Players navigate between the **Nexus Observatory** - a crystalline spire that monitors temporal stability - and locations like the **Crystal Desert of Echoes** where time moves differently, the **Floating Isle of Kairos** where Chronarchs study temporal mysteries, and the **Shattered Timeline** - a dangerous realm where causality itself is broken.
+The game world spans **multiple timeline zones** accessible through the **Nexus Observatory** - a hub for Chronarch operations. Each league introduces new zones and rebalances existing ones:
+
+- **The Nexus Observatory**: Central hub for league mechanics, vendors, and social features
+- **Crystal Desert of Echoes**: Open-world zone with dynamic temporal storms and hidden vaults
+- **Floating Isle of Kairos**: Aerial combat zones with platforming and puzzle elements  
+- **Shattered Timeline**: High-level endgame zone where causality breaks down
+- **Temporal Rifts**: Procedurally generated maps scaling in difficulty (Atlas-style endgame)
+- **League Zones**: Unique areas that change with each seasonal league mechanic
 
 #### **Themes**
-- The relationship between **fate and free will**
-- The nature of **consciousness and time**  
-- The responsibility that comes with **great power**
-- How **choices echo across eternity**
-- The search for **truth in a reality of infinite possibilities**
+- **Temporal mastery** through skill and practice rather than predetermined fate
+- **Cooperative strategy** in manipulating timeline mechanics  
+- **Endless progression** with each league bringing new challenges and builds
+- **Player agency** in shaping the meta and discovering optimal strategies
+- **Community-driven** economy and competitive elements
 
 #### **Gameplay Overview**
-Players take on the role of an awakening Chronarch - a being capable of perceiving and manipulating temporal flows. As they explore the mysteries of the post-Convergence world, they will:
+Players create Chronarchs with distinct **temporal abilities** and **weapon specializations**. Core gameplay loop includes:
 
-- **🔍 Investigate Temporal Anomalies**: Discover locations where time behaves strangely and uncover their secrets
-- **⚡ Master Chronarch Abilities**: Learn to slow time, glimpse alternate timelines, and repair temporal fractures
-- **🤝 Navigate Complex Relationships**: Build alliances with Temporal Guardians, scholars, and other Chronarchs while avoiding those who would abuse temporal power
-- **📚 Uncover Ancient Mysteries**: Research lost civilizations, decipher prophetic texts, and piece together the truth behind cosmic events
-- **⚖️ Make Timeline-Altering Decisions**: Choose how to use temporal knowledge, knowing that every action ripples across past, present, and future
-- **🏛️ Shape the World's Destiny**: Influence the ongoing struggle between order and chaos as reality itself hangs in the balance
+- **🎯 Mission-Based Progression**: Complete temporal anomaly missions solo or with friends
+- **⚡ Ability Mastery**: Unlock and upgrade temporal powers through active use and passive skill trees
+- **🛡️ Gear Acquisition**: Collect and craft temporal weapons, armor, and artifacts with complex mod systems
+- **🔄 League Participation**: Engage with seasonal mechanics that refresh every 3-4 months
+- **🗺️ Endgame Atlas**: Map-based endgame with increasing difficulty and exclusive rewards
+- **🏆 Competitive Events**: Timed league events and races for unique rewards and recognition
+- **🤖 Warframe-Style Movement**: Fast traversal with temporal dashes, wall-running, and time-sliding
+- **📊 Character Builds**: Theorycrafting with hundreds of passive nodes and temporal essence combinations
+
+#### **Game Design Philosophy**
+ChronoMyst draws mechanical inspiration from three pillars:
+
+- **🏔️ Skyrim's Exploration**: Open-world zones with secrets, environmental storytelling, and player-driven discovery
+- **🤖 Warframe's Action**: Fast-paced cooperative missions with unique abilities, smooth movement, and regular content updates  
+- **⚡ Path of Exile's Depth**: Complex character building, challenging endgame, and league-based seasonal content that keeps the meta evolving
 
 ## 🎯 Project Purpose
 
