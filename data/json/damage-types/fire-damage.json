@@ -129,10 +129,12 @@
       "second_previous": "lightning",
       "previous": "physical"
     },
-    "divine_trio_dynamics": {
+    "divine_trio_reference": {
+      "trio_file": "fundamental-trio.json", 
       "trio_type": "fundamental",
-      "trio_interactions": "Fire transforms what Cold would preserve forever, Lightning energizes what Fire would consume. Cold crystallizes Fire's chaotic energy, Fire melts Cold's rigid structures, Lightning conducts Fire's heat into directed energy. The cosmic cycle of transformation, preservation, and transmission.",
-      "cross_trio_relationship": "Fundamental powers provide the cosmic engine for Primal activities. Fire's transformation opposes Chaos's random change through ordered heat, overwhelms Physical discipline with raw energy, and provides the purifying force that Radiance shapes into protective light."
+      "god_name": "Pyrion, the First Flame",
+      "position_in_trio": 5,
+      "domain": "Transformation"
     },
     "interaction_explanation": {
       "strong_against": "Radiance and Cold - Fire's transformation burns away divine illusions and melts crystalline preservation",

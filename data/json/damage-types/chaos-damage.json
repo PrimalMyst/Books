@@ -136,10 +136,12 @@
       "second_previous": "radiance",
       "previous": "cold"
     },
-    "divine_trio_dynamics": {
+    "divine_trio_reference": {
+      "trio_file": "primal-trio.json",
       "trio_type": "primal",
-      "trio_interactions": "Chaos disrupts what Physical would discipline, Radiance illuminates what Chaos would hide in shadow. Physical discipline contains Chaos's wild energy, Chaos breaks Radiance's rigid order, Radiance purifies what Chaos would corrupt. The active struggle of change, order, and strength.",
-      "cross_trio_relationship": "Primal gods actively shape reality within the framework of Fundamental forces. Chaos's transformation battles Cold's preservation, flows around Lightning's connections, and opposes Fire's ordered change with beneficial creative destruction."
+      "god_name": "Vorthak, the Shadow Weaver", 
+      "position_in_trio": 2,
+      "domain": "Chaos"
     },
     "interaction_explanation": {
       "strong_against": "Lightning and Physical - Chaos disrupts ordered energy flow and undermines disciplined martial techniques",

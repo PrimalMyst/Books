@@ -131,10 +131,12 @@
       "second_previous": "chaos",
       "previous": "lightning"
     },
-    "divine_trio_dynamics": {
+    "divine_trio_reference": {
+      "trio_file": "primal-trio.json",
       "trio_type": "primal",
-      "trio_interactions": "Physical discipline contains what Chaos would scatter, Radiance illuminates the honor within Physical strength. Chaos breaks Physical's rigid forms, Physical grounds Radiance's ethereal power, Radiance purifies what Physical force might corrupt. The eternal balance of order, change, and illumination.",
-      "cross_trio_relationship": "Primal gods work within Fundamental structures but actively reshape reality. Physical mastery harnesses Fire's transformative power, resists Lightning's disruption through disciplined focus, and provides the stable foundation that Cold's preservation requires."
+      "god_name": "Titanus, the Iron Will",
+      "position_in_trio": 4, 
+      "domain": "Physical"
     },
     "interaction_explanation": {
       "strong_against": "Fire and Radiance - Disciplined martial prowess channels raw transformative heat and focuses divine energy through trained will",

@@ -129,10 +129,12 @@
       "second_previous": "fire",
       "previous": "radiance"
     },
-    "divine_trio_dynamics": {
+    "divine_trio_reference": {
+      "trio_file": "fundamental-trio.json",
       "trio_type": "fundamental",
-      "trio_interactions": "Cold preserves what Fire would transform, Lightning connects what Cold would isolate. Fire melts Cold's crystalline perfection, Cold grounds Lightning's chaotic energy, Lightning energizes what Cold would still. The eternal dance of preservation, transformation, and connection.",
-      "cross_trio_relationship": "Fundamental gods provide the cosmic framework that Primal gods actively manipulate. Cold's preservation opposes Chaos's change, supports Physical's discipline through structure, and resists Radiance's revelatory light that would expose what Cold preserves in secrecy."
+      "god_name": "Glacius, the Eternal Frost",
+      "position_in_trio": 1,
+      "domain": "Preservation"
     },
     "interaction_explanation": {
       "strong_against": "Chaos and Lightning - Cold's preservation freezes chaotic change and grounds electrical energy into stable crystalline forms",

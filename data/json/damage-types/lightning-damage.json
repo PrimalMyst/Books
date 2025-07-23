@@ -119,10 +119,12 @@
       "second_previous": "cold",
       "previous": "chaos"
     },
-    "divine_trio_dynamics": {
-      "trio_type": "fundamental",
-      "trio_interactions": "Lightning connects what Fire would separate through transformation, Cold would isolate through preservation. Fire's heat conducts through Lightning's energy, Lightning sparks Cold's crystalline networks, Cold grounds what Lightning would scatter. The fundamental trinity of connection, transformation, and preservation.",
-      "cross_trio_relationship": "Fundamental forces flow through and empower Primal manifestations. Lightning's connections amplify Physical prowess, disrupt Chaos's randomness through ordered energy flow, and provide the divine spark that Radiance channels into protective light."
+    "divine_trio_reference": {
+      "trio_file": "fundamental-trio.json",
+      "trio_type": "fundamental", 
+      "god_name": "Voltharion, the Cosmic Spark",
+      "position_in_trio": 3,
+      "domain": "Connection"
     },
     "interaction_explanation": {
       "strong_against": "Physical and Fire - Lightning overwhelms physical defenses with speed and energizes flame into plasma",

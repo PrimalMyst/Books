@@ -1,0 +1,156 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Divine Trio Schema",
+  "description": "Schema for divine trio lore files containing detailed information about competing divine forces",
+  "type": "object",
+  "required": ["id", "name", "description", "trio_type", "cosmic_role", "gods", "trio_dynamics", "damage_mechanics"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Unique identifier for the trio"
+    },
+    "name": {
+      "type": "string", 
+      "description": "Display name of the divine trio"
+    },
+    "description": {
+      "type": "string",
+      "description": "Brief overview of the trio's role and nature"
+    },
+    "trio_type": {
+      "type": "string",
+      "enum": ["fundamental", "primal"],
+      "description": "Whether this is a fundamental or primal trio"
+    },
+    "cosmic_role": {
+      "type": "string",
+      "description": "The trio's role in the cosmic order"
+    },
+    "gods": {
+      "type": "object",
+      "description": "Information about each god in the trio",
+      "patternProperties": {
+        "^[a-z]+$": {
+          "type": "object",
+          "required": ["name", "domain", "aspect", "position", "drive", "philosophy", "manifestation"],
+          "properties": {
+            "name": {
+              "type": "string",
+              "description": "Full name and title of the god"
+            },
+            "domain": {
+              "type": "string", 
+              "description": "The god's sphere of influence"
+            },
+            "aspect": {
+              "type": "string",
+              "description": "The damage type aspect this god embodies"
+            },
+            "position": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 6,
+              "description": "Position in the hexagonal system"
+            },
+            "drive": {
+              "type": "string",
+              "description": "What the god ultimately seeks to achieve"
+            },
+            "philosophy": {
+              "type": "string",
+              "description": "The god's core belief or motivation"
+            },
+            "manifestation": {
+              "type": "string", 
+              "description": "How the god manifests in Yggdrasil or reality"
+            }
+          }
+        }
+      }
+    },
+    "trio_dynamics": {
+      "type": "object",
+      "required": ["rivalry_nature", "core_conflict", "interactions"],
+      "properties": {
+        "rivalry_nature": {
+          "type": "string",
+          "description": "The nature of competition between the gods"
+        },
+        "core_conflict": {
+          "type": "string",
+          "description": "The fundamental source of their rivalry"
+        },
+        "interactions": {
+          "type": "object",
+          "description": "Specific interactions between pairs of gods",
+          "patternProperties": {
+            "^[a-z]+_vs_[a-z]+$": {
+              "type": "string",
+              "description": "Description of how two gods contest against each other"
+            }
+          }
+        },
+        "cosmic_balance": {
+          "type": "string",
+          "description": "How their rivalry maintains cosmic balance"
+        },
+        "mortal_balance": {
+          "type": "string", 
+          "description": "How their rivalry affects mortal existence"
+        }
+      }
+    },
+    "damage_mechanics": {
+      "type": "object",
+      "required": ["intra_trio_effectiveness", "effectiveness_explanation"],
+      "properties": {
+        "intra_trio_effectiveness": {
+          "type": "string",
+          "description": "Effectiveness multiplier within the trio"
+        },
+        "effectiveness_explanation": {
+          "type": "string",
+          "description": "Why trio members are effective against each other"
+        },
+        "neutral_relationships": {
+          "type": "string",
+          "description": "Description of neutral effectiveness relationships"
+        }
+      }
+    },
+    "yggdrasil_connection": {
+      "type": "object",
+      "description": "How each god connects to the World Tree",
+      "patternProperties": {
+        "^[a-z]+$": {
+          "type": "string",
+          "description": "The god's specific connection to Yggdrasil"
+        }
+      }
+    },
+    "cosmic_influence": {
+      "type": "object",
+      "description": "The trio's influence on cosmic forces"
+    },
+    "mortal_influence": {
+      "type": "object", 
+      "description": "The trio's influence on mortal existence"
+    },
+    "historical_significance": {
+      "type": "object",
+      "description": "The trio's role in cosmic history"
+    },
+    "worship_and_influence": {
+      "type": "object",
+      "description": "How mortals worship or are influenced by the trio"
+    },
+    "mortal_interactions": {
+      "type": "object",
+      "description": "Specific ways the trio interacts with mortals"
+    },
+    "future_implications": {
+      "type": "object",
+      "description": "Potential future outcomes of the trio's rivalry"
+    }
+  }
+}

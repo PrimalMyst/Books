@@ -1,0 +1,80 @@
+{
+  "id": "fundamental-trio",
+  "name": "The Fundamental Trio",
+  "description": "The three primordial gods who established the cosmic framework of existence",
+  "trio_type": "fundamental",
+  "cosmic_role": "Provides the underlying forces that govern all reality",
+  "gods": {
+    "glacius": {
+      "name": "Glacius, the Eternal Frost",
+      "domain": "Preservation",
+      "aspect": "Cold",
+      "position": 1,
+      "drive": "To crystallize all existence into perfect, eternal stasis",
+      "philosophy": "Only through absolute preservation can perfection be maintained",
+      "manifestation": "Flows through Yggdrasil's crystalline bark, maintaining cosmic memory"
+    },
+    "voltharion": {
+      "name": "Voltharion, the Cosmic Spark", 
+      "domain": "Connection",
+      "aspect": "Lightning",
+      "position": 3,
+      "drive": "To bind all existence into an infinite network of pure energy",
+      "philosophy": "All things must be connected; isolation breeds stagnation",
+      "manifestation": "Courses through Yggdrasil's branches, enabling inter-realm communication"
+    },
+    "pyrion": {
+      "name": "Pyrion, the First Flame",
+      "domain": "Transformation", 
+      "aspect": "Fire",
+      "position": 5,
+      "drive": "To burn all existence into pure transformative energy",
+      "philosophy": "Only through constant change can true evolution occur",
+      "manifestation": "Burns within Yggdrasil's heartwood, enabling cosmic metamorphosis"
+    }
+  },
+  "trio_dynamics": {
+    "rivalry_nature": "Eternal contest for cosmic authority",
+    "core_conflict": "Each god seeks to impose their vision of perfect existence upon reality",
+    "interactions": {
+      "glacius_vs_pyrion": "Preservation contests transformation - Cold crystallizes what Fire would burn, Fire melts what Cold would preserve forever",
+      "voltharion_vs_glacius": "Connection contests preservation - Lightning disrupts what Cold would isolate, Cold grounds what Lightning would energize",
+      "pyrion_vs_voltharion": "Transformation contests connection - Fire burns through Lightning's ordered patterns, Lightning channels Fire into controlled energy"
+    },
+    "cosmic_balance": "Their eternal struggle maintains the fundamental forces that allow existence to persist without stagnation, chaos, or dissolution"
+  },
+  "damage_mechanics": {
+    "intra_trio_effectiveness": "1.66x - Divine rivals understand each other's weaknesses",
+    "effectiveness_explanation": "Gods of similar nature contest most fiercely, exploiting intimate knowledge of their rivals' limitations",
+    "neutral_relationships": "1.0x with opposite elements (cosmic balance) and self (perfect mastery)"
+  },
+  "yggdrasil_connection": {
+    "glacius": "Crystalline bark that preserves the World Tree's memories and maintains structural integrity",
+    "voltharion": "Electrical networks in the branches that enable communication between all Nine Realms",
+    "pyrion": "The burning heartwood that provides transformative energy for growth and change"
+  },
+  "cosmic_influence": {
+    "on_primal_trio": "Provides the fundamental framework within which Primal gods operate",
+    "on_reality": "Establishes the basic laws of physics, magic, and existence",
+    "on_mortals": "Influences the deepest aspects of magical affinity and cosmic understanding"
+  },
+  "historical_significance": {
+    "pre_creation": "Existed before the World Tree and the Nine Realms",
+    "world_tree_formation": "Their combined essence formed the foundation upon which Yggdrasil grew",
+    "ongoing_role": "Continue to maintain the cosmic infrastructure that supports all existence"
+  },
+  "worship_and_influence": {
+    "direct_worship": "Rare - their power is too fundamental for most mortals to comprehend",
+    "indirect_influence": "All elemental magic draws from their cosmic contest",
+    "sacred_sites": "Places where Yggdrasil's essence is most concentrated",
+    "divine_manifestations": "Extreme weather, cosmic phenomena, and fundamental magical disruptions"
+  },
+  "future_implications": {
+    "potential_outcomes": {
+      "glacius_victory": "Universal crystallization - perfect stasis but no growth",
+      "voltharion_victory": "Infinite connection - everything linked but no individuality", 
+      "pyrion_victory": "Eternal transformation - constant change but no stability"
+    },
+    "balance_necessity": "Their continued rivalry prevents any single outcome, maintaining cosmic equilibrium"
+  }
+}

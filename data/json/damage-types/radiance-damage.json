@@ -130,10 +130,12 @@
       "second_previous": "physical",
       "previous": "fire"
     },
-    "divine_trio_dynamics": {
+    "divine_trio_reference": {
+      "trio_file": "primal-trio.json",
       "trio_type": "primal",
-      "trio_interactions": "Radiance illuminates what Chaos would corrupt through shadow, Physical strength grounds what Radiance would make ethereal. Chaos corrupts Radiance's pure light, Radiance purifies Physical's material focus, Physical provides the vessel through which Radiance manifests. The eternal trinity of illumination, strength, and transformation.",
-      "cross_trio_relationship": "Primal gods channel and direct Fundamental energies toward mortal purposes. Radiance transforms Cold's preservation into protective light, opposes Fire's raw destruction with ordered illumination, and provides the divine guidance that Lightning's connections require."
+      "god_name": "Lumina, the Dawn Bringer",
+      "position_in_trio": 6,
+      "domain": "Radiance"
     },
     "interaction_explanation": {
       "strong_against": "Cold and Chaos - Divine light reveals what preservation would hide and banishes shadow corruption",

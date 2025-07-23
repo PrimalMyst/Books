@@ -40,6 +40,12 @@
       "description": "Damage types and combat mechanics including elemental and primal categories",
       "required_fields": ["id", "name", "category", "type", "description", "metadata"],
       "example": "data/json/damage-types/fire-damage.json"
+    },
+    "divine-trio": {
+      "file": "data/schemas/divine-trio.schema.json",
+      "description": "Divine trio lore files containing detailed information about competing divine forces",
+      "required_fields": ["id", "name", "description", "trio_type", "cosmic_role", "gods", "trio_dynamics", "damage_mechanics"],
+      "example": "data/json/lore/fundamental-trio.json"
     }
   },
 
@@ -100,7 +106,11 @@
         "eldritch-pantheon.json",
         "paths-of-mastery.json",
         "the-great-cycles.json",
-        "realm-expeditions.json"
+        "realm-expeditions.json",
+        "fundamental-trio.json",
+        "primal-trio.json",
+        "core-thematic-hexagon.json",
+        "hexagonal-damage-calculation.json"
       ]
     },
     "leagues": {
