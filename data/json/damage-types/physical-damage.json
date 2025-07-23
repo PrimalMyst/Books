@@ -2,7 +2,18 @@
   "id": "physical-damage",
   "name": "Physical",
   "category": "primal",
-  "type": "physical", 
+  "type": "physical",
+  "hexagonal_position": {
+    "vertex": 4,
+    "theme": "Physical Mastery",
+    "associated_god": "Korthak, the Dragon King",
+    "god_tier": "primal",
+    "primary_attribute": "dexterity",
+    "secondary_attribute": "strength",
+    "defense_type": "evasion_armor_hybrid",
+    "adjacent_synergies": ["lightning", "fire"],
+    "opposite_element": "cold"
+  },
   "description": {
     "brief": "Raw strength and weapon mastery damage that scales with physical prowess and represents the warrior's disciplined path.",
     "detailed": "Physical damage embodies the perfection of body and weapon working in harmony. Unlike elemental forces that manipulate external energies, physical damage represents the mastery of self - the discipline to forge both strength and technique into a unified whole. This damage type scales with training, equipment mastery, and the warrior's dedication to their craft.",

@@ -3,6 +3,17 @@
   "name": "Radiance",
   "category": "primal",
   "type": "radiance",
+  "hexagonal_position": {
+    "vertex": 6,
+    "theme": "Radiant Order",
+    "associated_god": "Aurelius, the Radiant Sphere",
+    "god_tier": "primal",
+    "primary_attribute": "strength",
+    "secondary_attribute": "intelligence",
+    "defense_type": "armor_energy_shield_hybrid",
+    "adjacent_synergies": ["fire", "cold"],
+    "opposite_element": "lightning"
+  },
   "description": {
     "brief": "Pure divine energy that bypasses many defenses and provides special effectiveness against corrupted enemies.",
     "detailed": "Radiance damage represents the power of divine protection and guidance. Unlike elemental damage which affects the physical realm, radiance damage directly impacts the spiritual essence of targets. It is particularly effective against chaotic and corrupted entities while providing healing and protective benefits to allies.",

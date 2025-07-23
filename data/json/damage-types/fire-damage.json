@@ -3,6 +3,16 @@
   "name": "Fire",
   "category": "elemental",
   "type": "fire",
+  "hexagonal_position": {
+    "vertex": 5,
+    "theme": "Primal Fire",
+    "associated_god": "Pyrion, the First Flame",
+    "god_tier": "fundamental",
+    "primary_attribute": "strength",
+    "defense_type": "armor",
+    "adjacent_synergies": ["physical", "radiance"],
+    "opposite_element": "chaos"
+  },
   "description": {
     "brief": "Destructive flame damage that burns enemies and can spread to nearby targets, dealing damage over time.",
     "detailed": "Fire damage represents the raw destructive power of flame and heat. It excels at dealing immediate burst damage and applying burning effects that continue to damage enemies over time. Fire damage can spread between closely grouped enemies and has special interactions with environmental elements like oil or ice.",

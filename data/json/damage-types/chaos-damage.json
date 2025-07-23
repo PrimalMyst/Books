@@ -3,6 +3,17 @@
   "name": "Chaos",
   "category": "primal", 
   "type": "chaos",
+  "hexagonal_position": {
+    "vertex": 2,
+    "theme": "Creative Chaos",
+    "associated_god": "Serafina, the Shadow Empress",
+    "god_tier": "primal",
+    "primary_attribute": "intelligence",
+    "secondary_attribute": "dexterity",
+    "defense_type": "energy_shield_evasion_hybrid",
+    "adjacent_synergies": ["cold", "lightning"],
+    "opposite_element": "fire"
+  },
   "description": {
     "brief": "Unpredictable entropic force that ignores resistances and creates random effects, representing beneficial change and creative destruction.",
     "detailed": "Chaos damage embodies the force of beneficial transformation and necessary change championed by Nyxtharion. It bypasses most conventional defenses by attacking stagnation and rigid order. Chaos damage is inherently unpredictable, with effects that can vary wildly between applications, making it both powerful and requiring skill to wield effectively.",

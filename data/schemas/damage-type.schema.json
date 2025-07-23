@@ -20,8 +20,59 @@
     },
     "type": {
       "type": "string",
-      "enum": ["fire", "cold", "lightning", "holy", "chaos", "physical", "mystical-slow", "mystical-acceleration", "mystical-fracture"],
+      "enum": ["fire", "cold", "lightning", "radiance", "chaos", "physical", "mystical-slow", "mystical-acceleration", "mystical-fracture"],
       "description": "Specific damage type"
+    },
+    "hexagonal_position": {
+      "type": "object",
+      "description": "Position within the core thematic hexagon structure",
+      "properties": {
+        "vertex": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 6,
+          "description": "Position in hexagon (1=top, clockwise)"
+        },
+        "theme": {
+          "type": "string",
+          "description": "Thematic concept for this vertex"
+        },
+        "associated_god": {
+          "type": "string",
+          "description": "The Eldritch God associated with this damage type"
+        },
+        "god_tier": {
+          "type": "string",
+          "enum": ["fundamental", "primal"],
+          "description": "Whether this is a Fundamental or Primal god"
+        },
+        "primary_attribute": {
+          "type": "string",
+          "enum": ["strength", "dexterity", "intelligence"],
+          "description": "Primary character attribute for this damage type"
+        },
+        "secondary_attribute": {
+          "type": ["string", "null"],
+          "enum": ["strength", "dexterity", "intelligence", null],
+          "description": "Secondary attribute (null for pure builds)"
+        },
+        "defense_type": {
+          "type": "string",
+          "description": "Preferred defense approach for this vertex"
+        },
+        "adjacent_synergies": {
+          "type": "array",
+          "items": {"type": "string"},
+          "minItems": 2,
+          "maxItems": 2,
+          "description": "The two adjacent damage types that synergize"
+        },
+        "opposite_element": {
+          "type": "string",
+          "description": "The opposite damage type in the hexagon"
+        }
+      },
+      "required": ["vertex", "theme", "associated_god", "god_tier", "primary_attribute", "defense_type", "adjacent_synergies", "opposite_element"]
     },
     "description": {
       "type": "object",

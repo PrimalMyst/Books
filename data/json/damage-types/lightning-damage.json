@@ -3,6 +3,16 @@
   "name": "Lightning",
   "category": "elemental", 
   "type": "lightning",
+  "hexagonal_position": {
+    "vertex": 3,
+    "theme": "Divine Connection",
+    "associated_god": "Voltharion, the Cosmic Spark",
+    "god_tier": "fundamental",
+    "primary_attribute": "dexterity",
+    "defense_type": "evasion",
+    "adjacent_synergies": ["chaos", "physical"],
+    "opposite_element": "radiance"
+  },
   "description": {
     "brief": "Electrical damage that can chain between enemies and provides burst damage with stunning effects.",
     "detailed": "Lightning damage represents the power of connection and sudden revelation. It excels at hitting multiple targets through chaining effects and can provide powerful burst damage with stunning capabilities. Lightning damage often has the highest single-hit potential but can be unpredictable in its targeting.",

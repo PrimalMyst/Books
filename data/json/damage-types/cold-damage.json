@@ -3,6 +3,16 @@
   "name": "Cold",
   "category": "elemental",
   "type": "cold",
+  "hexagonal_position": {
+    "vertex": 1,
+    "theme": "Eternal Preservation",
+    "associated_god": "Glacius, the Eternal Frost",
+    "god_tier": "fundamental",
+    "primary_attribute": "intelligence",
+    "defense_type": "energy_shield",
+    "adjacent_synergies": ["radiance", "chaos"],
+    "opposite_element": "physical"
+  },
   "description": {
     "brief": "Freezing damage that slows enemies and can shatter them when they reach critical cold thresholds.",
     "detailed": "Cold damage represents the power of preservation and crystallization. It excels at controlling enemy movement through slowing effects and can build up to devastating shattering attacks when enemies become fully frozen. Cold damage creates defensive benefits through armor formation and movement control.",
