@@ -83,14 +83,21 @@
     "lore": {
       "path": "data/json/lore/",
       "schema": "lore",
-      "count": 1,
+      "count": 5,
       "subcategories": {
-        "cosmology": "Universal structure and cosmic laws",
-        "mythology": "Creation myths and divine stories",
-        "magic-systems": "How supernatural powers work",
-        "prophecies": "Predictions and their interpretations",
-        "mysteries": "Unexplained phenomena and questions"
-      }
+        "cosmology": "Nine Realms, Yggdrasil, and cosmic structure",
+        "mystical-arts": "Mist-working, Paths of Mastery, and skill-based systems",
+        "temporal-cycles": "Great Cycles, cosmic rhythms, and convergence phenomena", 
+        "mythology": "Creation myths, divine stories, and ancient wisdom",
+        "mysteries": "Unexplained phenomena and unanswered questions"
+      },
+      "examples": [
+        "the-nature-of-the-mist.json",
+        "nine-realms-cosmology.json",
+        "paths-of-mastery.json",
+        "the-great-cycles.json",
+        "realm-expeditions.json"
+      ]
     },
     "leagues": {
       "path": "data/json/leagues/",

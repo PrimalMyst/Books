@@ -1,6 +1,14 @@
 # ChronoMyst Wiki
 
-![ChronoMyst Logo](assets/logo.png) <!-- Add your game logo here -->
+![C#### **Key Features**
+- **⚔️ Skill-Based Combat**: Tactical action combat emphasizing timing, positioning, and ability synergy over reflexes
+- **🔄 Cycle System**: Seasonal content with unique mysteries emerging from the temporal mists
+- **🤝 Cooperative Expeditions**: Small-group missions into dangerous branches of the World Tree
+- **🌌 Norse-Inspired Exploration**: Nine realms connected by Yggdrasil's branches, each with distinct challenges
+- **📈 Deep Character Building**: PoE-style passive skill trees with mystical ability specializations
+- **⚡ Temporal Arts**: Navigate time currents, glimpse through mists of possibility, commune with tree spirits
+- **🏛️ Endgame Ascension**: Climb higher into Yggdrasil's crown through increasingly challenging mystical trials
+- **💎 Runic Crafting**: Norse-inspired enchantment systems using temporal essence and World Tree materials Logo](assets/logo.png) <!-- Add your game logo here -->
 
 **The definitive source of truth for ChronoMyst - A comprehensive codex and community-driven wiki for the free-to-play temporal action RPG featuring league-based seasons and cooperative gameplay**
 
@@ -12,15 +20,15 @@ Welcome to the ChronoMyst Wiki repository! This project serves as the central hu
 
 ### What is ChronoMyst?
 
-**ChronoMyst** is a free-to-play online action RPG that fuses the exploration freedom of Skyrim, the fast-paced cooperative gameplay of Warframe, and the deep character progression of Path of Exile. Set in a universe where time itself is a living force, players become Chronarchs—temporal warriors who manipulate time's flow in intense combat while exploring a reality where past, present, and future intersect.
+**ChronoMyst** is a free-to-play online action RPG that fuses the exploration freedom of Skyrim, mission-based cooperation, and the deep character progression of Path of Exile. Set in a mystical realm where the World Tree **Yggdrasil** anchors reality itself, players become Chronarchs—guardians who protect the cosmic tree from temporal corruption while exploring the mists between its roots and branches.
 
 #### **Core Concept**
-ChronoMyst operates on **Temporal Leagues** - cyclical seasons where reality resets and players begin fresh journeys. Each league represents a new timeline branch following the Great Temporal Convergence, featuring:
-- **League-specific mechanics** that introduce unique temporal phenomena and challenges
-- **Fresh economy and progression** - all players start equal with new builds to discover
-- **Evolving world state** - league events reshape locations and unlock new content
-- **Chronarch abilities** that blend magic and technology for dynamic combat
-- **Cooperative temporal missions** requiring coordination across time streams
+ChronoMyst operates on **Temporal Cycles** - seasonal renewals where the mists of time clear and reset, allowing fresh exploration of Yggdrasil's many realms. Each cycle represents the World Tree's natural breathing, featuring:
+- **Cycle-specific mysteries** emerging from the temporal mists
+- **Fresh discoveries and progression** as new branches of the World Tree become accessible
+- **Evolving mist patterns** that reshape the connections between realms
+- **Chronarch abilities** that navigate temporal currents and mystical energies
+- **Cooperative expeditions** into the mist-shrouded branches and roots of existence
 
 #### **Key Features**
 - **⚔️ Fast-Paced Combat**: Fluid action combat combining temporal abilities with weapon mastery
@@ -33,33 +41,33 @@ ChronoMyst operates on **Temporal Leagues** - cyclical seasons where reality res
 - **� Crafting & Economy**: League-based economies with temporal essence crafting systems
 
 #### **Setting**
-The game world spans **multiple timeline zones** accessible through the **Nexus Observatory** - a hub for Chronarch operations. Each league introduces new zones and rebalances existing ones:
+The game world centers around **Yggdrasil**, the cosmic World Tree whose roots, trunk, and branches span multiple realms of existence. The temporal mists that flow between its levels create natural barriers and pathways:
 
-- **The Nexus Observatory**: Central hub for league mechanics, vendors, and social features
-- **Crystal Desert of Echoes**: Open-world zone with dynamic temporal storms and hidden vaults
-- **Floating Isle of Kairos**: Aerial combat zones with platforming and puzzle elements  
-- **Shattered Timeline**: High-level endgame zone where causality breaks down
-- **Temporal Rifts**: Procedurally generated maps scaling in difficulty (Atlas-style endgame)
-- **League Zones**: Unique areas that change with each seasonal league mechanic
+- **The Root Nexus**: Central hub carved into Yggdrasil's mighty roots, home to Chronarch sanctuaries and guilds
+- **Midgard Groves**: Familiar forests and meadows where new Chronarchs learn their abilities
+- **Jotun Wastes**: Harsh realm of giants where temporal storms test experienced explorers
+- **Alfheim Canopies**: Ethereal tree-cities suspended in Yggdrasil's upper branches
+- **Mist Expeditions**: Instanced journeys into dangerous, mist-shrouded areas of the World Tree
+- **The Crown Ascension**: Endgame content scaling toward Yggdrasil's mysterious peak
 
 #### **Themes**
-- **Temporal mastery** through skill and practice rather than predetermined fate
-- **Cooperative strategy** in manipulating timeline mechanics  
-- **Endless progression** with each league bringing new challenges and builds
-- **Player agency** in shaping the meta and discovering optimal strategies
-- **Community-driven** economy and competitive elements
+- **Connection to nature** through the World Tree and its mystical ecosystems
+- **Cyclical renewal** as natural as the changing seasons and tree growth
+- **Hidden knowledge** veiled within the temporal mists
+- **Cooperative exploration** of mysterious and dangerous realms
+- **Balance between order and chaos** in maintaining Yggdrasil's health
 
 #### **Gameplay Overview**
-Players create Chronarchs with distinct **temporal abilities** and **weapon specializations**. Core gameplay loop includes:
+Players create Chronarchs with distinct **mystical specializations** and **runic weapon affinities**. Core gameplay loop includes:
 
-- **🎯 Mission-Based Progression**: Complete temporal anomaly missions solo or with friends
-- **⚡ Ability Mastery**: Unlock and upgrade temporal powers through active use and passive skill trees
-- **🛡️ Gear Acquisition**: Collect and craft temporal weapons, armor, and artifacts with complex mod systems
-- **🔄 League Participation**: Engage with seasonal mechanics that refresh every 3-4 months
-- **🗺️ Endgame Atlas**: Map-based endgame with increasing difficulty and exclusive rewards
-- **🏆 Competitive Events**: Timed league events and races for unique rewards and recognition
-- **🤖 Warframe-Style Movement**: Fast traversal with temporal dashes, wall-running, and time-sliding
-- **📊 Character Builds**: Theorycrafting with hundreds of passive nodes and temporal essence combinations
+- **🎯 Expedition-Based Progression**: Explore mist-veiled branches of Yggdrasil with friends
+- **⚡ Mystical Arts Mastery**: Develop temporal abilities and commune with World Tree spirits
+- **🛡️ Runic Equipment**: Collect and enchant Norse-inspired gear with temporal essence
+- **🔄 Cycle Participation**: Engage with seasonal mysteries that emerge every 3-4 months
+- **🗺️ Crown Ascension**: Climb higher into Yggdrasil through increasingly mystical challenges
+- **🏆 Seasonal Events**: Participate in world-tree celebrations and competitions
+- **🌿 Organic Movement**: Fluid traversal through branches, roots, and mist-bridges
+- **📊 Character Growth**: Theorycrafting with Norse mythology-inspired skill trees and rune combinations
 
 #### **Game Design Philosophy**
 ChronoMyst draws mechanical inspiration from three pillars:
