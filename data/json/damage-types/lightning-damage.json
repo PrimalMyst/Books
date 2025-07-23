@@ -105,7 +105,7 @@
       "lightning": 1.0,
       "physical": 1.33,
       "fire": 1.66,
-      "radiance": 1.0
+      "radiance": 1.99
     },
     "calculation_parameters": {
       "base_effectiveness": 1.0,
@@ -144,3 +144,4 @@
     ]
   }
 }
+

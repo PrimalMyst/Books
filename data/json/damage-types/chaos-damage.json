@@ -121,7 +121,7 @@
       "chaos": 1.0,
       "lightning": 1.33,
       "physical": 1.66,
-      "fire": 1.0,
+      "fire": 1.99,
       "radiance": 0.34
     },
     "calculation_parameters": {
@@ -150,3 +150,4 @@
     }
   }
 }
+

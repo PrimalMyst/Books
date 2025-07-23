@@ -113,7 +113,7 @@
     "effectiveness_vs": {
       "cold": 1.33,
       "chaos": 1.66,
-      "lightning": 1.0,
+      "lightning": 1.99,
       "physical": 0.34,
       "fire": 0.67,
       "radiance": 1.0
@@ -144,3 +144,4 @@
     }
   }
 }
+

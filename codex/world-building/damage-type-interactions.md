@@ -1,53 +1,28 @@
 # PrimalMyst Damage Type Interactions
 
-## | Attacker ↓ / Defender → | Cold | Chaos | Lightning | Physical | Fire | Radiance |
+## Cross-Trio Warfare System
+
+| Attacker ↓ / Defender → | Cold | Chaos | Lightning | Physical | Fire | Radiance |
 |-------------------------|------|-------|-----------|----------|------|----------|
-| **Cold**               | 1.0x | 1.33x | 1.66x     | 1.0x     | 0.34x| 0.67x    |
-| **Chaos**              | 0.67x| 1.0x  | 1.33x     | 1.66x    | 1.0x | 0.34x    |
-| **Lightning**          | 0.34x| 0.67x | 1.0x      | 1.33x    | 1.66x| 1.0x     |
-| **Physical**           | 1.0x | 0.34x | 0.67x     | 1.0x     | 1.33x| 1.66x    |
-| **Fire**               | 1.66x| 1.0x  | 0.34x     | 0.67x    | 1.0x | 1.33x    |
-| **Radiance**           | 1.33x| 1.66x | 1.0x      | 0.34x    | 0.67x| 1.0x     |l Interaction System
+| **Cold**               | 1.0x | 1.33x | 1.66x     | **1.99x**| 0.34x| 0.67x    |
+| **Chaos**              | 0.67x| 1.0x  | 1.33x     | 1.66x    | **1.99x**| 0.34x    |
+| **Lightning**          | 0.34x| 0.67x | 1.0x      | 1.33x    | 1.66x| **1.99x**|
+| **Physical**           | **1.99x**| 0.34x | 0.67x     | 1.0x     | 1.33x| 1.66x    |
+| **Fire**               | 1.66x| **1.99x**| 0.34x     | 0.67x    | 1.0x | 1.33x    |
+| **Radiance**           | 1.33x| 1.66x | **1.99x** | 0.34x    | 0.67x| 1.0x     |
 
-The six damage types form a hexagonal relationship where position determines interaction strength. This system uses a single effectiveness multiplier, leaving room for hybrid damage types and complex interactions.
+## Divine Warfare: Fundamental vs Primal
 
-```
-                    (1) COLD
-                      /\
-                     /  \
-         (6) RADIANCE    (2) CHAOS
-                   \    /
-                    \  /
-         (5) FIRE ---- ---- (3) LIGHTNING
-                    \  /
-                     \/
-                (4) PHYSICAL
-```
+### The Great Conflict
+The **Fundamental Trio** and **Primal Trio** wage eternal war for cosmic supremacy, making opposite pairs the most devastating combat matchups.
 
-**Clockwise Order:** Cold → Chaos → Lightning → Physical → Fire → Radiance → Cold
-
-## Interaction Rules
-
-### Parameterized Effectiveness System
-The damage effectiveness uses a configurable formula for easy balance tuning:
-
-**Formula:** `effectiveness = base_effectiveness * (1 + position_modifier * effectiveness_step)`
-
-**Current Parameters:**
-- `base_effectiveness = 1.0`
-- `effectiveness_step = 0.33`
-
-### Position Modifiers
-- **Self (0):** modifier = 0 → 1.0 * (1 + 0 * 0.33) = **1.0x**
-- **Next (+1):** modifier = 1 → 1.0 * (1 + 1 * 0.33) = **1.33x**
-- **Second Next (+2):** modifier = 2 → 1.0 * (1 + 2 * 0.33) = **1.66x**
-- **Opposite (+3):** modifier = 0 → 1.0 * (1 + 0 * 0.33) = **1.0x**
-- **Previous (+5):** modifier = -1 → 1.0 * (1 + -1 * 0.33) = **0.67x**
-- **Second Previous (+4):** modifier = -2 → 1.0 * (1 + -2 * 0.33) = **0.34x**
-
-*Note: Using a parameterized system allows for easy balance adjustments by changing the `effectiveness_step` value.*
-
-## Complete Interaction Table
+**Cross-Trio Ultra Effectiveness (1.99x):**
+- **Cold → Physical:** Absolute preservation shatters disciplined action
+- **Lightning → Radiance:** Raw connection overwhelms divine illumination  
+- **Fire → Chaos:** Ordered transformation burns away chaotic corruption
+- **Physical → Cold:** Martial will breaks crystalline stasis
+- **Radiance → Lightning:** Divine light purifies chaotic energy
+- **Chaos → Fire:** Shadow corruption devours structured flame
 
 | Attacker ↓ / Defender → | Cold | Chaos | Lightning | Physical | Fire | Radiance |
 |-------------------------|------|-------|-----------|----------|------|----------|

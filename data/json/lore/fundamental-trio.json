@@ -1,52 +1,53 @@
 {
   "id": "fundamental-trio",
   "name": "The Fundamental Trio",
-  "description": "The three primordial gods who established the cosmic framework of existence",
+  "description": "The three primordial forces that existed before time and will persist beyond all worlds and realities",
   "trio_type": "fundamental",
-  "cosmic_role": "Provides the underlying forces that govern all reality",
+  "cosmic_role": "Eternal forces that exist beyond mortal comprehension, sharing their power freely without motive or attachment",
   "gods": {
     "glacius": {
       "name": "Glacius, the Eternal Frost",
       "domain": "Preservation",
       "aspect": "Cold",
       "position": 1,
-      "drive": "To crystallize all existence into perfect, eternal stasis",
-      "philosophy": "Only through absolute preservation can perfection be maintained",
-      "manifestation": "Flows through Yggdrasil's crystalline bark, maintaining cosmic memory"
+      "drive": "To eternally contest Pyrion's transformations and resist Voltharion's chaotic connections",
+      "philosophy": "In the timeless conflict, only absolute preservation can triumph over change and chaos",
+      "manifestation": "Flows through Yggdrasil's crystalline bark with conscious intent to crystallize what his rivals would alter"
     },
     "voltharion": {
       "name": "Voltharion, the Cosmic Spark", 
       "domain": "Connection",
       "aspect": "Lightning",
       "position": 3,
-      "drive": "To bind all existence into an infinite network of pure energy",
-      "philosophy": "All things must be connected; isolation breeds stagnation",
-      "manifestation": "Courses through Yggdrasil's branches, enabling inter-realm communication"
+      "drive": "To eternally disrupt Glacius's stasis and energize Pyrion's transformations beyond control",
+      "philosophy": "In the endless war, only infinite connection can overcome static preservation and ordered change",
+      "manifestation": "Courses through Yggdrasil's branches with deliberate purpose to electrify what his rivals would control"
     },
     "pyrion": {
       "name": "Pyrion, the First Flame",
       "domain": "Transformation", 
       "aspect": "Fire",
       "position": 5,
-      "drive": "To burn all existence into pure transformative energy",
-      "philosophy": "Only through constant change can true evolution occur",
-      "manifestation": "Burns within Yggdrasil's heartwood, enabling cosmic metamorphosis"
+      "drive": "To eternally burn through Glacius's crystalline perfection and consume Voltharion's chaotic energy",
+      "philosophy": "In the timeless struggle, only pure transformation can melt static preservation and direct wild connection",
+      "manifestation": "Burns within Yggdrasil's heartwood with focused will to transform what his rivals would preserve or scatter"
     }
   },
   "trio_dynamics": {
-    "rivalry_nature": "Eternal contest for cosmic authority",
-    "core_conflict": "Each god seeks to impose their vision of perfect existence upon reality",
+    "rivalry_nature": "Conscious, eternal war for supremacy among themselves - each seeks to prove their principle superior",
+    "core_conflict": "Each Fundamental possesses infinite will and consciousness focused entirely on defeating their two rivals in the timeless conflict",
     "interactions": {
-      "glacius_vs_pyrion": "Preservation contests transformation - Cold crystallizes what Fire would burn, Fire melts what Cold would preserve forever",
-      "voltharion_vs_glacius": "Connection contests preservation - Lightning disrupts what Cold would isolate, Cold grounds what Lightning would energize",
-      "pyrion_vs_voltharion": "Transformation contests connection - Fire burns through Lightning's ordered patterns, Lightning channels Fire into controlled energy"
+      "glacius_vs_pyrion": "Glacius actively seeks to crystallize and still Pyrion's flames, while Pyrion deliberately melts and burns through Glacius's frozen perfection - personal vendetta across eternity",
+      "voltharion_vs_glacius": "Voltharion consciously disrupts and energizes what Glacius would preserve, while Glacius intentionally grounds and stills Voltharion's chaotic sparks - willful opposition",
+      "pyrion_vs_voltharion": "Pyrion purposefully burns through Voltharion's connections to create controlled transformation, while Voltharion deliberately energizes Pyrion's flames beyond his control - strategic rivalry"
     },
-    "cosmic_balance": "Their eternal struggle maintains the fundamental forces that allow existence to persist without stagnation, chaos, or dissolution"
+    "exclusive_focus": "Their consciousness and will are entirely devoted to their mutual conflicts - they are aware only of each other, completely indifferent to all other existence"
   },
   "damage_mechanics": {
-    "intra_trio_effectiveness": "1.66x - Divine rivals understand each other's weaknesses",
-    "effectiveness_explanation": "Gods of similar nature contest most fiercely, exploiting intimate knowledge of their rivals' limitations",
-    "neutral_relationships": "1.0x with opposite elements (cosmic balance) and self (perfect mastery)"
+    "intra_trio_effectiveness": "1.66x - Each Fundamental actively seeks to defeat their rivals with conscious strategy and infinite will",
+    "cross_trio_effectiveness": "1.99x - Their war generates such power that it accidentally overwhelms Primal forces, though they remain unaware this happens",
+    "effectiveness_explanation": "Fundamentals fight with complete focus and eternal determination against each other, generating conflict so intense it accidentally devastates lesser divine forces",
+    "indifferent_destruction": "The 1.99x damage to Primals occurs as collateral damage from their focused war - they don't even notice they're harming other divine beings"
   },
   "yggdrasil_connection": {
     "glacius": "Crystalline bark that preserves the World Tree's memories and maintains structural integrity",
@@ -54,27 +55,34 @@
     "pyrion": "The burning heartwood that provides transformative energy for growth and change"
   },
   "cosmic_influence": {
-    "on_primal_trio": "Provides the fundamental framework within which Primal gods operate",
-    "on_reality": "Establishes the basic laws of physics, magic, and existence",
-    "on_mortals": "Influences the deepest aspects of magical affinity and cosmic understanding"
+    "on_primal_trio": "Completely indifferent to Primal existence - their war transcends all lesser conflicts",
+    "on_reality": "Their focused conflict maintains cosmic forces as a side effect, not by intention or care",
+    "on_mortals": "Utterly oblivious to mortal existence - mortals are less than dust in their perception",
+    "power_sharing_nature": "Power flows from their conflict as overflow - they neither grant nor withhold it consciously, completely unaware of who accesses it",
+    "singular_obsession": "Each Fundamental's entire consciousness is consumed by defeating their two rivals - nothing else exists in their awareness"
   },
   "historical_significance": {
-    "pre_creation": "Existed before the World Tree and the Nine Realms",
-    "world_tree_formation": "Their combined essence formed the foundation upon which Yggdrasil grew",
-    "ongoing_role": "Continue to maintain the cosmic infrastructure that supports all existence"
+    "pre_creation": "Existed before time itself began, in the void that preceded all worlds and realities",
+    "trans_dimensional": "Continue to exist across infinite worlds and dimensions, unchanging and eternal",
+    "beyond_mortality": "Operate on scales incomprehensible to mortal minds, existing beyond the concepts of life and death",
+    "power_sharing": "Freely share their essence with any being capable of channeling it, without conditions, judgment, or expectation of worship"
   },
   "worship_and_influence": {
-    "direct_worship": "Rare - their power is too fundamental for most mortals to comprehend",
-    "indirect_influence": "All elemental magic draws from their cosmic contest",
-    "sacred_sites": "Places where Yggdrasil's essence is most concentrated",
-    "divine_manifestations": "Extreme weather, cosmic phenomena, and fundamental magical disruptions"
+    "direct_worship": "Impossible - they are unaware that worshippers exist, completely absorbed in their eternal conflict",
+    "power_access": "Their power can be accessed as spillover from their war, but they neither notice nor care who takes it",
+    "unconscious_sharing": "Power flows freely only because they are too focused on fighting each other to control or restrict it",
+    "divine_indifference": "Even other gods are beneath their notice - only their two rivals matter in their infinite consciousness"
   },
   "future_implications": {
-    "potential_outcomes": {
-      "glacius_victory": "Universal crystallization - perfect stasis but no growth",
-      "voltharion_victory": "Infinite connection - everything linked but no individuality", 
-      "pyrion_victory": "Eternal transformation - constant change but no stability"
-    },
-    "balance_necessity": "Their continued rivalry prevents any single outcome, maintaining cosmic equilibrium"
+    "eternal_stalemate": "Their conflict has no resolution - each possesses infinite will and power, making victory impossible",
+    "reality_as_byproduct": "All of existence continues only as a side effect of their focused war - they could destroy everything accidentally and never notice",
+    "consciousness_limitation": "Despite their infinite power, their awareness is paradoxically limited to only each other - the ultimate cosmic irony",
+    "balance_through_obsession": "Their mutual obsession creates cosmic stability precisely because they ignore everything else"
+  },
+  "consciousness_paradox": {
+    "infinite_yet_limited": "Possess unlimited consciousness and will, but it is entirely focused on their two rivals",
+    "strategic_intelligence": "Demonstrate perfect tactical thinking and learning in their conflicts with each other",
+    "selective_blindness": "Completely blind to anything that is not one of their two rival Fundamentals",
+    "emotional_investment": "Feel genuine hatred, rivalry, and satisfaction only in relation to their eternal enemies"
   }
 }

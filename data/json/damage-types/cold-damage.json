@@ -113,7 +113,7 @@
       "cold": 1.0,
       "chaos": 1.33,
       "lightning": 1.66,
-      "physical": 1.0,
+      "physical": 1.99,
       "fire": 0.34,
       "radiance": 0.67
     },
@@ -143,3 +143,4 @@
     }
   }
 }
+
