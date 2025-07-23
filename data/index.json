@@ -1,8 +1,8 @@
 {
-  "project": "MysticMyst Wiki Data Index",
+  "project": "PrimalMyst Wiki Data Index",
   "version": "1.0.0",
   "last_updated": "2025-07-22T10:20:00Z",
-  "description": "Master index of all structured data in the MysticMyst Wiki",
+  "description": "Master index of all structured data in the PrimalMyst Wiki",
   
   "schemas": {
     "character": {
@@ -227,3 +227,6 @@
     "lore_entry": "data/json/lore/example-lore.json"
   }
 }
+
+
+

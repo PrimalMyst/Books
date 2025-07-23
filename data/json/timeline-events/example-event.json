@@ -22,7 +22,7 @@
     ]
   },
   "description": {
-    "brief": "A cosmic event where all possible timelines briefly converged into a single moment, fundamentally altering the nature of time and reality in the MysticMyst universe.",
+    "brief": "A cosmic event where all possible timelines briefly converged into a single moment, fundamentally altering the nature of time and reality in the PrimalMyst universe.",
     "detailed": "The Great mystical Convergence occurred when the natural flow of time became disrupted by the accumulated paradoxes of the First Age. All possible past, present, and future timelines collapsed into a single point of existence at the Nexus Observatory. During this convergence, the barriers between what was, what is, and what could be dissolved completely. Every soul experienced all possible versions of their life simultaneously, and every choice that had ever been made or could be made existed in the same moment. The event lasted seven days from an external perspective, but those who lived through it experienced lifetimes of possibility.",
     "prelude": "Strange mystical anomalies had been increasing throughout the Second Age. Seers reported visions of multiple futures occurring simultaneously, and scholars noted increasing instances of paradoxes that refused to resolve themselves naturally.",
     "aftermath": "The Convergence fundamentally changed the relationship between time and consciousness in the world. Many individuals retained memories of alternate timelines, leading to the emergence of the mist-walker race and the founding of the mystical Guardians."
@@ -138,8 +138,11 @@
   "metadata": {
     "created": "2025-07-22T10:10:00Z",
     "last_updated": "2025-07-22T10:10:00Z",
-    "author": "MysticMyst Development Team",
+    "author": "PrimalMyst Development Team",
     "version": "1.0.0",
     "canonical": true
   }
 }
+
+
+

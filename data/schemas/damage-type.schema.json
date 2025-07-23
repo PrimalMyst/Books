@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "title": "MysticMyst Damage System",
-  "description": "Schema for damage types and combat mechanics in MysticMyst",
+  "title": "PrimalMyst Damage System",
+  "description": "Schema for damage types and combat mechanics in PrimalMyst",
   "type": "object",
   "properties": {
     "id": {
@@ -269,3 +269,6 @@
   "required": ["id", "name", "category", "type", "description", "metadata"],
   "additionalProperties": false
 }
+
+
+

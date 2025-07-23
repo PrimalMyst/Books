@@ -1,8 +1,8 @@
-# MysticMyst Damage System
+# PrimalMyst Damage System
 
 ## Overview
 
-MysticMyst features a sophisticated damage system built around two primary categories that reflect the cosmic balance of the post-Convergence world. Each damage type has unique mechanics, interactions, and thematic significance within the mystical setting.
+PrimalMyst features a sophisticated damage system built around two primary categories that reflect the cosmic balance of the post-Convergence world. Each damage type has unique mechanics, interactions, and thematic significance within the mystical setting.
 
 ## Damage Categories
 
@@ -156,4 +156,7 @@ The damage system reflects the post-Convergence world where mist-walkers must ba
 
 ---
 
-This damage system provides both mechanical depth for character building and thematic coherence within MysticMyst's mystical fantasy setting, ensuring that combat feels meaningful within the broader context of the game's lore and progression systems.
+This damage system provides both mechanical depth for character building and thematic coherence within PrimalMyst's mystical fantasy setting, ensuring that combat feels meaningful within the broader context of the game's lore and progression systems.
+
+
+

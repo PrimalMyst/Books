@@ -6,7 +6,7 @@
   "knowledge_level": "foundational",
   "certainty": "ancient-wisdom",
   "description": {
-    "summary": "The universe of MysticMyst moves in vast cosmic cycles called the Great Cycles, periods during which the relationships between the Nine Realms shift and evolve, creating different conditions for mystical practice, realm-travel, and the flow of the Mist.",
+    "summary": "The universe of PrimalMyst moves in vast cosmic cycles called the Great Cycles, periods during which the relationships between the Nine Realms shift and evolve, creating different conditions for mystical practice, realm-travel, and the flow of the Mist.",
     "detailed": "The Norns, who weave fate at the base of Yggdrasil, have observed that existence moves in great rhythmic cycles, each lasting roughly 3-6 months of mortal time. During each cycle, the configuration of the Nine Realms creates unique cosmic conditions - some realms draw closer together while others drift apart, the Mist flows in different patterns, and new challenges and opportunities arise. These are not arbitrary changes but reflect deeper cosmic rhythms, the breathing of the World Tree itself, and the dance of fundamental forces. Each Great Cycle brings its own 'flavor' of challenges, mystical phenomena, and available paths for growth. When a cycle ends, there is a period of convergence where all realms align briefly, creating a moment of cosmic reset before the next cycle begins with new configurations. Wise practitioners learn to read these cycles and adapt their practices accordingly, understanding that fighting against cosmic rhythm is futile while flowing with it multiplies one's effectiveness.",
     "implications": "This understanding reveals that what mortals might see as arbitrary changes in their world are actually part of vast, intelligible patterns. Masters who learn to read the cycles can anticipate changes and prepare accordingly, while those who ignore cosmic rhythm find themselves constantly struggling against invisible currents."
   },
@@ -225,8 +225,11 @@
   "metadata": {
     "created": "2025-01-27T16:00:00Z",
     "last_updated": "2025-01-27T16:00:00Z",
-    "author": "MysticMyst Development Team", 
+    "author": "PrimalMyst Development Team", 
     "version": "1.0.0",
     "canonical": true
   }
 }
+
+
+

@@ -1,9 +1,9 @@
-# MysticMyst: Cleaned Lore Framework
+# PrimalMyst: Cleaned Lore Framework
 
 ## Major Changes Applied
 
 ### ✅ Name Changes
-- **ChronoMyst** → **MysticMyst** (throughout all documentation)
+- **PrimalMyst** → **PrimalMyst** (throughout all documentation)
 - **Chronarchs** → **Mist-Walkers** (player characters)
 - **Temporal** → **Mystical** (abilities and concepts)
 
@@ -109,7 +109,7 @@
 
 ## Result: Pure Norse-Mystical Fantasy
 
-The cleaned MysticMyst presents:
+The cleaned PrimalMyst presents:
 - **Norse mythology** as primary inspiration
 - **Mystical practice** requiring skill and wisdom
 - **Academic exploration** over combat-focused adventure
@@ -118,3 +118,6 @@ The cleaned MysticMyst presents:
 - **No temporal/time elements** except minimal league lore
 
 The world now feels like a genuine Norse-inspired mystical universe where practitioners study ancient arts, explore cosmic mysteries, and develop wisdom through dedicated practice - with league mechanics explained through natural cosmic rhythms rather than time manipulation.
+
+
+

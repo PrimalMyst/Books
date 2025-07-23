@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "title": "MysticMyst Lore Entry",
-  "description": "Schema for lore entries in the MysticMyst universe - covering mythology, cosmology, magic systems, and deep world knowledge",
+  "title": "PrimalMyst Lore Entry",
+  "description": "Schema for lore entries in the PrimalMyst universe - covering mythology, cosmology, magic systems, and deep world knowledge",
   "type": "object",
   "properties": {
     "id": {
@@ -410,3 +410,6 @@
   "required": ["id", "title", "category", "knowledge_level", "certainty", "description", "metadata"],
   "additionalProperties": false
 }
+
+
+

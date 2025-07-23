@@ -1,8 +1,8 @@
-# MysticMyst League System
+# PrimalMyst League System
 
 ## Overview
 
-MysticMyst features a multi-layered league system that provides different gameplay experiences while maintaining the core mystical theme. The system allows for both competitive seasonal play and long-term character development across three distinct world types.
+PrimalMyst features a multi-layered league system that provides different gameplay experiences while maintaining the core mystical theme. The system allows for both competitive seasonal play and long-term character development across three distinct world types.
 
 ## World Types
 
@@ -156,4 +156,7 @@ The league system is explained through **mystical Cycle Theory**:
 
 ---
 
-This league system provides multiple pathways for player engagement while maintaining the mystical theme that makes MysticMyst unique. Whether players prefer competitive seasonal play, long-term character development, or solo exploration, the system accommodates different playstyles within a cohesive narrative framework.
+This league system provides multiple pathways for player engagement while maintaining the mystical theme that makes PrimalMyst unique. Whether players prefer competitive seasonal play, long-term character development, or solo exploration, the system accommodates different playstyles within a cohesive narrative framework.
+
+
+

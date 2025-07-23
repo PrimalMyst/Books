@@ -1,4 +1,4 @@
-# MysticMyst Wiki
+# PrimalMyst Wiki
 
 ![Logo](assets/logo.png) <!-- Add your game logo here -->
 
@@ -12,20 +12,20 @@
 - **🏛️ Endgame Ascension**: Climb higher into Yggdrasil's crown through increasingly challenging mystical trials
 - **💎 Runic Crafting**: Norse-inspired enchantment systems using mystical essence and World Tree materials
 
-**The definitive source of truth for MysticMyst - A comprehensive codex and community-driven wiki for the free-to-play mystical action RPG featuring cycle-based seasons and cooperative gameplay**
+**The definitive source of truth for PrimalMyst - A comprehensive codex and community-driven wiki for the free-to-play mystical action RPG featuring cycle-based seasons and cooperative gameplay**
 
 ---
 
 ## 📖 Overview
 
-Welcome to the MysticMyst Wiki repository! This project serves as the central hub for all canonical information about MysticMyst, combining official codex entries with community-contributed content to create the most comprehensive knowledge base for players, developers, and lore enthusiasts.
+Welcome to the PrimalMyst Wiki repository! This project serves as the central hub for all canonical information about PrimalMyst, combining official codex entries with community-contributed content to create the most comprehensive knowledge base for players, developers, and lore enthusiasts.
 
-### What is MysticMyst?
+### What is PrimalMyst?
 
-**MysticMyst** is a free-to-play online action RPG that fuses the exploration freedom of Skyrim, mission-based cooperation, and the deep character progression of Path of Exile. Set in a mystical realm where the World Tree **Yggdrasil** anchors reality itself, players become Mist-Walkers—practitioners who explore the mysteries between the tree's roots and branches while mastering ancient mystical arts.
+**PrimalMyst** is a free-to-play online action RPG that fuses the exploration freedom of Skyrim, mission-based cooperation, and the deep character progression of Path of Exile. Set in a mystical realm where the World Tree **Yggdrasil** anchors reality itself, players become Mist-Walkers—practitioners who explore the mysteries between the tree's roots and branches while mastering ancient mystical arts.
 
 #### **Core Concept**
-MysticMyst operates on **Cosmic Cycles** - seasonal renewals where the mists of the cosmos shift and flow, allowing fresh exploration of Yggdrasil's many realms. Each cycle represents the World Tree's natural breathing, featuring:
+PrimalMyst operates on **Cosmic Cycles** - seasonal renewals where the mists of the cosmos shift and flow, allowing fresh exploration of Yggdrasil's many realms. Each cycle represents the World Tree's natural breathing, featuring:
 - **Cycle-specific mysteries** emerging from the cosmic mists
 - **Fresh discoveries and progression** as new branches of the World Tree become accessible
 - **Evolving mist patterns** that reshape the connections between realms
@@ -36,9 +36,9 @@ MysticMyst operates on **Cosmic Cycles** - seasonal renewals where the mists of 
 - **⚔️ Fast-Paced Combat**: Fluid action combat combining mystical abilities with weapon mastery
 - **🔄 League System**: Fresh seasonal content with unique mechanics and league-specific rewards
 - **🤝 Cooperative Gameplay**: 1-4 player missions requiring mystical coordination and strategy
-- **🌌 Open World Exploration**: Skyrim-inspired freedom to discover secrets across multiple timeline zones
+- **🌌 Open World Exploration**: Skyrim-inspired freedom to discover secrets across multiple mystical realms
 - **� Deep Character Building**: PoE-style passive skill trees with mystical ability specializations
-- **⚡ mystical Mechanics**: Slow time, rewind damage, glimpse future enemy attacks, create mystical echoes
+- **⚡ Mystical Mechanics**: Manipulate mist currents, glimpse through veils of possibility, commune with tree spirits, channel primal forces
 - **🏛️ Endgame Mapping**: Procedurally generated mystical rifts with escalating difficulty and rewards
 - **� Crafting & Economy**: League-based economies with mystical essence crafting systems
 
@@ -72,7 +72,7 @@ Players create mist-walkers with distinct **mystical specializations** and **run
 - **📊 Character Growth**: Theorycrafting with Norse mythology-inspired skill trees and rune combinations
 
 #### **Game Design Philosophy**
-MysticMyst draws mechanical inspiration from three pillars:
+PrimalMyst draws mechanical inspiration from three pillars:
 
 - **🏔️ Skyrim's Exploration**: Open-world zones with secrets, environmental storytelling, and player-driven discovery
 - **🤖 Warframe's Action**: Fast-paced cooperative missions with unique abilities, smooth movement, and regular content updates  
@@ -91,7 +91,7 @@ This wiki repository serves multiple critical functions:
 ## 🏗️ Repository Structure
 
 ```
-MysticMyst-wiki/
+PrimalMyst-wiki/
 ├── README.md                 # This file
 ├── CONTRIBUTING.md           # Contribution guidelines
 ├── LICENSE                   # License information
@@ -169,8 +169,8 @@ MysticMyst-wiki/
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/[your-org]/MysticMyst-wiki.git
-   cd MysticMyst-wiki
+   git clone https://github.com/[your-org]/PrimalMyst-wiki.git
+   cd PrimalMyst-wiki
    ```
 
 2. **Install dependencies** (if applicable)
@@ -261,7 +261,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for detailed guidelines on:
 
 ## 🤝 Contributing
 
-We welcome contributions from the MysticMyst community! Here's how you can help:
+We welcome contributions from the PrimalMyst community! Here's how you can help:
 
 ### Types of Contributions
 - **Lore research**: Deep dives into game content
@@ -319,7 +319,7 @@ We welcome contributions from the MysticMyst community! Here's how you can help:
 
 ## 🔗 Links and Resources
 
-- **Game Website**: [Link to MysticMyst official site]
+- **Game Website**: [Link to PrimalMyst official site]
 - **Community Discord**: [Discord invite link]
 - **Developer Blog**: [Development blog URL]
 - **Bug Reports**: [Issue tracker link]
@@ -350,7 +350,7 @@ This project is licensed under the [License Type] - see the [LICENSE](LICENSE) f
 
 ## 🏷️ Tags
 
-`MysticMyst` `wiki` `codex` `gaming` `lore` `community` `data-driven` `collaboration` `source-of-truth`
+`PrimalMyst` `wiki` `codex` `gaming` `lore` `community` `data-driven` `collaboration` `source-of-truth`
 
 ---
 
@@ -360,4 +360,4 @@ This project is licensed under the [License Type] - see the [LICENSE](LICENSE) f
 
 ---
 
-*"In the realm of MysticMyst, knowledge is the greatest treasure of all."*
+*"In the realm of PrimalMyst, knowledge is the greatest treasure of all."*

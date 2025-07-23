@@ -6,7 +6,7 @@
   "knowledge_level": "foundational",
   "certainty": "ancient-wisdom",
   "description": {
-    "summary": "The universe of MysticMyst is structured around Yggdrasil, the World Tree, whose branches and roots connect nine distinct realms of existence, each with its own laws, inhabitants, and relationship to the Mist.",
+    "summary": "The universe of PrimalMyst is structured around Yggdrasil, the World Tree, whose branches and roots connect nine distinct realms of existence, each with its own laws, inhabitants, and relationship to the Mist.",
     "detailed": "Yggdrasil stands at the center of all existence, a cosmic ash tree whose branches stretch across the heavens and whose roots delve deep into the wells of wisdom and fate. The Nine Realms exist as distinct layers of reality, connected by the World Tree's vast structure. Each realm has its own relationship with the Mist that flows between them, creating unique conditions for life, magic, and the flow of time itself. The realms are not simply different planets or dimensions, but fundamental aspects of existence itself - representing different ways that consciousness, matter, and mystical force can interact. Travel between realms is possible for those who understand the pathways through Yggdrasil, though such journeys are never without risk, as the Mist can lead travelers astray or show them truths they are not prepared to understand.",
     "implications": "Understanding the Nine Realms reveals that what mortals call 'reality' is only one layer of a vast, interconnected cosmic structure. Events in one realm can influence all others through the World Tree's connections, and the cyclical nature of leagues and time reflects the greater cycles of the cosmos itself."
   },
@@ -206,8 +206,11 @@
   "metadata": {
     "created": "2025-01-27T15:30:00Z",
     "last_updated": "2025-01-27T15:30:00Z",
-    "author": "MysticMyst Development Team",
+    "author": "PrimalMyst Development Team",
     "version": "1.0.0",
     "canonical": true
   }
 }
+
+
+

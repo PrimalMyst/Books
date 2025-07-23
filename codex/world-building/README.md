@@ -2,7 +2,7 @@
 
 ## Overview
 
-This directory contains comprehensive world-building documentation for MysticMyst. All content here should align with the structured JSON data in the `/data` folder and serve as the narrative foundation for the game world.
+This directory contains comprehensive world-building documentation for PrimalMyst. All content here should align with the structured JSON data in the `/data` folder and serve as the narrative foundation for the game world.
 
 ## Directory Structure
 
@@ -10,7 +10,7 @@ This directory contains comprehensive world-building documentation for MysticMys
 world-building/
 ├── README.md                    # This file
 ├── cosmology/                   # Universal structure and rules
-│   ├── time-mechanics.md        # How time works in MysticMyst
+│   ├── time-mechanics.md        # How time works in PrimalMyst
 │   ├── dimensional-structure.md # Multiple realities and planes
 │   ├── cosmic-forces.md         # Fundamental powers that shape reality
 │   └── creation-myths.md        # Origin stories of the universe
@@ -150,4 +150,7 @@ Searchable keywords for categorization.
 
 ---
 
-*This guide ensures that MysticMyst's world-building remains consistent, comprehensive, and engaging for both developers and players.*
+*This guide ensures that PrimalMyst's world-building remains consistent, comprehensive, and engaging for both developers and players.*
+
+
+

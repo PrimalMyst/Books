@@ -7,7 +7,7 @@
     "brief": "Pure divine energy that bypasses many defenses and provides special effectiveness against corrupted enemies.",
     "detailed": "Holy damage represents the power of divine order and purification. Unlike elemental damage which affects the physical realm, holy damage directly impacts the spiritual essence of targets. It is particularly effective against chaotic and corrupted entities while providing healing and protective benefits to allies.",
     "visual_effects": "Brilliant white and golden light with soft chiming sounds, radiant beams, and purifying aura effects",
-    "lore_explanation": "Holy damage channels the power of cosmic order and divine will. In MysticMyst, this represents the stabilizing forces that work to maintain mystical harmony and resist chaotic timeline corruption."
+    "lore_explanation": "Holy damage channels the power of cosmic order and divine will. In PrimalMyst, this represents the stabilizing forces that work to maintain mystical harmony and resist chaotic timeline corruption."
   },
   "mechanics": {
     "base_damage": {
@@ -94,8 +94,11 @@
   "metadata": {
     "created": "2025-07-23T10:05:00Z",
     "last_updated": "2025-07-23T10:05:00Z",
-    "author": "MysticMyst Development Team",
+    "author": "PrimalMyst Development Team",
     "version": "1.0.0",
     "canonical": true
   }
 }
+
+
+

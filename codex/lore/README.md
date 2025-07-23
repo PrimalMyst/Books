@@ -2,11 +2,11 @@
 
 ## Overview
 
-The Lore Archive contains the deepest knowledge and mysteries of the MysticMyst universe. This is where fundamental truths, ancient wisdom, and cosmic secrets are documented. All lore entries connect to structured JSON data while providing rich narrative context rooted in Norse mythology and mystical themes.
+The Lore Archive contains the deepest knowledge and mysteries of the PrimalMyst universe. This is where fundamental truths, ancient wisdom, and cosmic secrets are documented. All lore entries connect to structured JSON data while providing rich narrative context rooted in Norse mythology and mystical themes.
 
 ## Core Cosmological Framework
 
-MysticMyst's universe is built upon three foundational concepts:
+PrimalMyst's universe is built upon three foundational concepts:
 
 1. **The Nine Realms and Yggdrasil**: The World Tree connects nine distinct realms of existence, each with unique properties and inhabitants
 2. **The Mist**: A primordial essence flowing through all things, carrying memories, power, and connection between realms
@@ -64,7 +64,7 @@ lore/
 ## Content Categories
 
 ### Fundamental Truths
-Core principles that govern how reality works in MysticMyst, centered around the Norse-inspired cosmology of the Nine Realms connected by Yggdrasil, the flow of the Mist, and the cosmic cycles that shape existence.
+Core principles that govern how reality works in PrimalMyst, centered around the Norse-inspired cosmology of the Nine Realms connected by Yggdrasil, the flow of the Mist, and the cosmic cycles that shape existence.
 
 ### Creation and Origin
 Stories, theories, and evidence about how the universe, the World Tree, and the Nine Realms came to exist. Multiple perspectives and cultural variations from different realms should be included.
@@ -154,4 +154,7 @@ Design lore to accommodate future additions:
 
 ---
 
-*The Lore Archive serves as the intellectual and spiritual heart of MysticMyst, providing the deep context that makes the world feel ancient, mysterious, and alive with possibility.*
+*The Lore Archive serves as the intellectual and spiritual heart of PrimalMyst, providing the deep context that makes the world feel ancient, mysterious, and alive with possibility.*
+
+
+

@@ -108,3 +108,6 @@ The lore now presents a coherent Norse-mystical universe where:
 - **Minimal technology** - any artifacts are mystical rather than technological
 
 The world feels genuinely Norse-inspired while maintaining the mystical atmosphere suggested by "Myst" in the name, with greatly reduced Warframe/timeloop elements that exist only to provide in-world explanations for necessary gameplay mechanics.
+
+
+

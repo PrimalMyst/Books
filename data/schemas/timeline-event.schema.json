@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "title": "MysticMyst Timeline Event",
-  "description": "Schema for timeline events in the MysticMyst universe",
+  "title": "PrimalMyst Timeline Event",
+  "description": "Schema for timeline events in the PrimalMyst universe",
   "type": "object",
   "properties": {
     "id": {
@@ -325,3 +325,6 @@
   "required": ["id", "name", "type", "significance", "date", "description", "metadata"],
   "additionalProperties": false
 }
+
+
+
