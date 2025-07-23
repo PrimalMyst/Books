@@ -91,7 +91,7 @@
     }
   },
   "lore_connections": {
-    "yggdrasil_relationship": "The Fundamental Gods predate Yggdrasil itself, but the World Tree's growth was shaped by their primordial forces. The Primal Gods draw power through Yggdrasil's branches, while the Veiled Ones exist in the spaces between the tree's growth cycles.",
+    "yggdrasil_relationship": "The Fundamental Gods predate Yggdrasil itself, but the World Tree's growth was shaped by their primordial forces. The six great branches of Yggdrasil each anchor one realm that embodies a specific divine influence - three for the Primal Gods, three for the Fundamental Gods, while the Veiled Ones exist in the spaces between realms.",
     "damage_system_connection": "The damage types in PrimalMyst directly reflect this divine hierarchy - Fundamental forces (Fire, Cold, Lightning) represent the oldest magic, while Primal forces (Chaos, Holy, Physical) represent more accessible but still potent divine power.",
     "cycle_mechanics": "Myrielle's role explains the league mechanics from a lore perspective - each cosmic cycle brings new conditions that require new approaches, hence new character builds and abilities.",
     "myst_walker_connection": "Myst-Walkers are able to channel these divine influences because they can perceive and navigate the mist that connects all levels of reality - from the fundamental forces up through active gods to the veiled mysteries."

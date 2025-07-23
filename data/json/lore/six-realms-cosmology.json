@@ -1,0 +1,166 @@
+{
+  "id": "six-realms-cosmology",
+  "title": "The Six Realms and Yggdrasil",
+  "category": "cosmology",
+  "subcategory": "world-structure",
+  "knowledge_level": "foundational",
+  "certainty": "ancient-wisdom",
+  "description": {
+    "summary": "The universe of PrimalMyst is structured around Yggdrasil, the World Tree, whose six great branches connect six distinct realms of existence, each one embodying and channeling the power of one of the Eldritch Gods.",
+    "detailed": "Yggdrasil stands at the center of all existence, a cosmic ash tree whose six great branches stretch across the heavens, each one anchoring a realm that serves as the primary manifestation of one Eldritch God's influence. Born from the primordial forces of Pyrion's fire, Glacius's preservation, and Voltharion's connecting spark, the World Tree channels divine power through its very structure. The Six Realms exist as distinct expressions of divine will - each realm embodies the pure essence of its patron god while still containing the complex interplay of all cosmic forces. The Fundamental Gods flow through the tree's structure itself, while each Primal God rules one of the six realms directly. Myrielle exists in the misty spaces between realms, facilitating transitions during cosmic cycles.",
+    "divine_architecture": "This six-fold structure reflects the perfect balance of cosmic forces - three Fundamental Gods providing the foundational framework, three Primal Gods actively shaping reality, and the Veiled Ones ensuring smooth transitions between states of being.",
+    "implications": "Understanding the Six Realms reveals that divine influence is not abstract but literally structured into the universe's architecture. Each realm offers unique opportunities for growth and mastery, but also demands understanding of its patron god's nature. The cosmic cycles reflect the dance between these six divine influences as they wax and wane in power and accessibility."
+  },
+  "origins": {
+    "source": "divine-creation",
+    "first_recorded": {
+      "era": "The First Awakening",
+      "location": "the-heart-of-yggdrasil",
+      "recorder": "The Fundamental Gods themselves"
+    },
+    "cultural_origin": ["fundamental-gods", "primal-gods", "veiled-ones"]
+  },
+  "divine_realm_structure": {
+    "tree_foundation": {
+      "pyrion_heartwood": "The burning core that provides energy to all six realms, ensuring life and transformation flow throughout the tree",
+      "glacius_bark": "The crystalline exterior that preserves the tree's structure and memories, maintaining stability across all realm connections", 
+      "voltharion_branches": "The electrical pathways through every branch that enable instant communication and travel between any of the six realms"
+    },
+    "realm_distribution": {
+      "upper_branches": "Three realms in the crown of the tree, representing active divine influence",
+      "middle_branches": "Three realms in the middle section, representing foundational forces",
+      "between_spaces": "Myrielle's domain exists in the mists that flow between all realms"
+    }
+  },
+  "realms": [
+    {
+      "name": "Pyrion's Forge - The Flame Realm",
+      "patron_god": "Pyrion, the First Flame (Fundamental)",
+      "branch_location": "Eastern Crown Branch",
+      "description": "A realm of eternal forges and transformative fire, where all creation and destruction originates",
+      "mist_nature": "Superheated and transformative, carrying the essence of change and purification",
+      "primary_inhabitants": ["Fire Elementals", "Phoenix Spirits", "Master Smiths", "Transformation Entities"],
+      "key_characteristics": ["Endless Creation", "Purifying Transformation", "Primal Energy"],
+      "divine_influence": "Direct manifestation of Pyrion's power - the fundamental force of change itself",
+      "realm_mechanics": "Fire damage and transformation magic are strongest here; all crafting and creation is enhanced",
+      "access_requirements": "Must withstand the transformative fire without losing core identity"
+    },
+    {
+      "name": "Glacius' Archive - The Frost Realm", 
+      "patron_god": "Glacius, the Eternal Frost (Fundamental)",
+      "branch_location": "Western Crown Branch",
+      "description": "A realm of crystalline libraries and eternal memory, where all knowledge is preserved in perfect ice",
+      "mist_nature": "Crystalline and preserving, carrying the memories and wisdom of all ages",
+      "primary_inhabitants": ["Ice Guardians", "Memory Keepers", "Crystal Scholars", "Preservation Spirits"],
+      "key_characteristics": ["Perfect Preservation", "Infinite Memory", "Eternal Stability"],
+      "divine_influence": "Direct manifestation of Glacius' power - the fundamental force of preservation and memory",
+      "realm_mechanics": "Cold damage and preservation magic are strongest here; all knowledge and memory effects are enhanced",
+      "access_requirements": "Must be willing to have all memories and knowledge evaluated and potentially preserved"
+    },
+    {
+      "name": "Voltharion's Web - The Lightning Realm",
+      "patron_god": "Voltharion, the Cosmic Spark (Fundamental)", 
+      "branch_location": "Northern Crown Branch",
+      "description": "A realm of infinite electrical networks and instant communication, where all connections are made manifest",
+      "mist_nature": "Crackling with energy, carrying messages and connections across all possible distances",
+      "primary_inhabitants": ["Lightning Dancers", "Message Spirits", "Connection Entities", "Network Guardians"],
+      "key_characteristics": ["Instant Communication", "Perfect Connection", "Divine Revelation"],
+      "divine_influence": "Direct manifestation of Voltharion's power - the fundamental force that connects all things",
+      "realm_mechanics": "Lightning damage and communication magic are strongest here; all networking and revelation effects are enhanced",
+      "access_requirements": "Must be prepared to experience connection with all other consciousness in the realm"
+    },
+    {
+      "name": "Nyxtharion's Crucible - The Chaos Realm",
+      "patron_god": "Nyxtharion, the Chaos Bringer (Primal)",
+      "branch_location": "Southern Middle Branch", 
+      "description": "A realm of beneficial chaos and creative revolution, where stagnation is impossible and change is constant",
+      "mist_nature": "Wildly shifting and unpredictable, carrying the essence of beneficial change and creative destruction",
+      "primary_inhabitants": ["Chaos Artists", "Revolution Spirits", "Change Agents", "Creative Destroyers"],
+      "key_characteristics": ["Beneficial Chaos", "Creative Revolution", "Anti-Stagnation"],
+      "divine_influence": "Direct rule by Nyxtharion - actively worshipped and accessible to mortals",
+      "realm_mechanics": "Chaos damage and transformation magic are strongest here; all creative and revolutionary activities are enhanced",
+      "access_requirements": "Must embrace change and be willing to abandon rigid thinking"
+    },
+    {
+      "name": "Luminareth's Sanctuary - The Light Realm",
+      "patron_god": "Luminareth, the Eternal Light (Primal)",
+      "branch_location": "Eastern Middle Branch",
+      "description": "A realm of healing light and protective order, where truth is revealed and the innocent are safeguarded",
+      "mist_nature": "Radiant and revealing, carrying the essence of truth, healing, and protective order",
+      "primary_inhabitants": ["Light Guardians", "Healing Spirits", "Truth Seekers", "Protection Entities"],
+      "key_characteristics": ["Healing Light", "Protective Order", "Revealed Truth"],
+      "divine_influence": "Direct rule by Luminareth - actively worshipped and accessible to mortals",
+      "realm_mechanics": "Holy damage and healing magic are strongest here; all protective and truth-revealing activities are enhanced",
+      "access_requirements": "Must have pure intentions and be willing to face absolute truth about oneself"
+    },
+    {
+      "name": "Drakmorth's Arena - The Strength Realm",
+      "patron_god": "Drakmorth, the Iron Champion (Primal)",
+      "branch_location": "Western Middle Branch",
+      "description": "A realm of eternal training and honorable combat, where strength and discipline are forged together",
+      "mist_nature": "Dense and strengthening, carrying the essence of physical prowess and warrior honor",
+      "primary_inhabitants": ["Dragon Champions", "Warrior Spirits", "Training Masters", "Honor Guardians"],
+      "key_characteristics": ["Physical Mastery", "Warrior Honor", "Disciplined Strength"],
+      "divine_influence": "Direct rule by Drakmorth in his dragon form - actively worshipped and accessible to mortals",
+      "realm_mechanics": "Physical damage and enhancement magic are strongest here; all training and honor-based activities are enhanced",
+      "access_requirements": "Must prove commitment to both strength and honor through combat trials"
+    }
+  ],
+  "myrielle_domain": {
+    "name": "The Between-Mists",
+    "patron_entity": "Myrielle, the Hidden (Veiled One)",
+    "location": "The spaces between all six realms",
+    "description": "A liminal space that exists in the transitions between realms, where souls are guided during cosmic cycles",
+    "mist_nature": "Shifting and guiding, carrying the essence of transition and rebirth",
+    "primary_function": "Facilitating soul transitions during league starts and endings",
+    "manifestation": "Appears as misty pathways that open during cosmic cycle transitions",
+    "access": "Only accessible during specific cosmic moments, usually with Myrielle's direct guidance"
+  },
+  "cosmic_mechanics": {
+    "realm_interactions": {
+      "fundamental_support": "The three Fundamental God realms provide the underlying structure and power for all existence",
+      "primal_activity": "The three Primal God realms are where most mortal activity and worship occurs",
+      "veiled_transitions": "Myrielle's Between-Mists facilitate movement and transformation between all other realms"
+    },
+    "power_flow": {
+      "fundamental_to_primal": "Fundamental God power flows through the tree structure to support the Primal God realms",
+      "primal_to_mortal": "Primal God power is channeled to mortals through worship, dedication, and understanding",
+      "veiled_guidance": "Myrielle's influence helps souls navigate the complex relationships between all divine powers"
+    },
+    "cycle_dynamics": {
+      "realm_prominence": "During different cosmic cycles, different realms become more accessible or influential",
+      "divine_attention": "The gods' focus shifts based on cosmic conditions and mortal activities",
+      "transition_periods": "Myrielle becomes most active during the spaces between cosmic cycles"
+    }
+  },
+  "travel_mechanics": {
+    "pathways": {
+      "voltharion_network": "Lightning pathways through Yggdrasil's branches allow rapid travel between any realms",
+      "divine_permission": "Travel to a god's realm typically requires some form of recognition or permission from that deity",
+      "myrielle_guidance": "The Hidden One can guide souls to appropriate realms during transition periods"
+    },
+    "preparation": {
+      "fundamental_realms": "Require exceptional spiritual preparation and protection from raw divine power",
+      "primal_realms": "Require understanding of and alignment with the patron god's nature",
+      "between_mists": "Only accessible during cosmic transitions with Myrielle's direct assistance"
+    }
+  },
+  "lore_connections": {
+    "damage_system": "Each realm enhances its patron god's associated damage type, explaining mechanical bonuses through lore",
+    "league_mechanics": "Cosmic cycles reflect the shifting relationships between the six realms and their divine patrons",
+    "character_builds": "Different character builds align with different realms and divine influences",
+    "endgame_content": "High-level content involves journeying to these realms and gaining divine recognition"
+  },
+  "metadata": {
+    "version": "2.0",
+    "last_updated": "2025-07-23",
+    "author": "PrimalMyst Development Team",
+    "canonical": true,
+    "replaces": "nine-realms-cosmology.json",
+    "related_files": [
+      "eldritch-pantheon.json",
+      "the-great-cycles.json",
+      "paths-of-mastery.json"
+    ]
+  }
+}

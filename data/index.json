@@ -83,17 +83,19 @@
     "lore": {
       "path": "data/json/lore/",
       "schema": "lore",
-      "count": 5,
+      "count": 6,
       "subcategories": {
-        "cosmology": "Nine Realms, Yggdrasil, and cosmic structure",
+        "cosmology": "Six Realms, Yggdrasil, and divine structure",
+        "divine-hierarchy": "Fundamental Gods, Primal Gods, and Veiled Ones",
         "mystical-arts": "Mist-working, Paths of Mastery, and skill-based systems",
-        "temporal-cycles": "Great Cycles, cosmic rhythms, and convergence phenomena", 
+        "cosmic-cycles": "Great Cycles, cosmic rhythms, and Myrielle's guidance", 
         "mythology": "Creation myths, divine stories, and ancient wisdom",
         "mysteries": "Unexplained phenomena and unanswered questions"
       },
       "examples": [
         "the-nature-of-the-mist.json",
-        "nine-realms-cosmology.json",
+        "six-realms-cosmology.json", 
+        "eldritch-pantheon.json",
         "paths-of-mastery.json",
         "the-great-cycles.json",
         "realm-expeditions.json"
