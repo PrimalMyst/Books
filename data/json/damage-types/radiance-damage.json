@@ -1,13 +1,13 @@
 {
-  "id": "holy-damage",
-  "name": "Holy",
+  "id": "radiance-damage",
+  "name": "Radiance",
   "category": "primal",
-  "type": "holy",
+  "type": "radiance",
   "description": {
     "brief": "Pure divine energy that bypasses many defenses and provides special effectiveness against corrupted enemies.",
-    "detailed": "Holy damage represents the power of divine order and purification. Unlike elemental damage which affects the physical realm, holy damage directly impacts the spiritual essence of targets. It is particularly effective against chaotic and corrupted entities while providing healing and protective benefits to allies.",
-    "visual_effects": "Brilliant white and golden light with soft chiming sounds, radiant beams, and purifying aura effects",
-    "lore_explanation": "Holy damage channels the power of Luminareth, the Eternal Light, one of the three Primal Gods actively worshipped today. This represents beneficial order - the warm light that reveals truth, provides healing, and creates protective barriers against harmful chaos while allowing growth within safe boundaries."
+    "detailed": "Radiance damage represents the power of divine protection and guidance. Unlike elemental damage which affects the physical realm, radiance damage directly impacts the spiritual essence of targets. It is particularly effective against chaotic and corrupted entities while providing healing and protective benefits to allies.",
+    "visual_effects": "Brilliant golden and white light with soft harmonic sounds, radiant beams, and protective aura effects",
+    "lore_explanation": "Radiance damage channels the power of Aurelius, the Radiant Sphere, one of the three Primal Gods actively worshipped today. This represents the protective divine energy - the warm light that guides lost souls, heals the wounded, and creates barriers against harm while allowing growth within safe boundaries."
   },
   "mechanics": {
     "base_damage": {
@@ -19,34 +19,34 @@
     },
     "status_effects": [
       {
-        "effect_name": "Consecration",
+        "effect_name": "Divine Protection",
         "duration": "10 seconds",
         "stacking": false,
-        "description": "Target takes increased holy damage and reduced chaos damage"
+        "description": "Target takes increased radiance damage and reduced chaos damage"
       },
       {
-        "effect_name": "Divine Blessing",
+        "effect_name": "Radiant Blessing",
         "duration": "15 seconds",
         "stacking": true,
-        "description": "Allies near holy damage sources gain damage reduction and regeneration"
+        "description": "Allies near radiance damage sources gain damage reduction and regeneration"
       }
     ],
     "resistances": {
       "armor_effectiveness": 0.3,
-      "resistance_sources": ["Divine protection spells", "Sacred artifacts", "Temporal stability buffs"],
-      "penetration_mechanics": "Holy damage bypasses physical armor but can be resisted by spiritual defenses"
+      "resistance_sources": ["Radiant protection spells", "Sacred artifacts", "Temporal stability buffs"],
+      "penetration_mechanics": "Radiance damage bypasses physical armor but can be resisted by spiritual defenses"
     },
     "interactions": [
       {
         "with_damage_type": "chaos",
         "interaction_type": "amplifies",
         "result": "Creates devastating purification explosion",
-        "conditions": "When holy damage hits a chaos-affected target"
+        "conditions": "When radiance damage hits a chaos-affected target"
       },
       {
         "with_damage_type": "physical",
         "interaction_type": "combines",
-        "result": "Physical attacks become blessed, gaining holy properties",
+        "result": "Physical attacks become blessed, gaining radiance properties",
         "conditions": "When blessed weapons deal physical damage"
       }
     ]
@@ -54,11 +54,11 @@
   "temporal_aspects": {
     "time_interaction": "none",
     "chronarch_synergy": "Stabilizes temporal abilities, reducing chaos and preventing temporal backlash",
-    "temporal_enhancement": "Time-locked holy effects can create persistent consecrated areas"
+    "temporal_enhancement": "Time-locked radiance effects can create persistent consecrated areas"
   },
   "equipment_synergy": {
-    "weapon_types": ["Holy Symbols", "Blessed Blades", "Divine Staves", "Consecrated Gauntlets"],
-    "armor_interactions": ["Sacred vestments increase holy power", "Divine armor provides chaos resistance"],
+    "weapon_types": ["Radiant Symbols", "Blessed Blades", "Divine Staves", "Consecrated Gauntlets"],
+    "armor_interactions": ["Sacred vestments increase radiance power", "Divine armor provides chaos resistance"],
     "artifact_synergies": ["Fragments of Divine Will", "Temporal Harmony Crystals", "Sanctified Relics"]
   },
   "enemy_vulnerabilities": [
@@ -81,16 +81,16 @@
   "build_archetypes": [
     {
       "archetype_name": "Divine Guardian", 
-      "focus": "Tank build with holy damage and ally protection",
+      "focus": "Tank build with radiance damage and ally protection",
       "synergistic_skills": ["Divine Shield", "Consecrated Ground", "Purifying Aura", "Temporal Sanctuary"]
     },
     {
       "archetype_name": "Purifier",
-      "focus": "Anti-chaos specialist with burst holy damage",
-      "synergistic_skills": ["Holy Wrath", "Chaos Banishment", "Divine Judgment", "Sanctified Weapons"]
+      "focus": "Anti-chaos specialist with burst radiance damage",
+      "synergistic_skills": ["Radiant Wrath", "Chaos Banishment", "Divine Judgment", "Sanctified Weapons"]
     }
   ],
-  "tags": ["primal", "holy", "divine", "anti-chaos", "support", "purification"],
+  "tags": ["primal", "radiance", "divine", "anti-chaos", "support", "purification"],
   "metadata": {
     "created": "2025-07-23T10:05:00Z",
     "last_updated": "2025-07-23T10:05:00Z",

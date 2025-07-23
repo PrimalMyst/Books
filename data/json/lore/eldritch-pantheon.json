@@ -5,7 +5,7 @@
   "tags": ["gods", "pantheon", "cosmic_forces", "eldritch", "fundamental_powers"],
   "content": {
     "summary": "The cosmic hierarchy of divine beings in PrimalMyst, from the ancient Fundamental Gods who preceded creation to the Primal Gods worshipped today, and the mysterious Veiled Ones who guide mortal destiny.",
-    "detailed": "The PrimalMyst universe is shaped by three tiers of divine influence, each representing different aspects of cosmic power and temporal existence. At the foundation lie the Fundamental Gods - primordial forces of Fire, Cold, and Lightning that existed before Yggdrasil itself took root. These ancient powers shaped the basic laws of reality and continue to influence all elemental forces throughout the Nine Realms. Above them reign the Primal Gods - the active deities worshipped by mortals today, embodying Chaos (Dark), Holy (Light), and Physical might. These gods interact directly with the world, granting power to their followers and shaping the ongoing conflicts between realms. Finally, existing beyond both tiers are the Veiled Ones - mysterious entities like Myrielle who operate outside normal divine hierarchies, wielding power over cycles, rebirth, and the fundamental nature of existence itself. This cosmic structure ensures that power flows from the most ancient and fundamental forces up through active divine influence to the enigmatic beings who guide the greatest mysteries of life and death.",
+    "detailed": "The PrimalMyst universe is shaped by three tiers of divine influence, each representing different aspects of cosmic power and temporal existence. At the foundation lie the Fundamental Gods - primordial forces of Fire, Cold, and Lightning that existed before Yggdrasil itself took root. These ancient powers shaped the basic laws of reality and continue to influence all elemental forces throughout the Nine Realms. Above them reign the Primal Gods - the active deities worshipped by mortals today, embodying Chaos (Dark), Radiance (Light), and Might (Physical). These gods interact directly with the world, granting power to their followers and shaping the ongoing conflicts between realms. Finally, existing beyond both tiers are the Veiled Ones - mysterious entities like Myrielle who operate outside normal divine hierarchies, wielding power over cycles, rebirth, and the fundamental nature of existence itself. This cosmic structure ensures that power flows from the most ancient and fundamental forces up through active divine influence to the enigmatic beings who guide the greatest mysteries of life and death.",
     "sections": {
       "fundamental_gods": {
         "title": "The Fundamental Gods - Ancient Powers",
@@ -41,34 +41,38 @@
         "title": "The Primal Gods - Active Deities",
         "description": "The gods actively worshipped and followed by mortals in the current age",
         "entities": {
-          "nyxtharion_the_chaos_bringer": {
-            "name": "Nyxtharion, the Chaos Bringer",
-            "domain": "Chaos (Dark) - Change and Entropy",
-            "description": "The most actively worshipped of the dark powers, Nyxtharion embodies beneficial chaos - the force that breaks stagnation, brings necessary change, and prevents the universe from crystallizing into perfect but lifeless order. Followers seek controlled chaos to fuel growth, creativity, and revolution against oppressive order.",
-            "influence": "Chaos magic, entropy effects, random events, creative destruction, revolutionary change",
-            "followers": "Revolutionaries, artists, chaos mages, those seeking radical personal transformation",
-            "sacred_sites": "The Writhing Groves, Probability Falls, The Ever-Changing Citadel",
-            "blessings": "Unpredictable but powerful magical surges, immunity to mind control, ability to thrive in chaotic situations"
+          "serafina_the_shadow_empress": {
+            "name": "Serafina, the Shadow Empress",
+            "domain": "Chaos (Dark) - Transformation and Liberation",
+            "description": "The supreme goddess of vampires, shadows, and forbidden arts, Serafina appears as an alluring archdemoness wreathed in shifting shadows and dark energy. She embodies the seductive power found in embracing one's darker nature - ruling over necromancy, poison craft, and vampiric transformation. Serafina teaches that through accepting taboo desires and forbidden knowledge, mortals can transcend their limitations and achieve true immortal power. Her vampiric children and necromantic servants spread her influence across the realms.",
+            "appearance": "A tall, devastatingly beautiful figure with porcelain-pale skin, flowing midnight hair, and hypnotic eyes that shift between deep crimson and violet. She wears elegant robes that seem woven from living shadow and blood-red silk. Her presence exudes both lethal danger and irresistible supernatural charm, with an aura that makes mortals feel both terrified and inexplicably drawn to her.",
+            "influence": "Chaos magic, necromancy, poison crafting, vampiric transformation, shadow manipulation, forbidden knowledge, seduction magic",
+            "followers": "Vampires, necromancers, poison masters, those seeking immortality, rebels against divine order, practitioners of forbidden arts",
+            "sacred_sites": "The Twilight Courts, Crimson Crypts, Halls of Whispered Desires, The Liberating Shadows, Vampire Sanctuaries",
+            "blessings": "Enhanced magical versatility, resistance to mental domination, minor vampiric abilities, poison immunity, enhanced charisma and seduction, extended lifespan",
+            "dark_gifts": "Can grant vampiric transformation to worthy followers, teaches the deepest secrets of necromancy and poison craft"
           },
-          "luminareth_the_eternal_light": {
-            "name": "Luminareth, the Eternal Light",
-            "domain": "Holy (Light) - Order and Protection",
-            "description": "The counterbalance to Nyxtharion, Luminareth represents beneficial order - the light that reveals truth, provides healing, and creates protective barriers against harmful chaos. Not rigid law, but the warm order that allows growth within safe boundaries.",
-            "influence": "Holy magic, healing, protection, truth revelation, positive order",
-            "followers": "Healers, protectors, seekers of truth, those who defend the innocent",
-            "sacred_sites": "The Crystal Sanctuaries, Pools of Eternal Dawn, The Lighthouse Eternal",
-            "blessings": "Enhanced healing abilities, protection from dark magic, ability to see through illusions"
+          "aurelius_the_radiant_sphere": {
+            "name": "Aurelius, the Radiant Sphere",
+            "domain": "Radiance (Light) - Protection and Guidance",
+            "description": "A being of pure radiant energy that manifests as a brilliant, multi-faceted sphere of golden light, reminiscent of the ancient sun-discs worshipped in the northern lands. Aurelius represents the protective force that shields the innocent, heals the wounded, and guides lost souls toward safety. Like the eternal light that guided Norse heroes through the darkest winters, this deity embodies the warm, nurturing radiance that allows growth while providing security and wisdom. The sphere's gyroscopic rotation mirrors the celestial movements that ancient seers used to divine the will of the gods.",
+            "appearance": "A luminous sphere approximately eight feet in diameter, composed of countless facets of golden-white light that rotate in complex gyroscopic patterns. Each facet reflects different aspects of protection and guidance, while the sphere's rotation creates mesmerizing light patterns that bring comfort to allies and inspire courage in the faithful.",
+            "influence": "Radiance magic, healing arts, protective barriers, divine guidance, purification, winter's light",
+            "followers": "Healers, guardians, scholars seeking wisdom, protectors of the innocent, northern priests, paladins of light",
+            "sacred_sites": "The Golden Sanctuaries, Pools of Healing Light, The Eternal Beacon, Sun-Stone Circles",
+            "blessings": "Enhanced healing abilities, protection from harmful magic, ability to see through deceptions, divine insight, resistance to cold and darkness",
+            "norse_connections": "Like the ancient sun-wheels of the northern peoples, Aurelius brings light during the darkest times, echoing the mythic light that guided heroes through endless winters"
           },
-          "drakmorth_the_iron_champion": {
-            "name": "Drakmorth, the Iron Champion",
-            "domain": "Physical - Strength and Honor",
-            "description": "The great dragon god who embodies the warrior's path - not mere brutality, but the discipline, honor, and physical mastery that forge true champions. Drakmorth teaches that the body is the first and most important tool, and through its perfection, one can achieve any goal. His followers pursue physical excellence alongside mental discipline.",
-            "influence": "Physical enhancement, weapon mastery, athletic prowess, warrior codes of honor",
-            "followers": "Warriors, athletes, martial artists, those who seek strength through discipline",
-            "sacred_sites": "The Iron Peaks, Halls of Testing, The Dragon's Crucible",
-            "blessings": "Enhanced physical abilities, resistance to physical damage, intuitive weapon mastery",
-            "dragon_form": "A massive dragon with scales like polished iron, whose roar echoes across battlefields and whose presence inspires both courage in allies and respect in enemies",
-            "teachings": "Strength without honor is mere brutality; honor without strength is empty idealism. True champions forge both in the crucible of dedicated practice."
+          "korthak_the_dragon_king": {
+            "name": "Korthak, the Dragon King",
+            "domain": "Might (Physical) - Strength and Honor",
+            "description": "The supreme ruler of all dragonkind and the ultimate embodiment of physical might and unwavering honor. Though dragons are renowned for their magical prowess and higher intellect, their king deliberately chose to become the pure incarnation of strength, power, and direct action. Korthak faces all challenges head-on without tricks, magic, or deception - proving that raw physical mastery and indomitable will can overcome any obstacle. He is the warrior's ultimate ideal, teaching that honest effort and direct confrontation forge the strongest champions. When he takes physical form as a colossal dragon, his presence alone can shatter mountains.",
+            "appearance": "In mortal interactions, appears as an imposing humanoid figure standing over eight feet tall with pronounced draconic features - obsidian-black scaled skin, piercing molten-gold eyes, and an aura of overwhelming physical power that makes the air itself feel heavy. In his true dragon form, he is a massive black wyrm whose every movement radiates unstoppable force and whose roar can be heard across entire realms.",
+            "influence": "Physical enhancement, weapon mastery, athletic prowess, codes of warrior honor, draconic might, pure strength cultivation",
+            "followers": "Warriors, athletes, martial artists, dragon riders, those who seek strength through honest effort, champions who face challenges directly",
+            "sacred_sites": "The Iron Peaks, Dragon's Training Grounds, Halls of Strength, The Great Arena, Mountain Forge-Temples",
+            "blessings": "Massive physical enhancement, resistance to all forms of harm, intuitive mastery of all weapons and combat techniques, draconic resilience, ability to inspire courage in allies",
+            "teachings": "Strength without honor is mere brutality; honor without strength is empty idealism. Face your challenges directly, use no tricks or shortcuts, and grow stronger through honest effort and pain. The body is the ultimate weapon when properly forged."
           }
         }
       },
@@ -92,7 +96,7 @@
   },
   "lore_connections": {
     "yggdrasil_relationship": "The Fundamental Gods predate Yggdrasil itself, but the World Tree's growth was shaped by their primordial forces. The six great branches of Yggdrasil each anchor one realm that embodies a specific divine influence - three for the Primal Gods, three for the Fundamental Gods, while the Veiled Ones exist in the spaces between realms.",
-    "damage_system_connection": "The damage types in PrimalMyst directly reflect this divine hierarchy - Fundamental forces (Fire, Cold, Lightning) represent the oldest magic, while Primal forces (Chaos, Holy, Physical) represent more accessible but still potent divine power.",
+    "damage_system_connection": "The damage types in PrimalMyst directly reflect this divine hierarchy - Fundamental forces (Fire, Cold, Lightning) represent the oldest magic, while Primal forces (Chaos, Radiance, Physical) represent more accessible but still potent divine power.",
     "cycle_mechanics": "Myrielle's role explains the league mechanics from a lore perspective - each cosmic cycle brings new conditions that require new approaches, hence new character builds and abilities.",
     "myst_walker_connection": "Myst-Walkers are able to channel these divine influences because they can perceive and navigate the mist that connects all levels of reality - from the fundamental forces up through active gods to the veiled mysteries."
   },
