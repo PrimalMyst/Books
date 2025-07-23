@@ -1,0 +1,271 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "ChronoMyst Damage System",
+  "description": "Schema for damage types and combat mechanics in ChronoMyst",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$",
+      "description": "Unique identifier for the damage type or combat mechanic"
+    },
+    "name": {
+      "type": "string",
+      "description": "Display name of the damage type"
+    },
+    "category": {
+      "type": "string",
+      "enum": ["elemental", "primal", "temporal", "hybrid"],
+      "description": "Primary damage category"
+    },
+    "type": {
+      "type": "string",
+      "enum": ["fire", "cold", "lightning", "holy", "chaos", "physical", "temporal-slow", "temporal-acceleration", "temporal-fracture"],
+      "description": "Specific damage type"
+    },
+    "description": {
+      "type": "object",
+      "properties": {
+        "brief": {
+          "type": "string",
+          "maxLength": 200,
+          "description": "Brief description of the damage type"
+        },
+        "detailed": {
+          "type": "string",
+          "description": "Comprehensive explanation of how this damage works"
+        },
+        "visual_effects": {
+          "type": "string",
+          "description": "Visual representation of this damage type"
+        },
+        "lore_explanation": {
+          "type": "string",
+          "description": "In-world explanation for this damage type"
+        }
+      },
+      "required": ["brief", "detailed"]
+    },
+    "mechanics": {
+      "type": "object",
+      "properties": {
+        "base_damage": {
+          "type": "object",
+          "properties": {
+            "scaling_factor": {
+              "type": "number",
+              "description": "Base damage scaling multiplier"
+            },
+            "variance": {
+              "type": "object",
+              "properties": {
+                "min_percent": {
+                  "type": "number",
+                  "description": "Minimum damage as percentage of base"
+                },
+                "max_percent": {
+                  "type": "number", 
+                  "description": "Maximum damage as percentage of base"
+                }
+              }
+            }
+          }
+        },
+        "status_effects": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "effect_name": {
+                "type": "string",
+                "description": "Name of the status effect"
+              },
+              "duration": {
+                "type": "string",
+                "description": "How long the effect lasts"
+              },
+              "stacking": {
+                "type": "boolean",
+                "description": "Whether multiple applications stack"
+              },
+              "description": {
+                "type": "string",
+                "description": "What the status effect does"
+              }
+            }
+          }
+        },
+        "resistances": {
+          "type": "object",
+          "properties": {
+            "armor_effectiveness": {
+              "type": "number",
+              "description": "How well armor protects against this damage (0-1)"
+            },
+            "resistance_sources": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              },
+              "description": "What provides resistance to this damage type"
+            },
+            "penetration_mechanics": {
+              "type": "string",
+              "description": "How this damage type can bypass defenses"
+            }
+          }
+        },
+        "interactions": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "with_damage_type": {
+                "type": "string",
+                "description": "Damage type this interacts with"
+              },
+              "interaction_type": {
+                "type": "string",
+                "enum": ["amplifies", "reduces", "converts", "triggers", "combines"],
+                "description": "Type of interaction"
+              },
+              "result": {
+                "type": "string",
+                "description": "What happens during the interaction"
+              },
+              "conditions": {
+                "type": "string",
+                "description": "When this interaction occurs"
+              }
+            }
+          }
+        }
+      }
+    },
+    "temporal_aspects": {
+      "type": "object",
+      "description": "How this damage type relates to temporal mechanics",
+      "properties": {
+        "time_interaction": {
+          "type": "string",
+          "enum": ["accelerates", "slows", "fragments", "echoes", "none"],
+          "description": "How this damage affects time flow"
+        },
+        "chronarch_synergy": {
+          "type": "string",
+          "description": "Special interactions with Chronarch abilities"
+        },
+        "temporal_enhancement": {
+          "type": "string",
+          "description": "How temporal abilities can enhance this damage"
+        }
+      }
+    },
+    "equipment_synergy": {
+      "type": "object",
+      "properties": {
+        "weapon_types": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Weapon types that work well with this damage"
+        },
+        "armor_interactions": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "How armor can modify this damage type"
+        },
+        "artifact_synergies": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Temporal artifacts that enhance this damage"
+        }
+      }
+    },
+    "enemy_vulnerabilities": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "enemy_type": {
+            "type": "string",
+            "description": "Type of enemy vulnerable to this damage"
+          },
+          "vulnerability_reason": {
+            "type": "string",
+            "description": "Why this enemy type is vulnerable"
+          },
+          "effectiveness_multiplier": {
+            "type": "number",
+            "description": "Damage multiplier against this enemy type"
+          }
+        }
+      }
+    },
+    "build_archetypes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "archetype_name": {
+            "type": "string",
+            "description": "Name of the build archetype"
+          },
+          "focus": {
+            "type": "string",
+            "description": "Primary focus of builds using this damage type"
+          },
+          "synergistic_skills": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "Skills that work well with this damage type"
+          }
+        }
+      }
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Searchable tags for categorization"
+    },
+    "metadata": {
+      "type": "object",
+      "properties": {
+        "created": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Creation timestamp"
+        },
+        "last_updated": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Last update timestamp"
+        },
+        "author": {
+          "type": "string",
+          "description": "Content creator/author"
+        },
+        "version": {
+          "type": "string",
+          "description": "Content version"
+        },
+        "canonical": {
+          "type": "boolean",
+          "description": "Whether this is official canonical content"
+        }
+      },
+      "required": ["created", "last_updated", "canonical"]
+    }
+  },
+  "required": ["id", "name", "category", "type", "description", "metadata"],
+  "additionalProperties": false
+}

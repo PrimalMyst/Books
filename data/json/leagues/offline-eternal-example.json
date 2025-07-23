@@ -1,0 +1,97 @@
+{
+  "id": "offline-eternal", 
+  "name": "Offline Eternal",
+  "type": "offline-eternal",
+  "status": "active",
+  "duration": {
+    "start_date": "2025-01-01T00:00:00Z",
+    "end_date": null,
+    "planned_duration": "permanent"
+  },
+  "world_state": {
+    "timeline_branch": "Parallel Prime Timeline - Offline Dimension",
+    "reset_conditions": ["Manual player character reset"],
+    "persistent_elements": [
+      "All character progression",
+      "All items and equipment", 
+      "Single-player quest progress",
+      "Local achievements",
+      "Customizable world settings"
+    ],
+    "unique_features": [
+      {
+        "feature": "Temporal Sandbox Mode",
+        "description": "Players can experiment with timeline manipulation without consequences",
+        "impact": "Allows learning temporal mechanics without affecting online play"
+      },
+      {
+        "feature": "Adjustable Difficulty Scaling",
+        "description": "Players can modify game difficulty and pacing to their preferences",
+        "impact": "Provides accessible gameplay for all skill levels"
+      },
+      {
+        "feature": "Pausable Timeline",
+        "description": "Game world can be paused and resumed at will",
+        "impact": "Perfect for players who need flexible play schedules"
+      },
+      {
+        "feature": "Local Mod Support",
+        "description": "Support for player-created modifications and content",
+        "impact": "Unlimited customization and community-created content"
+      }
+    ]
+  },
+  "character_progression": {
+    "starting_state": "fresh",
+    "progression_type": "permanent",
+    "migration_rules": {
+      "eligible_characters": ["All offline characters"],
+      "migration_trigger": "Manual player choice only",
+      "items_transferred": ["Character data can be exported/imported as files"]
+    }
+  },
+  "economy": {
+    "currency_system": "isolated",
+    "trade_availability": false,
+    "market_reset": false
+  },
+  "endgame_access": {
+    "final_boss": "the-solitary-chronarch",
+    "completion_rewards": [
+      {
+        "reward_type": "unlock", 
+        "description": "Access to timeline creation tools"
+      },
+      {
+        "reward_type": "cosmetic",
+        "description": "Unique offline-only visual effects"
+      },
+      {
+        "reward_type": "achievement",
+        "description": "Self-Reliant Chronarch achievements"
+      }
+    ],
+    "post_completion": "Character gains ability to create and explore custom timeline scenarios"
+  },
+  "lore_integration": {
+    "narrative_theme": "A parallel timeline where the Chronarch explores temporal mysteries in solitude",
+    "timeline_explanation": "Represents a self-contained timeline bubble where individual Chronarchs can explore without affecting the greater multiverse",
+    "world_changes": [
+      "World responds uniquely to single player's choices",
+      "NPCs develop deeper relationships due to focused interaction",
+      "Locations can be permanently altered by player actions"
+    ]
+  },
+  "technical_details": {
+    "server_type": "offline",
+    "data_persistence": "Local file system with optional cloud backup",
+    "sync_requirements": "No internet connection required for gameplay"
+  },
+  "metadata": {
+    "created": "2025-07-22T12:10:00Z", 
+    "last_updated": "2025-07-22T12:10:00Z",
+    "author": "ChronoMyst Development Team",
+    "version": "1.0.0",
+    "canonical": true
+  }
+}

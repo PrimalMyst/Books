@@ -1,0 +1,244 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "ChronoMyst League System",
+  "description": "Schema for league mechanics and world types in ChronoMyst",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$",
+      "description": "Unique identifier for the league"
+    },
+    "name": {
+      "type": "string",
+      "description": "Display name of the league"
+    },
+    "type": {
+      "type": "string",
+      "enum": ["current", "standard-eternal", "offline-eternal", "hardcore", "event"],
+      "description": "Type of league"
+    },
+    "status": {
+      "type": "string",
+      "enum": ["active", "ended", "upcoming", "archived"],
+      "description": "Current status of the league"
+    },
+    "duration": {
+      "type": "object",
+      "properties": {
+        "start_date": {
+          "type": "string",
+          "format": "date-time",
+          "description": "When the league starts"
+        },
+        "end_date": {
+          "type": "string",
+          "format": "date-time",
+          "description": "When the league ends (null for permanent leagues)"
+        },
+        "planned_duration": {
+          "type": "string",
+          "description": "Planned duration (e.g., '3 months', 'permanent')"
+        }
+      },
+      "required": ["start_date"]
+    },
+    "world_state": {
+      "type": "object",
+      "properties": {
+        "timeline_branch": {
+          "type": "string",
+          "description": "Which timeline branch this league represents"
+        },
+        "reset_conditions": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "What triggers world reset"
+        },
+        "persistent_elements": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "What carries over between resets"
+        },
+        "unique_features": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "feature": {
+                "type": "string",
+                "description": "Name of the unique feature"
+              },
+              "description": {
+                "type": "string",
+                "description": "How this feature works"
+              },
+              "impact": {
+                "type": "string",
+                "description": "How this affects gameplay"
+              }
+            }
+          }
+        }
+      }
+    },
+    "character_progression": {
+      "type": "object",
+      "properties": {
+        "starting_state": {
+          "type": "string",
+          "enum": ["fresh", "migrated", "inherited"],
+          "description": "How characters begin in this league"
+        },
+        "progression_type": {
+          "type": "string",
+          "enum": ["temporary", "permanent", "hybrid"],
+          "description": "Whether progress is temporary or permanent"
+        },
+        "migration_rules": {
+          "type": "object",
+          "properties": {
+            "eligible_characters": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              },
+              "description": "Which characters can migrate to permanent leagues"
+            },
+            "migration_trigger": {
+              "type": "string",
+              "description": "What causes migration to permanent league"
+            },
+            "items_transferred": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              },
+              "description": "What items/progress transfers"
+            }
+          }
+        }
+      }
+    },
+    "economy": {
+      "type": "object",
+      "properties": {
+        "currency_system": {
+          "type": "string",
+          "enum": ["isolated", "shared", "hybrid"],
+          "description": "How currency is handled"
+        },
+        "trade_availability": {
+          "type": "boolean",
+          "description": "Whether trading is available"
+        },
+        "market_reset": {
+          "type": "boolean",
+          "description": "Whether market resets with league"
+        }
+      }
+    },
+    "endgame_access": {
+      "type": "object",
+      "properties": {
+        "final_boss": {
+          "type": "string",
+          "description": "ID of the league's final boss encounter"
+        },
+        "completion_rewards": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "reward_type": {
+                "type": "string",
+                "enum": ["migration", "cosmetic", "achievement", "unlock"],
+                "description": "Type of reward"
+              },
+              "description": {
+                "type": "string",
+                "description": "Description of the reward"
+              }
+            }
+          }
+        },
+        "post_completion": {
+          "type": "string",
+          "description": "What happens after completing final boss"
+        }
+      }
+    },
+    "lore_integration": {
+      "type": "object",
+      "properties": {
+        "narrative_theme": {
+          "type": "string",
+          "description": "The main narrative theme of this league"
+        },
+        "timeline_explanation": {
+          "type": "string",
+          "description": "How this league fits into the temporal lore"
+        },
+        "world_changes": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "How the world differs from previous leagues"
+        }
+      }
+    },
+    "technical_details": {
+      "type": "object",
+      "properties": {
+        "server_type": {
+          "type": "string",
+          "enum": ["online", "offline", "hybrid"],
+          "description": "Server architecture"
+        },
+        "data_persistence": {
+          "type": "string",
+          "description": "How character/world data is stored"
+        },
+        "sync_requirements": {
+          "type": "string",
+          "description": "Online connectivity requirements"
+        }
+      }
+    },
+    "metadata": {
+      "type": "object",
+      "properties": {
+        "created": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Creation timestamp"
+        },
+        "last_updated": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Last update timestamp"
+        },
+        "author": {
+          "type": "string",
+          "description": "Content creator/author"
+        },
+        "version": {
+          "type": "string",
+          "description": "Content version"
+        },
+        "canonical": {
+          "type": "boolean",
+          "description": "Whether this is official canonical content"
+        }
+      },
+      "required": ["created", "last_updated", "canonical"]
+    }
+  },
+  "required": ["id", "name", "type", "status", "duration", "metadata"],
+  "additionalProperties": false
+}

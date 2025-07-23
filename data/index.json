@@ -28,6 +28,18 @@
       "description": "Deep world knowledge including cosmology, mythology, and magic systems",
       "required_fields": ["id", "title", "category", "knowledge_level", "certainty", "description", "metadata"],
       "example": "data/json/lore/example-lore.json"
+    },
+    "league": {
+      "file": "data/schemas/league.schema.json",
+      "description": "League mechanics and world types defining different gameplay experiences",
+      "required_fields": ["id", "name", "type", "status", "duration", "metadata"],
+      "example": "data/json/leagues/current-league-example.json"
+    },
+    "damage-type": {
+      "file": "data/schemas/damage-type.schema.json", 
+      "description": "Damage types and combat mechanics including elemental and primal categories",
+      "required_fields": ["id", "name", "category", "type", "description", "metadata"],
+      "example": "data/json/damage-types/fire-damage.json"
     }
   },
 
@@ -78,6 +90,29 @@
         "magic-systems": "How supernatural powers work",
         "prophecies": "Predictions and their interpretations",
         "mysteries": "Unexplained phenomena and questions"
+      }
+    },
+    "leagues": {
+      "path": "data/json/leagues/",
+      "schema": "league",
+      "count": 3,
+      "subcategories": {
+        "current": "Active seasonal leagues with temporary content",
+        "standard-eternal": "Permanent leagues for veteran characters",
+        "offline-eternal": "Offline permanent leagues for solo play",
+        "hardcore": "High-difficulty variant leagues",
+        "event": "Special short-term event leagues"
+      }
+    },
+    "damage-types": {
+      "path": "data/json/damage-types/",
+      "schema": "damage-type",
+      "count": 3,
+      "subcategories": {
+        "elemental": "Fire, cold, and lightning damage types",
+        "primal": "Holy, chaos, and physical damage types",
+        "temporal": "Time-based damage and effects",
+        "hybrid": "Combined or converted damage types"
       }
     }
   },

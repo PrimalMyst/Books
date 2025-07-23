@@ -1,0 +1,98 @@
+{
+  "id": "current-league-echoes-of-convergence",
+  "name": "Echoes of Convergence",
+  "type": "current",
+  "status": "active",
+  "duration": {
+    "start_date": "2025-07-01T00:00:00Z",
+    "end_date": "2025-10-01T00:00:00Z", 
+    "planned_duration": "3 months"
+  },
+  "world_state": {
+    "timeline_branch": "Prime Timeline - Cycle 847",
+    "reset_conditions": [
+      "League timer expiration",
+      "Final boss defeated by sufficient players",
+      "Critical temporal instability reached"
+    ],
+    "persistent_elements": [
+      "Account-wide achievements",
+      "Cosmetic unlocks", 
+      "Lore discoveries",
+      "Friend lists and guild memberships"
+    ],
+    "unique_features": [
+      {
+        "feature": "Convergence Echoes",
+        "description": "Temporal echoes appear randomly that show glimpses of alternate timeline events",
+        "impact": "Players can witness and sometimes interact with past/future league mechanics"
+      },
+      {
+        "feature": "Cascading Timeline Events",
+        "description": "Player actions collectively influence world-state changes that affect all players",
+        "impact": "Community decisions reshape available content and story progression"
+      }
+    ]
+  },
+  "character_progression": {
+    "starting_state": "fresh",
+    "progression_type": "temporary",
+    "migration_rules": {
+      "eligible_characters": [
+        "Characters that defeated the final boss",
+        "Characters above level threshold at league end"
+      ],
+      "migration_trigger": "League end or final boss completion", 
+      "items_transferred": [
+        "All equipment and inventory",
+        "Skill progression",
+        "Quest completion status",
+        "Atlas progression"
+      ]
+    }
+  },
+  "economy": {
+    "currency_system": "isolated",
+    "trade_availability": true,
+    "market_reset": true
+  },
+  "endgame_access": {
+    "final_boss": "the-temporal-sovereign",
+    "completion_rewards": [
+      {
+        "reward_type": "migration",
+        "description": "Character migrates to Standard Eternal league with all progress"
+      },
+      {
+        "reward_type": "cosmetic", 
+        "description": "Unique league completion cosmetic effects"
+      },
+      {
+        "reward_type": "achievement",
+        "description": "League completion achievements and titles"
+      }
+    ],
+    "post_completion": "Character automatically migrates to Standard Eternal league, player can create new character for continued current league play"
+  },
+  "lore_integration": {
+    "narrative_theme": "Investigating echoes from the original Temporal Convergence that are surfacing in the present",
+    "timeline_explanation": "This cycle represents a period where temporal resonance from the Great Convergence is causing historical events to 'echo' into the present",
+    "world_changes": [
+      "Ancient ruins phase in and out of existence",
+      "NPCs occasionally speak dialogue from past/future leagues",
+      "Locations may temporarily transform to show historical states"
+    ]
+  },
+  "technical_details": {
+    "server_type": "online",
+    "data_persistence": "Server-side with regular backups",
+    "sync_requirements": "Persistent internet connection required"
+  },
+  "metadata": {
+    "created": "2025-07-22T12:00:00Z",
+    "last_updated": "2025-07-22T12:00:00Z", 
+    "author": "ChronoMyst Development Team",
+    "version": "1.0.0",
+    "canonical": true
+  }
+}

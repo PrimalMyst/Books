@@ -1,0 +1,97 @@
+{
+  "id": "standard-eternal",
+  "name": "Standard Eternal",
+  "type": "standard-eternal",
+  "status": "active",
+  "duration": {
+    "start_date": "2025-01-01T00:00:00Z",
+    "end_date": null,
+    "planned_duration": "permanent"
+  },
+  "world_state": {
+    "timeline_branch": "Stabilized Prime Timeline - Eternal State",
+    "reset_conditions": [],
+    "persistent_elements": [
+      "All character progression",
+      "All items and equipment",
+      "Complete atlas progression", 
+      "All quest completions",
+      "Social connections",
+      "Housing and customizations"
+    ],
+    "unique_features": [
+      {
+        "feature": "Legacy Content Access",
+        "description": "Access to mechanics and content from all previous leagues",
+        "impact": "Provides long-term goals and access to retired content"
+      },
+      {
+        "feature": "Master Crafting Systems",
+        "description": "Advanced crafting options only available to experienced Chronarchs",
+        "impact": "Enables creation of extremely powerful equipment"
+      },
+      {
+        "feature": "Temporal Mastery Training",
+        "description": "Advanced skill development beyond normal league limitations",
+        "impact": "Characters can achieve power levels impossible in temporary leagues"
+      }
+    ]
+  },
+  "character_progression": {
+    "starting_state": "migrated",
+    "progression_type": "permanent",
+    "migration_rules": {
+      "eligible_characters": [
+        "Any character migrated from completed leagues"
+      ],
+      "migration_trigger": "Automatic upon league completion or manual request",
+      "items_transferred": [
+        "Complete character state transfer"
+      ]
+    }
+  },
+  "economy": {
+    "currency_system": "shared",
+    "trade_availability": true,
+    "market_reset": false
+  },
+  "endgame_access": {
+    "final_boss": "the-eternal-chronarch",
+    "completion_rewards": [
+      {
+        "reward_type": "unlock",
+        "description": "Access to Transcendent timeline manipulation abilities"
+      },
+      {
+        "reward_type": "cosmetic",
+        "description": "Eternal Champion visual effects and titles"
+      },
+      {
+        "reward_type": "achievement", 
+        "description": "Master of Time achievement series"
+      }
+    ],
+    "post_completion": "Character gains access to mentor systems for new players and exclusive content creation tools"
+  },
+  "lore_integration": {
+    "narrative_theme": "The stabilized timeline where Chronarchs who have proven themselves work to maintain temporal balance",
+    "timeline_explanation": "Represents the 'true' timeline that emerges from successful resolution of temporal crises", 
+    "world_changes": [
+      "Locations show their 'ideal' states after temporal healing",
+      "NPCs reference the character's legacy from previous leagues",
+      "Access to hidden areas that require temporal mastery to reach"
+    ]
+  },
+  "technical_details": {
+    "server_type": "online",
+    "data_persistence": "Highly redundant server-side storage with multiple backups",
+    "sync_requirements": "Internet connection required for play and trading"
+  },
+  "metadata": {
+    "created": "2025-07-22T12:05:00Z",
+    "last_updated": "2025-07-22T12:05:00Z",
+    "author": "ChronoMyst Development Team", 
+    "version": "1.0.0",
+    "canonical": true
+  }
+}
