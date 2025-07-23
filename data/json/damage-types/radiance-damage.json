@@ -1,0 +1,147 @@
+{
+  "id": "radiance-damage",
+  "name": "Radiance",
+  "category": "primal",
+  "type": "radiance",
+  "hexagonal_position": {
+    "vertex": 6,
+    "theme": "Radiant Order",
+    "associated_god": "Aurelius, the Radiant Sphere",
+    "god_tier": "primal",
+    "primary_attribute": "strength",
+    "secondary_attribute": "intelligence",
+    "defense_type": "armor_energy_shield_hybrid",
+    "adjacent_synergies": ["fire", "cold"],
+    "opposite_element": "lightning"
+  },
+  "description": {
+    "brief": "Pure divine energy that bypasses many defenses and provides special effectiveness against corrupted enemies.",
+    "detailed": "Radiance damage represents the power of divine protection and guidance. Unlike elemental damage which affects the physical realm, radiance damage directly impacts the spiritual essence of targets. It is particularly effective against chaotic and corrupted entities while providing healing and protective benefits to allies.",
+    "visual_effects": "Brilliant golden and white light with soft harmonic sounds, radiant beams, and protective aura effects",
+    "lore_explanation": "Radiance damage channels the power of Aurelius, the Radiant Sphere, one of the three Primal Gods actively worshipped today. This represents the protective divine energy - the warm light that guides lost souls, heals the wounded, and creates barriers against harm while allowing growth within safe boundaries."
+  },
+  "mechanics": {
+    "base_damage": {
+      "scaling_factor": 0.9,
+      "variance": {
+        "min_percent": 90,
+        "max_percent": 110
+      }
+    },
+    "status_effects": [
+      {
+        "effect_name": "Divine Protection",
+        "duration": "10 seconds",
+        "stacking": false,
+        "description": "Target takes increased radiance damage and reduced chaos damage"
+      },
+      {
+        "effect_name": "Radiant Blessing",
+        "duration": "15 seconds",
+        "stacking": true,
+        "description": "Allies near radiance damage sources gain damage reduction and regeneration"
+      }
+    ],
+    "resistances": {
+      "armor_effectiveness": 0.3,
+      "resistance_sources": ["Radiant protection spells", "Sacred artifacts", "Temporal stability buffs"],
+      "penetration_mechanics": "Radiance damage bypasses physical armor but can be resisted by spiritual defenses"
+    },
+    "interactions": [
+      {
+        "with_damage_type": "chaos",
+        "interaction_type": "amplifies",
+        "result": "Creates devastating purification explosion",
+        "conditions": "When radiance damage hits a chaos-affected target"
+      },
+      {
+        "with_damage_type": "physical",
+        "interaction_type": "combines",
+        "result": "Physical attacks become blessed, gaining radiance properties",
+        "conditions": "When blessed weapons deal physical damage"
+      }
+    ]
+  },
+  "temporal_aspects": {
+    "time_interaction": "none",
+    "chronarch_synergy": "Stabilizes temporal abilities, reducing chaos and preventing temporal backlash",
+    "temporal_enhancement": "Time-locked radiance effects can create persistent consecrated areas"
+  },
+  "equipment_synergy": {
+    "weapon_types": ["Radiant Symbols", "Blessed Blades", "Divine Staves", "Consecrated Gauntlets"],
+    "armor_interactions": ["Sacred vestments increase radiance power", "Divine armor provides chaos resistance"],
+    "artifact_synergies": ["Fragments of Divine Will", "Temporal Harmony Crystals", "Sanctified Relics"]
+  },
+  "enemy_vulnerabilities": [
+    {
+      "enemy_type": "Chaos-corrupted entities",
+      "vulnerability_reason": "Opposing force to divine order",
+      "effectiveness_multiplier": 2.0
+    },
+    {
+      "enemy_type": "Temporal parasites",
+      "vulnerability_reason": "Destabilizing influence on timeline",
+      "effectiveness_multiplier": 1.8
+    },
+    {
+      "enemy_type": "Undead",
+      "vulnerability_reason": "Divine energy opposes undeath",
+      "effectiveness_multiplier": 1.6
+    }
+  ],
+  "build_archetypes": [
+    {
+      "archetype_name": "Divine Guardian", 
+      "focus": "Tank build with radiance damage and ally protection",
+      "synergistic_skills": ["Divine Shield", "Consecrated Ground", "Purifying Aura", "Temporal Sanctuary"]
+    },
+    {
+      "archetype_name": "Purifier",
+      "focus": "Anti-chaos specialist with burst radiance damage",
+      "synergistic_skills": ["Radiant Wrath", "Chaos Banishment", "Divine Judgment", "Sanctified Weapons"]
+    }
+  ],
+  "tags": ["primal", "radiance", "divine", "anti-chaos", "support", "purification"],
+  "metadata": {
+    "created": "2025-07-23T10:05:00Z",
+    "last_updated": "2025-07-23T10:05:00Z",
+    "author": "ChronoMyst Development Team",
+    "version": "1.0.0",
+    "canonical": true
+  },
+  "hexagonal_interactions": {
+    "effectiveness_vs": {
+      "cold": 1.33,
+      "chaos": 1.66,
+      "lightning": 1.99,
+      "physical": 0.34,
+      "fire": 0.67,
+      "radiance": 1.0
+    },
+    "calculation_parameters": {
+      "base_effectiveness": 1.0,
+      "effectiveness_step": 0.33,
+      "calculation_formula": "base_effectiveness * (1 + position_modifier * effectiveness_step)"
+    },
+    "position_relationships": {
+      "next": "cold",
+      "second_next": "chaos",
+      "opposite": "lightning",
+      "second_previous": "physical",
+      "previous": "fire"
+    },
+    "divine_trio_reference": {
+      "trio_file": "primal-trio.json",
+      "trio_type": "primal",
+      "god_name": "Lumina, the Dawn Bringer",
+      "position_in_trio": 6,
+      "domain": "Radiance"
+    },
+    "interaction_explanation": {
+      "strong_against": "Cold and Chaos - Divine light reveals what preservation would hide and banishes shadow corruption",
+      "weak_against": "Fire and Physical - Transformative heat burns away divine illusions, martial discipline focuses divine energy into practical action",
+      "neutral_with": "Radiance (self-mastery) and Lightning - Perfect divine illumination, balanced opposition with fundamental connection"
+    }
+  }
+}
+

@@ -3,6 +3,17 @@
   "name": "Chaos",
   "category": "primal", 
   "type": "chaos",
+  "hexagonal_position": {
+    "vertex": 2,
+    "theme": "Creative Chaos",
+    "associated_god": "Serafina, the Shadow Empress",
+    "god_tier": "primal",
+    "primary_attribute": "intelligence",
+    "secondary_attribute": "dexterity",
+    "defense_type": "energy_shield_evasion_hybrid",
+    "adjacent_synergies": ["cold", "lightning"],
+    "opposite_element": "fire"
+  },
   "description": {
     "brief": "Unpredictable entropic force that ignores resistances and creates random effects, representing beneficial change and creative destruction.",
     "detailed": "Chaos damage embodies the force of beneficial transformation and necessary change championed by Nyxtharion. It bypasses most conventional defenses by attacking stagnation and rigid order. Chaos damage is inherently unpredictable, with effects that can vary wildly between applications, making it both powerful and requiring skill to wield effectively.",
@@ -103,5 +114,40 @@
     "author": "ChronoMyst Development Team",
     "version": "1.0.0",
     "canonical": true
+  },
+  "hexagonal_interactions": {
+    "effectiveness_vs": {
+      "cold": 0.67,
+      "chaos": 1.0,
+      "lightning": 1.33,
+      "physical": 1.66,
+      "fire": 1.99,
+      "radiance": 0.34
+    },
+    "calculation_parameters": {
+      "base_effectiveness": 1.0,
+      "effectiveness_step": 0.33,
+      "calculation_formula": "base_effectiveness * (1 + position_modifier * effectiveness_step)"
+    },
+    "position_relationships": {
+      "next": "lightning",
+      "second_next": "physical",
+      "opposite": "fire", 
+      "second_previous": "radiance",
+      "previous": "cold"
+    },
+    "divine_trio_reference": {
+      "trio_file": "primal-trio.json",
+      "trio_type": "primal",
+      "god_name": "Vorthak, the Shadow Weaver", 
+      "position_in_trio": 2,
+      "domain": "Chaos"
+    },
+    "interaction_explanation": {
+      "strong_against": "Lightning and Physical - Chaos disrupts ordered energy flow and undermines disciplined martial techniques",
+      "weak_against": "Cold and Radiance - Preservation freezes chaotic change, divine order banishes corrupt shadows",
+      "neutral_with": "Chaos (self-mastery) and Fire - Creative destruction neither aids nor opposes transformative force"
+    }
   }
 }
+

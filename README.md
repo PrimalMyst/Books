@@ -59,6 +59,38 @@ The game world centers around **Yggdrasil**, the cosmic World Tree whose roots, 
 - **Cooperative exploration** of mysterious and dangerous realms
 - **Balance between order and chaos** in maintaining Yggdrasil's health
 
+#### **Thematic Framework**
+PrimalMyst is built around a **hexagonal thematic structure** that organizes all major game systems:
+
+```
+                    COLD (Preservation)
+                   Intelligence / ES
+                      /\
+                     /  \
+         RADIANCE       CHAOS
+         Str+Int        Int+Dex  
+        Armor+ES        ES+Eva
+                   \    /
+                    \  /
+         FIRE ---- ---- LIGHTNING
+         Strength       Dexterity
+         Armor          Evasion
+                    \  /
+                     \/
+                PHYSICAL
+                Dex+Str
+               Eva+Armor
+```
+
+This hexagon aligns:
+- **Six Damage Types**: Cold → Chaos → Lightning → Physical → Fire → Radiance
+- **Six Eldritch Gods**: Fundamental (Glacius, Voltharion, Pyrion) and Primal (Serafina, Korthak, Aurelius)  
+- **Six Realms**: Each anchored by a branch of Yggdrasil
+- **Character Attributes**: Intelligence, Dexterity, Strength and their hybrids
+- **Defense Types**: Energy Shield, Evasion, Armor and their combinations
+
+Adjacent elements synergize naturally, while opposite elements create meaningful build challenges and strategic depth.
+
 #### **Gameplay Overview**
 Players create mist-walkers with distinct **mystical specializations** and **runic weapon affinities**. Core gameplay loop includes:
 
@@ -102,7 +134,8 @@ PrimalMyst-books/
 │   ├── timeline/             # mysticlogical events
 │   ├── factions/             # Organizations and groups
 │   ├── artifacts/            # Important items and relics
-│   └── lore/                 # Deep lore and mythology
+│   ├── lore/                 # Deep lore and mythology
+│   └── world-building/       # Game systems and thematic structures
 │
 ├── community/                # User-generated content
 │   ├── theories/             # Player theories and speculation

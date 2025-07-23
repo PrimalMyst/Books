@@ -3,6 +3,16 @@
   "name": "Lightning",
   "category": "elemental", 
   "type": "lightning",
+  "hexagonal_position": {
+    "vertex": 3,
+    "theme": "Divine Connection",
+    "associated_god": "Voltharion, the Cosmic Spark",
+    "god_tier": "fundamental",
+    "primary_attribute": "dexterity",
+    "defense_type": "evasion",
+    "adjacent_synergies": ["chaos", "physical"],
+    "opposite_element": "radiance"
+  },
   "description": {
     "brief": "Electrical damage that can chain between enemies and provides burst damage with stunning effects.",
     "detailed": "Lightning damage represents the power of connection and sudden revelation. It excels at hitting multiple targets through chaining effects and can provide powerful burst damage with stunning capabilities. Lightning damage often has the highest single-hit potential but can be unpredictable in its targeting.",
@@ -88,6 +98,40 @@
     "ancient_nature": "Predates the World Tree itself, serving as the original connecting force between all things",
     "divine_communication": "Lightning practitioners sometimes receive brief flashes of divine insight during powerful castings"
   },
+  "hexagonal_interactions": {
+    "effectiveness_vs": {
+      "cold": 0.34,
+      "chaos": 0.67,
+      "lightning": 1.0,
+      "physical": 1.33,
+      "fire": 1.66,
+      "radiance": 1.99
+    },
+    "calculation_parameters": {
+      "base_effectiveness": 1.0,
+      "effectiveness_step": 0.33,
+      "calculation_formula": "base_effectiveness * (1 + position_modifier * effectiveness_step)"
+    },
+    "position_relationships": {
+      "next": "physical",
+      "second_next": "fire",
+      "opposite": "radiance",
+      "second_previous": "cold",
+      "previous": "chaos"
+    },
+    "divine_trio_reference": {
+      "trio_file": "fundamental-trio.json",
+      "trio_type": "fundamental", 
+      "god_name": "Voltharion, the Cosmic Spark",
+      "position_in_trio": 3,
+      "domain": "Connection"
+    },
+    "interaction_explanation": {
+      "strong_against": "Physical and Fire - Lightning overwhelms physical defenses with speed and energizes flame into plasma",
+      "weak_against": "Chaos and Cold - Chaotic energy disrupts electrical patterns, cold crystallization grounds and dissipates energy",
+      "neutral_with": "Lightning (self-mastery) and Radiance - Pure energy mastery, balanced opposition with divine illumination"
+    }
+  },
   "metadata": {
     "version": "1.0",
     "last_updated": "2025-07-23", 
@@ -100,3 +144,4 @@
     ]
   }
 }
+

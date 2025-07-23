@@ -20,8 +20,59 @@
     },
     "type": {
       "type": "string",
-      "enum": ["fire", "cold", "lightning", "holy", "chaos", "physical", "mystical-slow", "mystical-acceleration", "mystical-fracture"],
+      "enum": ["fire", "cold", "lightning", "radiance", "chaos", "physical", "mystical-slow", "mystical-acceleration", "mystical-fracture"],
       "description": "Specific damage type"
+    },
+    "hexagonal_position": {
+      "type": "object",
+      "description": "Position within the core thematic hexagon structure",
+      "properties": {
+        "vertex": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 6,
+          "description": "Position in hexagon (1=top, clockwise)"
+        },
+        "theme": {
+          "type": "string",
+          "description": "Thematic concept for this vertex"
+        },
+        "associated_god": {
+          "type": "string",
+          "description": "The Eldritch God associated with this damage type"
+        },
+        "god_tier": {
+          "type": "string",
+          "enum": ["fundamental", "primal"],
+          "description": "Whether this is a Fundamental or Primal god"
+        },
+        "primary_attribute": {
+          "type": "string",
+          "enum": ["strength", "dexterity", "intelligence"],
+          "description": "Primary character attribute for this damage type"
+        },
+        "secondary_attribute": {
+          "type": ["string", "null"],
+          "enum": ["strength", "dexterity", "intelligence", null],
+          "description": "Secondary attribute (null for pure builds)"
+        },
+        "defense_type": {
+          "type": "string",
+          "description": "Preferred defense approach for this vertex"
+        },
+        "adjacent_synergies": {
+          "type": "array",
+          "items": {"type": "string"},
+          "minItems": 2,
+          "maxItems": 2,
+          "description": "The two adjacent damage types that synergize"
+        },
+        "opposite_element": {
+          "type": "string",
+          "description": "The opposite damage type in the hexagon"
+        }
+      },
+      "required": ["vertex", "theme", "associated_god", "god_tier", "primary_attribute", "defense_type", "adjacent_synergies", "opposite_element"]
     },
     "description": {
       "type": "object",
@@ -139,6 +190,58 @@
               }
             }
           }
+        },
+        "hexagonal_interactions": {
+          "type": "object",
+          "description": "Damage effectiveness multipliers based on hexagonal position relationships",
+          "properties": {
+            "effectiveness_vs": {
+              "type": "object",
+              "description": "Damage multipliers when this damage type attacks other types",
+              "properties": {
+                "cold": {"type": "number", "description": "Effectiveness multiplier vs Cold"},
+                "chaos": {"type": "number", "description": "Effectiveness multiplier vs Chaos"},
+                "lightning": {"type": "number", "description": "Effectiveness multiplier vs Lightning"},
+                "physical": {"type": "number", "description": "Effectiveness multiplier vs Physical"},
+                "fire": {"type": "number", "description": "Effectiveness multiplier vs Fire"},
+                "radiance": {"type": "number", "description": "Effectiveness multiplier vs Radiance"}
+              },
+              "required": ["cold", "chaos", "lightning", "physical", "fire", "radiance"]
+            },
+            "position_relationships": {
+              "type": "object",
+              "description": "Relationship types with other hexagonal positions",
+              "properties": {
+                "next": {"type": "string", "description": "Next damage type clockwise (+1)"},
+                "second_next": {"type": "string", "description": "Second next damage type (+2)"},
+                "opposite": {"type": "string", "description": "Opposite damage type (+3)"},
+                "second_previous": {"type": "string", "description": "Second previous damage type (+4)"},
+                "previous": {"type": "string", "description": "Previous damage type (+5)"}
+              },
+              "required": ["next", "second_next", "opposite", "second_previous", "previous"]
+            },
+            "divine_trio_dynamics": {
+              "type": "object",
+              "description": "How this damage type interacts within divine trio relationships",
+              "properties": {
+                "trio_type": {
+                  "type": "string", 
+                  "enum": ["fundamental", "primal"],
+                  "description": "Which divine trio this belongs to"
+                },
+                "trio_interactions": {
+                  "type": "string",
+                  "description": "Rock-paper-scissors dynamics within the trio"
+                },
+                "cross_trio_relationship": {
+                  "type": "string",
+                  "description": "How this trio relates to the other trio"
+                }
+              },
+              "required": ["trio_type", "trio_interactions", "cross_trio_relationship"]
+            }
+          },
+          "required": ["effectiveness_vs", "position_relationships", "divine_trio_dynamics"]
         }
       }
     },

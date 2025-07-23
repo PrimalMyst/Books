@@ -3,6 +3,16 @@
   "name": "Cold",
   "category": "elemental",
   "type": "cold",
+  "hexagonal_position": {
+    "vertex": 1,
+    "theme": "Eternal Preservation",
+    "associated_god": "Glacius, the Eternal Frost",
+    "god_tier": "fundamental",
+    "primary_attribute": "intelligence",
+    "defense_type": "energy_shield",
+    "adjacent_synergies": ["radiance", "chaos"],
+    "opposite_element": "physical"
+  },
   "description": {
     "brief": "Freezing damage that slows enemies and can shatter them when they reach critical cold thresholds.",
     "detailed": "Cold damage represents the power of preservation and crystallization. It excels at controlling enemy movement through slowing effects and can build up to devastating shattering attacks when enemies become fully frozen. Cold damage creates defensive benefits through armor formation and movement control.",
@@ -97,5 +107,40 @@
       "lightning-damage.json",
       "eldritch-pantheon.json"
     ]
+  },
+  "hexagonal_interactions": {
+    "effectiveness_vs": {
+      "cold": 1.0,
+      "chaos": 1.33,
+      "lightning": 1.66,
+      "physical": 1.99,
+      "fire": 0.34,
+      "radiance": 0.67
+    },
+    "calculation_parameters": {
+      "base_effectiveness": 1.0,
+      "effectiveness_step": 0.33,
+      "calculation_formula": "base_effectiveness * (1 + position_modifier * effectiveness_step)"
+    },
+    "position_relationships": {
+      "next": "chaos",
+      "second_next": "lightning", 
+      "opposite": "physical",
+      "second_previous": "fire",
+      "previous": "radiance"
+    },
+    "divine_trio_reference": {
+      "trio_file": "fundamental-trio.json",
+      "trio_type": "fundamental",
+      "god_name": "Glacius, the Eternal Frost",
+      "position_in_trio": 1,
+      "domain": "Preservation"
+    },
+    "interaction_explanation": {
+      "strong_against": "Chaos and Lightning - Cold's preservation freezes chaotic change and grounds electrical energy into stable crystalline forms",
+      "weak_against": "Fire and Radiance - Heat melts ice, divine light reveals what cold darkness would conceal",
+      "neutral_with": "Cold (self-mastery) and Physical - Preservation neither aids nor hinders direct physical force"
+    }
   }
 }
+
