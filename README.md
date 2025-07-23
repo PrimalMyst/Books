@@ -169,8 +169,8 @@ PrimalMyst-books/
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/[your-org]/PrimalMyst-books.git
-   cd PrimalMyst-books
+   git clone https://github.com/PrimalMyst/Books.git
+   cd Books
    ```
 
 2. **Install dependencies** (if applicable)
