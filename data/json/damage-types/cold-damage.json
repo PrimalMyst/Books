@@ -109,15 +109,7 @@
     ]
   },
   "hexagonal_interactions": {
-    "offensive_multipliers": {
-      "cold": 1.0,
-      "chaos": 1.33,
-      "lightning": 1.66,
-      "physical": 1.0,
-      "fire": 0.66,
-      "radiance": 0.33
-    },
-    "defensive_multipliers": {
+    "effectiveness_vs": {
       "cold": 1.0,
       "chaos": 1.33,
       "lightning": 1.66,
@@ -132,10 +124,15 @@
       "second_previous": "fire",
       "previous": "radiance"
     },
+    "divine_trio_dynamics": {
+      "trio_type": "fundamental",
+      "trio_interactions": "Cold preserves what Fire would transform, Lightning connects what Cold would isolate. Fire melts Cold's crystalline perfection, Cold grounds Lightning's chaotic energy, Lightning energizes what Cold would still. The eternal dance of preservation, transformation, and connection.",
+      "cross_trio_relationship": "Fundamental gods provide the cosmic framework that Primal gods actively manipulate. Cold's preservation opposes Chaos's change, supports Physical's discipline through structure, and resists Radiance's revelatory light that would expose what Cold preserves in secrecy."
+    },
     "interaction_explanation": {
-      "strong_against": "Chaos and Lightning - Cold's preservation counters chaotic change and grounds electrical energy",
-      "weak_against": "Fire and Radiance - Heat melts ice, divine light reveals what cold would hide",
-      "neutral_with": "Cold (self) and Physical - Perfect self-mastery, balanced opposition with direct force"
+      "strong_against": "Chaos and Lightning - Cold's preservation freezes chaotic change and grounds electrical energy into stable crystalline forms",
+      "weak_against": "Fire and Radiance - Heat melts ice, divine light reveals what cold darkness would conceal",
+      "neutral_with": "Cold (self-mastery) and Physical - Preservation neither aids nor hinders direct physical force"
     }
   }
 }

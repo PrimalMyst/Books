@@ -2,7 +2,7 @@
 
 ## Hexagonal Interaction System
 
-The six damage types form a hexagonal relationship where position determines interaction strength:
+The six damage types form a hexagonal relationship where position determines interaction strength. This system uses a single effectiveness multiplier, leaving room for hybrid damage types and complex interactions.
 
 ```
                     (1) COLD
@@ -21,21 +21,15 @@ The six damage types form a hexagonal relationship where position determines int
 
 ## Interaction Rules
 
-### Offensive Multipliers (Damage Dealt)
-- **Next Type (+1):** 1.33x damage
-- **Second Next (+2):** 1.66x damage  
-- **Self (0):** 1.0x damage (neutral)
-- **Opposite (+3):** 1.0x damage (neutral)
-- **Second Previous (+4):** 0.66x damage
-- **Previous (+5):** 0.33x damage
+### Effectiveness Multipliers
+- **Next Type (+1):** 1.33x effectiveness
+- **Second Next (+2):** 1.66x effectiveness  
+- **Self (0):** 1.0x effectiveness (neutral)
+- **Opposite (+3):** 1.0x effectiveness (neutral)
+- **Second Previous (+4):** 0.66x effectiveness
+- **Previous (+5):** 0.33x effectiveness
 
-### Defensive Multipliers (Damage Taken)
-- **Previous Type (-1):** 0.66x damage taken
-- **Second Previous (-2):** 0.33x damage taken
-- **Self (0):** 1.0x damage taken (neutral)
-- **Opposite (-3):** 1.0x damage taken (neutral)
-- **Second Next (-4):** 1.66x damage taken
-- **Next (-5):** 1.33x damage taken
+*Note: Using a single multiplier system allows for future hybrid damage types (e.g., Fire-Lightning) and leaves room for defensive modifiers, conversion mechanics, and other complex interactions.*
 
 ## Complete Interaction Table
 
@@ -47,6 +41,35 @@ The six damage types form a hexagonal relationship where position determines int
 | **Physical**           | 1.0x | 0.66x | 0.33x     | 1.0x     | 1.33x| 1.66x    |
 | **Fire**               | 1.66x| 1.0x  | 0.66x     | 0.33x    | 1.0x | 1.33x    |
 | **Radiance**           | 1.33x| 1.66x | 1.0x      | 0.66x    | 0.33x| 1.0x     |
+
+## Divine Trio Dynamics
+
+### The Fundamental Trio (Rock-Paper-Scissors)
+**Cold ↔ Lightning ↔ Fire**
+
+- **Cold vs Lightning:** Preservation grounds chaotic energy → Cold strong vs Lightning
+- **Lightning vs Fire:** Connection conducts and energizes heat → Lightning strong vs Fire  
+- **Fire vs Cold:** Transformation melts crystalline structures → Fire strong vs Cold
+
+*"The eternal cycle of preservation, transmission, and transformation that existed before creation itself."*
+
+### The Primal Trio (Rock-Paper-Scissors)
+**Chaos ↔ Physical ↔ Radiance**
+
+- **Chaos vs Physical:** Creative destruction disrupts disciplined order → Chaos strong vs Physical
+- **Physical vs Radiance:** Martial discipline grounds ethereal power → Physical strong vs Radiance
+- **Radiance vs Chaos:** Divine light banishes shadow corruption → Radiance strong vs Chaos
+
+*"The active struggle of change, strength, and illumination that shapes mortal reality."*
+
+### Cross-Trio Relationships
+**Fundamental ↔ Primal Interactions**
+
+The six damage types create a perfect hexagonal balance where:
+- **Fundamental gods** provide the cosmic framework and raw power
+- **Primal gods** actively channel and direct that power for mortal purposes
+- Each Fundamental force flows through and empowers specific Primal manifestations
+- The hexagonal structure ensures no single divine influence dominates
 
 ## Strategic Implications
 
@@ -65,6 +88,7 @@ The six damage types form a hexagonal relationship where position determines int
 #### Pure Builds
 - **Advantages:** Maximum effectiveness against specific targets
 - **Disadvantages:** Clear vulnerabilities to specific damage types
+- **Best For:** Specialized roles, min-maxing damage
 
 #### Adjacent Builds (Hybrid)
 - **Cold + Chaos:** Strong vs Lightning/Physical, weak vs Fire/Radiance
@@ -79,33 +103,42 @@ The six damage types form a hexagonal relationship where position determines int
 - **Chaos + Fire:** Balanced offensive/defensive profile
 - **Lightning + Radiance:** High risk, high reward combinations
 
-## Lore Justification
+## Lore Integration
 
 ### The Cosmic Flow
-The interaction pattern reflects the natural flow of cosmic energy through Yggdrasil's hexagonal structure:
+The interaction pattern reflects the natural flow of divine energy through Yggdrasil's hexagonal structure:
 
 - **Forward Flow (Stronger):** Energy flows naturally to the next positions in the cosmic cycle
 - **Backward Resistance (Weaker):** Acting against the cosmic flow requires more effort
 - **Neutral Points:** Self-interaction (pure mastery) and Opposition (perfect balance)
 
 ### Divine Relationships
-- **Fundamental Gods** (Cold, Lightning, Fire) have complex interactions with **Primal Gods** (Chaos, Physical, Radiance)
-- The pattern ensures no single divine influence dominates the cosmic balance
-- Adjacent gods support each other's followers, while distant gods challenge them
+The alternating pattern of Fundamental and Primal gods creates cosmic stability:
+- **Fundamental Trinity:** Ancient powers that create the foundation of reality
+- **Primal Trinity:** Active forces that shape and direct fundamental energies
+- **Hexagonal Balance:** No single divine influence can dominate the cosmic order
 
-## Gameplay Applications
+### Mythological Significance
+Each interaction tells a story of cosmic relationships:
+- **Cold → Chaos:** Preservation battles creative change
+- **Chaos → Lightning:** Disorder disrupts ordered connections  
+- **Lightning → Physical:** Speed overwhelms martial positioning
+- **Physical → Fire:** Discipline contains raw transformation
+- **Fire → Radiance:** Heat burns away divine illusions
+- **Radiance → Cold:** Light reveals what darkness would hide
 
-### PvP Balance
-- Rock-paper-scissors dynamics with multiple layers
-- No single build dominates all situations
-- Skill expression through damage type selection and timing
+## Future Expansion Potential
 
-### PvE Design
-- Enemy compositions can be designed around interaction weaknesses
-- Players must consider damage type diversity in group composition
-- Boss mechanics can emphasize different interaction patterns
+### Hybrid Damage Types
+The simplified system leaves room for:
+- **Fire-Lightning:** Plasma damage combining heat and electricity
+- **Cold-Physical:** Crystalline weapons that preserve and strike
+- **Chaos-Radiance:** Corrupted light that twists divine energy
 
-### Equipment Design
-- Conversion mechanics become strategically important
-- Resistance gear provides meaningful choices
-- Hybrid damage types offer tactical flexibility
+### Additional Mechanics
+- **Conversion Effects:** Items that change damage types
+- **Resistance Scaling:** Defensive multipliers separate from effectiveness
+- **Environmental Interactions:** How damage types interact with terrain
+- **Status Effect Synergies:** Combined effects from multiple damage types
+
+This hexagonal framework ensures that all damage interactions connect meaningfully to the cosmic mythology while maintaining perfect game balance.

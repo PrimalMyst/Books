@@ -116,15 +116,7 @@
     "canonical": true
   },
   "hexagonal_interactions": {
-    "offensive_multipliers": {
-      "cold": 0.33,
-      "chaos": 1.0,
-      "lightning": 1.33,
-      "physical": 1.66,
-      "fire": 1.0,
-      "radiance": 0.66
-    },
-    "defensive_multipliers": {
+    "effectiveness_vs": {
       "cold": 0.33,
       "chaos": 1.0,
       "lightning": 1.33,
@@ -139,10 +131,15 @@
       "second_previous": "radiance",
       "previous": "cold"
     },
+    "divine_trio_dynamics": {
+      "trio_type": "primal",
+      "trio_interactions": "Chaos disrupts what Physical would discipline, Radiance illuminates what Chaos would hide in shadow. Physical discipline contains Chaos's wild energy, Chaos breaks Radiance's rigid order, Radiance purifies what Chaos would corrupt. The active struggle of change, order, and strength.",
+      "cross_trio_relationship": "Primal gods actively shape reality within the framework of Fundamental forces. Chaos's transformation battles Cold's preservation, flows around Lightning's connections, and opposes Fire's ordered change with beneficial creative destruction."
+    },
     "interaction_explanation": {
-      "strong_against": "Lightning and Physical - Chaos disrupts ordered energy flow and undermines disciplined strength",
-      "weak_against": "Cold and Radiance - Preservation freezes change, divine order counters chaos",
-      "neutral_with": "Chaos (self) and Fire - Perfect self-mastery, balanced opposition with transformative force"
+      "strong_against": "Lightning and Physical - Chaos disrupts ordered energy flow and undermines disciplined martial techniques",
+      "weak_against": "Cold and Radiance - Preservation freezes chaotic change, divine order banishes corrupt shadows",
+      "neutral_with": "Chaos (self-mastery) and Fire - Creative destruction neither aids nor opposes transformative force"
     }
   }
 }

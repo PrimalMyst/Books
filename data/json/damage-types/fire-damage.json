@@ -109,15 +109,7 @@
     "canonical": true
   },
   "hexagonal_interactions": {
-    "offensive_multipliers": {
-      "cold": 1.66,
-      "chaos": 1.0,
-      "lightning": 0.66,
-      "physical": 0.33,
-      "fire": 1.0,
-      "radiance": 1.33
-    },
-    "defensive_multipliers": {
+    "effectiveness_vs": {
       "cold": 1.66,
       "chaos": 1.0,
       "lightning": 0.66,
@@ -132,10 +124,15 @@
       "second_previous": "lightning",
       "previous": "physical"
     },
+    "divine_trio_dynamics": {
+      "trio_type": "fundamental",
+      "trio_interactions": "Fire transforms what Cold would preserve forever, Lightning energizes what Fire would consume. Cold crystallizes Fire's chaotic energy, Fire melts Cold's rigid structures, Lightning conducts Fire's heat into directed energy. The cosmic cycle of transformation, preservation, and transmission.",
+      "cross_trio_relationship": "Fundamental powers provide the cosmic engine for Primal activities. Fire's transformation opposes Chaos's random change through ordered heat, overwhelms Physical discipline with raw energy, and provides the purifying force that Radiance shapes into protective light."
+    },
     "interaction_explanation": {
-      "strong_against": "Radiance and Cold - Fire's transformation melts preservation and purifies divine light",
-      "weak_against": "Physical and Lightning - Disciplined technique deflects flames, electricity conducts through heat",
-      "neutral_with": "Fire (self) and Chaos - Perfect self-mastery, balanced opposition with creative force"
+      "strong_against": "Radiance and Cold - Fire's transformation burns away divine illusions and melts crystalline preservation",
+      "weak_against": "Physical and Lightning - Disciplined technique deflects raw heat, electrical energy conducts and redirects flame",
+      "neutral_with": "Fire (self-mastery) and Chaos - Perfect transformative control, balanced opposition with creative destruction"
     }
   }
 }

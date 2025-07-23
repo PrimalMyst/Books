@@ -110,15 +110,7 @@
     "canonical": true
   },
   "hexagonal_interactions": {
-    "offensive_multipliers": {
-      "cold": 1.33,
-      "chaos": 1.66,
-      "lightning": 1.0,
-      "physical": 0.66,
-      "fire": 0.33,
-      "radiance": 1.0
-    },
-    "defensive_multipliers": {
+    "effectiveness_vs": {
       "cold": 1.33,
       "chaos": 1.66,
       "lightning": 1.0,
@@ -133,10 +125,15 @@
       "second_previous": "physical",
       "previous": "fire"
     },
+    "divine_trio_dynamics": {
+      "trio_type": "primal",
+      "trio_interactions": "Radiance illuminates what Chaos would corrupt through shadow, Physical strength grounds what Radiance would make ethereal. Chaos corrupts Radiance's pure light, Radiance purifies Physical's material focus, Physical provides the vessel through which Radiance manifests. The eternal trinity of illumination, strength, and transformation.",
+      "cross_trio_relationship": "Primal gods channel and direct Fundamental energies toward mortal purposes. Radiance transforms Cold's preservation into protective light, opposes Fire's raw destruction with ordered illumination, and provides the divine guidance that Lightning's connections require."
+    },
     "interaction_explanation": {
-      "strong_against": "Cold and Chaos - Divine light reveals hidden truths and banishes chaotic corruption",
-      "weak_against": "Fire and Physical - Transformative heat disrupts divine order, martial discipline channels divine energy",
-      "neutral_with": "Radiance (self) and Lightning - Perfect self-mastery, balanced opposition with connecting force"
+      "strong_against": "Cold and Chaos - Divine light reveals what preservation would hide and banishes shadow corruption",
+      "weak_against": "Fire and Physical - Transformative heat burns away divine illusions, martial discipline focuses divine energy into practical action",
+      "neutral_with": "Radiance (self-mastery) and Lightning - Perfect divine illumination, balanced opposition with fundamental connection"
     }
   }
 }

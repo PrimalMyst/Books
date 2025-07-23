@@ -111,15 +111,7 @@
     "mastery_progression": "Advanced techniques require both physical capability and mental discipline"
   },
   "hexagonal_interactions": {
-    "offensive_multipliers": {
-      "cold": 1.0,
-      "chaos": 0.66,
-      "lightning": 0.33,
-      "physical": 1.0,
-      "fire": 1.33,
-      "radiance": 1.66
-    },
-    "defensive_multipliers": {
+    "effectiveness_vs": {
       "cold": 1.0,
       "chaos": 0.66,
       "lightning": 0.33,
@@ -134,10 +126,15 @@
       "second_previous": "chaos",
       "previous": "lightning"
     },
+    "divine_trio_dynamics": {
+      "trio_type": "primal",
+      "trio_interactions": "Physical discipline contains what Chaos would scatter, Radiance illuminates the honor within Physical strength. Chaos breaks Physical's rigid forms, Physical grounds Radiance's ethereal power, Radiance purifies what Physical force might corrupt. The eternal balance of order, change, and illumination.",
+      "cross_trio_relationship": "Primal gods work within Fundamental structures but actively reshape reality. Physical mastery harnesses Fire's transformative power, resists Lightning's disruption through disciplined focus, and provides the stable foundation that Cold's preservation requires."
+    },
     "interaction_explanation": {
-      "strong_against": "Fire and Radiance - Disciplined martial prowess overcomes raw heat and channels divine energy",
-      "weak_against": "Lightning and Chaos - Speed overwhelms physical positioning, chaos disrupts disciplined techniques",
-      "neutral_with": "Physical (self) and Cold - Perfect self-mastery, balanced opposition with preservation force"
+      "strong_against": "Fire and Radiance - Disciplined martial prowess channels raw transformative heat and focuses divine energy through trained will",
+      "weak_against": "Lightning and Chaos - Electrical speed bypasses physical positioning, chaotic energy disrupts disciplined techniques",
+      "neutral_with": "Physical (self-mastery) and Cold - Perfect martial discipline, balanced opposition with preservation's stillness"
     }
   },
   "metadata": {

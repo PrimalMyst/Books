@@ -193,31 +193,18 @@
         },
         "hexagonal_interactions": {
           "type": "object",
-          "description": "Damage multipliers based on hexagonal position relationships",
+          "description": "Damage effectiveness multipliers based on hexagonal position relationships",
           "properties": {
-            "offensive_multipliers": {
+            "effectiveness_vs": {
               "type": "object",
-              "description": "Damage multipliers when attacking other damage types",
+              "description": "Damage multipliers when this damage type attacks other types",
               "properties": {
-                "cold": {"type": "number", "description": "Damage multiplier vs Cold"},
-                "chaos": {"type": "number", "description": "Damage multiplier vs Chaos"},
-                "lightning": {"type": "number", "description": "Damage multiplier vs Lightning"},
-                "physical": {"type": "number", "description": "Damage multiplier vs Physical"},
-                "fire": {"type": "number", "description": "Damage multiplier vs Fire"},
-                "radiance": {"type": "number", "description": "Damage multiplier vs Radiance"}
-              },
-              "required": ["cold", "chaos", "lightning", "physical", "fire", "radiance"]
-            },
-            "defensive_multipliers": {
-              "type": "object", 
-              "description": "Damage multipliers when receiving damage from other types",
-              "properties": {
-                "cold": {"type": "number", "description": "Damage taken multiplier from Cold"},
-                "chaos": {"type": "number", "description": "Damage taken multiplier from Chaos"},
-                "lightning": {"type": "number", "description": "Damage taken multiplier from Lightning"},
-                "physical": {"type": "number", "description": "Damage taken multiplier from Physical"},
-                "fire": {"type": "number", "description": "Damage taken multiplier from Fire"},
-                "radiance": {"type": "number", "description": "Damage taken multiplier from Radiance"}
+                "cold": {"type": "number", "description": "Effectiveness multiplier vs Cold"},
+                "chaos": {"type": "number", "description": "Effectiveness multiplier vs Chaos"},
+                "lightning": {"type": "number", "description": "Effectiveness multiplier vs Lightning"},
+                "physical": {"type": "number", "description": "Effectiveness multiplier vs Physical"},
+                "fire": {"type": "number", "description": "Effectiveness multiplier vs Fire"},
+                "radiance": {"type": "number", "description": "Effectiveness multiplier vs Radiance"}
               },
               "required": ["cold", "chaos", "lightning", "physical", "fire", "radiance"]
             },
@@ -232,9 +219,29 @@
                 "previous": {"type": "string", "description": "Previous damage type (+5)"}
               },
               "required": ["next", "second_next", "opposite", "second_previous", "previous"]
+            },
+            "divine_trio_dynamics": {
+              "type": "object",
+              "description": "How this damage type interacts within divine trio relationships",
+              "properties": {
+                "trio_type": {
+                  "type": "string", 
+                  "enum": ["fundamental", "primal"],
+                  "description": "Which divine trio this belongs to"
+                },
+                "trio_interactions": {
+                  "type": "string",
+                  "description": "Rock-paper-scissors dynamics within the trio"
+                },
+                "cross_trio_relationship": {
+                  "type": "string",
+                  "description": "How this trio relates to the other trio"
+                }
+              },
+              "required": ["trio_type", "trio_interactions", "cross_trio_relationship"]
             }
           },
-          "required": ["offensive_multipliers", "defensive_multipliers", "position_relationships"]
+          "required": ["effectiveness_vs", "position_relationships", "divine_trio_dynamics"]
         }
       }
     },

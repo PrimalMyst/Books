@@ -99,15 +99,7 @@
     "divine_communication": "Lightning practitioners sometimes receive brief flashes of divine insight during powerful castings"
   },
   "hexagonal_interactions": {
-    "offensive_multipliers": {
-      "cold": 0.66,
-      "chaos": 0.33,
-      "lightning": 1.0,
-      "physical": 1.33,
-      "fire": 1.66,
-      "radiance": 1.0
-    },
-    "defensive_multipliers": {
+    "effectiveness_vs": {
       "cold": 0.66,
       "chaos": 0.33,
       "lightning": 1.0,
@@ -122,10 +114,15 @@
       "second_previous": "cold",
       "previous": "chaos"
     },
+    "divine_trio_dynamics": {
+      "trio_type": "fundamental",
+      "trio_interactions": "Lightning connects what Fire would separate through transformation, Cold would isolate through preservation. Fire's heat conducts through Lightning's energy, Lightning sparks Cold's crystalline networks, Cold grounds what Lightning would scatter. The fundamental trinity of connection, transformation, and preservation.",
+      "cross_trio_relationship": "Fundamental forces flow through and empower Primal manifestations. Lightning's connections amplify Physical prowess, disrupt Chaos's randomness through ordered energy flow, and provide the divine spark that Radiance channels into protective light."
+    },
     "interaction_explanation": {
-      "strong_against": "Physical and Fire - Lightning overwhelms physical defenses and superheats flames",
-      "weak_against": "Chaos and Cold - Chaos disrupts electrical patterns, cold grounds and dissipates energy",
-      "neutral_with": "Lightning (self) and Radiance - Perfect self-mastery, balanced opposition with divine light"
+      "strong_against": "Physical and Fire - Lightning overwhelms physical defenses with speed and energizes flame into plasma",
+      "weak_against": "Chaos and Cold - Chaotic energy disrupts electrical patterns, cold crystallization grounds and dissipates energy",
+      "neutral_with": "Lightning (self-mastery) and Radiance - Pure energy mastery, balanced opposition with divine illumination"
     }
   },
   "metadata": {
