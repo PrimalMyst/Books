@@ -70,7 +70,7 @@ site/
 .env.production.local
 config.local.*
 
-# Personal notes (not for the wiki)
+# Personal notes (not for the books)
 personal-notes/
 drafts/
 scratch/

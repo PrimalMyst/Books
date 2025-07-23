@@ -1,4 +1,4 @@
-# PrimalMyst Wiki
+# PrimalMyst Books
 
 ![Logo](assets/logo.png) <!-- Add your game logo here -->
 
@@ -12,13 +12,13 @@
 - **🏛️ Endgame Ascension**: Climb higher into Yggdrasil's crown through increasingly challenging mystical trials
 - **💎 Runic Crafting**: Norse-inspired enchantment systems using mystical essence and World Tree materials
 
-**The definitive source of truth for PrimalMyst - A comprehensive codex and community-driven wiki for the free-to-play mystical action RPG featuring cycle-based seasons and cooperative gameplay**
+**The definitive source of truth for PrimalMyst - A comprehensive codex and community-driven collection of mystical tomes for the free-to-play mystical action RPG featuring cycle-based seasons and cooperative gameplay**
 
 ---
 
 ## 📖 Overview
 
-Welcome to the PrimalMyst Wiki repository! This project serves as the central hub for all canonical information about PrimalMyst, combining official codex entries with community-contributed content to create the most comprehensive knowledge base for players, developers, and lore enthusiasts.
+Welcome to the PrimalMyst Books repository! This project serves as the central hub for all canonical information about PrimalMyst, combining official codex entries with community-contributed content to create the most comprehensive knowledge base for players, developers, and lore enthusiasts.
 
 ### What is PrimalMyst?
 
@@ -80,7 +80,7 @@ PrimalMyst draws mechanical inspiration from three pillars:
 
 ## 🎯 Project Purpose
 
-This wiki repository serves multiple critical functions:
+This books repository serves multiple critical functions:
 
 - **📚 Official Codex**: Canonical lore, character backgrounds, world-building elements
 - **🌍 Living World Database**: Locations, events, timeline entries
@@ -91,7 +91,7 @@ This wiki repository serves multiple critical functions:
 ## 🏗️ Repository Structure
 
 ```
-PrimalMyst-wiki/
+PrimalMyst-books/
 ├── README.md                 # This file
 ├── CONTRIBUTING.md           # Contribution guidelines
 ├── LICENSE                   # License information
@@ -127,10 +127,10 @@ PrimalMyst-wiki/
 │   ├── generators/           # Content generation tools
 │   └── exporters/            # Export utilities
 │
-└── wiki/                     # Wiki pages (if using wiki format)
+└── tomes/                    # Mystical tomes (if using tome format)
     ├── _layouts/             # Page templates
     ├── _includes/            # Reusable components
-    └── pages/                # Individual wiki pages
+    └── pages/                # Individual tome pages
 ```
 
 ## ✨ Features
@@ -169,8 +169,8 @@ PrimalMyst-wiki/
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/[your-org]/PrimalMyst-wiki.git
-   cd PrimalMyst-wiki
+   git clone https://github.com/[your-org]/PrimalMyst-books.git
+   cd PrimalMyst-books
    ```
 
 2. **Install dependencies** (if applicable)
@@ -236,7 +236,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for detailed guidelines on:
 - **Cross-referencer**: Links related content automatically
 
 ### Data Processing
-- **Export tool**: Converts wiki data to various formats
+- **Export tool**: Converts books data to various formats
 - **API generator**: Creates REST endpoints from data
 - **Search indexer**: Builds searchable content database
 
@@ -254,7 +254,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for detailed guidelines on:
 - Player progress tracking
 
 ### External Platforms
-- Website integration for public wiki
+- Website integration for public mystical tome library
 - Mobile app data feeds
 - Social media content sharing
 - Community platform connections
@@ -350,7 +350,7 @@ This project is licensed under the [License Type] - see the [LICENSE](LICENSE) f
 
 ## 🏷️ Tags
 
-`PrimalMyst` `wiki` `codex` `gaming` `lore` `community` `data-driven` `collaboration` `source-of-truth`
+`PrimalMyst` `books` `codex` `gaming` `lore` `community` `data-driven` `collaboration` `source-of-truth`
 
 ---
 

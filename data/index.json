@@ -1,8 +1,8 @@
 {
-  "project": "PrimalMyst Wiki Data Index",
+  "project": "PrimalMyst Books Data Index",
   "version": "1.0.0",
   "last_updated": "2025-07-22T10:20:00Z",
-  "description": "Master index of all structured data in the PrimalMyst Wiki",
+  "description": "Master index of all structured data in the PrimalMyst Books",
   
   "schemas": {
     "character": {
@@ -200,8 +200,8 @@
       "quest_integration": "Timeline events can trigger or reference game quests",
       "lore_systems": "In-game codex can pull from lore JSON entries"
     },
-    "wiki_display": {
-      "dynamic_pages": "JSON data can generate wiki pages automatically",
+    "tome_display": {
+      "dynamic_pages": "JSON data can generate tome pages automatically",
       "cross_linking": "ID references can become hyperlinks",
       "search_indexing": "Tags and descriptions enable full-text search",
       "timeline_views": "Event data can generate interactive timelines"
@@ -227,6 +227,5 @@
     "lore_entry": "data/json/lore/example-lore.json"
   }
 }
-
 
 

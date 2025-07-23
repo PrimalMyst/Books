@@ -2,6 +2,15 @@
 
 ## Update Completed: July 23, 2025
 
+### Repository Renamed: PrimalMyst-books
+**Updated from "PrimalMyst-wiki" to "PrimalMyst-books"** to better reflect the Norse-mystical theme. The project is now conceptualized as a collection of mystical tomes and ancient books rather than a modern wiki.
+
+### Thematic Alignment
+- **"Books"** fits perfectly with Norse mythology and ancient wisdom themes
+- **"Tomes"** and mystical library concepts enhance immersion
+- **Ancient knowledge preservation** aligns with Yggdrasil/World Tree lore
+- **Scholarly mystical pursuit** matches the game's skill-based learning systems
+
 ### Game Name Finalized
 **PrimalMyst** has been selected as the final game name, replacing all previous references to "ChronoMyst" and "MysticMyst".
 
@@ -23,7 +32,7 @@
 
 ### Key Changes Made
 1. **Game Name**: ChronoMyst/MysticMyst → **PrimalMyst**
-2. **Repository References**: PrimalMyst-wiki (maintained consistency)
+2. **Repository References**: PrimalMyst-books (maintained consistency)
 3. **Temporal References Cleaned**: Replaced remaining temporal mechanics with mystical equivalents:
    - "Slow time, rewind damage" → "Manipulate mist currents, glimpse through veils of possibility"
    - "Timeline zones" → "Mystical realms"
