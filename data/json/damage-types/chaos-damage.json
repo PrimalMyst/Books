@@ -114,5 +114,35 @@
     "author": "ChronoMyst Development Team",
     "version": "1.0.0",
     "canonical": true
+  },
+  "hexagonal_interactions": {
+    "offensive_multipliers": {
+      "cold": 0.33,
+      "chaos": 1.0,
+      "lightning": 1.33,
+      "physical": 1.66,
+      "fire": 1.0,
+      "radiance": 0.66
+    },
+    "defensive_multipliers": {
+      "cold": 0.33,
+      "chaos": 1.0,
+      "lightning": 1.33,
+      "physical": 1.66,
+      "fire": 1.0,
+      "radiance": 0.66
+    },
+    "position_relationships": {
+      "next": "lightning",
+      "second_next": "physical",
+      "opposite": "fire", 
+      "second_previous": "radiance",
+      "previous": "cold"
+    },
+    "interaction_explanation": {
+      "strong_against": "Lightning and Physical - Chaos disrupts ordered energy flow and undermines disciplined strength",
+      "weak_against": "Cold and Radiance - Preservation freezes change, divine order counters chaos",
+      "neutral_with": "Chaos (self) and Fire - Perfect self-mastery, balanced opposition with transformative force"
+    }
   }
 }

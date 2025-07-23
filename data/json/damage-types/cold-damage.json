@@ -107,5 +107,35 @@
       "lightning-damage.json",
       "eldritch-pantheon.json"
     ]
+  },
+  "hexagonal_interactions": {
+    "offensive_multipliers": {
+      "cold": 1.0,
+      "chaos": 1.33,
+      "lightning": 1.66,
+      "physical": 1.0,
+      "fire": 0.66,
+      "radiance": 0.33
+    },
+    "defensive_multipliers": {
+      "cold": 1.0,
+      "chaos": 1.33,
+      "lightning": 1.66,
+      "physical": 1.0,
+      "fire": 0.66,
+      "radiance": 0.33
+    },
+    "position_relationships": {
+      "next": "chaos",
+      "second_next": "lightning", 
+      "opposite": "physical",
+      "second_previous": "fire",
+      "previous": "radiance"
+    },
+    "interaction_explanation": {
+      "strong_against": "Chaos and Lightning - Cold's preservation counters chaotic change and grounds electrical energy",
+      "weak_against": "Fire and Radiance - Heat melts ice, divine light reveals what cold would hide",
+      "neutral_with": "Cold (self) and Physical - Perfect self-mastery, balanced opposition with direct force"
+    }
   }
 }

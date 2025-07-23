@@ -108,5 +108,35 @@
     "author": "ChronoMyst Development Team",
     "version": "1.0.0",
     "canonical": true
+  },
+  "hexagonal_interactions": {
+    "offensive_multipliers": {
+      "cold": 1.33,
+      "chaos": 1.66,
+      "lightning": 1.0,
+      "physical": 0.66,
+      "fire": 0.33,
+      "radiance": 1.0
+    },
+    "defensive_multipliers": {
+      "cold": 1.33,
+      "chaos": 1.66,
+      "lightning": 1.0,
+      "physical": 0.66,
+      "fire": 0.33,
+      "radiance": 1.0
+    },
+    "position_relationships": {
+      "next": "cold",
+      "second_next": "chaos",
+      "opposite": "lightning",
+      "second_previous": "physical",
+      "previous": "fire"
+    },
+    "interaction_explanation": {
+      "strong_against": "Cold and Chaos - Divine light reveals hidden truths and banishes chaotic corruption",
+      "weak_against": "Fire and Physical - Transformative heat disrupts divine order, martial discipline channels divine energy",
+      "neutral_with": "Radiance (self) and Lightning - Perfect self-mastery, balanced opposition with connecting force"
+    }
   }
 }

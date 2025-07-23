@@ -110,6 +110,36 @@
     "honor_code": "Following warrior principles enhances effectiveness and unlocks special abilities",
     "mastery_progression": "Advanced techniques require both physical capability and mental discipline"
   },
+  "hexagonal_interactions": {
+    "offensive_multipliers": {
+      "cold": 1.0,
+      "chaos": 0.66,
+      "lightning": 0.33,
+      "physical": 1.0,
+      "fire": 1.33,
+      "radiance": 1.66
+    },
+    "defensive_multipliers": {
+      "cold": 1.0,
+      "chaos": 0.66,
+      "lightning": 0.33,
+      "physical": 1.0,
+      "fire": 1.33,
+      "radiance": 1.66
+    },
+    "position_relationships": {
+      "next": "fire",
+      "second_next": "radiance",
+      "opposite": "cold",
+      "second_previous": "chaos",
+      "previous": "lightning"
+    },
+    "interaction_explanation": {
+      "strong_against": "Fire and Radiance - Disciplined martial prowess overcomes raw heat and channels divine energy",
+      "weak_against": "Lightning and Chaos - Speed overwhelms physical positioning, chaos disrupts disciplined techniques",
+      "neutral_with": "Physical (self) and Cold - Perfect self-mastery, balanced opposition with preservation force"
+    }
+  },
   "metadata": {
     "version": "1.0",
     "last_updated": "2025-07-23",

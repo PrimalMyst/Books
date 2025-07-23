@@ -98,6 +98,36 @@
     "ancient_nature": "Predates the World Tree itself, serving as the original connecting force between all things",
     "divine_communication": "Lightning practitioners sometimes receive brief flashes of divine insight during powerful castings"
   },
+  "hexagonal_interactions": {
+    "offensive_multipliers": {
+      "cold": 0.66,
+      "chaos": 0.33,
+      "lightning": 1.0,
+      "physical": 1.33,
+      "fire": 1.66,
+      "radiance": 1.0
+    },
+    "defensive_multipliers": {
+      "cold": 0.66,
+      "chaos": 0.33,
+      "lightning": 1.0,
+      "physical": 1.33,
+      "fire": 1.66,
+      "radiance": 1.0
+    },
+    "position_relationships": {
+      "next": "physical",
+      "second_next": "fire",
+      "opposite": "radiance",
+      "second_previous": "cold",
+      "previous": "chaos"
+    },
+    "interaction_explanation": {
+      "strong_against": "Physical and Fire - Lightning overwhelms physical defenses and superheats flames",
+      "weak_against": "Chaos and Cold - Chaos disrupts electrical patterns, cold grounds and dissipates energy",
+      "neutral_with": "Lightning (self) and Radiance - Perfect self-mastery, balanced opposition with divine light"
+    }
+  },
   "metadata": {
     "version": "1.0",
     "last_updated": "2025-07-23", 

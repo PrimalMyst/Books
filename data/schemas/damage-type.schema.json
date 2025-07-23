@@ -190,6 +190,51 @@
               }
             }
           }
+        },
+        "hexagonal_interactions": {
+          "type": "object",
+          "description": "Damage multipliers based on hexagonal position relationships",
+          "properties": {
+            "offensive_multipliers": {
+              "type": "object",
+              "description": "Damage multipliers when attacking other damage types",
+              "properties": {
+                "cold": {"type": "number", "description": "Damage multiplier vs Cold"},
+                "chaos": {"type": "number", "description": "Damage multiplier vs Chaos"},
+                "lightning": {"type": "number", "description": "Damage multiplier vs Lightning"},
+                "physical": {"type": "number", "description": "Damage multiplier vs Physical"},
+                "fire": {"type": "number", "description": "Damage multiplier vs Fire"},
+                "radiance": {"type": "number", "description": "Damage multiplier vs Radiance"}
+              },
+              "required": ["cold", "chaos", "lightning", "physical", "fire", "radiance"]
+            },
+            "defensive_multipliers": {
+              "type": "object", 
+              "description": "Damage multipliers when receiving damage from other types",
+              "properties": {
+                "cold": {"type": "number", "description": "Damage taken multiplier from Cold"},
+                "chaos": {"type": "number", "description": "Damage taken multiplier from Chaos"},
+                "lightning": {"type": "number", "description": "Damage taken multiplier from Lightning"},
+                "physical": {"type": "number", "description": "Damage taken multiplier from Physical"},
+                "fire": {"type": "number", "description": "Damage taken multiplier from Fire"},
+                "radiance": {"type": "number", "description": "Damage taken multiplier from Radiance"}
+              },
+              "required": ["cold", "chaos", "lightning", "physical", "fire", "radiance"]
+            },
+            "position_relationships": {
+              "type": "object",
+              "description": "Relationship types with other hexagonal positions",
+              "properties": {
+                "next": {"type": "string", "description": "Next damage type clockwise (+1)"},
+                "second_next": {"type": "string", "description": "Second next damage type (+2)"},
+                "opposite": {"type": "string", "description": "Opposite damage type (+3)"},
+                "second_previous": {"type": "string", "description": "Second previous damage type (+4)"},
+                "previous": {"type": "string", "description": "Previous damage type (+5)"}
+              },
+              "required": ["next", "second_next", "opposite", "second_previous", "previous"]
+            }
+          },
+          "required": ["offensive_multipliers", "defensive_multipliers", "position_relationships"]
         }
       }
     },
