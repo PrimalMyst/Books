@@ -83,9 +83,10 @@
     "lore": {
       "path": "data/json/lore/",
       "schema": "lore",
-      "count": 6,
+      "count": 7,
       "subcategories": {
         "cosmology": "Six Realms, Yggdrasil, and divine structure",
+        "geography": "World geography, island realms, and physical manifestations",
         "divine-hierarchy": "Fundamental Gods, Primal Gods, and Veiled Ones",
         "mystical-arts": "Mist-working, Paths of Mastery, and skill-based systems",
         "cosmic-cycles": "Great Cycles, cosmic rhythms, and Myrielle's guidance", 
@@ -94,7 +95,8 @@
       },
       "examples": [
         "the-nature-of-the-mist.json",
-        "six-realms-cosmology.json", 
+        "six-realms-cosmology.json",
+        "primal-world-geography.json", 
         "eldritch-pantheon.json",
         "paths-of-mastery.json",
         "the-great-cycles.json",
