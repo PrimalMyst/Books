@@ -26,12 +26,12 @@ The **Fundamental Trio** and **Primal Trio** wage eternal war for cosmic suprema
 
 | Attacker ↓ / Defender → | Cold | Chaos | Lightning | Physical | Fire | Radiance |
 |-------------------------|------|-------|-----------|----------|------|----------|
-| **Cold**               | 1.0x | 1.33x | 1.66x     | 1.0x     | 0.33x| 0.66x    |
-| **Chaos**              | 0.66x| 1.0x  | 1.33x     | 1.66x    | 1.0x | 0.33x    |
-| **Lightning**          | 0.33x| 0.66x | 1.0x      | 1.33x    | 1.66x| 1.0x     |
-| **Physical**           | 1.0x | 0.33x | 0.66x     | 1.0x     | 1.33x| 1.66x    |
-| **Fire**               | 1.66x| 1.0x  | 0.33x     | 0.66x    | 1.0x | 1.33x    |
-| **Radiance**           | 1.33x| 1.66x | 1.0x      | 0.33x    | 0.66x| 1.0x     |
+| **Cold**               | 1.0x | 1.33x | 1.66x     | 1.99x     | 0.33x| 0.66x    |
+| **Chaos**              | 0.66x| 1.0x  | 1.33x     | 1.66x    | 1.99x | 0.33x    |
+| **Lightning**          | 0.33x| 0.66x | 1.0x      | 1.33x    | 1.66x| 1.99x     |
+| **Physical**           | 1.99x | 0.33x | 0.66x     | 1.0x     | 1.33x| 1.66x    |
+| **Fire**               | 1.66x| 1.99x  | 0.33x     | 0.66x    | 1.0x | 1.33x    |
+| **Radiance**           | 1.33x| 1.66x | 1.99x      | 0.33x    | 0.66x| 1.0x     |
 
 ## Divine Trio Dynamics
 
