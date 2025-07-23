@@ -7,7 +7,7 @@
     "brief": "Destructive flame damage that burns enemies and can spread to nearby targets, dealing damage over time.",
     "detailed": "Fire damage represents the raw destructive power of flame and heat. It excels at dealing immediate burst damage and applying burning effects that continue to damage enemies over time. Fire damage can spread between closely grouped enemies and has special interactions with environmental elements like oil or ice.",
     "visual_effects": "Bright orange and red flames with crackling sound effects, ember particles, and heat distortion effects",
-    "lore_explanation": "Fire damage channels the primal force of destruction and renewal. In the post-Convergence world, fire magic draws from the intense mystical energy released during reality-shaping events."
+    "lore_explanation": "Fire damage channels the ancient power of Pyrion, the First Flame - the fundamental force that existed before creation itself. This primal fire represents not mere combustion, but the essential energy of transformation and change that flows through Yggdrasil's burning heartwood."
   },
   "mechanics": {
     "base_damage": {
@@ -51,15 +51,15 @@
       }
     ]
   },
-  "mystical_aspects": {
+  "temporal_aspects": {
     "time_interaction": "accelerates",
-    "mist-walker_synergy": "Time acceleration abilities increase fire damage and burning duration",
-    "mystical_enhancement": "mystical echoes can duplicate fire effects, creating multiple burn sources"
+    "chronarch_synergy": "Time acceleration abilities increase fire damage and burning duration",
+    "temporal_enhancement": "Temporal echoes can duplicate fire effects, creating multiple burn sources"
   },
   "equipment_synergy": {
-    "weapon_types": ["Staves", "Wands", "Flame Blades", "mystical Catalysts"],
+    "weapon_types": ["Staves", "Wands", "Flame Blades", "Temporal Catalysts"],
     "armor_interactions": ["Fire-attuned robes increase damage", "Heat-proof armor prevents self-damage"],
-    "artifact_synergies": ["Phoenix Feather artifacts", "mystical Flame Crystals", "Ember of the First Fire"]
+    "artifact_synergies": ["Phoenix Feather artifacts", "Temporal Flame Crystals", "Ember of the First Fire"]
   },
   "enemy_vulnerabilities": [
     {
@@ -80,9 +80,9 @@
   ],
   "build_archetypes": [
     {
-      "archetype_name": "Flame mist-walker",
+      "archetype_name": "Flame Chronarch",
       "focus": "High burst damage with spreading burns",
-      "synergistic_skills": ["mystical Acceleration", "Flame Burst", "Time Echo", "Burning Wave"]
+      "synergistic_skills": ["Temporal Acceleration", "Flame Burst", "Time Echo", "Burning Wave"]
     },
     {
       "archetype_name": "Phoenix Warrior",
@@ -94,11 +94,8 @@
   "metadata": {
     "created": "2025-07-23T10:00:00Z",
     "last_updated": "2025-07-23T10:00:00Z",
-    "author": "PrimalMyst Development Team",
+    "author": "ChronoMyst Development Team",
     "version": "1.0.0",
     "canonical": true
   }
 }
-
-
-

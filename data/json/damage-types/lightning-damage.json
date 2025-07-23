@@ -1,0 +1,102 @@
+{
+  "id": "lightning-damage",
+  "name": "Lightning",
+  "category": "elemental", 
+  "type": "lightning",
+  "description": {
+    "brief": "Electrical damage that can chain between enemies and provides burst damage with stunning effects.",
+    "detailed": "Lightning damage represents the power of connection and sudden revelation. It excels at hitting multiple targets through chaining effects and can provide powerful burst damage with stunning capabilities. Lightning damage often has the highest single-hit potential but can be unpredictable in its targeting.",
+    "visual_effects": "Brilliant white and blue electrical arcs with thunder sounds, crackling energy, and chain lightning effects",
+    "lore_explanation": "Lightning damage channels the ancient power of Voltharion, the Cosmic Spark - the fundamental force that connects all things and existed before creation itself. This primal electricity flows through Yggdrasil's branches, enabling communication between the Nine Realms."
+  },
+  "mechanics": {
+    "base_damage": {
+      "scaling_factor": 1.2,
+      "variance": {
+        "min_percent": 75,
+        "max_percent": 125
+      }
+    },
+    "status_effects": [
+      {
+        "effect_name": "Shocked",
+        "duration": "4 seconds",
+        "stacking": true,
+        "description": "Increases damage taken by 8% per stack, up to 40%"
+      },
+      {
+        "effect_name": "Stunned",
+        "duration": "1-3 seconds based on power",
+        "stacking": false,
+        "description": "Target cannot move or act"
+      },
+      {
+        "effect_name": "Energized",
+        "duration": "10 seconds",
+        "stacking": false,
+        "description": "Next lightning damage deals double damage"
+      }
+    ],
+    "special_mechanics": [
+      {
+        "name": "Chain Lightning",
+        "description": "Lightning damage can jump to nearby enemies, with 75% damage per jump"
+      },
+      {
+        "name": "Electrical Overload",
+        "description": "High lightning damage can cause area explosions"
+      },
+      {
+        "name": "Spark Generation",
+        "description": "Lightning kills generate sparks that provide temporary damage bonuses"
+      }
+    ]
+  },
+  "elemental_interactions": {
+    "vs_fire": {
+      "relationship": "amplifying",
+      "effect": "Lightning ignites burning effects, causing immediate explosion damage"
+    },
+    "vs_cold": {
+      "relationship": "synergistic",
+      "effect": "Lightning deals +50% damage to frozen targets and can shatter them"
+    },
+    "vs_water": {
+      "relationship": "conducted",
+      "effect": "Lightning damage spreads through wet areas and water"
+    }
+  },
+  "damage_formulas": {
+    "base_calculation": "base_lightning_damage * (1 + lightning_mastery_bonus) * elemental_modifier * variance",
+    "chain_damage": "previous_hit_damage * 0.75 * chain_efficiency",
+    "overload_damage": "accumulated_electrical_charge * overload_multiplier"
+  },
+  "scaling_properties": {
+    "with_level": {
+      "damage_per_level": 2.1,
+      "chain_count_per_level": 0.1
+    },
+    "with_stats": {
+      "mystical_power": "1.2% damage per 10 mystical power",
+      "lightning_mastery": "Direct multiplier and chain efficiency bonus"
+    }
+  },
+  "lore_details": {
+    "fundamental_connection": "Draws directly from Voltharion, the Cosmic Spark, one of the three Fundamental Gods",
+    "yggdrasil_manifestation": "Flows through the electrical currents in Yggdrasil's branches that connect the Nine Realms",
+    "cosmic_role": "Represents the force that enables communication, inspiration, and sudden revelation",
+    "ancient_nature": "Predates the World Tree itself, serving as the original connecting force between all things",
+    "divine_communication": "Lightning practitioners sometimes receive brief flashes of divine insight during powerful castings"
+  },
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-07-23", 
+    "author": "PrimalMyst Development Team",
+    "canonical": true,
+    "related_files": [
+      "fire-damage.json",
+      "cold-damage.json", 
+      "eldritch-pantheon.json"
+    ]
+  }
+}

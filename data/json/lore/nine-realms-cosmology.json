@@ -6,9 +6,10 @@
   "knowledge_level": "foundational",
   "certainty": "ancient-wisdom",
   "description": {
-    "summary": "The universe of PrimalMyst is structured around Yggdrasil, the World Tree, whose branches and roots connect nine distinct realms of existence, each with its own laws, inhabitants, and relationship to the Mist.",
-    "detailed": "Yggdrasil stands at the center of all existence, a cosmic ash tree whose branches stretch across the heavens and whose roots delve deep into the wells of wisdom and fate. The Nine Realms exist as distinct layers of reality, connected by the World Tree's vast structure. Each realm has its own relationship with the Mist that flows between them, creating unique conditions for life, magic, and the flow of time itself. The realms are not simply different planets or dimensions, but fundamental aspects of existence itself - representing different ways that consciousness, matter, and mystical force can interact. Travel between realms is possible for those who understand the pathways through Yggdrasil, though such journeys are never without risk, as the Mist can lead travelers astray or show them truths they are not prepared to understand.",
-    "implications": "Understanding the Nine Realms reveals that what mortals call 'reality' is only one layer of a vast, interconnected cosmic structure. Events in one realm can influence all others through the World Tree's connections, and the cyclical nature of leagues and time reflects the greater cycles of the cosmos itself."
+    "summary": "The universe of PrimalMyst is structured around Yggdrasil, the World Tree, whose branches and roots connect nine distinct realms of existence, each with its own laws, inhabitants, and relationship to the Mist. The tree itself was shaped by the Fundamental Gods and serves as a conduit for divine influence.",
+    "detailed": "Yggdrasil stands at the center of all existence, a cosmic ash tree whose branches stretch across the heavens and whose roots delve deep into the wells of wisdom and fate. Born from the primordial forces of Pyrion's fire, Glacius's preservation, and Voltharion's connecting spark, the World Tree serves as both structure and conduit for all cosmic forces. The Nine Realms exist as distinct layers of reality, connected by the World Tree's vast structure, each resonating with different aspects of the divine hierarchy. Each realm has its own relationship with the Mist that flows between them, creating unique conditions for life, magic, and divine influence. The realms are not simply different planets or dimensions, but fundamental aspects of existence itself - representing different ways that consciousness, matter, mystical force, and divine power can interact. Travel between realms is possible for those who understand the pathways through Yggdrasil, though such journeys are never without risk, as the Mist can lead travelers astray or expose them to raw divine influence they are not prepared to handle.",
+    "divine_connection": "The World Tree channels power from the Fundamental Gods through its very structure - fire flows through its burning heartwood, ice crystallizes in its eternal bark, and lightning crackles along its branches connecting the realms. The Primal Gods use these divine highways to extend their influence, while the Veiled Ones exist in the spaces between the tree's growth cycles.",
+    "implications": "Understanding the Nine Realms reveals that what mortals call 'reality' is only one layer of a vast, interconnected cosmic structure shaped by divine forces that predate creation itself. Events in one realm can influence all others through the World Tree's connections, and the cyclical nature of leagues and time reflects both the greater cycles of the cosmos and the mysterious workings of entities like Myrielle."
   },
   "origins": {
     "source": "primordial-knowledge",
@@ -206,11 +207,24 @@
   "metadata": {
     "created": "2025-01-27T15:30:00Z",
     "last_updated": "2025-01-27T15:30:00Z",
-    "author": "PrimalMyst Development Team",
+    "author": "ChronoMyst Development Team",
     "version": "1.0.0",
     "canonical": true
+  },
+  "divine_influence": {
+    "fundamental_god_presence": {
+      "pyrion_manifestation": "The burning heartwood of Yggdrasil, eternal flames that never consume the tree itself, providing the energy that maintains all life across the realms",
+      "glacius_manifestation": "The crystalline bark that preserves the tree's memories and maintains the stability of realm-to-realm connections", 
+      "voltharion_manifestation": "The electrical current that flows through every branch and root, enabling instantaneous communication and travel between distant realms"
+    },
+    "primal_god_channels": {
+      "nyxtharion_influence": "Flows strongest through branches that lead to chaotic realms, bringing beneficial change and preventing cosmic stagnation",
+      "luminareth_influence": "Provides protective light through branches leading to ordered realms, maintaining safe harbors and healing sanctuaries",
+      "drakmorth_influence": "Strengthens the physical structure of the tree itself, ensuring its branches can bear the weight of entire realms and protecting travelers from physical harm"
+    },
+    "veiled_one_mysteries": {
+      "myrielle_presence": "Exists in the spaces between the tree's growth cycles, facilitating the cosmic renewal that creates new branches and allows old ones to rest",
+      "cycle_mechanics": "When cosmic conditions shift, Myrielle helps guide souls to appropriate realms and assists in manifesting new physical forms suited to changing divine influences"
+    }
   }
 }
-
-
-
