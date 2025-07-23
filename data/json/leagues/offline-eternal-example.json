@@ -20,9 +20,9 @@
     ],
     "unique_features": [
       {
-        "feature": "Temporal Sandbox Mode",
+        "feature": "mystical Sandbox Mode",
         "description": "Players can experiment with timeline manipulation without consequences",
-        "impact": "Allows learning temporal mechanics without affecting online play"
+        "impact": "Allows learning mystical mechanics without affecting online play"
       },
       {
         "feature": "Adjustable Difficulty Scaling",
@@ -56,7 +56,7 @@
     "market_reset": false
   },
   "endgame_access": {
-    "final_boss": "the-solitary-chronarch",
+    "final_boss": "the-solitary-mist-walker",
     "completion_rewards": [
       {
         "reward_type": "unlock", 
@@ -68,14 +68,14 @@
       },
       {
         "reward_type": "achievement",
-        "description": "Self-Reliant Chronarch achievements"
+        "description": "Self-Reliant mist-walker achievements"
       }
     ],
     "post_completion": "Character gains ability to create and explore custom timeline scenarios"
   },
   "lore_integration": {
-    "narrative_theme": "A parallel timeline where the Chronarch explores temporal mysteries in solitude",
-    "timeline_explanation": "Represents a self-contained timeline bubble where individual Chronarchs can explore without affecting the greater multiverse",
+    "narrative_theme": "A parallel timeline where the mist-walker explores mystical mysteries in solitude",
+    "timeline_explanation": "Represents a self-contained timeline bubble where individual mist-walkers can explore without affecting the greater multiverse",
     "world_changes": [
       "World responds uniquely to single player's choices",
       "NPCs develop deeper relationships due to focused interaction",
@@ -90,7 +90,7 @@
   "metadata": {
     "created": "2025-07-22T12:10:00Z", 
     "last_updated": "2025-07-22T12:10:00Z",
-    "author": "ChronoMyst Development Team",
+    "author": "MysticMyst Development Team",
     "version": "1.0.0",
     "canonical": true
   }

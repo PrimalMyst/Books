@@ -1,8 +1,8 @@
 {
-  "project": "ChronoMyst Wiki Data Index",
+  "project": "MysticMyst Wiki Data Index",
   "version": "1.0.0",
   "last_updated": "2025-07-22T10:20:00Z",
-  "description": "Master index of all structured data in the ChronoMyst Wiki",
+  "description": "Master index of all structured data in the MysticMyst Wiki",
   
   "schemas": {
     "character": {

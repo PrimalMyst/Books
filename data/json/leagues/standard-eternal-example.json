@@ -27,11 +27,11 @@
       },
       {
         "feature": "Master Crafting Systems",
-        "description": "Advanced crafting options only available to experienced Chronarchs",
+        "description": "Advanced crafting options only available to experienced mist-walkers",
         "impact": "Enables creation of extremely powerful equipment"
       },
       {
-        "feature": "Temporal Mastery Training",
+        "feature": "mystical Mastery Training",
         "description": "Advanced skill development beyond normal league limitations",
         "impact": "Characters can achieve power levels impossible in temporary leagues"
       }
@@ -56,7 +56,7 @@
     "market_reset": false
   },
   "endgame_access": {
-    "final_boss": "the-eternal-chronarch",
+    "final_boss": "the-eternal-mist-walker",
     "completion_rewards": [
       {
         "reward_type": "unlock",
@@ -74,12 +74,12 @@
     "post_completion": "Character gains access to mentor systems for new players and exclusive content creation tools"
   },
   "lore_integration": {
-    "narrative_theme": "The stabilized timeline where Chronarchs who have proven themselves work to maintain temporal balance",
-    "timeline_explanation": "Represents the 'true' timeline that emerges from successful resolution of temporal crises", 
+    "narrative_theme": "The stabilized timeline where mist-walkers who have proven themselves work to maintain mystical balance",
+    "timeline_explanation": "Represents the 'true' timeline that emerges from successful resolution of mystical crises", 
     "world_changes": [
-      "Locations show their 'ideal' states after temporal healing",
+      "Locations show their 'ideal' states after mystical healing",
       "NPCs reference the character's legacy from previous leagues",
-      "Access to hidden areas that require temporal mastery to reach"
+      "Access to hidden areas that require mystical mastery to reach"
     ]
   },
   "technical_details": {
@@ -90,7 +90,7 @@
   "metadata": {
     "created": "2025-07-22T12:05:00Z",
     "last_updated": "2025-07-22T12:05:00Z",
-    "author": "ChronoMyst Development Team", 
+    "author": "MysticMyst Development Team", 
     "version": "1.0.0",
     "canonical": true
   }

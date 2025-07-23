@@ -1,6 +1,6 @@
 {
-  "id": "the-great-temporal-convergence",
-  "name": "The Great Temporal Convergence",
+  "id": "the-great-mystical-convergence",
+  "name": "The Great mystical Convergence",
   "alternate_names": ["The Joining of All Hours", "The Moment of Infinite Present"],
   "type": "convergence",
   "significance": "cosmic",
@@ -22,17 +22,17 @@
     ]
   },
   "description": {
-    "brief": "A cosmic event where all possible timelines briefly converged into a single moment, fundamentally altering the nature of time and reality in the ChronoMyst universe.",
-    "detailed": "The Great Temporal Convergence occurred when the natural flow of time became disrupted by the accumulated paradoxes of the First Age. All possible past, present, and future timelines collapsed into a single point of existence at the Nexus Observatory. During this convergence, the barriers between what was, what is, and what could be dissolved completely. Every soul experienced all possible versions of their life simultaneously, and every choice that had ever been made or could be made existed in the same moment. The event lasted seven days from an external perspective, but those who lived through it experienced lifetimes of possibility.",
-    "prelude": "Strange temporal anomalies had been increasing throughout the Second Age. Seers reported visions of multiple futures occurring simultaneously, and scholars noted increasing instances of paradoxes that refused to resolve themselves naturally.",
-    "aftermath": "The Convergence fundamentally changed the relationship between time and consciousness in the world. Many individuals retained memories of alternate timelines, leading to the emergence of the Chronarch race and the founding of the Temporal Guardians."
+    "brief": "A cosmic event where all possible timelines briefly converged into a single moment, fundamentally altering the nature of time and reality in the MysticMyst universe.",
+    "detailed": "The Great mystical Convergence occurred when the natural flow of time became disrupted by the accumulated paradoxes of the First Age. All possible past, present, and future timelines collapsed into a single point of existence at the Nexus Observatory. During this convergence, the barriers between what was, what is, and what could be dissolved completely. Every soul experienced all possible versions of their life simultaneously, and every choice that had ever been made or could be made existed in the same moment. The event lasted seven days from an external perspective, but those who lived through it experienced lifetimes of possibility.",
+    "prelude": "Strange mystical anomalies had been increasing throughout the Second Age. Seers reported visions of multiple futures occurring simultaneously, and scholars noted increasing instances of paradoxes that refused to resolve themselves naturally.",
+    "aftermath": "The Convergence fundamentally changed the relationship between time and consciousness in the world. Many individuals retained memories of alternate timelines, leading to the emergence of the mist-walker race and the founding of the mystical Guardians."
   },
   "participants": {
     "primary_characters": [
       {
         "character_id": "aethon-the-timekeeper",
-        "role": "Newly awakened Chronarch who helped stabilize the convergence",
-        "outcome": "Gained his temporal abilities and was chosen as the first Timekeeper"
+        "role": "Newly awakened mist-walker who helped stabilize the convergence",
+        "outcome": "Gained his mystical abilities and was chosen as the first Timekeeper"
       },
       {
         "character_id": "the-first-oracle",
@@ -42,9 +42,9 @@
     ],
     "factions": [
       {
-        "faction_id": "proto-temporal-guardians",
+        "faction_id": "proto-mystical-guardians",
         "role": "mediator",
-        "outcome": "Evolved into the official Temporal Guardians organization"
+        "outcome": "Evolved into the official mystical Guardians organization"
       },
       {
         "faction_id": "reality-scholars",
@@ -54,18 +54,18 @@
     ],
     "other_entities": [
       "The Cosmic Weaver - primordial entity of time and fate",
-      "Temporal Spirits - beings of pure time energy"
+      "mystical Spirits - beings of pure time energy"
     ]
   },
   "causes": [
     {
       "type": "magical",
-      "description": "Accumulation of unresolved temporal paradoxes from the First Age",
-      "related_events": ["the-first-time-wars", "creation-of-the-temporal-anchors"]
+      "description": "Accumulation of unresolved mystical paradoxes from the First Age",
+      "related_events": ["the-first-time-wars", "creation-of-the-mystical-anchors"]
     },
     {
       "type": "natural",
-      "description": "Natural cycle of temporal realignment that occurs every cosmic age",
+      "description": "Natural cycle of mystical realignment that occurs every cosmic age",
       "related_events": ["the-cosmic-awakening"]
     }
   ],
@@ -73,13 +73,13 @@
     {
       "type": "magical",
       "scope": "cosmic",
-      "description": "Creation of the Chronarch race - beings with innate temporal sensitivity",
+      "description": "Creation of the mist-walker race - beings with innate mystical sensitivity",
       "duration": "permanent"
     },
     {
       "type": "political",
       "scope": "global",
-      "description": "Establishment of the Temporal Guardians to prevent future convergences",
+      "description": "Establishment of the mystical Guardians to prevent future convergences",
       "duration": "ongoing"
     },
     {
@@ -91,36 +91,36 @@
     {
       "type": "geographical",
       "scope": "regional",
-      "description": "Certain locations became permanently temporal anomalies, existing in multiple time states",
+      "description": "Certain locations became permanently mystical anomalies, existing in multiple time states",
       "duration": "permanent"
     }
   ],
   "related_events": {
-    "preceded_by": ["the-first-time-wars", "the-oracle-wars", "creation-of-the-temporal-anchors"],
-    "followed_by": ["founding-of-the-temporal-guardians", "the-great-awakening", "construction-of-paradox-barriers"],
+    "preceded_by": ["the-first-time-wars", "the-oracle-wars", "creation-of-the-mystical-anchors"],
+    "followed_by": ["founding-of-the-mystical-guardians", "the-great-awakening", "construction-of-paradox-barriers"],
     "concurrent": []
   },
   "sources": [
     {
       "type": "eyewitness",
       "reliability": "confirmed",
-      "description": "The Convergence Chronicles - firsthand accounts from survivors compiled by the Temporal Guardians"
+      "description": "The Convergence Chronicles - firsthand accounts from survivors compiled by the mystical Guardians"
     },
     {
       "type": "magical_scrying",
       "reliability": "confirmed",
-      "description": "Temporal echoes preserved in Chronicle Crystals at the Nexus Observatory"
+      "description": "mystical echoes preserved in Chronicle Crystals at the Nexus Observatory"
     },
     {
       "type": "archaeological",
       "reliability": "likely",
-      "description": "Temporal residue found at convergence sites across multiple dimensions"
+      "description": "mystical residue found at convergence sites across multiple dimensions"
     }
   ],
   "artifacts": [
     "the-convergence-crystals",
     "the-memory-stones-of-all-possibilities",
-    "the-temporal-anchor-array"
+    "the-mystical-anchor-array"
   ],
   "prophecies": [
     {
@@ -134,11 +134,11 @@
       "source": "Ancient Chronish Prophecies"
     }
   ],
-  "tags": ["cosmic-event", "temporal-convergence", "timeline-alteration", "chronarch-origin", "guardian-founding", "reality-changing"],
+  "tags": ["cosmic-event", "mystical-convergence", "timeline-alteration", "mist-walker-origin", "guardian-founding", "reality-changing"],
   "metadata": {
     "created": "2025-07-22T10:10:00Z",
     "last_updated": "2025-07-22T10:10:00Z",
-    "author": "ChronoMyst Development Team",
+    "author": "MysticMyst Development Team",
     "version": "1.0.0",
     "canonical": true
   }

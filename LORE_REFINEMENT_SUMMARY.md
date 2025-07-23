@@ -6,15 +6,15 @@ Based on your feedback about balancing influences, I've significantly refocused 
 
 ## Major Shifts in Worldbuilding
 
-### 1. From Temporal Focus to Mystical/Norse Focus
+### 1. From mystical Focus to Mystical/Norse Focus
 
-**Before**: Heavy emphasis on time manipulation, temporal guardians, chronarchs, and time-based magic systems.
+**Before**: Heavy emphasis on time manipulation, mystical guardians, mist-walkers, and time-based magic systems.
 
 **After**: 
 - **The Mist** as the primary mystical force (connecting to Norse Niflheim and mystical fog/mist themes)
 - **Yggdrasil and the Nine Realms** as the cosmic structure (pure Norse mythology)
 - **Skill-based mystical arts** through the Nine Paths of Mastery (one for each realm)
-- **Great Cycles** replacing temporal mechanics (cosmic rhythms rather than time loops)
+- **Great Cycles** replacing mystical mechanics (cosmic rhythms rather than time loops)
 
 ### 2. From Warframe-Style Power Systems to Skill-Based Mastery
 
@@ -79,7 +79,7 @@ Based on your feedback about balancing influences, I've significantly refocused 
 
 ### Timeloop Elements (Contextual Only)
 - **League cycles**: Reframed as "Great Cycles" - cosmic rhythms that create different conditions
-- **Convergence events**: Cosmic alignments rather than temporal resets
+- **Convergence events**: Cosmic alignments rather than mystical resets
 - **Cyclical nature**: Presented as natural cosmic breathing rather than artificial time loops
 
 ## Updated Core Documents
@@ -87,7 +87,7 @@ Based on your feedback about balancing influences, I've significantly refocused 
 1. **The Nature of the Mist**: Establishes the primordial essence as the foundation of all mystical arts
 2. **Nine Realms Cosmology**: Comprehensive Norse-inspired cosmic structure
 3. **Paths of Mastery**: Skill-based mystical system with nine disciplines corresponding to the Nine Realms
-4. **The Great Cycles**: Cosmic rhythms that replace temporal mechanics
+4. **The Great Cycles**: Cosmic rhythms that replace mystical mechanics
 5. **Realm Expeditions**: Academic exploration system replacing Warframe-style missions
 
 ## Character Example Updates

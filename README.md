@@ -1,51 +1,53 @@
-# ChronoMyst Wiki
+# MysticMyst Wiki
 
-![C#### **Key Features**
+![Logo](assets/logo.png) <!-- Add your game logo here -->
+
+#### **Key Features**
 - **⚔️ Skill-Based Combat**: Tactical action combat emphasizing timing, positioning, and ability synergy over reflexes
-- **🔄 Cycle System**: Seasonal content with unique mysteries emerging from the temporal mists
+- **🔄 Cycle System**: Seasonal content with unique mysteries emerging from the cosmic mists  
 - **🤝 Cooperative Expeditions**: Small-group missions into dangerous branches of the World Tree
 - **🌌 Norse-Inspired Exploration**: Nine realms connected by Yggdrasil's branches, each with distinct challenges
 - **📈 Deep Character Building**: PoE-style passive skill trees with mystical ability specializations
-- **⚡ Temporal Arts**: Navigate time currents, glimpse through mists of possibility, commune with tree spirits
+- **⚡ Mystical Arts**: Navigate mist currents, glimpse through veils of possibility, commune with tree spirits
 - **🏛️ Endgame Ascension**: Climb higher into Yggdrasil's crown through increasingly challenging mystical trials
-- **💎 Runic Crafting**: Norse-inspired enchantment systems using temporal essence and World Tree materials Logo](assets/logo.png) <!-- Add your game logo here -->
+- **💎 Runic Crafting**: Norse-inspired enchantment systems using mystical essence and World Tree materials
 
-**The definitive source of truth for ChronoMyst - A comprehensive codex and community-driven wiki for the free-to-play temporal action RPG featuring league-based seasons and cooperative gameplay**
+**The definitive source of truth for MysticMyst - A comprehensive codex and community-driven wiki for the free-to-play mystical action RPG featuring cycle-based seasons and cooperative gameplay**
 
 ---
 
 ## 📖 Overview
 
-Welcome to the ChronoMyst Wiki repository! This project serves as the central hub for all canonical information about ChronoMyst, combining official codex entries with community-contributed content to create the most comprehensive knowledge base for players, developers, and lore enthusiasts.
+Welcome to the MysticMyst Wiki repository! This project serves as the central hub for all canonical information about MysticMyst, combining official codex entries with community-contributed content to create the most comprehensive knowledge base for players, developers, and lore enthusiasts.
 
-### What is ChronoMyst?
+### What is MysticMyst?
 
-**ChronoMyst** is a free-to-play online action RPG that fuses the exploration freedom of Skyrim, mission-based cooperation, and the deep character progression of Path of Exile. Set in a mystical realm where the World Tree **Yggdrasil** anchors reality itself, players become Chronarchs—guardians who protect the cosmic tree from temporal corruption while exploring the mists between its roots and branches.
+**MysticMyst** is a free-to-play online action RPG that fuses the exploration freedom of Skyrim, mission-based cooperation, and the deep character progression of Path of Exile. Set in a mystical realm where the World Tree **Yggdrasil** anchors reality itself, players become Mist-Walkers—practitioners who explore the mysteries between the tree's roots and branches while mastering ancient mystical arts.
 
 #### **Core Concept**
-ChronoMyst operates on **Temporal Cycles** - seasonal renewals where the mists of time clear and reset, allowing fresh exploration of Yggdrasil's many realms. Each cycle represents the World Tree's natural breathing, featuring:
-- **Cycle-specific mysteries** emerging from the temporal mists
+MysticMyst operates on **Cosmic Cycles** - seasonal renewals where the mists of the cosmos shift and flow, allowing fresh exploration of Yggdrasil's many realms. Each cycle represents the World Tree's natural breathing, featuring:
+- **Cycle-specific mysteries** emerging from the cosmic mists
 - **Fresh discoveries and progression** as new branches of the World Tree become accessible
 - **Evolving mist patterns** that reshape the connections between realms
-- **Chronarch abilities** that navigate temporal currents and mystical energies
+- **Mystical abilities** that navigate cosmic currents and mystical energies
 - **Cooperative expeditions** into the mist-shrouded branches and roots of existence
 
 #### **Key Features**
-- **⚔️ Fast-Paced Combat**: Fluid action combat combining temporal abilities with weapon mastery
+- **⚔️ Fast-Paced Combat**: Fluid action combat combining mystical abilities with weapon mastery
 - **🔄 League System**: Fresh seasonal content with unique mechanics and league-specific rewards
-- **🤝 Cooperative Gameplay**: 1-4 player missions requiring temporal coordination and strategy
+- **🤝 Cooperative Gameplay**: 1-4 player missions requiring mystical coordination and strategy
 - **🌌 Open World Exploration**: Skyrim-inspired freedom to discover secrets across multiple timeline zones
-- **� Deep Character Building**: PoE-style passive skill trees with temporal ability specializations
-- **⚡ Temporal Mechanics**: Slow time, rewind damage, glimpse future enemy attacks, create temporal echoes
-- **🏛️ Endgame Mapping**: Procedurally generated temporal rifts with escalating difficulty and rewards
-- **� Crafting & Economy**: League-based economies with temporal essence crafting systems
+- **� Deep Character Building**: PoE-style passive skill trees with mystical ability specializations
+- **⚡ mystical Mechanics**: Slow time, rewind damage, glimpse future enemy attacks, create mystical echoes
+- **🏛️ Endgame Mapping**: Procedurally generated mystical rifts with escalating difficulty and rewards
+- **� Crafting & Economy**: League-based economies with mystical essence crafting systems
 
 #### **Setting**
-The game world centers around **Yggdrasil**, the cosmic World Tree whose roots, trunk, and branches span multiple realms of existence. The temporal mists that flow between its levels create natural barriers and pathways:
+The game world centers around **Yggdrasil**, the cosmic World Tree whose roots, trunk, and branches span multiple realms of existence. The mystical mists that flow between its levels create natural barriers and pathways:
 
-- **The Root Nexus**: Central hub carved into Yggdrasil's mighty roots, home to Chronarch sanctuaries and guilds
-- **Midgard Groves**: Familiar forests and meadows where new Chronarchs learn their abilities
-- **Jotun Wastes**: Harsh realm of giants where temporal storms test experienced explorers
+- **The Root Nexus**: Central hub carved into Yggdrasil's mighty roots, home to mist-walker sanctuaries and guilds
+- **Midgard Groves**: Familiar forests and meadows where new mist-walkers learn their abilities
+- **Jotun Wastes**: Harsh realm of giants where mystical storms test experienced explorers
 - **Alfheim Canopies**: Ethereal tree-cities suspended in Yggdrasil's upper branches
 - **Mist Expeditions**: Instanced journeys into dangerous, mist-shrouded areas of the World Tree
 - **The Crown Ascension**: Endgame content scaling toward Yggdrasil's mysterious peak
@@ -53,16 +55,16 @@ The game world centers around **Yggdrasil**, the cosmic World Tree whose roots, 
 #### **Themes**
 - **Connection to nature** through the World Tree and its mystical ecosystems
 - **Cyclical renewal** as natural as the changing seasons and tree growth
-- **Hidden knowledge** veiled within the temporal mists
+- **Hidden knowledge** veiled within the mystical mists
 - **Cooperative exploration** of mysterious and dangerous realms
 - **Balance between order and chaos** in maintaining Yggdrasil's health
 
 #### **Gameplay Overview**
-Players create Chronarchs with distinct **mystical specializations** and **runic weapon affinities**. Core gameplay loop includes:
+Players create mist-walkers with distinct **mystical specializations** and **runic weapon affinities**. Core gameplay loop includes:
 
 - **🎯 Expedition-Based Progression**: Explore mist-veiled branches of Yggdrasil with friends
-- **⚡ Mystical Arts Mastery**: Develop temporal abilities and commune with World Tree spirits
-- **🛡️ Runic Equipment**: Collect and enchant Norse-inspired gear with temporal essence
+- **⚡ Mystical Arts Mastery**: Develop mystical abilities and commune with World Tree spirits
+- **🛡️ Runic Equipment**: Collect and enchant Norse-inspired gear with mystical essence
 - **🔄 Cycle Participation**: Engage with seasonal mysteries that emerge every 3-4 months
 - **🗺️ Crown Ascension**: Climb higher into Yggdrasil through increasingly mystical challenges
 - **🏆 Seasonal Events**: Participate in world-tree celebrations and competitions
@@ -70,7 +72,7 @@ Players create Chronarchs with distinct **mystical specializations** and **runic
 - **📊 Character Growth**: Theorycrafting with Norse mythology-inspired skill trees and rune combinations
 
 #### **Game Design Philosophy**
-ChronoMyst draws mechanical inspiration from three pillars:
+MysticMyst draws mechanical inspiration from three pillars:
 
 - **🏔️ Skyrim's Exploration**: Open-world zones with secrets, environmental storytelling, and player-driven discovery
 - **🤖 Warframe's Action**: Fast-paced cooperative missions with unique abilities, smooth movement, and regular content updates  
@@ -89,7 +91,7 @@ This wiki repository serves multiple critical functions:
 ## 🏗️ Repository Structure
 
 ```
-ChronoMyst-wiki/
+MysticMyst-wiki/
 ├── README.md                 # This file
 ├── CONTRIBUTING.md           # Contribution guidelines
 ├── LICENSE                   # License information
@@ -97,7 +99,7 @@ ChronoMyst-wiki/
 ├── codex/                    # Official canonical content
 │   ├── characters/           # Character profiles and biographies
 │   ├── locations/            # World locations and descriptions
-│   ├── timeline/             # Chronological events
+│   ├── timeline/             # mysticlogical events
 │   ├── factions/             # Organizations and groups
 │   ├── artifacts/            # Important items and relics
 │   └── lore/                 # Deep lore and mythology
@@ -146,7 +148,7 @@ ChronoMyst-wiki/
 ### 🔍 Advanced Search & Discovery
 - **Tagged content**: Easy categorization and filtering
 - **Cross-references**: Linked entries for deep exploration
-- **Timeline navigation**: Chronological browsing of events
+- **Timeline navigation**: mysticlogical browsing of events
 
 ### 📊 Data Integration
 - **JSON-first approach**: Structured data as the primary source of truth
@@ -167,8 +169,8 @@ ChronoMyst-wiki/
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/[your-org]/ChronoMyst-wiki.git
-   cd ChronoMyst-wiki
+   git clone https://github.com/[your-org]/MysticMyst-wiki.git
+   cd MysticMyst-wiki
    ```
 
 2. **Install dependencies** (if applicable)
@@ -259,7 +261,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for detailed guidelines on:
 
 ## 🤝 Contributing
 
-We welcome contributions from the ChronoMyst community! Here's how you can help:
+We welcome contributions from the MysticMyst community! Here's how you can help:
 
 ### Types of Contributions
 - **Lore research**: Deep dives into game content
@@ -317,7 +319,7 @@ We welcome contributions from the ChronoMyst community! Here's how you can help:
 
 ## 🔗 Links and Resources
 
-- **Game Website**: [Link to ChronoMyst official site]
+- **Game Website**: [Link to MysticMyst official site]
 - **Community Discord**: [Discord invite link]
 - **Developer Blog**: [Development blog URL]
 - **Bug Reports**: [Issue tracker link]
@@ -348,7 +350,7 @@ This project is licensed under the [License Type] - see the [LICENSE](LICENSE) f
 
 ## 🏷️ Tags
 
-`chronoMyst` `wiki` `codex` `gaming` `lore` `community` `data-driven` `collaboration` `source-of-truth`
+`MysticMyst` `wiki` `codex` `gaming` `lore` `community` `data-driven` `collaboration` `source-of-truth`
 
 ---
 
@@ -358,4 +360,4 @@ This project is licensed under the [License Type] - see the [LICENSE](LICENSE) f
 
 ---
 
-*"In the realm of ChronoMyst, knowledge is the greatest treasure of all."*
+*"In the realm of MysticMyst, knowledge is the greatest treasure of all."*

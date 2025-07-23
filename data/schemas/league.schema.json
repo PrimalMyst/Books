@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "title": "ChronoMyst League System",
-  "description": "Schema for league mechanics and world types in ChronoMyst",
+  "title": "MysticMyst League System",
+  "description": "Schema for league mechanics and world types in MysticMyst",
   "type": "object",
   "properties": {
     "id": {
@@ -181,7 +181,7 @@
         },
         "timeline_explanation": {
           "type": "string",
-          "description": "How this league fits into the temporal lore"
+          "description": "How this league fits into the mystical lore"
         },
         "world_changes": {
           "type": "array",

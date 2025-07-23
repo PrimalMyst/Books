@@ -2,7 +2,7 @@
 
 ## Overview
 
-This directory contains comprehensive world-building documentation for ChronoMyst. All content here should align with the structured JSON data in the `/data` folder and serve as the narrative foundation for the game world.
+This directory contains comprehensive world-building documentation for MysticMyst. All content here should align with the structured JSON data in the `/data` folder and serve as the narrative foundation for the game world.
 
 ## Directory Structure
 
@@ -10,7 +10,7 @@ This directory contains comprehensive world-building documentation for ChronoMys
 world-building/
 ├── README.md                    # This file
 ├── cosmology/                   # Universal structure and rules
-│   ├── time-mechanics.md        # How time works in ChronoMyst
+│   ├── time-mechanics.md        # How time works in MysticMyst
 │   ├── dimensional-structure.md # Multiple realities and planes
 │   ├── cosmic-forces.md         # Fundamental powers that shape reality
 │   └── creation-myths.md        # Origin stories of the universe
@@ -27,12 +27,12 @@ world-building/
 │   └── social-structures.md     # How societies are organized
 ├── history/                     # Timeline and historical events
 │   ├── ages-and-eras.md         # Major historical periods
-│   ├── timeline.md              # Chronological event listing
+│   ├── timeline.md              # mysticlogical event listing
 │   ├── wars-and-conflicts.md    # Major battles and struggles
 │   └── great-events.md          # World-changing occurrences
 ├── magic-and-power/             # Supernatural systems
 │   ├── magic-systems.md         # How magic works
-│   ├── temporal-abilities.md    # Time-related powers
+│   ├── mystical-abilities.md    # Time-related powers
 │   ├── artifacts.md             # Magical items and relics
 │   └── prophecies.md            # Predictions and their interpretations
 └── references/                  # Cross-references and indices
@@ -150,4 +150,4 @@ Searchable keywords for categorization.
 
 ---
 
-*This guide ensures that ChronoMyst's world-building remains consistent, comprehensive, and engaging for both developers and players.*
+*This guide ensures that MysticMyst's world-building remains consistent, comprehensive, and engaging for both developers and players.*

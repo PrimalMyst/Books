@@ -1,8 +1,8 @@
-# ChronoMyst Damage System
+# MysticMyst Damage System
 
 ## Overview
 
-ChronoMyst features a sophisticated damage system built around two primary categories that reflect the cosmic balance of the post-Convergence world. Each damage type has unique mechanics, interactions, and thematic significance within the temporal setting.
+MysticMyst features a sophisticated damage system built around two primary categories that reflect the cosmic balance of the post-Convergence world. Each damage type has unique mechanics, interactions, and thematic significance within the mystical setting.
 
 ## Damage Categories
 
@@ -15,21 +15,21 @@ ChronoMyst features a sophisticated damage system built around two primary categ
 - **Mechanics**: Burning status, spread between enemies, environmental interactions
 - **Weakness**: Reduced by cold damage, can be extinguished
 - **Best Against**: Ice creatures, plants, undead
-- **Temporal Synergy**: Time acceleration enhances burn duration and damage
+- **mystical Synergy**: Time acceleration enhances burn duration and damage
 
 #### Cold ❄️
 - **Strength**: Crowd control through slowing and freezing effects
 - **Mechanics**: Chill and freeze status, movement reduction, shatter combos
 - **Weakness**: Countered by fire damage and heat sources
 - **Best Against**: Fast enemies, fire creatures, mechanical constructs
-- **Temporal Synergy**: Time slow effects stack with cold's natural slowing
+- **mystical Synergy**: Time slow effects stack with cold's natural slowing
 
 #### Lightning ⚡
 - **Strength**: Chain damage and electrical status effects
 - **Mechanics**: Conducts through water and metal, stuns, chain lightning
 - **Weakness**: Grounded enemies take reduced damage
 - **Best Against**: Flying enemies, groups, water-based creatures
-- **Temporal Synergy**: Temporal echoes can create multiple lightning strikes
+- **mystical Synergy**: mystical echoes can create multiple lightning strikes
 
 ### 🔱 Primal Damage
 **Theme**: Fundamental forces that shape reality itself
@@ -39,22 +39,22 @@ ChronoMyst features a sophisticated damage system built around two primary categ
 - **Strength**: Bypasses armor, effective against corruption, provides support
 - **Mechanics**: Consecration effects, ally buffs, purification
 - **Weakness**: Less effective against natural/neutral enemies
-- **Best Against**: Chaos-corrupted, undead, temporal parasites
-- **Temporal Synergy**: Stabilizes temporal effects and prevents backlash
+- **Best Against**: Chaos-corrupted, undead, mystical parasites
+- **mystical Synergy**: Stabilizes mystical effects and prevents backlash
 
 #### Chaos 🌀
 - **Strength**: Ignores resistances, unpredictable effects, reality manipulation
 - **Mechanics**: Random status effects, resistance bypassing, entropy
 - **Weakness**: Unpredictable nature can backfire, countered by order magic
 - **Best Against**: Heavily armored enemies, constructs, rigid systems
-- **Temporal Synergy**: Creates temporal instabilities and paradox effects
+- **mystical Synergy**: Creates mystical instabilities and paradox effects
 
 #### Physical ⚔️
 - **Strength**: Reliable baseline damage, enhanced by equipment quality
 - **Mechanics**: Armor penetration, critical hits, weapon-based scaling
 - **Weakness**: Fully blocked by armor unless penetration is applied
 - **Best Against**: Lightly armored enemies, when enhanced by other damage types
-- **Temporal Synergy**: Temporal acceleration increases attack speed and critical chance
+- **mystical Synergy**: mystical acceleration increases attack speed and critical chance
 
 ## Damage Interactions
 
@@ -65,13 +65,13 @@ ChronoMyst features a sophisticated damage system built around two primary categ
 - **Lightning + Water/Metal**: Conducts for area-of-effect damage
 - **Fire + Cold**: Opposing forces partially cancel each other
 
-### Temporal Enhancement
-All damage types can be enhanced through Chronarch abilities:
+### mystical Enhancement
+All damage types can be enhanced through mist-walker abilities:
 
 - **Time Echo**: Duplicates damage effects for multiple hits
-- **Temporal Acceleration**: Increases damage frequency and status duration
+- **mystical Acceleration**: Increases damage frequency and status duration
 - **Time Slow**: Extends status effects and provides setup time
-- **Temporal Fracture**: Creates reality cracks that amplify all damage types
+- **mystical Fracture**: Creates reality cracks that amplify all damage types
 
 ## Resistance System
 
@@ -79,7 +79,7 @@ All damage types can be enhanced through Chronarch abilities:
 - **Physical Armor**: Reduces physical damage, minor reduction to elemental
 - **Elemental Wards**: Specific resistance to elemental damage types
 - **Divine Protection**: Reduces chaos and enhances holy damage
-- **Temporal Stability**: Prevents temporal distortion effects
+- **mystical Stability**: Prevents mystical distortion effects
 
 ### Penetration Mechanics
 - **Fire**: Heat bypasses some armor through thermal conduction
@@ -91,7 +91,7 @@ All damage types can be enhanced through Chronarch abilities:
 ## Build Synergies
 
 ### Pure Elemental Builds
-- **Flame Chronarch**: Fire damage with temporal acceleration
+- **Flame mist-walker**: Fire damage with mystical acceleration
 - **Frost Warden**: Cold damage with time slow and crowd control
 - **Storm Caller**: Lightning damage with chain reactions and mobility
 
@@ -103,7 +103,7 @@ All damage types can be enhanced through Chronarch abilities:
 ### Hybrid Builds
 - **Elemental Fusion**: Combines multiple elemental types for complex interactions
 - **Order/Chaos Balance**: Uses both holy and chaos for versatile damage
-- **Temporal Warrior**: Physical damage enhanced by temporal manipulation
+- **mystical Warrior**: Physical damage enhanced by mystical manipulation
 - **Primal Elementalist**: Bridges elemental and primal for unique effects
 
 ## Equipment Integration
@@ -117,33 +117,33 @@ All damage types can be enhanced through Chronarch abilities:
 ### Armor Synergies
 - **Elemental Attunement**: Armor that enhances specific elemental damage
 - **Divine Vestments**: Increase holy power and provide chaos resistance
-- **Temporal Stabilizers**: Reduce chaos effects and enhance temporal abilities
+- **mystical Stabilizers**: Reduce chaos effects and enhance mystical abilities
 - **Adaptive Armor**: Changes resistances based on enemy damage types
 
 ### Artifact Powers
 - **Elemental Crystals**: Store and amplify elemental energies
 - **Divine Fragments**: Channel pure holy power
 - **Chaos Shards**: Contain controlled entropy for chaos effects
-- **Temporal Anchors**: Stabilize or destabilize time-based effects
+- **mystical Anchors**: Stabilize or destabilize time-based effects
 
 ## Enemy Design Philosophy
 
 ### Vulnerability Patterns
 - **Elemental Weaknesses**: Traditional rock-paper-scissors relationships
 - **Primal Oppositions**: Holy vs. Chaos, Order vs. Entropy
-- **Temporal Resistances**: Some enemies exist outside normal time flow
+- **mystical Resistances**: Some enemies exist outside normal time flow
 - **Adaptive Defenses**: High-level enemies that adjust to player damage types
 
 ### Boss Mechanics
 - **Phase Changes**: Bosses cycle through different damage resistances
 - **Elemental Immunity**: Temporary immunity requiring damage type switching
-- **Temporal Shields**: Protection that requires specific temporal abilities
+- **mystical Shields**: Protection that requires specific mystical abilities
 - **Chaos Corruption**: Bosses that become more dangerous when hit with chaos
 
 ## Lore Integration
 
 ### Elemental Origins
-Elemental damage draws from the raw forces unleashed during the Great Temporal Convergence, when reality's barriers weakened and elemental planes touched the prime timeline.
+Elemental damage draws from the raw forces unleashed during the Great mystical Convergence, when reality's barriers weakened and elemental planes touched the prime timeline.
 
 ### Primal Significance
 Primal damage represents the fundamental forces that existed before the Convergence:
@@ -151,9 +151,9 @@ Primal damage represents the fundamental forces that existed before the Converge
 - **Chaos**: The entropy that seeks to unravel stabilized timelines
 - **Physical**: The baseline reality that anchors all other forces
 
-### Temporal Context
-The damage system reflects the post-Convergence world where Chronarchs must balance elemental mastery with understanding of primal forces, using temporal abilities to harmonize these opposing energies in pursuit of greater power and deeper understanding of reality's nature.
+### mystical Context
+The damage system reflects the post-Convergence world where mist-walkers must balance elemental mastery with understanding of primal forces, using mystical abilities to harmonize these opposing energies in pursuit of greater power and deeper understanding of reality's nature.
 
 ---
 
-This damage system provides both mechanical depth for character building and thematic coherence within ChronoMyst's temporal fantasy setting, ensuring that combat feels meaningful within the broader context of the game's lore and progression systems.
+This damage system provides both mechanical depth for character building and thematic coherence within MysticMyst's mystical fantasy setting, ensuring that combat feels meaningful within the broader context of the game's lore and progression systems.

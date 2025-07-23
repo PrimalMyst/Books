@@ -6,8 +6,8 @@
   "knowledge_level": "practical",
   "certainty": "well-documented",
   "description": {
-    "summary": "In ChronoMyst, mystical power is not granted by external sources but developed through dedicated practice along specific Paths of Mastery. Each path represents a different way of understanding and working with the Mist that flows through all things.",
-    "detailed": "Unlike systems where power is bestowed by gods or artifacts, the mystical arts in ChronoMyst require deep personal development and understanding. Practitioners choose a primary Path of Mastery that resonates with their nature and spend years learning to perceive, channel, and guide the Mist according to that path's principles. The Nine Paths correspond to the influences of the Nine Realms, but mastery comes from within - from developing one's consciousness, discipline, and understanding rather than from external power sources. A master of any path can achieve incredible feats, but only through dedication, study, and gradual expansion of their awareness. The Mist responds to genuine understanding and authentic practice, not to shortcuts or artificial enhancements. This creates a system where veteran practitioners have earned their abilities through years of development, making each master a repository of both power and wisdom.",
+    "summary": "In MysticMyst, mystical power is not granted by external sources but developed through dedicated practice along specific Paths of Mastery. Each path represents a different way of understanding and working with the Mist that flows through all things.",
+    "detailed": "Unlike systems where power is bestowed by gods or artifacts, the mystical arts in MysticMyst require deep personal development and understanding. Practitioners choose a primary Path of Mastery that resonates with their nature and spend years learning to perceive, channel, and guide the Mist according to that path's principles. The Nine Paths correspond to the influences of the Nine Realms, but mastery comes from within - from developing one's consciousness, discipline, and understanding rather than from external power sources. A master of any path can achieve incredible feats, but only through dedication, study, and gradual expansion of their awareness. The Mist responds to genuine understanding and authentic practice, not to shortcuts or artificial enhancements. This creates a system where veteran practitioners have earned their abilities through years of development, making each master a repository of both power and wisdom.",
     "implications": "This approach means that mystical conflicts are battles of skill, understanding, and years of preparation rather than contests of raw power or superior equipment. It also creates natural mentorship relationships and schools of thought around each Path."
   },
   "origins": {
@@ -224,7 +224,7 @@
   "metadata": {
     "created": "2025-01-27T15:45:00Z",
     "last_updated": "2025-01-27T15:45:00Z", 
-    "author": "ChronoMyst Development Team",
+    "author": "MysticMyst Development Team",
     "version": "1.0.0",
     "canonical": true
   }

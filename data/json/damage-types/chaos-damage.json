@@ -4,10 +4,10 @@
   "category": "primal", 
   "type": "chaos",
   "description": {
-    "brief": "Unpredictable entropic force that ignores resistances and creates random effects, representing pure temporal instability.",
-    "detailed": "Chaos damage embodies the destructive force of entropy and temporal corruption. It bypasses most conventional defenses by attacking the fundamental stability of matter and energy. Chaos damage is inherently unpredictable, with effects that can vary wildly between applications, making it both powerful and dangerous to wield.",
+    "brief": "Unpredictable entropic force that ignores resistances and creates random effects, representing pure mystical instability.",
+    "detailed": "Chaos damage embodies the destructive force of entropy and mystical corruption. It bypasses most conventional defenses by attacking the fundamental stability of matter and energy. Chaos damage is inherently unpredictable, with effects that can vary wildly between applications, making it both powerful and dangerous to wield.",
     "visual_effects": "Swirling purple and black energy with crackling distortions, reality tears, and unstable particle effects",
-    "lore_explanation": "Chaos damage draws from the temporal fractures and paradoxes left by the Great Convergence. It represents the antithesis of order, seeking to unravel the carefully maintained stability of post-Convergence reality."
+    "lore_explanation": "Chaos damage draws from the mystical fractures and paradoxes left by the Great Convergence. It represents the antithesis of order, seeking to unravel the carefully maintained stability of post-Convergence reality."
   },
   "mechanics": {
     "base_damage": {
@@ -31,7 +31,7 @@
         "description": "Target's resistances are randomly shuffled every 2 seconds"
       },
       {
-        "effect_name": "Temporal Instability",
+        "effect_name": "mystical Instability",
         "duration": "5 seconds",
         "stacking": true,
         "description": "Target may skip turns or act multiple times randomly"
@@ -39,7 +39,7 @@
     ],
     "resistances": {
       "armor_effectiveness": 0.0,
-      "resistance_sources": ["Order magic", "Temporal stability anchors", "Divine protection"],
+      "resistance_sources": ["Order magic", "mystical stability anchors", "Divine protection"],
       "penetration_mechanics": "Chaos damage ignores physical defenses and most resistances"
     },
     "interactions": [
@@ -50,17 +50,17 @@
         "conditions": "When chaos and holy damage interact"
       },
       {
-        "with_damage_type": "temporal-fracture",
+        "with_damage_type": "mystical-fracture",
         "interaction_type": "combines",
         "result": "Creates reality tears that deal massive chaos damage",
-        "conditions": "When temporal fractures are corrupted by chaos"
+        "conditions": "When mystical fractures are corrupted by chaos"
       }
     ]
   },
-  "temporal_aspects": {
+  "mystical_aspects": {
     "time_interaction": "fragments",
-    "chronarch_synergy": "Destabilizes temporal abilities, can cause unpredictable temporal effects",
-    "temporal_enhancement": "Temporal manipulation can focus chaos into more predictable patterns"
+    "mist-walker_synergy": "Destabilizes mystical abilities, can cause unpredictable mystical effects",
+    "mystical_enhancement": "mystical manipulation can focus chaos into more predictable patterns"
   },
   "equipment_synergy": {
     "weapon_types": ["Corrupted Artifacts", "Chaos Orbs", "Fractured Blades", "Entropic Catalysts"],
@@ -74,7 +74,7 @@
       "effectiveness_multiplier": 1.8
     },
     {
-      "enemy_type": "Temporal Guardians",
+      "enemy_type": "mystical Guardians",
       "vulnerability_reason": "Chaos directly opposes their stabilizing nature",
       "effectiveness_multiplier": 1.5
     },
@@ -93,14 +93,14 @@
     {
       "archetype_name": "Entropy Mage",
       "focus": "Battlefield control through unpredictable chaos effects",
-      "synergistic_skills": ["Reality Distortion", "Chaos Storm", "Temporal Scramble", "Disorder Aura"]
+      "synergistic_skills": ["Reality Distortion", "Chaos Storm", "mystical Scramble", "Disorder Aura"]
     }
   ],
-  "tags": ["primal", "chaos", "entropy", "unpredictable", "resistance-piercing", "temporal-corruption"],
+  "tags": ["primal", "chaos", "entropy", "unpredictable", "resistance-piercing", "mystical-corruption"],
   "metadata": {
     "created": "2025-07-23T10:10:00Z",
     "last_updated": "2025-07-23T10:10:00Z",
-    "author": "ChronoMyst Development Team",
+    "author": "MysticMyst Development Team",
     "version": "1.0.0",
     "canonical": true
   }

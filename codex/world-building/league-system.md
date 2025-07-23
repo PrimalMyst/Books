@@ -1,8 +1,8 @@
-# ChronoMyst League System
+# MysticMyst League System
 
 ## Overview
 
-ChronoMyst features a multi-layered league system that provides different gameplay experiences while maintaining the core temporal theme. The system allows for both competitive seasonal play and long-term character development across three distinct world types.
+MysticMyst features a multi-layered league system that provides different gameplay experiences while maintaining the core mystical theme. The system allows for both competitive seasonal play and long-term character development across three distinct world types.
 
 ## World Types
 
@@ -23,9 +23,9 @@ The **Current League** represents the active seasonal content where most players
 - Final boss completion grants migration to permanent leagues
 
 **Example Current League: "Echoes of Convergence"**
-- Temporal echoes from past leagues randomly appear
+- mystical echoes from past leagues randomly appear
 - Community actions influence which historical events resurface
-- Unique rewards tied to understanding temporal lore
+- Unique rewards tied to understanding mystical lore
 
 ### 🏛️ Standard Eternal (Veteran World)
 The **Standard Eternal** league serves as the permanent home for characters who have proven themselves by completing a current league's final boss.
@@ -33,7 +33,7 @@ The **Standard Eternal** league serves as the permanent home for characters who 
 **Key Features:**
 - **Permanent Progression**: All character advancement is preserved indefinitely
 - **Legacy Content**: Access to mechanics from all previous leagues
-- **Advanced Crafting**: Master-tier temporal essence manipulation
+- **Advanced Crafting**: Master-tier mystical essence manipulation
 - **Mentor Role**: Veterans can guide new players
 - **No Resets**: World state continues to evolve without full resets
 
@@ -111,7 +111,7 @@ The **Offline Eternal** league provides a parallel permanent experience for play
 - **Social Data**: Friend lists, guild memberships (online leagues only)
 
 ### What Doesn't Transfer
-- **League-Specific Currency**: Temporal essences unique to that league
+- **League-Specific Currency**: mystical essences unique to that league
 - **Temporary Buffs**: League mechanic bonuses that expire
 - **Seasonal Rankings**: Ladder positions and race records
 - **Instance Progress**: Partially completed dungeons or raids
@@ -119,17 +119,17 @@ The **Offline Eternal** league provides a parallel permanent experience for play
 ## Lore Integration
 
 ### Narrative Justification
-The league system is explained through **Temporal Cycle Theory**:
+The league system is explained through **mystical Cycle Theory**:
 
 - **Current Leagues**: Represent active timeline branches being explored
 - **Standard Eternal**: The "true" timeline that emerges from successful resolutions
-- **Offline Eternal**: Parallel dimension bubbles for individual Chronarch training
+- **Offline Eternal**: Parallel dimension bubbles for individual mist-walker training
 
 ### World Continuity
-- Each league represents a different approach to resolving temporal crises
+- Each league represents a different approach to resolving mystical crises
 - Successful leagues contribute knowledge to the greater timeline
-- Failed or incomplete leagues become "temporal echoes" that may resurface
-- Veterans in Standard Eternal mentor new Chronarchs based on their experience
+- Failed or incomplete leagues become "mystical echoes" that may resurface
+- Veterans in Standard Eternal mentor new mist-walkers based on their experience
 
 ### Community Storytelling
 - Player actions in leagues influence the overarching narrative
@@ -156,4 +156,4 @@ The league system is explained through **Temporal Cycle Theory**:
 
 ---
 
-This league system provides multiple pathways for player engagement while maintaining the temporal theme that makes ChronoMyst unique. Whether players prefer competitive seasonal play, long-term character development, or solo exploration, the system accommodates different playstyles within a cohesive narrative framework.
+This league system provides multiple pathways for player engagement while maintaining the mystical theme that makes MysticMyst unique. Whether players prefer competitive seasonal play, long-term character development, or solo exploration, the system accommodates different playstyles within a cohesive narrative framework.

@@ -7,7 +7,7 @@
     "brief": "Pure divine energy that bypasses many defenses and provides special effectiveness against corrupted enemies.",
     "detailed": "Holy damage represents the power of divine order and purification. Unlike elemental damage which affects the physical realm, holy damage directly impacts the spiritual essence of targets. It is particularly effective against chaotic and corrupted entities while providing healing and protective benefits to allies.",
     "visual_effects": "Brilliant white and golden light with soft chiming sounds, radiant beams, and purifying aura effects",
-    "lore_explanation": "Holy damage channels the power of cosmic order and divine will. In ChronoMyst, this represents the stabilizing forces that work to maintain temporal harmony and resist chaotic timeline corruption."
+    "lore_explanation": "Holy damage channels the power of cosmic order and divine will. In MysticMyst, this represents the stabilizing forces that work to maintain mystical harmony and resist chaotic timeline corruption."
   },
   "mechanics": {
     "base_damage": {
@@ -33,7 +33,7 @@
     ],
     "resistances": {
       "armor_effectiveness": 0.3,
-      "resistance_sources": ["Divine protection spells", "Sacred artifacts", "Temporal stability buffs"],
+      "resistance_sources": ["Divine protection spells", "Sacred artifacts", "mystical stability buffs"],
       "penetration_mechanics": "Holy damage bypasses physical armor but can be resisted by spiritual defenses"
     },
     "interactions": [
@@ -51,15 +51,15 @@
       }
     ]
   },
-  "temporal_aspects": {
+  "mystical_aspects": {
     "time_interaction": "none",
-    "chronarch_synergy": "Stabilizes temporal abilities, reducing chaos and preventing temporal backlash",
-    "temporal_enhancement": "Time-locked holy effects can create persistent consecrated areas"
+    "mist-walker_synergy": "Stabilizes mystical abilities, reducing chaos and preventing mystical backlash",
+    "mystical_enhancement": "Time-locked holy effects can create persistent consecrated areas"
   },
   "equipment_synergy": {
     "weapon_types": ["Holy Symbols", "Blessed Blades", "Divine Staves", "Consecrated Gauntlets"],
     "armor_interactions": ["Sacred vestments increase holy power", "Divine armor provides chaos resistance"],
-    "artifact_synergies": ["Fragments of Divine Will", "Temporal Harmony Crystals", "Sanctified Relics"]
+    "artifact_synergies": ["Fragments of Divine Will", "mystical Harmony Crystals", "Sanctified Relics"]
   },
   "enemy_vulnerabilities": [
     {
@@ -68,7 +68,7 @@
       "effectiveness_multiplier": 2.0
     },
     {
-      "enemy_type": "Temporal parasites",
+      "enemy_type": "mystical parasites",
       "vulnerability_reason": "Destabilizing influence on timeline",
       "effectiveness_multiplier": 1.8
     },
@@ -82,7 +82,7 @@
     {
       "archetype_name": "Divine Guardian", 
       "focus": "Tank build with holy damage and ally protection",
-      "synergistic_skills": ["Divine Shield", "Consecrated Ground", "Purifying Aura", "Temporal Sanctuary"]
+      "synergistic_skills": ["Divine Shield", "Consecrated Ground", "Purifying Aura", "mystical Sanctuary"]
     },
     {
       "archetype_name": "Purifier",
@@ -94,7 +94,7 @@
   "metadata": {
     "created": "2025-07-23T10:05:00Z",
     "last_updated": "2025-07-23T10:05:00Z",
-    "author": "ChronoMyst Development Team",
+    "author": "MysticMyst Development Team",
     "version": "1.0.0",
     "canonical": true
   }

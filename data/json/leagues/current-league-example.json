@@ -13,7 +13,7 @@
     "reset_conditions": [
       "League timer expiration",
       "Final boss defeated by sufficient players",
-      "Critical temporal instability reached"
+      "Critical mystical instability reached"
     ],
     "persistent_elements": [
       "Account-wide achievements",
@@ -24,7 +24,7 @@
     "unique_features": [
       {
         "feature": "Convergence Echoes",
-        "description": "Temporal echoes appear randomly that show glimpses of alternate timeline events",
+        "description": "mystical echoes appear randomly that show glimpses of alternate timeline events",
         "impact": "Players can witness and sometimes interact with past/future league mechanics"
       },
       {
@@ -57,7 +57,7 @@
     "market_reset": true
   },
   "endgame_access": {
-    "final_boss": "the-temporal-sovereign",
+    "final_boss": "the-mystical-sovereign",
     "completion_rewards": [
       {
         "reward_type": "migration",
@@ -75,8 +75,8 @@
     "post_completion": "Character automatically migrates to Standard Eternal league, player can create new character for continued current league play"
   },
   "lore_integration": {
-    "narrative_theme": "Investigating echoes from the original Temporal Convergence that are surfacing in the present",
-    "timeline_explanation": "This cycle represents a period where temporal resonance from the Great Convergence is causing historical events to 'echo' into the present",
+    "narrative_theme": "Investigating echoes from the original mystical Convergence that are surfacing in the present",
+    "timeline_explanation": "This cycle represents a period where mystical resonance from the Great Convergence is causing historical events to 'echo' into the present",
     "world_changes": [
       "Ancient ruins phase in and out of existence",
       "NPCs occasionally speak dialogue from past/future leagues",
@@ -91,7 +91,7 @@
   "metadata": {
     "created": "2025-07-22T12:00:00Z",
     "last_updated": "2025-07-22T12:00:00Z", 
-    "author": "ChronoMyst Development Team",
+    "author": "MysticMyst Development Team",
     "version": "1.0.0",
     "canonical": true
   }

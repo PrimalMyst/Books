@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "title": "ChronoMyst Damage System",
-  "description": "Schema for damage types and combat mechanics in ChronoMyst",
+  "title": "MysticMyst Damage System",
+  "description": "Schema for damage types and combat mechanics in MysticMyst",
   "type": "object",
   "properties": {
     "id": {
@@ -15,12 +15,12 @@
     },
     "category": {
       "type": "string",
-      "enum": ["elemental", "primal", "temporal", "hybrid"],
+      "enum": ["elemental", "primal", "mystical", "hybrid"],
       "description": "Primary damage category"
     },
     "type": {
       "type": "string",
-      "enum": ["fire", "cold", "lightning", "holy", "chaos", "physical", "temporal-slow", "temporal-acceleration", "temporal-fracture"],
+      "enum": ["fire", "cold", "lightning", "holy", "chaos", "physical", "mystical-slow", "mystical-acceleration", "mystical-fracture"],
       "description": "Specific damage type"
     },
     "description": {
@@ -142,22 +142,22 @@
         }
       }
     },
-    "temporal_aspects": {
+    "mystical_aspects": {
       "type": "object",
-      "description": "How this damage type relates to temporal mechanics",
+      "description": "How this damage type relates to mystical mechanics",
       "properties": {
         "time_interaction": {
           "type": "string",
           "enum": ["accelerates", "slows", "fragments", "echoes", "none"],
           "description": "How this damage affects time flow"
         },
-        "chronarch_synergy": {
+        "mist-walker_synergy": {
           "type": "string",
-          "description": "Special interactions with Chronarch abilities"
+          "description": "Special interactions with mist-walker abilities"
         },
-        "temporal_enhancement": {
+        "mystical_enhancement": {
           "type": "string",
-          "description": "How temporal abilities can enhance this damage"
+          "description": "How mystical abilities can enhance this damage"
         }
       }
     },
@@ -183,7 +183,7 @@
           "items": {
             "type": "string"
           },
-          "description": "Temporal artifacts that enhance this damage"
+          "description": "mystical artifacts that enhance this damage"
         }
       }
     },

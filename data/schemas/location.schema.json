@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "title": "ChronoMyst Location",
-  "description": "Schema for location entries in the ChronoMyst universe",
+  "title": "MysticMyst Location",
+  "description": "Schema for location entries in the MysticMyst universe",
   "type": "object",
   "properties": {
     "id": {
