@@ -4,127 +4,99 @@
 
 | Attacker ↓ / Defender → | Cold | Chaos | Lightning | Physical | Fire | Radiance |
 |-------------------------|------|-------|-----------|----------|------|----------|
-| **Cold**               | 1.0x | 1.33x | 1.66x     | 1.0x     | 0.66x| 0.33x    |
-| **Chaos**              | 0.33x| 1.0x  | 1.33x     | 1.66x    | 1.0x | 0.66x    |
-| **Lightning**          | 0.66x| 0.33x | 1.0x      | 1.33x    | 1.66x| 1.0x     |
-| **Physical**           | 1.0x | 0.66x | 0.33x     | 1.0x     | 1.33x| 1.66x    |
-| **Fire**               | 1.66x| 1.0x  | 0.66x     | 0.33x    | 1.0x | 1.33x    |
-| **Radiance**           | 1.33x| 1.66x | 1.0x      | 0.66x    | 0.33x| 1.0x     |
+| **Cold**               | 1.0x | 1.33x | 1.66x     | 1.0x     | 0.34x| 0.67x    |
+| **Chaos**              | 0.67x| 1.0x  | 1.33x     | 1.66x    | 1.0x | 0.34x    |
+| **Lightning**          | 0.34x| 0.67x | 1.0x      | 1.33x    | 1.66x| 1.0x     |
+| **Physical**           | 1.0x | 0.34x | 0.67x     | 1.0x     | 1.33x| 1.66x    |
+| **Fire**               | 1.66x| 1.0x  | 0.34x     | 0.67x    | 1.0x | 1.33x    |
+| **Radiance**           | 1.33x| 1.66x | 1.0x      | 0.34x    | 0.67x| 1.0x     |
 
-## Divine Trio Rock-Paper-Scissors
+## Calculation System
 
-### Fundamental Trio
+### Formula
 ```
-    COLD (Preservation)
-      ↙ 1.66x     ↘ 0.33x
-LIGHTNING ←→ FIRE
-(Connection) (Transformation)
-  0.33x ↗     ↖ 1.66x
+damagetype_mult = 1 + typemult * effectiveness_step
 ```
 
-- **Cold → Lightning:** Preservation grounds chaotic energy (1.66x)
-- **Lightning → Fire:** Connection energizes heat into plasma (1.66x)  
-- **Fire → Cold:** Transformation melts crystalline structures (1.66x)
+### Parameters
+- **effectiveness_step:** 0.33
 
-### Primal Trio
-```
-   RADIANCE (Illumination)
-     ↙ 1.66x      ↘ 0.66x
-CHAOS ←→ PHYSICAL
-(Change)   (Strength)
-  0.66x ↗      ↖ 1.66x
-```
+### TypeMult Sequence (hexagonal position)
+- **Self (0):** typemult = 0 → 1 + 0 * 0.33 = **1.0x**
+- **Next (+1):** typemult = 1 → 1 + 1 * 0.33 = **1.33x**
+- **Second Next (+2):** typemult = 2 → 1 + 2 * 0.33 = **1.66x**
+- **Opposite (+3):** typemult = 0 → 1 + 0 * 0.33 = **1.0x**
+- **Second Previous (+4):** typemult = -2 → 1 + -2 * 0.33 = **0.34x**
+- **Previous (+5):** typemult = -1 → 1 + -1 * 0.33 = **0.67x**
 
-- **Chaos → Physical:** Creative disruption breaks discipline (1.66x)
-- **Physical → Radiance:** Martial focus grounds ethereal power (1.66x)
-- **Radiance → Chaos:** Divine light banishes shadow corruption (1.66x)
+### Tuning Options
+Adjusting `effectiveness_step` changes interaction strength:
+- **0.25:** More subtle (1.0, 1.25, 1.5, 1.0, 0.5, 0.75)
+- **0.33:** Current balanced (1.0, 1.33, 1.66, 1.0, 0.34, 0.67)
+- **0.50:** More dramatic (1.0, 1.5, 2.0, 1.0, 0.0, 0.5)
 
-## Calculation Examples
-
-### Example 1: Divine Trio Interactions
-- **Fire attacking Cold:** 1.66x effectiveness (Fundamental trio dynamics)
-- **Cold attacking Fire:** 0.66x effectiveness (Against the cosmic flow)
-- **Chaos attacking Physical:** 1.66x effectiveness (Primal trio dynamics)
-- **Physical attacking Chaos:** 0.66x effectiveness (Against active forces)
-
-### Example 2: Cross-Trio Interactions
-- **Cold attacking Chaos:** 1.33x effectiveness (Next in hexagon)
-- **Lightning attacking Physical:** 1.33x effectiveness (Next in hexagon)
-- **Fire attacking Radiance:** 1.33x effectiveness (Next in hexagon)
-
-### Example 3: Neutral Relationships
-- **Any type vs Self:** 1.0x effectiveness (Perfect mastery)
-- **Cold vs Physical:** 1.0x effectiveness (Opposite balance)
-- **Chaos vs Fire:** 1.0x effectiveness (Opposite balance)
-- **Lightning vs Radiance:** 1.0x effectiveness (Opposite balance)
-
-## Position Relationships
+## Hexagonal Position System
 
 ### Clockwise Order
 1. Cold → 2. Chaos → 3. Lightning → 4. Physical → 5. Fire → 6. Radiance → 1. Cold
 
-### Relationship Types
-- **Self (0):** 1.0x - Perfect mastery, no advantage
-- **Next (+1):** 1.33x effectiveness (moderate advantage)
-- **Second Next (+2):** 1.66x effectiveness (strong advantage)
-- **Opposite (+3):** 1.0x effectiveness (balanced opposition)
-- **Second Previous (+4):** 0.66x effectiveness (moderate disadvantage)
-- **Previous (+5):** 0.33x effectiveness (strong disadvantage)
+### TypeMult Pattern (0 → 1 → 2 → 0 → -2 → -1)
+```
+                    COLD (0)
+                      /\
+                     /  \
+         RADIANCE (-1)   CHAOS (1)
+                   \    /
+                    \  /
+         FIRE (-2) ---- ---- LIGHTNING (2)
+                    \  /
+                     \/
+                PHYSICAL (0)
+```
 
-## Strategic Applications
+## Divine Trio Relationships
 
-### Build Planning
-- **Pure Builds:** Maximize one damage type, accept clear weaknesses
-- **Adjacent Builds:** Combine neighboring types for synergy (e.g., Cold+Chaos)
-- **Opposition Builds:** Combine opposite types for balance (e.g., Cold+Physical)
-- **Trio Builds:** Focus on one divine trio for thematic coherence
+### Fundamental Trio (1.66x effectiveness)
+- **Cold → Lightning:** Preservation grounds chaotic energy
+- **Lightning → Fire:** Connection energizes heat into plasma  
+- **Fire → Cold:** Transformation melts crystalline structures
 
-### Combat Tactics
-- **Target Selection:** Prioritize enemies weak to your damage type
-- **Defensive Positioning:** Avoid enemies using your weakness types
-- **Elemental Conversion:** Use gear/skills to convert damage to advantageous types
-- **Team Composition:** Ensure coverage across multiple effectiveness ranges
+### Primal Trio (1.66x effectiveness)
+- **Chaos → Physical:** Creative disruption breaks discipline
+- **Physical → Radiance:** Martial focus grounds ethereal power
+- **Radiance → Chaos:** Divine light banishes shadow corruption
 
-### Equipment Considerations
-- **Resistance Gear:** Focus on protecting against your primary weaknesses
-- **Conversion Effects:** Items that change outgoing or incoming damage types
-- **Hybrid Scaling:** Equipment that benefits from multiple damage types
-- **Divine Alignment:** Gear that enhances specific trio relationships
+## Calculation Examples
 
-## Hybrid Damage Potential
+### Example 1: Strong Advantages (1.66x)
+- **Fire attacking Cold:** typemult = 2 → 1 + 2 * 0.33 = 1.66x
+- **Chaos attacking Physical:** typemult = 2 → 1 + 2 * 0.33 = 1.66x
+- **Lightning attacking Fire:** typemult = 2 → 1 + 2 * 0.33 = 1.66x
 
-The simplified single-multiplier system leaves room for future hybrid types:
+### Example 2: Moderate Advantages (1.33x)
+- **Cold attacking Chaos:** typemult = 1 → 1 + 1 * 0.33 = 1.33x
+- **Lightning attacking Physical:** typemult = 1 → 1 + 1 * 0.33 = 1.33x
+- **Fire attacking Radiance:** typemult = 1 → 1 + 1 * 0.33 = 1.33x
 
-### Potential Hybrid Types
-- **Fire-Lightning (Plasma):** Could use average effectiveness vs each target
-- **Cold-Physical (Crystal):** Preservation + Strength combination
-- **Chaos-Radiance (Void):** Corrupted light effects
+### Example 3: Neutral (1.0x)
+- **Any type vs Self:** typemult = 0 → 1 + 0 * 0.33 = 1.0x
+- **Cold vs Physical:** typemult = 0 → 1 + 0 * 0.33 = 1.0x (opposites)
+- **Chaos vs Fire:** typemult = 0 → 1 + 0 * 0.33 = 1.0x (opposites)
 
-### Implementation Notes
-- Hybrid types could use weighted averages of component effectiveness
-- Special interactions could exist only for hybrid combinations
-- Conversion mechanics could create temporary hybrid damage
-- Equipment could enable hybrid builds through multi-type scaling
+### Example 4: Disadvantages
+- **Strong (0.34x):** typemult = -2 → 1 + -2 * 0.33 = 0.34x
+- **Moderate (0.67x):** typemult = -1 → 1 + -1 * 0.33 = 0.67x
 
 ## Implementation Notes
 
-### Game Balance
-- No damage type is universally superior
-- Each type has exactly 2 advantages and 2 disadvantages  
-- Neutral relationships prevent hard counters
-- Divine trio dynamics create thematic coherence
-- Encourages diverse team compositions
+### Balance Considerations
+- The 0.33 step provides clear distinctions without extreme values
+- Neutral matchups (1.0x) occur at self and opposite positions
+- Maximum advantage is 1.66x, minimum is 0.34x
+- System maintains mathematical symmetry
 
-### PvP Applications
-- Creates natural rock-paper-scissors dynamics at multiple levels
-- Skill expression through damage type selection
-- Rewards adaptation and counter-play
-- Prevents single-build dominance
-- Trio specialization creates distinct playstyles
-
-### PvE Design
-- Enemy types can embody specific divine influences
-- Boss phases can shift between trio dynamics
-- Group content rewards understanding divine relationships
-- Resistance/immunity mechanics gain mythological depth
-- Environmental effects can favor specific divine influences
+### Future Expansion
+- Hybrid damage types can use weighted averages of base types
+- Environmental modifiers can stack multiplicatively
+- Status effects can temporarily modify typemult values
+- Equipment can provide type resistance/vulnerability bonuses

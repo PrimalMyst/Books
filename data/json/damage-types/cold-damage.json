@@ -114,8 +114,13 @@
       "chaos": 1.33,
       "lightning": 1.66,
       "physical": 1.0,
-      "fire": 0.66,
-      "radiance": 0.33
+      "fire": 0.34,
+      "radiance": 0.67
+    },
+    "calculation_parameters": {
+      "base_effectiveness": 1.0,
+      "effectiveness_step": 0.33,
+      "calculation_formula": "base_effectiveness * (1 + position_modifier * effectiveness_step)"
     },
     "position_relationships": {
       "next": "chaos",

@@ -117,12 +117,17 @@
   },
   "hexagonal_interactions": {
     "effectiveness_vs": {
-      "cold": 0.33,
+      "cold": 0.67,
       "chaos": 1.0,
       "lightning": 1.33,
       "physical": 1.66,
       "fire": 1.0,
-      "radiance": 0.66
+      "radiance": 0.34
+    },
+    "calculation_parameters": {
+      "base_effectiveness": 1.0,
+      "effectiveness_step": 0.33,
+      "calculation_formula": "base_effectiveness * (1 + position_modifier * effectiveness_step)"
     },
     "position_relationships": {
       "next": "lightning",

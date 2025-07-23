@@ -1,0 +1,181 @@
+{
+  "id": "hexagonal-damage-calculation",
+  "name": "Hexagonal Damage Calculation System",
+  "description": "Parameterized damage effectiveness calculation based on hexagonal position relationships",
+  "version": "2.0",
+  "parameters": {
+    "base_effectiveness": 1.0,
+    "effectiveness_step": 0.33,
+    "description": "Base effectiveness multiplied by (1 + position_modifier * effectiveness_step)"
+  },
+  "position_modifiers": {
+    "self": 0,
+    "next": 1,
+    "second_next": 2,
+    "opposite": 0,
+    "previous": -1,
+    "second_previous": -2
+  },
+  "calculation_formula": {
+    "formula": "effectiveness = base_effectiveness * (1 + position_modifier * effectiveness_step)",
+    "examples": {
+      "self": "1.0 * (1 + 0 * 0.33) = 1.0",
+      "next": "1.0 * (1 + 1 * 0.33) = 1.33",
+      "second_next": "1.0 * (1 + 2 * 0.33) = 1.66",
+      "opposite": "1.0 * (1 + 0 * 0.33) = 1.0",
+      "previous": "1.0 * (1 + -1 * 0.33) = 0.67",
+      "second_previous": "1.0 * (1 + -2 * 0.33) = 0.34"
+    }
+  },
+  "hexagonal_relationships": {
+    "clockwise_order": ["cold", "chaos", "lightning", "physical", "fire", "radiance"],
+    "position_mappings": {
+      "cold": {
+        "position": 1,
+        "relationships": {
+          "cold": "self",
+          "chaos": "next", 
+          "lightning": "second_next",
+          "physical": "opposite",
+          "fire": "second_previous",
+          "radiance": "previous"
+        }
+      },
+      "chaos": {
+        "position": 2,
+        "relationships": {
+          "chaos": "self",
+          "lightning": "next",
+          "physical": "second_next", 
+          "fire": "opposite",
+          "radiance": "second_previous",
+          "cold": "previous"
+        }
+      },
+      "lightning": {
+        "position": 3,
+        "relationships": {
+          "lightning": "self",
+          "physical": "next",
+          "fire": "second_next",
+          "radiance": "opposite", 
+          "cold": "second_previous",
+          "chaos": "previous"
+        }
+      },
+      "physical": {
+        "position": 4,
+        "relationships": {
+          "physical": "self",
+          "fire": "next",
+          "radiance": "second_next",
+          "cold": "opposite",
+          "chaos": "second_previous", 
+          "lightning": "previous"
+        }
+      },
+      "fire": {
+        "position": 5,
+        "relationships": {
+          "fire": "self",
+          "radiance": "next",
+          "cold": "second_next",
+          "chaos": "opposite",
+          "lightning": "second_previous",
+          "physical": "previous"
+        }
+      },
+      "radiance": {
+        "position": 6,
+        "relationships": {
+          "radiance": "self",
+          "cold": "next",
+          "chaos": "second_next", 
+          "lightning": "opposite",
+          "physical": "second_previous",
+          "fire": "previous"
+        }
+      }
+    }
+  },
+  "calculated_effectiveness_matrix": {
+    "description": "Effectiveness values calculated using the formula above",
+    "cold": {
+      "cold": 1.0,
+      "chaos": 1.33,
+      "lightning": 1.66,
+      "physical": 1.0,
+      "fire": 0.34,
+      "radiance": 0.67
+    },
+    "chaos": {
+      "cold": 0.67,
+      "chaos": 1.0,
+      "lightning": 1.33,
+      "physical": 1.66,
+      "fire": 1.0,
+      "radiance": 0.34
+    },
+    "lightning": {
+      "cold": 0.34,
+      "chaos": 0.67,
+      "lightning": 1.0,
+      "physical": 1.33,
+      "fire": 1.66,
+      "radiance": 1.0
+    },
+    "physical": {
+      "cold": 1.0,
+      "chaos": 0.34,
+      "lightning": 0.67,
+      "physical": 1.0,
+      "fire": 1.33,
+      "radiance": 1.66
+    },
+    "fire": {
+      "cold": 1.66,
+      "chaos": 1.0,
+      "lightning": 0.34,
+      "physical": 0.67,
+      "fire": 1.0,
+      "radiance": 1.33
+    },
+    "radiance": {
+      "cold": 1.33,
+      "chaos": 1.66,
+      "lightning": 1.0,
+      "physical": 0.34,
+      "fire": 0.67,
+      "radiance": 1.0
+    }
+  },
+  "tuning_guidelines": {
+    "effectiveness_step_impact": {
+      "0.25": "More subtle differences (1.0, 1.25, 1.5, 1.0, 0.75, 0.5)",
+      "0.33": "Current balanced differences (1.0, 1.33, 1.66, 1.0, 0.67, 0.34)", 
+      "0.50": "More dramatic differences (1.0, 1.5, 2.0, 1.0, 0.5, 0.0)"
+    },
+    "design_considerations": {
+      "balance": "0.33 provides meaningful but not overwhelming advantages",
+      "clarity": "Round numbers like 0.25 or 0.5 may be easier for players to understand",
+      "scaling": "Higher values create more extreme rock-paper-scissors dynamics"
+    }
+  },
+  "implementation_benefits": {
+    "parameterized": "Easy to adjust balance by changing effectiveness_step",
+    "mathematical": "Clean formula makes calculations predictable",
+    "symmetric": "Same step size for advantages and disadvantages",
+    "expandable": "Formula works for any number of damage types in a cycle"
+  },
+  "metadata": {
+    "version": "2.0",
+    "created": "2025-07-23",
+    "author": "PrimalMyst Development Team",
+    "canonical": true,
+    "replaces": "hardcoded effectiveness values",
+    "related_files": [
+      "core-thematic-hexagon.json",
+      "damage-type schemas"
+    ]
+  }
+}

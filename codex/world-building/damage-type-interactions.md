@@ -1,6 +1,13 @@
 # PrimalMyst Damage Type Interactions
 
-## Hexagonal Interaction System
+## | Attacker ↓ / Defender → | Cold | Chaos | Lightning | Physical | Fire | Radiance |
+|-------------------------|------|-------|-----------|----------|------|----------|
+| **Cold**               | 1.0x | 1.33x | 1.66x     | 1.0x     | 0.34x| 0.67x    |
+| **Chaos**              | 0.67x| 1.0x  | 1.33x     | 1.66x    | 1.0x | 0.34x    |
+| **Lightning**          | 0.34x| 0.67x | 1.0x      | 1.33x    | 1.66x| 1.0x     |
+| **Physical**           | 1.0x | 0.34x | 0.67x     | 1.0x     | 1.33x| 1.66x    |
+| **Fire**               | 1.66x| 1.0x  | 0.34x     | 0.67x    | 1.0x | 1.33x    |
+| **Radiance**           | 1.33x| 1.66x | 1.0x      | 0.34x    | 0.67x| 1.0x     |l Interaction System
 
 The six damage types form a hexagonal relationship where position determines interaction strength. This system uses a single effectiveness multiplier, leaving room for hybrid damage types and complex interactions.
 
@@ -21,26 +28,35 @@ The six damage types form a hexagonal relationship where position determines int
 
 ## Interaction Rules
 
-### Effectiveness Multipliers
-- **Next Type (+1):** 1.33x effectiveness
-- **Second Next (+2):** 1.66x effectiveness  
-- **Self (0):** 1.0x effectiveness (neutral)
-- **Opposite (+3):** 1.0x effectiveness (neutral)
-- **Second Previous (+4):** 0.66x effectiveness
-- **Previous (+5):** 0.33x effectiveness
+### Parameterized Effectiveness System
+The damage effectiveness uses a configurable formula for easy balance tuning:
 
-*Note: Using a single multiplier system allows for future hybrid damage types (e.g., Fire-Lightning) and leaves room for defensive modifiers, conversion mechanics, and other complex interactions.*
+**Formula:** `effectiveness = base_effectiveness * (1 + position_modifier * effectiveness_step)`
+
+**Current Parameters:**
+- `base_effectiveness = 1.0`
+- `effectiveness_step = 0.33`
+
+### Position Modifiers
+- **Self (0):** modifier = 0 → 1.0 * (1 + 0 * 0.33) = **1.0x**
+- **Next (+1):** modifier = 1 → 1.0 * (1 + 1 * 0.33) = **1.33x**
+- **Second Next (+2):** modifier = 2 → 1.0 * (1 + 2 * 0.33) = **1.66x**
+- **Opposite (+3):** modifier = 0 → 1.0 * (1 + 0 * 0.33) = **1.0x**
+- **Previous (+5):** modifier = -1 → 1.0 * (1 + -1 * 0.33) = **0.67x**
+- **Second Previous (+4):** modifier = -2 → 1.0 * (1 + -2 * 0.33) = **0.34x**
+
+*Note: Using a parameterized system allows for easy balance adjustments by changing the `effectiveness_step` value.*
 
 ## Complete Interaction Table
 
 | Attacker ↓ / Defender → | Cold | Chaos | Lightning | Physical | Fire | Radiance |
 |-------------------------|------|-------|-----------|----------|------|----------|
-| **Cold**               | 1.0x | 1.33x | 1.66x     | 1.0x     | 0.66x| 0.33x    |
-| **Chaos**              | 0.33x| 1.0x  | 1.33x     | 1.66x    | 1.0x | 0.66x    |
-| **Lightning**          | 0.66x| 0.33x | 1.0x      | 1.33x    | 1.66x| 1.0x     |
-| **Physical**           | 1.0x | 0.66x | 0.33x     | 1.0x     | 1.33x| 1.66x    |
-| **Fire**               | 1.66x| 1.0x  | 0.66x     | 0.33x    | 1.0x | 1.33x    |
-| **Radiance**           | 1.33x| 1.66x | 1.0x      | 0.66x    | 0.33x| 1.0x     |
+| **Cold**               | 1.0x | 1.33x | 1.66x     | 1.0x     | 0.33x| 0.66x    |
+| **Chaos**              | 0.66x| 1.0x  | 1.33x     | 1.66x    | 1.0x | 0.33x    |
+| **Lightning**          | 0.33x| 0.66x | 1.0x      | 1.33x    | 1.66x| 1.0x     |
+| **Physical**           | 1.0x | 0.33x | 0.66x     | 1.0x     | 1.33x| 1.66x    |
+| **Fire**               | 1.66x| 1.0x  | 0.33x     | 0.66x    | 1.0x | 1.33x    |
+| **Radiance**           | 1.33x| 1.66x | 1.0x      | 0.33x    | 0.66x| 1.0x     |
 
 ## Divine Trio Dynamics
 

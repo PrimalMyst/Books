@@ -114,9 +114,14 @@
       "cold": 1.33,
       "chaos": 1.66,
       "lightning": 1.0,
-      "physical": 0.66,
-      "fire": 0.33,
+      "physical": 0.34,
+      "fire": 0.67,
       "radiance": 1.0
+    },
+    "calculation_parameters": {
+      "base_effectiveness": 1.0,
+      "effectiveness_step": 0.33,
+      "calculation_formula": "base_effectiveness * (1 + position_modifier * effectiveness_step)"
     },
     "position_relationships": {
       "next": "cold",
