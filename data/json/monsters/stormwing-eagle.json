@@ -1,0 +1,70 @@
+{
+  "id": "stormwing-eagle",
+  "name": "Stormwing Eagle",
+  "category": "mount",
+  "race": "beast",
+  "breed": "stormwing",
+  "status": "alive",
+  "rarity": "extremely-rare",
+  "divine_influences": ["aurelius-protection", "voltharion-storm"],
+  "physical_description": {
+    "appearance": "A magnificent eagle with wingspan reaching 20 feet. Feathers shimmer with electrical energy, and its eyes hold an intelligence that rivals many humanoids.",
+    "size": "large",
+    "humanoid_similarity": false,
+    "distinguishing_features": [
+      "Electrically-charged feathers",
+      "Piercing intelligent gaze",
+      "Saddle-ready back structure",
+      "Storm-calling abilities"
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Storm Calling",
+      "type": "divine",
+      "description": "Can summon localized storms and ride lightning currents",
+      "power_level": "major"
+    },
+    {
+      "name": "Rider Bond",
+      "type": "mystical",
+      "description": "Forms deep mystical connection with worthy humanoid riders",
+      "power_level": "moderate"
+    },
+    {
+      "name": "Weather Sense",
+      "type": "natural",
+      "description": "Instinctively knows weather patterns days in advance",
+      "power_level": "minor"
+    }
+  ],
+  "special_traits": {
+    "mount_capabilities": {
+      "rideable": true,
+      "movement_type": "fly",
+      "burden_capacity": "moderate",
+      "temperament": "delicate",
+      "taming_difficulty": "extremely-hard",
+      "bonding_requirements": "Must prove courage in a storm and demonstrate respect for the sky"
+    }
+  },
+  "habitat": {
+    "primary_location": "mountain-peaks",
+    "environmental_preferences": ["high-altitude", "storm-prone-areas", "sacred-mountains"],
+    "territorial_behavior": "Claims entire mountain ranges, shares territory with bonded riders"
+  },
+  "social_behavior": {
+    "group_structure": "pair-bonded",
+    "intelligence_level": "highly-intelligent",
+    "humanoid_relations": "cooperative"
+  },
+  "lore_significance": "Stormwing Eagles represent the pinnacle of mount-capable monsters. Their ability to bond with humanoid riders makes them invaluable companions, though they remain fundamentally limited by their divine influence ceiling. These bonds often last for the lifetime of both creatures.",
+  "tags": ["mount", "flying", "storm-magic", "intelligent", "bond-capable", "rare-companion"],
+  "metadata": {
+    "created": "2025-07-23T12:00:00Z",
+    "last_updated": "2025-07-23T12:00:00Z",
+    "author": "PrimalMyst Development Team",
+    "version": "1.0.0",
+    "canonical": true
+  }
+}

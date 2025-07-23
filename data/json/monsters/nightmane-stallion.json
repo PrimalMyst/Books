@@ -1,0 +1,70 @@
+{
+  "id": "nightmane-stallion",
+  "name": "Nightmane Stallion",
+  "category": "mount",
+  "race": "beast",
+  "breed": "nightmane",
+  "status": "alive",
+  "rarity": "extremely-rare",
+  "divine_influences": ["serafina-shadow", "korthak-endurance"],
+  "physical_description": {
+    "appearance": "A magnificent black stallion whose mane and tail flow like liquid shadow. Hooves spark with ethereal blue light, and its eyes reflect the phases of the moon.",
+    "size": "large",
+    "humanoid_similarity": false,
+    "distinguishing_features": [
+      "Mane that flows like living shadow",
+      "Hooves that leave traces of moonlight",
+      "Eyes that mirror lunar phases",
+      "Breath that mists with starlight"
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Moonlight Gallop",
+      "type": "divine",
+      "description": "Can run across any surface, including air and water, under moonlight",
+      "power_level": "major"
+    },
+    {
+      "name": "Shadow Step",
+      "type": "mystical",
+      "description": "Can briefly phase through obstacles while galloping",
+      "power_level": "moderate"
+    },
+    {
+      "name": "Tireless Endurance",
+      "type": "divine",
+      "description": "Never tires while the moon is visible in the sky",
+      "power_level": "moderate"
+    }
+  ],
+  "special_traits": {
+    "mount_capabilities": {
+      "rideable": true,
+      "movement_type": "gallop",
+      "burden_capacity": "heavy",
+      "temperament": "delicate",
+      "taming_difficulty": "legendary",
+      "bonding_requirements": "Must be approached only during the new moon, offering a token of pure silver, and demonstrate respect for the night"
+    }
+  },
+  "habitat": {
+    "primary_location": "moonlit-meadows",
+    "environmental_preferences": ["open-plains", "moonlit-areas", "sacred-clearings"],
+    "territorial_behavior": "Roams freely across vast territories, following lunar cycles"
+  },
+  "social_behavior": {
+    "group_structure": "solitary",
+    "intelligence_level": "highly-intelligent",
+    "humanoid_relations": "wary"
+  },
+  "lore_significance": "Nightmane Stallions exemplify the mystical burden-sharing ability of mounts. When bonded with a rider, they create a mystical connection that allows them to carry not just the physical weight of their master's possessions, but also the spiritual burden of their adventures. This mystical load-sharing explains how mounted adventurers can carry extensive inventories while maintaining incredible speed and endurance.",
+  "tags": ["mount", "stallion", "moon-blessed", "burden-sharing", "legendary-taming", "gallop"],
+  "metadata": {
+    "created": "2025-07-23T12:30:00Z",
+    "last_updated": "2025-07-23T12:30:00Z",
+    "author": "PrimalMyst Development Team",
+    "version": "1.0.0",
+    "canonical": true
+  }
+}

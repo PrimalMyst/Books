@@ -1,0 +1,251 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "PrimalMyst Monster",
+  "description": "Schema for monster entries in the PrimalMyst universe - includes standard monsters, named monsters, and exceptional categories",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$",
+      "description": "Unique identifier for the monster"
+    },
+    "name": {
+      "type": "string",
+      "description": "Monster's name or species designation"
+    },
+    "category": {
+      "type": "string",
+      "enum": ["standard", "named", "mount", "companion"],
+      "description": "Primary classification of the monster"
+    },
+    "race": {
+      "type": "string",
+      "enum": ["demon", "insect", "werewolf", "treant", "dragon", "undead", "elemental", "fey", "beast", "construct", "aberration", "celestial", "fiend", "plant", "ooze", "giant"],
+      "description": "Monster race category following standard fantasy classifications"
+    },
+    "breed": {
+      "type": "string",
+      "description": "Specific breed or subspecies within the race"
+    },
+    "status": {
+      "type": "string",
+      "enum": ["alive", "dead", "missing", "unknown", "legendary"],
+      "description": "Current status of the monster"
+    },
+    "rarity": {
+      "type": "string",
+      "enum": ["common", "uncommon", "rare", "extremely-rare", "extraordinarily-rare", "unique"],
+      "description": "How rare this monster or species is"
+    },
+    "divine_influences": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "maxItems": 2,
+      "description": "Divine sources that influence this monster - maximum of 2 by cosmic law"
+    },
+    "physical_description": {
+      "type": "object",
+      "properties": {
+        "appearance": {
+          "type": "string",
+          "description": "Physical appearance of the monster"
+        },
+        "size": {
+          "type": "string",
+          "enum": ["tiny", "small", "medium", "large", "huge", "gargantuan"],
+          "description": "Size category"
+        },
+        "humanoid_similarity": {
+          "type": "boolean",
+          "description": "Whether this monster bears strong physical resemblance to humanoids"
+        },
+        "distinguishing_features": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Notable features that distinguish this monster"
+        }
+      }
+    },
+    "abilities": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "description": "Name of the ability"
+          },
+          "type": {
+            "type": "string",
+            "enum": ["natural", "mystical", "divine", "learned"],
+            "description": "Type of ability"
+          },
+          "description": {
+            "type": "string",
+            "description": "Detailed description of the ability"
+          },
+          "power_level": {
+            "type": "string",
+            "enum": ["minor", "moderate", "major", "legendary"],
+            "description": "Relative power level - monsters cannot reach 'mythical' level"
+          }
+        },
+        "required": ["name", "type", "description"]
+      }
+    },
+    "special_traits": {
+      "type": "object",
+      "properties": {
+        "mount_capabilities": {
+          "type": "object",
+          "properties": {
+            "rideable": {
+              "type": "boolean",
+              "description": "Whether this monster can serve as a mount"
+            },
+            "movement_type": {
+              "type": "string",
+              "enum": ["gallop", "fly", "swim", "burrow"],
+              "description": "Primary movement type for mounted travel"
+            },
+            "burden_capacity": {
+              "type": "string",
+              "enum": ["light", "moderate", "heavy", "massive"],
+              "description": "How much burden this mount can carry for their master"
+            },
+            "temperament": {
+              "type": "string",
+              "enum": ["delicate", "spirited", "stubborn", "loyal", "wild"],
+              "description": "Temperament affecting taming difficulty"
+            },
+            "taming_difficulty": {
+              "type": "string",
+              "enum": ["easy", "moderate", "hard", "extremely-hard", "legendary"],
+              "description": "Difficulty level of taming this mount"
+            },
+            "bonding_requirements": {
+              "type": "string",
+              "description": "Requirements for forming a bond with this mount"
+            }
+          }
+        },
+        "companion_abilities": {
+          "type": "object",
+          "properties": {
+            "size_category": {
+              "type": "string",
+              "enum": ["tiny", "small"],
+              "description": "Companions are always tiny or small creatures"
+            },
+            "flight_capable": {
+              "type": "boolean",
+              "description": "Whether this companion can fly around the player"
+            },
+            "myriel_channeling": {
+              "type": "string",
+              "enum": ["minor", "moderate", "strong"],
+              "description": "Strength of Myriel's influence channeled through this companion"
+            },
+            "guidance_abilities": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "enum": ["navigation", "danger-sense", "resource-detection", "memory-aid", "mystical-sight", "emotional-support"]
+              },
+              "description": "Types of guidance this companion provides to their master"
+            },
+            "manifestation_form": {
+              "type": "string",
+              "description": "How this companion's guidance manifests (maps, hints, warnings, etc.)"
+            }
+          }
+        }
+      }
+    },
+    "habitat": {
+      "type": "object",
+      "properties": {
+        "primary_location": {
+          "type": "string",
+          "description": "Primary habitat or territory"
+        },
+        "environmental_preferences": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Preferred environmental conditions"
+        },
+        "territorial_behavior": {
+          "type": "string",
+          "description": "How this monster behaves regarding territory"
+        }
+      }
+    },
+    "social_behavior": {
+      "type": "object",
+      "properties": {
+        "group_structure": {
+          "type": "string",
+          "enum": ["solitary", "pair-bonded", "small-group", "pack", "herd", "colony"],
+          "description": "How this monster organizes socially"
+        },
+        "intelligence_level": {
+          "type": "string",
+          "enum": ["bestial", "cunning", "intelligent", "highly-intelligent", "near-humanoid"],
+          "description": "Level of intelligence displayed"
+        },
+        "humanoid_relations": {
+          "type": "string",
+          "enum": ["hostile", "neutral", "wary", "friendly", "cooperative"],
+          "description": "Typical relationship with humanoids"
+        }
+      }
+    },
+    "lore_significance": {
+      "type": "string",
+      "description": "Role or significance of this monster in world lore"
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Searchable tags for categorization"
+    },
+    "metadata": {
+      "type": "object",
+      "properties": {
+        "created": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Creation timestamp"
+        },
+        "last_updated": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Last update timestamp"
+        },
+        "author": {
+          "type": "string",
+          "description": "Content creator/author"
+        },
+        "version": {
+          "type": "string",
+          "description": "Content version"
+        },
+        "canonical": {
+          "type": "boolean",
+          "description": "Whether this is official canonical content"
+        }
+      },
+      "required": ["created", "last_updated", "canonical"]
+    }
+  },
+  "required": ["id", "name", "category", "race", "breed", "divine_influences", "metadata"],
+  "additionalProperties": false
+}

@@ -97,6 +97,40 @@
       "path": "mist-walking"
     }
   ],
+  "humanoid_heritage": {
+    "status": "awakened",
+    "awakening_event": "First Mist Vision at age 12 - saw through the veil between realms and recognized her true nature",
+    "manifestations": [
+      {
+        "type": "mystical-awakening",
+        "description": "Spontaneous ability to perceive multiple layers of reality simultaneously",
+        "first_occurred": "Third Age, Year 12"
+      },
+      {
+        "type": "multi-divine-influence",
+        "description": "Channels influences from Aurelius (guidance), Voltharion (cosmic communication), and Myrielle (transition wisdom)",
+        "first_occurred": "Third Age, Year 15"
+      },
+      {
+        "type": "myst-jewelry-attunement",
+        "description": "Successfully bonded with an ancient realm-walking ring",
+        "first_occurred": "Third Age, Year 23"
+      }
+    ],
+    "divine_influences": ["aurelius-guidance", "voltharion-communication", "myrielle-transition"],
+    "myst_jewelry_compatibility": [
+      {
+        "item_type": "realm-walking-ring",
+        "attunement_level": "enhanced",
+        "worn_location": "middle finger right hand"
+      },
+      {
+        "item_type": "mist-sight-pendant",
+        "attunement_level": "full",
+        "worn_location": "neck"
+      }
+    ]
+  },
   "notable_events": [
     "the-great-mist-convergence",
     "discovery-of-the-hidden-grove",

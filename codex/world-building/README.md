@@ -152,5 +152,22 @@ Searchable keywords for categorization.
 
 *This guide ensures that PrimalMyst's world-building remains consistent, comprehensive, and engaging for both developers and players.*
 
+## Current World-Building Documents
+
+### Game Systems
+- [Damage System](./damage-system.md) - Combat mechanics and damage types
+- [Damage Type Interactions](./damage-type-interactions.md) - How different damage types affect each other
+- [Damage Calculator Reference](./damage-calculator-reference.md) - Mathematical foundations for damage calculation
+- [Hexagonal System Applications](./hexagonal-system-applications.md) - Six-element system applications
+- [Hexagonal Thematic Structure](./hexagonal-thematic-structure.md) - Thematic foundations of the six-element system
+- [League System](./league-system.md) - Player progression and competitive structures
+
+### Racial and Cultural Systems
+- [Playable Races and Humanoid Heritage](./playable-races-humanoid-heritage.md) - The mystery of the lost Humans and their humanoid descendants
+
+### Data References
+- See `/data/json/` for structured lore, character, location, and timeline data
+- See `/data/schemas/` for JSON schema definitions
+
 
 

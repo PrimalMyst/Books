@@ -1,0 +1,60 @@
+{
+  "id": "ironbark-treant",
+  "name": "Ironbark Treant",
+  "category": "named",
+  "race": "plant",
+  "breed": "ironbark",
+  "status": "alive",
+  "rarity": "unique",
+  "divine_influences": ["korthak-strength", "aurelius-growth"],
+  "physical_description": {
+    "appearance": "An ancient treant whose bark has turned to living metal over millennia. Stands 30 feet tall with branches that gleam like polished steel, yet pulse with verdant life energy.",
+    "size": "gargantuan", 
+    "humanoid_similarity": false,
+    "distinguishing_features": [
+      "Metallic bark that rings like bells in wind",
+      "Golden sap that flows like liquid light",
+      "Eyes like ancient amber pools",
+      "Voice that resonates through earth and stone"
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Metal Grove Summoning",
+      "type": "divine",
+      "description": "Can cause metal trees to burst from the earth, creating instant fortifications",
+      "power_level": "legendary"
+    },
+    {
+      "name": "Earth Communion",
+      "type": "divine",
+      "description": "Speaks with the collective memory of all forests, gaining ancient knowledge",
+      "power_level": "major"
+    },
+    {
+      "name": "Iron Bark Defense",
+      "type": "natural",
+      "description": "Metallic bark provides incredible protection while maintaining living flexibility",
+      "power_level": "major"
+    }
+  ],
+  "habitat": {
+    "primary_location": "the-eternal-grove",
+    "environmental_preferences": ["ancient-forests", "metal-rich-soil", "sacred-groves"],
+    "territorial_behavior": "Guardian of the entire Eternal Grove, protects all within its domain"
+  },
+  "social_behavior": {
+    "group_structure": "solitary",
+    "intelligence_level": "highly-intelligent",
+    "humanoid_relations": "neutral"
+  },
+  "lore_significance": "Ironbark represents the pinnacle of what named monsters can achieve within their divine limitations. Despite possessing legendary power and ancient wisdom, he remains bound by the two-divine-influence barrier, demonstrating that even the mightiest monsters cannot transcend their fundamental nature to achieve humanoid-level mystical potential.",
+  "tags": ["named-monster", "treant", "guardian", "ancient", "legendary-power", "two-divine-limit"],
+  "metadata": {
+    "created": "2025-07-23T12:30:00Z",
+    "last_updated": "2025-07-23T12:30:00Z",
+    "author": "PrimalMyst Development Team",
+    "version": "1.0.0",
+    "canonical": true
+  }
+}

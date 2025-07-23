@@ -1,0 +1,69 @@
+{
+  "id": "silverlight-wisp",
+  "name": "Silverlight Wisp",
+  "category": "companion",
+  "race": "elemental",
+  "breed": "silverlight",
+  "status": "alive",
+  "rarity": "extraordinarily-rare",
+  "divine_influences": ["myrielle-fragment", "aurelius-light"],
+  "physical_description": {
+    "appearance": "A small orb of pure silvery light that dances through the air, leaving trails of luminescent particles. Its glow pulses in rhythm with its master's heartbeat.",
+    "size": "tiny",
+    "humanoid_similarity": false,
+    "distinguishing_features": [
+      "Pulsing silver radiance",
+      "Leaves trails of glittering particles",
+      "Changes intensity based on emotion",
+      "Makes soft chiming sounds when excited"
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Myriel's Navigation",
+      "type": "mystical",
+      "description": "Provides mystical mapping and pathfinding through Myriel's guidance",
+      "power_level": "moderate"
+    },
+    {
+      "name": "Danger Illumination",
+      "type": "divine",
+      "description": "Glows brighter and changes color to warn of approaching threats",
+      "power_level": "minor"
+    },
+    {
+      "name": "Comfort Glow",
+      "type": "mystical",
+      "description": "Emanates soothing light that calms fears and provides emotional support",
+      "power_level": "minor"
+    }
+  ],
+  "special_traits": {
+    "companion_abilities": {
+      "size_category": "tiny",
+      "flight_capable": true,
+      "myriel_channeling": "moderate",
+      "guidance_abilities": ["navigation", "danger-sense", "emotional-support"],
+      "manifestation_form": "Glowing pathways and color-coded warnings that appear as light patterns in the air"
+    }
+  },
+  "habitat": {
+    "primary_location": "mystical-nexus-points",
+    "environmental_preferences": ["places-of-power", "sacred-sites", "myriel-touched-locations"],
+    "territorial_behavior": "Seeks out those worthy of Myriel's guidance, non-territorial"
+  },
+  "social_behavior": {
+    "group_structure": "solitary",
+    "intelligence_level": "intelligent",
+    "humanoid_relations": "cooperative"
+  },
+  "lore_significance": "Silverlight Wisps are among the most common types of Myriel-touched companions. Their ability to provide mystical navigation and emotional support makes them invaluable to adventurers, manifesting Myriel's guidance as visible light patterns that help with wayfinding and danger detection. Their existence provides a lore explanation for enhanced HUD elements and mystical awareness systems.",
+  "tags": ["companion", "wisp", "myriel-touched", "navigation", "guidance", "light-elemental"],
+  "metadata": {
+    "created": "2025-07-23T12:30:00Z",
+    "last_updated": "2025-07-23T12:30:00Z",
+    "author": "PrimalMyst Development Team",
+    "version": "1.0.0",
+    "canonical": true
+  }
+}

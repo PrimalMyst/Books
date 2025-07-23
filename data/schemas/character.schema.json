@@ -164,6 +164,72 @@
         "required": ["name", "type", "description"]
       }
     },
+    "humanoid_heritage": {
+      "type": "object",
+      "properties": {
+        "status": {
+          "type": "string",
+          "enum": ["dormant", "awakened"],
+          "description": "Current state of humanoid heritage awareness - all important characters possess heritage, only awareness varies"
+        },
+        "awakening_event": {
+          "type": "string",
+          "description": "Event or circumstance that triggered heritage awakening"
+        },
+        "manifestations": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "type": {
+                "type": "string",
+                "enum": ["myst-jewelry-attunement", "multi-divine-influence", "ancient-visions", "mystical-awakening", "divine-attention"],
+                "description": "Type of heritage manifestation"
+              },
+              "description": {
+                "type": "string",
+                "description": "Details of the manifestation"
+              },
+              "first_occurred": {
+                "type": "string",
+                "description": "When this manifestation first appeared"
+              }
+            },
+            "required": ["type", "description"]
+          }
+        },
+        "divine_influences": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Divine sources that influence this character (more than 2 indicates awakened humanoid heritage)"
+        },
+        "myst_jewelry_compatibility": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "item_type": {
+                "type": "string",
+                "description": "Type of myst jewelry (ring, amulet, etc.)"
+              },
+              "attunement_level": {
+                "type": "string",
+                "enum": ["none", "partial", "full", "enhanced"],
+                "description": "Level of attunement achieved"
+              },
+              "worn_location": {
+                "type": "string",
+                "description": "Where the item is worn (e.g., 'middle finger left hand')"
+              }
+            },
+            "required": ["item_type", "attunement_level"]
+          }
+        }
+      },
+      "description": "Tracking of humanoid heritage traits - all playable characters and important NPCs possess this heritage by cosmic law"
+    },
     "notable_events": {
       "type": "array",
       "items": {
