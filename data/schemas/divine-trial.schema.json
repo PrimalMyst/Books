@@ -1,0 +1,383 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "PrimalMyst Divine Trial",
+  "description": "Schema for Divine Trial entries in the PrimalMyst universe - trials that test Myst-Walkers' worthiness to exist in divine presence",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$",
+      "description": "Unique identifier for the divine trial"
+    },
+    "title": {
+      "type": "string",
+      "description": "Full formal name of the divine trial"
+    },
+    "governing_god": {
+      "type": "string",
+      "enum": ["pyrion", "glacius", "voltharion", "serafina", "aurelius", "korthak", "myrielle"],
+      "description": "The god whose approval is gained through this trial"
+    },
+    "location": {
+      "type": "object",
+      "properties": {
+        "island": {
+          "type": "string",
+          "description": "Which island this trial is located on"
+        },
+        "specific_site": {
+          "type": "string", 
+          "description": "Specific location name within the island"
+        },
+        "coordinates": {
+          "type": "object",
+          "properties": {
+            "x": {"type": "number"},
+            "y": {"type": "number"},
+            "z": {"type": "number"}
+          },
+          "description": "Optional coordinate system for precise location"
+        },
+        "accessibility": {
+          "type": "string",
+          "enum": ["public", "restricted", "hidden", "invite-only"],
+          "description": "How accessible the trial site is to practitioners"
+        }
+      },
+      "required": ["island", "specific_site"],
+      "description": "Location information for the divine trial"
+    },
+    "trial_structure": {
+      "type": "object",
+      "properties": {
+        "activation_trigger": {
+          "type": "string",
+          "description": "What causes the trial to begin"
+        },
+        "challenge_type": {
+          "type": "string",
+          "enum": ["combat", "puzzle", "moral-choice", "skill-demonstration", "endurance", "wisdom", "hybrid"],
+          "description": "Primary type of challenge presented"
+        },
+        "difficulty_scaling": {
+          "type": "string",
+          "enum": ["fixed", "player-level", "adaptive", "progressive"],
+          "description": "How trial difficulty adjusts to the participant"
+        },
+        "time_limit": {
+          "type": "object",
+          "properties": {
+            "has_limit": {"type": "boolean"},
+            "duration": {"type": "string"},
+            "consequences": {"type": "string"}
+          },
+          "description": "Time constraints and their effects"
+        },
+        "failure_consequences": {
+          "type": "array",
+          "items": {"type": "string"},
+          "description": "What happens if the trial is failed"
+        },
+        "retry_policy": {
+          "type": "object",
+          "properties": {
+            "retries_allowed": {"type": ["integer", "string"]},
+            "cooldown_period": {"type": "string"},
+            "penalty_per_failure": {"type": "string"}
+          },
+          "description": "Rules governing trial reattempts"
+        }
+      },
+      "required": ["activation_trigger", "challenge_type"],
+      "description": "Structure and mechanics of the trial"
+    },
+    "choice_system": {
+      "type": "object",
+      "properties": {
+        "available_paths": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "path_name": {"type": "string"},
+              "philosophy": {"type": "string"},
+              "description": {"type": "string"},
+              "challenge_variation": {"type": "string"},
+              "rewards": {
+                "type": "array",
+                "items": {"type": "string"}
+              }
+            },
+            "required": ["path_name", "philosophy", "description"]
+          },
+          "description": "Different philosophical approaches available in the trial"
+        },
+        "choice_permanence": {
+          "type": "string",
+          "enum": ["permanent", "changeable", "trial-specific", "contextual"],
+          "description": "Whether choices made affect future interactions"
+        },
+        "alignment_impact": {
+          "type": "object",
+          "properties": {
+            "god_relationship": {"type": "string"},
+            "other_god_effects": {"type": "array", "items": {"type": "string"}},
+            "companion_reaction": {"type": "string"},
+            "social_standing": {"type": "string"}
+          },
+          "description": "How choices affect relationships and standing"
+        }
+      },
+      "required": ["available_paths"],
+      "description": "Choice and alignment system within the trial"
+    },
+    "completion_rewards": {
+      "type": "object",
+      "properties": {
+        "divine_immunity": {
+          "type": "object",
+          "properties": {
+            "god_source": {"type": "string"},
+            "protection_type": {"type": "string"},
+            "scope": {"type": "string"}
+          },
+          "description": "Divine protection granted upon completion"
+        },
+        "power_increase": {
+          "type": "object",
+          "properties": {
+            "monster_level_boost": {"type": "integer", "minimum": 1},
+            "mystical_authority": {"type": "string"},
+            "ability_enhancements": {"type": "array", "items": {"type": "string"}}
+          },
+          "description": "Power level increases granted"
+        },
+        "divine_marks": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "mark_name": {"type": "string"},
+              "visual_appearance": {"type": "string"},
+              "mystical_signature": {"type": "string"},
+              "social_recognition": {"type": "string"}
+            }
+          },
+          "description": "Permanent divine marks received"
+        },
+        "special_privileges": {
+          "type": "array",
+          "items": {"type": "string"},
+          "description": "Special access or abilities granted"
+        }
+      },
+      "required": ["divine_immunity", "power_increase"],
+      "description": "Rewards granted for successful trial completion"
+    },
+    "environmental_effects": {
+      "type": "object",
+      "properties": {
+        "decay_cessation": {
+          "type": "object",
+          "properties": {
+            "immediate_reversal": {"type": "boolean"},
+            "healing_process": {"type": "string"},
+            "permanence": {"type": "boolean"}
+          },
+          "description": "How divine decay stops upon completion"
+        },
+        "seismic_response": {
+          "type": "object",
+          "properties": {
+            "tremor_intensity": {"type": "string"},
+            "duration": {"type": "string"},
+            "radius": {"type": "string"},
+            "mystical_signature": {"type": "string"}
+          },
+          "description": "Earthquake and environmental response to completion"
+        },
+        "divine_manifestation": {
+          "type": "object",
+          "properties": {
+            "god_appearance": {"type": "boolean"},
+            "manifestation_type": {"type": "string"},
+            "duration": {"type": "string"},
+            "witness_effects": {"type": "string"}
+          },
+          "description": "Divine presence manifesting during completion"
+        }
+      },
+      "required": ["decay_cessation", "seismic_response"],
+      "description": "Environmental and mystical effects of trial completion"
+    },
+    "prerequisites": {
+      "type": "object",
+      "properties": {
+        "minimum_level": {
+          "type": "integer",
+          "minimum": 1,
+          "description": "Minimum practitioner level required"
+        },
+        "required_trials": {
+          "type": "array",
+          "items": {"type": "string"},
+          "description": "Other trials that must be completed first"
+        },
+        "divine_decay_status": {
+          "type": "string",
+          "enum": ["required", "optional", "forbidden"],
+          "description": "Whether divine decay must be present to attempt trial"
+        },
+        "companion_requirement": {
+          "type": "boolean",
+          "description": "Whether a bonded companion is required"
+        },
+        "social_requirements": {
+          "type": "array",
+          "items": {"type": "string"},
+          "description": "Social or political requirements for trial access"
+        }
+      },
+      "description": "Requirements that must be met to attempt the trial"
+    },
+    "companion_integration": {
+      "type": "object",
+      "properties": {
+        "companion_role": {
+          "type": "string",
+          "enum": ["guide", "participant", "observer", "catalyst", "judge"],
+          "description": "How the companion participates in the trial"
+        },
+        "companion_abilities": {
+          "type": "array", 
+          "items": {"type": "string"},
+          "description": "Special abilities companions gain or use during trial"
+        },
+        "bond_effects": {
+          "type": "array",
+          "items": {"type": "string"},
+          "description": "How the trial affects the practitioner-companion bond"
+        },
+        "evolution_potential": {
+          "type": "boolean",
+          "description": "Whether companions can evolve through this trial"
+        }
+      },
+      "description": "How companion monsters interact with the trial"
+    },
+    "narrative_elements": {
+      "type": "object",
+      "properties": {
+        "thematic_focus": {
+          "type": "string",
+          "description": "Core theme or lesson of the trial"
+        },
+        "moral_questions": {
+          "type": "array",
+          "items": {"type": "string"},
+          "description": "Moral or philosophical questions posed"
+        },
+        "character_development": {
+          "type": "string",
+          "description": "How the trial promotes character growth"
+        },
+        "world_building_elements": {
+          "type": "array",
+          "items": {"type": "string"},
+          "description": "Lore and world information revealed"
+        }
+      },
+      "description": "Story and character development aspects"
+    },
+    "social_impact": {
+      "type": "object",
+      "properties": {
+        "community_recognition": {
+          "type": "string",
+          "description": "How completing this trial affects social standing"
+        },
+        "religious_significance": {
+          "type": "string",
+          "description": "Religious or spiritual meaning of completion"
+        },
+        "economic_effects": {
+          "type": "array",
+          "items": {"type": "string"},
+          "description": "Economic opportunities opened by completion"
+        },
+        "political_implications": {
+          "type": "array",
+          "items": {"type": "string"},
+          "description": "Political ramifications of trial completion"
+        }
+      },
+      "description": "Broader social effects of trial completion"
+    },
+    "related_content": {
+      "type": "object",
+      "properties": {
+        "associated_gods": {
+          "type": "array",
+          "items": {"type": "string"},
+          "description": "Gods related to or mentioned in this trial"
+        },
+        "connected_trials": {
+          "type": "array",
+          "items": {"type": "string"},
+          "description": "Other trials that connect to this one"
+        },
+        "relevant_locations": {
+          "type": "array",
+          "items": {"type": "string"},
+          "description": "Locations relevant to this trial"
+        },
+        "key_npcs": {
+          "type": "array",
+          "items": {"type": "string"},
+          "description": "Important NPCs involved in the trial"
+        }
+      },
+      "description": "Content related to this divine trial"
+    },
+    "metadata": {
+      "type": "object",
+      "properties": {
+        "created": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Creation timestamp"
+        },
+        "last_updated": {
+          "type": "string", 
+          "format": "date-time",
+          "description": "Last modification timestamp"
+        },
+        "author": {
+          "type": "string",
+          "description": "Creator of this trial entry"
+        },
+        "version": {
+          "type": "string",
+          "pattern": "^\\d+\\.\\d+\\.\\d+$",
+          "description": "Version number"
+        },
+        "canonical": {
+          "type": "boolean",
+          "description": "Whether this is official canon content"
+        },
+        "difficulty_rating": {
+          "type": "string",
+          "enum": ["tutorial", "beginner", "intermediate", "advanced", "expert", "legendary"],
+          "description": "Overall difficulty assessment"
+        }
+      },
+      "required": ["created", "last_updated", "author", "version", "canonical"],
+      "description": "Metadata about this trial entry"
+    }
+  },
+  "required": [
+    "id", "title", "governing_god", "location", "trial_structure", 
+    "choice_system", "completion_rewards", "environmental_effects", "metadata"
+  ],
+  "additionalProperties": false
+}

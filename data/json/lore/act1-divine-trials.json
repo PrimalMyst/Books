@@ -1,0 +1,238 @@
+{
+  "id": "act1-divine-trials",
+  "title": "Act 1: The Divine Trials - Proving Worthiness Against Decay",
+  "category": "story-structure",
+  "subcategory": "act1-narrative",
+  "knowledge_level": "foundational",
+  "certainty": "ancient-wisdom",
+  "description": {
+    "summary": "Upon arriving at their chosen starting island, new Myst-Walkers discover their manifested form begins to decay under the influence of the local god. To survive and prove their worthiness, they must undergo the Divine Trial of that island, establishing their right to exist in the presence of divine power.",
+    "detailed": "Act 1 represents the crucial period where newly manifested Myst-Walkers face their first true test of survival and worthiness. The moment they set foot on their chosen starting island, the overwhelming divine influence of that realm's governing god begins to slowly decay their newly formed physical body. This is not an attack, but rather the natural consequence of an unproven soul attempting to exist in a space saturated with divine power. Only by completing the island's Divine Trial can they prove their worthiness and gain immunity to that god's passive influence, allowing them to thrive rather than merely survive.",
+    "narrative_significance": "Act 1 establishes the fundamental relationship between Myst-Walkers and the divine forces that shape reality, proving that power must be earned through trial and that divine approval is necessary for true stability in the mystical realms."
+  },
+  "act1_structure": {
+    "arrival_and_decay": {
+      "landing_sequence": {
+        "initial_arrival": "Player arrives on their chosen starting island aboard The Wandering Hope",
+        "crew_departure": "The Mist Seekers bid farewell and depart, leaving player to begin their true journey",
+        "first_symptoms": "Within minutes of setting foot on the island, player begins to feel a subtle but persistent weakening"
+      },
+      "decay_manifestation": {
+        "physical_symptoms": [
+          "Slight trembling in extremities",
+          "Gradual dulling of senses", 
+          "Increasing fatigue despite rest",
+          "Faint crackling sounds from skin and clothing"
+        ],
+        "mystical_symptoms": [
+          "Difficulty channeling energy smoothly",
+          "Reduced sensitivity to mystical currents",
+          "Unstable connection with companion monster",
+          "Occasional visual distortions"
+        ],
+        "progression_timeline": "Decay accelerates slowly but steadily - player has days, not hours, but urgency is real",
+        "companion_reaction": "Whisper becomes agitated and insistent, clearly understanding the danger"
+      },
+      "divine_influence_explanation": {
+        "cause": "The overwhelming divine presence of the island's governing god naturally breaks down unproven mystical constructs",
+        "mechanics": "Not an attack or curse, but a fundamental incompatibility between divine power and untested manifestations",
+        "variation_by_island": {
+          "pyrion_forge": "Heat-based decay - skin becomes dry and cracked, energy feels like it's burning away",
+          "glacius_preserve": "Cold-based decay - joints stiffen, thoughts slow, warmth steadily drains away", 
+          "voltharion_peaks": "Energy-based decay - constant low-level electrical discharge, nervous system destabilization",
+          "aethon_sanctum": "Light-based decay - colors fade from vision, form becomes translucent, gradual dissolution",
+          "umbrix_maze": "Chaos-based decay - random body parts phase in and out of existence, unpredictable deterioration",
+          "verdania_grove": "Nature-based decay - plant growth begins on skin, natural processes try to reclaim the body"
+        },
+        "immunity_requirement": "Only those who prove their worthiness through divine trial can exist stably in divine presence"
+      }
+    },
+    "companion_urgency": {
+      "whisper_behavior": {
+        "recognition": "Immediately understands the decay and its implications",
+        "communication_attempts": [
+          "Increased glowing and agitated movement patterns",
+          "Insistent tugging toward the island's trial location",
+          "Projected images of the trial site and divine symbols",
+          "Emotional resonance conveying extreme urgency"
+        ],
+        "guidance_role": "Leads player directly toward the Divine Trial location without deviation"
+      },
+      "companion_knowledge": {
+        "trial_awareness": "Companions instinctively know the location and basic nature of divine trials",
+        "decay_understanding": "Can sense the progression of divine decay and estimate remaining time",
+        "trial_support": "Able to provide guidance and support during trial completion",
+        "divine_connection": "Companions serve as living links between Myst-Walkers and divine approval"
+      }
+    },
+    "divine_trial_structure": {
+      "trial_locations": {
+        "placement": "Each island has one central Divine Trial location, typically at the heart of the main settlement",
+        "architecture": "Ancient divine constructs that predate current civilizations",
+        "accessibility": "Clearly marked and well-known to all island inhabitants",
+        "protection": "Surrounding areas are neutral zones where combat and skill use are prohibited"
+      },
+      "trial_mechanics": {
+        "initiation": "Player approaches the trial site, which responds to their divine decay",
+        "challenge_type": "Each trial tests understanding and acceptance of that god's core principles",
+        "choice_system": {
+          "fundamental_alignment": "Player chooses to embrace, oppose, or balance their relationship with the god",
+          "multiple_paths": "Different choices lead to different trial challenges but same ultimate success",
+          "no_wrong_answers": "All sincere choices that show understanding are accepted by the divine trial"
+        },
+        "completion_recognition": "Trial completion is marked by dramatic divine acknowledgment and immediate decay cessation"
+      },
+      "trial_outcomes": {
+        "immediate_effects": {
+          "decay_cessation": "All divine decay immediately stops and reverses",
+          "divine_immunity": "Player becomes permanently immune to that god's passive influence",
+          "power_boost": "Mystical capabilities increase, reflected in minimum monster encounter level raising by +6",
+          "divine_mark": "Player receives a permanent mark of divine approval from that god"
+        },
+        "world_impact": {
+          "seismic_response": "Each trial completion triggers earthquakes and environmental tremors across the island",
+          "divine_acknowledgment": "The god's presence briefly manifests to acknowledge the new proven practitioner",
+          "reputation_change": "Island inhabitants recognize player as divinely approved and worthy of respect",
+          "mystical_resonance": "Player's presence now harmonizes with the island's divine energy rather than conflicting with it"
+        }
+      }
+    },
+    "power_progression_system": {
+      "monster_level_scaling": {
+        "tutorial_baseline": "Player begins able to encounter monsters level 1-5 during prologue tutorial",
+        "first_trial_boost": "Completing first Divine Trial raises minimum encounter level from 6 to 12 (+6 increase)",
+        "subsequent_trials": "Each additional Divine Trial completed adds another +6 to minimum encounter level",
+        "mechanical_explanation": "Player's growing divine approval makes them incompatible with weaker mystical entities"
+      },
+      "divine_approval_accumulation": {
+        "single_trial": "Grants immunity to one god's influence and establishes divine worthiness",
+        "multiple_trials": "Each trial adds to player's overall divine recognition and mystical authority",
+        "full_set_preparation": "Completing all six fundamental god trials prepares player for Eldritch encounters",
+        "myrielle_qualification": "Only those proven against all six gods can approach Myrielle's trials safely"
+      }
+    }
+  },
+  "global_trial_completion_event": {
+    "event_name": "Divine Acknowledgment Tremor",
+    "description": "Each time a Myst-Walker completes a Divine Trial, the achievement reverberates through the mystical foundations of reality itself",
+    "manifestations": {
+      "seismic_activity": {
+        "earthquake_intensity": "Moderate tremors that shake the entire island for 30-60 seconds",
+        "epicenter": "Tremors originate from the trial site and radiate outward",
+        "frequency": "Low, resonant vibrations that feel mystical rather than purely geological",
+        "duration": "Brief but unmistakable, ensuring all inhabitants are aware something significant occurred"
+      },
+      "environmental_responses": {
+        "tree_shaking": "All vegetation on the island sways in unison regardless of wind conditions",
+        "animal_behavior": "Creatures pause their activities and look toward the trial site in recognition",
+        "water_reactions": "Bodies of water develop concentric ripples emanating from the direction of the trial",
+        "crystal_resonance": "Any crystalline structures on the island briefly glow and emit harmonic tones"
+      },
+      "mystical_signatures": {
+        "energy_pulse": "A wave of divine energy sweeps across the island, detectable by all mystical practitioners",
+        "reality_stabilization": "The island's connection to its governing god becomes stronger and more stable",
+        "threshold_shift": "The minimum power level required to interact with island mystical phenomena increases",
+        "divine_presence": "The governing god's influence becomes briefly but dramatically more noticeable"
+      }
+    },
+    "inhabitant_reactions": {
+      "experienced_practitioners": "Recognize the signature immediately and understand a new divine trial has been completed",
+      "common_citizens": "Feel the tremors and know something significant happened, even if they don't understand exactly what",
+      "religious_authorities": "Formally acknowledge the new divine approval and may seek out the successful practitioner",
+      "merchants_guilds": "Note the power shift and adjust their willingness to deal with higher-level mystical contracts"
+    }
+  },
+  "act1_completion_state": {
+    "single_trial_completion": {
+      "immediate_benefits": "Immunity to chosen god's influence, raised power threshold, divine recognition",
+      "ongoing_effects": "Stable existence on chosen island, access to god-specific training and resources",
+      "social_status": "Recognized as legitimate mystical practitioner by island inhabitants",
+      "power_level": "Minimum monster encounter level increased by +6, reflecting enhanced mystical authority"
+    },
+    "multiple_trials_path": {
+      "optional_progression": "Players may choose to attempt trials on other islands for additional power and recognition",
+      "travel_requirements": "Must arrange transportation to other islands via ships, portals, or mystical means",
+      "cumulative_benefits": "Each additional trial provides another +6 power increase and expanded divine immunity",
+      "reputation_network": "Divine approval spreads across multiple island communities"
+    },
+    "full_six_trials_achievement": {
+      "ultimate_goal": "Completing all six Fundamental God trials grants immunity to all basic divine influences",
+      "eldritch_resistance": "With all six fundamental approvals, player no longer decays in presence of Eldritch gods",
+      "myrielle_qualification": "Only those proven against all six gods can safely approach Myrielle's mysteries",
+      "power_plateau": "Minimum monster encounter level reaches significant heights, reflecting near-divine authority"
+    }
+  },
+  "myrielle_presence_system": {
+    "central_town_manifestation": {
+      "location": "Every island has a central town where Myrielle maintains a permanent, subtle presence",
+      "manifestation_form": "Not directly visible, but felt as an overwhelming sense of peace and mystical stillness",
+      "influence_radius": "Covers the entire central marketplace and surrounding administrative districts",
+      "recognition_signs": [
+        "Complete absence of mystical skill activation - all abilities simply fail to function",
+        "Instinctive knowledge that violence of any kind would result in immediate, severe consequences",
+        "Sense of being observed by a benevolent but absolute authority",
+        "Feeling of profound calm that makes aggression psychologically difficult"
+      ]
+    },
+    "behavioral_enforcement": {
+      "skill_suppression": "All mystical abilities, combat skills, and supernatural powers are completely suppressed",
+      "violence_prohibition": "Even attempts at barehanded combat or verbal aggression trigger immediate consequences",
+      "consequence_system": {
+        "warning_signs": "First aggressive thoughts trigger growing unease and psychic pressure",
+        "escalation_response": "Continued aggressive behavior results in temporary paralysis and overwhelming guilt",
+        "ultimate_punishment": "Those who persist in violence lose their housing, businesses, and social standing overnight",
+        "enforcement_method": "Consequences manifest through 'natural' social and economic pressures rather than direct divine intervention"
+      },
+      "universal_recognition": "Even the most violent and primitive inhabitants instinctively understand and respect these limitations"
+    },
+    "cultural_impact": {
+      "social_behavior": "Central towns become havens of peace where all disputes are resolved through discussion",
+      "economic_activity": "Trade flourishes in these zones due to guaranteed safety and fairness",
+      "religious_significance": "Citizens understand this as Myrielle's gift, ensuring survival and prosperity",
+      "practical_benefits": "Creates reliable safe zones where even enemies can meet to negotiate or trade"
+    }
+  },
+  "transition_to_act2": {
+    "completion_criteria": "Player has completed at least one Divine Trial and established stable existence on their chosen island",
+    "optional_expansions": "Player may pursue additional trials, exploration, or community building before progressing",
+    "narrative_setup": "With divine approval secured, player can begin exploring deeper mysteries and greater challenges",
+    "power_foundation": "Established divine immunity and raised power threshold prepare player for more dangerous encounters"
+  },
+  "related_content": {
+    "characters": [
+      "island-divine-trial-guardians",
+      "trial-completion-witnesses",
+      "divine-approval-seekers"
+    ],
+    "locations": [
+      "pyrion-forge-trial-site",
+      "glacius-preserve-trial-site", 
+      "voltharion-peaks-trial-site",
+      "aethon-sanctum-trial-site",
+      "umbrix-maze-trial-site",
+      "verdania-grove-trial-site",
+      "central-town-myrielle-zones"
+    ],
+    "events": [
+      "first-divine-decay-onset",
+      "companion-urgency-guidance",
+      "divine-trial-completion",
+      "divine-acknowledgment-tremor",
+      "divine-immunity-achievement"
+    ],
+    "systems": [
+      "divine-decay-progression",
+      "trial-completion-mechanics",
+      "power-level-scaling",
+      "myrielle-presence-enforcement"
+    ]
+  },
+  "metadata": {
+    "created": "2025-07-24T19:00:00Z",
+    "last_updated": "2025-07-24T19:00:00Z",
+    "author": "PrimalMyst Development Team", 
+    "version": "1.0.0",
+    "canonical": true,
+    "story_position": "Act 1 - Post-Prologue"
+  }
+}

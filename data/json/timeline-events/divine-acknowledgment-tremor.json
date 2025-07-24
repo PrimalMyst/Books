@@ -1,0 +1,180 @@
+{
+  "id": "divine-acknowledgment-tremor",
+  "title": "Divine Acknowledgment Tremor",
+  "category": "global-events",
+  "subcategory": "divine-trials",
+  "knowledge_level": "foundational",
+  "certainty": "ancient-wisdom",
+  "description": {
+    "summary": "A mystical seismic event that occurs whenever a Myst-Walker successfully completes a Divine Trial, serving as the gods' acknowledgment of a new proven practitioner and signaling a shift in the island's mystical power dynamics.",
+    "detailed": "The Divine Acknowledgment Tremor represents the moment when divine approval reverberates through the mystical foundations of reality itself. Each successful trial completion triggers this unmistakable sign that a new practitioner has earned the right to exist in divine presence without decay. The event serves both as celebration and warning - celebrating the achievement while warning all inhabitants that the island's power dynamics have shifted with the presence of a newly empowered Myst-Walker.",
+    "significance": "These tremors are the primary way island communities learn of divine trial completions and serve as formal announcements of new mystical authorities."
+  },
+  "event_structure": {
+    "trigger_conditions": {
+      "primary_trigger": "Successful completion of any Divine Trial by a Myst-Walker",
+      "divine_source": "The governing god of the island acknowledges the achievement",
+      "mystical_threshold": "Player's power level increases by +6, causing reality strain",
+      "approval_resonance": "Divine immunity granted creates harmonic vibration through mystical foundations"
+    },
+    "manifestation_sequence": {
+      "immediate_onset": {
+        "timing": "Begins within 10-15 seconds of trial completion",
+        "initial_sensation": "Deep, resonant vibration felt in the bones rather than heard",
+        "epicenter": "Tremors originate precisely from the Divine Trial site",
+        "recognition_factor": "All mystical practitioners immediately recognize the signature as divine acknowledgment"
+      },
+      "seismic_progression": {
+        "intensity_buildup": "Starts as subtle vibration, builds to moderate earthquake over 30 seconds",
+        "peak_intensity": "Strong enough to rattle buildings and shake trees but not cause structural damage",
+        "duration": "Sustained for 45-60 seconds before gradually fading",
+        "frequency_pattern": "Low, harmonic vibrations that feel mystical rather than geological"
+      },
+      "environmental_responses": {
+        "vegetation_reaction": "All plant life on the island sways in perfect unison regardless of wind",
+        "water_disturbance": "Concentric ripples appear in all bodies of water, radiating from trial site direction",
+        "crystal_resonance": "Any crystalline formations glow briefly and emit musical tones",
+        "animal_awareness": "All creatures pause their activities and orient toward the trial site momentarily"
+      }
+    },
+    "mystical_signatures": {
+      "energy_pulse": {
+        "wave_type": "Expanding sphere of divine energy moving at roughly walking speed",
+        "detection_range": "Felt by all mystical practitioners within 50 miles",
+        "energy_signature": "Distinctly identifies which god has granted approval",
+        "power_resonance": "Indicates the approximate power level achieved by the successful practitioner"
+      },
+      "reality_stabilization": {
+        "divine_connection": "Island's link to its governing god becomes temporarily stronger",
+        "mystical_clarity": "All magical phenomena on island function more smoothly for hours afterward",
+        "threshold_adjustment": "Minimum power requirements for mystical interactions increase island-wide",
+        "harmonic_alignment": "Natural and artificial magical systems synchronize briefly"
+      },
+      "power_level_shift": {
+        "monster_interaction": "Weaker mystical creatures become unable to manifest near the newly approved practitioner",
+        "environmental_response": "Mystical locations may reveal previously hidden features or increase their power",
+        "practitioner_recognition": "Other Myst-Walkers can sense the newcomer's elevated status through mystical perception",
+        "divine_marking": "Permanent mystical signature identifies the practitioner as divinely approved"
+      }
+    }
+  },
+  "inhabitant_reactions": {
+    "experienced_practitioners": {
+      "immediate_recognition": "Instantly understand a Divine Trial has been completed and by roughly what power level",
+      "location_awareness": "Can determine which trial site was involved based on tremor characteristics",
+      "god_identification": "Recognize which god granted approval through energy signature analysis",
+      "response_behavior": "May seek out the new practitioner for alliance, mentorship, or competition"
+    },
+    "religious_authorities": {
+      "formal_acknowledgment": "Temple priests and divine servants recognize the divine approval officially",
+      "ceremonial_response": "May organize celebration or recognition ceremonies for the achievement",
+      "record_keeping": "Document the event in religious chronicles and divine approval registers",
+      "community_announcement": "Inform the general population about the significance of what occurred"
+    },
+    "common_citizens": {
+      "physical_awareness": "Feel the tremors and know something significant happened",
+      "cultural_understanding": "Recognize the pattern as indication of divine approval even without mystical training",
+      "social_adjustment": "Begin treating the newly approved practitioner with appropriate respect",
+      "practical_response": "Merchants may offer better deals, guards become more respectful, opportunities increase"
+    },
+    "merchants_and_guilds": {
+      "economic_recognition": "Understand that a new high-level practitioner means expanded business opportunities",
+      "contract_adjustment": "Willingness to offer higher-level mystical contracts and services",
+      "reputation_tracking": "Begin building commercial relationships with the newly empowered individual",
+      "market_adaptation": "Adjust pricing and service offerings to match the increased power level present"
+    }
+  },
+  "power_scaling_impact": {
+    "monster_level_increase": {
+      "mechanism": "Divine approval fundamentally alters practitioner's mystical signature",
+      "compatibility_threshold": "Weaker entities cannot maintain coherence in presence of divine authority",
+      "minimum_level_boost": "+6 increase to minimum monster encounter level",
+      "scaling_explanation": "Each divine approval represents a quantum leap in mystical authority",
+      "cumulative_effect": "Multiple trials compound this effect, creating increasingly powerful practitioners"
+    },
+    "mystical_interaction_changes": {
+      "artifact_access": "Higher-level mystical items become usable while lower-level ones may lose effectiveness",
+      "location_compatibility": "Some areas become accessible while others may become too 'small' for the practitioner's presence",
+      "spell_power_adjustment": "Mystical abilities increase in power but may become incompatible with low-level applications",
+      "companion_evolution": "Companion monsters may evolve or transform to match their partner's new power level"
+    }
+  },
+  "geographic_variations": {
+    "pyrion_forge": {
+      "tremor_characteristics": "Heat-based vibrations that warm the ground and create thermal updrafts",
+      "environmental_signs": "Forge fires burn brighter, metal rings like bells, volcanic activity briefly increases",
+      "cultural_response": "Smiths and fire-workers recognize the signature as approval for passion and creation"
+    },
+    "glacius_preserve": {
+      "tremor_characteristics": "Cold, crystalline vibrations that create frost patterns and ice music",
+      "environmental_signs": "Ice formations grow briefly, snow falls regardless of season, water freezes in geometric patterns",
+      "cultural_response": "Scholars and preservationists understand the approval as recognition of wisdom and patience"
+    },
+    "voltharion_peaks": {
+      "tremor_characteristics": "Electrical vibrations accompanied by aurora-like light displays",
+      "environmental_signs": "Lightning without thunder, electrical devices function better temporarily, static builds in the air",
+      "cultural_response": "Storm-riders and energy workers recognize approval for courage and dynamism"
+    },
+    "aethon_sanctum": {
+      "tremor_characteristics": "Luminous vibrations that create rainbow light refractions and harmonic resonance",
+      "environmental_signs": "Golden light emanates from buildings, shadows become geometric and artistic, colors intensify",
+      "cultural_response": "Priests and order-keepers understand approval for justice and divine authority"
+    },
+    "umbrix_maze": {
+      "tremor_characteristics": "Chaotic vibrations that shift randomly in intensity, direction, and frequency",
+      "environmental_signs": "Reality distortions create brief impossible geometries, colors shift unpredictably, gravity fluctuates",
+      "cultural_response": "Chaos-adapts and change-workers recognize approval for flexibility and growth"
+    },
+    "verdania_grove": {
+      "tremor_characteristics": "Living vibrations that pulse like a heartbeat and encourage rapid plant growth",
+      "environmental_signs": "Flowers bloom instantly, trees bear fruit regardless of season, animals become more active",
+      "cultural_response": "Druids and nature-workers understand approval for harmony and natural strength"
+    }
+  },
+  "detection_and_measurement": {
+    "mystical_instruments": {
+      "divine_seismographs": "Specialized devices that record and analyze divine tremor patterns",
+      "approval_tracking": "Systems for monitoring and cataloging divine trial completions across islands",
+      "power_assessment": "Methods for determining the power level achieved by successful practitioners",
+      "god_identification": "Techniques for identifying which deity granted approval based on tremor characteristics"
+    },
+    "natural_indicators": {
+      "crystal_formations": "Natural crystals that resonate and glow in response to divine acknowledgment",
+      "sacred_animals": "Creatures that exhibit specific behaviors when divine approval occurs",
+      "mystical_plants": "Flora that responds to divine energy shifts with visible changes",
+      "water_sources": "Springs and wells that briefly change color or temperature during divine acknowledgment"
+    }
+  },
+  "related_content": {
+    "events": [
+      "divine-trial-completion",
+      "power-level-advancement",
+      "mystical-authority-recognition",
+      "divine-immunity-granted"
+    ],
+    "locations": [
+      "all-divine-trial-sites",
+      "mystical-seismograph-stations",
+      "divine-approval-monitoring-centers"
+    ],
+    "systems": [
+      "divine-trial-mechanics",
+      "power-scaling-system",
+      "mystical-authority-hierarchy",
+      "inter-island-communication"
+    ],
+    "characters": [
+      "divine-approval-witnesses",
+      "mystical-seismologists",
+      "power-level-assessors"
+    ]
+  },
+  "metadata": {
+    "created": "2025-07-24T19:30:00Z",
+    "last_updated": "2025-07-24T19:30:00Z",
+    "author": "PrimalMyst Development Team",
+    "version": "1.0.0",
+    "canonical": true,
+    "event_type": "Global mystical phenomenon"
+  }
+}
