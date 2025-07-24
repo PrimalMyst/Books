@@ -10,10 +10,10 @@ The fundamental container concept that replaced "leagues" and "cycles" - isolate
 ### **[Yggdrasil](./yggdrasil.md)**
 The World Tree at the center of existence, whose six branches support the divine realms and whose summit hosts the God-Slayer trials.
 
-### **[The Six Realms](./six-realms-cosmology.md)** *(Coming Soon)*
+### **[The Six Realms](./six-realms-cosmology.md)**
 The six divine realms connected by Yggdrasil's branches, each ruled by one of the Eldritch Gods.
 
-### **[Cosmic Rhythms](./cosmic-rhythms.md)** *(Coming Soon)*
+### **[Cosmic Rhythms](./cosmic-rhythms.md)**
 The natural cycles that drive reality instance transitions and cosmic events.
 
 ## Central Figures
@@ -29,13 +29,13 @@ The stranded crew of *The Wandering Hope* who rescue the player and serve as the
 
 ## Divine Entities
 
-### **[The Fundamental Trio](./fundamental-trio.md)** *(Coming Soon)*
+### **[The Fundamental Trio](./fundamental-trio.md)**
 Pyrion (First Flame), Glacius (Eternal Frost), and Voltharion (Cosmic Spark) - the foundational gods who power Yggdrasil.
 
-### **[The Primal Trio](./primal-trio.md)** *(Coming Soon)*
+### **[The Primal Trio](./primal-trio.md)**
 Serafina (Shadow Empress), Aurelius (Radiant Sphere), and Korthak (Dragon King) - the active gods who rule realms and interact with mortals.
 
-### **[The Eldritch Pantheon](./eldritch-pantheon.md)** *(Coming Soon)*
+### **[The Eldritch Pantheon](./eldritch-pantheon.md)**
 Complete overview of all six gods, their relationships, and their roles in the God-Slayer narrative.
 
 ## Story Structure
@@ -46,10 +46,10 @@ The player's transformation from formless spirit to physical being, guided by My
 ### **[Act 1: Divine Trials](./act1-divine-trials.md)**
 The pantheon positioning system, divine trials, and establishment of the player's relationship with the gods.
 
-### **[Act 2: Eldritch Ascension](./act2-eldritch-ascension.md)** *(Coming Soon)*
+### **[Act 2: Eldritch Ascension](./act2-eldritch-ascension.md)**
 Mid-game progression through deeper divine mysteries and Myrielle's hidden trials.
 
-### **[Act 3: Cosmic Ascendant](./act3-cosmic-ascendant.md)** *(Coming Soon)*
+### **[Act 3: Cosmic Ascendant](./act3-cosmic-ascendant.md)**
 Late-game mastery of divine forces and preparation for the God-Slayer path.
 
 ### **[Epilogue: God-Slayer](./epilogue-god-slayer.md)**
@@ -60,13 +60,13 @@ The final ascent of Yggdrasil, confrontation with the gods, and Myrielle's ultim
 ### **[Adventurer Guilds](./adventurer-guilds.md)**
 Secret churches of Myrielle that control trial access and maintain peaceful zones in towns.
 
-### **[Pantheon Trial System](./pantheon-trials.md)** *(Coming Soon)*
+### **[Pantheon Trial System](./pantheon-trials.md)**
 The divine positioning system that tracks player relationships with gods and gates progression.
 
-### **[Divine Positioning](./divine-positioning.md)** *(Coming Soon)*
+### **[Divine Positioning](./divine-positioning.md)**
 The alignment system that determines divine favor, access to trials, and story branches.
 
-### **[Memory Preservation](./memory-preservation.md)** *(Coming Soon)*
+### **[Memory Preservation](./memory-preservation.md)**
 The system by which consciousness and experiences survive reality instance transitions.
 
 ## Locations & Geography
@@ -80,7 +80,7 @@ The primary continent where most of the player's journey takes place.
 ### **[The Six Divine Realms](./divine-realms-detailed.md)** *(Coming Soon)*
 Individual documentation for each of the six realms connected to Yggdrasil's branches.
 
-### **[Peaceful Zones](./peaceful-zones.md)** *(Coming Soon)*
+### **[Peaceful Zones](./peaceful-zones.md)**
 Myrielle's sanctuaries where violence is suppressed and safe progression occurs.
 
 ## Companions & NPCs
