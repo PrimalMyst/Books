@@ -1,0 +1,179 @@
+{
+  "character_id": "example-character-lyra-stormcaller",
+  "positioning_status": "complete",
+  "elemental_embraces": [
+    {
+      "element": "lightning",
+      "patron_god": "voltharion",
+      "altar_location": "voltharion_storm_peaks_altar",
+      "embrace_date": "2025-03-15T14:30:00Z",
+      "attunement_strength": "strong",
+      "divine_recognition": {
+        "title_granted": "Storm-Walker",
+        "blessing_received": "Lightning flows through her movements, granting supernatural speed and reflexes",
+        "obligations": [
+          "Bridge differences between opposing factions when possible",
+          "Respect the connecting power of lightning and communication",
+          "Never use electrical power to permanently sever connections"
+        ]
+      }
+    },
+    {
+      "element": "fire",
+      "patron_god": "pyrion", 
+      "altar_location": "pyrion_sacred_flames_altar",
+      "embrace_date": "2025-03-18T10:15:00Z",
+      "attunement_strength": "moderate",
+      "divine_recognition": {
+        "title_granted": "Flame-Touched",
+        "blessing_received": "Her magic carries the warmth of creation and passion of destruction",
+        "obligations": [
+          "Honor both creative and destructive aspects of fire",
+          "Never let passion override wisdom completely",
+          "Protect the sacred flames of inspiration in others"
+        ]
+      }
+    }
+  ],
+  "primal_relationships": [
+    {
+      "primal_god": "aethon",
+      "relationship_type": "opponent",
+      "representative_faced": "the-radiant-champion",
+      "trial_location": "aethon_radiant_temple_sanctum",
+      "trial_date": "2025-03-20T16:45:00Z",
+      "trial_outcome": {
+        "victory_achieved": true,
+        "choice_made": "Rejected absolute divine authority in favor of personal moral autonomy",
+        "divine_response": "Aethon acknowledged her strength of conviction and granted respect for her independence"
+      },
+      "relationship_effects": {
+        "mystical_access": [
+          "Reduced access to pure radiance magic",
+          "Enhanced personal willpower and resistance to divine compulsion",
+          "Improved ability to resist corruption and mind control"
+        ],
+        "world_interactions": [
+          "Order-focused NPCs see her as morally independent but trustworthy",
+          "Some divine authority figures regard her with suspicion",
+          "Common people respect her as someone who makes her own moral choices"
+        ],
+        "quest_availability": {
+          "unlocked": [
+            "independent-moral-choice-questlines",
+            "anti-corruption-missions",
+            "personal-responsibility-trials"
+          ],
+          "locked": [
+            "divine-champion-questlines",
+            "absolute-order-missions",
+            "unquestioning-faith-trials"
+          ]
+        }
+      }
+    },
+    {
+      "primal_god": "umbrix",
+      "relationship_type": "opponent", 
+      "representative_faced": "the-chaotic-oracle",
+      "trial_location": "umbrix_chaos_grove_heart",
+      "trial_date": "2025-03-22T11:20:00Z",
+      "trial_outcome": {
+        "victory_achieved": true,
+        "choice_made": "Rejected destructive chaos in favor of constructive change and stability",
+        "divine_response": "Umbrix acknowledged her commitment to beneficial transformation over pure chaos"
+      },
+      "relationship_effects": {
+        "mystical_access": [
+          "Reduced access to pure chaos magic",
+          "Enhanced protective and stabilizing abilities",
+          "Improved resistance to random magical effects"
+        ],
+        "world_interactions": [
+          "Stability-seeking NPCs trust her completely",
+          "Chaos-aligned creatures regard her as an enemy",
+          "Scholars and builders seek her out for protection"
+        ],
+        "quest_availability": {
+          "unlocked": [
+            "stability-enhancement-missions",
+            "chaos-mitigation-quests",
+            "protective-ward-construction"
+          ],
+          "locked": [
+            "pure-chaos-magic-quests",
+            "random-transformation-trials",
+            "destruction-for-change-missions"
+          ]
+        }
+      }
+    },
+    {
+      "primal_god": "verdania",
+      "relationship_type": "follower",
+      "representative_faced": "the-earthen-guardian",
+      "trial_location": "verdania_earth_sanctuary_grove",
+      "trial_date": "2025-03-25T13:10:00Z",
+      "trial_outcome": {
+        "victory_achieved": true,
+        "choice_made": "Accepted the path of physical mastery harmonized with natural forces",
+        "divine_response": "Verdania welcomed her as a true daughter of earth and granted her the blessing of enduring strength"
+      },
+      "relationship_effects": {
+        "mystical_access": [
+          "Enhanced physical enhancement magic",
+          "Deep connection to natural forces and earth magic",
+          "Improved endurance and regeneration abilities"
+        ],
+        "world_interactions": [
+          "Nature spirits and earth elementals aid her readily", 
+          "Druids and earth-workers see her as a sister",
+          "Animals and plants respond positively to her presence"
+        ],
+        "quest_availability": {
+          "unlocked": [
+            "nature-harmony-questlines",
+            "earth-guardian-missions",
+            "physical-mastery-trials"
+          ],
+          "locked": [
+            "anti-nature-technology-quests",
+            "pure-spiritual-transcendence-missions"
+          ]
+        }
+      }
+    }
+  ],
+  "divine_signature": {
+    "signature_id": "lightning-fire-independent-earth",
+    "signature_name": "The Grounded Storm",
+    "cosmic_alignment": "balance-seeking",
+    "power_focus": "hybrid-approach",
+    "social_standing": {
+      "divine_favor": 15,
+      "mortal_reputation": "independent-mystic"
+    }
+  },
+  "positioning_completion": {
+    "requirements_met": {
+      "minimum_elemental_embrace": true,
+      "minimum_primal_opposition": true,
+      "all_trials_completed": true
+    },
+    "completion_date": "2025-03-25T13:45:00Z",
+    "act_progression": {
+      "act_1_milestone": true,
+      "unlocked_content": [
+        "act-2-divine-politics-questlines",
+        "elemental-mastery-advanced-training",
+        "divine-independence-reputation-track",
+        "balanced-mystic-skill-trees"
+      ]
+    }
+  },
+  "metadata": {
+    "created": "2025-03-25T13:45:00Z",
+    "last_updated": "2025-03-25T13:45:00Z",
+    "version": "1.0.0"
+  }
+}

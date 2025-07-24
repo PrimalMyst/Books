@@ -1,0 +1,264 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Divine Positioning System",
+  "description": "Schema for tracking a character's divine positioning established through Act 1 pantheon trials",
+  "type": "object",
+  "properties": {
+    "character_id": {
+      "type": "string",
+      "description": "Reference to the character this positioning belongs to"
+    },
+    "positioning_status": {
+      "type": "string",
+      "enum": ["incomplete", "partial", "complete"],
+      "description": "Whether the character has completed all required positioning trials"
+    },
+    "elemental_embraces": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 3,
+      "items": {
+        "type": "object",
+        "properties": {
+          "element": {
+            "type": "string",
+            "enum": ["fire", "cold", "lightning"],
+            "description": "The elemental force embraced"
+          },
+          "patron_god": {
+            "type": "string",
+            "enum": ["pyrion", "glacius", "voltharion"],
+            "description": "The Fundamental God granting the elemental connection"
+          },
+          "altar_location": {
+            "type": "string",
+            "description": "Where the embrace took place"
+          },
+          "embrace_date": {
+            "type": "string",
+            "format": "date-time",
+            "description": "When the elemental embrace occurred"
+          },
+          "attunement_strength": {
+            "type": "string",
+            "enum": ["weak", "moderate", "strong", "profound"],
+            "description": "The depth of elemental connection achieved"
+          },
+          "divine_recognition": {
+            "type": "object",
+            "properties": {
+              "title_granted": {
+                "type": "string",
+                "description": "Divine title received (e.g., Fire-Touched, Ice-Bearer)"
+              },
+              "blessing_received": {
+                "type": "string",
+                "description": "Specific blessing or enhancement granted"
+              },
+              "obligations": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                },
+                "description": "Spiritual obligations accepted with the elemental embrace"
+              }
+            }
+          }
+        },
+        "required": ["element", "patron_god", "altar_location", "embrace_date"]
+      },
+      "description": "All elemental forces the character has embraced from Fundamental Gods"
+    },
+    "primal_relationships": {
+      "type": "array",
+      "minItems": 3,
+      "maxItems": 3,
+      "items": {
+        "type": "object",
+        "properties": {
+          "primal_god": {
+            "type": "string",
+            "enum": ["aethon", "umbrix", "verdania"],
+            "description": "The Primal God this relationship is with"
+          },
+          "relationship_type": {
+            "type": "string",
+            "enum": ["follower", "opponent"],
+            "description": "Whether the character follows or opposes this god"
+          },
+          "representative_faced": {
+            "type": "string",
+            "description": "The divine representative encountered in the trial"
+          },
+          "trial_location": {
+            "type": "string",
+            "description": "Where the trial took place"
+          },
+          "trial_date": {
+            "type": "string",
+            "format": "date-time",
+            "description": "When the trial occurred"
+          },
+          "trial_outcome": {
+            "type": "object",
+            "properties": {
+              "victory_achieved": {
+                "type": "boolean",
+                "description": "Whether the character succeeded in the trial"
+              },
+              "choice_made": {
+                "type": "string",
+                "description": "The specific choice made regarding the god's influence"
+              },
+              "divine_response": {
+                "type": "string",
+                "description": "How the god responded to the character's choice"
+              }
+            }
+          },
+          "relationship_effects": {
+            "type": "object",
+            "properties": {
+              "mystical_access": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                },
+                "description": "Mystical abilities enhanced or restricted by this relationship"
+              },
+              "world_interactions": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                },
+                "description": "How NPCs and world systems respond to this relationship"
+              },
+              "quest_availability": {
+                "type": "object",
+                "properties": {
+                  "unlocked": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    },
+                    "description": "Quest lines made available by this relationship"
+                  },
+                  "locked": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    },
+                    "description": "Quest lines made unavailable by this relationship"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "required": ["primal_god", "relationship_type", "representative_faced", "trial_location", "trial_date"]
+      },
+      "description": "Relationships with all three Primal Gods"
+    },
+    "divine_signature": {
+      "type": "object",
+      "properties": {
+        "signature_id": {
+          "type": "string",
+          "description": "Unique identifier for this specific combination of divine relationships"
+        },
+        "signature_name": {
+          "type": "string", 
+          "description": "Descriptive name for this divine positioning pattern"
+        },
+        "cosmic_alignment": {
+          "type": "string",
+          "enum": ["order-focused", "chaos-focused", "balance-seeking", "transcendent", "elemental-pure", "defiant"],
+          "description": "Overall cosmic alignment based on positioning choices"
+        },
+        "power_focus": {
+          "type": "string",
+          "enum": ["elemental-mastery", "divine-cooperation", "independent-will", "transcendent-path", "hybrid-approach"],
+          "description": "Primary approach to mystical power"
+        },
+        "social_standing": {
+          "type": "object",
+          "properties": {
+            "divine_favor": {
+              "type": "number",
+              "minimum": -100,
+              "maximum": 100,
+              "description": "Overall divine favor rating (-100 to 100)"
+            },
+            "mortal_reputation": {
+              "type": "string",
+              "enum": ["divine-champion", "balanced-practitioner", "independent-mystic", "divine-rebel", "transcendent-seeker"],
+              "description": "How mortals generally perceive the character"
+            }
+          }
+        }
+      },
+      "required": ["signature_id", "cosmic_alignment", "power_focus"]
+    },
+    "positioning_completion": {
+      "type": "object",
+      "properties": {
+        "requirements_met": {
+          "type": "object",
+          "properties": {
+            "minimum_elemental_embrace": {
+              "type": "boolean",
+              "description": "Has embraced at least one element"
+            },
+            "minimum_primal_opposition": {
+              "type": "boolean",
+              "description": "Has opposed at least one Primal God"
+            },
+            "all_trials_completed": {
+              "type": "boolean",
+              "description": "Has faced all required trials"
+            }
+          }
+        },
+        "completion_date": {
+          "type": "string",
+          "format": "date-time",
+          "description": "When positioning was completed"
+        },
+        "act_progression": {
+          "type": "object",
+          "properties": {
+            "act_1_milestone": {
+              "type": "boolean",
+              "description": "Whether this positioning qualifies for Act 1 completion"
+            },
+            "unlocked_content": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              },
+              "description": "Content unlocked by completing positioning"
+            }
+          }
+        }
+      }
+    },
+    "metadata": {
+      "type": "object",
+      "properties": {
+        "created": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "last_updated": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "version": {
+          "type": "string"
+        }
+      },
+      "required": ["created", "last_updated", "version"]
+    }
+  },
+  "required": ["character_id", "positioning_status", "elemental_embraces", "primal_relationships", "divine_signature", "positioning_completion", "metadata"]
+}
