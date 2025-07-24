@@ -1,0 +1,69 @@
+{
+  "id": "memory-butterfly",
+  "name": "Memory Butterfly",
+  "category": "companion",
+  "race": "insect",
+  "breed": "memory-wing",
+  "status": "alive",
+  "rarity": "extraordinarily-rare",
+  "divine_influences": ["myrielle-fragment", "voltharion-memory"],
+  "physical_description": {
+    "appearance": "A delicate butterfly with translucent wings that shimmer with trapped memories. Patterns on its wings shift and change, showing glimpses of forgotten moments.",
+    "size": "tiny",
+    "humanoid_similarity": false,
+    "distinguishing_features": [
+      "Wings showing moving images of memories",
+      "Antenna that glow when sensing important information",
+      "Wing patterns that change based on emotional state",
+      "Leaves trails of sparkling memory-dust"
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Memory Archive",
+      "type": "mystical",
+      "description": "Can store and replay important memories for its bonded companion",
+      "power_level": "moderate"
+    },
+    {
+      "name": "Hidden Path Recall",
+      "type": "divine",
+      "description": "Remembers every path taken and can guide return journeys perfectly",
+      "power_level": "moderate"
+    },
+    {
+      "name": "Emotional Resonance",
+      "type": "mystical",
+      "description": "Senses and responds to its companion's emotional needs",
+      "power_level": "minor"
+    }
+  ],
+  "special_traits": {
+    "companion_abilities": {
+      "size_category": "tiny",
+      "flight_capable": true,
+      "myriel_channeling": "moderate",
+      "guidance_abilities": ["memory-aid", "navigation", "emotional-support"],
+      "manifestation_form": "Visual replay of memories and emotional comfort through wing-pattern displays"
+    }
+  },
+  "habitat": {
+    "primary_location": "memory-gardens",
+    "environmental_preferences": ["places-of-significance", "emotional-resonance-sites", "ancient-battlefields"],
+    "territorial_behavior": "Drawn to locations with strong emotional imprints, non-territorial"
+  },
+  "social_behavior": {
+    "group_structure": "solitary", 
+    "intelligence_level": "intelligent",
+    "humanoid_relations": "cooperative"
+  },
+  "lore_significance": "Memory Butterflies serve as living archives for their bonded companions, providing perfect recall of important moments and emotional support through their wing displays. Their Myriel fragments allow them to store and replay memories, creating a mystical backup system that helps adventurers navigate complex situations by remembering crucial details they might have forgotten.",
+  "tags": ["companion", "butterfly", "memory", "myriel-touched", "emotional-support", "archive"],
+  "metadata": {
+    "created": "2025-07-23T12:30:00Z",
+    "last_updated": "2025-07-23T12:30:00Z",
+    "author": "PrimalMyst Development Team",
+    "version": "1.0.0",
+    "canonical": true
+  }
+}

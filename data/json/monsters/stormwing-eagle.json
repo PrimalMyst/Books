@@ -1,0 +1,227 @@
+{
+  "id": "stormwing-eagle",
+  "name": "Stormwing Eagle",
+  "category": "mount",
+  "race": "beast",
+  "breed": "stormwing",
+  "status": "alive",
+  "rarity": "extremely-rare",
+  "divine_influences": {
+    "influences": ["myrielle", "voltharion"],
+    "myrielle_requirement": true
+  },
+  "physical_description": {
+    "appearance": "A magnificent eagle with wingspan reaching 20 feet. Feathers shimmer with electrical energy, and its eyes hold an intelligence that rivals many humanoids.",
+    "size": "large",
+    "height": {
+      "value": 6,
+      "unit": "feet"
+    },
+    "weight": {
+      "value": 450,
+      "unit": "pounds"
+    },
+    "wingspan": {
+      "value": 20,
+      "unit": "feet"
+    },
+    "speed": {
+      "ground": 10,
+      "flying": 120,
+      "climbing": 30
+    },
+    "blood_type": "blue",
+    "body_type": "avian",
+    "skin_type": "feathers",
+    "eye_count": 2,
+    "limb_count": {
+      "arms": 0,
+      "legs": 2,
+      "wings": 2,
+      "tails": 1,
+      "tentacles": 0
+    },
+    "humanoid_similarity": false,
+    "distinguishing_features": [
+      "Electrically-charged feathers",
+      "Piercing intelligent gaze",
+      "Saddle-ready back structure",
+      "Storm-calling abilities",
+      "Blue-tinted blood vessels visible in wings"
+    ],
+    "coloration": {
+      "primary_color": "storm-gray",
+      "secondary_colors": ["electric-blue", "silver", "white"],
+      "pattern": "iridescent"
+    }
+  },
+  "biological_traits": {
+    "lifespan": {
+      "value": 150,
+      "unit": "years",
+      "note": "Extended lifespan due to divine influence"
+    },
+    "diet": "carnivore",
+    "reproduction": "sexual",
+    "sleep_cycle": "diurnal",
+    "temperature_preference": "cool",
+    "breathing": "air",
+    "senses": {
+      "vision": "enhanced",
+      "hearing": "enhanced",
+      "smell": "normal",
+      "touch": "enhanced",
+      "magical_senses": ["myst-detection", "divine-sensing"]
+    }
+  },
+  "abilities": [
+    {
+      "name": "Storm Calling",
+      "type": "divine",
+      "description": "Can summon localized storms and ride lightning currents",
+      "power_level": "major"
+    },
+    {
+      "name": "Rider Bond",
+      "type": "mystical",
+      "description": "Forms deep mystical connection with worthy humanoid riders",
+      "power_level": "moderate"
+    },
+    {
+      "name": "Weather Sense",
+      "type": "natural",
+      "description": "Instinctively knows weather patterns days in advance",
+      "power_level": "minor"
+    }
+  ],
+  "special_traits": {
+    "mount_capabilities": {
+      "rideable": true,
+      "movement_type": "fly",
+      "burden_capacity": "moderate",
+      "temperament": "delicate",
+      "taming_difficulty": "extremely-hard",
+      "bonding_requirements": "Must prove courage in a storm and demonstrate respect for the sky"
+    }
+  },
+  "habitat": {
+    "primary_location": "mountain-peaks",
+    "environmental_preferences": ["mountain", "arctic", "temperate"],
+    "climate_tolerance": {
+      "temperature_range": "cold-adapted",
+      "humidity_preference": "moderate"
+    },
+    "territory_size": "large",
+    "territorial_behavior": "Claims entire mountain ranges, shares territory with bonded riders"
+  },
+  "social_behavior": {
+    "group_structure": "pair-bonded",
+    "pack_size": {
+      "min": 1,
+      "max": 2,
+      "typical": 2
+    },
+    "hierarchy": "none",
+    "communication": ["vocal", "mystical"],
+    "intelligence_level": "highly-intelligent",
+    "humanoid_relations": "cooperative",
+    "aggression_level": "territorial",
+    "loyalty_potential": "absolute"
+  },
+  "combat_attributes": {
+    "threat_level": "dangerous",
+    "preferred_combat_range": "aerial",
+    "armor_type": "none",
+    "primary_weapons": ["claws", "teeth", "electricity"],
+    "damage_resistances": ["lightning"],
+    "damage_vulnerabilities": [],
+    "regeneration": "none"
+  },
+  "mystical_properties": {
+    "magical_nature": "divine",
+    "myst_sensitivity": "high",
+    "divine_resonance": {
+      "strength": "strong",
+      "manifestations": [
+        "Electrical discharge in feathers",
+        "Storm-calling abilities",
+        "Mystical bonding with riders",
+        "Weather prediction instincts"
+      ]
+    },
+    "soul_type": "sentient",
+    "plane_of_origin": "material"
+  },
+  "classification": {
+    "taxonomic_category": "divine",
+    "evolutionary_origin": "divine-creation",
+    "conservation_status": "rare",
+    "first_documented": {
+      "era": "Age of Storms",
+      "location": "Thunder Peaks",
+      "discoverer": "Storm-Rider Valerian"
+    },
+    "related_species": ["great-eagle", "storm-hawk", "thunder-bird"],
+    "subspecies": [
+      {
+        "name": "Alpine Stormwing",
+        "distinguishing_traits": ["smaller size", "white plumage", "ice resistance"],
+        "habitat_specialization": "high mountain peaks with perpetual snow"
+      }
+    ]
+  },
+  "observation_data": {
+    "behavioral_notes": [
+      "Mates for life and mourns deceased partners",
+      "Tests potential riders through storm challenges",
+      "Shares mystical energy with bonded humanoids",
+      "Builds nests from lightning-struck wood"
+    ],
+    "seasonal_patterns": [
+      {
+        "season": "spring",
+        "behavior": "Nesting and territorial establishment"
+      },
+      {
+        "season": "summer",
+        "behavior": "Hunting and rider bonding activities"
+      },
+      {
+        "season": "autumn",
+        "behavior": "Storm-calling courtship displays"
+      },
+      {
+        "season": "winter",
+        "behavior": "Migration to warmer storm fronts"
+      }
+    ],
+    "migration_patterns": {
+      "migratory": true,
+      "pattern": "seasonal",
+      "routes": ["Thunder Peaks to Coastal Storm Valleys", "High Mountains to Desert Lightning Fields"]
+    },
+    "researcher_notes": [
+      {
+        "researcher": "Dr. Elena Stormwright",
+        "date": "Storm Season, Year 847",
+        "location": "Thunder Peaks Observatory",
+        "observation": "Bonded pairs demonstrate shared lightning resistance - when one is struck, both eagles channel the energy without harm."
+      },
+      {
+        "researcher": "Sky-Walker Talon",
+        "date": "Clear Season, Year 851",
+        "location": "Wind's Rest Aerie",
+        "observation": "Stormwings appear to recognize the divine nature of their riders, often approaching only those with strong Voltharion influence."
+      }
+    ]
+  },
+  "lore_significance": "Stormwing Eagles represent the pinnacle of mount-capable monsters. Their ability to bond with humanoid riders makes them invaluable companions, though they remain fundamentally limited by their divine influence ceiling. These bonds often last for the lifetime of both creatures.",
+  "tags": ["mount", "flying", "storm-magic", "intelligent", "bond-capable", "rare-companion"],
+  "metadata": {
+    "created": "2025-07-24T12:00:00Z",
+    "last_updated": "2025-07-24T12:00:00Z",
+    "author": "PrimalMyst Development Team",
+    "version": "2.0.0",
+    "canonical": true
+  }
+}

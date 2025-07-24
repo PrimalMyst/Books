@@ -164,6 +164,105 @@
         "required": ["name", "type", "description"]
       }
     },
+    "humanoid_heritage": {
+      "type": "object",
+      "properties": {
+        "status": {
+          "type": "string",
+          "enum": ["dormant", "awakened"],
+          "description": "Current state of humanoid heritage awareness - all important characters possess heritage, only awareness varies"
+        },
+        "awakening_event": {
+          "type": "string",
+          "description": "Event or circumstance that triggered heritage awakening"
+        },
+        "manifestations": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "type": {
+                "type": "string",
+                "enum": ["myst-jewelry-attunement", "multi-divine-influence", "ancient-visions", "mystical-awakening", "divine-attention"],
+                "description": "Type of heritage manifestation"
+              },
+              "description": {
+                "type": "string",
+                "description": "Details of the manifestation"
+              },
+              "first_occurred": {
+                "type": "string",
+                "description": "When this manifestation first appeared"
+              }
+            },
+            "required": ["type", "description"]
+          }
+        },
+        "divine_influences": {
+          "type": "object",
+          "properties": {
+            "fundamental_gods": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "enum": ["pyrion", "glacius", "voltharion"]
+              },
+              "minItems": 1,
+              "description": "Influences from Fundamental Gods (Ancient Powers) - at least one required for significant characters"
+            },
+            "primal_gods": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "enum": ["serafina", "aurelius", "korthak"]
+              },
+              "minItems": 1,
+              "description": "Influences from Primal Gods (Active Deities) - at least one required for significant characters"
+            },
+            "myrielle_guidance": {
+              "type": "object",
+              "properties": {
+                "direct_influence": {
+                  "type": "boolean",
+                  "const": false,
+                  "description": "Myrielle 'The Hidden' cannot directly influence humanoids"
+                },
+                "indirect_support": {
+                  "type": "string",
+                  "description": "How Myrielle supports this character through monster companions and mounts"
+                }
+              },
+              "description": "Myrielle can only influence humanoids indirectly through their monster companions and mounts"
+            }
+          },
+          "required": ["fundamental_gods", "primal_gods"],
+          "description": "Divine influences organized by tier - humanoids need influences from Fundamental and Primal gods, but Myrielle works through their companions"
+        },
+        "myst_jewelry_compatibility": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "item_type": {
+                "type": "string",
+                "description": "Type of myst jewelry (ring, amulet, etc.)"
+              },
+              "attunement_level": {
+                "type": "string",
+                "enum": ["none", "partial", "full", "enhanced"],
+                "description": "Level of attunement achieved"
+              },
+              "worn_location": {
+                "type": "string",
+                "description": "Where the item is worn (e.g., 'middle finger left hand')"
+              }
+            },
+            "required": ["item_type", "attunement_level"]
+          }
+        }
+      },
+      "description": "Tracking of humanoid heritage traits - all playable characters and important NPCs possess this heritage by cosmic law"
+    },
     "notable_events": {
       "type": "array",
       "items": {

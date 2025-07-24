@@ -1,0 +1,63 @@
+{
+  "id": "shadowmane-stalker",
+  "name": "Shadowmane Stalker",
+  "category": "standard",
+  "race": "beast",
+  "breed": "shadowmane",
+  "status": "alive",
+  "rarity": "uncommon",
+  "divine_influences": {
+    "influences": ["serafina", "korthak"],
+    "myrielle_requirement": false
+  },
+  "physical_description": {
+    "appearance": "A large feline predator with midnight-black fur that seems to absorb light. Its mane flows like living shadow, and its eyes glow with a pale blue light.",
+    "size": "large",
+    "humanoid_similarity": false,
+    "distinguishing_features": [
+      "Mane of flowing shadow energy",
+      "Glowing blue eyes",
+      "Silent movement despite large size",
+      "Claws that can cut through mystical barriers"
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Shadow Step",
+      "type": "mystical",
+      "description": "Can briefly become incorporeal and move through shadows",
+      "power_level": "moderate"
+    },
+    {
+      "name": "Mystical Tracking",
+      "type": "divine",
+      "description": "Can track prey across mystical barriers and dimensional boundaries",
+      "power_level": "major"
+    },
+    {
+      "name": "Silence Aura",
+      "type": "natural",
+      "description": "Moves without making any sound, even on noisy surfaces",
+      "power_level": "minor"
+    }
+  ],
+  "habitat": {
+    "primary_location": "shadow-touched-forests",
+    "environmental_preferences": ["darkness", "mystical-shadows", "dense-forest"],
+    "territorial_behavior": "Marks territory with shadow-essence, highly territorial"
+  },
+  "social_behavior": {
+    "group_structure": "solitary",
+    "intelligence_level": "cunning",
+    "humanoid_relations": "wary"
+  },
+  "lore_significance": "Shadowmane Stalkers are examples of how monsters can achieve significant mystical abilities while remaining limited by the two-divine-influence barrier. They serve as a reminder that power alone does not grant the transcendent potential of humanoids.",
+  "tags": ["predator", "shadow-magic", "forest-dweller", "mystical-beast", "two-divine-limit"],
+  "metadata": {
+    "created": "2025-07-23T12:00:00Z",
+    "last_updated": "2025-07-23T12:00:00Z",
+    "author": "PrimalMyst Development Team",
+    "version": "1.0.0",
+    "canonical": true
+  }
+}

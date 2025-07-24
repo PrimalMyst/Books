@@ -1,0 +1,69 @@
+{
+  "id": "whisperwind-fox",
+  "name": "Whisperwind Fox",
+  "category": "companion",
+  "race": "fey",
+  "breed": "whisperwind",
+  "status": "alive",
+  "rarity": "extraordinarily-rare",
+  "divine_influences": ["myrielle-fragment", "aurelius-wisdom"],
+  "physical_description": {
+    "appearance": "A fox-like creature with silver-white fur that seems to shimmer with inner light. Its eyes hold depths of understanding that mirror those of ancient scholars, and it moves with graceful intelligence.",
+    "size": "small",
+    "humanoid_similarity": true,
+    "distinguishing_features": [
+      "Silver-white luminescent fur",
+      "Eyes that reflect deep wisdom",
+      "Five-fingered paws resembling hands",
+      "Aura of calm intelligence"
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Empathic Communication",
+      "type": "mystical",
+      "description": "Can communicate complex thoughts and emotions directly mind-to-mind",
+      "power_level": "major"
+    },
+    {
+      "name": "Myriel's Insight",
+      "type": "divine",
+      "description": "Provides intuitive understanding of moral dilemmas and hidden truths",
+      "power_level": "major"
+    },
+    {
+      "name": "Protective Instinct",
+      "type": "mystical",
+      "description": "Can sense danger to bonded companions and react with supernatural speed",
+      "power_level": "moderate"
+    }
+  ],
+  "special_traits": {
+    "companion_abilities": {
+      "size_category": "small",
+      "flight_capable": true,
+      "myriel_channeling": "strong",
+      "guidance_abilities": ["navigation", "danger-sense", "mystical-sight", "emotional-support"],
+      "manifestation_form": "Telepathic warnings and empathic map guidance that appears as gentle mental impressions"
+    }
+  },
+  "habitat": {
+    "primary_location": "sacred-groves",
+    "environmental_preferences": ["mystical-forests", "ancient-temples", "places-of-wisdom"],
+    "territorial_behavior": "Seeks out places where wisdom is valued, non-territorial"
+  },
+  "social_behavior": {
+    "group_structure": "solitary",
+    "intelligence_level": "near-humanoid",
+    "humanoid_relations": "cooperative"
+  },
+  "lore_significance": "Whisperwind Foxes are the rarest and most valued of monster companions. Their Myriel fragments grant them understanding that approaches humanoid levels, making them trusted advisors and emotional anchors for their bonded partners. However, they remain bound by the cosmic law limiting them to two divine influences, preventing them from achieving true humanoid transcendence. Their existence raises questions about the nature of Myriel's fragments and their origin in the cosmic order.",
+  "tags": ["myriel-touched", "companion", "wisdom", "telepathic", "moral-guide", "extraordinarily-rare"],
+  "metadata": {
+    "created": "2025-07-23T12:00:00Z",
+    "last_updated": "2025-07-23T12:00:00Z",
+    "author": "PrimalMyst Development Team",
+    "version": "1.0.0",
+    "canonical": true
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "id": "grimjaw-mimic",
+  "name": "Grimjaw Mimic", 
+  "category": "standard",
+  "race": "aberration",
+  "breed": "grimjaw",
+  "status": "alive",
+  "rarity": "rare",
+  "divine_influences": ["serafina-deception", "korthak-survival"],
+  "physical_description": {
+    "appearance": "A shapeshifting creature that can perfectly mimic humanoid appearance, including facial features, clothing, and mannerisms. In its true form, it appears as a gaunt humanoid with oversized jaw and sharp teeth.",
+    "size": "medium",
+    "humanoid_similarity": true,
+    "distinguishing_features": [
+      "Perfect humanoid mimicry when shapeshifted",
+      "Oversized jaw with multiple rows of teeth in true form",
+      "Eyes that don't quite match when examined closely",
+      "Five-fingered hands that feel cold to the touch"
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Perfect Mimicry",
+      "type": "mystical",
+      "description": "Can assume the exact appearance and mannerisms of observed humanoids",
+      "power_level": "major"
+    },
+    {
+      "name": "False Aura",
+      "type": "divine",
+      "description": "Can project false divine influences to mystical detection",
+      "power_level": "moderate"
+    },
+    {
+      "name": "Predatory Instinct",
+      "type": "natural",
+      "description": "Exceptional ability to identify and exploit weaknesses in humanoid psychology",
+      "power_level": "moderate"
+    }
+  ],
+  "habitat": {
+    "primary_location": "humanoid-settlements",
+    "environmental_preferences": ["cities", "towns", "populated-areas"],
+    "territorial_behavior": "Infiltrates communities, claims hunting grounds within settlements"
+  },
+  "social_behavior": {
+    "group_structure": "solitary",
+    "intelligence_level": "intelligent",
+    "humanoid_relations": "hostile"
+  },
+  "lore_significance": "Grimjaw Mimics represent the tragic potential for confusion between monsters and humanoids. Despite their perfect physical mimicry and high intelligence, they remain bound by the two-divine-influence limit and lack true humanoid heritage. Their predatory nature and inability to form genuine bonds reveal their monstrous nature, though distinguishing them from actual humanoids can be extremely difficult. They serve as a reminder that appearance alone does not determine true nature - only divine influence capacity reveals the fundamental difference between humanoid and monster.",
+  "tags": ["shapeshifter", "mimic", "deceptive", "humanoid-appearance", "predator", "infiltrator"],
+  "metadata": {
+    "created": "2025-07-23T12:00:00Z",
+    "last_updated": "2025-07-23T12:00:00Z",
+    "author": "PrimalMyst Development Team",
+    "version": "1.0.0",
+    "canonical": true
+  }
+}
