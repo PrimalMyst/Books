@@ -1,0 +1,198 @@
+{
+  "id": "whisper-first-companion",
+  "name": "Whisper",
+  "type": "mist-wisp",
+  "origin": "myrielle-gift",
+  "appearance": {
+    "size": "small",
+    "form": "Floating, cat-sized creature that shifts between wispy cloud and more solid manifestation",
+    "colors": ["soft-blue", "silver", "pearl-white", "gentle-gold"],
+    "distinctive_features": [
+      "Constantly shifting between translucent and semi-solid states",
+      "Gentle inner light that pulses with emotional states",
+      "Trailing wisps of mist that follow movement",
+      "Large, expressive eyes that change color with mood",
+      "No fixed physical form - adapts appearance based on environment and emotions"
+    ],
+    "manifestation_style": "shifting"
+  },
+  "personality": {
+    "traits": ["Curious", "Protective", "Playful", "Intuitive", "Empathetic", "Patient"],
+    "communication_style": "empathic",
+    "bonding_style": "protective",
+    "emotional_range": [
+      "Joy (bright golden glow)",
+      "Concern (deeper blue tones)",
+      "Excitement (rapid color shifting)",
+      "Comfort (warm, steady silver light)",
+      "Fear (pale, trembling form)",
+      "Affection (soft pink tinges)"
+    ]
+  },
+  "abilities": {
+    "mystical_support": [
+      {
+        "ability_name": "Myrielle's Guidance",
+        "description": "Channels The Hidden One's wisdom and direction to the player",
+        "usage_type": "contextual",
+        "cooldown": "Always available when guidance is needed"
+      },
+      {
+        "ability_name": "Mystical Sight",
+        "description": "Highlights interactive objects and important environmental features with gentle glow",
+        "usage_type": "passive",
+        "cooldown": "Continuous"
+      },
+      {
+        "ability_name": "Emotional Resonance",
+        "description": "Shares emotional states with bonded partner, providing comfort and understanding",
+        "usage_type": "passive",
+        "cooldown": "Continuous empathic link"
+      },
+      {
+        "ability_name": "Mist Bridge Creation",
+        "description": "Creates temporary bridges of solidified mist for traversing gaps",
+        "usage_type": "active",
+        "cooldown": "30 seconds between uses"
+      }
+    ],
+    "combat_support": [
+      {
+        "support_type": "utility",
+        "description": "Distracts enemies with swirling mist patterns",
+        "effectiveness": "minor"
+      },
+      {
+        "support_type": "healing",
+        "description": "Provides gentle mystical energy to accelerate natural healing",
+        "effectiveness": "minor"
+      },
+      {
+        "support_type": "protection",
+        "description": "Warns of incoming attacks through empathic flashes",
+        "effectiveness": "moderate"
+      }
+    ],
+    "exploration_support": [
+      {
+        "function": "pathfinding",
+        "description": "Shows safe routes through unstable or dangerous terrain",
+        "reliability": "reliable"
+      },
+      {
+        "function": "secret-detection",
+        "description": "Becomes agitated near hidden passages or mystical anomalies",
+        "reliability": "consistent"
+      },
+      {
+        "function": "danger-sensing",
+        "description": "Changes behavior and coloration when threats are nearby",
+        "reliability": "reliable"
+      }
+    ]
+  },
+  "evolution": {
+    "growth_triggers": [
+      "Completion of prologue tutorial",
+      "First pantheon trial completion",
+      "Strong bonding milestones reached",
+      "Major story progression points",
+      "Character's mystical development stages"
+    ],
+    "evolution_stages": [
+      {
+        "stage_name": "Awakening Wisp (Prologue)",
+        "requirements": ["Initial manifestation with character"],
+        "changes": {
+          "appearance_changes": ["Basic mist-wisp form", "Simple color expressions"],
+          "ability_changes": ["Basic guidance", "Simple interaction highlighting"],
+          "personality_development": ["Curious but tentative", "Learning about bonded partner"]
+        }
+      },
+      {
+        "stage_name": "Bonded Companion (Early Act 1)",
+        "requirements": ["Complete prologue", "First island arrival", "Initial bonding"],
+        "changes": {
+          "appearance_changes": ["More stable form", "Clearer emotional expressions", "Island-influenced coloration"],
+          "ability_changes": ["Enhanced mystical sight", "Improved guidance clarity", "Basic combat assistance"],
+          "personality_development": ["Confident in relationship", "Protective instincts emerge", "Individual preferences develop"]
+        }
+      },
+      {
+        "stage_name": "Elemental Attuned (Post First Embrace)",
+        "requirements": ["Character completes first elemental embrace", "Moderate bonding level"],
+        "changes": {
+          "appearance_changes": ["Incorporates chosen elemental themes", "Enhanced luminosity", "More solid manifestation"],
+          "ability_changes": ["Elemental resonance abilities", "Enhanced exploration support", "Stronger combat assistance"],
+          "personality_development": ["Reflects character's elemental nature", "Increased independence", "Deeper emotional range"]
+        }
+      }
+    ]
+  },
+  "bonding_mechanics": {
+    "initial_bond_strength": 25,
+    "bonding_factors": {
+      "positive_actions": [
+        "Following Whisper's guidance during tutorial",
+        "Showing concern when Whisper appears distressed",
+        "Successfully completing challenges with Whisper's help",
+        "Gentle interaction and patient behavior",
+        "Protecting Whisper during dangerous moments"
+      ],
+      "negative_actions": [
+        "Ignoring Whisper's warnings consistently",
+        "Acting aggressively toward other peaceful creatures",
+        "Rushing through content without acknowledging Whisper's presence",
+        "Taking unnecessary risks that endanger both characters"
+      ],
+      "neutral_growth": [
+        "Shared experience during exploration",
+        "Time spent together during rest periods",
+        "Successful cooperation during challenges",
+        "Natural progression through story milestones"
+      ]
+    },
+    "bond_milestones": [
+      {
+        "threshold": 50,
+        "milestone_name": "Trusted Partnership",
+        "benefits": ["Enhanced guidance clarity", "Improved danger warning", "Stronger empathic connection"]
+      },
+      {
+        "threshold": 75,
+        "milestone_name": "Deep Bond",
+        "benefits": ["Shared mystical energy pool", "Coordinated abilities", "Emotional stability support"]
+      },
+      {
+        "threshold": 100,
+        "milestone_name": "Soul Resonance",
+        "benefits": ["Perfect understanding", "Combined mystical casting", "Shared consciousness during meditation"]
+      }
+    ]
+  },
+  "story_integration": {
+    "tutorial_role": [
+      "Primary guide through prologue sequence",
+      "Demonstrates basic game mechanics through example",
+      "Provides emotional support during disorienting awakening",
+      "Serves as Myrielle's voice and presence",
+      "Creates foundation for companion bonding system"
+    ],
+    "act_progression": {
+      "act_1_role": "Continues as primary companion while character explores starting island and completes pantheon trials",
+      "pantheon_trial_involvement": "Provides moral support and practical assistance during divine encounters, but cannot directly influence trial outcomes",
+      "long_term_development": "Evolves into character's permanent companion, gaining abilities and personality traits that complement chosen divine positioning"
+    },
+    "myrielle_connection": {
+      "guidance_conduit": true,
+      "independence_development": "Gradually becomes less dependent on channeling Myrielle as bond with character strengthens, developing own personality and preferences",
+      "hidden_one_knowledge": "Knows Myrielle's benevolent nature but not her full cosmic role; understands she exists beyond normal reality but not the specifics"
+    }
+  },
+  "metadata": {
+    "created": "2025-07-24T17:30:00Z",
+    "last_updated": "2025-07-24T17:30:00Z",
+    "version": "1.0.0",
+    "canonical": true
+  }
+}
