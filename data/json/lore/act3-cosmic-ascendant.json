@@ -28,7 +28,9 @@
         "final_hidden_trials": "Three ultimate trials that test readiness for cosmic transformation",
         "maximum_ascendency": "Final 3 Ascendency Points bringing total to 6 - the cosmic maximum",
         "transformation_preparation": "Trials prepare practitioners for fundamental change in their nature",
-        "cosmic_threat_authorization": "Permission and power to challenge the cosmic order itself"
+        "cosmic_threat_authorization": "Permission and power to challenge the cosmic order itself",
+        "guild_full_revelation": "S-rank adventurers gain complete knowledge of guild conspiracy and their role as god-slayer candidates",
+        "divine_classification": "Myrielle trials officially recognized as divine trials with +6 monster level increases"
       }
     },
     "cosmic_transformation": {
@@ -67,17 +69,26 @@
     ]
   },
   "cosmic_revelation": {
+    "god_slayer_destiny": {
+      "ultimate_truth": "Player discovers they were never meant to be merely an adventurer, but a weapon designed to kill gods",
+      "cosmic_weapon": "All trials, challenges, and growth were orchestrated to create a being capable of divine assassination",
+      "myrielle_purpose": "The Hidden One's true agenda is revealed as creating champions who can destroy cosmic entities",
+      "divine_tyranny": "Understanding that gods and cosmic entities represent stagnant forces that must be overthrown",
+      "universal_liberation": "Player's role is to free all existence from cosmic limitations and divine control"
+    },
     "myrielle_true_purpose": {
       "cosmic_revolutionary": "Myrielle seeks to overthrow the Eldritch supremacy that limits all existence",
       "mortal_champions": "She cultivates mortals because they can achieve power gods cannot",
       "hidden_war": "A cosmic conflict between stagnant order and transformative potential",
-      "ultimate_freedom": "Goal of liberating all existence from cosmic limitations"
+      "ultimate_freedom": "Goal of liberating all existence from cosmic limitations",
+      "guild_conspiracy": "Adventurer guilds revealed as her most successful infiltration of cosmic order"
     },
     "practitioner_destiny": {
       "cosmic_threat": "Achieving 6 Ascendency Points makes practitioners genuine threats to Eldritch entities",
       "reality_shapers": "Power to alter fundamental cosmic structures and hierarchies",
       "myrielle_agents": "Serving as The Hidden One's champions in the cosmic war",
-      "transcendent_existence": "Operating beyond normal limitations of mortality and divinity"
+      "transcendent_existence": "Operating beyond normal limitations of mortality and divinity",
+      "god_slayer_status": "Ultimate recognition as beings capable of killing cosmic entities"
     }
   },
   "act3_completion": {

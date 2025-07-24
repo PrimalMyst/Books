@@ -369,7 +369,13 @@
           "significance": "Official recognition as a manifested practitioner capable of undertaking quests"
         },
         "ceremony_description": "Captain presents the card with formal recognition of the player's proven mystical abilities and manifestation",
-        "mechanical_impact": "Allows player to register with adventurer guilds and accept official quests upon arrival"
+        "mechanical_impact": "Allows player to register with adventurer guilds and accept official quests upon arrival",
+        "hidden_significance": {
+          "captain_foreknowledge": "Captain Thorne was waiting for the player due to a divine revelation from Myrielle",
+          "secret_preparation": "The rank E card was prepared in advance, indicating the captain knew of the player's coming",
+          "guild_connection": "The card serves as introduction to the adventurer guilds - secret churches of Myrielle",
+          "concealed_purpose": "Captain hides his true role as Myrielle's agent guiding chosen souls to the guilds"
+        }
       },
       "arrival_ceremony": "Crew formally delivers player to their chosen starting island",
       "ongoing_connection": "Sailors promise to check on player's progress and offer future assistance"
