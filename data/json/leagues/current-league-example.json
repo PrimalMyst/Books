@@ -77,6 +77,11 @@
       "story_progression": 3,
       "heritage_requirements": ["revealed"]
     },
+    "ultimate_content": {
+      "SS_designation_required": true,
+      "level_requirement": 100,
+      "description": "Ultimate endgame content reserved for SS designation holders only"
+    },
     "final_boss": "the-mystical-sovereign",
     "completion_rewards": [
       {

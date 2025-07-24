@@ -17,10 +17,11 @@
         "rarity": 0.1
       },
       "unique": {
-        "rank_bonus": "+2_tiers",
-        "level_bonus": 20,
+        "level_override": 100,
+        "SS_designation": true,
         "rarity": 0.01,
-        "name": "The Primordial Convergence"
+        "name": "The Primordial Convergence",
+        "note": "Only spawns for SS designation players (level 100)"
       }
     },
     "scaling_type": "adaptive_to_location",
@@ -148,7 +149,8 @@
       {
         "item": "fragment_of_infinite_possibility",
         "chance": 0.001,
-        "rank": "SS",
+        "rank": "S",
+        "tier": "elite",
         "description": "An extremely rare material that contains echoes of alternate timelines",
         "only_from": "unique_variant"
       }

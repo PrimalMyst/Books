@@ -156,8 +156,9 @@
       "name": "Ascendant Convergence",
       "description": "Ultimate upgrade that requires cosmic-level materials and understanding",
       "requirements": {
-        "character_rank": "SS",
-        "character_level": 95,
+        "character_rank": "S",
+        "character_level": 100,
+        "SS_designation_required": true,
         "materials": [
           "fragment_of_infinite_possibility",
           "yggdrasil_heartwood_core",
@@ -165,7 +166,8 @@
         ],
         "cosmic_event": "Must upgrade during a mystical convergence event"
       },
-      "new_rank": "SS",
+      "new_rank": "S",
+      "new_designation": "SS_enhanced",
       "additional_effects": [
         "Can cast ultimate abilities from all six divine traditions",
         "Grants limited time manipulation abilities",
@@ -215,7 +217,7 @@
     "canonical": true,
     "rarity_classification": "legendary_unique",
     "power_level_testing": {
-      "tested_with_ranks": ["A", "S", "SS"],
+      "tested_with_ranks": ["A", "S"],
       "balance_confirmed": true,
       "player_feedback": "Appropriately powerful for investment required"
     }

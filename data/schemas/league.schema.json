@@ -15,7 +15,7 @@
     },
     "type": {
       "type": "string",
-      "enum": ["current", "standard-eternal", "offline-eternal", "hardcore", "event"],
+      "enum": ["current", "standard-eternal", "offline-eternal", "hardcore", "event", "experimental"],
       "description": "Type of league"
     },
     "status": {

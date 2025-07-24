@@ -113,7 +113,7 @@
     "lore": {
       "path": "data/json/lore/",
       "schema": "lore",
-      "count": 7,
+      "count": 8,
       "subcategories": {
         "cosmology": "Six Realms, Yggdrasil, and divine structure",
         "geography": "World geography, island realms, and physical manifestations",
@@ -134,7 +134,8 @@
         "fundamental-trio.json",
         "primal-trio.json",
         "core-thematic-hexagon.json",
-        "hexagonal-damage-calculation.json"
+        "hexagonal-damage-calculation.json",
+        "mystical-number-harmonies.json"
       ]
     },
     "leagues": {
