@@ -30,11 +30,19 @@
         "enhanced_recognition": "Greater awareness of her role among island populations",
         "deeper_mysteries": "Hints about her true nature and cosmic significance"
       },
+      "guild_conspiracy_revelation": {
+        "rank_advancement": "Players advancing to Rank C-B begin noticing guild's true nature",
+        "hidden_connections": "Growing awareness that guilds are more than administrative organizations",
+        "fragment_recognition": "Understanding that peaceful zones come from divine fragments",
+        "conspiracy_hints": "First suggestions that player's path was orchestrated from the beginning"
+      },
       "hidden_trial_system": {
         "secret_trials": "Three hidden divine trials scattered throughout Act 2",
         "trial_discovery": "Trials are concealed and must be found through investigation and worthiness",
         "ascendency_points": "Each trial awards 1 Ascendency Point (3 total available in Act 2)",
-        "cosmic_preparation": "Trials prepare practitioners for challenges beyond divine approval"
+        "cosmic_preparation": "Trials prepare practitioners for challenges beyond divine approval",
+        "guild_gatekeeping": "Access controlled by guild officials based on rank requirements (B-A rank)",
+        "divine_recognition": "Myrielle trials grant +6 monster level increases like other divine trials"
       }
     },
     "power_progression": {

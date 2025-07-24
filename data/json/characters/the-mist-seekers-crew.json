@@ -44,7 +44,9 @@
         "Crew management in dangerous situations",
         "Lore about divine manifestations and signs",
         "Adventurer guild protocols and rank recognition",
-        "Official documentation for mystical practitioners"
+        "Official documentation for mystical practitioners",
+        "Secret knowledge of Myrielle's true agenda",
+        "Divine revelation interpretation and guidance"
       ],
       "relationship_to_player": "Respectful authority figure who recognizes potential, offers guidance without being controlling"
     },
@@ -194,7 +196,14 @@
       "presenter": "Captain Thorne Mistwalker",
       "card_type": "Rank E Adventurer Identification Card",
       "ceremony_significance": "Official recognition of player as manifested practitioner capable of undertaking guild quests",
-      "captain_authority": "Thorne carries official authorization to grant preliminary adventurer status to proven mystical practitioners"
+      "captain_authority": "Thorne carries official authorization to grant preliminary adventurer status to proven mystical practitioners",
+      "hidden_agenda": {
+        "divine_revelation": "Captain received divine vision from Myrielle revealing the player's coming",
+        "prepared_encounter": "The entire stranding was orchestrated to intercept the chosen soul",
+        "guild_introduction": "The card serves as entry to adventurer guilds - secret churches of Myrielle",
+        "concealed_knowledge": "Captain knows the player's true destiny as potential god-slayer but hides this information",
+        "myrielle_agent": "Thorne serves as one of Myrielle's hidden agents scattered across the realms"
+      }
     },
     "transportation_service": "Fulfill their promise by taking player to chosen starting island",
     "world_introduction": "Introduce concepts of mystical navigation, reality instances, and divine seeking"
@@ -204,6 +213,29 @@
     "future_contacts": "Crew remains available for future assistance and information",
     "world_continuity": "Represents broader community of those seeking mystical truth",
     "narrative_anchor": "Provides ongoing connection to prologue events and Myrielle's influence"
+  },
+  "cosmic_revelation": {
+    "spoiler_warning": "The following information is revealed only in the epilogue",
+    "ultimate_truth": "Interdimensional Agents of Myrielle",
+    "hidden_nature": {
+      "true_mission": "Searching across multiple reality instances for potential cosmic champions, not just seeking Myrielle herself",
+      "cosmic_roles": {
+        "captain_thorne": "Strategic coordinator for Myrielle's multidimensional revolution",
+        "navigator_kira": "Intelligence gathering and cosmic navigation across reality instances", 
+        "bosun_harald": "Psychological support and moral compass for cosmic champion development",
+        "engineer_zara": "Cosmic vessel technology and interdimensional travel systems",
+        "cook_magnus": "Sustenance and nurturing for beings undergoing cosmic transformation"
+      },
+      "wandering_hope_truth": "The ship is actually a cosmic vessel capable of traveling between reality instances",
+      "ultimate_purpose": "Recruit and develop cosmic champions to challenge Eldritch supremacy",
+      "promise_fulfillment": "Taking the player 'home' to the cosmic nexus where Myrielle exists outside reality instances"
+    },
+    "character_growth": {
+      "beyond_initial_presentation": "Each crew member has grown beyond their apparent mortal limitations",
+      "cosmic_authority": "Operating under Myrielle's direct authority across multiple reality instances",
+      "transformation_agents": "Specialists in guiding mortal consciousness toward cosmic transcendence",
+      "interdimensional_experience": "Veterans of cosmic conflict spanning reality instances"
+    }
   },
   "related_content": {
     "events": [

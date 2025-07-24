@@ -136,7 +136,12 @@
     "social_requirements": [
       "Must have arrived on Pyrion's Forge and experienced divine decay",
       "Companion must guide to trial location"
-    ]
+    ],
+    "guild_requirements": {
+      "rank_requirement": "Rank E adventurer status (minimum for Fundamental God trials)",
+      "guild_registration": "Must be registered with local adventurer guild",
+      "authorization": "Guild officials must approve trial attempt for safety assessment"
+    }
   },
   "companion_integration": {
     "companion_role": "guide",
