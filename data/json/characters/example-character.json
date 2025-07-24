@@ -20,6 +20,23 @@
     "physical": "Of medium height with pale blue eyes that seem to shift focus between different layers of reality. Her hair is dark brown with silver streaks that appeared during her first realm-crossing.",
     "personality": "Intensely curious about the nature of existence, patient with students but impatient with those who refuse to see beyond surface appearances. Known for her ability to explain complex mystical concepts in practical terms."
   },
+  "rank_level": {
+    "current_rank": "A",
+    "current_level": 76,
+    "heritage_revealed": true,
+    "awakening_level": 9,
+    "rank_progression": {
+      "E_completed": true,
+      "D_completed": true,
+      "C_completed": true,
+      "B_completed": true,
+      "A_completed": false,
+      "S_completed": false,
+      "SS_achieved": false
+    },
+    "story_act": "act3",
+    "divine_transcendence_level": "legendary"
+  },
   "background": {
     "summary": "Born in a small Midgard village, Astrid discovered her ability to perceive the Mist during a childhood encounter with realm-travelers, leading to her training in the mystical arts.",
     "history": [

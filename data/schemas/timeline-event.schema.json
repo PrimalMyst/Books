@@ -30,6 +30,75 @@
       "enum": ["minor", "local", "regional", "major", "world-changing", "cosmic", "legendary"],
       "description": "Historical significance level"
     },
+    "power_classification": {
+      "type": "object",
+      "properties": {
+        "event_rank": {
+          "$ref": "rank-level-system.schema.json#/definitions/rank",
+          "description": "The rank classification of this event's power level"
+        },
+        "participants_level_range": {
+          "type": "object",
+          "properties": {
+            "minimum": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 100
+            },
+            "maximum": {
+              "type": "integer", 
+              "minimum": 1,
+              "maximum": 100
+            }
+          },
+          "description": "Level range of participants involved"
+        },
+        "knowledge_requirements": {
+          "type": "object",
+          "properties": {
+            "min_rank": {
+              "$ref": "rank-level-system.schema.json#/definitions/rank",
+              "description": "Minimum rank needed to understand this event"
+            },
+            "min_level": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 100,
+              "description": "Minimum level needed to comprehend the implications"
+            },
+            "required_heritage": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "enum": ["none", "primal", "divine", "eldritch", "cosmic"]
+              },
+              "description": "Heritage awakening required to fully understand"
+            }
+          }
+        },
+        "revelation_unlock": {
+          "type": "object",
+          "properties": {
+            "unlocks_at_rank": {
+              "$ref": "rank-level-system.schema.json#/definitions/rank"
+            },
+            "unlocks_at_level": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 100
+            },
+            "story_act_requirement": {
+              "type": "integer",
+              "minimum": 0,
+              "maximum": 4,
+              "description": "Which story act this becomes relevant (0=prologue, 4=epilogue)"
+            }
+          },
+          "description": "When knowledge of this event becomes available to players"
+        }
+      },
+      "description": "Power and access classification for this historical event"
+    },
     "date": {
       "type": "object",
       "properties": {

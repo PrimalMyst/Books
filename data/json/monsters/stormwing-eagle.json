@@ -6,6 +6,21 @@
   "breed": "stormwing",
   "status": "alive",
   "rarity": "extremely-rare",
+  "rank_level": {
+    "base_rank": "B",
+    "level_range": {
+      "min_level": 45,
+      "max_level": 65
+    },
+    "elite_rank_bonus": 0.5,
+    "boss_rank_bonus": 1.0,
+    "scaling_type": "linear",
+    "encounter_weight": {
+      "solo_difficulty": 1.5,
+      "group_difficulty": 1.0,
+      "pack_size_modifier": 0.8
+    }
+  },
   "divine_influences": {
     "influences": ["myrielle", "voltharion"],
     "myrielle_requirement": true

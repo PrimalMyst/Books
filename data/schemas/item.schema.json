@@ -1,0 +1,329 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "PrimalMyst Item",
+  "description": "Schema for item entries in the PrimalMyst universe - weapons, armor, accessories, consumables, materials, etc.",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$",
+      "description": "Unique identifier for the item"
+    },
+    "name": {
+      "type": "string",
+      "description": "Item's display name"
+    },
+    "type": {
+      "type": "string",
+      "enum": ["weapon", "armor", "accessory", "consumable", "material", "tool", "mount-gear", "companion-item", "divine-artifact", "myst-jewelry"],
+      "description": "Primary item classification"
+    },
+    "subtype": {
+      "type": "string",
+      "description": "Specific subtype within the main category"
+    },
+    "rank_level": {
+      "type": "object",
+      "properties": {
+        "item_rank": {
+          "type": "string",
+          "enum": ["E", "D", "C", "B", "A", "S", "SS"],
+          "description": "Item's power rank classification"
+        },
+        "required_level": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 100,
+          "description": "Minimum level required to use this item"
+        },
+        "optimal_level": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 100,
+          "description": "Level at which item provides optimal benefit"
+        },
+        "level_scaling": {
+          "type": "object",
+          "properties": {
+            "scales_with_user": {
+              "type": "boolean",
+              "description": "Whether item power scales with user level",
+              "default": false
+            },
+            "scaling_type": {
+              "type": "string",
+              "enum": ["linear", "exponential", "stepped", "fixed"],
+              "description": "How item scales if it does scale"
+            },
+            "max_scaling_level": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 100,
+              "description": "Maximum level for scaling benefits"
+            }
+          },
+          "description": "Item level scaling information"
+        },
+        "quality_tier": {
+          "type": "string",
+          "enum": ["common", "uncommon", "rare", "epic", "legendary", "mythical", "divine", "cosmic"],
+          "description": "Item quality/rarity tier"
+        },
+        "power_classification": {
+          "type": "string",
+          "enum": ["mundane", "enhanced", "mystical", "divine-touched", "legendary", "cosmic"],
+          "description": "Power source and significance level"
+        }
+      },
+      "required": ["item_rank", "required_level"],
+      "description": "Item rank, level requirements, and scaling information"
+    },
+    "divine_influences": {
+      "type": "object",
+      "properties": {
+        "primary_influence": {
+          "type": "string",
+          "enum": ["pyrion", "glacius", "voltharion", "serafina", "aurelius", "korthak", "myrielle", "none"],
+          "description": "Primary divine influence affecting this item"
+        },
+        "secondary_influences": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": ["pyrion", "glacius", "voltharion", "serafina", "aurelius", "korthak", "myrielle"]
+          },
+          "maxItems": 3,
+          "description": "Additional divine influences (items can have more than monsters)"
+        },
+        "divine_resonance": {
+          "type": "string",
+          "enum": ["none", "faint", "moderate", "strong", "overwhelming", "cosmic"],
+          "description": "Strength of divine influence in the item"
+        },
+        "humanoid_only": {
+          "type": "boolean",
+          "description": "Whether this item can only be used by humanoids",
+          "default": false
+        }
+      },
+      "description": "Divine influence patterns affecting item properties"
+    },
+    "physical_properties": {
+      "type": "object",
+      "properties": {
+        "weight": {
+          "type": "object",
+          "properties": {
+            "value": {"type": "number"},
+            "unit": {"type": "string", "enum": ["ounces", "pounds", "tons", "weightless"]}
+          }
+        },
+        "size": {
+          "type": "string",
+          "enum": ["tiny", "small", "medium", "large", "huge", "variable"],
+          "description": "Physical size category"
+        },
+        "material": {
+          "type": "string",
+          "description": "Primary material composition"
+        },
+        "durability": {
+          "type": "string",
+          "enum": ["fragile", "normal", "durable", "reinforced", "nearly-indestructible", "eternal"],
+          "description": "Item durability classification"
+        },
+        "magical_nature": {
+          "type": "string",
+          "enum": ["mundane", "enhanced", "enchanted", "mystical", "divine", "cosmic"],
+          "description": "Level of magical enhancement"
+        }
+      }
+    },
+    "gameplay_properties": {
+      "type": "object",
+      "properties": {
+        "stack_size": {
+          "type": "integer",
+          "minimum": 1,
+          "description": "Maximum stack size for this item"
+        },
+        "tradeable": {
+          "type": "boolean",
+          "description": "Whether item can be traded between players",
+          "default": true
+        },
+        "bind_on_pickup": {
+          "type": "boolean",
+          "description": "Whether item binds to player when acquired",
+          "default": false
+        },
+        "bind_on_equip": {
+          "type": "boolean",
+          "description": "Whether item binds to player when equipped",
+          "default": false
+        },
+        "unique": {
+          "type": "boolean",
+          "description": "Whether only one can be owned per character",
+          "default": false
+        },
+        "set_item": {
+          "type": "string",
+          "description": "Set name if this item is part of a set"
+        }
+      }
+    },
+    "effects": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "description": "Effect name"
+          },
+          "description": {
+            "type": "string",
+            "description": "Effect description"
+          },
+          "type": {
+            "type": "string",
+            "enum": ["passive", "active", "triggered", "conditional"],
+            "description": "Effect activation type"
+          },
+          "power_level": {
+            "type": "string",
+            "enum": ["minor", "moderate", "major", "legendary", "cosmic"],
+            "description": "Effect power level"
+          },
+          "divine_source": {
+            "type": "string",
+            "enum": ["pyrion", "glacius", "voltharion", "serafina", "aurelius", "korthak", "myrielle", "none"],
+            "description": "Divine source of this effect"
+          }
+        },
+        "required": ["name", "description", "type"]
+      },
+      "description": "Item effects and abilities"
+    },
+    "acquisition": {
+      "type": "object",
+      "properties": {
+        "drop_sources": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Monsters, bosses, or areas where this item can drop"
+        },
+        "quest_rewards": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Quests that reward this item"
+        },
+        "crafting_recipe": {
+          "type": "object",
+          "properties": {
+            "required_rank": {
+              "type": "string",
+              "enum": ["E", "D", "C", "B", "A", "S", "SS"]
+            },
+            "required_level": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 100
+            },
+            "materials": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "item_id": {"type": "string"},
+                  "quantity": {"type": "integer", "minimum": 1}
+                },
+                "required": ["item_id", "quantity"]
+              }
+            },
+            "crafting_station": {
+              "type": "string",
+              "description": "Required crafting station or location"
+            }
+          },
+          "description": "Crafting information if item can be crafted"
+        },
+        "vendor_price": {
+          "type": "object",
+          "properties": {
+            "currency": {"type": "string"},
+            "amount": {"type": "number"}
+          },
+          "description": "Vendor purchase price if available"
+        },
+        "rarity_notes": {
+          "type": "string",
+          "description": "Additional notes about item rarity and acquisition"
+        }
+      }
+    },
+    "lore": {
+      "type": "object",
+      "properties": {
+        "description": {
+          "type": "string",
+          "description": "Lore description of the item"
+        },
+        "history": {
+          "type": "string",
+          "description": "Historical background and significance"
+        },
+        "creator": {
+          "type": "string",
+          "description": "Who created this item (if known)"
+        },
+        "significance": {
+          "type": "string",
+          "description": "Cultural or world significance"
+        }
+      }
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Searchable tags for categorization"
+    },
+    "metadata": {
+      "type": "object",
+      "properties": {
+        "created": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Creation timestamp"
+        },
+        "last_updated": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Last update timestamp"
+        },
+        "author": {
+          "type": "string",
+          "description": "Content creator/author"
+        },
+        "version": {
+          "type": "string",
+          "description": "Content version"
+        },
+        "canonical": {
+          "type": "boolean",
+          "description": "Whether this is official canonical content"
+        }
+      },
+      "required": ["created", "last_updated", "canonical"]
+    }
+  },
+  "required": ["id", "name", "type", "rank_level", "metadata"],
+  "additionalProperties": false
+}

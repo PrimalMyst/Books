@@ -84,6 +84,48 @@
     "education": "The world's premier institutions for multi-path mystical study",
     "festivals": "Regular celebrations honoring the cosmic balance and inter-realm cooperation"
   },
+  "access_requirements": {
+    "minimum_rank": "E",
+    "minimum_level": 1,
+    "recommended_rank": "D",
+    "recommended_level": 5,
+    "story_requirements": {
+      "act": 0,
+      "description": "Available from character creation - the starting region"
+    },
+    "divine_requirements": {
+      "needed": [],
+      "description": "No divine requirements - neutral ground accessible to all"
+    },
+    "special_requirements": {
+      "needed": [],
+      "description": "Open to all who approach with respect"
+    }
+  },
+  "danger_level": {
+    "base_threat_rank": "E",
+    "level_scaling": {
+      "type": "safe_zone",
+      "description": "Heavily protected by divine balance - minimal threats in main areas"
+    },
+    "environmental_hazards": [
+      {
+        "type": "mystical_convergence",
+        "rank": "D",
+        "description": "Occasional mystical surges near Yggdrasil require basic preparation"
+      }
+    ],
+    "monster_density": "very_low",
+    "elite_spawn_rate": 0.01,
+    "special_threats": [
+      {
+        "name": "Convergence Storms",
+        "rank": "C",
+        "description": "Rare events where all six divine influences clash, creating temporary dangerous zones",
+        "frequency": "monthly"
+      }
+    ]
+  },
   "gameplay_significance": {
     "starting_location": "Most player characters begin their journey here",
     "hub_function": "Central location for accessing all six divine paths and island realms",

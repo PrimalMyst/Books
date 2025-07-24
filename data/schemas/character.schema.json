@@ -325,9 +325,61 @@
         }
       },
       "required": ["created", "last_updated", "canonical"]
+    },
+    "rank_level": {
+      "type": "object",
+      "properties": {
+        "current_rank": {
+          "type": "string",
+          "enum": ["E", "D", "C", "B", "A", "S", "SS"],
+          "description": "Current rank classification"
+        },
+        "current_level": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 100,
+          "description": "Current level (1-100)"
+        },
+        "heritage_revealed": {
+          "type": "boolean",
+          "description": "Whether humanoid heritage has been revealed (false for levels 1-9)",
+          "default": false
+        },
+        "awakening_level": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 100,
+          "description": "Level at which humanoid heritage was awakened"
+        },
+        "rank_progression": {
+          "type": "object",
+          "properties": {
+            "E_completed": {"type": "boolean", "default": false},
+            "D_completed": {"type": "boolean", "default": false},
+            "C_completed": {"type": "boolean", "default": false},
+            "B_completed": {"type": "boolean", "default": false},
+            "A_completed": {"type": "boolean", "default": false},
+            "S_completed": {"type": "boolean", "default": false},
+            "SS_achieved": {"type": "boolean", "default": false}
+          },
+          "description": "Progress through rank system"
+        },
+        "story_act": {
+          "type": "string",
+          "enum": ["prologue", "act1", "act2", "act3", "epilogue"],
+          "description": "Current story act based on level progression"
+        },
+        "divine_transcendence_level": {
+          "type": "string",
+          "enum": ["dormant", "awakened", "developing", "accomplished", "master", "legendary", "transcendent", "cosmic"],
+          "description": "Level of divine influence mastery corresponding to rank"
+        }
+      },
+      "required": ["current_rank", "current_level"],
+      "description": "Character's rank, level, and progression status"
     }
   },
-  "required": ["id", "name", "status", "description", "metadata"],
+  "required": ["id", "name", "status", "rank_level", "description", "metadata"],
   "additionalProperties": false
 }
 

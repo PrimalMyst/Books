@@ -46,6 +46,30 @@
       "description": "Divine trio lore files containing detailed information about competing divine forces",
       "required_fields": ["id", "name", "description", "trio_type", "cosmic_role", "gods", "trio_dynamics", "damage_mechanics"],
       "example": "data/json/lore/fundamental-trio.json"
+    },
+    "rank-level-system": {
+      "file": "data/schemas/rank-level-system.schema.json",
+      "description": "Universal rank and level system definitions for cross-system use",
+      "required_fields": ["definitions for rank, level, progression, scaling, access_requirements"],
+      "example": "Referenced by all major schemas"
+    },
+    "monster": {
+      "file": "data/schemas/monster.schema.json",
+      "description": "Creature entries including monsters, animals, and mystical beings",
+      "required_fields": ["id", "name", "category", "rank_level", "description", "metadata"],
+      "example": "data/json/monsters/stormwing-eagle.json"
+    },
+    "item": {
+      "file": "data/schemas/item.schema.json",
+      "description": "Equipment, consumables, and mystical artifacts",
+      "required_fields": ["id", "name", "item_type", "rank_level", "description", "metadata"],
+      "example": "data/json/items/stormcaller-ring.json"
+    },
+    "quest": {
+      "file": "data/schemas/quest.schema.json",
+      "description": "Quest definitions including story progression and objectives",
+      "required_fields": ["id", "name", "type", "rank_level_requirements", "objectives", "metadata"],
+      "example": "data/json/quests/convergence-storm-investigation.json"
     }
   },
 
@@ -134,6 +158,45 @@
         "primal": "Holy, chaos, and physical damage types",
         "temporal": "Time-based damage and effects",
         "hybrid": "Combined or converted damage types"
+      }
+    },
+    "monsters": {
+      "path": "data/json/monsters/",
+      "schema": "monster",
+      "count": 10,
+      "subcategories": {
+        "beasts": "Natural creatures and animals",
+        "mystical": "Magically-enhanced or created beings",
+        "elementals": "Beings of pure elemental force",
+        "undead": "Reanimated or spectral entities",
+        "constructs": "Artificial or mechanical creatures",
+        "aberrations": "Entities from beyond normal reality"
+      }
+    },
+    "items": {
+      "path": "data/json/items/",
+      "schema": "item",
+      "count": 3,
+      "subcategories": {
+        "weapons": "Melee and ranged combat equipment",
+        "armor": "Protective gear and clothing",
+        "accessories": "Rings, amulets, and enhancement items",
+        "consumables": "Potions, scrolls, and temporary items",
+        "materials": "Crafting components and raw materials",
+        "artifacts": "Unique legendary items with special properties"
+      }
+    },
+    "quests": {
+      "path": "data/json/quests/",
+      "schema": "quest",
+      "count": 1,
+      "subcategories": {
+        "main_story": "Primary narrative progression quests",
+        "side_quests": "Optional character and world development",
+        "divine_trials": "Challenges from specific divine traditions",
+        "exploration": "Discovery and mapping objectives",
+        "crafting": "Creation and enhancement activities",
+        "social": "Relationship and faction quests"
       }
     }
   },

@@ -94,6 +94,62 @@
           "enum": ["fresh", "migrated", "inherited"],
           "description": "How characters begin in this league"
         },
+        "starting_rank_level": {
+          "type": "object",
+          "properties": {
+            "rank": {
+              "$ref": "rank-level-system.schema.json#/definitions/rank",
+              "description": "Starting rank for new characters"
+            },
+            "level": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 100,
+              "description": "Starting level for new characters"
+            },
+            "heritage_state": {
+              "type": "string",
+              "enum": ["dormant", "awakening", "revealed"],
+              "description": "Initial heritage awakening state"
+            }
+          },
+          "required": ["rank", "level", "heritage_state"]
+        },
+        "progression_modifiers": {
+          "type": "object",
+          "properties": {
+            "experience_multiplier": {
+              "type": "number",
+              "minimum": 0.1,
+              "maximum": 10.0,
+              "description": "Experience gain modifier for this league"
+            },
+            "rank_progression_speed": {
+              "type": "string",
+              "enum": ["slow", "normal", "fast", "accelerated"],
+              "description": "How quickly players advance in rank"
+            },
+            "level_cap": {
+              "type": "integer",
+              "minimum": 10,
+              "maximum": 100,
+              "description": "Maximum level achievable in this league"
+            },
+            "heritage_unlock_requirements": {
+              "type": "object",
+              "properties": {
+                "modified": {
+                  "type": "boolean",
+                  "description": "Whether heritage unlock requirements are different"
+                },
+                "details": {
+                  "type": "string",
+                  "description": "Description of modified requirements"
+                }
+              }
+            }
+          }
+        },
         "progression_type": {
           "type": "string",
           "enum": ["temporary", "permanent", "hybrid"],
@@ -145,6 +201,36 @@
     "endgame_access": {
       "type": "object",
       "properties": {
+        "access_requirements": {
+          "type": "object",
+          "properties": {
+            "minimum_rank": {
+              "$ref": "rank-level-system.schema.json#/definitions/rank",
+              "description": "Minimum rank to access endgame content"
+            },
+            "minimum_level": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 100,
+              "description": "Minimum level to access endgame content"
+            },
+            "story_progression": {
+              "type": "integer",
+              "minimum": 0,
+              "maximum": 4,
+              "description": "Required story act completion (0=prologue, 4=epilogue)"
+            },
+            "heritage_requirements": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "enum": ["none", "primal", "divine", "eldritch", "cosmic"]
+              },
+              "description": "Required heritage awakening levels"
+            }
+          },
+          "required": ["minimum_rank", "minimum_level"]
+        },
         "final_boss": {
           "type": "string",
           "description": "ID of the league's final boss encounter"
