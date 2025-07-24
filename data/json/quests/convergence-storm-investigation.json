@@ -1,0 +1,259 @@
+{
+  "id": "convergence-storm-investigation",
+  "name": "The Mystery of the Convergence Storms",
+  "type": "main_story",
+  "story_act": 1,
+  "rank_level_requirements": {
+    "minimum_rank": "D",
+    "minimum_level": 15,
+    "recommended_rank": "C", 
+    "recommended_level": 25,
+    "group_size": {
+      "minimum": 1,
+      "maximum": 4,
+      "recommended": 2
+    },
+    "heritage_requirements": {
+      "awakening_level": "partial",
+      "specific_heritage": [],
+      "description": "Any partially awakened heritage provides insight into mystical phenomena"
+    },
+    "divine_requirements": {
+      "traditions_needed": [],
+      "mastery_level": "none",
+      "description": "No specific divine tradition required, but exposure to multiple traditions helpful"
+    },
+    "special_requirements": [
+      {
+        "type": "location_access",
+        "description": "Must have access to Midgardland Convergence Fields"
+      },
+      {
+        "type": "previous_quest",
+        "quest_id": "yggdrasil-first-sight",
+        "description": "Must have completed introduction to Yggdrasil"
+      }
+    ]
+  },
+  "difficulty_scaling": {
+    "base_difficulty": "C",
+    "scaling_type": "adaptive",
+    "level_range": {
+      "minimum": 15,
+      "maximum": 40
+    },
+    "challenge_adjustments": [
+      {
+        "condition": "solo_player",
+        "modification": "Reduce encounter complexity, increase investigation elements"
+      },
+      {
+        "condition": "group_size_4",
+        "modification": "Add additional storm manifestations and group coordination challenges"
+      },
+      {
+        "condition": "heritage_revealed",
+        "modification": "Unlock advanced mystical perception options"
+      }
+    ],
+    "failure_conditions": [
+      {
+        "type": "character_defeat",
+        "consequence": "Respawn at nearest safe location, quest progress maintained"
+      },
+      {
+        "type": "storm_dissipation",
+        "consequence": "Must wait for next convergence event (in-game day cycle)"
+      }
+    ]
+  },
+  "objectives": {
+    "primary": [
+      {
+        "id": "investigate_storm_source",
+        "name": "Investigate the Source of Convergence Storms",
+        "description": "Study the mystical phenomena occurring in the Convergence Fields near Yggdrasil",
+        "type": "investigation",
+        "completion_criteria": {
+          "method": "mystical_analysis",
+          "required_rank": "D",
+          "skill_check": "mystical_perception"
+        }
+      },
+      {
+        "id": "collect_storm_essence",
+        "name": "Collect Convergence Storm Essence",
+        "description": "Gather samples of the chaotic energies during an active storm",
+        "type": "collection",
+        "completion_criteria": {
+          "items_needed": [
+            {
+              "item": "convergence_essence",
+              "quantity": 3,
+              "quality": "C_rank_minimum"
+            }
+          ],
+          "danger_level": "C",
+          "timing": "during_active_storm"
+        }
+      },
+      {
+        "id": "consult_gate_scholars",
+        "name": "Consult Scholars at the Six Gates",
+        "description": "Speak with mystical scholars from each of the six gate cities",
+        "type": "social",
+        "completion_criteria": {
+          "npcs_to_consult": [
+            "pyrion_gate_scholar",
+            "glacius_gate_scholar", 
+            "voltharion_gate_scholar",
+            "nyxtharion_gate_scholar",
+            "luminareth_gate_scholar",
+            "drakmorth_gate_scholar"
+          ],
+          "information_gathered": "storm_pattern_analysis"
+        }
+      }
+    ],
+    "secondary": [
+      {
+        "id": "document_phenomena",
+        "name": "Document Mystical Phenomena",
+        "description": "Create detailed records of the convergence storm effects",
+        "type": "optional_scholarly",
+        "rewards": {
+          "experience_bonus": 500,
+          "items": ["mystic_research_journal"],
+          "reputation": "scholar_factions"
+        }
+      },
+      {
+        "id": "help_affected_citizens",
+        "name": "Help Storm-Affected Citizens",
+        "description": "Assist people displaced or harmed by convergence storms",
+        "type": "optional_humanitarian",
+        "rewards": {
+          "experience_bonus": 300,
+          "reputation": "civilian_populations",
+          "divine_favor": "myrielle_minor_blessing"
+        }
+      }
+    ]
+  },
+  "rewards": {
+    "experience": {
+      "base_amount": 2500,
+      "scaling_factor": 1.2,
+      "bonus_conditions": [
+        {
+          "condition": "completed_within_level_range",
+          "bonus_multiplier": 1.1
+        },
+        {
+          "condition": "all_secondary_objectives",
+          "bonus_amount": 1000
+        }
+      ]
+    },
+    "items": [
+      {
+        "item_id": "storm_touched_pendant",
+        "guaranteed": true,
+        "rank": "C",
+        "description": "A pendant that resonates with convergence energies"
+      },
+      {
+        "item_id": "mystic_stabilizer",
+        "chance": 0.7,
+        "rank": "D",
+        "description": "Device that helps stabilize mystical energies"
+      }
+    ],
+    "rank_progression": {
+      "contribution": "significant",
+      "amount": 15,
+      "description": "Major contribution toward next rank advancement"
+    },
+    "story_progression": {
+      "unlocks": [
+        "convergence_mystery_storyline",
+        "advanced_mystical_studies"
+      ],
+      "act_progression": 0.1,
+      "description": "Advances understanding of the world's mystical nature"
+    },
+    "divine_favor": [
+      {
+        "deity": "myrielle",
+        "amount": "minor",
+        "reason": "Investigating cosmic balance disturbances"
+      }
+    ],
+    "reputation": [
+      {
+        "faction": "neutral_halls_council",
+        "amount": 100,
+        "reason": "Contributing to understanding of cosmic phenomena"
+      },
+      {
+        "faction": "yggdrasil_guardians",
+        "amount": 50,
+        "reason": "Protecting the cosmic balance"
+      }
+    ]
+  },
+  "narrative": {
+    "description": {
+      "brief": "Mysterious storms of converging divine energies have been appearing near Yggdrasil, threatening the cosmic balance of Midgardland.",
+      "detailed": "Recent weeks have seen the emergence of strange storms in the Convergence Fields around Yggdrasil. These 'Convergence Storms' appear to be chaotic manifestations where all six divine influences clash violently instead of maintaining their usual balance. The phenomena are concerning the Council of Six and the scholars at each gate city. Citizens report strange visions, temporary magical effects, and in some cases, minor injuries from exposure to the raw mystical energies. The storms seem to follow no predictable pattern, appearing randomly but always within sight of the great tree. Some scholars worry this could be a sign that the cosmic balance is shifting, while others believe it might be a natural mystical cycle previously unobserved. The Council has issued a call for capable individuals to investigate these phenomena and determine if intervention is necessary."
+    },
+    "introduction": "A messenger from the Neutral Halls approaches you with urgent news. The cosmic balance that has kept Midgardland stable for generations may be under threat, and they need someone with mystical sensitivity to investigate the growing convergence storms.",
+    "progression": [
+      {
+        "stage": "initial_investigation",
+        "text": "Your first close observation of a convergence storm reveals the raw power of six divine forces clashing without harmony. The experience is both terrifying and enlightening."
+      },
+      {
+        "stage": "gathering_evidence", 
+        "text": "As you collect storm essence and speak with scholars, a pattern begins to emerge. The storms aren't random - they're following a cycle that matches something deeper in the world's mystical rhythms."
+      },
+      {
+        "stage": "revelation",
+        "text": "The scholars' combined knowledge reveals a startling truth: the convergence storms aren't a threat to the balance - they're a natural response to something else that's disturbing it. The real mystery is what's causing the disturbance in the first place."
+      }
+    ],
+    "conclusion": "Your investigation has revealed that the convergence storms are a symptom, not the disease. While you've learned to predict and safely navigate them, the underlying cause of the cosmic disturbance remains a mystery that will require deeper investigation as you grow in power and understanding."
+  },
+  "related_content": {
+    "locations": [
+      "midgardland-mainland",
+      "convergence-fields",
+      "neutral-halls"
+    ],
+    "characters": [
+      "council-of-six-representative",
+      "gate-city-scholars"
+    ],
+    "lore": [
+      "cosmic-balance-theory",
+      "convergence-phenomena"
+    ],
+    "follow_up_quests": [
+      "deeper-mysteries-of-balance",
+      "yggdrasil-root-investigation"
+    ]
+  },
+  "metadata": {
+    "created": "2025-07-24T12:00:00Z",
+    "last_updated": "2025-07-24T12:00:00Z",
+    "author": "PrimalMyst Development Team",
+    "version": "1.0",
+    "canonical": true,
+    "difficulty_testing": {
+      "tested_at_ranks": ["D", "C", "B"],
+      "tested_at_levels": [15, 25, 35],
+      "average_completion_time": "45-60 minutes",
+      "success_rate": 0.85
+    }
+  }
+}

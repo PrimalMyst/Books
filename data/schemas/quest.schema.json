@@ -1,0 +1,386 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "PrimalMyst Quest/Mission",
+  "description": "Schema for quest and mission entries in the PrimalMyst universe",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$",
+      "description": "Unique identifier for the quest/mission"
+    },
+    "name": {
+      "type": "string",
+      "description": "Quest/mission display name"
+    },
+    "type": {
+      "type": "string",
+      "enum": ["main-story", "side-quest", "expedition", "exploration", "combat", "diplomatic", "crafting", "discovery", "investigation", "rescue", "escort", "collection", "elimination"],
+      "description": "Primary quest/mission classification"
+    },
+    "story_act": {
+      "type": "string",
+      "enum": ["prologue", "act1", "act2", "act3", "epilogue"],
+      "description": "Which story act this quest belongs to"
+    },
+    "rank_level_requirements": {
+      "type": "object",
+      "properties": {
+        "minimum_rank": {
+          "type": "string",
+          "enum": ["E", "D", "C", "B", "A", "S", "SS"],
+          "description": "Minimum rank required to undertake this quest"
+        },
+        "minimum_level": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 100,
+          "description": "Minimum level required to undertake this quest"
+        },
+        "recommended_rank": {
+          "type": "string",
+          "enum": ["E", "D", "C", "B", "A", "S", "SS"],
+          "description": "Recommended rank for comfortable completion"
+        },
+        "recommended_level": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 100,
+          "description": "Recommended level for comfortable completion"
+        },
+        "group_size": {
+          "type": "object",
+          "properties": {
+            "minimum": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 4,
+              "description": "Minimum group size"
+            },
+            "maximum": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 4,
+              "description": "Maximum group size"
+            },
+            "recommended": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 4,
+              "description": "Recommended group size"
+            }
+          },
+          "description": "Group size requirements and recommendations"
+        },
+        "heritage_requirements": {
+          "type": "object",
+          "properties": {
+            "humanoid_heritage_required": {
+              "type": "boolean",
+              "description": "Whether humanoid heritage is required",
+              "default": true
+            },
+            "divine_influences_required": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "enum": ["pyrion", "glacius", "voltharion", "serafina", "aurelius", "korthak", "myrielle"]
+              },
+              "description": "Specific divine influences required for quest access or completion"
+            },
+            "mount_required": {
+              "type": "boolean",
+              "description": "Whether a mount is required for quest completion",
+              "default": false
+            },
+            "companion_beneficial": {
+              "type": "boolean",
+              "description": "Whether monster companion guidance is beneficial",
+              "default": false
+            }
+          },
+          "description": "Heritage and divine influence requirements"
+        }
+      },
+      "required": ["minimum_rank", "minimum_level"],
+      "description": "Quest rank, level, and access requirements"
+    },
+    "difficulty_scaling": {
+      "type": "object",
+      "properties": {
+        "base_difficulty_rank": {
+          "type": "string",
+          "enum": ["E", "D", "C", "B", "A", "S", "SS"],
+          "description": "Base difficulty rank of the quest"
+        },
+        "scaling_type": {
+          "type": "string",
+          "enum": ["fixed", "player-level", "group-level", "dynamic"],
+          "description": "How quest difficulty scales"
+        },
+        "challenge_modifiers": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": ["timed", "stealth-required", "no-deaths", "limited-resources", "environmental-hazards", "elite-enemies", "boss-encounters", "puzzle-solving", "diplomatic-complexity"]
+          },
+          "description": "Additional challenge modifiers affecting difficulty"
+        },
+        "failure_consequences": {
+          "type": "string",
+          "enum": ["none", "retry-allowed", "cooldown-period", "story-impact", "permanent-failure"],
+          "description": "Consequences of quest failure"
+        }
+      },
+      "description": "Quest difficulty and scaling information"
+    },
+    "prerequisites": {
+      "type": "object",
+      "properties": {
+        "completed_quests": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Quest IDs that must be completed before this quest becomes available"
+        },
+        "story_progress": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Story milestones that must be reached"
+        },
+        "location_access": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Location IDs that must be accessible"
+        },
+        "reputation_requirements": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "faction": {"type": "string"},
+              "level": {"type": "string", "enum": ["hostile", "unfriendly", "neutral", "friendly", "honored", "revered", "exalted"]}
+            },
+            "required": ["faction", "level"]
+          },
+          "description": "Faction reputation requirements"
+        }
+      },
+      "description": "Prerequisites that must be met before quest becomes available"
+    },
+    "objectives": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "description": "Objective identifier"
+          },
+          "description": {
+            "type": "string",
+            "description": "Objective description"
+          },
+          "type": {
+            "type": "string",
+            "enum": ["kill", "collect", "deliver", "escort", "explore", "interact", "craft", "survive", "investigate", "negotiate"],
+            "description": "Type of objective"
+          },
+          "target": {
+            "type": "string",
+            "description": "Target of the objective (monster ID, item ID, location ID, etc.)"
+          },
+          "quantity": {
+            "type": "integer",
+            "minimum": 1,
+            "description": "Quantity required (if applicable)"
+          },
+          "optional": {
+            "type": "boolean",
+            "description": "Whether this objective is optional",
+            "default": false
+          },
+          "hidden": {
+            "type": "boolean",
+            "description": "Whether this objective is initially hidden",
+            "default": false
+          }
+        },
+        "required": ["id", "description", "type"]
+      },
+      "description": "Quest objectives and tasks"
+    },
+    "rewards": {
+      "type": "object",
+      "properties": {
+        "experience": {
+          "type": "object",
+          "properties": {
+            "base_amount": {"type": "integer"},
+            "scaling_type": {"type": "string", "enum": ["fixed", "level-scaled", "rank-scaled"]},
+            "bonus_conditions": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "condition": {"type": "string"},
+                  "bonus_multiplier": {"type": "number"}
+                }
+              }
+            }
+          },
+          "description": "Experience point rewards"
+        },
+        "currency": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "type": {"type": "string"},
+              "amount": {"type": "integer"}
+            },
+            "required": ["type", "amount"]
+          },
+          "description": "Currency rewards"
+        },
+        "items": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "item_id": {"type": "string"},
+              "quantity": {"type": "integer", "minimum": 1},
+              "guaranteed": {"type": "boolean", "default": true},
+              "drop_chance": {"type": "number", "minimum": 0, "maximum": 1}
+            },
+            "required": ["item_id"]
+          },
+          "description": "Item rewards"
+        },
+        "reputation": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "faction": {"type": "string"},
+              "amount": {"type": "integer"}
+            },
+            "required": ["faction", "amount"]
+          },
+          "description": "Reputation rewards with various factions"
+        },
+        "story_progression": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Story progression unlocks"
+        },
+        "location_access": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "New locations unlocked by quest completion"
+        }
+      },
+      "description": "Rewards granted upon quest completion"
+    },
+    "locations": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Location IDs where this quest takes place"
+    },
+    "npcs": {
+      "type": "object",
+      "properties": {
+        "quest_giver": {
+          "type": "string",
+          "description": "Character ID of the quest giver"
+        },
+        "involved_npcs": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Character IDs of NPCs involved in the quest"
+        },
+        "potential_companions": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Character IDs of NPCs who can join as temporary companions"
+        }
+      },
+      "description": "NPCs associated with this quest"
+    },
+    "description": {
+      "type": "object",
+      "properties": {
+        "summary": {
+          "type": "string",
+          "description": "Brief quest summary"
+        },
+        "detailed": {
+          "type": "string",
+          "description": "Detailed quest description"
+        },
+        "lore_significance": {
+          "type": "string",
+          "description": "Significance of this quest in world lore"
+        },
+        "player_motivation": {
+          "type": "string",
+          "description": "Why players should undertake this quest"
+        }
+      },
+      "required": ["summary"],
+      "description": "Quest description and narrative information"
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Searchable tags for categorization"
+    },
+    "metadata": {
+      "type": "object",
+      "properties": {
+        "created": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Creation timestamp"
+        },
+        "last_updated": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Last update timestamp"
+        },
+        "author": {
+          "type": "string",
+          "description": "Content creator/author"
+        },
+        "version": {
+          "type": "string",
+          "description": "Content version"
+        },
+        "canonical": {
+          "type": "boolean",
+          "description": "Whether this is official canonical content"
+        }
+      },
+      "required": ["created", "last_updated", "canonical"]
+    }
+  },
+  "required": ["id", "name", "type", "story_act", "rank_level_requirements", "difficulty_scaling", "objectives", "description", "metadata"],
+  "additionalProperties": false
+}

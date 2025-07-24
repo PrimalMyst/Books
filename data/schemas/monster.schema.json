@@ -789,8 +789,71 @@
         }
       },
       "required": ["created", "last_updated", "canonical"]
+    },
+    "rank_level": {
+      "type": "object",
+      "properties": {
+        "base_rank": {
+          "type": "string",
+          "enum": ["E", "D", "C", "B", "A", "S", "SS"],
+          "description": "Base rank classification for this monster type"
+        },
+        "level_range": {
+          "type": "object",
+          "properties": {
+            "min_level": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 100
+            },
+            "max_level": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 100
+            }
+          },
+          "required": ["min_level", "max_level"],
+          "description": "Level range where this monster can be encountered"
+        },
+        "elite_rank_bonus": {
+          "type": "number",
+          "description": "Rank equivalent bonus for elite versions (+0.5 typical)",
+          "default": 0
+        },
+        "boss_rank_bonus": {
+          "type": "number",
+          "description": "Rank equivalent bonus for boss versions (+1.0 typical)",
+          "default": 0
+        },
+        "scaling_type": {
+          "type": "string",
+          "enum": ["linear", "exponential", "stepped", "dynamic"],
+          "description": "How monster power scales with encounter level",
+          "default": "linear"
+        },
+        "encounter_weight": {
+          "type": "object",
+          "properties": {
+            "solo_difficulty": {
+              "type": "number",
+              "description": "Difficulty multiplier when encountered alone"
+            },
+            "group_difficulty": {
+              "type": "number", 
+              "description": "Difficulty multiplier when encountered in groups"
+            },
+            "pack_size_modifier": {
+              "type": "number",
+              "description": "How pack size affects individual monster difficulty"
+            }
+          },
+          "description": "Encounter difficulty modifiers based on group composition"
+        }
+      },
+      "required": ["base_rank", "level_range"],
+      "description": "Monster rank, level, and scaling information"
     }
   },
-  "required": ["id", "name", "category", "race", "breed", "divine_influences", "physical_description", "biological_traits", "metadata"],
+  "required": ["id", "name", "category", "race", "breed", "rank_level", "divine_influences", "physical_description", "biological_traits", "metadata"],
   "additionalProperties": false
 }

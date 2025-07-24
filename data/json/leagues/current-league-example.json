@@ -36,6 +36,20 @@
   },
   "character_progression": {
     "starting_state": "fresh",
+    "starting_rank_level": {
+      "rank": "E",
+      "level": 1,
+      "heritage_state": "dormant"
+    },
+    "progression_modifiers": {
+      "experience_multiplier": 1.5,
+      "rank_progression_speed": "fast",
+      "level_cap": 95,
+      "heritage_unlock_requirements": {
+        "modified": true,
+        "details": "Convergence echoes accelerate heritage awakening by 25%"
+      }
+    },
     "progression_type": "temporary",
     "migration_rules": {
       "eligible_characters": [
@@ -57,6 +71,12 @@
     "market_reset": true
   },
   "endgame_access": {
+    "access_requirements": {
+      "minimum_rank": "A",
+      "minimum_level": 80,
+      "story_progression": 3,
+      "heritage_requirements": ["revealed"]
+    },
     "final_boss": "the-mystical-sovereign",
     "completion_rewards": [
       {

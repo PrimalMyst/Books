@@ -1,0 +1,205 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "PrimalMyst Rank and Level System",
+  "description": "Common rank and level definitions used across all PrimalMyst systems - characters, monsters, items, zones, etc.",
+  "definitions": {
+    "rank": {
+      "type": "string",
+      "enum": ["E", "D", "C", "B", "A", "S", "SS"],
+      "description": "Rank classification from E (lowest) to SS (transcendent)"
+    },
+    "level": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 100,
+      "description": "Level from 1 to 100"
+    },
+    "rank_tier": {
+      "type": "object",
+      "properties": {
+        "rank": {
+          "$ref": "#/definitions/rank"
+        },
+        "level": {
+          "$ref": "#/definitions/level"
+        },
+        "hidden": {
+          "type": "boolean",
+          "description": "Whether this rank/level is hidden (applies to E-rank levels 1-9)",
+          "default": false
+        },
+        "tier_name": {
+          "type": "string",
+          "description": "Descriptive name for this tier (e.g., 'Hidden Awakening', 'Legendary Hero')"
+        }
+      },
+      "required": ["rank", "level"],
+      "description": "Complete rank and level information"
+    },
+    "level_range": {
+      "type": "object",
+      "properties": {
+        "min_level": {
+          "$ref": "#/definitions/level"
+        },
+        "max_level": {
+          "$ref": "#/definitions/level"
+        },
+        "min_rank": {
+          "$ref": "#/definitions/rank"
+        },
+        "max_rank": {
+          "$ref": "#/definitions/rank"
+        }
+      },
+      "description": "Level and rank range for content, items, zones, etc."
+    },
+    "rank_progression": {
+      "type": "object",
+      "properties": {
+        "E": {
+          "type": "object",
+          "properties": {
+            "level_range": {"type": "string", "pattern": "^1-24$"},
+            "hidden_range": {"type": "string", "pattern": "^1-9$"},
+            "revealed_range": {"type": "string", "pattern": "^10-24$"},
+            "description": {"type": "string"}
+          }
+        },
+        "D": {
+          "type": "object",
+          "properties": {
+            "level_range": {"type": "string", "pattern": "^25-39$"},
+            "description": {"type": "string"}
+          }
+        },
+        "C": {
+          "type": "object",
+          "properties": {
+            "level_range": {"type": "string", "pattern": "^40-54$"},
+            "description": {"type": "string"}
+          }
+        },
+        "B": {
+          "type": "object",
+          "properties": {
+            "level_range": {"type": "string", "pattern": "^55-69$"},
+            "description": {"type": "string"}
+          }
+        },
+        "A": {
+          "type": "object",
+          "properties": {
+            "level_range": {"type": "string", "pattern": "^70-84$"},
+            "description": {"type": "string"}
+          }
+        },
+        "S": {
+          "type": "object",
+          "properties": {
+            "level_range": {"type": "string", "pattern": "^85-99$"},
+            "description": {"type": "string"}
+          }
+        },
+        "SS": {
+          "type": "object",
+          "properties": {
+            "level_range": {"type": "string", "pattern": "^100$"},
+            "description": {"type": "string"}
+          }
+        }
+      },
+      "description": "Complete rank progression system definition"
+    },
+    "difficulty_scaling": {
+      "type": "object",
+      "properties": {
+        "base_rank": {
+          "$ref": "#/definitions/rank"
+        },
+        "scaling_type": {
+          "type": "string",
+          "enum": ["linear", "exponential", "stepped", "dynamic"],
+          "description": "How difficulty scales with level within the rank"
+        },
+        "elite_modifier": {
+          "type": "number",
+          "description": "Multiplier for elite/named versions (+0.5 rank equivalent)"
+        },
+        "boss_modifier": {
+          "type": "number",
+          "description": "Multiplier for boss versions (+1 rank equivalent)"
+        }
+      },
+      "description": "Difficulty scaling information for encounters and challenges"
+    },
+    "access_requirements": {
+      "type": "object",
+      "properties": {
+        "minimum_rank": {
+          "$ref": "#/definitions/rank"
+        },
+        "minimum_level": {
+          "$ref": "#/definitions/level"
+        },
+        "recommended_rank": {
+          "$ref": "#/definitions/rank"
+        },
+        "recommended_level": {
+          "$ref": "#/definitions/level"
+        },
+        "story_prerequisites": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Story events or acts that must be completed"
+        },
+        "divine_requirements": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": ["pyrion", "glacius", "voltharion", "serafina", "aurelius", "korthak", "myrielle"]
+          },
+          "description": "Required divine influences for access"
+        }
+      },
+      "description": "Requirements to access content, areas, or items"
+    },
+    "power_classification": {
+      "type": "object",
+      "properties": {
+        "threat_level": {
+          "type": "string",
+          "enum": ["trivial", "minor", "moderate", "dangerous", "deadly", "legendary", "mythical", "cosmic"],
+          "description": "Threat or power level classification"
+        },
+        "rank_equivalent": {
+          "$ref": "#/definitions/rank"
+        },
+        "level_equivalent": {
+          "$ref": "#/definitions/level"
+        },
+        "special_modifiers": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": ["elite", "boss", "unique", "divine-touched", "corrupted", "transcendent"]
+          },
+          "description": "Special classifications affecting power level"
+        }
+      },
+      "description": "Power classification for encounters, items, and challenges"
+    }
+  },
+  "type": "object",
+  "properties": {
+    "rank_system_version": {
+      "type": "string",
+      "description": "Version of the rank system being used"
+    },
+    "progression_data": {
+      "$ref": "#/definitions/rank_progression"
+    }
+  }
+}

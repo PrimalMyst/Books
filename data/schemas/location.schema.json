@@ -308,6 +308,109 @@
         "required": ["type", "description", "severity"]
       }
     },
+    "access_requirements": {
+      "type": "object",
+      "properties": {
+        "minimum_rank": {
+          "type": "string",
+          "enum": ["E", "D", "C", "B", "A", "S", "SS"],
+          "description": "Minimum rank required to safely access this location"
+        },
+        "minimum_level": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 100,
+          "description": "Minimum level required to access this location"
+        },
+        "recommended_rank": {
+          "type": "string",
+          "enum": ["E", "D", "C", "B", "A", "S", "SS"],
+          "description": "Recommended rank for comfortable exploration"
+        },
+        "recommended_level": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 100,
+          "description": "Recommended level for comfortable exploration"
+        },
+        "story_prerequisites": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Story events, acts, or quests that must be completed for access"
+        },
+        "divine_requirements": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": ["pyrion", "glacius", "voltharion", "serafina", "aurelius", "korthak", "myrielle"]
+          },
+          "description": "Required divine influences for safe access or full exploration"
+        },
+        "special_access": {
+          "type": "object",
+          "properties": {
+            "humanoid_heritage_required": {
+              "type": "boolean",
+              "description": "Whether humanoid heritage is required for access",
+              "default": false
+            },
+            "mount_required": {
+              "type": "boolean",
+              "description": "Whether a mount is required for access",
+              "default": false
+            },
+            "companion_assistance": {
+              "type": "boolean",
+              "description": "Whether monster companion guidance is beneficial",
+              "default": false
+            },
+            "group_required": {
+              "type": "boolean",
+              "description": "Whether group cooperation is required",
+              "default": false
+            }
+          },
+          "description": "Special access requirements or recommendations"
+        }
+      },
+      "description": "Requirements and recommendations for accessing this location"
+    },
+    "danger_level": {
+      "type": "object",
+      "properties": {
+        "base_threat_rank": {
+          "type": "string",
+          "enum": ["E", "D", "C", "B", "A", "S", "SS"],
+          "description": "Base threat level of the location"
+        },
+        "threat_scaling": {
+          "type": "string",
+          "enum": ["fixed", "player-level", "dynamic", "escalating"],
+          "description": "How threats scale in this location"
+        },
+        "environmental_hazards": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": ["extreme-cold", "extreme-heat", "toxic-atmosphere", "mystical-radiation", "divine-pressure", "reality-distortion", "temporal-anomalies", "dimensional-instability"]
+          },
+          "description": "Environmental hazards present in the location"
+        },
+        "monster_density": {
+          "type": "string",
+          "enum": ["none", "sparse", "moderate", "dense", "overwhelming"],
+          "description": "Concentration of hostile creatures"
+        },
+        "elite_spawn_rate": {
+          "type": "string",
+          "enum": ["none", "rare", "uncommon", "common", "frequent"],
+          "description": "Frequency of elite monster encounters"
+        }
+      },
+      "description": "Danger and threat information for the location"
+    },
     "tags": {
       "type": "array",
       "items": {
@@ -344,7 +447,7 @@
       "required": ["created", "last_updated", "canonical"]
     }
   },
-  "required": ["id", "name", "type", "status", "description", "metadata"],
+  "required": ["id", "name", "type", "status", "access_requirements", "danger_level", "description", "metadata"],
   "additionalProperties": false
 }
 

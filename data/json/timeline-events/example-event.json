@@ -4,6 +4,24 @@
   "alternate_names": ["The Joining of All Hours", "The Moment of Infinite Present"],
   "type": "convergence",
   "significance": "cosmic",
+  "power_classification": {
+    "event_rank": "SS",
+    "participants_level_range": {
+      "minimum": 80,
+      "maximum": 100
+    },
+    "knowledge_requirements": {
+      "min_rank": "A",
+      "min_level": 70,
+      "required_heritage": ["cosmic", "eldritch"]
+    },
+    "revelation_unlock": {
+      "unlocks_at_rank": "S",
+      "unlocks_at_level": 85,
+      "story_act_requirement": 4,
+      "description": "Only cosmic-level beings can fully comprehend the convergence event"
+    }
+  },
   "date": {
     "era": "Second Age of Mysteries",
     "year": 23,
