@@ -126,7 +126,8 @@
     "monster_relations": {
       "general_ostracization": "Monsters, regardless of appearance or intelligence, face systematic exclusion from positions of power or social acceptance",
       "tragic_similarities": "Some monsters appear nearly identical to humanoid races but are rejected due to their fundamental divine limitations",
-      "rare_exceptions": "Only mount-capable monsters and those touched by Myriel fragments find acceptance in humanoid society, and even then in limited roles"
+      "rare_exceptions": "Only mount-capable monsters and Myrielle-touched monster companions find acceptance in humanoid society, and even then in limited support roles",
+      "npc_companions": "All NPC companions who fight alongside heroes (mercenaries, allies, followers) must possess humanoid heritage to form combat bonds"
     }
   },
   "warnings": {
@@ -199,10 +200,12 @@
         "rarity": "True mount-capable monsters are extraordinarily rare, making them highly prized and often the stuff of legend"
       },
       "companions": {
-        "definition": "Small creatures that fly around players and channel Myriel's guidance",
+        "definition": "Small monster creatures that follow players providing guidance and support, like remora fish with sharks",
         "size_requirement": "Always tiny or small creatures capable of flight or hovering",
         "myriel_connection": "These creatures serve as conduits for Myriel's influence, providing navigation, awareness, and mystical insight to their bonded humanoid",
-        "guidance_manifestation": "Through their Myriel connection, companions provide mystical awareness that manifests as enhanced navigation (maps), danger warnings (hints), resource detection, and emotional support",
+        "guidance_manifestation": "Through their Myriel connection, monster companions provide mystical awareness that manifests as enhanced navigation (maps), danger warnings (hints), resource detection, and emotional support",
+        "combat_limitations": "Cannot fight as equals or serve as combat allies - their role is guidance and support only",
+        "symbiotic_relationship": "Like remora fish with sharks, both parties benefit from the relationship",
         "common_forms": [
           "Wisps - Pure light beings touched by Aurelius that provide illumination and navigation",
           "Hawks - Sharp-eyed birds blessed by Voltharion offering aerial reconnaissance and danger sense", 

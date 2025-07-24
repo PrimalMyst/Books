@@ -98,17 +98,44 @@ Players create mist-walkers with distinct **mystical specializations** and **run
 - **⚡ Mystical Arts Mastery**: Develop mystical abilities and commune with World Tree spirits
 - **🛡️ Runic Equipment**: Collect and enchant Norse-inspired gear with mystical essence
 - **🔄 Cycle Participation**: Engage with seasonal mysteries that emerge every 3-4 months
-- **🗺️ Crown Ascension**: Climb higher into Yggdrasil through increasingly mystical challenges
-- **🏆 Seasonal Events**: Participate in world-tree celebrations and competitions
-- **🌿 Organic Movement**: Fluid traversal through branches, roots, and mist-bridges
-- **📊 Character Growth**: Theorycrafting with Norse mythology-inspired skill trees and rune combinations
 
-#### **Game Design Philosophy**
-PrimalMyst draws mechanical inspiration from three pillars:
+## 🌟 Completed Lore Framework
 
-- **🏔️ Skyrim's Exploration**: Open-world zones with secrets, environmental storytelling, and player-driven discovery
-- **🤖 Warframe's Action**: Fast-paced cooperative missions with unique abilities, smooth movement, and regular content updates  
-- **⚡ Path of Exile's Depth**: Complex character building, challenging endgame, and league-based seasonal content that keeps the meta evolving
+### **Humanoid Heritage System**
+PrimalMyst features a comprehensive lore system that distinguishes between playable humanoid races and monsters based on cosmic law rather than arbitrary prejudice:
+
+- **Immutable Heritage**: Humanoid heritage is determined at birth and cannot be changed
+- **Cosmic Significance**: All heroes, leaders, and significant figures possess humanoid heritage
+- **Divine Capacity**: Humanoids can channel multiple divine influences simultaneously
+- **The Lost Human Race**: Original transcendent race whose legacy lives on in current humanoids
+
+### **Playable Races**
+Four confirmed humanoid races with unique divine affinities:
+- **Beast Folk (Canine)**: Pack loyalty with Korthak, Aurelius, and Voltharion influences
+- **Beast Folk (Feline)**: Independent nature with Serafina, Korthak, and Myrielle influences  
+- **Elfs**: Ancient wisdom with Aurelius, Voltharion, and Myrielle influences
+- **Druids**: Primal connection with Aurelius, Korthak, and Pyrion influences
+
+### **Eldritch Pantheon**
+Seven canonical gods across three divine tiers:
+- **Fundamental Gods**: Pyrion (Fire), Glacius (Cold), Voltharion (Lightning)
+- **Primal Gods**: Serafina (Chaos), Aurelius (Radiance), Korthak (Physical)
+- **Veiled Ones**: Myrielle (Cycles/Guidance)
+
+### **Monster Classification**
+Comprehensive system with divine limitations and exceptional categories:
+- **Standard Monsters**: Limited to maximum two divine influences
+- **Mount-Capable Monsters**: Extremely rare (0.1%) with burden-sharing abilities
+- **Myrielle-Touched Companions**: Extraordinarily rare (0.01%) guidance providers
+
+### **Implementation Status**
+✅ **Complete Schema System**: Character and monster schemas with proper validation  
+✅ **Example Implementations**: 8 monster examples across all categories  
+✅ **Comprehensive Documentation**: Codex entries, lore files, and integration guides  
+✅ **Gameplay Integration**: Mount and companion systems with clear lore explanations  
+✅ **Consistency Guarantees**: All files validated and cross-referenced  
+
+See `LORE_IMPLEMENTATION_COMPLETE.md` for full implementation details.
 
 ## 🎯 Project Purpose
 

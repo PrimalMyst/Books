@@ -1,4 +1,4 @@
-# Playable Races and Humanoid Heritage
+# Playable Races
 
 ## Overview
 
@@ -56,25 +56,25 @@ The possession of five-fingered hands is a necessary but not sufficient conditio
 
 ### Beast Folk - Canine Lineage
 - **Heritage Markers**: Five-fingered hands, pack-bonding mystical resonance
-- **Divine Affinities**: Primal forces, nature spirits, loyalty bonds
+- **Divine Affinities**: Korthak's pack bonds, Aurelius's nature harmony, Voltharion's loyalty connections
 - **Unique Traits**: Enhanced sensory perception combined with mystical awareness
 - **Awakening Signs**: Ability to commune with both wild and mystical canines, pack-based magical phenomena
 
 ### Beast Folk - Feline Lineage
 - **Heritage Markers**: Five-fingered hands, independence-based mystical resonance
-- **Divine Affinities**: Shadow mysteries, lunar influences, solitary power
+- **Divine Affinities**: Serafina's shadow mysteries, Korthak's independence, Myrielle's transition wisdom
 - **Unique Traits**: Natural stealth enhanced by mystical concealment abilities
 - **Awakening Signs**: Night vision extends into mystical spectrums, shadow-walking capabilities
 
 ### Elfs
 - **Heritage Markers**: Closest genetic and mystical connection to original Humans
-- **Divine Affinities**: Nature harmony, ancient wisdom, ethereal forces
+- **Divine Affinities**: Aurelius's harmony, Voltharion's ancient wisdom, Myrielle's eternal knowledge
 - **Unique Traits**: Extended lifespans allow for deeper mystical development
 - **Awakening Signs**: Communion with ancient spirits, time-dilated perception during mystical activities
 
 ### Druids
 - **Heritage Status**: Whether distinct race or mystical practitioners remains debated
-- **Divine Affinities**: Natural cycles, earth spirits, growth forces
+- **Divine Affinities**: Aurelius's growth forces, Korthak's earth strength, Pyrion's primal transformation
 - **Unique Traits**: Strongest documented connection to primal mystical forces
 - **Awakening Signs**: Shape-shifting abilities, plant and animal communication, weather influence
 
@@ -106,16 +106,22 @@ Various events can awaken humanoid potential:
 - Awakening events reveal existing potential rather than granting new abilities
 - The revelation of humanoid status explains their capacity for extraordinary deeds
 
-### Followers and Companions
-- **All potential followers possess humanoid heritage** - only humanoids can form the mystical bonds necessary for loyal companionship
-- **Mount-capable monsters** can serve as transportation partners but are not considered true followers
-- **Myriel-touched monsters** can serve as companions but remain fundamentally limited by their two-divine-influence maximum
-- The ability to inspire lasting loyalty and equal partnership is itself a manifestation of humanoid heritage
+### NPC Companions and Followers
+- **All potential NPC companions possess humanoid heritage** - only humanoids can form the mystical bonds necessary for loyal partnership in battle and adventures
+- **Mount-capable monsters** can serve as transportation partners with mystical burden-sharing abilities, but are not considered true followers or equals
+- **Monster companions** are tiny creatures that follow players like remora fish with sharks, providing guidance and support but remaining fundamentally limited by their two-divine-influence maximum
+- The ability to inspire lasting loyalty and equal partnership in combat is itself a manifestation of humanoid heritage
 
 ### Important NPCs
 - **All significant NPCs are humanoids** - kings, queens, archdukes, guild leaders, powerful mages, etc.
 - This explains their positions of power and influence in the world
 - Minor NPCs (shopkeepers, guards, citizens) may be non-humanoid, but anyone who shapes events is humanoid
+
+### NPC Companions and Battle Allies
+- **All NPC companions who fight alongside heroes are humanoids** - mercenaries, allies, followers who join expeditions
+- **Only humanoids can form combat bonds** necessary for coordinated battle and tactical cooperation
+- **Monster companions cannot fight as equals** - they provide support but lack the divine complexity for true partnership in combat
+- The ability to inspire martial loyalty and coordinate with heroes in dangerous situations requires humanoid heritage
 
 ### Social Dynamics
 - **Pre-Awakening**: Characters appear as normal members of their apparent race
@@ -134,18 +140,29 @@ Various events can awaken humanoid potential:
 ### Standard Monsters
 While many intelligent monster species exist in the Myst World, they face fundamental limitations that prevent them from achieving the roles of heroes, leaders, or equal companions:
 
-- **Divine Influence Ceiling**: Cannot channel more than two divine influences simultaneously
-- **Mystical Limitation**: Unable to access advanced techniques requiring multi-divine harmony
-- **Leadership Barrier**: Lack the divine complexity necessary for true leadership roles
+- **Divine Influence Ceiling**: Cannot channel more than two influences from the Eldritch Pantheon simultaneously
+- **Mystical Limitation**: Unable to access advanced techniques requiring multi-divine harmony across the pantheon's tiers
+- **Leadership Barrier**: Lack the divine complexity necessary for true leadership roles that require balancing multiple divine aspects
 - **Social Ostracization**: Face instinctive rejection from humanoid society regardless of individual merit
 
 ### The Tragedy of Similarity
 Some monster species appear nearly identical to humanoid races, possessing intelligence, culture, and even five-fingered hands. Despite these similarities, they cannot overcome their fundamental divine limitations and face systematic exclusion from humanoid society.
 
-### Exceptional Cases
-**Mount-Capable Monsters**: Extremely rare monsters that can serve as transportation partners, valued for their service but not considered equals.
+### Monster Race Categories
+All monsters fall into standard fantasy categories, each influenced by specific aspects of the Eldritch Pantheon:
+- **Demons, Fiends**: Often touched by corrupted aspects of Serafina's chaos
+- **Dragons, Giants**: May carry influences from the Fundamental Gods or Korthak's might  
+- **Undead**: Bound by Serafina's necromancy and Glacius's preservation
+- **Elementals**: Pure manifestations of Pyrion, Glacius, or Voltharion
+- **Fey, Sprites**: Connected to Aurelius's light and Myrielle's transitions
+- **Beasts, Insects**: Natural creatures enhanced by various divine influences
+- **Plants, Treants**: Typically influenced by Aurelius's growth and earth aspects
+- **Constructs**: Animated by Voltharion's spark and divine will
 
-**Myriel-Touched Companions**: Extraordinarily rare monsters carrying fragments of Myriel's essence, enabling them to serve as trusted companions while remaining bound by the two-divine-influence limit.
+### Exceptional Cases
+**Mount-Capable Monsters**: Extremely rare monsters that can serve as transportation partners with mystical burden-sharing abilities, valued for their service but not considered equals.
+
+**Myrielle-Touched Companions**: Extraordinarily rare monsters carrying fragments of Myrielle's essence, enabling them to serve as guidance providers while remaining bound by the two-divine-influence limit.
 
 This cosmic hierarchy is not a matter of prejudice but fundamental universal law - the divine influence capacity that separates humanoids from monsters cannot be overcome or changed.
 
@@ -157,68 +174,61 @@ The path of the humanoid is one of great power and greater responsibility, carry
 
 ## Monster Classifications and Divine Limitations
 
-### Standard Monsters
+### The Eldritch Pantheon Influence System
+
+All creatures in the Myst World are influenced by the **Eldritch Pantheon**, which consists of three divine tiers:
+
+#### **Fundamental Gods (Ancient Powers)**
+- **Pyrion, the First Flame**: Fire, creation, transformation
+- **Glacius, the Eternal Frost**: Cold, preservation, memory  
+- **Voltharion, the Cosmic Spark**: Lightning, communication, connection
+
+#### **Primal Gods (Active Deities)**
+- **Serafina, the Shadow Empress**: Chaos, shadow, dark transformation
+- **Aurelius, the Radiant Sphere**: Radiance, protection, guidance
+- **Korthak, the Dragon King**: Might, physical strength, honor
+
+#### **Veiled Ones (Mysterious Guides)**
+- **Myrielle, the Hidden**: Cycles, rebirth, transition
+
+### Standard Monsters and Divine Limitations
 All monster species, regardless of intelligence or appearance, face a fundamental cosmic limitation: **they cannot channel influence from more than two divine sources simultaneously**. This creates an insurmountable barrier between monsters and humanoids, explaining why monsters cannot achieve positions of leadership or mystical transcendence.
 
-#### Named Monsters
-Even the most powerful named monsters - ancient dragons, legendary beasts, or creatures of immense power - remain bound by the two-divine-influence maximum. While they may achieve great individual strength, they cannot transcend their fundamental nature.
-
-#### Physical Similarity Tragedy
-Some monster species appear remarkably similar to humanoid races, possessing:
-- Five-fingered hands
-- Humanoid facial features and body structure
-- High intelligence and emotional complexity
-- Social behaviors and cultural development
-
-Despite these similarities, they face systematic ostracization because they lack true humanoid heritage. This creates tragic situations where beings who appear nearly identical to accepted races are rejected by society due to their divine limitations.
-
-### Exceptional Monster Categories
-
-#### Mount-Capable Monsters (Extremely Rare)
+### Mount-Capable Monsters (Extremely Rare)
 A tiny fraction of monster species possess the unique combination of traits necessary to serve as mounts:
 
 **Requirements:**
-- Exceptional loyalty and bonding capacity
-- Intelligence sufficient to understand complex commands
-- Mystical compatibility with humanoid riders
-- Temperament suitable for partnership rather than domination
+- Rideable anatomy suitable for carrying riders
+- **Movement specialization**: Gallop, fly, swim, or burrow capabilities
+- Temperament allowing for bonding despite being **delicate and hard to tame**
+- **Burden-carrying capacity** to bear their master's possessions
 
-**Divine Influences:**
-- Typically possess 1-2 divine influences related to loyalty, service, or transportation
-- May include influences from gods of travel, loyalty, or beast-bonding
-- Their divine limitations still apply, but their influences complement their role
+**Mystical Burden-Sharing:**
+Mounts create a mystical connection with their riders that distributes weight and burden across both beings. This explains how mounted adventurers can carry extensive inventories while maintaining incredible speed and endurance.
 
-**Social Status:**
-- Accepted in humanoid society specifically in their mount role
-- Valued for their service but not considered equals
-- Often form deep bonds with specific humanoid partners
+### Myrielle-Touched Monster Companions (Extraordinarily Rare)
+Small creatures that follow players providing guidance and support, like remora fish with sharks:
 
-#### Myriel-Touched Companions (Extraordinarily Rare)
-The rarest category of monsters carries fragments of Myriel's essence, granting them extraordinary capabilities:
+**Size and Flight Requirements:**
+- Always **tiny or small creatures** capable of flight or hovering
+- Must be able to stay close to their bonded humanoid during adventures
 
-**Myriel Fragment Effects:**
-- Enhanced intelligence approaching humanoid levels
-- Empathic connection enabling deep emotional bonds
-- Understanding of complex moral and ethical concepts
-- Limited speech or telepathic communication abilities
-- Instinctive loyalty transcending normal monster behavior
+**Guidance Manifestations:**
+- **Navigation**: Mystical maps and pathfinding assistance
+- **Danger Sense**: Warnings of approaching threats
+- **Resource Detection**: Ability to locate important items or materials
+- **Memory Aid**: Perfect recall of important moments and details
+- **Emotional Support**: Comfort during difficult situations
+
+**Combat Limitations:**
+- **Cannot fight as equals**: Provide support but lack divine complexity for true combat partnership
+- **Non-combatant role**: Stay close to provide guidance rather than engage enemies
+- **Symbiotic relationship**: Like remora fish, they benefit from the relationship while providing services
 
 **Divine Influence Pattern:**
-- Always includes a fragment of Myriel's influence (counting as one divine source)
-- Plus one other divine influence, never exceeding the two-source maximum
-- The Myriel fragment appears to be a remnant from before the current cosmic order
-
-**Companion Abilities:**
-- Can form genuine partnerships with humanoids
-- Serve as trusted advisors and emotional support
-- Demonstrate moral reasoning and ethical decision-making
-- Show protective instincts toward their humanoid companions
-- May sacrifice themselves for their partners' welfare
-
-**Social Acceptance:**
-- More readily accepted than other monsters due to their obvious intelligence and loyalty
-- Still face limitations and cannot hold positions of authority
-- Valued as companions but remain fundamentally different from humanoids
+- Always includes a **fragment of Myrielle's influence** (counting as one divine source)
+- Plus one other divine influence from the Eldritch Pantheon
+- Never exceeding the two-source maximum that binds all monsters
 
 ### The Divine Barrier
 
@@ -226,7 +236,7 @@ The two-divine-influence limitation creates several important distinctions:
 
 **Mystical Ceiling:** Monsters cannot access the advanced mystical techniques requiring multi-divine channeling that define humanoid mastery.
 
-**Leadership Limitation:** The complexity of leadership, requiring balance of multiple divine influences (wisdom, justice, strength, compassion, etc.), remains beyond monster capability.
+**Leadership Limitation:** The complexity of leadership requires balance of multiple divine influences from the Eldritch Pantheon.
 
 **Transcendence Barrier:** The path followed by the ancient Humans toward ascension or transcendence requires multi-divine harmony impossible for monsters.
 

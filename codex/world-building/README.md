@@ -42,12 +42,60 @@ world-building/
     └── consistency-notes.md     # World-building consistency tracking
 ```
 
+## Current Documentation Status
+
+### Completed Files
+- **playable-races.md** - Comprehensive guide to humanoid heritage, playable races, and the distinction between humanoids and monsters
+- **monster-classification-lore.md** - Detailed monster classification system, divine limitations, and exceptional categories (mounts and companions)
+- **damage-system.md** - Combat mechanics and damage calculations
+- **damage-type-interactions.md** - Elemental damage relationships
+- **hexagonal-system-applications.md** - Thematic structure applications
+- **hexagonal-thematic-structure.md** - Core thematic framework
+- **league-system.md** - Game progression and league mechanics
+
+### Key Lore Concepts Documented
+
+#### **Humanoid Heritage System**
+- Immutable nature of humanoid heritage (determined at birth, cannot be changed)
+- Five playable races: Beast Folk (Canine/Feline), Elfs, and Druids
+- All heroes, leaders, and followers must possess humanoid heritage
+- Multi-divine influence capability distinguishes humanoids from monsters
+
+#### **The Lost Human Race**
+- Original race with five-fingered hands and transcendent potential
+- Three theories: Ascension, Annihilation, or Exodus
+- Legacy lives on through humanoid heritage in current races
+
+#### **Divine Influence System**
+- **Eldritch Pantheon**: Three-tier divine structure (Fundamental, Primal, Veiled)
+- **Humanoids**: Can channel multiple divine influences simultaneously
+- **Monsters**: Limited to maximum of two divine influences
+- Divine limitation creates insurmountable barrier between humanoids and monsters
+
+#### **Monster Classification**
+- **Standard Monsters**: All intelligent monsters face divine limitations and social ostracization
+- **Mount-Capable Monsters**: Extremely rare (0.1%) with burden-sharing abilities
+- **Myrielle-Touched Companions**: Extraordinarily rare (0.01%) guidance providers
+- Physical similarity to humanoids doesn't overcome divine limitations
+
+#### **Gameplay Integration**
+- Mount system explained through mystical burden-sharing
+- Companion system provides lore for HUD enhancements and guidance mechanics
+- Divine influence patterns determine character capabilities and social standing
+
 ## Writing Guidelines
 
 ### Consistency with JSON Data
 - All narrative content must align with structured data in `/data/json/`
 - Reference JSON IDs when mentioning characters, locations, or events
 - Update both narrative and JSON when making changes
+
+### Lore Consistency Rules
+- **Divine Influences**: Only reference the Eldritch Pantheon (Pyrion, Glacius, Voltharion, Serafina, Aurelius, Korthak, Myrielle)
+- **Humanoid Heritage**: Always immutable, determined at birth, cannot be gained or lost
+- **Monster Limitations**: Maximum two divine influences, cannot overcome this barrier
+- **Playable Races**: Limited to Beast Folk (Canine/Feline), Elfs, and Druids
+- **Social Hierarchy**: Based on divine influence capacity, not prejudice
 
 ### Tone and Style
 - **Epic Fantasy**: Grand scope with cosmic implications
@@ -163,7 +211,7 @@ Searchable keywords for categorization.
 - [League System](./league-system.md) - Player progression and competitive structures
 
 ### Racial and Cultural Systems
-- [Playable Races and Humanoid Heritage](./playable-races-humanoid-heritage.md) - The mystery of the lost Humans and their humanoid descendants
+- [Playable Races](./playable-races.md) - The mystery of the lost Humans and their humanoid descendants
 
 ### Data References
 - See `/data/json/` for structured lore, character, location, and timeline data
