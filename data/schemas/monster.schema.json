@@ -69,6 +69,128 @@
           "enum": ["tiny", "small", "medium", "large", "huge", "gargantuan"],
           "description": "Size category"
         },
+        "height": {
+          "type": "object",
+          "properties": {
+            "value": {
+              "type": "number",
+              "description": "Height value"
+            },
+            "unit": {
+              "type": "string",
+              "enum": ["inches", "feet", "meters"],
+              "description": "Height measurement unit"
+            }
+          },
+          "description": "Physical height measurement"
+        },
+        "weight": {
+          "type": "object",
+          "properties": {
+            "value": {
+              "type": "number",
+              "description": "Weight value"
+            },
+            "unit": {
+              "type": "string",
+              "enum": ["pounds", "tons", "kilograms"],
+              "description": "Weight measurement unit"
+            }
+          },
+          "description": "Physical weight measurement"
+        },
+        "wingspan": {
+          "type": "object",
+          "properties": {
+            "value": {
+              "type": "number",
+              "description": "Wingspan value (for flying creatures)"
+            },
+            "unit": {
+              "type": "string",
+              "enum": ["inches", "feet", "meters"],
+              "description": "Wingspan measurement unit"
+            }
+          },
+          "description": "Wingspan measurement for flying creatures"
+        },
+        "speed": {
+          "type": "object",
+          "properties": {
+            "ground": {
+              "type": "number",
+              "description": "Ground movement speed in feet per round"
+            },
+            "flying": {
+              "type": "number",
+              "description": "Flying speed in feet per round"
+            },
+            "swimming": {
+              "type": "number",
+              "description": "Swimming speed in feet per round"
+            },
+            "burrowing": {
+              "type": "number",
+              "description": "Burrowing speed in feet per round"
+            },
+            "climbing": {
+              "type": "number",
+              "description": "Climbing speed in feet per round"
+            }
+          },
+          "description": "Movement speeds for different locomotion types"
+        },
+        "blood_type": {
+          "type": "string",
+          "enum": ["red", "blue", "green", "black", "golden", "silver", "crystalline", "ethereal", "ichor", "none"],
+          "description": "Type of blood or life essence the creature possesses"
+        },
+        "body_type": {
+          "type": "string",
+          "enum": ["bipedal", "quadrupedal", "serpentine", "arachnid", "insectoid", "avian", "aquatic", "amorphous", "ethereal", "crystalline", "plant-like"],
+          "description": "Basic body structure and locomotion type"
+        },
+        "skin_type": {
+          "type": "string",
+          "enum": ["flesh", "scales", "fur", "feathers", "chitin", "bark", "stone", "metal", "crystalline", "ethereal", "slime", "ice"],
+          "description": "Primary skin or surface covering"
+        },
+        "eye_count": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "Number of eyes the creature possesses"
+        },
+        "limb_count": {
+          "type": "object",
+          "properties": {
+            "arms": {
+              "type": "integer",
+              "minimum": 0,
+              "description": "Number of arms or arm-like appendages"
+            },
+            "legs": {
+              "type": "integer",
+              "minimum": 0,
+              "description": "Number of legs or leg-like appendages"
+            },
+            "wings": {
+              "type": "integer",
+              "minimum": 0,
+              "description": "Number of wings"
+            },
+            "tails": {
+              "type": "integer",
+              "minimum": 0,
+              "description": "Number of tails"
+            },
+            "tentacles": {
+              "type": "integer",
+              "minimum": 0,
+              "description": "Number of tentacles"
+            }
+          },
+          "description": "Count of various limb types"
+        },
         "humanoid_similarity": {
           "type": "boolean",
           "description": "Whether this monster bears strong physical resemblance to humanoids"
@@ -79,6 +201,28 @@
             "type": "string"
           },
           "description": "Notable features that distinguish this monster"
+        },
+        "coloration": {
+          "type": "object",
+          "properties": {
+            "primary_color": {
+              "type": "string",
+              "description": "Primary color or coloration pattern"
+            },
+            "secondary_colors": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              },
+              "description": "Secondary colors or accent colors"
+            },
+            "pattern": {
+              "type": "string",
+              "enum": ["solid", "striped", "spotted", "mottled", "iridescent", "shifting", "glowing", "translucent"],
+              "description": "Color pattern type"
+            }
+          },
+          "description": "Color and pattern information"
         }
       }
     },
@@ -178,6 +322,89 @@
         }
       }
     },
+    "biological_traits": {
+      "type": "object",
+      "properties": {
+        "lifespan": {
+          "type": "object",
+          "properties": {
+            "value": {
+              "type": "number",
+              "description": "Lifespan value"
+            },
+            "unit": {
+              "type": "string",
+              "enum": ["days", "months", "years", "decades", "centuries", "millennia", "immortal"],
+              "description": "Lifespan unit"
+            },
+            "note": {
+              "type": "string",
+              "description": "Additional notes about lifespan"
+            }
+          },
+          "description": "Expected lifespan of the creature"
+        },
+        "diet": {
+          "type": "string",
+          "enum": ["carnivore", "herbivore", "omnivore", "insectivore", "necrophage", "energy-feeder", "soul-eater", "mineral-eater", "none"],
+          "description": "Primary dietary requirements"
+        },
+        "reproduction": {
+          "type": "string",
+          "enum": ["sexual", "asexual", "magical", "spawning", "budding", "division", "constructed", "summoned", "unknown"],
+          "description": "Method of reproduction or creation"
+        },
+        "sleep_cycle": {
+          "type": "string",
+          "enum": ["diurnal", "nocturnal", "crepuscular", "none", "variable"],
+          "description": "Sleep and activity patterns"
+        },
+        "temperature_preference": {
+          "type": "string",
+          "enum": ["cold", "cool", "temperate", "warm", "hot", "extreme-cold", "extreme-heat", "variable"],
+          "description": "Preferred temperature range"
+        },
+        "breathing": {
+          "type": "string",
+          "enum": ["air", "water", "both", "none", "magical", "unknown"],
+          "description": "Respiratory requirements"
+        },
+        "senses": {
+          "type": "object",
+          "properties": {
+            "vision": {
+              "type": "string",
+              "enum": ["normal", "darkvision", "blindsight", "truesight", "none", "enhanced"],
+              "description": "Visual capabilities"
+            },
+            "hearing": {
+              "type": "string",
+              "enum": ["normal", "enhanced", "echolocation", "none", "magical"],
+              "description": "Auditory capabilities"
+            },
+            "smell": {
+              "type": "string",
+              "enum": ["normal", "enhanced", "tracking", "none", "magical"],
+              "description": "Olfactory capabilities"
+            },
+            "touch": {
+              "type": "string",
+              "enum": ["normal", "enhanced", "vibration-sense", "none", "magical"],
+              "description": "Tactile capabilities"
+            },
+            "magical_senses": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "enum": ["myst-detection", "divine-sensing", "emotion-reading", "soul-sight", "time-perception", "dimensional-awareness"]
+              },
+              "description": "Supernatural sensory abilities"
+            }
+          },
+          "description": "Sensory capabilities and limitations"
+        }
+      }
+    },
     "habitat": {
       "type": "object",
       "properties": {
@@ -188,9 +415,31 @@
         "environmental_preferences": {
           "type": "array",
           "items": {
-            "type": "string"
+            "type": "string",
+            "enum": ["arctic", "temperate", "tropical", "desert", "mountain", "forest", "plains", "swamp", "aquatic", "underground", "aerial", "volcanic", "mystical", "urban", "ruins"]
           },
           "description": "Preferred environmental conditions"
+        },
+        "climate_tolerance": {
+          "type": "object",
+          "properties": {
+            "temperature_range": {
+              "type": "string",
+              "enum": ["extreme-cold-only", "cold-adapted", "temperate", "warm-adapted", "extreme-heat-only", "any"],
+              "description": "Temperature tolerance range"
+            },
+            "humidity_preference": {
+              "type": "string",
+              "enum": ["arid", "moderate", "humid", "aquatic", "any"],
+              "description": "Humidity level preference"
+            }
+          },
+          "description": "Climate adaptation and tolerance"
+        },
+        "territory_size": {
+          "type": "string",
+          "enum": ["none", "small", "moderate", "large", "vast", "planar"],
+          "description": "Typical territory size claimed by the creature"
         },
         "territorial_behavior": {
           "type": "string",
@@ -203,8 +452,42 @@
       "properties": {
         "group_structure": {
           "type": "string",
-          "enum": ["solitary", "pair-bonded", "small-group", "pack", "herd", "colony"],
+          "enum": ["solitary", "pair-bonded", "small-group", "pack", "herd", "colony", "hive-mind", "swarm"],
           "description": "How this monster organizes socially"
+        },
+        "pack_size": {
+          "type": "object",
+          "properties": {
+            "min": {
+              "type": "integer",
+              "minimum": 1,
+              "description": "Minimum group size"
+            },
+            "max": {
+              "type": "integer",
+              "minimum": 1,
+              "description": "Maximum group size"
+            },
+            "typical": {
+              "type": "integer",
+              "minimum": 1,
+              "description": "Typical group size"
+            }
+          },
+          "description": "Group size information for social creatures"
+        },
+        "hierarchy": {
+          "type": "string",
+          "enum": ["none", "alpha-beta", "matriarchal", "patriarchal", "elder-led", "strength-based", "mystical-hierarchy"],
+          "description": "Social hierarchy structure within groups"
+        },
+        "communication": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": ["vocal", "telepathic", "pheromonal", "visual", "mystical", "empathic", "gestural", "none"]
+          },
+          "description": "Methods of communication used"
         },
         "intelligence_level": {
           "type": "string",
@@ -213,8 +496,258 @@
         },
         "humanoid_relations": {
           "type": "string",
-          "enum": ["hostile", "neutral", "wary", "friendly", "cooperative"],
+          "enum": ["hostile", "neutral", "wary", "friendly", "cooperative", "territorial", "predatory"],
           "description": "Typical relationship with humanoids"
+        },
+        "aggression_level": {
+          "type": "string",
+          "enum": ["passive", "defensive", "territorial", "aggressive", "extremely-aggressive", "berserk"],
+          "description": "General aggression and combat tendency"
+        },
+        "loyalty_potential": {
+          "type": "string",
+          "enum": ["none", "low", "moderate", "high", "absolute", "conditional"],
+          "description": "Potential for forming loyal bonds"
+        }
+      }
+    },
+    "combat_attributes": {
+      "type": "object",
+      "properties": {
+        "threat_level": {
+          "type": "string",
+          "enum": ["harmless", "minor", "moderate", "dangerous", "deadly", "legendary", "mythical"],
+          "description": "Overall threat assessment for humanoid encounters"
+        },
+        "preferred_combat_range": {
+          "type": "string",
+          "enum": ["melee", "ranged", "mixed", "ambush", "aerial", "magical"],
+          "description": "Preferred combat engagement style"
+        },
+        "armor_type": {
+          "type": "string",
+          "enum": ["none", "natural", "magical", "thick-hide", "scales", "chitin", "bone-plates", "energy-shield"],
+          "description": "Natural armor or protection type"
+        },
+        "primary_weapons": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": ["claws", "teeth", "horns", "tail", "breath", "magic", "psionics", "poison", "acid", "electricity", "fire", "ice", "sonic"]
+          },
+          "description": "Primary attack methods or weapons"
+        },
+        "damage_resistances": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": ["physical", "fire", "cold", "lightning", "radiance", "chaos", "magical", "psychic", "poison", "acid"]
+          },
+          "description": "Types of damage the creature resists"
+        },
+        "damage_vulnerabilities": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": ["physical", "fire", "cold", "lightning", "radiance", "chaos", "magical", "psychic", "poison", "acid", "silvered", "blessed", "iron"]
+          },
+          "description": "Types of damage the creature is vulnerable to"
+        },
+        "regeneration": {
+          "type": "string",
+          "enum": ["none", "slow", "moderate", "fast", "instant", "magical"],
+          "description": "Natural healing or regeneration capabilities"
+        }
+      }
+    },
+    "mystical_properties": {
+      "type": "object",
+      "properties": {
+        "magical_nature": {
+          "type": "string",
+          "enum": ["mundane", "touched", "infused", "inherent", "construct", "summoned", "divine"],
+          "description": "Level of magical essence within the creature"
+        },
+        "myst_sensitivity": {
+          "type": "string",
+          "enum": ["none", "low", "moderate", "high", "extreme"],
+          "description": "Sensitivity to mystical energies and phenomena"
+        },
+        "divine_resonance": {
+          "type": "object",
+          "properties": {
+            "strength": {
+              "type": "string",
+              "enum": ["none", "faint", "moderate", "strong", "overwhelming"],
+              "description": "Strength of divine influence resonance"
+            },
+            "manifestations": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              },
+              "description": "How divine influences manifest in this creature"
+            }
+          },
+          "description": "Divine influence resonance and manifestation"
+        },
+        "soul_type": {
+          "type": "string",
+          "enum": ["animal", "sentient", "elemental", "construct", "undead", "divine", "none"],
+          "description": "Type of soul or animating force"
+        },
+        "plane_of_origin": {
+          "type": "string",
+          "enum": ["material", "elemental", "shadow", "radiant", "astral", "ethereal", "divine", "chaos", "unknown"],
+          "description": "Plane or realm where the creature originated"
+        }
+      }
+    },
+    "classification": {
+      "type": "object",
+      "properties": {
+        "taxonomic_category": {
+          "type": "string",
+          "enum": ["natural", "magical", "divine", "elemental", "planar", "construct", "undead", "aberrant"],
+          "description": "Scientific/mystical classification category"
+        },
+        "evolutionary_origin": {
+          "type": "string",
+          "enum": ["natural-evolution", "magical-mutation", "divine-creation", "planar-migration", "artificial-creation", "corrupted-transformation", "unknown"],
+          "description": "How this species came to exist"
+        },
+        "conservation_status": {
+          "type": "string",
+          "enum": ["abundant", "common", "uncommon", "rare", "endangered", "critically-endangered", "extinct", "unique-specimen"],
+          "description": "Population status and rarity"
+        },
+        "first_documented": {
+          "type": "object",
+          "properties": {
+            "era": {
+              "type": "string",
+              "description": "Historical era when first documented"
+            },
+            "location": {
+              "type": "string",
+              "description": "Where first encountered/documented"
+            },
+            "discoverer": {
+              "type": "string",
+              "description": "Who first documented this species"
+            }
+          },
+          "description": "Historical discovery information"
+        },
+        "related_species": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Related or similar monster species"
+        },
+        "subspecies": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "name": {
+                "type": "string",
+                "description": "Subspecies name"
+              },
+              "distinguishing_traits": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                },
+                "description": "Traits that distinguish this subspecies"
+              },
+              "habitat_specialization": {
+                "type": "string",
+                "description": "Specialized habitat for this subspecies"
+              }
+            },
+            "required": ["name"]
+          },
+          "description": "Known subspecies variations"
+        }
+      }
+    },
+    "observation_data": {
+      "type": "object",
+      "properties": {
+        "behavioral_notes": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Field observations of behavior patterns"
+        },
+        "seasonal_patterns": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "season": {
+                "type": "string",
+                "enum": ["spring", "summer", "autumn", "winter", "wet-season", "dry-season", "year-round"]
+              },
+              "behavior": {
+                "type": "string",
+                "description": "Seasonal behavior changes"
+              }
+            },
+            "required": ["season", "behavior"]
+          },
+          "description": "Seasonal behavior variations"
+        },
+        "migration_patterns": {
+          "type": "object",
+          "properties": {
+            "migratory": {
+              "type": "boolean",
+              "description": "Whether this species migrates"
+            },
+            "pattern": {
+              "type": "string",
+              "enum": ["seasonal", "lifecycle", "resource-based", "mystical", "random", "none"],
+              "description": "Type of migration pattern if applicable"
+            },
+            "routes": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              },
+              "description": "Known migration routes or destinations"
+            }
+          },
+          "description": "Migration behavior information"
+        },
+        "researcher_notes": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "researcher": {
+                "type": "string",
+                "description": "Name of the researcher"
+              },
+              "date": {
+                "type": "string",
+                "description": "Date of observation"
+              },
+              "location": {
+                "type": "string",
+                "description": "Location of observation"
+              },
+              "observation": {
+                "type": "string",
+                "description": "Research notes or observations"
+              }
+            },
+            "required": ["researcher", "observation"]
+          },
+          "description": "Research observations from various scholars"
         }
       }
     },
@@ -258,6 +791,6 @@
       "required": ["created", "last_updated", "canonical"]
     }
   },
-  "required": ["id", "name", "category", "race", "breed", "divine_influences", "metadata"],
+  "required": ["id", "name", "category", "race", "breed", "divine_influences", "physical_description", "biological_traits", "metadata"],
   "additionalProperties": false
 }

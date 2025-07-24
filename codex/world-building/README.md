@@ -47,6 +47,7 @@ world-building/
 ### Completed Files
 - **playable-races.md** - Comprehensive guide to humanoid heritage, playable races, and the distinction between humanoids and monsters
 - **monster-classification-lore.md** - Detailed monster classification system, divine limitations, and exceptional categories (mounts and companions)
+- **monster-codex-system.md** - Comprehensive Pokédex-like classification system for cataloging monsters with scientific precision
 - **damage-system.md** - Combat mechanics and damage calculations
 - **damage-type-interactions.md** - Elemental damage relationships
 - **hexagonal-system-applications.md** - Thematic structure applications

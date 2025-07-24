@@ -1,0 +1,188 @@
+{
+  "id": "example-monster",
+  "name": "Example Monster Name",
+  "category": "standard",
+  "race": "beast",
+  "breed": "example-breed",
+  "status": "alive",
+  "rarity": "common",
+  "divine_influences": {
+    "influences": ["pyrion", "glacius"],
+    "myrielle_requirement": false
+  },
+  "physical_description": {
+    "appearance": "Detailed physical description of the creature's appearance, including notable features and overall impression.",
+    "size": "medium",
+    "height": {
+      "value": 4,
+      "unit": "feet"
+    },
+    "weight": {
+      "value": 150,
+      "unit": "pounds"
+    },
+    "wingspan": {
+      "value": 0,
+      "unit": "feet"
+    },
+    "speed": {
+      "ground": 30,
+      "flying": 0,
+      "swimming": 15,
+      "burrowing": 0,
+      "climbing": 20
+    },
+    "blood_type": "red",
+    "body_type": "quadrupedal",
+    "skin_type": "fur",
+    "eye_count": 2,
+    "limb_count": {
+      "arms": 0,
+      "legs": 4,
+      "wings": 0,
+      "tails": 1,
+      "tentacles": 0
+    },
+    "humanoid_similarity": false,
+    "distinguishing_features": [
+      "Feature 1",
+      "Feature 2",
+      "Feature 3"
+    ],
+    "coloration": {
+      "primary_color": "brown",
+      "secondary_colors": ["black", "white"],
+      "pattern": "spotted"
+    }
+  },
+  "biological_traits": {
+    "lifespan": {
+      "value": 15,
+      "unit": "years",
+      "note": "Standard for this species"
+    },
+    "diet": "omnivore",
+    "reproduction": "sexual",
+    "sleep_cycle": "nocturnal",
+    "temperature_preference": "temperate",
+    "breathing": "air",
+    "senses": {
+      "vision": "normal",
+      "hearing": "enhanced",
+      "smell": "enhanced",
+      "touch": "normal",
+      "magical_senses": []
+    }
+  },
+  "abilities": [
+    {
+      "name": "Example Ability",
+      "type": "natural",
+      "description": "Description of what this ability does and how it manifests",
+      "power_level": "minor"
+    }
+  ],
+  "habitat": {
+    "primary_location": "forests",
+    "environmental_preferences": ["temperate", "forest"],
+    "climate_tolerance": {
+      "temperature_range": "temperate",
+      "humidity_preference": "moderate"
+    },
+    "territory_size": "small",
+    "territorial_behavior": "Marks territory with scent, defends during mating season"
+  },
+  "social_behavior": {
+    "group_structure": "pack",
+    "pack_size": {
+      "min": 3,
+      "max": 12,
+      "typical": 6
+    },
+    "hierarchy": "alpha-beta",
+    "communication": ["vocal", "pheromonal"],
+    "intelligence_level": "cunning",
+    "humanoid_relations": "wary",
+    "aggression_level": "defensive",
+    "loyalty_potential": "low"
+  },
+  "combat_attributes": {
+    "threat_level": "minor",
+    "preferred_combat_range": "melee",
+    "armor_type": "none",
+    "primary_weapons": ["claws", "teeth"],
+    "damage_resistances": [],
+    "damage_vulnerabilities": [],
+    "regeneration": "none"
+  },
+  "mystical_properties": {
+    "magical_nature": "mundane",
+    "myst_sensitivity": "low",
+    "divine_resonance": {
+      "strength": "faint",
+      "manifestations": [
+        "Subtle manifestation of divine influence"
+      ]
+    },
+    "soul_type": "animal",
+    "plane_of_origin": "material"
+  },
+  "classification": {
+    "taxonomic_category": "natural",
+    "evolutionary_origin": "natural-evolution",
+    "conservation_status": "common",
+    "first_documented": {
+      "era": "Ancient Times",
+      "location": "Common Forests",
+      "discoverer": "Local Naturalists"
+    },
+    "related_species": ["similar-beast-1", "similar-beast-2"],
+    "subspecies": []
+  },
+  "observation_data": {
+    "behavioral_notes": [
+      "Behavioral observation 1",
+      "Behavioral observation 2"
+    ],
+    "seasonal_patterns": [
+      {
+        "season": "spring",
+        "behavior": "Mating and territory establishment"
+      },
+      {
+        "season": "summer",
+        "behavior": "Hunting and cub rearing"
+      },
+      {
+        "season": "autumn",
+        "behavior": "Food gathering for winter"
+      },
+      {
+        "season": "winter",
+        "behavior": "Denning and reduced activity"
+      }
+    ],
+    "migration_patterns": {
+      "migratory": false,
+      "pattern": "none",
+      "routes": []
+    },
+    "researcher_notes": [
+      {
+        "researcher": "Local Naturalist",
+        "date": "Recent observation",
+        "location": "Local forest",
+        "observation": "Specific field observation or research note"
+      }
+    ]
+  },
+  "lore_significance": "Role this creature plays in local ecology, culture, or world events.",
+  "tags": ["beast", "forest-dweller", "pack-hunter", "natural"],
+  "metadata": {
+    "created": "2025-07-24T12:00:00Z",
+    "last_updated": "2025-07-24T12:00:00Z",
+    "author": "PrimalMyst Development Team",
+    "version": "1.0.0",
+    "canonical": true
+  }
+}
