@@ -70,6 +70,12 @@
       "description": "Quest definitions including story progression and objectives",
       "required_fields": ["id", "name", "type", "rank_level_requirements", "objectives", "metadata"],
       "example": "data/json/quests/convergence-storm-investigation.json"
+    },
+    "divine-positioning": {
+      "file": "data/schemas/divine-positioning.schema.json",
+      "description": "Character divine positioning system tracking elemental embraces and primal god relationships established in Act 1",
+      "required_fields": ["character_id", "positioning_status", "elemental_embraces", "primal_relationships", "divine_signature", "positioning_completion", "metadata"],
+      "example": "data/json/divine-positioning/example-positioning-lyra.json"
     }
   },
 
@@ -135,7 +141,8 @@
         "primal-trio.json",
         "core-thematic-hexagon.json",
         "hexagonal-damage-calculation.json",
-        "mystical-number-harmonies.json"
+        "mystical-number-harmonies.json",
+        "pantheon-trials-positioning.json"
       ]
     },
     "leagues": {
@@ -198,6 +205,19 @@
         "exploration": "Discovery and mapping objectives",
         "crafting": "Creation and enhancement activities",
         "social": "Relationship and faction quests"
+      }
+    },
+    "divine-positioning": {
+      "path": "data/json/divine-positioning/", 
+      "schema": "divine-positioning",
+      "count": 1,
+      "subcategories": {
+        "elemental-focused": "Characters primarily defined by their elemental embraces",
+        "primal-aligned": "Characters who follow specific Primal God paths", 
+        "opposition-focused": "Characters defined by their divine oppositions",
+        "balanced-approach": "Characters seeking harmony between multiple divine forces",
+        "independent-mystics": "Characters with strong opposition to divine authority",
+        "transcendent-seekers": "Characters focused on spiritual transcendence"
       }
     }
   },
