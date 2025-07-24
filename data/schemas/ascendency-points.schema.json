@@ -1,0 +1,269 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "PrimalMyst Ascendency Point System",
+  "description": "Schema for tracking Ascendency Points earned through Myrielle's hidden trials, representing steps toward cosmic transformation",
+  "type": "object",
+  "properties": {
+    "character_id": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$",
+      "description": "Unique identifier for the character earning ascendency points"
+    },
+    "total_ascendency_points": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 6,
+      "description": "Total ascendency points earned (maximum 6 for cosmic transformation)"
+    },
+    "point_progression": {
+      "type": "object",
+      "properties": {
+        "act1_points": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 0,
+          "default": 0,
+          "description": "Act 1 focuses on divine immunity - no ascendency points awarded"
+        },
+        "act2_points": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 3,
+          "description": "Points earned through Act 2 hidden trials (maximum 3)"
+        },
+        "act3_points": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 3,
+          "description": "Points earned through Act 3 ultimate trials (maximum 3)"
+        }
+      },
+      "required": ["act1_points", "act2_points", "act3_points"],
+      "description": "Breakdown of points earned by act"
+    },
+    "trials_completed": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "trial_id": {
+            "type": "string",
+            "description": "Unique identifier for the completed trial"
+          },
+          "trial_name": {
+            "type": "string",
+            "description": "Name of the completed hidden trial"
+          },
+          "act": {
+            "type": "integer",
+            "enum": [2, 3],
+            "description": "Which act the trial belongs to"
+          },
+          "completion_date": {
+            "type": "string",
+            "format": "date-time",
+            "description": "When the trial was completed"
+          },
+          "points_awarded": {
+            "type": "integer",
+            "enum": [1],
+            "description": "Points awarded (always 1 per trial)"
+          },
+          "cosmic_transformation": {
+            "type": "string",
+            "description": "Description of how this trial changed the character"
+          }
+        },
+        "required": ["trial_id", "trial_name", "act", "completion_date", "points_awarded"],
+        "description": "Record of completed hidden trial"
+      },
+      "maxItems": 6,
+      "description": "List of all hidden trials completed"
+    },
+    "cosmic_transformation_level": {
+      "type": "string",
+      "enum": ["mortal", "initiated", "advanced", "transcendent", "cosmic-champion"],
+      "description": "Current level of cosmic transformation based on points earned"
+    },
+    "transformation_thresholds": {
+      "type": "object",
+      "properties": {
+        "mortal": {
+          "type": "object",
+          "properties": {
+            "points_required": {"type": "integer", "enum": [0]},
+            "description": {"type": "string"},
+            "abilities": {"type": "array", "items": {"type": "string"}}
+          },
+          "description": "0 points - Basic divine immunity only"
+        },
+        "initiated": {
+          "type": "object", 
+          "properties": {
+            "points_required": {"type": "integer", "enum": [1]},
+            "description": {"type": "string"},
+            "abilities": {"type": "array", "items": {"type": "string"}}
+          },
+          "description": "1-2 points - Beginning cosmic awareness"
+        },
+        "advanced": {
+          "type": "object",
+          "properties": {
+            "points_required": {"type": "integer", "enum": [3]},
+            "description": {"type": "string"},
+            "abilities": {"type": "array", "items": {"type": "string"}}
+          },
+          "description": "3-4 points - Eldritch resistance and cosmic authority"
+        },
+        "transcendent": {
+          "type": "object",
+          "properties": {
+            "points_required": {"type": "integer", "enum": [5]},
+            "description": {"type": "string"},
+            "abilities": {"type": "array", "items": {"type": "string"}}
+          },
+          "description": "5 points - Near-cosmic transformation"
+        },
+        "cosmic_champion": {
+          "type": "object",
+          "properties": {
+            "points_required": {"type": "integer", "enum": [6]},
+            "description": {"type": "string"},
+            "abilities": {"type": "array", "items": {"type": "string"}}
+          },
+          "description": "6 points - Full cosmic transformation and Myrielle champion status"
+        }
+      },
+      "description": "Transformation levels and their requirements"
+    },
+    "myrielle_relationship": {
+      "type": "object",
+      "properties": {
+        "recognition_level": {
+          "type": "string",
+          "enum": ["unnoticed", "observed", "tested", "approved", "chosen", "champion"],
+          "description": "Level of recognition from Myrielle"
+        },
+        "trial_accessibility": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Which hidden trials are currently accessible"
+        },
+        "cosmic_authority": {
+          "type": "boolean",
+          "description": "Whether character has cosmic-level authority"
+        },
+        "champion_status": {
+          "type": "boolean",
+          "description": "Whether character is recognized as Myrielle's champion"
+        }
+      },
+      "description": "Relationship status with Myrielle"
+    },
+    "cosmic_abilities": {
+      "type": "object",
+      "properties": {
+        "reality_manipulation": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 6,
+          "description": "Level of reality manipulation ability"
+        },
+        "eldritch_resistance": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 6,
+          "description": "Resistance to Eldritch influence and decay"
+        },
+        "cosmic_perception": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 6,
+          "description": "Ability to perceive cosmic truths and hidden realities"
+        },
+        "divine_transcendence": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 6,
+          "description": "Power level beyond conventional divine limitations"
+        }
+      },
+      "description": "Cosmic abilities gained through ascendency points"
+    },
+    "prerequisites_met": {
+      "type": "object",
+      "properties": {
+        "divine_immunity_complete": {
+          "type": "boolean",
+          "description": "All six Fundamental God trials completed"
+        },
+        "eldritch_encounters": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "Number of successful Eldritch entity encounters"
+        },
+        "cosmic_readiness": {
+          "type": "boolean",
+          "description": "Ready for cosmic-level challenges"
+        }
+      },
+      "description": "Prerequisites for accessing hidden trials"
+    },
+    "story_impact": {
+      "type": "object",
+      "properties": {
+        "cosmic_war_participation": {
+          "type": "boolean",
+          "description": "Authorized to participate in cosmic conflict"
+        },
+        "eldritch_threat_level": {
+          "type": "string",
+          "enum": ["none", "minor", "moderate", "significant", "major", "cosmic"],
+          "description": "Level of threat to Eldritch entities"
+        },
+        "reality_influence": {
+          "type": "string",
+          "description": "How character can influence fundamental reality"
+        }
+      },
+      "description": "Impact on overarching story and cosmic order"
+    },
+    "metadata": {
+      "type": "object",
+      "properties": {
+        "created": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Creation timestamp"
+        },
+        "last_updated": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Last modification timestamp"
+        },
+        "author": {
+          "type": "string",
+          "description": "Creator of this entry"
+        },
+        "version": {
+          "type": "string",
+          "pattern": "^\\d+\\.\\d+\\.\\d+$",
+          "description": "Version number"
+        },
+        "canonical": {
+          "type": "boolean",
+          "description": "Whether this is official canon content"
+        }
+      },
+      "required": ["created", "last_updated", "author", "version", "canonical"],
+      "description": "Metadata about this ascendency record"
+    }
+  },
+  "required": [
+    "character_id", "total_ascendency_points", "point_progression", 
+    "trials_completed", "cosmic_transformation_level", "myrielle_relationship", "metadata"
+  ],
+  "additionalProperties": false
+}
