@@ -199,11 +199,44 @@
           }
         },
         "divine_influences": {
-          "type": "array",
-          "items": {
-            "type": "string"
+          "type": "object",
+          "properties": {
+            "fundamental_gods": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "enum": ["pyrion", "glacius", "voltharion"]
+              },
+              "minItems": 1,
+              "description": "Influences from Fundamental Gods (Ancient Powers) - at least one required for significant characters"
+            },
+            "primal_gods": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "enum": ["serafina", "aurelius", "korthak"]
+              },
+              "minItems": 1,
+              "description": "Influences from Primal Gods (Active Deities) - at least one required for significant characters"
+            },
+            "myrielle_guidance": {
+              "type": "object",
+              "properties": {
+                "direct_influence": {
+                  "type": "boolean",
+                  "const": false,
+                  "description": "Myrielle 'The Hidden' cannot directly influence humanoids"
+                },
+                "indirect_support": {
+                  "type": "string",
+                  "description": "How Myrielle supports this character through monster companions and mounts"
+                }
+              },
+              "description": "Myrielle can only influence humanoids indirectly through their monster companions and mounts"
+            }
           },
-          "description": "Divine sources that influence this character (more than 2 indicates awakened humanoid heritage)"
+          "required": ["fundamental_gods", "primal_gods"],
+          "description": "Divine influences organized by tier - humanoids need influences from Fundamental and Primal gods, but Myrielle works through their companions"
         },
         "myst_jewelry_compatibility": {
           "type": "array",

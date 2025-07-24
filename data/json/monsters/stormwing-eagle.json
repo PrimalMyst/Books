@@ -6,7 +6,10 @@
   "breed": "stormwing",
   "status": "alive",
   "rarity": "extremely-rare",
-  "divine_influences": ["aurelius-protection", "voltharion-storm"],
+  "divine_influences": {
+    "influences": ["myrielle", "voltharion"],
+    "myrielle_requirement": true
+  },
   "physical_description": {
     "appearance": "A magnificent eagle with wingspan reaching 20 feet. Feathers shimmer with electrical energy, and its eyes hold an intelligence that rivals many humanoids.",
     "size": "large",

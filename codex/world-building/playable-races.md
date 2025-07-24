@@ -2,7 +2,16 @@
 
 ## Overview
 
-The concept of "playable" races in the PrimalMyst universe is intrinsically tied to the ancient mystery of the lost Humans and the humanoid heritage that persists in certain bloodlines. **By the fundamental laws of the Myst World, all playable characters, followers, and significant NPCs possess humanoid heritage.** This is not a matter of chance or development - it is a cosmic constant that defines who can achieve mystical greatness and world-changing significance.
+The concept of "playa**Minimum for Significance:** To achieve heroic status, leadership roles, or world-changing impact, humanoids must possess at least one influence from each divine trio:
+- **One Fundamental God**: Pyrion, Glacius, or Voltharion (Ancient Powers)
+- **One Primal God**: Serafina, Aurelius, or Korthak (Active Deities)
+- **Myrielle's Indirect Influence**: The Veiled One cannot directly influence humanoids but works through them by guiding their monster companions and mounts
+
+**Beyond the Minimum:** Truly transcendent humanoids may channel multiple influences from each tier, creating complex divine harmonies impossible for monsters.
+
+**Myrielle's Hidden Nature:** As "The Hidden," Myrielle cannot directly influence humanoids like the other gods. Instead, she relies on humanoid heroes to carry out her will while remaining concealed. Her influence manifests only through the monster companions and mounts that serve humanoids, allowing her to guide events indirectly while maintaining her mysterious nature.
+
+**Race Independence:** Divine influences (excluding Myrielle) are not tied to specific races - any playable race can follow any combination of the six accessible gods. The capacity for multi-tier divine influence defines humanoid heritage, not racial predisposition to particular deities.es in the PrimalMyst universe is intrinsically tied to the ancient mystery of the lost Humans and the humanoid heritage that persists in certain bloodlines. **By the fundamental laws of the Myst World, all playable characters, followers, and significant NPCs possess humanoid heritage.** This is not a matter of chance or development - it is a cosmic constant that defines who can achieve mystical greatness and world-changing significance.
 
 ## The Cosmic Law of Significance
 
@@ -26,7 +35,7 @@ Every individual capable of:
 According to fragmented ancient texts and scholarly research, Humans were a unique race that once inhabited the Myst World. They possessed several distinctive characteristics:
 
 - **Five-fingered hands** with the ability to wear and attune to mystical rings, particularly on the middle finger
-- **Multi-divine affinity** - the rare ability to channel influence from more than two gods simultaneously
+- **Multi-divine affinity** - the ability to channel influence from all three divine tiers (Fundamental, Primal, Veiled) simultaneously
 - **Mystical adaptability** - an innate connection to myst jewelry and enchanted items
 - **Transcendent potential** - capabilities that bridged the gap between mortal and divine
 
@@ -45,36 +54,51 @@ Three primary theories exist regarding what happened to the Humans:
 Humanoid races cannot be immediately identified by appearance alone. The heritage lies dormant until activated by specific conditions:
 
 - **Myst Jewelry Attunement**: The clearest indicator is the successful binding to mystical rings, particularly when worn on the middle finger
-- **Multi-Divine Manifestation**: Displaying the influence of more than two gods simultaneously
+- **Multi-Divine Manifestation**: Displaying influence from all three divine tiers simultaneously - at minimum one god from Fundamental, Primal, and Veiled trios
 - **Mystical Awakening Events**: Traumatic or transcendent experiences that unlock latent potential
 
 ### The Five-Finger Criterion
 
 The possession of five-fingered hands is a necessary but not sufficient condition for humanoid heritage. Many races may have five fingers but lack the mystical compatibility that defines true humanoids.
 
-## Confirmed Playable Races
+### Divine Influence Requirements for Humanoids
+
+**Minimum for Significance:** To achieve heroic status, leadership roles, or world-changing impact, humanoids must possess at least one influence from each divine trio:
+- **One Fundamental God**: Pyrion, Glacius, or Voltharion (Ancient Powers)
+- **One Primal God**: Serafina, Aurelius, or Korthak (Active Deities)
+- **One Veiled One**: Myrielle (Mysterious Guide)
+
+**Beyond the Minimum:** Truly transcendent humanoids may channel multiple influences from each tier, creating complex divine harmonies impossible for monsters.
+
+**Race Independence:** Divine influences are not tied to specific races - any playable race can follow any combination of gods. The capacity for multi-tier divine influence is what defines humanoid heritage, not racial predisposition to particular deities.
+
+## Confirmed Playable Races and Their Origins
 
 ### Beast Folk - Canine Lineage
 - **Heritage Markers**: Five-fingered hands, pack-bonding mystical resonance
-- **Divine Affinities**: Korthak's pack bonds, Aurelius's nature harmony, Voltharion's loyalty connections
+- **Origin Island**: [Island Name - To Be Determined]
+- **Divine Capacity**: Can channel influences from multiple gods across accessible divine tiers
 - **Unique Traits**: Enhanced sensory perception combined with mystical awareness
 - **Awakening Signs**: Ability to commune with both wild and mystical canines, pack-based magical phenomena
 
 ### Beast Folk - Feline Lineage
 - **Heritage Markers**: Five-fingered hands, independence-based mystical resonance
-- **Divine Affinities**: Serafina's shadow mysteries, Korthak's independence, Myrielle's transition wisdom
+- **Origin Island**: [Island Name - To Be Determined]
+- **Divine Capacity**: Can channel influences from multiple gods across accessible divine tiers
 - **Unique Traits**: Natural stealth enhanced by mystical concealment abilities
 - **Awakening Signs**: Night vision extends into mystical spectrums, shadow-walking capabilities
 
 ### Elfs
 - **Heritage Markers**: Closest genetic and mystical connection to original Humans
-- **Divine Affinities**: Aurelius's harmony, Voltharion's ancient wisdom, Myrielle's eternal knowledge
+- **Origin Island**: [Island Name - To Be Determined]
+- **Divine Capacity**: Can channel influences from multiple gods across accessible divine tiers
 - **Unique Traits**: Extended lifespans allow for deeper mystical development
 - **Awakening Signs**: Communion with ancient spirits, time-dilated perception during mystical activities
 
 ### Druids
 - **Heritage Status**: Whether distinct race or mystical practitioners remains debated
-- **Divine Affinities**: Aurelius's growth forces, Korthak's earth strength, Pyrion's primal transformation
+- **Origin Island**: [Island Name - To Be Determined]
+- **Divine Capacity**: Can channel influences from multiple gods across accessible divine tiers
 - **Unique Traits**: Strongest documented connection to primal mystical forces
 - **Awakening Signs**: Shape-shifting abilities, plant and animal communication, weather influence
 
@@ -203,15 +227,31 @@ A tiny fraction of monster species possess the unique combination of traits nece
 - Temperament allowing for bonding despite being **delicate and hard to tame**
 - **Burden-carrying capacity** to bear their master's possessions
 
+**Divine Influence Pattern:**
+- **Myrielle's influence**: All mounts possess Myrielle's guidance for mystical bonding with humanoids - her only way to directly aid heroes
+- **One additional influence**: From any of the other six gods (Fundamental or Primal tiers)
+- **Two-influence maximum**: Still bound by the cosmic limitation that applies to all monsters
+
+**Myrielle's Bonding Role:**
+As "The Hidden," Myrielle cannot directly influence humanoids but can touch the souls of certain monsters. Through mounts, she facilitates the mystical bonds that allow burden-sharing and loyal partnership, enabling her to indirectly support heroic endeavors while remaining concealed.
+
 **Mystical Burden-Sharing:**
 Mounts create a mystical connection with their riders that distributes weight and burden across both beings. This explains how mounted adventurers can carry extensive inventories while maintaining incredible speed and endurance.
 
 ### Myrielle-Touched Monster Companions (Extraordinarily Rare)
 Small creatures that follow players providing guidance and support, like remora fish with sharks:
 
+**Myrielle's Hidden Influence:**
+Unlike the other six gods who can directly influence humanoids, Myrielle "The Hidden" cannot touch humanoid souls directly. Instead, she works through monster companions to guide and advise her chosen humanoids while remaining concealed. This allows her to influence events indirectly without revealing her presence or breaking her veiled nature.
+
 **Size and Flight Requirements:**
 - Always **tiny or small creatures** capable of flight or hovering
 - Must be able to stay close to their bonded humanoid during adventures
+
+**Divine Influence Pattern:**
+- **Myrielle's influence**: Always includes Myrielle's guidance for mystical bonding and direction
+- **One additional influence**: From any of the other six gods (Fundamental or Primal tiers)
+- **Two-influence maximum**: Never exceeding the cosmic limit that binds all monsters
 
 **Guidance Manifestations:**
 - **Navigation**: Mystical maps and pathfinding assistance
@@ -225,11 +265,6 @@ Small creatures that follow players providing guidance and support, like remora 
 - **Non-combatant role**: Stay close to provide guidance rather than engage enemies
 - **Symbiotic relationship**: Like remora fish, they benefit from the relationship while providing services
 
-**Divine Influence Pattern:**
-- Always includes a **fragment of Myrielle's influence** (counting as one divine source)
-- Plus one other divine influence from the Eldritch Pantheon
-- Never exceeding the two-source maximum that binds all monsters
-
 ### The Divine Barrier
 
 The two-divine-influence limitation creates several important distinctions:
@@ -241,3 +276,53 @@ The two-divine-influence limitation creates several important distinctions:
 **Transcendence Barrier:** The path followed by the ancient Humans toward ascension or transcendence requires multi-divine harmony impossible for monsters.
 
 **Social Instinct:** Humanoids instinctively recognize the fundamental difference, leading to natural social stratification regardless of individual monster intelligence or virtue.
+
+## Geographical Origins and Island Heritage
+
+### The Outer Islands
+Each playable race originates from distinct outer islands surrounding the central Myst World. These remote locations shaped their unique characteristics and cultural practices before they migrated to the main continents.
+
+**Island Distribution:**
+- **Multiple races may originate from the same island**, sharing cultural backgrounds and environmental adaptations
+- **Each island developed unique environmental pressures** that influenced racial traits and mystical affinities
+- **Migration patterns** brought these races to the central world, where they established their current civilizations
+
+### Racial Island Origins
+The specific outer islands that gave birth to each playable race remain subjects of ongoing scholarly research. Ancient records suggest:
+
+- **Beast Folk Lineages**: May share island origins, explaining their similar five-fingered heritage despite different animal aspects
+- **Elf Territories**: Potentially isolated island chains that preserved the closest Human genetic legacy
+- **Druid Origins**: Possibly from primal islands with strong connections to natural mystical forces
+- **Lost Connections**: Many original island homelands remain undiscovered or have been lost to the mists of time
+
+### Future Exploration: Starting Island Selection
+*[System Design Note for Future Implementation]*
+
+The outer island origins will eventually allow players to choose their character's starting island, which will determine:
+
+**Starting Island Benefits:**
+- **Access to Island-Specific Classes**: Each island developed unique mystical traditions and combat styles
+- **Cultural Background**: Island-specific lore, traditions, and starting relationships
+- **Environmental Adaptation**: Bonuses related to the island's environmental conditions
+- **Mystical Resonance**: Special connections to island-specific magical phenomena
+
+**Class-Island Connection:**
+- **Traditional Classes**: Tied to specific islands and their cultural development
+- **Hybrid Opportunities**: Some islands may offer multiple class paths or unique combinations
+- **Discovery Elements**: Players may uncover hidden class traditions through exploration and lore discovery
+
+**Implementation Considerations:**
+- **Race Independence**: Any race can start from any island (through migration, adoption, cultural integration)
+- **Lore Consistency**: Starting islands will integrate with existing divine influence and heritage systems
+- **Gameplay Balance**: Island choice provides flavor and specialization without creating power imbalances
+
+### The Great Migration
+Historical records speak of a "Great Migration" when the outer island peoples first reached the central Myst World. This period established the current racial distributions and explains why humanoid races, despite their distinct origins, now share the same territories and can interbreed despite their different island heritage.
+
+**Migration Mysteries:**
+- **What prompted the Great Migration?** Theories include natural disasters, mystical phenomena, or divine calling
+- **How did they navigate the mists?** The journey from outer islands required mystical navigation techniques
+- **Why did they leave their homelands?** Some islands may have become uninhabitable or were consumed by mystical forces
+- **Are the outer islands still there?** Modern expeditions to rediscover the original homelands continue
+
+This island heritage system provides rich background for character creation while establishing a framework for future expansion into the outer island regions and specialized class systems.

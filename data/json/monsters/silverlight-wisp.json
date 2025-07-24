@@ -6,7 +6,10 @@
   "breed": "silverlight",
   "status": "alive",
   "rarity": "extraordinarily-rare",
-  "divine_influences": ["myrielle-fragment", "aurelius-light"],
+  "divine_influences": {
+    "influences": ["myrielle", "aurelius"],
+    "myrielle_requirement": true
+  },
   "physical_description": {
     "appearance": "A small orb of pure silvery light that dances through the air, leaving trails of luminescent particles. Its glow pulses in rhythm with its master's heartbeat.",
     "size": "tiny",

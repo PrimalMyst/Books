@@ -56,39 +56,70 @@
       {
         "race": "Beast Folk - Canine",
         "characteristics": "Retain pack instincts and loyalty traits while possessing five-fingered hands and mystical potential",
-        "divine_affinities": ["korthak-pack", "aurelius-nature", "voltharion-loyalty"],
+        "origin": "Outer island heritage - specific island to be determined through future exploration",
+        "divine_capacity": "Can channel influences from all accessible divine tiers simultaneously - not limited to specific gods based on race",
         "unique_traits": "Enhanced sensory perception combined with mystical awakening capabilities"
       },
       {
         "race": "Beast Folk - Feline", 
         "characteristics": "Combine feline grace and independence with humanoid mystical heritage",
-        "divine_affinities": ["serafina-shadow", "korthak-independence", "myrielle-transition"],
+        "origin": "Outer island heritage - may share island origins with Canine lineage",
+        "divine_capacity": "Can channel influences from all accessible divine tiers simultaneously - not limited to specific gods based on race",
         "unique_traits": "Natural stealth abilities enhanced by mystical awareness"
       },
       {
         "race": "Elfs",
         "characteristics": "Ancient race that may represent the closest living connection to the original Humans",
-        "divine_affinities": ["aurelius-harmony", "voltharion-wisdom", "myrielle-eternity"],
+        "origin": "Isolated outer island chains that preserved Human genetic legacy",
+        "divine_capacity": "Can channel influences from all accessible divine tiers simultaneously - not limited to specific gods based on race",
         "unique_traits": "Extended lifespans allow for deeper mystical development"
       },
       {
         "race": "Druids",
         "characteristics": "Whether a distinct race or mystical practitioners, they demonstrate clear humanoid heritage through their divine connections",
-        "divine_affinities": ["aurelius-growth", "korthak-earth", "pyrion-primal"],
+        "origin": "Primal outer islands with strong connections to natural mystical forces",
+        "divine_capacity": "Can channel influences from all accessible divine tiers simultaneously - not limited to specific gods based on race",
         "unique_traits": "Strongest connection to primal mystical forces among known humanoids"
       }
     ],
+    "significance_requirement": "To achieve heroic status or world-changing impact, humanoids must possess at least one influence from Fundamental Gods (Pyrion, Glacius, Voltharion) and Primal Gods (Serafina, Aurelius, Korthak). Myrielle 'The Hidden' cannot directly influence humanoids but works through their monster companions and mounts.",
+    "myrielle_limitation": "Unlike the other six gods, Myrielle cannot directly touch humanoid souls. She remains hidden and works through monster companions and mounts to guide her chosen heroes indirectly, allowing her to influence events while maintaining her veiled nature.",
+    "race_independence": "Divine influences (excluding Myrielle who cannot directly influence humanoids) are not tied to specific races - any playable race can follow any combination of the six accessible gods. The capacity for multi-tier divine influence defines humanoid heritage, not racial predisposition to particular deities",
     "suspected": [
       {
         "note": "Other races may possess humanoid heritage but have not yet demonstrated the key identifying traits of myst jewelry attunement or multi-divine influence"
       }
     ]
   },
+  "geographical_origins": {
+    "outer_islands": {
+      "description": "Each playable race originates from distinct outer islands surrounding the central Myst World",
+      "shared_origins": "Multiple races may originate from the same island, sharing cultural backgrounds and environmental adaptations",
+      "environmental_influence": "Each island developed unique environmental pressures that influenced racial traits and mystical affinities",
+      "current_status": "Many original island homelands remain undiscovered or have been lost to the mists of time"
+    },
+    "great_migration": {
+      "event": "Historical period when outer island peoples first reached the central Myst World",
+      "mysteries": [
+        "What prompted the Great Migration - natural disasters, mystical phenomena, or divine calling?",
+        "How did they navigate the mists between outer islands and the central world?",
+        "Why did they leave their original homelands?",
+        "Are the outer islands still accessible or have they been consumed by mystical forces?"
+      ],
+      "consequences": "Established current racial distributions and explains intermingling of distinct heritage lines"
+    },
+    "future_exploration": {
+      "note": "System design consideration for future implementation",
+      "starting_island_selection": "Players will eventually choose character starting islands that determine class access and cultural background",
+      "class_island_connection": "Each island developed unique mystical traditions and combat styles tied to specific classes",
+      "race_independence": "Any race can start from any island through migration, adoption, or cultural integration"
+    }
+  },
   "identification_criteria": {
     "primary_markers": [
       "Five-fingered hands capable of wearing rings on middle finger",
       "Successful attunement to myst jewelry, particularly rings",
-      "Manifestation of influence from more than two divine sources"
+      "Manifestation of influence from all three divine tiers (minimum one from each trio)"
     ],
     "secondary_indicators": [
       "Exceptional mystical potential relative to apparent race",
@@ -195,6 +226,7 @@
           "Temperament allowing for bonding despite being delicate and hard to tame",
           "Burden-carrying capacity to bear their master's possessions"
         ],
+        "divine_influences": "All mounts possess Myrielle's influence for mystical bonding - her only way to directly aid humanoid heroes - plus one additional influence from the six accessible gods (Fundamental or Primal tiers)",
         "burden_lore": "Mounts mystically share the load of their master's equipment and supplies, explaining how adventurers can carry extensive inventories. The bond between mount and rider creates a mystical connection that distributes weight and burden across both beings.",
         "temperament": "Mounts are inherently delicate creatures, requiring careful handling and respect. Their wild nature makes them extremely difficult to tame, often requiring specific rituals, offerings, or demonstrations of worthiness.",
         "rarity": "True mount-capable monsters are extraordinarily rare, making them highly prized and often the stuff of legend"
@@ -203,6 +235,7 @@
         "definition": "Small monster creatures that follow players providing guidance and support, like remora fish with sharks",
         "size_requirement": "Always tiny or small creatures capable of flight or hovering",
         "myriel_connection": "These creatures serve as conduits for Myriel's influence, providing navigation, awareness, and mystical insight to their bonded humanoid",
+        "divine_influences": "All monster companions possess Myrielle's influence for guidance channeling - allowing her to remain hidden while supporting humanoids - plus one additional influence from the six accessible gods (Fundamental or Primal tiers)",
         "guidance_manifestation": "Through their Myriel connection, monster companions provide mystical awareness that manifests as enhanced navigation (maps), danger warnings (hints), resource detection, and emotional support",
         "combat_limitations": "Cannot fight as equals or serve as combat allies - their role is guidance and support only",
         "symbiotic_relationship": "Like remora fish with sharks, both parties benefit from the relationship",

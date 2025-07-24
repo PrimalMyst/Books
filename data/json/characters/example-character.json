@@ -108,7 +108,7 @@
       },
       {
         "type": "multi-divine-influence",
-        "description": "Channels influences from Aurelius (guidance), Voltharion (cosmic communication), and Myrielle (transition wisdom)",
+        "description": "Channels influences from Fundamental and Primal tiers: Voltharion (cosmic communication) and Aurelius (guidance), while receiving Myrielle's support through monster companions",
         "first_occurred": "Third Age, Year 15"
       },
       {
@@ -117,7 +117,14 @@
         "first_occurred": "Third Age, Year 23"
       }
     ],
-    "divine_influences": ["aurelius-guidance", "voltharion-communication", "myrielle-transition"],
+    "divine_influences": {
+      "fundamental_gods": ["voltharion"],
+      "primal_gods": ["aurelius"],
+      "myrielle_guidance": {
+        "direct_influence": false,
+        "indirect_support": "Receives guidance through her Silverlight Wisp companion and realm-walking mount"
+      }
+    },
     "myst_jewelry_compatibility": [
       {
         "item_type": "realm-walking-ring",

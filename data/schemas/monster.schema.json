@@ -38,12 +38,24 @@
       "description": "How rare this monster or species is"
     },
     "divine_influences": {
-      "type": "array",
-      "items": {
-        "type": "string"
+      "type": "object",
+      "properties": {
+        "influences": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": ["pyrion", "glacius", "voltharion", "serafina", "aurelius", "korthak", "myrielle"]
+          },
+          "maxItems": 2,
+          "description": "Divine sources that influence this monster - maximum of 2 by cosmic law"
+        },
+        "myrielle_requirement": {
+          "type": "boolean",
+          "description": "Whether this monster requires Myrielle's influence (true for mounts and companions)"
+        }
       },
-      "maxItems": 2,
-      "description": "Divine sources that influence this monster - maximum of 2 by cosmic law"
+      "required": ["influences"],
+      "description": "Divine influence system - mounts and companions must include Myrielle"
     },
     "physical_description": {
       "type": "object",

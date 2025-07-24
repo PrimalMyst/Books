@@ -6,7 +6,10 @@
   "breed": "shadowmane",
   "status": "alive",
   "rarity": "uncommon",
-  "divine_influences": ["serafina-shadow", "korthak-hunt"],
+  "divine_influences": {
+    "influences": ["serafina", "korthak"],
+    "myrielle_requirement": false
+  },
   "physical_description": {
     "appearance": "A large feline predator with midnight-black fur that seems to absorb light. Its mane flows like living shadow, and its eyes glow with a pale blue light.",
     "size": "large",

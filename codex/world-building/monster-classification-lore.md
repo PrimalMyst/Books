@@ -14,7 +14,7 @@ Small creatures that follow players and channel Myrielle's guidance, like remora
 Like remora fish that attach to sharks for mutual benefit, these monster companions form bonds with humanoids where both parties benefit from the relationship.
 
 #### **Myrielle Fragment Powers:**
-These creatures serve as conduits for Myrielle's divine guidance, providing their bonded humanoids with mystical awareness and support.
+These creatures serve as conduits for Myrielle's divine guidance, providing their bonded humanoids with mystical awareness and support. Unlike the other six gods who can directly influence humanoids, Myrielle "The Hidden" cannot touch humanoid souls directly. She works through monster companions to guide her chosen heroes while remaining concealed, allowing her to influence events indirectly without breaking her veiled nature.
 
 #### **Guidance Manifestations:**
 - **Navigation**: Mystical maps, pathfinding, and direction sense
@@ -166,7 +166,7 @@ Like remora fish that attach to sharks for mutual benefit, these monster compani
 - **Support function only**: Their value lies in assistance, not martial prowess
 
 #### **Myrielle Fragment Powers:**
-These creatures serve as conduits for Myrielle's divine guidance, providing their bonded humanoids with mystical awareness and support.
+These creatures serve as conduits for Myrielle's divine guidance, providing their bonded humanoids with mystical awareness and support. Unlike the other six gods who can directly influence humanoids, Myrielle "The Hidden" cannot touch humanoid souls directly. She works through monster companions to guide her chosen heroes while remaining concealed, allowing her to influence events indirectly without breaking her veiled nature.
 
 #### **Guidance Manifestations:**
 - **Navigation**: Mystical maps, pathfinding, and direction sense
