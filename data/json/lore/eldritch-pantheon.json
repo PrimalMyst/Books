@@ -82,13 +82,13 @@
         "entities": {
           "myrielle_the_hidden": {
             "name": "Myrielle, the Hidden",
-            "domain": "Cycles, Rebirth, and Transition",
-            "description": "A mysterious entity who exists partially outside normal reality, Myrielle appears to Myst-Walkers at crucial moments of transition. Neither fully god nor mortal, she facilitates the great cycles - helping souls find new vessels when the cosmic mists shift, and ensuring that each cycle ends appropriately when its time is complete. Her true nature remains veiled, but her assistance is always genuine, if sometimes cryptic.",
-            "role_in_cycles": "Appears at league start to help Myst-Walkers manifest new physical forms suited to the current cosmic conditions. Guides the ending of each cycle when the cosmic patterns have run their course.",
+            "domain": "Transitions, Renewal, and Reality Guidance",
+            "description": "A mysterious entity who exists outside normal reality instances, Myrielle appears to Myst-Walkers at crucial moments of transition. Neither fully god nor mortal, she facilitates the cosmic breathing - helping souls find new vessels when reality instances transition, and ensuring that each instance concludes gracefully when its natural patterns complete. Her true nature remains veiled, but her assistance is always genuine, if sometimes cryptic.",
+            "role_in_transitions": "Appears during reality instance transitions to help Myst-Walkers manifest new physical forms suited to the emerging cosmic conditions. Guides the natural conclusion of instances when their cosmic patterns have reached completion.",
             "manifestation": "Appears as a figure wreathed in shifting mists, her true form never fully visible. Speaks in a voice that seems to come from everywhere and nowhere.",
-            "influence": "Reincarnation, cosmic cycles, transitions between states of being, the spaces between endings and beginnings",
-            "relationship_to_other_gods": "Neither opposes nor serves the other gods - operates on a different level entirely, ensuring the cosmic machinery continues to function",
-            "worship_status": "Not worshipped in traditional sense, but deeply respected by those who understand cosmic cycles"
+            "influence": "Renewal, cosmic transitions, transitions between states of being, the spaces between endings and beginnings",
+            "relationship_to_other_gods": "Neither opposes nor serves the other gods - operates on a different level entirely, ensuring the cosmic breathing continues to function naturally",
+            "worship_status": "Not worshipped in traditional sense, but deeply respected by those who understand cosmic transitions"
           }
         }
       }
@@ -97,7 +97,7 @@
   "lore_connections": {
     "yggdrasil_relationship": "The Fundamental Gods predate Yggdrasil itself, but the World Tree's growth was shaped by their primordial forces. The six great branches of Yggdrasil each anchor one realm that embodies a specific divine influence - three for the Primal Gods, three for the Fundamental Gods, while the Veiled Ones exist in the spaces between realms.",
     "damage_system_connection": "The damage types in PrimalMyst directly reflect this divine hierarchy - Fundamental forces (Fire, Cold, Lightning) represent the oldest magic, while Primal forces (Chaos, Radiance, Physical) represent more accessible but still potent divine power.",
-    "cycle_mechanics": "Myrielle's role explains the league mechanics from a lore perspective - each cosmic cycle brings new conditions that require new approaches, hence new character builds and abilities.",
+    "reality_instance_mechanics": "Myrielle's role explains the technical reality instance transitions from a lore perspective - each reality instance brings unique conditions that require new approaches, hence new character builds and abilities.",
     "myst_walker_connection": "Myst-Walkers are able to channel these divine influences because they can perceive and navigate the mist that connects all levels of reality - from the fundamental forces up through active gods to the veiled mysteries."
   },
   "cosmic_hierarchy": {

@@ -25,16 +25,16 @@ Welcome to the PrimalMyst Books repository! This project serves as the central h
 **PrimalMyst** is a free-to-play online action RPG that fuses the exploration freedom of Skyrim, mission-based cooperation, and the deep character progression of Path of Exile. Set in a mystical realm where the World Tree **Yggdrasil** anchors reality itself, players become Mist-Walkers—practitioners who explore the mysteries between the tree's roots and branches while mastering ancient mystical arts.
 
 #### **Core Concept**
-PrimalMyst operates on **Cosmic Cycles** - seasonal renewals where the mists of the cosmos shift and flow, allowing fresh exploration of Yggdrasil's many realms. Each cycle represents the World Tree's natural breathing, featuring:
-- **Cycle-specific mysteries** emerging from the cosmic mists
-- **Fresh discoveries and progression** as new branches of the World Tree become accessible
-- **Evolving mist patterns** that reshape the connections between realms
-- **Mystical abilities** that navigate cosmic currents and mystical energies
+PrimalMyst operates through **Reality Instances** - distinct configurations of cosmic forces where the mists of the cosmos manifest in unique patterns, allowing different approaches to exploring Yggdrasil's mysteries. Each instance represents a complete reality with its own natural cosmic breathing, featuring:
+- **Instance-specific mysteries** emerging from unique cosmic configurations
+- **Fresh discoveries and progression** as different aspects of the World Tree become accessible
+- **Unique mist patterns** that create distinct connections between realms
+- **Mystical abilities** that align with each instance's natural cosmic flow
 - **Cooperative expeditions** into the mist-shrouded branches and roots of existence
 
 #### **Key Features**
 - **⚔️ Fast-Paced Combat**: Fluid action combat combining mystical abilities with weapon mastery
-- **🔄 League System**: Fresh seasonal content with unique mechanics and league-specific rewards
+- **🔄 Reality Instance System**: Fresh content with unique cosmic configurations and instance-specific experiences
 - **🤝 Cooperative Gameplay**: 1-4 player missions requiring mystical coordination and strategy
 - **🌌 Open World Exploration**: Skyrim-inspired freedom to discover secrets across multiple mystical realms
 - **� Deep Character Building**: PoE-style passive skill trees with mystical ability specializations

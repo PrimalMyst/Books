@@ -11,7 +11,7 @@
   },
   "geography": {
     "terrain": "Rolling hills and fertile plains radiating outward from Yggdrasil's base",
-    "climate": "Temperate and stable, with mystical weather patterns that reflect cosmic cycles",
+    "climate": "Temperate and stable, with mystical weather patterns that reflect cosmic breathing patterns",
     "size": "Approximately 500 miles diameter",
     "borders": "Surrounded by the six straits leading to the divine island realms"
   },
@@ -137,7 +137,7 @@
     "to_islands": "Regular ships depart from each gate city to its corresponding island realm",
     "travel_time": "2-3 days by normal ship, faster with divine blessing or mystical enhancement",
     "mystical_routes": "Advanced mystics can travel instantly via Yggdrasil's branch network",
-    "myrielle_guidance": "The Hidden One provides special transport during cosmic cycle transitions"
+    "myrielle_guidance": "The Hidden One provides special transport during reality instance transitions"
   },
   "metadata": {
     "version": "1.0",
