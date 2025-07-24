@@ -31,7 +31,7 @@
     },
     "league": {
       "file": "data/schemas/league.schema.json",
-      "description": "League mechanics and world types defining different gameplay experiences",
+      "description": "Reality instance systems defining the fundamental containers within which all existence and events occur",
       "required_fields": ["id", "name", "type", "status", "duration", "metadata"],
       "example": "data/json/leagues/current-league-example.json"
     },
@@ -119,7 +119,7 @@
         "geography": "World geography, island realms, and physical manifestations",
         "divine-hierarchy": "Fundamental Gods, Primal Gods, and Veiled Ones",
         "mystical-arts": "Mist-working, Paths of Mastery, and skill-based systems",
-        "cosmic-cycles": "Great Cycles, cosmic rhythms, and Myrielle's guidance", 
+        "cosmic-rhythms": "Reality instances, cosmic breathing, and natural transitions", 
         "mythology": "Creation myths, divine stories, and ancient wisdom",
         "mysteries": "Unexplained phenomena and unanswered questions"
       },
@@ -143,11 +143,11 @@
       "schema": "league",
       "count": 3,
       "subcategories": {
-        "current": "Active seasonal leagues with temporary content",
-        "standard-eternal": "Permanent leagues for veteran characters",
-        "offline-eternal": "Offline permanent leagues for solo play",
-        "hardcore": "High-difficulty variant leagues",
-        "event": "Special short-term event leagues"
+        "current": "Active seasonal reality instances with temporary content",
+        "standard-eternal": "Permanent instances for veteran characters",
+        "offline-eternal": "Offline permanent instances for solo play",
+        "hardcore": "High-difficulty variant instances",
+        "event": "Special short-term event instances"
       }
     },
     "damage-types": {

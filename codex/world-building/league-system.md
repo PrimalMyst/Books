@@ -111,23 +111,23 @@ The **Offline Eternal** league provides a parallel permanent experience for play
 - **Social Data**: Friend lists, guild memberships (online leagues only)
 
 ### What Doesn't Transfer
-- **League-Specific Currency**: mystical essences unique to that league
-- **Temporary Buffs**: League mechanic bonuses that expire
-- **Seasonal Rankings**: Ladder positions and race records
+- **Instance-Specific Currency**: mystical essences unique to that reality instance
+- **Temporary Enhancements**: Instance-specific bonuses that don't carry over
+- **Seasonal Rankings**: Performance records within specific instances
 - **Instance Progress**: Partially completed dungeons or raids
 
 ## Lore Integration
 
 ### Narrative Justification
-The league system is explained through **mystical Cycle Theory**:
+The reality instance system is explained through **cosmic breathing patterns**:
 
-- **Current Leagues**: Represent active timeline branches being explored
-- **Standard Eternal**: The "true" timeline that emerges from successful resolutions
-- **Offline Eternal**: Parallel dimension bubbles for individual mist-walker training
+- **Current Instances**: Represent the active reality configuration being experienced
+- **Standard Eternal**: A stable baseline reality configuration for established practitioners  
+- **Offline Eternal**: Personal reality pockets for individual mist-walker development
 
 ### World Continuity
-- Each league represents a different approach to resolving mystical crises
-- Successful leagues contribute knowledge to the greater timeline
+- Each reality instance represents a different cosmic configuration with unique challenges and opportunities
+- All instances exist within the natural breathing of cosmic forces, with transitions guided by Myrielle
 - Failed or incomplete leagues become "mystical echoes" that may resurface
 - Veterans in Standard Eternal mentor new mist-walkers based on their experience
 

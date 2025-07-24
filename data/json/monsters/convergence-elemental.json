@@ -168,7 +168,7 @@
       "player_group_high_divine_activity"
     ],
     "time_restrictions": {
-      "mystical_cycles": ["high_convergence", "storm_season"],
+      "mystical_patterns": ["high_convergence", "storm_season"],
       "in_game_time": "any",
       "cooldown_between_spawns": 180
     },

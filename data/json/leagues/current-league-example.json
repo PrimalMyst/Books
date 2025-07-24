@@ -9,28 +9,28 @@
     "planned_duration": "3 months"
   },
   "world_state": {
-    "timeline_branch": "Prime Timeline - Cycle 847",
+    "reality_instance": "Echoes of Convergence - Instance 847",
     "reset_conditions": [
-      "League timer expiration",
-      "Final boss defeated by sufficient players",
-      "Critical mystical instability reached"
+      "Reality instance reaches natural conclusion",
+      "Cosmic patterns complete their cycle",
+      "Natural transition to new instance configuration"
     ],
     "persistent_elements": [
       "Account-wide achievements",
       "Cosmetic unlocks", 
-      "Lore discoveries",
+      "Cross-reality knowledge",
       "Friend lists and guild memberships"
     ],
     "unique_features": [
       {
         "feature": "Convergence Echoes",
-        "description": "mystical echoes appear randomly that show glimpses of alternate timeline events",
-        "impact": "Players can witness and sometimes interact with past/future league mechanics"
+        "description": "Mystical phenomena unique to this reality instance",
+        "impact": "Players experience world events shaped by this specific reality's conditions"
       },
       {
-        "feature": "Cascading Timeline Events",
-        "description": "Player actions collectively influence world-state changes that affect all players",
-        "impact": "Community decisions reshape available content and story progression"
+        "feature": "Collective World Shaping",
+        "description": "Community actions influence the development of this reality instance",
+        "impact": "Player choices collectively determine available content and world progression"
       }
     ]
   },
@@ -53,15 +53,15 @@
     "progression_type": "temporary",
     "migration_rules": {
       "eligible_characters": [
-        "Characters that defeated the final boss",
-        "Characters above level threshold at league end"
+        "Characters that completed major story milestones",
+        "Characters above level threshold at reality transition"
       ],
-      "migration_trigger": "League end or final boss completion", 
+      "migration_trigger": "Myrielle's guidance to new reality instance", 
       "items_transferred": [
         "All equipment and inventory",
         "Skill progression",
         "Quest completion status",
-        "Atlas progression"
+        "World exploration progress"
       ]
     }
   },
@@ -86,27 +86,28 @@
     "completion_rewards": [
       {
         "reward_type": "migration",
-        "description": "Character migrates to Standard Eternal league with all progress"
+        "description": "Character transitions to Standard Eternal reality instance with all progress"
       },
       {
         "reward_type": "cosmetic", 
-        "description": "Unique league completion cosmetic effects"
+        "description": "Unique instance completion cosmetic effects"
       },
       {
         "reward_type": "achievement",
-        "description": "League completion achievements and titles"
+        "description": "Instance completion achievements and titles"
       }
     ],
-    "post_completion": "Character automatically migrates to Standard Eternal league, player can create new character for continued current league play"
+    "post_completion": "Character automatically transitions to Standard Eternal instance, player can create new character for continued current instance play"
   },
   "lore_integration": {
-    "narrative_theme": "Investigating echoes from the original mystical Convergence that are surfacing in the present",
-    "timeline_explanation": "This cycle represents a period where mystical resonance from the Great Convergence is causing historical events to 'echo' into the present",
+    "narrative_theme": "A reality instance where echoes from primordial convergence events create unique mystical phenomena",
+    "cosmological_explanation": "This specific reality instance exists within Myrielle's guidance, shaped by the collective experiences and choices of all who inhabit it",
     "world_changes": [
-      "Ancient ruins phase in and out of existence",
-      "NPCs occasionally speak dialogue from past/future leagues",
-      "Locations may temporarily transform to show historical states"
-    ]
+      "Ancient events leave mystical echoes that affect current experiences",
+      "The world responds dynamically to community actions and discoveries",
+      "Locations may reveal hidden aspects based on collective story progression"
+    ],
+    "myrielle_role": "The Hidden One guides the transition between reality instances, ensuring continuity while allowing for new experiences"
   },
   "technical_details": {
     "server_type": "online",

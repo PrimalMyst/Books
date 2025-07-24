@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "title": "PrimalMyst League System",
-  "description": "Schema for league mechanics and world types in PrimalMyst",
+  "title": "PrimalMyst Reality Instance System",
+  "description": "Schema for reality instances in PrimalMyst - the fundamental containers within which all existence and events occur. Only Myrielle exists outside these instances.",
   "type": "object",
   "properties": {
     "id": {
@@ -46,23 +46,23 @@
     "world_state": {
       "type": "object",
       "properties": {
-        "timeline_branch": {
+        "reality_instance": {
           "type": "string",
-          "description": "Which timeline branch this league represents"
+          "description": "Identifier for this specific reality instance"
         },
         "reset_conditions": {
           "type": "array",
           "items": {
             "type": "string"
           },
-          "description": "What triggers world reset"
+          "description": "What triggers transition to new reality instance"
         },
         "persistent_elements": {
           "type": "array",
           "items": {
             "type": "string"
           },
-          "description": "What carries over between resets"
+          "description": "What carries over between reality instances"
         },
         "unique_features": {
           "type": "array",
@@ -75,11 +75,11 @@
               },
               "description": {
                 "type": "string",
-                "description": "How this feature works"
+                "description": "How this feature works in this reality instance"
               },
               "impact": {
                 "type": "string",
-                "description": "How this affects gameplay"
+                "description": "How this affects gameplay and world experience"
               }
             }
           }
@@ -263,18 +263,22 @@
       "properties": {
         "narrative_theme": {
           "type": "string",
-          "description": "The main narrative theme of this league"
+          "description": "The main narrative theme of this reality instance"
         },
-        "timeline_explanation": {
+        "cosmological_explanation": {
           "type": "string",
-          "description": "How this league fits into the mystical lore"
+          "description": "How this reality instance fits within Myrielle's guidance and the greater cosmology"
         },
         "world_changes": {
           "type": "array",
           "items": {
             "type": "string"
           },
-          "description": "How the world differs from previous leagues"
+          "description": "How this reality instance differs from others"
+        },
+        "myrielle_role": {
+          "type": "string",
+          "description": "How Myrielle influences or guides this reality instance"
         }
       }
     },
