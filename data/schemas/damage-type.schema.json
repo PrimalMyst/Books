@@ -20,7 +20,7 @@
     },
     "type": {
       "type": "string",
-      "enum": ["fire", "cold", "lightning", "radiance", "chaos", "physical", "mystical-slow", "mystical-acceleration", "mystical-fracture"],
+      "enum": ["fire", "cold", "lightning", "radiance", "chaos", "physical"],
       "description": "Specific damage type"
     },
     "hexagonal_position": {
@@ -251,7 +251,7 @@
       "properties": {
         "time_interaction": {
           "type": "string",
-          "enum": ["accelerates", "slows", "fragments", "echoes", "none"],
+          "enum": ["accelerates", "slows", "fragments", "echoes", "amplifies", "nullifies"],
           "description": "How this damage affects time flow"
         },
         "mist-walker_synergy": {

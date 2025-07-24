@@ -34,7 +34,7 @@
     },
     "rarity": {
       "type": "string",
-      "enum": ["common", "uncommon", "rare", "extremely-rare", "extraordinarily-rare", "unique"],
+      "enum": ["common", "uncommon", "rare", "epic", "legendary", "unique"],
       "description": "How rare this monster or species is"
     },
     "divine_influences": {
@@ -246,7 +246,7 @@
           },
           "power_level": {
             "type": "string",
-            "enum": ["minor", "moderate", "major", "legendary"],
+            "enum": ["minor", "moderate", "major", "legendary", "mythical", "transcendent"],
             "description": "Relative power level - monsters cannot reach 'mythical' level"
           }
         },
@@ -280,7 +280,7 @@
             },
             "taming_difficulty": {
               "type": "string",
-              "enum": ["easy", "moderate", "hard", "extremely-hard", "legendary"],
+              "enum": ["easy", "moderate", "hard", "very-hard", "legendary", "mythical"],
               "description": "Difficulty level of taming this mount"
             },
             "bonding_requirements": {

@@ -1,18 +1,50 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "title": "PrimalMyst Rank and Level System",
-  "description": "Common rank and level definitions used across all PrimalMyst systems - characters, monsters, items, zones, etc.",
+  "description": "Common rank and level definitions used across all PrimalMyst systems - characters, monsters, items, zones, etc. This system reflects the mystical numerical harmonies inherent in the world.",
+  
+  "lore_foundation": {
+    "reference": "mystical-number-harmonies",
+    "description": "This rank system emerges from the observed mystical number harmonies that govern cosmic phenomena throughout the PrimalMyst world.",
+    "key_principles": [
+      "Six ranks reflect the six-fold patterns found in divine manifestations",
+      "Level progression aligns with natural mystical advancement thresholds",
+      "SS designation represents the mystical significance of reaching perfect mastery (level 100)"
+    ]
+  },
+  
   "definitions": {
     "rank": {
       "type": "string",
-      "enum": ["E", "D", "C", "B", "A", "S", "SS"],
-      "description": "Rank classification from E (lowest) to SS (transcendent)"
+      "enum": ["E", "D", "C", "B", "A", "S"],
+      "description": "Rank classification from E (lowest) to S (highest). S rank includes elite tier at levels 95-100"
     },
     "level": {
       "type": "integer",
       "minimum": 1,
       "maximum": 100,
       "description": "Level from 1 to 100"
+    },
+    "SS_designation": {
+      "type": "object",
+      "properties": {
+        "applies_to": {
+          "type": "string",
+          "enum": ["level_100_only"],
+          "description": "SS designation applies exclusively to level 100"
+        },
+        "purpose": {
+          "type": "string",
+          "enum": ["content_gating", "achievement_marker", "progression_cap"],
+          "description": "Primary purpose of SS designation"
+        },
+        "access_level": {
+          "type": "string",
+          "enum": ["maximum_content", "endgame_ultimate", "transcendent_challenges"],
+          "description": "What content SS designation unlocks"
+        }
+      },
+      "description": "Special SS designation for level 100 characters - serves as both achievement marker and content access gate"
     },
     "rank_tier": {
       "type": "object",
@@ -97,15 +129,11 @@
         "S": {
           "type": "object",
           "properties": {
-            "level_range": {"type": "string", "pattern": "^85-99$"},
-            "description": {"type": "string"}
-          }
-        },
-        "SS": {
-          "type": "object",
-          "properties": {
-            "level_range": {"type": "string", "pattern": "^100$"},
-            "description": {"type": "string"}
+            "level_range": {"type": "string", "pattern": "^85-100$"},
+            "standard_range": {"type": "string", "pattern": "^85-99$"},
+            "SS_designation": {"type": "string", "pattern": "^100$"},
+            "description": {"type": "string"},
+            "SS_note": {"type": "string", "default": "SS designation applies only to level 100 - serves as access gate for maximum level content"}
           }
         }
       },
@@ -162,6 +190,16 @@
             "enum": ["pyrion", "glacius", "voltharion", "serafina", "aurelius", "korthak", "myrielle"]
           },
           "description": "Required divine influences for access"
+        },
+        "SS_designation_required": {
+          "type": "boolean",
+          "description": "Whether SS designation (level 100) is required for access",
+          "default": false
+        },
+        "SS_exclusive": {
+          "type": "boolean", 
+          "description": "Whether content is exclusively for SS designation holders (level 100 only)",
+          "default": false
         }
       },
       "description": "Requirements to access content, areas, or items"
@@ -171,8 +209,8 @@
       "properties": {
         "threat_level": {
           "type": "string",
-          "enum": ["trivial", "minor", "moderate", "dangerous", "deadly", "legendary", "mythical", "cosmic"],
-          "description": "Threat or power level classification"
+          "enum": ["trivial", "minor", "moderate", "dangerous", "deadly", "legendary"],
+          "description": "Threat or power level classification (6 levels following design principles)"
         },
         "rank_equivalent": {
           "$ref": "#/definitions/rank"
@@ -186,7 +224,7 @@
             "type": "string",
             "enum": ["elite", "boss", "unique", "divine-touched", "corrupted", "transcendent"]
           },
-          "description": "Special classifications affecting power level"
+          "description": "Special classifications affecting power level (6 modifiers following design principles)"
         }
       },
       "description": "Power classification for encounters, items, and challenges"

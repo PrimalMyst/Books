@@ -5,7 +5,7 @@
   "type": "convergence",
   "significance": "cosmic",
   "power_classification": {
-    "event_rank": "SS",
+    "event_rank": "S",
     "participants_level_range": {
       "minimum": 80,
       "maximum": 100
@@ -17,9 +17,10 @@
     },
     "revelation_unlock": {
       "unlocks_at_rank": "S",
-      "unlocks_at_level": 85,
+      "unlocks_at_level": 100,
+      "SS_designation_required": true,
       "story_act_requirement": 4,
-      "description": "Only cosmic-level beings can fully comprehend the convergence event"
+      "description": "Only SS designation holders (level 100) can fully comprehend the convergence event"
     }
   },
   "date": {

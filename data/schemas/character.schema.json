@@ -22,7 +22,7 @@
     },
     "status": {
       "type": "string",
-      "enum": ["alive", "dead", "missing", "unknown", "mythical"],
+      "enum": ["alive", "dead", "missing", "unknown", "mythical", "transcendent"],
       "description": "Current status of the character"
     },
     "faction": {
@@ -126,7 +126,7 @@
           },
           "relationship": {
             "type": "string",
-            "enum": ["family", "friend", "enemy", "ally", "neutral", "romantic", "mentor", "student", "rival"],
+            "enum": ["family", "friend", "enemy", "ally", "neutral", "romantic"],
             "description": "Type of relationship"
           },
           "description": {
@@ -157,7 +157,7 @@
           },
           "power_level": {
             "type": "string",
-            "enum": ["minor", "moderate", "major", "legendary", "mythical"],
+            "enum": ["minor", "moderate", "major", "legendary", "mythical", "transcendent"],
             "description": "Relative power level"
           }
         },
@@ -331,7 +331,7 @@
       "properties": {
         "current_rank": {
           "type": "string",
-          "enum": ["E", "D", "C", "B", "A", "S", "SS"],
+          "enum": ["E", "D", "C", "B", "A", "S"],
           "description": "Current rank classification"
         },
         "current_level": {
@@ -371,7 +371,7 @@
         },
         "divine_transcendence_level": {
           "type": "string",
-          "enum": ["dormant", "awakened", "developing", "accomplished", "master", "legendary", "transcendent", "cosmic"],
+          "enum": ["dormant", "awakened", "developing", "accomplished", "master", "transcendent"],
           "description": "Level of divine influence mastery corresponding to rank"
         }
       },
