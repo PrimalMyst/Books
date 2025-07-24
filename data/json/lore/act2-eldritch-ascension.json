@@ -1,0 +1,132 @@
+{
+  "id": "act2-eldritch-ascension",
+  "title": "Act 2: Eldritch Ascension - Beyond Divine Immunity",
+  "category": "story-structure",
+  "subcategory": "act2-narrative",
+  "knowledge_level": "advanced",
+  "certainty": "ancient-wisdom",
+  "description": {
+    "summary": "With immunity to all six Fundamental Gods established, Myst-Walkers face the greater challenge of Eldritch entities while beginning their ascension under Myrielle's hidden guidance. This act introduces the first of Myrielle's secret trials that award Ascendency Points.",
+    "detailed": "Act 2 represents the transition from proven practitioner to ascending mystic. Having survived the basic divine influences, players now face the true cosmic powers - the Eldritch entities that exist beyond conventional divine hierarchy. Myrielle's presence becomes more apparent as she extends her peaceful zones to more settlements, while secretly testing worthy practitioners through hidden trials that grant Ascendency Points. This act establishes that after securing basic existence, Myrielle begins shaping promising souls into potential threats to the Eldritch order itself.",
+    "narrative_significance": "Act 2 establishes Myrielle's true agenda: cultivating mortal champions capable of challenging cosmic powers that even gods fear to face directly."
+  },
+  "act2_structure": {
+    "prerequisites": {
+      "divine_immunity_requirement": "Complete immunity to all six Fundamental Gods (all Act 1 trials completed)",
+      "power_threshold": "Minimum monster encounter level of 36+ from six divine trial completions",
+      "eldritch_resistance": "Ability to exist in presence of Eldritch entities without immediate decay",
+      "myrielle_recognition": "Having demonstrated worthiness through comprehensive divine approval"
+    },
+    "eldritch_encounters": {
+      "challenge_escalation": "Face cosmic entities that operate beyond normal divine limitations",
+      "power_scaling": "Encounters with beings that require maximum divine approval to survive",
+      "cosmic_mysteries": "Uncover the true hierarchy of cosmic powers and Myrielle's place within it",
+      "reality_threats": "Confront forces that can destabilize entire reality instances"
+    },
+    "myrielle_expansion": {
+      "increased_presence": {
+        "expanded_peaceful_zones": "Myrielle's influence spreads to additional towns and settlements",
+        "stronger_manifestations": "More direct signs of her presence and protection",
+        "enhanced_recognition": "Greater awareness of her role among island populations",
+        "deeper_mysteries": "Hints about her true nature and cosmic significance"
+      },
+      "hidden_trial_system": {
+        "secret_trials": "Three hidden divine trials scattered throughout Act 2",
+        "trial_discovery": "Trials are concealed and must be found through investigation and worthiness",
+        "ascendency_points": "Each trial awards 1 Ascendency Point (3 total available in Act 2)",
+        "cosmic_preparation": "Trials prepare practitioners for challenges beyond divine approval"
+      }
+    },
+    "power_progression": {
+      "eldritch_immunity_development": "Gradual resistance to cosmic decay and reality distortion",
+      "ascendency_point_accumulation": "First opportunity to earn points toward transcendent power",
+      "enhanced_mystical_authority": "Recognition as cosmic-level practitioner rather than merely divine-approved",
+      "reality_manipulation": "Beginning stages of power that can affect fundamental cosmic structures"
+    }
+  },
+  "myrielle_hidden_trials": {
+    "trial_characteristics": {
+      "concealment": "Hidden within existing locations, require specific conditions to access",
+      "discovery_methods": [
+        "Following mystical clues and environmental signs",
+        "Demonstrating specific combinations of divine approvals",
+        "Showing readiness through actions and choices rather than direct seeking",
+        "Being guided by enhanced companion abilities or mystical intuition"
+      ],
+      "trial_philosophy": "Test readiness to transcend conventional divine limitations",
+      "ascendency_focus": "Each trial grants 1 Ascendency Point, preparing for cosmic-level challenges"
+    },
+    "placeholder_trials": [
+      {
+        "trial_name": "The Hidden Path of Truth",
+        "location": "TBD - Concealed within major settlement",
+        "focus": "Understanding the nature of cosmic deception and hidden realities",
+        "ascendency_aspect": "Ability to perceive beyond conventional divine presentations"
+      },
+      {
+        "trial_name": "The Secret of Eternal Guidance", 
+        "location": "TBD - Hidden in mystical landmark",
+        "focus": "Recognizing Myrielle's true role in cosmic order",
+        "ascendency_aspect": "Comprehension of forces that guide universal development"
+      },
+      {
+        "trial_name": "The Test of Cosmic Worthiness",
+        "location": "TBD - Accessible only after specific achievements",
+        "focus": "Proving readiness to challenge cosmic hierarchies",
+        "ascendency_aspect": "Authorization to act against cosmic entities"
+      }
+    ]
+  },
+  "lore_implications": {
+    "myrielle_agenda_revelation": {
+      "divine_immunity_purpose": "Basic survival was only the first step in a larger plan",
+      "threat_cultivation": "Myrielle actively shapes practitioners into cosmic threats",
+      "eldritch_opposition": "The Eldritch entities represent the true cosmic power that must be challenged",
+      "hidden_war": "A cosmic conflict exists beyond the visible divine hierarchy"
+    },
+    "cosmic_hierarchy_truth": {
+      "eldritch_supremacy": "Eldritch entities hold power that even Fundamental and Primal Gods cannot challenge directly",
+      "myrielle_position": "The Hidden One operates outside normal cosmic hierarchy",
+      "mortal_potential": "Properly prepared mortals can achieve power that gods cannot",
+      "ascendency_purpose": "Ascendency Points represent steps toward cosmic-threatening capability"
+    }
+  },
+  "transition_to_act3": {
+    "completion_state": "Players have earned first 3 Ascendency Points and established cosmic-level authority",
+    "power_threshold": "Capable of surviving direct Eldritch encounters without divine protection",
+    "myrielle_relationship": "Recognized as worthy of deeper mysteries and greater challenges",
+    "cosmic_awareness": "Understanding of true cosmic conflicts and their role within them"
+  },
+  "placeholder_content": {
+    "eldritch_entities": "TBD - Specific cosmic beings and their challenge mechanics",
+    "hidden_trial_locations": "TBD - Exact placement and access requirements",
+    "ascendency_point_mechanics": "TBD - How points affect abilities and cosmic interactions",
+    "expanded_peaceful_zones": "TBD - Which additional settlements receive Myrielle's protection"
+  },
+  "related_content": {
+    "prerequisite_systems": [
+      "act1-divine-trials",
+      "divine-immunity-accumulation",
+      "fundamental-god-approval"
+    ],
+    "progression_systems": [
+      "ascendency-point-accumulation",
+      "eldritch-resistance-development",
+      "cosmic-authority-recognition"
+    ],
+    "story_connections": [
+      "myrielle-hidden-agenda",
+      "cosmic-hierarchy-revelation",
+      "eldritch-entity-encounters"
+    ]
+  },
+  "metadata": {
+    "created": "2025-07-24T21:00:00Z",
+    "last_updated": "2025-07-24T21:00:00Z",
+    "author": "PrimalMyst Development Team",
+    "version": "1.0.0",
+    "canonical": true,
+    "story_position": "Act 2 - Post-Divine Immunity",
+    "development_status": "Placeholder structure - detailed content TBD"
+  }
+}

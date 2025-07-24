@@ -1,0 +1,194 @@
+{
+  "id": "primalmyst-story-structure",
+  "title": "PrimalMyst Complete Story Structure: The Myrielle Path",
+  "category": "story-structure",
+  "subcategory": "overall-narrative",
+  "knowledge_level": "foundational",
+  "certainty": "ancient-wisdom",
+  "description": {
+    "summary": "The complete three-act structure of PrimalMyst, following a Myst-Walker's journey from formless spirit to cosmic champion under Myrielle's hidden guidance.",
+    "detailed": "PrimalMyst's story follows a carefully orchestrated progression designed by Myrielle to transform worthy souls into cosmic champions capable of challenging the fundamental order of existence. Beginning with basic survival and divine approval, the narrative escalates through Eldritch encounters to ultimate cosmic transformation. Each act builds upon the previous, revealing more of Myrielle's true agenda while granting increasing power and cosmic authority.",
+    "narrative_significance": "This structure reveals Myrielle's ultimate purpose: cultivating mortal champions who can achieve power that even gods cannot, specifically to challenge the Eldritch entities that maintain cosmic stagnation."
+  },
+  "overall_progression": {
+    "prologue": {
+      "title": "The Awakening Journey",
+      "focus": "Spirit manifestation and companion bonding",
+      "power_level": "Minimum monster level 1-5 (tutorial), then 6+ (manifested)",
+      "key_achievement": "Gaining physical form and choosing starting affiliation",
+      "myrielle_presence": "Mysterious guidance during manifestation process",
+      "preparation": "Basic mystical awareness and companion relationship"
+    },
+    "act1": {
+      "title": "Divine Trials - Proving Worthiness",
+      "focus": "Surviving divine influence and earning approval",
+      "power_level": "Minimum monster level 6+ to 36+ (six +6 increases)",
+      "key_achievement": "Immunity to all six Fundamental Gods' decay",
+      "myrielle_presence": "Central town peaceful zones, subtle protection",
+      "preparation": "Divine immunity required for Eldritch survival"
+    },
+    "act2": {
+      "title": "Eldritch Ascension - Beyond Divine Immunity", 
+      "focus": "Facing cosmic entities and beginning ascension",
+      "power_level": "Cosmic-level encounters, enhanced mystical authority",
+      "key_achievement": "3 Ascendency Points from hidden Myrielle trials",
+      "myrielle_presence": "Expanded peaceful zones, more direct manifestations",
+      "preparation": "Cosmic awareness and resistance to Eldritch influence"
+    },
+    "act3": {
+      "title": "Cosmic Ascendant - The Myrielle Champion",
+      "focus": "Ultimate transformation and cosmic authority",
+      "power_level": "Reality-shaping power, threat to cosmic order",
+      "key_achievement": "6 total Ascendency Points, cosmic champion status",
+      "myrielle_presence": "Regional protection, open communication and alliance",
+      "preparation": "Readiness to challenge Eldritch supremacy itself"
+    }
+  },
+  "power_progression_system": {
+    "monster_level_scaling": {
+      "prologue": "Levels 1-5 (formless spirit), then 6+ (manifested form)",
+      "act1": "6 → 12 → 18 → 24 → 30 → 36 (six divine trials)",
+      "act2": "Cosmic-level encounters beyond normal scaling",
+      "act3": "Reality-shaping authority transcending normal limitations"
+    },
+    "ascendency_point_progression": {
+      "prologue": "0 points - Focus on basic survival and manifestation",
+      "act1": "0 points - Focus on divine immunity and approval",
+      "act2": "0 → 3 points - First cosmic transformation steps",
+      "act3": "3 → 6 points - Ultimate cosmic champion transformation"
+    },
+    "cosmic_authority_development": {
+      "prologue": "Guided spirit seeking form",
+      "act1": "Divinely approved practitioner",
+      "act2": "Cosmic-aware mystic with Eldritch resistance", 
+      "act3": "Cosmic champion capable of reality manipulation"
+    }
+  },
+  "myrielle_presence_evolution": {
+    "prologue": {
+      "manifestation": "Hidden guidance and mysterious support",
+      "scope": "Personal guidance during awakening process",
+      "purpose": "Ensuring successful manifestation and path selection",
+      "revelation": "Existence of The Hidden One who aids transitions"
+    },
+    "act1": {
+      "manifestation": "Central town peaceful zones on all islands",
+      "scope": "Protected areas for commerce and conflict resolution",
+      "purpose": "Ensuring survival and providing safe havens",
+      "revelation": "Power beyond normal divine limitations"
+    },
+    "act2": {
+      "manifestation": "Expanded peaceful zones, stronger presence",
+      "scope": "Multiple towns and settlements under protection",
+      "purpose": "Supporting worthy practitioners while testing them",
+      "revelation": "Active cultivation of cosmic champions"
+    },
+    "act3": {
+      "manifestation": "Regional protection and open communication",
+      "scope": "Entire archipelagos under peaceful influence",
+      "purpose": "Full alliance with cosmic champions",
+      "revelation": "Complete agenda of cosmic revolution"
+    }
+  },
+  "hidden_trial_system": {
+    "distribution": {
+      "prologue": "0 trials - Focus on manifestation and divine positioning",
+      "act1": "0 trials - Focus on fundamental divine approval",
+      "act2": "3 hidden trials - First ascendency point opportunities",
+      "act3": "3 ultimate trials - Final cosmic transformation"
+    },
+    "progression_philosophy": {
+      "act1_foundation": "Divine immunity provides basic cosmic survival",
+      "act2_advancement": "Hidden trials test readiness for cosmic authority",
+      "act3_transcendence": "Ultimate trials enable reality-shaping transformation",
+      "cosmic_maximum": "6 points represent the limit of mortal cosmic transformation"
+    },
+    "discovery_escalation": {
+      "act2_trials": "Hidden but discoverable through investigation and worthiness",
+      "act3_trials": "Deeply concealed, requiring maximum cosmic readiness",
+      "accessibility": "Each requires demonstration of readiness rather than direct seeking",
+      "cosmic_authorization": "Myrielle personally determines access to ultimate trials"
+    }
+  },
+  "thematic_progression": {
+    "survival_to_authority": {
+      "prologue": "Learning to exist in mystical reality",
+      "act1": "Proving worthiness to survive divine presence",
+      "act2": "Developing authority to face cosmic entities",
+      "act3": "Achieving power to challenge cosmic order"
+    },
+    "myrielle_relationship": {
+      "prologue": "Mysterious benefactor and guide",
+      "act1": "Protective force ensuring survival",
+      "act2": "Teacher and challenger revealing deeper mysteries",
+      "act3": "Ally and co-conspirator in cosmic revolution"
+    },
+    "cosmic_understanding": {
+      "prologue": "Basic mystical awareness and divine existence",
+      "act1": "Understanding divine hierarchy and approval systems",
+      "act2": "Recognizing Eldritch supremacy and cosmic limitations",
+      "act3": "Comprehending the hidden war and revolutionary potential"
+    }
+  },
+  "story_culmination": {
+    "myrielle_agenda_complete": "Successful cultivation of cosmic champions capable of challenging Eldritch supremacy",
+    "practitioner_transformation": "Evolution from formless spirit to reality-shaping cosmic force",
+    "cosmic_revolution": "Initiation of conflict against stagnant cosmic order",
+    "ultimate_freedom": "Potential liberation of all existence from cosmic limitations"
+  },
+  "lore_revelation_sequence": {
+    "act1_reveals": [
+      "Divine hierarchy and approval requirements",
+      "Myrielle's existence and protective nature",
+      "Fundamental vs Primal god distinctions",
+      "Divine decay and immunity mechanics"
+    ],
+    "act2_reveals": [
+      "Eldritch entities as supreme cosmic powers",
+      "Myrielle's agenda extends beyond protection",
+      "Ascendency points as steps toward cosmic transformation",
+      "Hidden trials as preparation for cosmic authority"
+    ],
+    "act3_reveals": [
+      "Myrielle's cosmic revolutionary purpose",
+      "Mortal potential to exceed divine limitations", 
+      "Cosmic war between stagnation and transformation",
+      "Ultimate goal of universal liberation"
+    ]
+  },
+  "gameplay_integration": {
+    "power_scaling": "Monster levels and encounter difficulty scale with story progression",
+    "choice_consequences": "Divine trial choices affect cosmic transformation path",
+    "discovery_mechanics": "Hidden trials require investigation and demonstration of worthiness",
+    "transformation_rewards": "Ascendency points grant concrete cosmic abilities and authority"
+  },
+  "related_content": {
+    "story_acts": [
+      "prologue-awakening-journey",
+      "act1-divine-trials", 
+      "act2-eldritch-ascension",
+      "act3-cosmic-ascendant"
+    ],
+    "progression_systems": [
+      "divine-trial-completion",
+      "ascendency-point-accumulation",
+      "cosmic-transformation-levels",
+      "myrielle-relationship-development"
+    ],
+    "world_systems": [
+      "myrielle-central-town-presence",
+      "divine-acknowledgment-tremor",
+      "pantheon-trials-positioning",
+      "cosmic-authority-hierarchy"
+    ]
+  },
+  "metadata": {
+    "created": "2025-07-24T22:00:00Z",
+    "last_updated": "2025-07-24T22:00:00Z",
+    "author": "PrimalMyst Development Team",
+    "version": "1.0.0",
+    "canonical": true,
+    "story_position": "Complete narrative structure",
+    "development_status": "Act 1 complete, Acts 2-3 structured placeholders"
+  }
+}
