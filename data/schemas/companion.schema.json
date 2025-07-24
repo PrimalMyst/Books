@@ -1,0 +1,335 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Companion System",
+  "description": "Schema for companion creatures that accompany Myst-Walkers on their journey",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$",
+      "description": "Unique identifier for the companion"
+    },
+    "name": {
+      "type": "string",
+      "description": "The companion's name"
+    },
+    "type": {
+      "type": "string",
+      "enum": ["mist-wisp", "elemental-sprite", "divine-familiar", "chaos-spawn", "earth-guardian", "storm-herald"],
+      "description": "The category of companion creature"
+    },
+    "origin": {
+      "type": "string",
+      "enum": ["myrielle-gift", "elemental-bond", "divine-blessing", "natural-attraction", "mystical-creation"],
+      "description": "How the companion came to join the character"
+    },
+    "appearance": {
+      "type": "object",
+      "properties": {
+        "size": {
+          "type": "string",
+          "enum": ["tiny", "small", "medium", "large"],
+          "description": "Physical size category"
+        },
+        "form": {
+          "type": "string",
+          "description": "Basic physical description"
+        },
+        "colors": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Primary colors and visual themes"
+        },
+        "distinctive_features": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Unique visual characteristics"
+        },
+        "manifestation_style": {
+          "type": "string",
+          "enum": ["solid", "translucent", "shifting", "energy-based", "partially-phased"],
+          "description": "How solidly the companion manifests in reality"
+        }
+      },
+      "required": ["size", "form", "manifestation_style"]
+    },
+    "personality": {
+      "type": "object",
+      "properties": {
+        "traits": {
+          "type": "array",
+          "minItems": 3,
+          "maxItems": 6,
+          "items": {
+            "type": "string"
+          },
+          "description": "Core personality characteristics"
+        },
+        "communication_style": {
+          "type": "string",
+          "enum": ["empathic", "vocal", "gestural", "mystical-resonance", "environmental-signs"],
+          "description": "How the companion communicates"
+        },
+        "bonding_style": {
+          "type": "string",
+          "enum": ["protective", "collaborative", "playful", "mysterious", "independent"],
+          "description": "How the companion relates to its partner"
+        },
+        "emotional_range": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Emotions the companion can express and recognize"
+        }
+      },
+      "required": ["traits", "communication_style", "bonding_style"]
+    },
+    "abilities": {
+      "type": "object",
+      "properties": {
+        "mystical_support": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "ability_name": {
+                "type": "string"
+              },
+              "description": {
+                "type": "string"
+              },
+              "usage_type": {
+                "type": "string",
+                "enum": ["passive", "active", "reactive", "contextual"]
+              },
+              "cooldown": {
+                "type": "string",
+                "description": "How often the ability can be used"
+              }
+            }
+          }
+        },
+        "combat_support": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "support_type": {
+                "type": "string",
+                "enum": ["damage", "healing", "protection", "crowd-control", "utility"]
+              },
+              "description": {
+                "type": "string"
+              },
+              "effectiveness": {
+                "type": "string",
+                "enum": ["minor", "moderate", "significant", "major"]
+              }
+            }
+          }
+        },
+        "exploration_support": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "function": {
+                "type": "string",
+                "enum": ["pathfinding", "secret-detection", "danger-sensing", "resource-location", "translation"]
+              },
+              "description": {
+                "type": "string"
+              },
+              "reliability": {
+                "type": "string",
+                "enum": ["occasional", "reliable", "consistent", "perfect"]
+              }
+            }
+          }
+        }
+      }
+    },
+    "evolution": {
+      "type": "object",
+      "properties": {
+        "growth_triggers": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Events or conditions that cause the companion to evolve"
+        },
+        "evolution_stages": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "stage_name": {
+                "type": "string"
+              },
+              "requirements": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "changes": {
+                "type": "object",
+                "properties": {
+                  "appearance_changes": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "ability_changes": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "personality_development": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "bonding_mechanics": {
+      "type": "object",
+      "properties": {
+        "initial_bond_strength": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 100,
+          "description": "Starting relationship strength"
+        },
+        "bonding_factors": {
+          "type": "object",
+          "properties": {
+            "positive_actions": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              },
+              "description": "Actions that strengthen the bond"
+            },
+            "negative_actions": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              },
+              "description": "Actions that weaken the bond"
+            },
+            "neutral_growth": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              },
+              "description": "Natural bonding through shared experience"
+            }
+          }
+        },
+        "bond_milestones": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "threshold": {
+                "type": "number",
+                "description": "Bond strength required"
+              },
+              "milestone_name": {
+                "type": "string"
+              },
+              "benefits": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "story_integration": {
+      "type": "object",
+      "properties": {
+        "tutorial_role": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Functions during tutorial/prologue"
+        },
+        "act_progression": {
+          "type": "object",
+          "properties": {
+            "act_1_role": {
+              "type": "string",
+              "description": "Companion's function during Act 1"
+            },
+            "pantheon_trial_involvement": {
+              "type": "string",
+              "description": "How companion participates in divine trials"
+            },
+            "long_term_development": {
+              "type": "string",
+              "description": "Companion's growth throughout the full story"
+            }
+          }
+        },
+        "myrielle_connection": {
+          "type": "object",
+          "properties": {
+            "guidance_conduit": {
+              "type": "boolean",
+              "description": "Whether the companion channels Myrielle's guidance"
+            },
+            "independence_development": {
+              "type": "string",
+              "description": "How the companion becomes more independent over time"
+            },
+            "hidden_one_knowledge": {
+              "type": "string",
+              "description": "What the companion knows about Myrielle's nature"
+            }
+          }
+        }
+      }
+    },
+    "metadata": {
+      "type": "object",
+      "properties": {
+        "created": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "last_updated": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "version": {
+          "type": "string"
+        },
+        "canonical": {
+          "type": "boolean"
+        }
+      },
+      "required": ["created", "last_updated", "version"]
+    }
+  },
+  "required": ["id", "name", "type", "origin", "appearance", "personality", "abilities", "bonding_mechanics", "story_integration", "metadata"]
+}

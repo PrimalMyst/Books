@@ -76,6 +76,12 @@
       "description": "Character divine positioning system tracking elemental embraces and primal god relationships established in Act 1",
       "required_fields": ["character_id", "positioning_status", "elemental_embraces", "primal_relationships", "divine_signature", "positioning_completion", "metadata"],
       "example": "data/json/divine-positioning/example-positioning-lyra.json"
+    },
+    "companion": {
+      "file": "data/schemas/companion.schema.json",
+      "description": "Companion creatures that accompany Myst-Walkers, including evolution and bonding mechanics",
+      "required_fields": ["id", "name", "type", "origin", "appearance", "personality", "abilities", "bonding_mechanics", "story_integration", "metadata"],
+      "example": "data/json/companions/whisper-first-companion.json"
     }
   },
 
@@ -142,7 +148,8 @@
         "core-thematic-hexagon.json",
         "hexagonal-damage-calculation.json",
         "mystical-number-harmonies.json",
-        "pantheon-trials-positioning.json"
+        "pantheon-trials-positioning.json",
+        "prologue-awakening-journey.json"
       ]
     },
     "leagues": {
@@ -218,6 +225,19 @@
         "balanced-approach": "Characters seeking harmony between multiple divine forces",
         "independent-mystics": "Characters with strong opposition to divine authority",
         "transcendent-seekers": "Characters focused on spiritual transcendence"
+      }
+    },
+    "companions": {
+      "path": "data/json/companions/",
+      "schema": "companion", 
+      "count": 1,
+      "subcategories": {
+        "tutorial-companions": "First companions that guide new Myst-Walkers",
+        "elemental-familiars": "Companions attuned to specific elemental forces",
+        "divine-blessed": "Companions blessed by specific gods",
+        "chaos-spawned": "Companions born from chaotic energies",
+        "earth-guardians": "Companions connected to natural forces",
+        "evolved-forms": "Advanced forms of companions through bonding and growth"
       }
     }
   },

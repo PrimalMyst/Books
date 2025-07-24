@@ -803,12 +803,12 @@
           "properties": {
             "min_level": {
               "type": "integer",
-              "minimum": 1,
+              "minimum": 6,
               "maximum": 100
             },
             "max_level": {
               "type": "integer",
-              "minimum": 1,
+              "minimum": 6,
               "maximum": 100
             }
           },
