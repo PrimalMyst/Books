@@ -93,7 +93,24 @@
           "Immunity to cold and time-based effects",
           "Ability to preserve memories and knowledge in ice crystal",
           "Glacius's Mark - crystalline patterns that appear during ice magic use"
-        ]
+        ],
+        "elemental_embrace": {
+          "element": "cold",
+          "embrace_name": "Hatred",
+          "description": "Upon completing the trial, player may choose to embrace the fundamental force of Cold, gaining the 'Hatred' buff effect",
+          "mechanics": {
+            "initial_embrace": "Grants Hatred Level 1",
+            "repeated_embrace": "If Cold is embraced again in subsequent trials, Hatred gains +1 level",
+            "maximum_level": 3,
+            "minimum_level": 1,
+            "stacking_note": "Each level of Hatred increases cold-based damage and preservation effects"
+          },
+          "special_combination": {
+            "requirement": "Embrace all three fundamental elements (Fire, Cold, Lightning)",
+            "unlock": "Purity of Elements",
+            "description": "Achieving all three fundamental embraces unlocks the legendary 'Purity of Elements' state"
+          }
+        }
       },
       "secondary_altars": [
         {

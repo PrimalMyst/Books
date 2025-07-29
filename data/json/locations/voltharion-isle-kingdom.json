@@ -93,7 +93,24 @@
           "Immunity to electrical damage and mental interference",
           "Ability to communicate across any distance instantly",
           "Voltharion's Mark - crackling energy patterns that appear during lightning magic use"
-        ]
+        ],
+        "elemental_embrace": {
+          "element": "lightning",
+          "embrace_name": "Wrath",
+          "description": "Upon completing the trial, player may choose to embrace the fundamental force of Lightning, gaining the 'Wrath' buff effect",
+          "mechanics": {
+            "initial_embrace": "Grants Wrath Level 1",
+            "repeated_embrace": "If Lightning is embraced again in subsequent trials, Wrath gains +1 level",
+            "maximum_level": 3,
+            "minimum_level": 1,
+            "stacking_note": "Each level of Wrath increases lightning-based damage and connection abilities"
+          },
+          "special_combination": {
+            "requirement": "Embrace all three fundamental elements (Fire, Cold, Lightning)",
+            "unlock": "Purity of Elements",
+            "description": "Achieving all three fundamental embraces unlocks the legendary 'Purity of Elements' state"
+          }
+        }
       },
       "secondary_altars": [
         {

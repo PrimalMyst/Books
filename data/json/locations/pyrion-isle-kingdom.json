@@ -93,7 +93,24 @@
           "Resistance to all forms of heat damage",
           "Ability to forge items with divine fire properties",
           "Pyrion's Mark - glowing rune that appears during fire magic use"
-        ]
+        ],
+        "elemental_embrace": {
+          "element": "fire",
+          "embrace_name": "Anger",
+          "description": "Upon completing the trial, player may choose to embrace the fundamental force of Fire, gaining the 'Anger' buff effect",
+          "mechanics": {
+            "initial_embrace": "Grants Anger Level 1",
+            "repeated_embrace": "If Fire is embraced again in subsequent trials, Anger gains +1 level",
+            "maximum_level": 3,
+            "minimum_level": 1,
+            "stacking_note": "Each level of Anger increases fire-based damage and intensity"
+          },
+          "special_combination": {
+            "requirement": "Embrace all three fundamental elements (Fire, Cold, Lightning)",
+            "unlock": "Purity of Elements",
+            "description": "Achieving all three fundamental embraces unlocks the legendary 'Purity of Elements' state"
+          }
+        }
       },
       "secondary_altars": [
         {
