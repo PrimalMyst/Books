@@ -24,52 +24,99 @@
       "access_requirement": "Cosmic champion status and completion of all divine trials"
     },
     "god_slayer_progression": {
-      "level_scaling": "Gods start at level 96 and reach level 100 through Myrielle's influence",
-      "strengthening_mechanism": "Each defeated god becomes stronger as Myrielle's essence flows into them",
-      "sequential_battles": [
+      "multi_round_system": "Gods must be defeated in multiple rounds as they grow stronger after each complete round",
+      "player_choice_within_rounds": "Access to all six divine realm flowers simultaneously within each round, allowing any order",
+      "round_completion_requirement": "ALL six gods must be defeated to trigger next enhancement round",
+      "enhancement_rounds": [
         {
-          "god": "Pyrion, God of Creation and Forge-Fire",
-          "level": "96 → 97 after first defeat",
-          "realm_flower": "Forge-Flame Blossom",
-          "strengthening_aspect": "Myrielle's creative force enhances forge mastery"
+          "round": 1,
+          "god_level": "96 (Base Divine Power)",
+          "description": "Initial confrontations with gods at standard divine strength",
+          "completion_trigger": "Defeat all six gods to unlock Round 2"
         },
         {
-          "god": "Aquarix, God of Depths and Flow",
-          "level": "97 → 98 after first defeat", 
-          "realm_flower": "Deep-Current Bloom",
-          "strengthening_aspect": "Myrielle's adaptive wisdom deepens water mastery"
+          "round": 2,
+          "god_level": "98 (Enhanced Divine Power)", 
+          "description": "Gods return with significantly increased abilities and improved tactics",
+          "completion_trigger": "Defeat all six enhanced gods to unlock Round 3"
         },
         {
-          "god": "Verdania, Goddess of Growth and Life",
-          "level": "98 → 99 after first defeat",
-          "realm_flower": "Life-Bloom Spiral",
-          "strengthening_aspect": "Myrielle's nurturing essence amplifies life force"
-        },
-        {
-          "god": "Umbros, God of Shadows and Hidden Things",
-          "level": "99 → 100 after first defeat",
-          "realm_flower": "Shadow-Petal Void",
-          "strengthening_aspect": "Myrielle's hidden nature merges with shadow mastery"
-        },
-        {
-          "god": "Luxara, Goddess of Light and Revelation",
-          "level": "100 → 100+ after first defeat",
-          "realm_flower": "Light-Blossom Radiance",
-          "strengthening_aspect": "Myrielle's truth-seeking enhances divine illumination"
-        },
-        {
-          "god": "Zephyros, God of Winds and Change", 
-          "level": "100+ → Maximum after first defeat",
-          "realm_flower": "Wind-Spiral Crown",
-          "strengthening_aspect": "Myrielle's transformative power amplifies change mastery"
+          "round": 3,
+          "god_level": "100 (Maximum Divine Power)",
+          "description": "Gods reach peak power with transcendent abilities and ultimate battlefields",
+          "completion_trigger": "Defeat all six gods at maximum power to unlock Myrielle"
         }
       ],
-      "myrielle_influence_growth": "With each god's defeat, Myrielle's essence flows more strongly, making subsequent gods more powerful but also more connected to her true purpose"
+      "god_battle_progression": [
+        {
+          "god": "Pyrion, the First Flame (Fundamental)",
+          "realm_flower": "Forge-Flame Blossom",
+          "battle_location": "Eternal Forge at Yggdrasil's heartwood core",
+          "round_progression": {
+            "round_1": "Base transformative fire and creation magic",
+            "round_2": "Enhanced forge mastery with advanced environmental hazards",
+            "round_3": "Ultimate creative fire with reality-altering forge techniques"
+          }
+        },
+        {
+          "god": "Glacius, the Eternal Frost (Fundamental)",
+          "realm_flower": "Frost-Crystal Bloom",
+          "battle_location": "Crystalline memory archives within preserved knowledge vaults",
+          "round_progression": {
+            "round_1": "Base ice magic and memory manipulation",
+            "round_2": "Enhanced preservation abilities with complex crystalline defenses",
+            "round_3": "Ultimate memory mastery with time-space crystalline control"
+          }
+        },
+        {
+          "god": "Voltharion, the Cosmic Spark (Fundamental)",
+          "realm_flower": "Lightning-Web Spiral",
+          "battle_location": "Infinite electrical networks and communication webs",
+          "round_progression": {
+            "round_1": "Base lightning magic and network manipulation",
+            "round_2": "Enhanced consciousness linking with advanced electrical attacks",
+            "round_3": "Ultimate network mastery with reality-wide connection control"
+          }
+        },
+        {
+          "god": "Serafina, the Shadow Empress (Primal)",
+          "realm_flower": "Shadow-Chaos Petal",
+          "battle_location": "Ever-changing shadow court with reality-shifting environments",
+          "round_progression": {
+            "round_1": "Base chaos magic and environmental transformation",
+            "round_2": "Enhanced beneficial destruction with advanced reality shifting",
+            "round_3": "Ultimate chaos mastery with transcendent environmental control"
+          }
+        },
+        {
+          "god": "Aurelius, the Radiant Sphere (Primal)",
+          "realm_flower": "Radiance-Truth Blossom",
+          "battle_location": "Blazing halls of absolute truth and protective radiance",
+          "round_progression": {
+            "round_1": "Base radiance magic and truth revelation",
+            "round_2": "Enhanced protective barriers with advanced healing abilities",
+            "round_3": "Ultimate truth mastery with absolute reality revelation"
+          }
+        },
+        {
+          "god": "Korthak, the Dragon King (Primal)", 
+          "realm_flower": "Might-Honor Crown",
+          "battle_location": "Ultimate arena of honorable combat and disciplined challenge",
+          "round_progression": {
+            "round_1": "Base physical might and honor-based combat",
+            "round_2": "Enhanced disciplined techniques with advanced combat mastery",
+            "round_3": "Ultimate might mastery with transcendent honorable power"
+          }
+        }
+      ]
     },
     "myrielle_final_confrontation": {
-      "revelation_sequence": "After defeating all six gods, Myrielle's true form is unveiled at the center of Yggdrasil's summit",
-      "absorption_attempt": "Myrielle reveals she couldn't fight the gods directly, but now can absorb them through the player's victories",
-      "level_100_myrielle": "The final boss battle where Myrielle has absorbed all defeated gods' power",
+      "access_requirement": "Complete defeat of all six gods across all three enhancement rounds",
+      "revelation_sequence": "After all rounds completed, Myrielle appears at the center of Yggdrasil's summit",
+      "absorption_process": "Myrielle reveals she absorbed divine essence throughout all enhancement cycles",
+      "level_100_myrielle": "Final boss battle with Myrielle at maximum power from all rounds",
+      "complete_divine_mastery": "Demonstrates mastery of all divine abilities witnessed across all rounds",
+      "multi_environment_battle": "Battle transitions between all six divine realm environments",
       "ultimate_revelation": {
         "true_motive": "Myrielle genuinely wanted the player to win and defeat her",
         "sacrifice_purpose": "Her defeat grants the player and followers access to Valhalla",
