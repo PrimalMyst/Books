@@ -98,6 +98,10 @@
         "opposition_system": {
           "system": "primal_opposition",
           "description": "At any Primal sanctuary, players can choose to oppose that god, affecting their relationship with all three Primal deities",
+          "requirements": {
+            "minimum_oppositions": 1,
+            "note": "Players MUST oppose at least one Primal god to progress in the divine trials system"
+          },
           "opposition_choice": {
             "oppose_korthak": "Player rejects Korthak's teachings of direct confrontation and physical might",
             "consequences": "Marked as opponent of Physical/Might magic, but may gain favor with other Primal gods"
@@ -123,7 +127,8 @@
           "mechanics": {
             "choice_permanence": "Opposition choices are permanent and affect all future divine interactions",
             "cross_sanctuary": "Opposition can be declared at any Primal sanctuary, affecting the entire system",
-            "buff_exclusivity": "Only one of Heathen/Nemesis/Priest buffs can be active at a time"
+            "buff_exclusivity": "Only one of Heathen/Nemesis/Priest buffs can be active at a time",
+            "progression_requirement": "At least one opposition required for divine trial completion"
           }
         }
       },

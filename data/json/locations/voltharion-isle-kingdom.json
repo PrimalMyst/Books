@@ -115,15 +115,20 @@
             }
           ],
           "mechanics": {
-            "choice_per_trial": "Each completed Fundamental altar trial allows choosing any one element",
-            "level_progression": "First choice grants Level 1, second different choice grants Level 2, third choice grants Level 3",
-            "maximum_level": 3,
-            "note": "Player can choose Fire at Glacius' altar, Cold at Voltharion's altar, etc."
+            "total_embraces_allowed": 3,
+            "distribution_options": [
+              "3 embraces of same element (max level 3)",
+              "2 embraces of one element + 1 of another (levels 2+1)", 
+              "1 embrace each of all three elements (levels 1+1+1)"
+            ],
+            "level_progression": "Each embrace of same element increases that element's level",
+            "maximum_level_per_element": 3,
+            "note": "Player can choose any element at any Fundamental altar - total of 3 embraces across all trials"
           },
           "special_combination": {
-            "requirement": "Embrace all three fundamental elements (one choice per trial completion)",
+            "requirement": "Embrace all three fundamental elements (1 embrace each = Purity of Elements)",
             "unlock": "Purity of Elements",
-            "description": "Completing all three Fundamental trials and choosing different elements unlocks 'Purity of Elements'"
+            "description": "Achieving 1+1+1 distribution unlocks 'Purity of Elements' - balanced mastery path"
           }
         }
       },

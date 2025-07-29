@@ -8,48 +8,32 @@
       "embrace_level": 1,
       "altar_location": "pyrion_primordial_forge_altar",
       "embrace_date": "2025-03-15T14:30:00Z",
-      "choice_explanation": "Chose Lightning/Wrath at Pyrion's Fire altar, demonstrating the new choice system",
-      "attunement_strength": "strong",
-      "divine_effects": {
-        "enhanced_lightning_damage": true,
-        "connection_abilities": "improved",
-        "visual_mark": "Crackling energy patterns during lightning magic use"
-      }
+      "choice_explanation": "First embrace: chose Lightning/Wrath at Pyrion's Fire altar"
     },
     {
       "element": "fire", 
       "embrace_name": "Anger",
-      "embrace_level": 2,
+      "embrace_level": 1,
       "altar_location": "glacius_eternal_memory_altar",
       "embrace_date": "2025-03-18T10:15:00Z",
-      "choice_explanation": "Chose Fire/Anger at Glacius' Cold altar for second embrace",
-      "attunement_strength": "moderate",
-      "divine_effects": {
-        "enhanced_fire_damage": true,
-        "intensity_effects": "improved", 
-        "visual_mark": "Glowing runes during fire magic use"
-      }
+      "choice_explanation": "Second embrace: chose Fire/Anger at Glacius' Cold altar"
     },
     {
       "element": "cold",
       "embrace_name": "Hatred", 
-      "embrace_level": 3,
+      "embrace_level": 1,
       "altar_location": "voltharion_cosmic_spark_altar",
       "embrace_date": "2025-03-20T09:30:00Z",
-      "choice_explanation": "Chose Cold/Hatred at Voltharion's Lightning altar for final embrace",
-      "attunement_strength": "strong",
-      "divine_effects": {
-        "enhanced_cold_damage": true,
-        "preservation_effects": "improved",
-        "visual_mark": "Crystalline patterns during ice magic use"
-      }
+      "choice_explanation": "Third embrace: chose Cold/Hatred at Voltharion's Lightning altar"
     }
   ],
   "fundamental_mastery": {
+    "total_embraces_used": 3,
+    "distribution": "1+1+1 (balanced across all elements)",
     "purity_of_elements": {
       "unlocked": true,
       "unlock_date": "2025-03-20T09:45:00Z",
-      "description": "Achieved mastery of all three fundamental elements",
+      "description": "Achieved Purity of Elements by embracing all three fundamental forces at level 1 each",
       "benefits": [
         "Access to combined elemental abilities",
         "Resistance to all fundamental damage types",
@@ -131,9 +115,11 @@
     "cosmic_alignment": "fundamental-mastery-primal-dedication",
     "power_focus": "all-elements-with-honor-focus",
     "elemental_mastery": {
-      "anger_level": 2,
-      "hatred_level": 3, 
+      "anger_level": 1,
+      "hatred_level": 1, 
       "wrath_level": 1,
+      "total_embraces_used": 3,
+      "distribution_type": "balanced_purity",
       "purity_of_elements": true
     },
     "primal_dedication": {

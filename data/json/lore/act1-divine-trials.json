@@ -40,9 +40,9 @@
           "pyrion_forge": "Heat-based decay - skin becomes dry and cracked, energy feels like it's burning away",
           "glacius_preserve": "Cold-based decay - joints stiffen, thoughts slow, warmth steadily drains away", 
           "voltharion_peaks": "Energy-based decay - constant low-level electrical discharge, nervous system destabilization",
-          "aethon_sanctum": "Light-based decay - colors fade from vision, form becomes translucent, gradual dissolution",
-          "umbrix_maze": "Chaos-based decay - random body parts phase in and out of existence, unpredictable deterioration",
-          "verdania_grove": "Nature-based decay - plant growth begins on skin, natural processes try to reclaim the body"
+          "serafina_twilight": "Shadow-based decay - form becomes translucent, memories begin to fade, identity dissolution",
+          "aurelius_sanctuary": "Light-based decay - overwhelming brightness causes sensory overload, peaceful but dangerous dissolution",
+          "korthak_peaks": "Might-based decay - physical weakness, bones become brittle, strength steadily drains away"
         },
         "immunity_requirement": "Only those who prove their worthiness through divine trial can exist stably in divine presence"
       }
@@ -76,9 +76,28 @@
         "initiation": "Player approaches the trial site, which responds to their divine decay",
         "challenge_type": "Each trial tests understanding and acceptance of that god's core principles",
         "choice_system": {
-          "fundamental_alignment": "Player chooses to embrace, oppose, or balance their relationship with the god",
-          "multiple_paths": "Different choices lead to different trial challenges but same ultimate success",
-          "no_wrong_answers": "All sincere choices that show understanding are accepted by the divine trial"
+          "fundamental_trials": {
+            "elemental_embrace": "At Fundamental God altars (Pyrion, Glacius, Voltharion), players choose which element to embrace",
+            "total_embraces": "Players have exactly 3 embraces total, distributed across any elements",
+            "distribution_options": [
+              "3 embraces of same element (maximum specialization)",
+              "2+1 split between two elements (focused mastery)",
+              "1+1+1 across all three elements (balanced approach, unlocks Purity of Elements)"
+            ],
+            "buff_names": "Fire→Anger, Cold→Hatred, Lightning→Wrath",
+            "flexible_choice": "Any element can be chosen at any Fundamental altar"
+          },
+          "primal_trials": {
+            "opposition_requirement": "Players MUST oppose at least one Primal God (Serafina, Aurelius, Korthak)",
+            "opposition_outcomes": [
+              "Oppose all three → Heathen (complete divine independence)",
+              "Oppose one → That god's Nemesis (dedicated opposition)",
+              "Oppose two → Remaining god's Priest (devoted worship)"
+            ],
+            "cross_sanctuary_choice": "Opposition can be declared at any Primal sanctuary",
+            "permanent_consequences": "All opposition choices permanently shape character progression"
+          },
+          "integrated_progression": "Both Fundamental and Primal trials contribute to God-Slayer preparation"
         },
         "completion_recognition": "Trial completion is marked by dramatic divine acknowledgment and immediate decay cessation"
       },
