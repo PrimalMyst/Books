@@ -1,0 +1,86 @@
+{
+  "id": "korthak-isle-kingdom",
+  "name": "Korthak's Isle - The Iron Dominion",
+  "type": "divine-island",
+  "region": "Northwestern Waters",
+  "significance": "might-divine-realm",
+  "ruler": "Dragon-King Ironscale the Unyielding",
+  "kingdom": "The Eternal Iron Dominion",
+  "description": {
+    "brief": "A mountainous island kingdom of iron and stone, ruled by dragon-blooded warriors and devoted to Korthak, where strength and honor are the highest virtues.",
+    "detailed": "Korthak's Isle rises from the western waters as a fortress of iron peaks and dragon-carved stone. The island is dominated by massive training grounds, fighting arenas, and forges where both weapons and warriors are tempered. This kingdom serves as the ultimate proving ground for those who seek strength through honest effort and direct confrontation. Dragon-King Ironscale, blessed with Korthak's own draconic might, rules over a society where physical prowess and unwavering honor determine one's place. The kingdom's culture revolves around the belief that true strength comes only through facing challenges head-on, without tricks or shortcuts, and that honor in combat is the highest virtue.",
+    "atmosphere": "The constant sound of training weapons, dragon roars echoing from mountain peaks, and an air thick with the determination of those who refuse to yield"
+  },
+  "geography": {
+    "terrain": "Iron-rich mountains with vast training plateaus and dragon roosts carved into cliffsides",
+    "climate": "Cool and crisp with strong winds that test endurance and strength",
+    "size": "130 miles north-south, 100 miles east-west",
+    "borders": "Northwestern waters, connected to Midgardland by the Honor Straits"
+  },
+  "kingdom_structure": {
+    "capital": "The Iron Crown",
+    "government": "Meritocratic monarchy based on proven strength, combat skill, and unwavering honor",
+    "ruler": {
+      "name": "Dragon-King Ironscale the Unyielding",
+      "title": "The Eternal Champion, Master of All Combat",
+      "description": "A warrior blessed with Korthak's draconic essence, possessing scales of living iron and the ability to transform into dragon form. He has never lost a fair fight and embodies the principle of strength through honor.",
+      "personality": "Absolutely honorable and direct, respects all who fight with courage, believes that true strength can only be earned through honest effort and pain"
+    },
+    "nobility": "Champions who have proven themselves in the Great Arena and masters of various combat disciplines",
+    "military": "The Iron Legion - elite warriors trained in every form of combat, supported by dragon riders and siege specialists"
+  },
+  "culture": {
+    "primary_values": ["strength", "honor", "direct confrontation", "earned prowess"],
+    "traditions": [
+      "The Great Trials - annual competitions where citizens prove their growth in strength and skill",
+      "Honor Duels - formal combats to resolve disputes and demonstrate character",
+      "Dragon Bonding - ceremonies where worthy warriors attempt to bond with dragons"
+    ],
+    "specializations": [
+      "Master-level training in all forms of combat and weapons",
+      "Dragon riding and aerial warfare",
+      "Physical enhancement through disciplined training",
+      "Smithing weapons and armor of legendary quality",
+      "Tactical warfare and honorable battle strategies"
+    ]
+  },
+  "major_cities": [
+    {
+      "name": "The Iron Crown",
+      "role": "Capital and greatest training complex",
+      "population": "~40,000",
+      "description": "Built into the highest mountain peak with the Great Arena at its center, surrounded by training grounds, forges, and dragon roosts"
+    },
+    {
+      "name": "Stronghaven",
+      "role": "Harbor fortress and naval training center",
+      "population": "~28,000",
+      "description": "Coastal fortress-city where naval warriors train and the kingdom's war fleets are maintained and supplied"
+    },
+    {
+      "name": "The Proving Grounds",
+      "role": "Training center and testing complex",
+      "population": "~22,000",
+      "description": "Vast complex of specialized training areas where warriors from across the realms come to test their skills against the best"
+    }
+  ],
+  "divine_connection": {
+    "patron_god": "Korthak, the Dragon King",
+    "divine_manifestations": [
+      "Dragon roars that inspire courage and test worthiness",
+      "Weapons and armor that grow stronger through honorable use",
+      "Physical enhancement that responds to dedicated training",
+      "Dragons that serve as partners to the truly worthy"
+    ],
+    "sacred_sites": [
+      "The Great Arena - where Korthak himself sometimes appears to test champions",
+      "Dragon's Rest - the highest peak where ancient dragons make their homes",
+      "The Forge of Trials - where legendary weapons are created through strength alone"
+    ]
+  },
+  "relationships": {
+    "midgardland": "Strong military alliance and training partnership, especially through Korthak's Gate (Drakmorth)",
+    "other_kingdoms": "Respected for military prowess but sometimes seen as overly direct and inflexible",
+    "diplomatic_stance": "Honest and straightforward in all dealings, will defend allies but refuses to use deception or trickery"
+  }
+}
