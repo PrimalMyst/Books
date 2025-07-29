@@ -15,34 +15,42 @@
       "mechanism": "Sacred Altars of Elemental Embrace",
       "description": "On islands ruled by Fundamental Gods (Pyrion, Glacius, Voltharion), Myst-Walkers discover ancient altars that resonate with pure elemental force. These altars offer the opportunity to embrace any elemental power, regardless of the practitioner's current mystical attunement.",
       "requirements": {
-        "minimum_embraces": 1,
-        "maximum_embraces": 3,
-        "flexibility": "Players can embrace elements from any Fundamental God, not just the island's patron"
+        "total_embraces_allowed": 3,
+        "distribution_flexibility": "Can embrace 1-3 different elements with total maximum of 3 embraces",
+        "distribution_options": [
+          "3 embraces of same element (maximum level 3)",
+          "2 embraces of one element + 1 of another (levels 2+1)",
+          "1 embrace each of all three elements (levels 1+1+1 = Purity of Elements)"
+        ],
+        "choice_flexibility": "Players can embrace any element at any Fundamental altar"
       },
       "altar_types": [
         {
-          "name": "Altar of Primal Fire",
+          "name": "Primordial Forge Altar",
           "patron": "Pyrion",
-          "element": "Fire",
-          "description": "Ancient stone circle wreathed in eternal flames that never consume",
-          "trial_nature": "Practitioners must walk through sacred fire to prove their worthiness",
-          "elemental_gift": "Grants deep attunement to fire-based mystical practices"
+          "location": "Crown Caldera, Pyrion's Isle",
+          "embrace_offered": "Anger (Fire Enhancement)",
+          "description": "Ancient altar carved from volcanic obsidian, surrounded by original flames of creation",
+          "trial_nature": "Forge a masterwork while channeling primordial fire, transforming both material and self",
+          "all_elements_available": "Despite being Pyrion's realm, practitioners can choose Fire/Anger, Cold/Hatred, or Lightning/Wrath"
         },
         {
-          "name": "Altar of Eternal Preservation", 
+          "name": "Eternal Memory Altar", 
           "patron": "Glacius",
-          "element": "Cold",
-          "description": "Crystalline formation that radiates perfect stillness and preservation",
-          "trial_nature": "Practitioners must endure absolute cold to demonstrate resilience",
-          "elemental_gift": "Grants mastery over ice, preservation, and protective magics"
+          "location": "Memory's Heart crystal, Glacius' Isle",
+          "embrace_offered": "Hatred (Cold Enhancement)",
+          "description": "Altar of pure ice crystal preserving memories and wisdom of all previous trials",
+          "trial_nature": "Preserve perfect understanding in crystal while withstanding primordial frost",
+          "all_elements_available": "Despite being Glacius' realm, practitioners can choose Fire/Anger, Cold/Hatred, or Lightning/Wrath"
         },
         {
-          "name": "Altar of Divine Spark",
+          "name": "Cosmic Spark Altar",
           "patron": "Voltharion", 
-          "element": "Lightning",
-          "description": "Metallic spire that channels raw electrical force from the heavens",
-          "trial_nature": "Practitioners must allow divine lightning to pass through them",
-          "elemental_gift": "Grants connection to lightning, energy manipulation, and swift travel"
+          "location": "Eye of Storm Eternal, Voltharion's Isle",
+          "embrace_offered": "Wrath (Lightning Enhancement)",
+          "description": "Conducting crystal altar suspended in eternal lightning storm's heart",
+          "trial_nature": "Maintain divine communication while struck by primordial lightning",
+          "all_elements_available": "Despite being Voltharion's realm, practitioners can choose Fire/Anger, Cold/Hatred, or Lightning/Wrath"
         }
       ],
       "embrace_process": {
@@ -54,49 +62,77 @@
       }
     },
     "primal_god_trials": {
-      "mechanism": "Divine Representative Encounters",
-      "description": "On islands ruled by Primal Gods (Aethon, Umbrix, Verdania), Myst-Walkers face powerful representatives of the ruling deity. These encounters test both combat prowess and spiritual conviction, culminating in a choice to follow or oppose the god's influence.",
+      "mechanism": "Sacred Sanctuary Opposition Choices",
+      "description": "On islands ruled by Primal Gods (Serafina, Aurelius, Korthak), Myst-Walkers enter grand sanctuaries where they can choose to oppose the ruling deity. These choices permanently define their relationship with all three Primal Gods.",
       "requirements": {
         "minimum_oppositions": 1,
         "maximum_oppositions": 3,
-        "flexibility": "Players can choose different relationships with each Primal God based on their values and goals"
+        "mandatory_choice": "Every practitioner MUST oppose at least one Primal God to complete divine positioning",
+        "flexibility": "Opposition can be declared at any Primal sanctuary, affecting the entire divine relationship system"
       },
-      "representative_types": [
+      "sanctuary_types": [
         {
-          "patron": "Aethon",
-          "domain": "Divine Order and Justice",
-          "representative": "The Radiant Champion",
-          "description": "A warrior-priest wreathed in golden light, embodying absolute divine authority",
-          "trial_nature": "Combat trial testing the practitioner's conviction against divine mandate",
-          "follow_path": "Accept Aethon's divine order and become an agent of cosmic justice",
-          "oppose_path": "Reject absolute authority and choose personal moral autonomy"
+          "patron": "Serafina",
+          "domain": "Chaos and Forbidden Knowledge",
+          "sanctuary": "Twilight Sanctuary of Liberation",
+          "location": "Beneath Obsidian Throne, Serafina's Isle",
+          "description": "Grand sanctuary of black marble and crimson silk, where shadows dance eternally",
+          "trial_nature": "Embrace darkest desires while resisting complete corruption",
+          "opposition_choice": "Reject forbidden transformation and shadow embrace",
+          "worship_choice": "Accept the path of liberation through forbidden power"
         },
         {
-          "patron": "Umbrix",
-          "domain": "Chaos and Transformation", 
-          "representative": "The Chaotic Oracle",
-          "description": "A shape-shifting seer whose form constantly shifts between possibilities",
-          "trial_nature": "Mental trial testing the practitioner's ability to maintain identity amid chaos",
-          "follow_path": "Embrace chaos as a tool for growth and transformation",
-          "oppose_path": "Reject destructive chaos and choose stability and order"
+          "patron": "Aurelius",
+          "domain": "Radiance and Divine Protection", 
+          "sanctuary": "Radiant Sanctuary of Protection",
+          "location": "Within Golden Heart temple, Aurelius's Isle",
+          "description": "Magnificent sanctuary of white marble and golden crystal filled with healing light",
+          "trial_nature": "Demonstrate perfect compassion by healing others while enduring their pain",
+          "opposition_choice": "Reject protective guidance in favor of independent moral choices",
+          "worship_choice": "Accept the path of divine healing and protection"
         },
         {
-          "patron": "Verdania",
-          "domain": "Physical Mastery and Endurance",
-          "representative": "The Earthen Guardian",
-          "description": "A massive humanoid formed from living stone and growing vegetation",
-          "trial_nature": "Endurance trial testing physical and mental resilience",
-          "follow_path": "Accept the path of physical perfection and natural harmony",
-          "oppose_path": "Reject the dominance of physical form and choose transcendence"
+          "patron": "Korthak",
+          "domain": "Physical Might and Honor",
+          "sanctuary": "Iron Sanctuary of Honor",
+          "location": "Center of Great Arena, Korthak's Isle",
+          "description": "Massive sanctuary of black iron and dragon bone with eternal weapon echoes",
+          "trial_nature": "Face increasingly powerful opponents in honorable single combat",
+          "opposition_choice": "Reject direct confrontation and physical might focus",
+          "worship_choice": "Accept the path of strength through honor and combat"
         }
       ],
-      "encounter_process": {
-        "arrival": "Practitioner enters the sacred grove/temple of the island's patron",
-        "challenge": "The divine representative appears and issues a formal challenge",
-        "trial": "Combat or trial that tests the practitioner's worthiness and conviction",
-        "victory": "Practitioner must prove their strength to earn the right to choose",
-        "choice": "Conscious decision to follow the god's path or oppose their influence",
-        "consequence": "The god acknowledges the practitioner's choice and adjusts their relationship accordingly"
+      "opposition_outcomes": {
+        "heathen_path": {
+          "requirement": "Oppose all three Primal Gods",
+          "result": "Heathen Status",
+          "description": "Complete rejection of Primal divine authority",
+          "benefits": "Independence from divine influence, enhanced personal willpower",
+          "drawbacks": "Loss of all Primal divine support and blessings"
+        },
+        "nemesis_path": {
+          "requirement": "Oppose exactly one Primal God",
+          "result": "That God's Nemesis Status",
+          "examples": ["Serafina's Nemesis", "Aurelius's Nemesis", "Korthak's Nemesis"],
+          "description": "Dedicated opposition to one divine domain",
+          "benefits": "Anti-abilities against that specific divine influence",
+          "drawbacks": "Permanent enmity with that god and their followers"
+        },
+        "priest_path": {
+          "requirement": "Oppose exactly two Primal Gods, worship the third",
+          "result": "Remaining God's Priest Status", 
+          "examples": ["Serafina's Priest", "Aurelius's Priest", "Korthak's Priest"],
+          "description": "Complete dedication through rejection of competing deities",
+          "benefits": "Greatly enhanced abilities in chosen divine domain",
+          "drawbacks": "Reduced access to opposed divine influences"
+        }
+      },
+      "sanctuary_process": {
+        "arrival": "Practitioner enters the sacred sanctuary of their choice",
+        "trial": "Complete the sanctuary's specific trial to prove worthiness",
+        "choice": "Declare opposition to that god or accept their teachings",
+        "cross_sanctuary": "Opposition choices can be made at any sanctuary and affect all relationships",
+        "consequence": "All three Primal Gods acknowledge the practitioner's positioning and adjust relationships accordingly"
       }
     }
   },
