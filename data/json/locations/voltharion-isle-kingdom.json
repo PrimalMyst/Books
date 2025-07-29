@@ -75,7 +75,41 @@
       "The First Lightning Rod - where Voltharion allegedly taught the first communication",
       "The Network's Heart - the central nexus where all electrical currents converge", 
       "Storm Eternal - a perpetual lightning storm that has danced since the kingdom's founding"
-    ]
+    ],
+    "trial_locations": {
+      "primary_altar": {
+        "name": "The Cosmic Spark Altar",
+        "location": "Within the eye of Storm Eternal",
+        "description": "An altar of pure conducting crystal suspended in the heart of an eternal lightning storm. Electrical energy constantly arcs between crystalline spires, creating a web of cosmic connection.",
+        "trial_type": "Fundamental Lightning Mastery",
+        "requirements": {
+          "minimum_level": 25,
+          "prerequisite": "Basic lightning magic attunement",
+          "offerings": ["Electrical essence", "Communication device", "Lightning crystal"]
+        },
+        "trial_description": "Candidates must maintain perfect communication with Voltharion while being struck by primordial lightning, achieving cosmic awareness and connection to all realms.",
+        "rewards": [
+          "Enhanced lightning magic potency",
+          "Immunity to electrical damage and mental interference",
+          "Ability to communicate across any distance instantly",
+          "Voltharion's Mark - crackling energy patterns that appear during lightning magic use"
+        ]
+      },
+      "secondary_altars": [
+        {
+          "name": "Speaker's Conduit",
+          "location": "The Communication Spires",
+          "trial_type": "Divine Communication",
+          "description": "A lesser altar where messengers prove their dedication to honest communication"
+        },
+        {
+          "name": "Insight Nexus",
+          "location": "Stormhaven Harbor",
+          "trial_type": "Cosmic Awareness", 
+          "description": "An altar dedicated to those seeking to expand their consciousness across realms"
+        }
+      ]
+    }
   },
   "relationships": {
     "midgardland": "Primary communication hub, especially through Voltharion's Gate",

@@ -75,7 +75,41 @@
       "The First Forge - where Pyrion allegedly taught the first smith",
       "Crown Caldera - the volcano's heart where only the king may forge",
       "Flame Eternal - a fire that has burned since the kingdom's founding"
-    ]
+    ],
+    "trial_locations": {
+      "primary_altar": {
+        "name": "The Primordial Forge Altar",
+        "location": "Deep within Crown Caldera",
+        "description": "An ancient altar carved from volcanic obsidian and surrounded by the original flames of creation. Here, Myst-Walkers undergo the Trial of Transformation.",
+        "trial_type": "Fundamental Fire Mastery",
+        "requirements": {
+          "minimum_level": 25,
+          "prerequisite": "Basic fire magic attunement",
+          "offerings": ["Rare metals", "Personal creation", "Flame essence"]
+        },
+        "trial_description": "Candidates must forge a masterwork item while channeling Pyrion's primordial fire, transforming both the material and themselves in the process.",
+        "rewards": [
+          "Enhanced fire magic potency",
+          "Resistance to all forms of heat damage",
+          "Ability to forge items with divine fire properties",
+          "Pyrion's Mark - glowing rune that appears during fire magic use"
+        ]
+      },
+      "secondary_altars": [
+        {
+          "name": "Ember Heart Shrine",
+          "location": "The Molten Gardens",
+          "trial_type": "Crafting Mastery",
+          "description": "A lesser altar where artisans perfect their craft through fire trials"
+        },
+        {
+          "name": "Transformation Crucible", 
+          "location": "Emberheart Harbor",
+          "trial_type": "Personal Transformation",
+          "description": "An altar dedicated to those seeking to transform their very essence through sacred flame"
+        }
+      ]
+    }
   },
   "relationships": {
     "midgardland": "Primary trading partner, especially through Pyrion's Gate",

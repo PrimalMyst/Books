@@ -76,10 +76,44 @@
       "The Golden Heart - Aurelius's primary manifestation point in the temple",
       "Pools of Healing Light - natural springs blessed with radiant energy",
       "The Wisdom Archive - crystal repository of all divine knowledge"
-    ]
+    ],
+    "trial_locations": {
+      "primary_sanctuary": {
+        "name": "The Radiant Sanctuary of Protection",
+        "location": "Within The Golden Heart temple",
+        "description": "A magnificent sanctuary of white marble and golden crystal, filled with warm, healing light that brings peace to all who enter. Floating orbs of radiance illuminate ancient wisdom inscribed on the walls.",
+        "trial_type": "Primal Radiance Mastery",
+        "requirements": {
+          "minimum_level": 30,
+          "prerequisite": "Basic light magic attunement",
+          "offerings": ["Act of selfless healing", "Wisdom scroll", "Radiant crystal"]
+        },
+        "trial_description": "Candidates must demonstrate perfect compassion by healing others while enduring their pain, proving they can bear suffering to protect the innocent.",
+        "rewards": [
+          "Enhanced radiance magic potency and healing abilities",
+          "Immunity to negative energy and corruption effects",
+          "Ability to create protective barriers of light",
+          "Aurelius's Blessing - golden aura that appears during radiance magic use"
+        ]
+      },
+      "secondary_sanctuaries": [
+        {
+          "name": "The Healing Chamber",
+          "location": "Haven's Rest",
+          "trial_type": "Divine Healing",
+          "description": "A sanctuary dedicated to those who seek to master the arts of restoration and renewal"
+        },
+        {
+          "name": "The Wisdom Hall",
+          "location": "The Crystal Libraries",
+          "trial_type": "Divine Insight",
+          "description": "A sanctuary where seekers prove their dedication to guiding and protecting others"
+        }
+      ]
+    }
   },
   "relationships": {
-    "midgardland": "Primary ally and protector, especially through Aurelius's Gate (Luminareth)",
+    "midgardland": "Primary ally and protector, especially through Aurelius's Gate",
     "other_kingdoms": "Universally respected as healers and protectors, sought out in times of crisis",
     "diplomatic_stance": "Open arms to all who seek healing, protection, or guidance; neutral in conflicts but will defend the innocent"
   }

@@ -76,10 +76,44 @@
       "The Great Arena - where Korthak himself sometimes appears to test champions",
       "Dragon's Rest - the highest peak where ancient dragons make their homes",
       "The Forge of Trials - where legendary weapons are created through strength alone"
-    ]
+    ],
+    "trial_locations": {
+      "primary_sanctuary": {
+        "name": "The Iron Sanctuary of Honor",
+        "location": "Center of The Great Arena",
+        "description": "A massive sanctuary built from black iron and dragon bone, where the sounds of clashing weapons echo eternally. Ancient weapons of legendary champions line the walls, and dragon fire burns in braziers of unbreakable metal.",
+        "trial_type": "Primal Might Mastery",
+        "requirements": {
+          "minimum_level": 30,
+          "prerequisite": "Basic physical enhancement abilities",
+          "offerings": ["Legendary weapon", "Victory in honorable combat", "Dragon scale"]
+        },
+        "trial_description": "Candidates must face increasingly powerful opponents in single combat, proving their strength, skill, and unwavering honor without using any tricks or deception.",
+        "rewards": [
+          "Enhanced physical capabilities and combat prowess",
+          "Immunity to fear and intimidation effects",
+          "Ability to inspire courage and strength in allies",
+          "Korthak's Blessing - draconic scales that appear during physical enhancement"
+        ]
+      },
+      "secondary_sanctuaries": [
+        {
+          "name": "The Champion's Hall",
+          "location": "The Proving Grounds",
+          "trial_type": "Combat Mastery",
+          "description": "A sanctuary dedicated to those seeking to perfect their martial skills through honest effort"
+        },
+        {
+          "name": "The Dragon Roost",
+          "location": "Stronghaven",
+          "trial_type": "Draconic Bond",
+          "description": "A sanctuary where worthy warriors attempt to earn the partnership of ancient dragons"
+        }
+      ]
+    }
   },
   "relationships": {
-    "midgardland": "Strong military alliance and training partnership, especially through Korthak's Gate (Drakmorth)",
+    "midgardland": "Strong military alliance and training partnership, especially through Korthak's Gate",
     "other_kingdoms": "Respected for military prowess but sometimes seen as overly direct and inflexible",
     "diplomatic_stance": "Honest and straightforward in all dealings, will defend allies but refuses to use deception or trickery"
   }

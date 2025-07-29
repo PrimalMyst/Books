@@ -75,7 +75,41 @@
       "The First Archive - where Glacius allegedly crystallized the world's first knowledge",
       "Memory's Heart - the central crystal where all preserved experiences converge",
       "Wisdom Eternal - a crystal formation containing the oldest preserved memories"
-    ]
+    ],
+    "trial_locations": {
+      "primary_altar": {
+        "name": "The Eternal Memory Altar",
+        "location": "Deep within Memory's Heart crystal",
+        "description": "An altar of pure ice crystal that preserves the memories and wisdom of all who have undergone trials here. Surrounded by floating crystal shards containing ancient knowledge.",
+        "trial_type": "Fundamental Cold Mastery",
+        "requirements": {
+          "minimum_level": 25,
+          "prerequisite": "Basic ice magic attunement",
+          "offerings": ["Rare knowledge", "Personal memory", "Ice essence"]
+        },
+        "trial_description": "Candidates must preserve a moment of perfect understanding in crystal form while withstanding Glacius's primordial frost, achieving perfect stillness of mind and body.",
+        "rewards": [
+          "Enhanced ice magic potency",
+          "Immunity to cold and time-based effects",
+          "Ability to preserve memories and knowledge in ice crystal",
+          "Glacius's Mark - crystalline patterns that appear during ice magic use"
+        ]
+      },
+      "secondary_altars": [
+        {
+          "name": "Scholar's Preserve",
+          "location": "The Crystal Libraries",
+          "trial_type": "Knowledge Mastery",
+          "description": "A lesser altar where scholars prove their dedication to preserving wisdom"
+        },
+        {
+          "name": "Memory Shrine",
+          "location": "Frosthold Harbor", 
+          "trial_type": "Perfect Recall",
+          "description": "An altar dedicated to those seeking to preserve their experiences for eternity"
+        }
+      ]
+    }
   },
   "relationships": {
     "midgardland": "Knowledge exchange partner, especially through Glacius' Gate",

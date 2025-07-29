@@ -76,10 +76,44 @@
       "The Obsidian Throne - Serafina's seat of power in the mortal realm",
       "Crimson Pool - where vampiric transformations are perfected",
       "Library of Veiled Truths - repository of all forbidden knowledge"
-    ]
+    ],
+    "trial_locations": {
+      "primary_sanctuary": {
+        "name": "The Twilight Sanctuary of Liberation",
+        "location": "Beneath the Obsidian Throne",
+        "description": "A grand sanctuary of black marble and crimson silk, where shadows dance eternally and forbidden knowledge whispers from every corner. The air itself is thick with seductive power.",
+        "trial_type": "Primal Chaos Mastery",
+        "requirements": {
+          "minimum_level": 30,
+          "prerequisite": "Basic shadow magic attunement",
+          "offerings": ["Forbidden knowledge", "Personal sacrifice", "Shadow essence"]
+        },
+        "trial_description": "Candidates must embrace their darkest desires while resisting complete corruption, proving they can wield forbidden power without losing their essential self.",
+        "rewards": [
+          "Enhanced chaos magic potency and versatility",
+          "Resistance to mental domination and fear effects",
+          "Access to vampiric transformation abilities",
+          "Serafina's Blessing - eyes that glow with inner shadow during chaos magic use"
+        ]
+      },
+      "secondary_sanctuaries": [
+        {
+          "name": "The Crimson Chapel",
+          "location": "The Crimson Gardens",
+          "trial_type": "Vampiric Mastery",
+          "description": "A sanctuary dedicated to those seeking the gifts of immortal transformation"
+        },
+        {
+          "name": "The Whispering Archive",
+          "location": "Whisperport",
+          "trial_type": "Forbidden Knowledge",
+          "description": "A sanctuary where seekers prove their dedication to uncovering hidden truths"
+        }
+      ]
+    }
   },
   "relationships": {
-    "midgardland": "Cautious trading relationship, especially through Serafina's Gate (Nyxtharion)",
+    "midgardland": "Cautious trading relationship, especially through Serafina's Gate",
     "other_kingdoms": "Viewed with suspicion but secretly sought out for forbidden services",
     "diplomatic_stance": "Welcoming to those who seek transformation and hidden power, but dangerous to the narrow-minded"
   }
