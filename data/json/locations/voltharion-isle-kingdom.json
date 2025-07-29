@@ -95,20 +95,35 @@
           "Voltharion's Mark - crackling energy patterns that appear during lightning magic use"
         ],
         "elemental_embrace": {
-          "element": "lightning",
-          "embrace_name": "Wrath",
-          "description": "Upon completing the trial, player may choose to embrace the fundamental force of Lightning, gaining the 'Wrath' buff effect",
+          "system": "fundamental_choice",
+          "description": "Upon completing any Fundamental altar trial, player may choose to embrace one of the three fundamental elements",
+          "available_choices": [
+            {
+              "element": "fire",
+              "embrace_name": "Anger",
+              "description": "Enhanced fire damage and intensity effects"
+            },
+            {
+              "element": "cold", 
+              "embrace_name": "Hatred",
+              "description": "Enhanced cold damage and preservation effects"
+            },
+            {
+              "element": "lightning",
+              "embrace_name": "Wrath", 
+              "description": "Enhanced lightning damage and connection abilities"
+            }
+          ],
           "mechanics": {
-            "initial_embrace": "Grants Wrath Level 1",
-            "repeated_embrace": "If Lightning is embraced again in subsequent trials, Wrath gains +1 level",
+            "choice_per_trial": "Each completed Fundamental altar trial allows choosing any one element",
+            "level_progression": "First choice grants Level 1, second different choice grants Level 2, third choice grants Level 3",
             "maximum_level": 3,
-            "minimum_level": 1,
-            "stacking_note": "Each level of Wrath increases lightning-based damage and connection abilities"
+            "note": "Player can choose Fire at Glacius' altar, Cold at Voltharion's altar, etc."
           },
           "special_combination": {
-            "requirement": "Embrace all three fundamental elements (Fire, Cold, Lightning)",
+            "requirement": "Embrace all three fundamental elements (one choice per trial completion)",
             "unlock": "Purity of Elements",
-            "description": "Achieving all three fundamental embraces unlocks the legendary 'Purity of Elements' state"
+            "description": "Completing all three Fundamental trials and choosing different elements unlocks 'Purity of Elements'"
           }
         }
       },
