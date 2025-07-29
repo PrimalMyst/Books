@@ -94,7 +94,38 @@
           "Immunity to negative energy and corruption effects",
           "Ability to create protective barriers of light",
           "Aurelius's Blessing - golden aura that appears during radiance magic use"
-        ]
+        ],
+        "opposition_system": {
+          "system": "primal_opposition",
+          "description": "At any Primal sanctuary, players can choose to oppose that god, affecting their relationship with all three Primal deities",
+          "opposition_choice": {
+            "oppose_aurelius": "Player rejects Aurelius's teachings of protection and healing, embracing harsher paths",
+            "consequences": "Marked as opponent of Light/Radiance magic, but may gain favor with other Primal gods"
+          },
+          "outcome_possibilities": [
+            {
+              "condition": "Oppose all three Primal gods (Serafina, Aurelius, Korthak)",
+              "result": "Heathen",
+              "description": "Reject all Primal divine authority, gaining independence but losing divine support"
+            },
+            {
+              "condition": "Oppose only Aurelius",
+              "result": "Aurelius's Nemesis", 
+              "description": "Become dedicated enemy of light and healing, gaining anti-radiance abilities"
+            },
+            {
+              "condition": "Oppose Aurelius and one other, worship the third",
+              "result_serafina": "Serafina's Priest (if opposing Aurelius + Korthak)",
+              "result_korthak": "Korthak's Priest (if opposing Aurelius + Serafina)",
+              "description": "Complete dedication to one Primal god through rejection of the other two"
+            }
+          ],
+          "mechanics": {
+            "choice_permanence": "Opposition choices are permanent and affect all future divine interactions",
+            "cross_sanctuary": "Opposition can be declared at any Primal sanctuary, affecting the entire system",
+            "buff_exclusivity": "Only one of Heathen/Nemesis/Priest buffs can be active at a time"
+          }
+        }
       },
       "secondary_sanctuaries": [
         {

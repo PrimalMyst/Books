@@ -94,7 +94,38 @@
           "Resistance to mental domination and fear effects",
           "Access to vampiric transformation abilities",
           "Serafina's Blessing - eyes that glow with inner shadow during chaos magic use"
-        ]
+        ],
+        "opposition_system": {
+          "system": "primal_opposition",
+          "description": "At any Primal sanctuary, players can choose to oppose that god, affecting their relationship with all three Primal deities",
+          "opposition_choice": {
+            "oppose_serafina": "Player rejects Serafina's teachings of forbidden transformation and shadow embrace",
+            "consequences": "Marked as opponent of Chaos/Shadow magic, but may gain favor with other Primal gods"
+          },
+          "outcome_possibilities": [
+            {
+              "condition": "Oppose all three Primal gods (Serafina, Aurelius, Korthak)",
+              "result": "Heathen",
+              "description": "Reject all Primal divine authority, gaining independence but losing divine support"
+            },
+            {
+              "condition": "Oppose only Serafina",
+              "result": "Serafina's Nemesis", 
+              "description": "Become dedicated enemy of shadow and chaos, gaining anti-chaos abilities"
+            },
+            {
+              "condition": "Oppose Serafina and one other, worship the third",
+              "result_aurelius": "Aurelius's Priest (if opposing Serafina + Korthak)",
+              "result_korthak": "Korthak's Priest (if opposing Serafina + Aurelius)",
+              "description": "Complete dedication to one Primal god through rejection of the other two"
+            }
+          ],
+          "mechanics": {
+            "choice_permanence": "Opposition choices are permanent and affect all future divine interactions",
+            "cross_sanctuary": "Opposition can be declared at any Primal sanctuary, affecting the entire system",
+            "buff_exclusivity": "Only one of Heathen/Nemesis/Priest buffs can be active at a time"
+          }
+        }
       },
       "secondary_sanctuaries": [
         {
