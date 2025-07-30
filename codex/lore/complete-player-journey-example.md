@@ -1,204 +1,204 @@
 # Complete Player Journey Example
 ## From Tutorial to Godhood: The Path of a Myst-Walker
 
-*This document provides a comprehensive example of a typical player's journey through PrimalMyst, from first awakening to ultimate ascension.*
+*This document demonstrates the core design principles of PrimalMyst through a complete player journey example.*
 
 ---
 
-## **Phase 1: Awakening (Levels 1-15)**
-### Tutorial Island & Basic Training
+## **CORE DESIGN PRINCIPLES**
 
-**Level 1-5: First Steps**
-- Player awakens on **Tutorial Island** with basic myst-sensing abilities
-- Complete **[Tutorial Quest Chain]** - Learn movement, combat, basic magic
-- Meet **[Tutorial NPC Guide]** who explains the reality instance system
-- First glimpse of **Yggdrasil** in the distance
-- **Milestone:** Gain basic understanding of myst manipulation
+### **🎯 Level & Rank Split System**
+- **Levels 1-100:** Character power progression
+- **Ranks E-S:** Content difficulty and access gates
+- **Rule:** All content, equipment, and progression tied to BOTH level AND rank requirements
 
-**Level 6-15: Midgardland Arrival**
-- Travel to **Midgardland mainland** - the neutral heart realm
-- Establish base at **[Starting Town]** near Yggdrasil's base
-- Explore the **six gateway cities**: Pyrion's Gate, Glacius' Gate, Voltharion's Gate, Serafina's Gate, Aurelius's Gate, Korthak's Gate
-- Complete **[Mainland Quest Chains]** - Learn about the six divine islands
-- **Milestone:** Ready to begin Divine Trials
+### **📚 Mandatory Act Structure**
+1. **Tutorial Island** (Levels 1-10) → Choose starting divine island
+2. **Act 1: Divine Trials** (Levels 10-30) → Establish divine positioning  
+3. **Act 2: Eldritch Ascension** (Levels 30-70) → Explore realms and mysteries
+4. **Act 3: Cosmic Ascendant** (Levels 70-95) → Prepare for godhood
+5. **Epilogue: God-Slayer** (Levels 96-100) → Multi-round divine combat + Myrielle
 
----
+### **⚡ Divine Influence Rules**
+- **NO direct god influence** on players except by explicit choice
+- **ONLY Myrielle** can interact with players outside trials
+- **Gods exist in their realms** - players must visit them to interact
+- **All divine power gained** through conscious trial participation
 
-## **Phase 2: Divine Trials (Levels 15-35)**
-### Establishing Divine Relationships
-
-**Level 15-25: Fundamental God Trials**
-- Visit **Pyrion's Isle** - Complete **Primordial Forge Altar** trial
-- Visit **Glacius' Isle** - Complete **Eternal Memory Altar** trial  
-- Visit **Voltharion's Isle** - Complete **Cosmic Spark Altar** trial
-- **Choice Example:** Player chooses Lightning/Wrath (Level 1), Fire/Anger (Level 1), Cold/Hatred (Level 1)
-- **Achievement:** **Purity of Elements** unlocked (all three fundamental forces at Level 1)
-
-**Level 25-35: Primal God Opposition**
-- Visit **Serafina's Isle** - Enter **Twilight Sanctuary of Liberation**
-- **Choice:** Oppose Serafina (reject forbidden transformation)
-- Visit **Aurelius's Isle** - Enter **Radiant Sanctuary of Protection**
-- **Choice:** Oppose Aurelius (reject protective guidance)
-- Visit **Korthak's Isle** - Enter **Iron Sanctuary of Honor**
-- **Choice:** Accept Korthak's teachings (embrace honorable strength)
-- **Result:** Become **Korthak's Priest** (opposed 2 gods, worship 1)
-
-**Divine Positioning Complete:**
-- **Elemental Mastery:** Balanced across all three fundamental forces
-- **Primal Status:** Korthak's Priest with enhanced physical abilities
-- **Divine Signature:** "The Elemental Warrior-Priest"
+### **🔥 Divine Trial System**
+- **3 Elemental Embraces Maximum** (any distribution: 3+0+0, 2+1+0, or 1+1+1)
+- **Minimum 1 Primal Opposition Required** (Heathen/Nemesis/Priest outcomes)
+- **Player choice only** - no god interference or "calling"
 
 ---
 
-## **Phase 3: Power Development (Levels 35-65)**
-### Mastering Abilities & Exploring Realms
+## **Phase 1: Tutorial Island (Levels 1-10, Rank E)**
+### Foundation Learning
 
-**Level 35-45: Advanced Training**
-- Access **[Advanced Training Zones]** unlocked by divine positioning
-- Master **combined elemental abilities** from Purity of Elements
-- Train in **Korthak's exclusive combat techniques**
-- Complete **[Dragon Bonding Trials]** (available to Korthak followers)
+**Level 1-10: Core Systems**
+- Learn **level/rank split mechanics** - why both matter
+- Master **basic myst manipulation** and **reality instance awareness**
+- Meet **[Tutorial Guide NPC]** - explains Myrielle's role as the ONLY divine contact
+- **Choice Point:** Select starting divine island (cannot visit mainland yet)
+- **Milestone:** Achieve **Rank D** to leave tutorial
 
-**Level 45-65: Realm Expeditions**
-- Explore the **[Six Surrounding Realms]** connected to Yggdrasil
-- Complete **[Realm-Specific Quest Chains]** 
-- Gather **[Legendary Equipment]** suited to elemental/physical build
-- Face **[Elite Monsters]** and **[Mini-Bosses]**
-- **Milestone:** Achieve mastery rank in chosen specializations
-
----
-
-## **Phase 4: Eldritch Ascension (Levels 65-85)**
-### Preparing for Godhood
-
-**Level 65-75: Eldritch Mysteries**
-- Investigate **[Eldritch Anomalies]** appearing across realms
-- Learn about the **cosmic breathing** and **reality instances**
-- First encounters with **Myrielle the Hidden** 
-- Complete **[Cosmic Understanding Quest Chain]**
-- **Revelation:** Understand the true nature of gods and reality
-
-**Level 75-85: Ascension Preparation**
-- Complete **[Final Mastery Trials]** in chosen specializations
-- Gather **[God-Slayer Equipment]** - legendary items specifically for divine combat
-- Access **[Secret Training Grounds]** for god-level combat preparation
-- **Final Divine Positioning Check:** Confirm readiness for god encounters
-- **Milestone:** Achieve **God-Slayer Candidate** status
+**Available Starting Islands:**
+- **Pyrion's Isle** (Fire-focused starting area)
+- **Glacius' Isle** (Cold-focused starting area)  
+- **Voltharion's Isle** (Lightning-focused starting area)
+- **Serafina's Isle** (Chaos-focused starting area)
+- **Aurelius's Isle** (Radiance-focused starting area)
+- **Korthak's Isle** (Might-focused starting area)
 
 ---
 
-## **Phase 5: God-Slayer Trials (Levels 85-100)**
-### The Ultimate Challenge
+## **Act 1: Divine Trials (Levels 10-30, Ranks D-C)**
+### Establishing Divine Positioning
 
-**Level 85-95: Preparation Phase**
-- Complete **[God-Slayer Preparation Questline]**
-- Gather **[Divine Combat Resources]** - special consumables and equipment
-- **Strategic Planning:** Choose order for facing the six gods
-- **Final Training:** Practice against **[God-Simulation Challenges]**
+**Level 10-20: First Island Exploration**
+- Explore chosen starting island completely
+- **No divine influence** - gods remain in their sanctuaries/altars
+- Complete **[Island Quest Chains]** to understand local culture
+- **Access Requirement:** Rank C to attempt divine trials
 
-### **Multi-Round God-Slayer System**
+**Level 20-25: Fundamental Trials (3 Embraces Maximum)**
+- Visit **any three Fundamental altars** across Pyrion/Glacius/Voltharion isles
+- **Example Distribution:** Lightning/Wrath (Level 2), Fire/Anger (Level 1), Cold/Hatred (Level 0)
+- **Player Choice:** Can embrace same element multiple times OR spread across elements
+- **No God Interaction:** Altars are ancient, automated systems
 
-**Round 1: Level 96 - The First Challenge**
-- Face all **six gods** in chosen order at **Level 96**
-- **Strategy Example:** Use Purity of Elements for balanced approach, Korthak's blessing for physical enhancement
-- **Combat:** Each god tests different aspects of player's build
-- **Victory Condition:** Defeat all six gods to proceed to Round 2
+**Level 25-30: Primal Opposition (Minimum 1 Required)**
+- Visit **any Primal sanctuaries** across Serafina/Aurelius/Korthak isles
+- **Example:** Oppose Serafina, Oppose Aurelius, Accept Korthak = **Korthak's Priest**
+- **Player Choice Only:** Gods respond to player decisions, never initiate contact
+- **Mainland Access:** Unlocked only after divine positioning complete
+
+**Act 1 Complete:**
+- **Divine Signature Established:** "The Lightning-Fire Warrior-Priest"
+- **Rank Requirement:** Achieve Rank B to proceed to Act 2
+- **Mainland Portal:** Now accessible from any divine island
+
+---
+
+## **Act 2: Eldritch Ascension (Levels 30-70, Ranks B-A)**
+### Realm Exploration & Power Development
+
+**Level 30-50: Midgardland Hub Access**
+- **First time accessing mainland** - the neutral heart realm
+- Establish base near **Yggdrasil** - gateway to surrounding realms
+- Access **[Six Surrounding Realms]** connected by Yggdrasil branches
+- **Rank Gate:** Need Rank A to access higher-tier realm content
+
+**Level 50-70: Eldritch Mysteries**
+- Investigate **[Reality Instance Phenomena]** across realms
+- **Myrielle Encounters:** ONLY divine being who contacts player directly
+- Learn about **cosmic breathing** and **reality transitions**
+- **Equipment:** Divine-blessed gear from trials, NOT god-granted
+
+**Act 2 Complete:**
+- **Rank Requirement:** Achieve Rank S to proceed to Act 3
+- **Cosmic Understanding:** Ready for god-level challenges
+
+---
+
+## **Act 3: Cosmic Ascendant (Levels 70-95, Rank S)**
+### Preparing for Divine Combat
+
+**Level 70-85: Mastery Development**
+- **Advanced Training:** Combine elemental embraces with primal positioning
+- **God-Slayer Equipment:** Craft/find legendary items for divine combat
+- **Strategic Preparation:** Study the six gods through lore, not contact
+
+**Level 85-95: Final Preparation**
+- **Combat Simulations:** Practice against **[Divine Challenge Proxies]**
+- **Myrielle Guidance:** Final cosmic understanding lessons
+- **Strategic Planning:** Choose god-fighting order based on build
+
+**Act 3 Complete:**
+- **God-Slayer Candidate Status:** Ready for epilogue
+- **Level 96:** Mandatory level for first god encounters
+
+---
+
+## **Epilogue: God-Slayer (Levels 96-100, Rank S)**
+### Multi-Round Divine Combat
+
+**Round 1: Level 96 - First Challenge**
+- Face all **six gods** in chosen order
+- **Strategy:** Use divine positioning advantages (embraces/opposition status)
+- **Gods Fight Back:** First time direct divine interaction through combat
 
 **Round 2: Level 98 - The Proving**
-- Gods return **stronger** - same mechanics but increased power
-- Player must demonstrate **growth and adaptation**
-- **Enhanced Strategy:** Utilize lessons learned from Round 1
-- **Victory Condition:** Again defeat all six gods to proceed to Round 3
+- Gods return stronger - prove adaptation and growth
+- **Enhanced Abilities:** Player has learned from Round 1
 
 **Round 3: Level 100 - The Mastery**
-- Gods at **maximum power** - ultimate test of player skill
-- **Final Challenge:** Prove worthiness to face Myrielle
-- **Victory Condition:** Defeat all six gods one final time
+- Gods at maximum power - ultimate skill test
+- **Victory Condition:** Prove worthiness to face Myrielle
 
-**The Final Confrontation: Myrielle at Level 100**
-- Face **Myrielle the Hidden** - the guide of cosmic transitions
-- **Ultimate Test:** Not just combat, but understanding of cosmic purpose
-- **Multiple Endings:** Based on player choices throughout journey
-- **Victory:** Achieve **[Cosmic Ascendant]** status
+**Final Confrontation: Myrielle at Level 100**
+- **Cosmic Purpose Test:** Understanding, not just combat
+- **Reality Role:** Determine player's function in cosmic order
+- **Achievement:** **Cosmic Ascendant** status
 
 ---
 
-## **Ending Variations Based on Journey Choices**
+## **CORE RULE VIOLATIONS TO AVOID**
 
-### **Elemental Master Ending**
-- **Requirement:** Achieved Purity of Elements
-- **Outcome:** Become guardian of fundamental forces across all reality instances
+❌ **Gods contacting/influencing players** outside trials  
+✅ **Player seeks gods** through conscious trial participation
 
-### **Divine Rebel Ending**
-- **Requirement:** Heathen status (opposed all Primal gods)
-- **Outcome:** Transcend divine systems entirely, forge independent path
+❌ **Starting on mainland** or skipping island progression  
+✅ **Tutorial → Divine Island → Trials → Mainland access**
 
-### **Divine Champion Ending**
-- **Requirement:** Priest status (devoted to one Primal god)
-- **Outcome:** Become ultimate representative of chosen divine force
+❌ **Ignoring level/rank requirements** for content access  
+✅ **Both level AND rank** must meet requirements
 
-### **Balanced Ascendant Ending**
-- **Requirement:** Complex positioning with mixed relationships
-- **Outcome:** Take Myrielle's role as guide for future reality instances
+❌ **Divine "calling" or automatic god relationships**  
+✅ **Player choice only** through trial system
 
----
-
-## **Key System Integration Examples**
-
-**Divine Positioning Impact:**
-- **Korthak's Priest** status provides enhanced physical combat abilities crucial for god battles
-- **Purity of Elements** offers resistance to all fundamental-based divine attacks
-- Opposition choices affect which gods are harder/easier to face
-
-**Reality Instance Mechanics:**
-- Player's choices echo across different instances
-- Myrielle guides transitions between cosmic cycles
-- Final confrontation determines player's role in cosmic order
-
-**Equipment Progression:**
-- Early game: Basic myst-enhanced gear
-- Mid game: Divine-blessed equipment from trials
-- Late game: God-Slayer legendary items
-- Endgame: Cosmic-tier artifacts for divine combat
-
-**Build Diversity Examples:**
-- **Elemental Specialist:** Focus 3 embraces on single element (Level 3 mastery)
-- **Balanced Mystic:** Purity of Elements build (1+1+1 distribution)
-- **Divine Extremist:** Heathen or single-god Priest paths
-- **Hybrid Master:** Complex positioning with mixed divine relationships
+❌ **Unlimited embraces** or unclear trial mechanics  
+✅ **3 embrace maximum, 1+ opposition minimum**
 
 ---
 
-## **Estimated Playtime Breakdown**
+## **Build Example: "Lightning-Fire Warrior-Priest"**
 
-- **Phase 1 (Levels 1-15):** ~10-15 hours
-- **Phase 2 (Levels 15-35):** ~25-35 hours  
-- **Phase 3 (Levels 35-65):** ~40-60 hours
-- **Phase 4 (Levels 65-85):** ~30-40 hours
-- **Phase 5 (Levels 85-100):** ~20-30 hours
-- **Total Journey:** ~125-180 hours for complete experience
+**Elemental Distribution:** Lightning/Wrath (Level 2), Fire/Anger (Level 1)  
+**Primal Status:** Korthak's Priest (opposed Serafina + Aurelius)  
+**Strategic Advantages:** Enhanced lightning + physical combat, resistance to chaos/light  
+**God-Slayer Approach:** Lead with Korthak alliance, use elemental balance for others
 
-*Note: Playtime varies significantly based on exploration, side quests, and mastery of optional content.*
-
----
-
-## **Replayability Factors**
-
-**Divine Positioning Variations:**
-- 9 different elemental embrace distributions
-- 7 different primal opposition outcomes  
-- Countless combinations create unique playthroughs
-
-**Strategic Approaches:**
-- Different god-fighting orders change difficulty curves
-- Multiple viable build paths for endgame content
-- Ending variations encourage multiple completions
-
-**Reality Instance System:**
-- Each instance offers unique conditions and challenges
-- Myrielle's guidance changes based on previous choices
-- Cosmic cycle participation unlocks new content
+**Progression Path:**
+- **Tutorial → Voltharion's Isle** (lightning focus start)
+- **Act 1:** Lightning embrace × 2, Fire embrace × 1, Korthak priest path
+- **Act 2:** Master combined lightning-fire abilities, physical training
+- **Act 3:** God-slayer equipment suited to elemental-physical hybrid
+- **Epilogue:** Balanced approach with Korthak advantage
 
 ---
 
-*This journey represents one possible path through PrimalMyst. The systems are designed to support countless variations while maintaining a coherent progression from novice Myst-Walker to Cosmic Ascendant.*
+*This journey exemplifies the core design: player agency, structured progression, conscious choice over divine influence, and the level/rank split governing all content access.*
+
+---
+
+## **Estimated Playtime & Replayability**
+
+**Playtime Breakdown:**
+- **Tutorial (1-10):** ~8-12 hours
+- **Act 1 (10-30):** ~25-35 hours  
+- **Act 2 (30-70):** ~60-80 hours
+- **Act 3 (70-95):** ~35-45 hours
+- **Epilogue (96-100):** ~15-25 hours
+- **Total Journey:** ~140-200 hours
+
+**Replayability Factors:**
+- **6 different starting islands** create unique early experiences
+- **Multiple elemental distributions** (3+0+0, 2+1+0, 1+1+1)
+- **7 different primal outcomes** (3 Heathen, 3 Nemesis, 3 Priest, mixed)
+- **Different god-fighting orders** change strategy requirements
+- **Level/rank optimization** challenges for efficient progression
+
+---
+
+*This journey exemplifies PrimalMyst's core design: structured progression through acts, player agency in all divine relationships, level/rank gates controlling access, and Myrielle as the only direct divine contact until players choose trials.*
