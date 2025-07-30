@@ -10,7 +10,6 @@ This folder contains all the structured data files that define PrimalMyst's main
 - **`act2-eldritch-ascension.json`** - Eldritch mysteries and cosmic understanding (levels 40-69)
 - **`act3-cosmic-ascendant.json`** - Divine mastery and champion status (levels 70-84)
 - **`epilogue-god-slayer-ascension.json`** - Divine confrontations and transcendence (levels 85-100)
-- **`epilogue-cosmic-homecoming.json`** - Alternative ending path and cosmic resolution
 
 ### Framework Files
 - **`act-level-rank-structure.json`** - Canonical definition of level/rank/act relationships
