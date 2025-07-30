@@ -13,11 +13,11 @@
 - **Rule:** All content, equipment, and progression tied to BOTH level AND rank requirements
 
 ### **📚 Mandatory Act Structure**
-1. **Tutorial Island** (Levels 1-10) → Choose starting divine island
-2. **Act 1: Divine Trials** (Levels 10-30) → Establish divine positioning  
-3. **Act 2: Eldritch Ascension** (Levels 30-70) → Explore realms and mysteries
-4. **Act 3: Cosmic Ascendant** (Levels 70-95) → Prepare for godhood
-5. **Epilogue: God-Slayer** (Levels 96-100) → Multi-round divine combat + Myrielle
+1. **Prologue: Tutorial Island** (Levels 1-9, Hidden E) → Choose starting divine island
+2. **Act 1: Divine Trials** (Levels 10-39, E-D) → Establish divine positioning  
+3. **Act 2: Eldritch Ascension** (Levels 40-69, C-B) → Explore realms and mysteries
+4. **Act 3: Cosmic Ascendant** (Levels 70-84, A) → Prepare for godhood
+5. **Epilogue: God-Slayer** (Levels 85-100, S-SS) → Divine confrontation + Myrielle
 
 ### **⚡ Divine Influence Rules**
 - **NO direct god influence** on players except by explicit choice
@@ -32,15 +32,15 @@
 
 ---
 
-## **Phase 1: Tutorial Island (Levels 1-10, Rank E)**
+## **Prologue: Tutorial Island (Levels 1-9, Hidden E)**
 ### Foundation Learning
 
-**Level 1-10: Core Systems**
+**Level 1-9: Core Systems**
 - Learn **level/rank split mechanics** - why both matter
 - Master **basic myst manipulation** and **reality instance awareness**
 - Meet **[Tutorial Guide NPC]** - explains Myrielle's role as the ONLY divine contact
 - **Choice Point:** Select starting divine island (cannot visit mainland yet)
-- **Milestone:** Achieve **Rank D** to leave tutorial
+- **Milestone:** Achieve **visible E rank** to leave tutorial
 
 **Available Starting Islands:**
 - **Pyrion's Isle** (Fire-focused starting area)
@@ -52,94 +52,116 @@
 
 ---
 
-## **Act 1: Divine Trials (Levels 10-30, Ranks D-C)**
+## **Act 1: Divine Trials (Levels 10-39, Ranks E-D)**
 ### Establishing Divine Positioning
 
-**Level 10-20: First Island Exploration**
+**Level 10-20: First Island Exploration (Rank E)**
 - Explore chosen starting island completely
 - **No divine influence** - gods remain in their sanctuaries/altars
 - Complete **[Island Quest Chains]** to understand local culture
-- **Access Requirement:** Rank C to attempt divine trials
+- **Divine Decay Threat:** Gradual deterioration near opposing gods
+- **Access Requirement:** Rank C to attempt divine trials (level 20)
 
-**Level 20-25: Fundamental Trials (3 Embraces Maximum)**
+**Level 20-30: Fundamental Trials (Rank C - 3 Embraces Maximum)**
 - Visit **any three Fundamental altars** across Pyrion/Glacius/Voltharion isles
 - **Example Distribution:** Lightning/Wrath (Level 2), Fire/Anger (Level 1), Cold/Hatred (Level 0)
 - **Player Choice:** Can embrace same element multiple times OR spread across elements
 - **No God Interaction:** Altars are ancient, automated systems
 
-**Level 25-30: Primal Opposition (Minimum 1 Required)**
+**Level 30-39: Primal Opposition (Rank D - Minimum 1 Required)**
 - Visit **any Primal sanctuaries** across Serafina/Aurelius/Korthak isles
 - **Example:** Oppose Serafina, Oppose Aurelius, Accept Korthak = **Korthak's Priest**
 - **Player Choice Only:** Gods respond to player decisions, never initiate contact
+- **Divine Acknowledgment Tremor:** +6 monster level increase per trial completion
 - **Mainland Access:** Unlocked only after divine positioning complete
 
 **Act 1 Complete:**
 - **Divine Signature Established:** "The Lightning-Fire Warrior-Priest"
-- **Rank Requirement:** Achieve Rank B to proceed to Act 2
+- **Final Monster Level:** Level 36+ minimum after all six trials
+- **Rank Requirement:** Achieve Rank C to proceed to Act 2
 - **Mainland Portal:** Now accessible from any divine island
 
 ---
 
-## **Act 2: Eldritch Ascension (Levels 30-70, Ranks B-A)**
+## **Act 2: Eldritch Ascension (Levels 40-69, Ranks C-B)**
 ### Realm Exploration & Power Development
 
-**Level 30-50: Midgardland Hub Access**
+**Level 40-50: Midgardland Hub Access (Rank C)**
 - **First time accessing mainland** - the neutral heart realm
 - Establish base near **Yggdrasil** - gateway to surrounding realms
 - Access **[Six Surrounding Realms]** connected by Yggdrasil branches
-- **Rank Gate:** Need Rank A to access higher-tier realm content
+- **Advanced Trial Access:** Divine positioning +51 enables complex challenges
 
-**Level 50-70: Eldritch Mysteries**
+**Level 50-60: Divine Realm Exploration (Rank B required)**
+- **Guided Expeditions:** Formal visits to divine realms with experienced guides
+- **Realm-Specific Trials:** Challenges only completable within divine domains
+- **Divine Inhabitant Interaction:** Direct communication with pure divine essence beings
+- **Environmental Mastery:** Navigate and thrive in overwhelming divine presence
+- **Rank Gate:** Need Rank B to access higher-tier realm content
+
+**Level 60-69: Eldritch Mysteries (Rank B)**
 - Investigate **[Reality Instance Phenomena]** across realms
 - **Myrielle Encounters:** ONLY divine being who contacts player directly
 - Learn about **cosmic breathing** and **reality transitions**
+- **Advanced Divine Integration:** Combine elemental embraces with primal positioning
 - **Equipment:** Divine-blessed gear from trials, NOT god-granted
 
 **Act 2 Complete:**
-- **Rank Requirement:** Achieve Rank S to proceed to Act 3
+- **Rank Requirement:** Achieve Rank A to proceed to Act 3
 - **Cosmic Understanding:** Ready for god-level challenges
 
 ---
 
-## **Act 3: Cosmic Ascendant (Levels 70-95, Rank S)**
+## **Act 3: Cosmic Ascendant (Levels 70-84, Rank A)**
 ### Preparing for Divine Combat
 
-**Level 70-85: Mastery Development**
-- **Advanced Training:** Combine elemental embraces with primal positioning
+**Level 70-77: Divine Champion Mastery (Rank A)**
+- **Master Trial Completion:** Highest level of divine challenges
+- **Divine Champion Status:** Acting as official divine representatives
+- **Reality-Affecting Responsibilities:** Tasks influencing cosmic stability
 - **God-Slayer Equipment:** Craft/find legendary items for divine combat
-- **Strategic Preparation:** Study the six gods through lore, not contact
 
-**Level 85-95: Final Preparation**
+**Level 78-84: Transcendent Preparation (Rank A)**
+- **Divine Essence Integration:** Incorporate divine power into personal identity
+- **Cosmic Event Leadership:** Central roles in reality-wide phenomena
+- **Multi-Divine Coordination:** Successfully manage competing divine interests
 - **Combat Simulations:** Practice against **[Divine Challenge Proxies]**
-- **Myrielle Guidance:** Final cosmic understanding lessons
-- **Strategic Planning:** Choose god-fighting order based on build
+- **Myrielle's Truth:** First direct revelation of hidden goddess's plan
+- **God-Slayer Path Disclosure:** Understanding all training led to this moment
+- **Yggdrasil Access:** Opening of path to World Tree's summit
 
 **Act 3 Complete:**
-- **God-Slayer Candidate Status:** Ready for epilogue
-- **Level 96:** Mandatory level for first god encounters
+- **Rank Requirement:** Achieve Rank S to proceed to Epilogue
+- **God-Slayer Candidate Status:** Prepared for ultimate responsibility
 
 ---
 
-## **Epilogue: God-Slayer (Levels 96-100, Rank S)**
-### Multi-Round Divine Combat
+## **Epilogue: God-Slayer (Levels 85-100, Ranks S-SS)**
+### Divine Confrontation
 
-**Round 1: Level 96 - First Challenge**
-- Face all **six gods** in chosen order
-- **Strategy:** Use divine positioning advantages (embraces/opposition status)
-- **Gods Fight Back:** First time direct divine interaction through combat
+**Level 85-90: Yggdrasil Ascension (Rank S)**
+- **Yggdrasil Climb:** Ascend to the World Tree's summit
+- **Divine Realm Access:** Honeycomb flower structure unlocks god realms
+- **Initial God Confrontations:** Begin multi-round divine battles
+- **Progressive Enhancement:** Gods grow stronger with each complete round
 
-**Round 2: Level 98 - The Proving**
-- Gods return stronger - prove adaptation and growth
-- **Enhanced Abilities:** Player has learned from Round 1
+**Level 90-98: Multi-Round God Battles (Rank S)**
+- **Round 1 (Level 90-92):** Face all six gods at base divine power
+- **Round 2 (Level 94-96):** Gods return with enhanced abilities
+- **Round 3 (Level 98):** Gods at maximum power with transcendent abilities
+- **Strategy Required:** Use divine positioning advantages throughout
 
-**Round 3: Level 100 - The Mastery**
-- Gods at maximum power - ultimate skill test
-- **Victory Condition:** Prove worthiness to face Myrielle
+**Level 99-100: Myrielle's Final Confrontation (Rank S → SS)**
+- **Myrielle's Sacrifice:** Understanding the hidden goddess's ultimate plan
+- **Final Battle:** Confrontation with Myrielle enhanced by all six gods' essence
+- **Consciousness Preservation:** Accept responsibility for preserving all worthy consciousness
+- **SS Rank Achievement:** Only achievable at level 100 through cosmic transcendence
+- **Valhalla Access:** Transport worthy followers to eternal sanctuary
 
-**Final Confrontation: Myrielle at Level 100**
-- **Cosmic Purpose Test:** Understanding, not just combat
-- **Reality Role:** Determine player's function in cosmic order
-- **Achievement:** **Cosmic Ascendant** status
+**Final Achievement: Cosmic Transcendent (Level 100, Rank SS)**
+- **Cosmic Purpose Fulfilled:** Understanding and accepting universal responsibility
+- **Reality Role:** Guardian of consciousness across reality instance transitions
+- **Ultimate Status:** **Cosmic Transcendent** - the highest possible achievement
 
 ---
 
@@ -170,11 +192,11 @@
 **God-Slayer Approach:** Lead with Korthak alliance, use elemental balance for others
 
 **Progression Path:**
-- **Tutorial → Voltharion's Isle** (lightning focus start)
+- **Prologue → Voltharion's Isle** (lightning focus start)
 - **Act 1:** Lightning embrace × 2, Fire embrace × 1, Korthak priest path
-- **Act 2:** Master combined lightning-fire abilities, physical training
-- **Act 3:** God-slayer equipment suited to elemental-physical hybrid
-- **Epilogue:** Balanced approach with Korthak advantage
+- **Act 2:** Master combined lightning-fire abilities, divine realm exploration
+- **Act 3:** God-slayer equipment suited to elemental-physical hybrid, divine champion status
+- **Epilogue:** Yggdrasil ascension with Korthak advantage, consciousness preservation role
 
 ---
 
@@ -185,12 +207,12 @@
 ## **Estimated Playtime & Replayability**
 
 **Playtime Breakdown:**
-- **Tutorial (1-10):** ~8-12 hours
-- **Act 1 (10-30):** ~25-35 hours  
-- **Act 2 (30-70):** ~60-80 hours
-- **Act 3 (70-95):** ~35-45 hours
-- **Epilogue (96-100):** ~15-25 hours
-- **Total Journey:** ~140-200 hours
+- **Prologue (1-9):** ~8-12 hours
+- **Act 1 (10-39):** ~40-60 hours  
+- **Act 2 (40-69):** ~60-80 hours
+- **Act 3 (70-84):** ~25-35 hours
+- **Epilogue (85-100):** ~20-30 hours
+- **Total Journey:** ~155-225 hours
 
 **Replayability Factors:**
 - **6 different starting islands** create unique early experiences

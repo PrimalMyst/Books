@@ -1,0 +1,241 @@
+{
+  "id": "act-level-rank-structure",
+  "title": "PrimalMyst Act, Level, and Rank Structure",
+  "category": "game-systems",
+  "subcategory": "progression-framework",
+  "knowledge_level": "canonical",
+  "certainty": "definitive",
+  "description": {
+    "summary": "The definitive progression structure for PrimalMyst defining the relationship between story acts, character levels, and rank progression throughout the entire game experience.",
+    "detailed": "This structure governs all content access, progression gating, and narrative pacing across PrimalMyst. Each act has specific level ranges and corresponding rank requirements that control what content players can access and when major story beats occur."
+  },
+  "progression_structure": {
+    "prologue": {
+      "name": "Tutorial Island - The Awakening",
+      "level_range": {
+        "min": 1,
+        "max": 9
+      },
+      "rank_progression": {
+        "starting_rank": "hidden_E",
+        "ending_rank": "hidden_E",
+        "description": "Hidden E rank throughout tutorial, revealed upon completion"
+      },
+      "duration": "~8-12 hours",
+      "key_content": [
+        "Basic myst manipulation learning",
+        "Reality instance awareness introduction", 
+        "Tutorial Guide NPC interaction",
+        "Starting divine island selection",
+        "Rank system revelation"
+      ],
+      "progression_gates": {
+        "entry": "Character creation and manifestation",
+        "exit": "Achieve visible E rank and select starting divine island"
+      }
+    },
+    "act_1": {
+      "name": "Divine Trials - Proving Worthiness",
+      "level_range": {
+        "min": 10,
+        "max": 39
+      },
+      "rank_progression": {
+        "starting_rank": "E",
+        "ending_rank": "D", 
+        "progression": "E (10-24) → D (25-39)",
+        "description": "Visible rank progression through divine trial completion"
+      },
+      "duration": "~40-60 hours",
+      "key_content": [
+        "Divine island exploration (10-20)",
+        "Fundamental trials - 3 embraces maximum (20-30)",
+        "Primal opposition - minimum 1 required (30-39)",
+        "Divine Acknowledgment Tremor (+6 monster level per trial)",
+        "Mainland access unlocked"
+      ],
+      "progression_gates": {
+        "entry": "E rank and divine island arrival",
+        "mid_point": "Rank C required for divine trials (level 20)",
+        "exit": "D rank and divine positioning complete"
+      }
+    },
+    "act_2": {
+      "name": "Eldritch Ascension - Cosmic Understanding",
+      "level_range": {
+        "min": 40,
+        "max": 69
+      },
+      "rank_progression": {
+        "starting_rank": "C",
+        "ending_rank": "B",
+        "progression": "C (40-54) → B (55-69)",
+        "description": "Advanced trial access and divine realm exploration"
+      },
+      "duration": "~60-80 hours",
+      "key_content": [
+        "Midgardland hub access (40-50)",
+        "Divine realm exploration (50-60)",
+        "Eldritch mysteries investigation (60-69)",
+        "Myrielle encounters and hidden trials",
+        "Advanced divine positioning (+51 required)"
+      ],
+      "progression_gates": {
+        "entry": "C rank and mainland portal access",
+        "mid_point": "B rank required for higher-tier realm content (level 55)",
+        "exit": "B rank and cosmic understanding achieved"
+      }
+    },
+    "act_3": {
+      "name": "Cosmic Ascendant - Divine Mastery",
+      "level_range": {
+        "min": 70,
+        "max": 84
+      },
+      "rank_progression": {
+        "starting_rank": "A",
+        "ending_rank": "A",
+        "progression": "A (70-84)",
+        "description": "Master trial completion and divine champion status"
+      },
+      "duration": "~25-35 hours",
+      "key_content": [
+        "Divine champion candidacy (70-77)",
+        "Master trial completion (78-84)",
+        "Divine essence integration",
+        "God-Slayer preparation",
+        "Yggdrasil access unlocked"
+      ],
+      "progression_gates": {
+        "entry": "A rank and master trial qualification",
+        "exit": "A rank mastery and God-Slayer candidate status"
+      }
+    },
+    "epilogue": {
+      "name": "God-Slayer - Divine Confrontation",
+      "level_range": {
+        "min": 85,
+        "max": 100
+      },
+      "rank_progression": {
+        "starting_rank": "S",
+        "ending_rank": "SS",
+        "progression": "S (85-99) → SS (100)",
+        "description": "Ultimate divine confrontations and cosmic transcendence"
+      },
+      "duration": "~20-30 hours",
+      "key_content": [
+        "Yggdrasil ascension (85-90)",
+        "Multi-round god battles (90-98)",
+        "Myrielle final confrontation (99-100)",
+        "Valhalla access and consciousness preservation",
+        "SS rank achievement at level 100 only"
+      ],
+      "progression_gates": {
+        "entry": "S rank and Yggdrasil access",
+        "final": "SS rank achieved only at level 100 upon cosmic transcendence"
+      }
+    }
+  },
+  "rank_definitions": {
+    "hidden_E": {
+      "name": "Hidden Novice",
+      "description": "Tutorial rank not visible to player until completion",
+      "level_range": "1-9",
+      "content_access": "Tutorial content only"
+    },
+    "E": {
+      "name": "Novice",
+      "description": "Beginning practitioner with basic myst manipulation",
+      "level_range": "10-24",
+      "content_access": "Basic divine island exploration"
+    },
+    "D": {
+      "name": "Apprentice", 
+      "description": "Proven through initial divine trials",
+      "level_range": "25-39",
+      "content_access": "Divine trials, elemental embraces, primal opposition"
+    },
+    "C": {
+      "name": "Journeyman",
+      "description": "Advanced practitioner with divine positioning complete",
+      "level_range": "40-54", 
+      "content_access": "Mainland access, basic divine realm exploration"
+    },
+    "B": {
+      "name": "Expert",
+      "description": "Skilled in advanced trials and cosmic understanding",
+      "level_range": "55-69",
+      "content_access": "Higher-tier realm content, eldritch mysteries"
+    },
+    "A": {
+      "name": "Master",
+      "description": "Divine champion with master trial completion",
+      "level_range": "70-84",
+      "content_access": "Master trials, divine essence integration"
+    },
+    "S": {
+      "name": "Grandmaster",
+      "description": "God-Slayer candidate with transcendent capabilities",
+      "level_range": "85-99",
+      "content_access": "Divine confrontations, Yggdrasil realms"
+    },
+    "SS": {
+      "name": "Cosmic Transcendent",
+      "description": "Ultimate achievement - reached only at level 100",
+      "level_range": "100",
+      "content_access": "Complete cosmic mastery, Valhalla access"
+    }
+  },
+  "progression_mechanics": {
+    "level_progression": {
+      "type": "Linear character power growth",
+      "range": "1-100",
+      "function": "Determines base character capabilities and equipment access"
+    },
+    "rank_progression": {
+      "type": "Content access gates",
+      "range": "Hidden E through SS", 
+      "function": "Controls what content, trials, and areas are accessible"
+    },
+    "dual_requirements": {
+      "rule": "All content requires BOTH level AND rank requirements to be met",
+      "examples": [
+        "Level 20 + Rank C = Divine trials access",
+        "Level 55 + Rank B = Higher-tier realm content",
+        "Level 100 + SS achievement = Cosmic transcendence"
+      ]
+    },
+    "special_cases": {
+      "ss_rank": "Only achievable at level 100 through cosmic transcendence",
+      "hidden_e": "Not visible to players during tutorial phase",
+      "divine_trials": "Rank C minimum required regardless of level"
+    }
+  },
+  "total_playtime": {
+    "estimated_hours": "155-225 hours",
+    "breakdown": {
+      "prologue": "8-12 hours",
+      "act_1": "40-60 hours", 
+      "act_2": "60-80 hours",
+      "act_3": "25-35 hours",
+      "epilogue": "20-30 hours"
+    }
+  },
+  "related_systems": {
+    "divine_trials": "Gated by rank requirements and level minimums",
+    "divine_positioning": "Established in Act 1, enhanced in Act 2",
+    "monster_scaling": "+6 level increase per divine trial completion",
+    "equipment_access": "Both level and rank requirements for all gear",
+    "area_access": "Rank-gated content with level minimums"
+  },
+  "metadata": {
+    "created": "2025-07-30T00:00:00Z",
+    "last_updated": "2025-07-30T00:00:00Z",
+    "author": "PrimalMyst Development Team",
+    "version": "1.0.0",
+    "canonical": true,
+    "system_type": "Core Progression Framework",
+    "development_status": "Definitive Structure"
+  }
+}

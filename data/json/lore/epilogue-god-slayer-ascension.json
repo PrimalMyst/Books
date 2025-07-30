@@ -6,8 +6,8 @@
   "knowledge_level": "transcendent",
   "certainty": "cosmic-truth",
   "description": {
-    "summary": "The epilogue reveals the player's destiny as the God-Slayer who must ascend Yggdrasil to face the strengthened gods at levels 96-100, ultimately confronting Myrielle herself, whose true motive was to ensure someone could preserve the world's memories when the inevitable end comes.",
-    "detailed": "After achieving cosmic champion status, the player gains access to Yggdrasil's divine summit where the god realms reside in a honeycomb structure of divine flowers. Each defeated god grows stronger with Myrielle's influence, culminating in the revelation that Myrielle orchestrated everything - including her own defeat - to grant the player and their followers access to Valhalla. When the world ends due to the fundamental gods' eternal clash, those with Valhalla access are transported to preserve the world's memories in the Standard League reality instance.",
+    "summary": "The epilogue reveals the player's destiny as the God-Slayer who must ascend Yggdrasil to face the strengthened gods across levels 85-100, ultimately confronting Myrielle herself, whose true motive was to ensure someone could preserve the world's memories when the inevitable end comes.",
+    "detailed": "After achieving cosmic champion status at level 85, the player gains access to Yggdrasil's divine summit where the god realms reside in a honeycomb structure of divine flowers. Each defeated god grows stronger with Myrielle's influence across multiple rounds from levels 85-100, culminating in the revelation that Myrielle orchestrated everything - including her own defeat - to grant the player and their followers access to Valhalla. When the world ends due to the fundamental gods' eternal clash, those with Valhalla access are transported to preserve the world's memories in the Standard League reality instance.",
     "narrative_significance": "The epilogue reveals Myrielle's ultimate sacrifice - she wanted to lose so that someone could survive the world's end and preserve its memories. Her followers' true motive was heartwarming desperation to ensure their world would be remembered. The God-Slayer path becomes an act of love and preservation rather than conquest."
   },
   "epilogue_structure": {
@@ -21,7 +21,7 @@
         "Central platform where Myrielle's final confrontation takes place",
         "Valhalla's golden gates visible beyond the defeated gods' realms"
       ],
-      "access_requirement": "Cosmic champion status and completion of all divine trials"
+      "access_requirement": "Cosmic champion status and completion of all divine trials at level 85+"
     },
     "god_slayer_progression": {
       "multi_round_system": "Gods must be defeated in multiple rounds as they grow stronger after each complete round",
@@ -30,21 +30,21 @@
       "enhancement_rounds": [
         {
           "round": 1,
-          "god_level": "96 (Base Divine Power)",
+          "god_level": "85-90 (Base Divine Power)",
           "description": "Initial confrontations with gods at standard divine strength",
           "completion_trigger": "Defeat all six gods to unlock Round 2"
         },
         {
           "round": 2,
-          "god_level": "98 (Enhanced Divine Power)", 
+          "god_level": "92-96 (Enhanced Divine Power)", 
           "description": "Gods return with significantly increased abilities and improved tactics",
           "completion_trigger": "Defeat all six enhanced gods to unlock Round 3"
         },
         {
           "round": 3,
-          "god_level": "100 (Maximum Divine Power)",
+          "god_level": "98-99 (Maximum Divine Power)",
           "description": "Gods reach peak power with transcendent abilities and ultimate battlefields",
-          "completion_trigger": "Defeat all six gods at maximum power to unlock Myrielle"
+          "completion_trigger": "Defeat all six gods at maximum power to unlock Myrielle at level 100"
         }
       ],
       "god_battle_progression": [

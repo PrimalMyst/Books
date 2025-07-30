@@ -3,6 +3,8 @@
 ## Summary
 Act 3 represents the final preparation phase before the God-Slayer path, where players achieve mastery of divine forces, cosmic understanding, and transcendent capabilities. As reality instance instability reaches critical levels and divine conflicts escalate, players must complete the most challenging trials while unknowingly preparing for the ultimate responsibility of preserving consciousness across cosmic collapse.
 
+## Core Structure (Levels 70-84, Rank A)
+
 ## Core Themes
 
 ### Divine Mastery Achievement
@@ -25,7 +27,7 @@ Act 3 represents the final preparation phase before the God-Slayer path, where p
 
 ## Story Structure
 
-### Early Act 3 (Levels 76-85)
+### Early Act 3 (Levels 70-77, Rank A)
 **Master Trial Initiation**:
 - **Divine Champion Candidacy**: Formal recognition as potential divine representative
 - **Reality-Affecting Responsibilities**: Tasks that influence cosmic stability and structure
@@ -44,39 +46,20 @@ Act 3 represents the final preparation phase before the God-Slayer path, where p
 - **Divine Intervention Increase**: Gods become more directly involved in mortal affairs
 - **Preservation Urgency**: Signs that consciousness preservation is becoming critical
 
-### Mid Act 3 (Levels 86-95)
+### Late Act 3 (Levels 78-84, Rank A)
 **Divine Champion Mastery**:
 - **Official Recognition**: Formal appointment as divine representative with full authority
 - **Divine Essence Integration**: Beginning to incorporate divine power into personal identity
 - **Cosmic Event Leadership**: Playing central roles in reality-wide phenomena
 - **Multi-Divine Coordination**: Successfully managing competing divine interests
 
-**Myrielle's Fifth Hidden Trial**:
+**Myrielle's Fifth and Sixth Hidden Trials**:
 - **Discovery**: Only accessible through perfect cosmic understanding and divine mastery
-- **Trial Nature**: Test of cosmic love and willingness to preserve others above self
-- **Reward**: Fifth Ascendency Point and complete understanding of Myrielle's true nature
+- **Trial Nature**: Tests of cosmic love and acceptance of ultimate responsibility
+- **Rewards**: Fifth and Sixth Ascendency Points, complete understanding of Myrielle's true nature
 - **Hidden Purpose**: Final confirmation of God-Slayer path qualification and preparation
 
-**Reality Crisis Point**:
-- **Divine War Declaration**: Open conflict between Fundamental and Primal factions
-- **Reality Instance Damage**: Visible and increasing structural damage to universe container
-- **Cosmic Rhythm Chaos**: Complete disruption of natural universal patterns
-- **Emergency Protocols**: Desperate measures to preserve consciousness before collapse
-
-### Late Act 3 (Levels 96-99)
-**Transcendent Preparation**:
-- **Divine Power Mastery**: Complete integration of divine capabilities and understanding
-- **Cosmic Perspective Achievement**: Thinking and acting on universal rather than personal scales
-- **Reality Preservation Focus**: Understanding and accepting responsibility for consciousness survival
-- **Ultimate Choice Preparation**: Developing resolve for the impossible decisions ahead
-
-**Myrielle's Sixth Hidden Trial**:
-- **Discovery**: Automatically revealed to those who complete all previous hidden trials
-- **Trial Nature**: Test of cosmic understanding and acceptance of ultimate responsibility
-- **Reward**: Sixth Ascendency Point and direct preparation for God-Slayer ascension
-- **Hidden Purpose**: Final empowerment and emotional preparation for divine confrontations
-
-**Pre-Ascension Revelation**:
+**Pre-Epilogue Revelation**:
 - **Myrielle's Truth**: First direct revelation of the hidden goddess's true plan and purpose
 - **God-Slayer Path Disclosure**: Understanding that all training has led to this moment
 - **Choice Presentation**: Final opportunity to accept or refuse the ultimate responsibility
@@ -196,7 +179,7 @@ Act 3 represents the final preparation phase before the God-Slayer path, where p
 ## Preparation for Epilogue
 
 ### Player Readiness Requirements
-**Power Level**: Level 96+ with divine essence integration and transcendent capabilities
+**Power Level**: Level 84+ with divine essence integration and transcendent capabilities
 **Cosmic Understanding**: Complete knowledge of reality instance mechanics and divine nature
 **Emotional Preparation**: Acceptance of necessary sacrifice and ultimate responsibility
 **Preservation Mastery**: Full capability for consciousness transfer and memory preservation
