@@ -1,0 +1,189 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "PrimalMyst Core Attribute", 
+  "description": "Individual core attribute corner within the attributes hexagon",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Unique identifier for this core attribute"
+    },
+    "name": {
+      "type": "string",
+      "description": "Display name for this core attribute"
+    },
+    "hexagon_position": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 6,
+      "description": "Position in the hexagon (1-6, clockwise from top)"
+    },
+    "category": {
+      "type": "string",
+      "enum": ["core-attribute"],
+      "description": "Category identifier for this data type"
+    },
+    "hexagon_reference": {
+      "type": "string",
+      "description": "Reference to the parent hexagon structure"
+    },
+    "description": {
+      "type": "object",
+      "properties": {
+        "brief": {"type": "string"},
+        "detailed": {"type": "string"},
+        "character_philosophy": {"type": "string"},
+        "visual_manifestation": {"type": "string"}
+      },
+      "required": ["brief", "detailed", "character_philosophy"]
+    },
+    "core_mechanics": {
+      "type": "object",
+      "properties": {
+        "primary_effects": {
+          "type": "array",
+          "items": {"type": "string"}
+        },
+        "secondary_effects": {
+          "type": "array",
+          "items": {"type": "string"}
+        },
+        "scaling_formula": {"type": "string"},
+        "soft_caps": {"type": "string"}
+      },
+      "required": ["primary_effects", "secondary_effects", "scaling_formula"]
+    },
+    "hexagonal_relationships": {
+      "type": "object",
+      "properties": {
+        "adjacent_synergies": {"type": "object"},
+        "opposite_tension": {"type": "object"}
+      }
+    },
+    "divine_alignment": {
+      "type": "object",
+      "properties": {
+        "patron_god": {"type": "string"},
+        "divine_bonus": {"type": "string"},
+        "divine_trial_connection": {"type": "string"},
+        "cosmic_principle": {"type": "string"}
+      }
+    },
+    "scaling_progression": {
+      "type": "object",
+      "properties": {
+        "per_level_gains": {"type": "object"},
+        "threshold_effects": {"type": "object"}
+      }
+    },
+    "build_integration": {
+      "type": "object",
+      "properties": {
+        "primary_builds": {
+          "type": "array",
+          "items": {"type": "string"}
+        },
+        "secondary_builds": {
+          "type": "array",
+          "items": {"type": "string"}
+        },
+        "equipment_scaling": {
+          "type": "array",
+          "items": {"type": "string"}
+        }
+      }
+    },
+    "skill_dependencies": {
+      "type": "object",
+      "properties": {
+        "attribute_required_skills": {
+          "type": "array",
+          "items": {"type": "string"}
+        },
+        "attribute_enhanced_skills": {
+          "type": "array",
+          "items": {"type": "string"}
+        }
+      }
+    },
+    "lore_integration": {
+      "type": "object",
+      "properties": {
+        "mythological_basis": {"type": "string"},
+        "historical_figures": {
+          "type": "array",
+          "items": {"type": "string"}
+        },
+        "training_traditions": {
+          "type": "array",
+          "items": {"type": "string"}
+        }
+      }
+    },
+    "damage_type_integration": {
+      "type": "object",
+      "properties": {
+        "aligned_damage": {"type": "string"},
+        "damage_synergy": {"type": "string"},
+        "elemental_techniques": {
+          "type": "array",
+          "items": {"type": "string"}
+        }
+      }
+    },
+    "offensive_layer_connections": {
+      "type": "object",
+      "properties": {
+        "primary_offensive": {"type": "string"},
+        "synergy_description": {"type": "string"},
+        "mechanical_integration": {"type": "string"}
+      }
+    },
+    "defensive_layer_connections": {
+      "type": "object",
+      "properties": {
+        "primary_defensive": {"type": "string"},
+        "synergy_description": {"type": "string"},
+        "mechanical_integration": {"type": "string"}
+      }
+    },
+    "advancement_paths": {
+      "type": "object",
+      "properties": {
+        "early_development": {
+          "type": "array",
+          "items": {"type": "string"}
+        },
+        "mid_development": {
+          "type": "array",
+          "items": {"type": "string"}
+        },
+        "late_development": {
+          "type": "array",
+          "items": {"type": "string"}
+        },
+        "cosmic_development": {
+          "type": "array",
+          "items": {"type": "string"}
+        }
+      }
+    },
+    "tags": {
+      "type": "array",
+      "items": {"type": "string"}
+    },
+    "metadata": {
+      "type": "object",
+      "properties": {
+        "created": {"type": "string", "format": "date-time"},
+        "last_updated": {"type": "string", "format": "date-time"},
+        "author": {"type": "string"},
+        "version": {"type": "string"},
+        "canonical": {"type": "boolean"},
+        "hexagon_system": {"type": "string"}
+      },
+      "required": ["created", "last_updated", "canonical", "hexagon_system"]
+    }
+  },
+  "required": ["id", "name", "hexagon_position", "category", "hexagon_reference", "description", "core_mechanics", "metadata"]
+}

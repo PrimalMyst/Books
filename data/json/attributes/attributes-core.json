@@ -1,0 +1,201 @@
+{
+  "hexagon_id": "attributes-core",
+  "name": "PrimalMyst Attributes Hexagon",
+  "description": "The character development implementation of the universal hexagonal pattern, translating the cosmic principles embodied by the Eldritch Gods into personal growth pathways and capability enhancement.",
+  "foundational_pattern": {
+    "source": "core-thematic-hexagon",
+    "implementation_domain": "character-development-attributes",
+    "cosmic_principle": "The six-fold nature of existence manifests in all aspects of reality, from divine consciousness to mortal potential and growth",
+    "eldritch_reference": "Each attribute reflects the essential nature and developmental focus of its corresponding Eldritch God"
+  },
+  "center": {
+    "element": "The Self Actualized - Character Mastery", 
+    "description": "The central understanding that true power comes from balanced development of all aspects of the self. A complete Myst-Walker develops not just raw capabilities, but understanding of how each attribute serves their cosmic destiny and divine alignment, reflecting the perfect balance that Yggdrasil maintains across all existence."
+  },
+  "corners": [
+    {
+      "position": 1,
+      "primary_concept": "Intelligence",
+      "index_reference": "corner-1-intelligence",
+      "brief_description": "Mental acuity, magical understanding, and analytical thinking",
+      "eldritch_archetype": "Glacius, the Eternal Frost - Perfect knowledge and preservation of all understanding",
+      "divine_manifestation": "The way Glacius embodies absolute knowledge and perfect memory, understanding all things completely",
+      "damage_type_alignment": "cold",
+      "god_alignment": "glacius",
+      "core_philosophy": "Knowledge is the foundation of all power"
+    },
+    {
+      "position": 2, 
+      "primary_concept": "Adaptability",
+      "index_reference": "corner-2-adaptability",
+      "brief_description": "Flexibility, creativity, and ability to handle unexpected situations",
+      "eldritch_archetype": "Serafina, the Shadow Empress - Infinite flexibility and creative transformation",
+      "divine_manifestation": "The way Serafina constantly changes and adapts, never being the same twice, embracing all possibilities",
+      "damage_type_alignment": "chaos",
+      "god_alignment": "serafina", 
+      "core_philosophy": "Change is the only constant, adaptation is survival"
+    },
+    {
+      "position": 3,
+      "primary_concept": "Dexterity",
+      "index_reference": "corner-3-dexterity",
+      "brief_description": "Speed, agility, precision, and hand-eye coordination",
+      "eldritch_archetype": "Voltharion, the Cosmic Spark - Lightning-fast precision and instant connection",
+      "divine_manifestation": "The way Voltharion moves with perfect speed and precision across the cosmic web, never missing a connection",
+      "damage_type_alignment": "lightning",
+      "god_alignment": "voltharion",
+      "core_philosophy": "Swift action shapes reality"
+    },
+    {
+      "position": 4,
+      "primary_concept": "Strength", 
+      "index_reference": "corner-4-strength",
+      "brief_description": "Physical power, endurance, and forceful presence",
+      "eldritch_archetype": "Korthak, the Dragon King - Overwhelming physical might and unbreakable will",
+      "divine_manifestation": "The way Korthak embodies pure physical dominance, his very presence reshaping reality through force of will",
+      "damage_type_alignment": "physical",
+      "god_alignment": "korthak",
+      "core_philosophy": "Might makes right, power enforces will"
+    },
+    {
+      "position": 5,
+      "primary_concept": "Vitality",
+      "index_reference": "corner-5-vitality",
+      "brief_description": "Life force, health, regeneration, and transformative energy",
+      "eldritch_archetype": "Pyrion, the First Flame - Creative life force and transformative power",
+      "divine_manifestation": "The way Pyrion embodies the creative fire of existence itself, constantly generating new life and transformation",
+      "damage_type_alignment": "fire", 
+      "god_alignment": "pyrion",
+      "core_philosophy": "Life energy is the fire that burns within"
+    },
+    {
+      "position": 6,
+      "primary_concept": "Wisdom",
+      "index_reference": "corner-6-wisdom",
+      "brief_description": "Insight, intuition, spiritual awareness, and divine connection",
+      "eldritch_archetype": "Aurelius, the Radiant Sphere - Divine insight and spiritual transcendence",
+      "divine_manifestation": "The way Aurelius embodies perfect spiritual understanding and connection to divine truth",
+      "damage_type_alignment": "radiance",
+      "god_alignment": "aurelius",
+      "core_philosophy": "Understanding transcends mere knowledge"
+    }
+  ],
+  "hexagon_dynamics": {
+    "adjacency_bonuses": "Adjacent attributes create natural character synergies - Intelligence+Adaptability enables creative problem-solving, Dexterity+Strength creates athletic prowess, Vitality+Wisdom provides enlightened health.",
+    "opposition_tensions": "Opposite attributes represent different character focuses - Intelligence vs Strength (mind vs body), Adaptability vs Vitality (change vs stability), Dexterity vs Wisdom (action vs contemplation).",
+    "full_cycle_effects": "Characters who develop all six attributes achieve 'Cosmic Balance' - the ability to respond to any challenge with their strongest aspect while maintaining harmony across all capabilities."
+  },
+  "attribute_mechanics": {
+    "core_attributes": {
+      "pure_fundamentals": ["intelligence", "dexterity", "strength"],
+      "hybrid_primals": ["adaptability", "vitality", "wisdom"],
+      "description": "Pure fundamentals provide straightforward scaling, hybrid primals blend multiple influences"
+    },
+    "scaling_patterns": {
+      "linear_scaling": ["strength", "dexterity", "intelligence"],
+      "threshold_scaling": ["adaptability", "vitality", "wisdom"],
+      "description": "Linear attributes scale predictably, threshold attributes provide breakpoint bonuses"
+    },
+    "cross_system_effects": {
+      "offensive_scaling": "Each attribute affects different offensive approaches",
+      "defensive_scaling": "Each attribute enhances different defensive capabilities", 
+      "skill_requirements": "Different abilities require minimum levels in specific attributes",
+      "equipment_usage": "Gear has attribute requirements and scaling bonuses"
+    }
+  },
+  "development_paths": {
+    "specialization_builds": {
+      "single_focus": "Maximum investment in one attribute for extreme specialization",
+      "adjacent_focus": "Combining two adjacent attributes for synergistic builds",
+      "opposition_focus": "Balancing opposite attributes for versatile characters"
+    },
+    "progression_patterns": {
+      "early_game": "Focus on 1-2 core attributes for basic effectiveness",
+      "mid_game": "Expand to adjacent attributes for build refinement", 
+      "late_game": "Achieve balance or push specialization to cosmic levels",
+      "endgame": "Transcendent builds that incorporate all six attributes"
+    }
+  },
+  "cross_hexagon_integration": {
+    "damage_type_resonance": "Each attribute aligns with a damage type, providing natural effectiveness bonuses when combined appropriately",
+    "divine_patronage": "Gods favor characters who embody their aligned attribute, granting enhanced growth in those areas",
+    "offensive_interactions": "Different attributes enable different offensive layer approaches and effectiveness",
+    "defensive_interactions": "Attribute development determines which defensive layers are most effective for a character"
+  },
+  "corner_files": [
+    {
+      "position": 1,
+      "filename": "corner-1-intelligence.json",
+      "file_path": "corners/corner-1-intelligence.json"
+    },
+    {
+      "position": 2,
+      "filename": "corner-2-adaptability.json",
+      "file_path": "corners/corner-2-adaptability.json"
+    },
+    {
+      "position": 3,
+      "filename": "corner-3-dexterity.json", 
+      "file_path": "corners/corner-3-dexterity.json"
+    },
+    {
+      "position": 4,
+      "filename": "corner-4-strength.json",
+      "file_path": "corners/corner-4-strength.json"
+    },
+    {
+      "position": 5,
+      "filename": "corner-5-vitality.json",
+      "file_path": "corners/corner-5-vitality.json"
+    },
+    {
+      "position": 6,
+      "filename": "corner-6-wisdom.json",
+      "file_path": "corners/corner-6-wisdom.json"
+    }
+  ],
+  "attribute_interactions": {
+    "synergy_matrix": {
+      "intelligence_synergies": ["Enhances magical damage", "Improves skill learning", "Enables complex strategies"],
+      "adaptability_synergies": ["Improves situational bonuses", "Enables build flexibility", "Enhances improvisation"],
+      "dexterity_synergies": ["Increases action speed", "Improves accuracy", "Enables mobility options"],
+      "strength_synergies": ["Increases physical damage", "Improves carry capacity", "Enables heavy equipment"],
+      "vitality_synergies": ["Increases health and stamina", "Improves regeneration", "Enhances transformation abilities"],
+      "wisdom_synergies": ["Improves divine connection", "Enhances intuition", "Enables spiritual abilities"]
+    },
+    "conflict_resolutions": {
+      "intelligence_vs_strength": "Requires gear or abilities that bridge mental and physical approaches",
+      "adaptability_vs_vitality": "Needs skills that balance change with stability",
+      "dexterity_vs_wisdom": "Must find harmony between quick action and careful contemplation"
+    }
+  },
+  "lore_integration": {
+    "hexagonal_universality": {
+      "cosmic_principle": "The hexagon is the most stable and perfect geometric form, naturally arising in all aspects of PrimalMyst's reality",
+      "divine_reflection": "The Eldritch Gods themselves embody the six-fold pattern, with each god representing a fundamental aspect of consciousness and capability",
+      "universal_implementation": "All complex systems in PrimalMyst naturally organize around hexagonal patterns because they mirror the cosmic structure of reality itself",
+      "yggdrasil_connection": "Yggdrasil's six great branches create the foundational hexagonal structure that all other hexagons implement in their specific domains"
+    },
+    "mythological_basis": "The six attributes reflect the fundamental aspects of consciousness and capability that the Eldritch Gods embody and value in their followers. Characters who understand this pattern develop capabilities that mirror divine consciousness.",
+    "cosmic_significance": "Understanding all six attributes allows Myst-Walkers to achieve cosmic balance, reflecting the perfect harmony that Yggdrasil maintains across all realms. This understanding reveals the underlying hexagonal nature of existence itself.",
+    "divine_connections": "Each attribute draws on a specific god's essential nature, allowing mortals to develop aspects of divine consciousness in their personal growth. The gods serve as living embodiments of each attribute's ideal expression.",
+    "pattern_recognition": {
+      "hexagons_are_bestagons": "The hexagonal pattern appears throughout PrimalMyst because it represents perfect balance and maximum efficiency in all forms of development",
+      "natural_manifestations": "From skill learning patterns to character growth to divine enlightenment, the six-fold pattern emerges naturally",
+      "mystical_resonance": "Myst-Walkers who recognize and align with hexagonal patterns find their development enhanced by cosmic harmony",
+      "personal_evolution": "Advanced characters naturally balance their growth around hexagonal patterns, unconsciously responding to the cosmic structure"
+    }
+  },
+  "metadata": {
+    "version": "1.0.0",
+    "created": "2025-07-31T00:00:00Z",
+    "author": "PrimalMyst Development Team",
+    "canonical": true,
+    "schema_reference": "hexagon-thematic.schema.json", 
+    "related_hexagons": [
+      "core-thematic-hexagon.json",
+      "offensive-layers-core.json",
+      "defensive-layers-core.json"
+    ]
+  }
+}
