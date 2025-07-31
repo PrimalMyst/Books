@@ -33,9 +33,9 @@ The PrimalMyst universe is organized around a fundamental hexagonal structure th
 - (F) = Fundamental God
 - (P) = Primal God
 
-## Hexagon Mappings
+## Corner Mappings
 
-### Position 1: COLD (Top)
+### Corner 1: COLD (Top)
 - **Damage Type:** Cold
 - **God:** Glacius, the Eternal Frost (Fundamental)
 - **Realm:** Glacius' Archive - The Frost Realm
@@ -44,7 +44,7 @@ The PrimalMyst universe is organized around a fundamental hexagonal structure th
 - **Defense:** Energy Shield (pure)
 - **Theme:** Eternal Preservation, Memory, Crystalline Perfection
 
-### Position 2: CHAOS (Top-Right)
+### Corner 2: CHAOS (Top-Right)
 - **Damage Type:** Chaos
 - **God:** Serafina, the Shadow Empress (Primal)
 - **Realm:** Serafina's Court - The Shadow Realm
@@ -53,7 +53,7 @@ The PrimalMyst universe is organized around a fundamental hexagonal structure th
 - **Defense:** Energy Shield + Evasion
 - **Theme:** Creative Chaos, Beneficial Change, Shadow Arts
 
-### Position 3: LIGHTNING (Bottom-Right)
+### Corner 3: LIGHTNING (Bottom-Right)
 - **Damage Type:** Lightning
 - **God:** Voltharion, the Cosmic Spark (Fundamental)
 - **Realm:** Voltharion's Web - The Lightning Realm
@@ -62,7 +62,7 @@ The PrimalMyst universe is organized around a fundamental hexagonal structure th
 - **Defense:** Evasion (pure)
 - **Theme:** Divine Connection, Speed, Communication
 
-### Position 4: PHYSICAL (Bottom)
+### Corner 4: PHYSICAL (Bottom)
 - **Damage Type:** Physical
 - **God:** Korthak, the Dragon King (Primal)
 - **Realm:** Korthak's Arena - The Might Realm
@@ -71,7 +71,7 @@ The PrimalMyst universe is organized around a fundamental hexagonal structure th
 - **Defense:** Evasion + Armor
 - **Theme:** Physical Mastery, Honor, Direct Combat
 
-### Position 5: FIRE (Bottom-Left)
+### Corner 5: FIRE (Bottom-Left)
 - **Damage Type:** Fire
 - **God:** Pyrion, the First Flame (Fundamental)
 - **Realm:** Pyrion's Forge - The Flame Realm
@@ -80,7 +80,7 @@ The PrimalMyst universe is organized around a fundamental hexagonal structure th
 - **Defense:** Armor (pure)
 - **Theme:** Primal Fire, Creation, Transformation
 
-### Position 6: RADIANCE (Top-Left)
+### Corner 6: RADIANCE (Top-Left)
 - **Damage Type:** Radiance (Light)
 - **God:** Aurelius, the Radiant Sphere (Primal)
 - **Realm:** Aurelius's Sanctuary - The Radiance Realm

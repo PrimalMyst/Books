@@ -3,6 +3,8 @@
 ## Summary
 Act 2 represents the player's transition from basic divine understanding to deeper cosmic comprehension. As divine positioning matures and Myrielle's influence grows stronger, players gain access to advanced trials, divine realm exploration, and hidden knowledge that prepares them for the ultimate challenges ahead. This act introduces complex moral choices and the first hints of Myrielle's true agenda.
 
+## Core Structure (Levels 40-69, Ranks C-B)
+
 ## Core Themes
 
 ### Deepening Divine Relationships
@@ -25,7 +27,7 @@ Act 2 represents the player's transition from basic divine understanding to deep
 
 ## Story Structure
 
-### Early Act 2 (Levels 31-45)
+### Early Act 2 (Levels 40-50, Rank C)
 **Divine Relationship Maturation**:
 - **Advanced Trial Unlocks**: Access to complex challenges requiring +51 divine positioning
 - **Multi-God Scenarios**: Situations requiring navigation of competing divine interests
@@ -43,7 +45,7 @@ Act 2 represents the player's transition from basic divine understanding to deep
 - **Peaceful Zone Expansion**: Myrielle's safe havens appear in previously dangerous areas
 - **Cosmic Rhythm Disturbances**: First signs of increasing universal instability
 
-### Mid Act 2 (Levels 46-60)
+### Mid Act 2 (Levels 50-60, Rank B)
 **Divine Realm Exploration**:
 - **Guided Expeditions**: Formal visits to divine realms with experienced guides
 - **Realm-Specific Trials**: Challenges that can only be completed within divine domains
@@ -62,7 +64,7 @@ Act 2 represents the player's transition from basic divine understanding to deep
 - **Reputation Consequences**: Actions that affect standing with multiple divine factions
 - **Alliance Formation**: Building coalitions among followers of different gods
 
-### Late Act 2 (Levels 61-75)
+### Late Act 2 (Levels 60-69, Rank B)
 **Advanced Divine Integration**:
 - **Master Trial Preparation**: Qualifying for the highest level of divine challenges
 - **Divine Champion Consideration**: Being evaluated for roles as divine representatives

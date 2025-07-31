@@ -3,33 +3,33 @@
 ## Summary
 Act 1 focuses on the player's journey to prove their worthiness to the six fundamental and primal gods through divine trials. As each trial is completed, the Divine Acknowledgment Tremor raises the minimum monster level by +6, while Myrielle's peaceful zones in central towns provide sanctuary and the adventurer guilds secretly guide the player's progression.
 
-## Core Structure
+## Core Structure (Levels 10-39, Ranks E-D)
 
 ### Divine Trial System
 The player must face six divine trials, one for each fundamental and primal god:
 
 #### Fundamental Gods
 - **Pyrion (Creation/Forge-Fire)**: Trial of creation and artistic mastery
-- **Aquarix (Depths/Flow)**: Trial of adaptation and fluid wisdom
-- **Verdania (Growth/Life)**: Trial of nurturing and life force cultivation
+- **Glacius (Depths/Flow)**: Trial of adaptation and fluid wisdom
+- **Voltharion (Spark/Connection)**: Trial of communication and unity
 
 #### Primal Gods
-- **Umbros (Shadows/Hidden)**: Trial of mystery and hidden truth revelation
-- **Luxara (Light/Revelation)**: Trial of illumination and truth-seeking
-- **Zephyros (Winds/Change)**: Trial of transformation and embracing change
+- **Serafina (Shadows/Chaos)**: Trial of beneficial destruction and change
+- **Aurelius (Light/Truth)**: Trial of illumination and protection
+- **Korthak (Might/Honor)**: Trial of discipline and righteous strength
 
 ### Progressive Difficulty
 - **Divine Acknowledgment Tremor**: Global event after each trial completion
 - **Monster Level Scaling**: +6 minimum level increase per completed trial
-- **Starting at Level 6**: Post-manifestation baseline after prologue
-- **Final Level 36**: After all six trials, preparing for Act 2 challenges
+- **Starting at Level 10**: Post-tutorial baseline with visible E rank
+- **Final Level 39**: After all six trials, preparing for Act 2 challenges
 
 ## Divine Trial Mechanics
 
 ### Trial Structure
 - **Divine Decay Threat**: Players suffer gradual deterioration near opposing gods
 - **Peaceful Zone Safety**: Myrielle's sanctuary areas provide respite and planning
-- **Guild Rank Gating**: Adventurer guilds control access through rank requirements
+- **Guild Rank Gating**: Adventurer guilds control access through rank requirements (Rank C for trials)
 - **Companion Support**: Whisper provides moral support but cannot directly influence outcomes
 - **Divine Positioning**: Trial choices affect long-term relationship with each god
 

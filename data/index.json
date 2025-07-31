@@ -142,7 +142,7 @@
     "lore": {
       "path": "data/json/lore/",
       "schema": "lore",
-      "count": 13,
+      "count": 6,
       "subcategories": {
         "cosmology": "Six Realms, Yggdrasil, and divine structure",
         "geography": "World geography, island realms, and physical manifestations",
@@ -166,13 +166,27 @@
         "hexagonal-damage-calculation.json",
         "mystical-number-harmonies.json",
         "pantheon-trials-positioning.json",
+        "myrielle-central-town-presence.json"
+      ]
+    },
+    "main-story": {
+      "path": "data/json/main-story/",
+      "schema": "lore",
+      "count": 7,
+      "subcategories": {
+        "prologue": "Tutorial and awakening journey",
+        "acts": "Main story progression through Acts 1-3",
+        "epilogue": "End-game and divine confrontation content",
+        "structure": "Overall story framework and progression systems"
+      },
+      "examples": [
         "prologue-awakening-journey.json",
+        "act-level-rank-structure.json",
         "act1-divine-trials.json",
         "act2-eldritch-ascension.json",
         "act3-cosmic-ascendant.json",
         "epilogue-god-slayer-ascension.json",
-        "primalmyst-story-structure.json",
-        "myrielle-central-town-presence.json"
+        "primalmyst-story-structure.json"
       ]
     },
     "leagues": {
@@ -269,7 +283,7 @@
     "divine-trials": {
       "path": "data/json/divine-trials/",
       "schema": "divine-trial",
-      "count": 1,
+      "count": 6,
       "subcategories": {
         "fundamental-trials": "Trials for the six Fundamental Gods (Pyrion, Glacius, Voltharion, Serafina, Aurelius, Korthak)",
         "primal-trials": "Advanced trials for the three Primal Gods",
@@ -277,7 +291,12 @@
         "myrielle-trials": "Master-level trials for The Hidden One"
       },
       "examples": [
-        "pyrion-forge-trial-of-creation.json"
+        "pyrion-forge-trial-of-creation.json",
+        "glacius-archive-trial-of-preservation.json",
+        "voltharion-web-trial-of-connection.json",
+        "serafina-court-trial-of-chaos.json",
+        "korthak-arena-trial-of-might.json",
+        "aurelius-sanctuary-trial-of-radiance.json"
       ]
     }
   },

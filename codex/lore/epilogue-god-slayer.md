@@ -12,57 +12,61 @@ The epilogue transforms the player into the God-Slayer who must ascend Yggdrasil
 - **Flower Portals**: Each divine blossom opens access to strengthened god realms
 - **Progressive Challenge**: Gods become more powerful through Myrielle's enhancement
 
-### Sequential God Battles (Levels 96-100)
+### Multi-Round God Confrontation System
 
-#### Pyrion's Enhanced Forge Realm (Level 96→97)
-- **Enhancement**: Myrielle's creative force amplifies forge mastery
-- **Challenge**: Combat against enhanced creation and forge-fire
-- **Growth**: God becomes stronger through Myrielle's essence after defeat
-- **Revelation**: First hint that defeats are somehow empowering opponents
+The God-Slayer path requires defeating all six Eldritch Gods multiple times as they grow stronger after each complete round. Players have full freedom to choose the order within each round.
 
-#### Aquarix's Enhanced Depth Realm (Level 97→98)
-- **Enhancement**: Myrielle's adaptive wisdom deepens water mastery
-- **Challenge**: Combat within infinite enhanced waters and currents
-- **Growth**: God gains deeper power through Myrielle's flowing essence
-- **Pattern**: Second confirmation that something unusual is happening
+#### Round-Based Enhancement System
+- **Player Choice**: Within each round, access all six divine realm flowers simultaneously
+- **Round Completion**: Must defeat ALL six gods to trigger the next enhancement round
+- **Progressive Strengthening**: Gods become significantly stronger after each complete round
+- **Order Freedom**: No mechanical advantage to any particular order within rounds
+- **Positioning Impact**: Divine relationships affect battle difficulty and emotional weight
 
-#### Verdania's Enhanced Life Realm (Level 98→99)
-- **Enhancement**: Myrielle's nurturing essence amplifies life force
-- **Challenge**: Struggle against overwhelming enhanced growth and vitality
-- **Growth**: God becomes more vibrant through Myrielle's life-giving power
-- **Understanding**: Player begins recognizing the enhancement pattern
+#### Multi-Round Battle Structure
 
-#### Umbros's Enhanced Shadow Realm (Level 99→100)
-- **Enhancement**: Myrielle's hidden nature merges with shadow mastery
-- **Challenge**: Confrontation with hidden truths and enhanced mystery
-- **Growth**: God reaches level 100 through Myrielle's secret power
-- **Suspicion**: Player realizes something deeper is occurring
+**First Round - Level 96 Gods (Base Divine Power)**:
+- **Pyrion, the First Flame**: Eternal Forge battles with base transformative fire power
+- **Glacius, the Eternal Frost**: Crystalline archive battles with base preservation power
+- **Voltharion, the Cosmic Spark**: Network web battles with base connection power
+- **Serafina, the Shadow Empress**: Shadow court battles with base chaos power
+- **Aurelius, the Radiant Sphere**: Truth hall battles with base radiance power
+- **Korthak, the Dragon King**: Honor arena battles with base might power
 
-#### Luxara's Enhanced Light Realm (Level 100→100+)
-- **Enhancement**: Myrielle's truth-seeking enhances divine illumination
-- **Challenge**: Battle against blinding enhanced revelation and truth
-- **Growth**: God transcends normal limits through Myrielle's illumination
-- **Recognition**: Clear understanding that Myrielle is involved
+**Round Completion Trigger**: After defeating ALL six gods in Round 1, they are enhanced
 
-#### Zephyros's Enhanced Wind Realm (Level 100+→Maximum)
-- **Enhancement**: Myrielle's transformative power amplifies change mastery
-- **Challenge**: Final god battle against ultimate forces of enhanced change
-- **Growth**: God achieves maximum power through Myrielle's transformation
-- **Preparation**: All gods now enhanced for Myrielle's absorption
+**Second Round - Level 98 Gods (Enhanced Divine Power)**:
+- **Enhanced Abilities**: All gods gain significantly increased power and new combat techniques
+- **Environmental Evolution**: Divine realm battlefields become more complex and dangerous
+- **Tactical Advancement**: Gods demonstrate improved strategy and coordinated abilities
+- **Player Challenge**: Requires mastery of combat lessons learned from Round 1
+
+**Round Completion Trigger**: After defeating ALL six gods in Round 2, they reach maximum power
+
+**Third Round - Level 100 Gods (Maximum Divine Power)**:
+- **Ultimate Enhancement**: Gods reach their peak power with transcendent abilities
+- **Master Battlefields**: Divine realms transformed into ultimate challenge environments
+- **Apex Combat**: Gods utilize their full divine potential and cosmic mastery
+- **Final Preparation**: Ultimate test before facing Myrielle herself
+
+**Round Completion Trigger**: After defeating ALL six gods at Level 100, Myrielle becomes accessible
 
 ## Myrielle's Ultimate Confrontation
 
-### The Absorption Revelation
-- **Central Platform**: Myrielle appears at Yggdrasil's honeycomb center
-- **Divine Absorption**: She reveals she couldn't fight gods directly but can absorb them after player's victories
-- **Level 100 Enhancement**: Myrielle gains power from all six defeated gods
-- **False Purpose**: Initially appears she manipulated player to enable her own victory
+### The Final Revelation Access
+- **Completion Requirement**: ALL six gods must be defeated in ALL three rounds (Level 96, 98, and 100)
+- **Central Platform**: After complete god defeat, Myrielle appears at Yggdrasil's honeycomb center
+- **Divine Absorption**: She reveals she absorbed the gods' essence throughout their enhancement cycles
+- **Level 100 Myrielle**: Final confrontation with Myrielle at maximum divine power
+- **False Purpose**: Initially appears she manipulated the entire multi-round system for her own victory
 
-### The Final Battle
-- **Epic Confrontation**: Level 100 Myrielle enhanced by all six gods' essence
-- **Ultimate Challenge**: The most difficult encounter in the entire game
-- **Worthy Opponent**: Tests whether player truly deserves what comes next
-- **Apparent Victory**: Player defeats the seemingly ultimate antagonist
+### The Ultimate Final Battle
+- **Epic Confrontation**: Level 100 Myrielle enhanced by witnessing and absorbing all god defeats across all rounds
+- **Complete Divine Mastery**: Wields the full spectrum of divine abilities from all enhancement cycles
+- **Multi-Environment Battle**: Fight shifts between all six divine realm environments
+- **Ultimate Challenge**: The most difficult encounter requiring mastery gained from all previous rounds
+- **Worthy Opponent**: Tests whether player truly deserves what comes next after proving themselves against all gods at all power levels
+- **Apparent Victory**: Player defeats the seemingly ultimate antagonist who orchestrated the entire system
 
 ### The Heartwarming Truth
 - **Genuine Desire**: Upon defeat, Myrielle reveals she genuinely wanted to lose
@@ -150,3 +154,67 @@ Valhalla access comes not from conquest but from proving worthy of cosmic respon
 
 ---
 *"In the end, the greatest victory came not from conquest but from love - Myrielle's willing sacrifice transformed defeat into the ultimate preservation of what truly matters: the memories and consciousness of a dying world."*
+
+#### Individual God Encounters (Any Order)
+
+**Pyrion, the First Flame (Fundamental)**:
+- **Realm Access**: Forge-Flame Blossom portal at Eastern Crown position
+- **Battle Environment**: Eternal forges, rivers of creation fire, transformative flame storms
+- **Combat Style**: High mobility fire attacks, environment manipulation, forge-based weaponry
+- **Enhancement Effects**: Earlier defeats make flames hotter, forges more complex, creation more chaotic
+- **Divine Positioning Impact**: Positive alignment may cause hesitation; negative increases aggression
+
+**Glacius, the Eternal Frost (Fundamental)**:
+- **Realm Access**: Crystal-Memory Blossom portal at Western Crown position  
+- **Battle Environment**: Crystalline memory palaces, frozen knowledge libraries, ice formations
+- **Combat Style**: Control-based ice attacks, memory manipulation, crystalline barriers
+- **Enhancement Effects**: Earlier defeats create more complex ice patterns, memory-based attacks
+- **Divine Positioning Impact**: Aligned players face preserved memories of their relationship
+
+**Voltharion, the Cosmic Spark (Fundamental)**:
+- **Realm Access**: Lightning-Network Blossom portal at Northern Crown position
+- **Battle Environment**: Infinite electrical networks, crackling communication webs, energy storms
+- **Combat Style**: Speed-based lightning attacks, teleportation, electrical field manipulation
+- **Enhancement Effects**: Earlier defeats create faster attacks, more complex electrical patterns
+- **Divine Positioning Impact**: Communication attempts may occur during combat based on alignment
+
+**Serafina, the Shadow Empress (Primal)**:
+- **Realm Access**: Chaos-Shadow Blossom portal at Southern Middle position
+- **Battle Environment**: Ever-changing shadow mazes, revolutionary art installations, chaotic beauty
+- **Combat Style**: Unpredictable chaos attacks, reality-shifting environment, creative destruction
+- **Enhancement Effects**: Earlier defeats make chaos more beneficial yet more challenging to predict
+- **Divine Positioning Impact**: High alignment may trigger emotional appeals; opposition increases chaos
+
+**Aurelius, the Radiant Sphere (Primal)**:
+- **Realm Access**: Truth-Light Blossom portal at Eastern Middle position
+- **Battle Environment**: Blazing halls of truth, radiant healing chambers, protective light barriers
+- **Combat Style**: Truth-revealing light attacks, healing disruption, protective barriers used offensively
+- **Enhancement Effects**: Earlier defeats intensify truth revelation, making deception impossible
+- **Divine Positioning Impact**: Truth about necessity of defeat becomes central to aligned encounters
+
+**Korthak, the Dragon King (Primal)**:
+- **Realm Access**: Honor-Might Blossom portal at Western Middle position
+- **Battle Environment**: Ultimate arena of honorable combat, strength-testing obstacles, fair battlegrounds
+- **Combat Style**: Honorable direct combat, strength-based attacks, disciplined fighting techniques
+- **Enhancement Effects**: Earlier defeats increase physical power while maintaining perfect honor
+- **Divine Positioning Impact**: Aligned players face reluctant but honorable combat; opposition gets full power
+
+#### Player Choice Considerations
+
+**Strategic Order Planning**:
+- **Divine Positioning**: Fight aligned gods last for maximum emotional impact
+- **Combat Preference**: Save preferred fighting style for when you're most experienced
+- **Difficulty Curve**: Fight challenging matchups early when they're weaker
+- **Narrative Impact**: Choose order that creates desired emotional journey
+
+**Enhancement Adaptation**:
+- **Early Fights**: Focus on learning divine combat mechanics and god-specific patterns
+- **Mid Fights**: Adapt to increasing enhancement effects and environmental complexity
+- **Late Fights**: Master enhanced divine abilities and maximum difficulty encounters
+- **Final Fight**: Prepare for ultimate challenge using knowledge from all previous encounters
+
+**Emotional Preparation**:
+- **Relationship Priority**: Save most important divine relationships for final encounters
+- **Guilt Management**: Fight less-aligned gods first to build emotional resilience
+- **Love Demonstration**: Face beloved mentors last to show ultimate sacrifice
+- **Narrative Closure**: End with encounters that provide desired story resolution
