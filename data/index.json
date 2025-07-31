@@ -94,6 +94,30 @@
       "description": "Ascendency Point tracking system for cosmic transformation through Myrielle's hidden trials",
       "required_fields": ["character_id", "total_ascendency_points", "point_progression", "trials_completed", "cosmic_transformation_level", "myrielle_relationship", "metadata"],
       "example": "TBD - Character progression tracking"
+    },
+    "hexagon-thematic": {
+      "file": "data/schemas/hexagon-thematic.schema.json",
+      "description": "Core hexagonal thematic structure organizing all major game systems around six-point patterns",
+      "required_fields": ["hexagon_id", "name", "description", "center", "corners"],
+      "example": "data/json/lore/core-thematic-hexagon.json"
+    },
+    "offensive-layer": {
+      "file": "data/schemas/offensive-layer.schema.json",
+      "description": "Individual offensive layer definitions within the offensive layers hexagon",
+      "required_fields": ["id", "name", "hexagon_position", "category", "description", "metadata"],
+      "example": "data/json/offensive-layers/corners/corner-1-precision-strikes.json"
+    },
+    "defensive-layer": {
+      "file": "data/schemas/defensive-layer.schema.json", 
+      "description": "Individual defensive layer definitions within the defensive layers hexagon",
+      "required_fields": ["id", "name", "hexagon_position", "category", "description", "metadata"],
+      "example": "data/json/defensive-layers/corners/corner-1-calculated-avoidance.json"
+    },
+    "core-attribute": {
+      "file": "data/schemas/core-attribute.schema.json",
+      "description": "Individual core attribute definitions within the attributes hexagon",
+      "required_fields": ["id", "name", "hexagon_position", "category", "description", "metadata"], 
+      "example": "data/json/attributes/corners/corner-1-intelligence.json"
     }
   },
 
@@ -297,6 +321,45 @@
         "serafina-court-trial-of-chaos.json",
         "korthak-arena-trial-of-might.json",
         "aurelius-sanctuary-trial-of-radiance.json"
+      ]
+    },
+    "offensive-layers": {
+      "path": "data/json/offensive-layers/",
+      "schema": "hexagon-thematic",
+      "count": 1,
+      "subcategories": {
+        "core-structure": "Core hexagonal organization of offensive approaches",
+        "individual-layers": "Detailed corner implementations in corners/ subdirectory"
+      },
+      "examples": [
+        "offensive-layers-core.json",
+        "corners/corner-1-precision-strikes.json"
+      ]
+    },
+    "defensive-layers": {
+      "path": "data/json/defensive-layers/",
+      "schema": "hexagon-thematic", 
+      "count": 1,
+      "subcategories": {
+        "core-structure": "Core hexagonal organization of defensive approaches",
+        "individual-layers": "Detailed corner implementations in corners/ subdirectory"
+      },
+      "examples": [
+        "defensive-layers-core.json",
+        "corners/corner-1-calculated-avoidance.json"
+      ]
+    },
+    "attributes": {
+      "path": "data/json/attributes/",
+      "schema": "hexagon-thematic",
+      "count": 1,
+      "subcategories": {
+        "core-structure": "Core hexagonal organization of character attributes",
+        "individual-attributes": "Detailed corner implementations in corners/ subdirectory"
+      },
+      "examples": [
+        "attributes-core.json",
+        "corners/corner-1-intelligence.json"
       ]
     }
   },
