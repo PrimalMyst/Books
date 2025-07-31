@@ -1,7 +1,6 @@
 {
   "id": "act1-divine-trials",
-  "title": "Act 1: The Divine Trials - Proving Worthiness Against Decay",
-  "category": "story-structure",
+  "title": "Act 1: The Divine Trials - Proving Worthiness Against Decay", "category": "story-structure",
   "subcategory": "act1-narrative",
   "knowledge_level": "foundational",
   "certainty": "ancient-wisdom",
@@ -106,7 +105,21 @@
           "decay_cessation": "All divine decay immediately stops and reverses",
           "divine_immunity": "Player becomes permanently immune to that god's passive influence",
           "power_boost": "Mystical capabilities increase, reflected in minimum monster encounter level raising by +6",
-          "divine_mark": "Player receives a permanent mark of divine approval from that god"
+          "divine_mark": "Player receives a permanent mark of divine approval from that god",
+          "hexagonal_bonuses": "Player gains access to choose defensive and offensive bonuses from the hexagonal thematic system"
+        },
+        "hexagonal_system_integration": {
+          "fundamental_gods": {
+            "access_pattern": "Trial completion unlocks the ability to choose bonuses from the fundamental god's corner",
+            "choice_mechanism": "Players must actively select which bonuses to adopt from the available hexagonal system options",
+            "gods": ["Glacius (Cold Corner)", "Voltharion (Lightning Corner)", "Pyrion (Fire Corner)"]
+          },
+          "primal_gods": {
+            "access_pattern": "Trial completion unlocks the ability to choose bonuses from the primal god's corner", 
+            "choice_mechanism": "Players must actively select which bonuses to adopt from the available hexagonal system options",
+            "gods": ["Serafina (Chaos Corner)", "Korthak (Physical Corner)", "Aurelius (Radiance Corner)"]
+          },
+          "bonus_authority": "All bonus values and effects are defined in the core-thematic-hexagon system, not in individual trials"
         },
         "world_impact": {
           "seismic_response": "Each trial completion triggers earthquakes and environmental tremors across the island",

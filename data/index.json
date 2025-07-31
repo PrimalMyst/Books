@@ -283,7 +283,7 @@
     "divine-trials": {
       "path": "data/json/divine-trials/",
       "schema": "divine-trial",
-      "count": 1,
+      "count": 6,
       "subcategories": {
         "fundamental-trials": "Trials for the six Fundamental Gods (Pyrion, Glacius, Voltharion, Serafina, Aurelius, Korthak)",
         "primal-trials": "Advanced trials for the three Primal Gods",
@@ -291,7 +291,12 @@
         "myrielle-trials": "Master-level trials for The Hidden One"
       },
       "examples": [
-        "pyrion-forge-trial-of-creation.json"
+        "pyrion-forge-trial-of-creation.json",
+        "glacius-archive-trial-of-preservation.json",
+        "voltharion-web-trial-of-connection.json",
+        "serafina-court-trial-of-chaos.json",
+        "korthak-arena-trial-of-might.json",
+        "aurelius-sanctuary-trial-of-radiance.json"
       ]
     }
   },

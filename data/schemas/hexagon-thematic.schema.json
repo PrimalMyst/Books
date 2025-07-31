@@ -25,7 +25,7 @@
       },
       "required": ["element", "description"]
     },
-    "vertices": {
+    "corners": {
       "type": "array",
       "description": "The six points of the hexagon, ordered clockwise from top",
       "minItems": 6,
@@ -41,11 +41,11 @@
           },
           "primary_concept": {
             "type": "string",
-            "description": "The main concept at this vertex"
+            "description": "The main concept at this corner"
           },
           "overlays": {
             "type": "object",
-            "description": "Different systems that map to this vertex",
+            "description": "Different systems that map to this corner",
             "properties": {
               "damage_type": {"type": "string"},
               "eldritch_god": {"type": "string"},
@@ -63,26 +63,26 @@
           "relationships": {
             "type": "object",
             "properties": {
-              "adjacent_vertices": {
+              "adjacent_corners": {
                 "type": "array",
                 "items": {"type": "integer"},
                 "minItems": 2,
                 "maxItems": 2,
-                "description": "The two adjacent vertex positions"
+                "description": "The two adjacent corner positions"
               },
-              "opposite_vertex": {
+              "opposite_corner": {
                 "type": "integer",
-                "description": "The directly opposite vertex position"
+                "description": "The directly opposite corner position"
               },
               "synergies": {
                 "type": "array",
                 "items": {"type": "string"},
-                "description": "Gameplay elements that synergize with adjacent vertices"
+                "description": "Gameplay elements that synergize with adjacent corners"
               },
               "conflicts": {
                 "type": "array", 
                 "items": {"type": "string"},
-                "description": "Gameplay elements that conflict with opposite vertex"
+                "description": "Gameplay elements that conflict with opposite corner"
               }
             }
           }
@@ -118,5 +118,5 @@
       }
     }
   },
-  "required": ["hexagon_id", "name", "description", "center", "vertices"]
+  "required": ["hexagon_id", "name", "description", "center", "corners"]
 }
