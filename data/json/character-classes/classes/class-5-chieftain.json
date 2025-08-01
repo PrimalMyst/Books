@@ -1,0 +1,197 @@
+{
+  "class_id": "chieftain",
+  "canonical_name": "Chieftain",
+  "hexagon_position": 5,
+  "body_type": "M",
+  "archetype_category": "vital-leader",
+  "description": "Vital leaders masters of transformation and creative force who embody the principle of inspirational change and community building. Chieftains represent the ultimate expression of Pyrion's philosophy - that true leadership comes through transformation, inspiration, and the creative fire that sparks growth.",
+  "origin_island": {
+    "island_name": "Pyrion Isle",
+    "cultural_name": "The Forge Realm",
+    "description": "A realm of creative workshops and forge-fires where innovation and transformation are the highest virtues. The culture values leadership, creativity, and the ability to inspire positive change in others.",
+    "cultural_philosophy": "Lead through transformation, inspire through action. True strength lies in building others up and creating something greater than yourself."
+  },
+  "eldritch_connection": {
+    "aligned_god": "pyrion",
+    "divine_manifestation": "Pyrion, the First Flame - Creative transformation and vital leadership",
+    "npc_default_alignment": "pyrion",
+    "player_freedom": "Players can choose any god alignment or remain independent",
+    "cultural_pressure": "Forge Realm culture encourages Pyrion worship but respects those who demonstrate mastery of creative leadership regardless of divine alignment"
+  },
+  "damage_type_affinity": {
+    "natural_alignment": "fire",
+    "cultural_preference": "Fire damage is celebrated as the purest expression of creative transformation and vital energy",
+    "mechanical_freedom": "No restrictions on learning or mastering other damage types",
+    "starting_bonus": "Enhanced effectiveness with fire-based abilities and resistance to fire effects"
+  },
+  "attribute_inheritance": {
+    "primary_attribute": "vitality",
+    "growth_pattern": "Exceptional vitality growth, strong strength development, moderate wisdom",
+    "starting_bonuses": {
+      "vitality": "+2",
+      "strength": "+1",
+      "wisdom": "+1"
+    },
+    "cultural_development": "Forge Realm education emphasizes leadership training, creative problem-solving, and community building"
+  },
+  "class_characteristics": {
+    "core_philosophy": "Lead through transformation, inspire through action",
+    "life_approach": "Build others up, create positive change, lead by example",
+    "social_role": "Leader, Innovator, Community Builder, Creative Catalyst",
+    "combat_style": "Inspirational leadership, team coordination, transformative tactics, vital energy projection",
+    "signature_abilities": [
+      "Inspirational Leadership - Ability to motivate and coordinate others",
+      "Creative Problem-Solving - Innovative approaches to challenges",
+      "Vital Energy - Enhanced life force and endurance",
+      "Transformative Vision - Seeing potential for positive change",
+      "Community Building - Natural talent for bringing people together"
+    ]
+  },
+  "cultural_background": {
+    "typical_upbringing": "Raised in the collaborative workshops of the Forge Realm, learning leadership through participation in creative projects",
+    "social_expectations": "Expected to serve as community leaders and catalysts for positive change",
+    "common_motivations": [
+      "Building stronger communities",
+      "Inspiring others to reach their potential",
+      "Creating innovative solutions to challenges",
+      "Leading transformative projects"
+    ],
+    "cultural_values": [
+      "Creative innovation",
+      "Collaborative leadership",
+      "Community strength",
+      "Positive transformation"
+    ]
+  },
+  "starting_equipment": {
+    "typical_gear": [
+      "Tools of leadership and organization",
+      "Creative implements for problem-solving",
+      "Flame-touched weapons or focuses",
+      "Community building materials",
+      "Inspirational symbols and regalia"
+    ],
+    "cultural_items": [
+      "Forge Realm leadership certification",
+      "Family innovation lineage documentation",
+      "Community project achievement records",
+      "Specialized crafting and building tools"
+    ]
+  },
+  "advancement_paths": {
+    "traditional_progression": [
+      "Novice Leader - Basic leadership and creative skills",
+      "Forge Coordinator - Recognized organizer of Forge Realm projects",
+      "Master Chieftain - Advanced leadership and transformation abilities",
+      "Elder Innovator - Legendary creative leadership and community building",
+      "Eternal Catalyst - Mythical status with power to transform entire civilizations"
+    ],
+    "alternative_developments": [
+      "Battle Commander - Applying leadership skills to military coordination",
+      "Diplomatic Innovator - Using creative approaches for inter-realm relations",
+      "Workshop Master - Focusing on technical innovation and crafting excellence",
+      "Cross-Cultural Unifier - Specializing in bringing different communities together"
+    ]
+  },
+  "role_flexibility": {
+    "multiclass_synergies": [
+      "Chieftain/Warrior - Leadership-oriented combatant with tactical command abilities",
+      "Chieftain/Priestess - Spiritual leader with transformative wisdom and community focus",
+      "Chieftain/Lich - Innovative scholar with long-term planning and organizational skills"
+    ],
+    "player_customization": {
+      "personality_freedom": "Players can be inspiring mentors, decisive commanders, creative innovators, or passionate motivators",
+      "moral_alignment": "Can be selfless community builders, ambitious leaders, or independent innovators",
+      "social_approach": "Can be collaborative facilitators, decisive directors, creative catalysts, or protective organizers"
+    }
+  },
+  "hexagon_integration": {
+    "offensive_layer_preference": "Coordinated Assault - Organizing team efforts for maximum effectiveness",
+    "defensive_layer_preference": "Team Defense - Coordinating group protection and mutual support",
+    "adjacent_class_relationships": {
+      "warrior": "Shared vitality focus creates natural leadership and endurance synergies",
+      "priestess": "Complementary vitality/wisdom enables inspirational spiritual leadership"
+    },
+    "opposing_class_tension": {
+      "succubus": "Leadership vs. Adaptation - Fundamental difference between providing stable direction and responding to change"
+    }
+  },
+  "lore_connections": {
+    "divine_positioning": "Aligned with Position 5 - The Flame of Creation",
+    "cosmic_significance": "Represents the principle that consciousness can transcend limitations through creative leadership and transformative vision",
+    "mythological_role": "The eternal builders of Yggdrasil's growth, ensuring positive development and community strength",
+    "island_legends": "Famous Chieftains have led major innovations and community developments that have survived across reality instances"
+  },
+  "npc_examples": {
+    "typical_representatives": [
+      "Forge-Master Koreth - Chief organizer of the Forge Realm's great creative projects",
+      "Innovation Prime Valdris - Leading expert on transformative leadership and community building",
+      "Elder Builder Tharkun - Ancient Chieftain who led reconstruction during the previous reality instance"
+    ],
+    "cultural_variations": [
+      "Battle-Commander Gareth - Chieftain who applies leadership skills to military coordination",
+      "Diplomatic Innovator Marcus - Chieftain focused on inter-realm creative cooperation",
+      "Wandering Catalyst Darius - Chieftain who travels to help communities transform and grow"
+    ]
+  },
+  "player_freedom_emphasis": {
+    "damage_type_openness": "While naturally aligned with fire, Chieftains can master cold, lightning, chaos, physical, or radiance without restriction",
+    "divine_choice": "Can worship any god, practice multiple faiths, or remain independent leaders",
+    "personality_range": "From inspiring mentors to decisive commanders to creative innovators to passionate motivators",
+    "social_roles": "Can be leaders, innovators, teachers, coordinators, or adventurers depending on player choice",
+    "moral_flexibility": "Can be selfless community builders, ambitious leaders, or independent innovators - the class supports all approaches"
+  },
+  "leadership_specialties": {
+    "community_organization": [
+      "Project planning and coordination",
+      "Resource management and distribution",
+      "Conflict resolution and mediation",
+      "Long-term community development"
+    ],
+    "creative_innovation": [
+      "Problem-solving through novel approaches",
+      "Technical innovation and improvement",
+      "Artistic and cultural development",
+      "Transformative change management"
+    ],
+    "inspirational_abilities": [
+      "Motivational speaking and encouragement",
+      "Team building and coordination",
+      "Vision casting and goal setting",
+      "Personal development mentoring"
+    ],
+    "transformative_leadership": [
+      "Change management and adaptation",
+      "Crisis leadership and response",
+      "Growth planning and execution",
+      "Legacy building and sustainability"
+    ]
+  },
+  "mechanical_notes": {
+    "suggested_starting_stats": {
+      "vitality": "Highest",
+      "strength": "Second highest",
+      "wisdom": "Moderate bonus",
+      "other_attributes": "Standard starting values with room for player customization"
+    },
+    "natural_resistances": [
+      "Fire damage resistance",
+      "Enhanced stamina and endurance",
+      "Leadership presence and charisma bonuses",
+      "Improved recovery and healing rates"
+    ],
+    "starting_abilities": [
+      "Enhanced leadership and organization",
+      "Creative problem-solving techniques",
+      "Basic team coordination abilities",
+      "Fire affinity"
+    ]
+  },
+  "metadata": {
+    "version": "1.0.0",
+    "created": "2025-07-31T00:00:00Z",
+    "schema_compliance": "character-class.schema.json",
+    "hexagon_reference": "character-classes-core.json",
+    "position_verification": "Position 5 - Pyrion Alignment - Vitality Focus - Fire Affinity"
+  }
+}

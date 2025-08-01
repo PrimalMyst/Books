@@ -118,6 +118,12 @@
       "description": "Individual core attribute definitions within the attributes hexagon",
       "required_fields": ["id", "name", "hexagon_position", "category", "description", "metadata"], 
       "example": "data/json/attributes/corners/corner-1-intelligence.json"
+    },
+    "character-class": {
+      "file": "data/schemas/character-class.schema.json",
+      "description": "Character class definitions representing the six fundamental archetypes aligned with hexagonal principles",
+      "required_fields": ["class_id", "canonical_name", "hexagon_position", "body_type", "archetype_category", "description", "metadata"],
+      "example": "data/json/character-classes/classes/class-1-lich.json"
     }
   },
 
@@ -360,6 +366,24 @@
       "examples": [
         "attributes-core.json",
         "corners/corner-1-intelligence.json"
+      ]
+    },
+    "character-classes": {
+      "path": "data/json/character-classes/",
+      "schema": "hexagon-thematic",
+      "count": 1,
+      "subcategories": {
+        "core-structure": "Core hexagonal organization of character archetypes",
+        "individual-classes": "Detailed class implementations in classes/ subdirectory"
+      },
+      "examples": [
+        "character-classes-core.json",
+        "classes/class-1-lich.json",
+        "classes/class-2-succubus.json",
+        "classes/class-3-hunter.json",
+        "classes/class-4-warrior.json",
+        "classes/class-5-chieftain.json",
+        "classes/class-6-priestess.json"
       ]
     }
   },

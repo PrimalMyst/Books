@@ -1,0 +1,197 @@
+{
+  "class_id": "hunter",
+  "canonical_name": "Hunter",
+  "hexagon_position": 3,
+  "body_type": "M",
+  "archetype_category": "swift-tracker",
+  "description": "Swift trackers masters of speed and precision striking who embody the principle of perfect connection and instant response. Hunters represent the ultimate expression of Voltharion's philosophy - that true mastery comes through lightning-fast connection between awareness and action.",
+  "origin_island": {
+    "island_name": "Voltharion Isle",
+    "cultural_name": "The Lightning Web",
+    "description": "A realm of crackling energy and interconnected networks where information travels at the speed of light and action follows thought. The culture values speed, precision, and the ability to respond instantly to changing conditions.",
+    "cultural_philosophy": "Strike fast, strike true, never be where the enemy expects. Connection enables understanding, speed enables victory."
+  },
+  "eldritch_connection": {
+    "aligned_god": "voltharion",
+    "divine_manifestation": "Voltharion, the Cosmic Spark - Lightning connection and instant response",
+    "npc_default_alignment": "voltharion",
+    "player_freedom": "Players can choose any god alignment or remain independent",
+    "cultural_pressure": "Lightning Web culture encourages Voltharion worship but respects those who demonstrate mastery of speed and precision regardless of divine alignment"
+  },
+  "damage_type_affinity": {
+    "natural_alignment": "lightning",
+    "cultural_preference": "Lightning damage is revered as the purest expression of speed and connection",
+    "mechanical_freedom": "No restrictions on learning or mastering other damage types",
+    "starting_bonus": "Enhanced effectiveness with lightning-based abilities and resistance to electrical effects"
+  },
+  "attribute_inheritance": {
+    "primary_attribute": "dexterity",
+    "growth_pattern": "Exceptional dexterity growth, strong intelligence development, moderate adaptability",
+    "starting_bonuses": {
+      "dexterity": "+2",
+      "intelligence": "+1",
+      "adaptability": "+1"
+    },
+    "cultural_development": "Lightning Web education emphasizes speed training, precision exercises, and rapid response protocols"
+  },
+  "class_characteristics": {
+    "core_philosophy": "Strike fast, strike true, never be where the enemy expects",
+    "life_approach": "Connect instantly, respond perfectly, maintain constant awareness",
+    "social_role": "Scout, Tracker, Messenger, Precision Specialist",
+    "combat_style": "Hit-and-run tactics, precision strikes, mobility-based warfare, environmental advantage",
+    "signature_abilities": [
+      "Lightning Speed - Enhanced movement and reaction capabilities",
+      "Perfect Tracking - Exceptional ability to follow and locate targets",
+      "Precision Striking - Unmatched accuracy in attacks and actions",
+      "Network Awareness - Connection to information and communication networks",
+      "Instant Response - Ability to react faster than others can plan"
+    ]
+  },
+  "cultural_background": {
+    "typical_upbringing": "Raised in the high-speed environment of the Lightning Web, trained from childhood in rapid response and precision techniques",
+    "social_expectations": "Expected to serve as scouts, messengers, and rapid response specialists for the community",
+    "common_motivations": [
+      "Achieving perfect speed and precision",
+      "Mastering tracking and scouting techniques",
+      "Serving as a vital communication link",
+      "Pushing the boundaries of reaction time and accuracy"
+    ],
+    "cultural_values": [
+      "Speed and efficiency",
+      "Precision and accuracy",
+      "Network connectivity",
+      "Rapid adaptation to change"
+    ]
+  },
+  "starting_equipment": {
+    "typical_gear": [
+      "Lightning-charged weapons or projectile systems",
+      "Speed-enhanced armor or clothing",
+      "Tracking tools and navigation equipment",
+      "Communication devices and signal systems",
+      "Mobility enhancement gear"
+    ],
+    "cultural_items": [
+      "Lightning Web network access credentials",
+      "Family tracking lineage documentation",
+      "Speed trial achievement records",
+      "Specialized hunting and scouting equipment"
+    ]
+  },
+  "advancement_paths": {
+    "traditional_progression": [
+      "Novice Tracker - Basic hunting and speed skills",
+      "Web Runner - Recognized courier and scout of the Lightning Web",
+      "Master Hunter - Advanced tracking and precision combat abilities",
+      "Elder Speedster - Legendary speed and awareness mastery",
+      "Eternal Scout - Mythical status with perfect connection to all networks"
+    ],
+    "alternative_developments": [
+      "Battle Striker - Applying speed and precision to front-line combat",
+      "Information Broker - Using tracking skills for intelligence gathering",
+      "Network Coordinator - Managing communication and logistics systems",
+      "Cross-Realm Explorer - Specializing in rapid reconnaissance of unknown territories"
+    ]
+  },
+  "role_flexibility": {
+    "multiclass_synergies": [
+      "Hunter/Succubus - Mobile infiltrator with enhanced tracking and adaptation",
+      "Hunter/Warrior - Speed-focused fighter with tactical mobility",
+      "Hunter/Lich - Mobile researcher with enhanced information gathering"
+    ],
+    "player_customization": {
+      "personality_freedom": "Players can be lone wolves, team players, methodical stalkers, or impulsive strikers",
+      "moral_alignment": "Can be protective guardians, neutral professionals, or predatory hunters",
+      "social_approach": "Can be silent observers, quick communicators, patient trackers, or dynamic leaders"
+    }
+  },
+  "hexagon_integration": {
+    "offensive_layer_preference": "Swift Strikes - Lightning-fast attacks that overwhelm through speed",
+    "defensive_layer_preference": "Evasive Maneuvers - Avoiding damage through superior mobility and positioning",
+    "adjacent_class_relationships": {
+      "succubus": "Shared dexterity focus creates natural mobility and stealth synergies",
+      "warrior": "Complementary dexterity/strength enables mobile combat tactics"
+    },
+    "opposing_class_tension": {
+      "priestess": "Speed vs. Contemplation - Fundamental difference between instant action and thoughtful consideration"
+    }
+  },
+  "lore_connections": {
+    "divine_positioning": "Aligned with Position 3 - The Web of Connection",
+    "cosmic_significance": "Represents the principle that consciousness can transcend distance through perfect connection and instant communication",
+    "mythological_role": "The eternal messengers of Yggdrasil's network, maintaining communication across cosmic distances",
+    "island_legends": "Famous Hunters have served as crucial links in major communications, enabling coordination across vast distances and time"
+  },
+  "npc_examples": {
+    "typical_representatives": [
+      "Web-Master Kethran - Chief coordinator of the Lightning Web's communication network",
+      "Tracker Prime Vexion - Leading expert on inter-realm scouting and reconnaissance",
+      "Elder Scout Thalassa - Ancient Hunter who remembers the paths between reality instances"
+    ],
+    "cultural_variations": [
+      "Battle-Striker Korven - Hunter who applies speed skills to front-line tactical combat",
+      "Information Broker Zelda - Hunter focused on intelligence gathering and analysis",
+      "Wandering Explorer Theron - Hunter who travels to map and scout unknown territories"
+    ]
+  },
+  "player_freedom_emphasis": {
+    "damage_type_openness": "While naturally aligned with lightning, Hunters can master cold, fire, chaos, physical, or radiance without restriction",
+    "divine_choice": "Can worship any god, practice multiple faiths, or remain independent trackers",
+    "personality_range": "From protective guardians to methodical stalkers to impulsive strikers to team coordinators",
+    "social_roles": "Can be scouts, messengers, warriors, investigators, or leaders depending on player choice",
+    "moral_flexibility": "Can be protective guardians, neutral professionals, or predatory hunters - the class supports all approaches"
+  },
+  "hunting_specialties": {
+    "target_tracking": [
+      "Individual person or creature tracking",
+      "Group movement pattern analysis",
+      "Object and resource location",
+      "Information trail following"
+    ],
+    "environmental_mastery": [
+      "Urban navigation and movement",
+      "Wilderness survival and travel",
+      "Hostile environment adaptation",
+      "Multi-terrain mobility optimization"
+    ],
+    "precision_techniques": [
+      "Long-range targeting and striking",
+      "Stealth and concealment mastery",
+      "Trap detection and creation",
+      "Ambush and surprise attack coordination"
+    ],
+    "network_integration": [
+      "Communication system operation",
+      "Information relay and coordination",
+      "Group tactical coordination",
+      "Emergency response protocols"
+    ]
+  },
+  "mechanical_notes": {
+    "suggested_starting_stats": {
+      "dexterity": "Highest",
+      "intelligence": "Second highest",
+      "adaptability": "Moderate bonus",
+      "other_attributes": "Standard starting values with room for player customization"
+    },
+    "natural_resistances": [
+      "Lightning damage resistance",
+      "Enhanced movement speed",
+      "Improved reaction time",
+      "Environmental adaptation bonuses"
+    ],
+    "starting_abilities": [
+      "Enhanced tracking and scouting",
+      "Improved movement and speed",
+      "Basic precision combat techniques",
+      "Lightning affinity"
+    ]
+  },
+  "metadata": {
+    "version": "1.0.0",
+    "created": "2025-07-31T00:00:00Z",
+    "schema_compliance": "character-class.schema.json",
+    "hexagon_reference": "character-classes-core.json",
+    "position_verification": "Position 3 - Voltharion Alignment - Dexterity Focus - Lightning Affinity"
+  }
+}
