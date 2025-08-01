@@ -16,6 +16,7 @@
     {
       "position": 1,
       "primary_concept": "Intelligence",
+      "trinity": "fundamental",
       "index_reference": "corner-1-intelligence",
       "brief_description": "Mental acuity, magical understanding, and analytical thinking",
       "eldritch_archetype": "Glacius, the Eternal Frost - Perfect knowledge and preservation of all understanding",
@@ -27,6 +28,7 @@
     {
       "position": 2, 
       "primary_concept": "Adaptability",
+      "trinity": "transcendent",
       "index_reference": "corner-2-adaptability",
       "brief_description": "Flexibility, creativity, and ability to handle unexpected situations",
       "eldritch_archetype": "Serafina, the Shadow Empress - Infinite flexibility and creative transformation",
@@ -38,6 +40,7 @@
     {
       "position": 3,
       "primary_concept": "Dexterity",
+      "trinity": "fundamental",
       "index_reference": "corner-3-dexterity",
       "brief_description": "Speed, agility, precision, and hand-eye coordination",
       "eldritch_archetype": "Voltharion, the Cosmic Spark - Lightning-fast precision and instant connection",
@@ -48,19 +51,9 @@
     },
     {
       "position": 4,
-      "primary_concept": "Strength", 
-      "index_reference": "corner-4-strength",
-      "brief_description": "Physical power, endurance, and forceful presence",
-      "eldritch_archetype": "Korthak, the Dragon King - Overwhelming physical might and unbreakable will",
-      "divine_manifestation": "The way Korthak embodies pure physical dominance, his very presence reshaping reality through force of will",
-      "damage_type_alignment": "physical",
-      "god_alignment": "korthak",
-      "core_philosophy": "Might makes right, power enforces will"
-    },
-    {
-      "position": 5,
       "primary_concept": "Vitality",
-      "index_reference": "corner-5-vitality",
+      "trinity": "transcendent",
+      "index_reference": "corner-4-vitality",
       "brief_description": "Life force, health, regeneration, and transformative energy",
       "eldritch_archetype": "Pyrion, the First Flame - Creative life force and transformative power",
       "divine_manifestation": "The way Pyrion embodies the creative fire of existence itself, constantly generating new life and transformation",
@@ -69,8 +62,21 @@
       "core_philosophy": "Life energy is the fire that burns within"
     },
     {
+      "position": 5,
+      "primary_concept": "Strength", 
+      "trinity": "fundamental",
+      "index_reference": "corner-5-strength",
+      "brief_description": "Physical power, endurance, and forceful presence",
+      "eldritch_archetype": "Korthak, the Dragon King - Overwhelming physical might and unbreakable will",
+      "divine_manifestation": "The way Korthak embodies pure physical dominance, his very presence reshaping reality through force of will",
+      "damage_type_alignment": "physical",
+      "god_alignment": "korthak",
+      "core_philosophy": "Might makes right, power enforces will"
+    },
+    {
       "position": 6,
       "primary_concept": "Wisdom",
+      "trinity": "transcendent",
       "index_reference": "corner-6-wisdom",
       "brief_description": "Insight, intuition, spiritual awareness, and divine connection",
       "eldritch_archetype": "Aurelius, the Radiant Sphere - Divine insight and spiritual transcendence",
@@ -80,21 +86,202 @@
       "core_philosophy": "Understanding transcends mere knowledge"
     }
   ],
+  "attribute_trios": {
+    "fundamental_trinity": {
+      "name": "The Fundamental Trinity",
+      "attributes": ["intelligence", "dexterity", "strength"],
+      "positions": [1, 3, 5],
+      "description": "The core physical and mental capabilities that form the foundation of all mortal potential",
+      "domain": "Material mastery and basic capability",
+      "mechanics": {
+        "gear_requirements": "Equipment has specific fundamental attribute requirements",
+        "skill_prerequisites": "Most abilities require minimum levels in fundamental attributes",
+        "linear_scaling": "Provide predictable, straightforward power increases",
+        "material_focus": "Govern interaction with the physical and magical realms"
+      },
+      "lore_foundations": {
+        "cosmic_principle": "The Fundamental Trinity represents the raw building blocks of mortal capability - the mind that comprehends, the body that acts, and the force that shapes",
+        "yggdrasil_manifestation": "These attributes flow from Yggdrasil's three primary roots that anchor reality in comprehensible, actionable form",
+        "divine_embodiment": "Glacius demonstrates perfect Intelligence, Voltharion exemplifies absolute Dexterity, and Korthak manifests pure Strength",
+        "material_mastery": "Fundamental attributes determine how effectively a being can manipulate the physical and magical laws of existence"
+      },
+      "skill_requirements": {
+        "intelligence_skills": {
+          "magical_theory": "Intelligence 25+ required for advanced spellcrafting and magical item creation",
+          "scholarly_research": "Intelligence 15+ needed for complex knowledge synthesis and academic pursuits",
+          "tactical_planning": "Intelligence 20+ enables advanced battle strategy and logistical coordination",
+          "arcane_engineering": "Intelligence 30+ allows manipulation of fundamental magical forces and reality alteration"
+        },
+        "dexterity_skills": {
+          "precision_crafting": "Dexterity 20+ required for masterwork item creation and delicate manipulation",
+          "acrobatic_combat": "Dexterity 25+ enables advanced aerial maneuvers and impossible movement",
+          "stealth_mastery": "Dexterity 15+ needed for professional infiltration and silent movement",
+          "speed_casting": "Dexterity 30+ allows instantaneous spell activation and combat reflexes"
+        },
+        "strength_skills": {
+          "heavy_weaponry": "Strength 25+ required for two-handed weapons and siege equipment operation",
+          "architectural_shaping": "Strength 20+ enables large-scale construction and terrain modification",
+          "intimidating_presence": "Strength 15+ provides natural authority and fear-inducing capability",
+          "reality_breaking": "Strength 30+ allows physical force to overcome magical barriers and natural laws"
+        }
+      },
+      "gear_requirements": {
+        "intelligence_gear": {
+          "spellcasting_focus": "Intelligence 15+ for basic staves, 25+ for master-crafted focuses, 35+ for artifact-level implements",
+          "knowledge_archives": "Intelligence 20+ to access advanced libraries and memory-enhancement devices",
+          "analytical_tools": "Intelligence 10+ for basic calculation aids, 30+ for reality-analysis equipment",
+          "magical_armor": "Intelligence scaling determines maximum enchantment capacity and spell-storing ability"
+        },
+        "dexterity_gear": {
+          "precision_weapons": "Dexterity 15+ for finesse blades, 25+ for masterwork ranged weapons, 35+ for legendary precision arms",
+          "mobility_enhancement": "Dexterity 20+ for advanced movement gear and acrobatic equipment",
+          "stealth_equipment": "Dexterity 10+ for basic concealment, 30+ for reality-bending invisibility devices",
+          "speed_augmentation": "Dexterity scaling determines maximum movement enhancement and reflex amplification"
+        },
+        "strength_gear": {
+          "heavy_armaments": "Strength 15+ for war weapons, 25+ for siege equipment, 35+ for reality-cleaving armaments",
+          "protective_equipment": "Strength 20+ for heavy armor and fortress-grade defensive systems",
+          "construction_tools": "Strength 10+ for basic crafting, 30+ for architectural and engineering implements",
+          "force_multipliers": "Strength scaling determines maximum load capacity and power amplification potential"
+        }
+      },
+      "fundamental_manifestation": {
+        "cosmic_foundation": "Intelligence, Dexterity, and Strength are the three pillars upon which all material existence rests. They represent the fundamental forces that shaped reality itself during the cosmic creation.",
+        "yggdrasil_roots": "These three attributes flow directly from Yggdrasil's primary root system - the Intelligence Root that comprehends existence, the Dexterity Root that shapes existence, and the Strength Root that anchors existence in reality.",
+        "universal_constants": "Unlike transcendent attributes which vary across realms and realities, the fundamental trinity remains constant - every material object, every conscious being, every magical effect requires these three basic components to exist.",
+        "equipment_manifestation": "All gear, weapons, armor, and tools in PrimalMyst are inherently tied to fundamental attributes because they represent the basic requirements for manipulating physical reality. No item can exist without fundamental attribute foundations.",
+        "skill_manifestation": "Every learnable ability traces back to fundamental attributes - you cannot cast spells without Intelligence to understand them, perform techniques without Dexterity to execute them, or use tools without Strength to wield them.",
+        "divine_embodiment": "Glacius (Intelligence), Voltharion (Dexterity), and Korthak (Strength) are not just gods - they are the living manifestations of reality's foundation itself, making their attributes inherently more grounded in existence than transcendent ones."
+      },
+      "player_choice_system": {
+        "fundamental_selection": "Every level, players choose ONE fundamental attribute (Intelligence, Dexterity, or Strength) to receive an additional +6 points, representing their character's focused development in that aspect of reality mastery.",
+        "cosmic_significance": "This choice reflects the character's growing understanding of which fundamental aspect of existence resonates most strongly with their personal journey and divine calling.",
+        "implementation_note": "This system will be implemented through the passive skill tree, allowing players to customize their fundamental attribute growth beyond their class's natural alignment patterns.",
+        "strategic_implications": "Players can either double-down on their class's natural fundamental attribute for maximum specialization, or shore up weakness by choosing different fundamentals to create more balanced builds.",
+        "lore_justification": "As Myst-Walkers grow in power, they gain deeper insight into the fundamental forces of reality, allowing them to consciously direct their development toward mastery of specific cosmic principles."
+      }
+    },
+    "transcendent_trinity": {
+      "name": "The Transcendent Trinity", 
+      "attributes": ["adaptability", "vitality", "wisdom"],
+      "positions": [2, 4, 6],
+      "description": "The elevated aspects of consciousness that bridge mortal limitations and divine potential",
+      "domain": "Spiritual evolution and cosmic alignment",
+      "mechanics": {
+        "divine_resonance": "Enhanced by alignment with Eldritch God philosophies",
+        "threshold_scaling": "Provide breakthrough bonuses at specific breakpoints",
+        "hybrid_nature": "Blend multiple influences and cosmic forces",
+        "transcendent_focus": "Govern spiritual growth and divine connection"
+      },
+      "lore_foundations": {
+        "adaptability_mastery": {
+          "base_concept": "Adaptability represents the fluid intelligence that allows consciousness to reshape itself in response to changing circumstances. Unlike the linear progression of Intelligence, Adaptability grows through breakthrough moments.",
+          "serafina_connection": "Serafina, the Dreaming Mother, embodies the ultimate expression of Adaptability - the ability to dream new realities into existence and shift between possibilities as needed.",
+          "threshold_progression": "Every 5 levels in Adaptability unlocks new ways of thinking and perceiving reality, allowing characters to access previously impossible solutions.",
+          "transformative_power": "High Adaptability allows characters to temporarily respec their builds, access cross-class abilities, and discover hidden synergies between disparate elements."
+        },
+        "vitality_mastery": {
+          "base_concept": "Vitality is the raw life force that sustains, heals, and transforms. It represents the fire of existence itself - both creative and destructive, always seeking growth and renewal.",
+          "pyrion_connection": "Pyrion, the First Flame, channels the primal creative fire that sparked all life. Vitality reflects this divine spark within mortals.",
+          "regenerative_scaling": "Every 10 levels in Vitality dramatically increases natural healing rates and unlocks new forms of regeneration - from physical healing to emotional resilience to spiritual renewal.",
+          "transformative_potential": "At high levels, Vitality allows characters to undergo profound transformations - changing species, elemental alignment, or even achieving forms of immortality."
+        },
+        "wisdom_mastery": {
+          "base_concept": "Wisdom represents the deep understanding that comes from connection to cosmic principles. It transcends mere knowledge to encompass intuitive grasp of universal truths.",
+          "aurelius_connection": "Aurelius, the Light Bearer, embodies perfect Wisdom - the ability to see through all illusions and understand the true nature of existence.",
+          "divine_connection": "Wisdom enhances the character's ability to commune with divine forces, predict future events, and understand the hidden patterns that govern reality.",
+          "enlightenment_thresholds": "Major Wisdom milestones (20, 40, 60, 80) represent different stages of enlightenment, each unlocking new forms of cosmic awareness."
+        }
+      },
+      "threshold_mechanics": {
+        "adaptability_thresholds": {
+          "level_5": "Situational Flexibility - Can adapt to one unexpected circumstance per encounter",
+          "level_10": "Cross-Training - Can temporarily access abilities from adjacent classes",
+          "level_15": "Reality Shifting - Can alter minor environmental details once per day",
+          "level_20": "Possibility Mastery - Can rewrite one decision made in the last hour",
+          "level_25": "Dream Logic - Can access impossible combinations of abilities"
+        },
+        "vitality_thresholds": {
+          "level_10": "Enhanced Regeneration - Heal 10% health per minute outside combat",
+          "level_20": "Elemental Resistance - Gain resistance to one chosen damage type",
+          "level_30": "Life Surge - Can enter a temporary state of enhanced vitality",
+          "level_40": "Metamorphosis - Can temporarily transform into alternate forms",
+          "level_50": "Phoenix Rebirth - Can return from death once per character lifetime"
+        },
+        "wisdom_thresholds": {
+          "level_20": "Cosmic Awareness - Gain insight into hidden connections and patterns",
+          "level_40": "Divine Communication - Can commune directly with aligned gods",
+          "level_60": "Future Sight - Can glimpse possible futures and outcomes",
+          "level_80": "Universal Understanding - Comprehend any language or symbolic system",
+          "level_100": "Enlightened Transcendence - Approach divine consciousness"
+        }
+      }
+    }
+  },
   "hexagon_dynamics": {
-    "adjacency_bonuses": "Adjacent attributes create natural character synergies - Intelligence+Adaptability enables creative problem-solving, Dexterity+Strength creates athletic prowess, Vitality+Wisdom provides enlightened health.",
-    "opposition_tensions": "Opposite attributes represent different character focuses - Intelligence vs Strength (mind vs body), Adaptability vs Vitality (change vs stability), Dexterity vs Wisdom (action vs contemplation).",
+    "trinity_interactions": {
+      "fundamental_synergies": "Intelligence + Dexterity = tactical precision, Dexterity + Strength = athletic prowess, Strength + Intelligence = calculated force",
+      "transcendent_synergies": "Adaptability + Vitality = transformative resilience, Vitality + Wisdom = enlightened health, Wisdom + Adaptability = intuitive flexibility",
+      "cross_trinity_bridges": "Each fundamental attribute has a transcendent partner that elevates its expression to divine levels"
+    },
+    "adjacency_bonuses": "Adjacent attributes create natural character synergies - Intelligence+Adaptability enables creative problem-solving, Dexterity+Vitality creates athletic prowess, Strength+Wisdom provides enlightened power.",
+    "opposition_tensions": "Opposite attributes represent different character focuses - Intelligence vs Vitality (mind vs life force), Adaptability vs Strength (change vs force), Dexterity vs Wisdom (action vs contemplation).",
     "full_cycle_effects": "Characters who develop all six attributes achieve 'Cosmic Balance' - the ability to respond to any challenge with their strongest aspect while maintaining harmony across all capabilities."
   },
-  "attribute_mechanics": {
-    "core_attributes": {
-      "pure_fundamentals": ["intelligence", "dexterity", "strength"],
-      "hybrid_primals": ["adaptability", "vitality", "wisdom"],
-      "description": "Pure fundamentals provide straightforward scaling, hybrid primals blend multiple influences"
+  "character_progression": {
+    "per_level_gains": {
+      "class_aligned_attribute": "+6 attribute points per level to character's class-aligned attribute (based on character class position)",
+      "adjacent_attributes": "+3 attribute points per level to both attributes adjacent to the class-aligned attribute",
+      "next_adjacent_attributes": "+2 attribute points per level to attributes one step further from class alignment",
+      "opposing_attribute": "+1 attribute point per level to the attribute directly opposite the class-aligned attribute",
+      "player_fundamental_choice": "+6 attribute points per level to ONE fundamental attribute of player's choice (Intelligence, Dexterity, or Strength)",
+      "total_per_level": "21 total attribute points distributed each level: 15 from class alignment + 6 from player fundamental choice"
     },
+    "player_choice_mechanics": {
+      "selection_timing": "At each level up, players choose which fundamental attribute (Intelligence, Dexterity, or Strength) receives the additional +6 points",
+      "strategic_options": {
+        "specialization_path": "Choose the same fundamental attribute that your class naturally favors for extreme specialization",
+        "balance_path": "Choose different fundamental attributes to create more well-rounded character builds",
+        "weakness_coverage": "Choose fundamental attributes your class doesn't naturally favor to eliminate weak spots",
+        "build_adaptation": "Adjust your choices as your playstyle and party needs evolve throughout the character's journey"
+      },
+      "implementation_method": "This choice system will be integrated into the passive skill tree, providing a clear interface for fundamental attribute selection at each level",
+      "lore_integration": "Represents the character's growing mastery of fundamental cosmic forces and conscious direction of their spiritual development"
+    },
+    "alignment_examples": {
+      "intelligence_class_with_player_choice": {
+        "class_progression": "Intelligence +6, Adaptability +3, Wisdom +3, Dexterity +2, Strength +2, Vitality +1",
+        "player_adds": "+6 to chosen fundamental (Intelligence, Dexterity, or Strength)",
+        "specialization_example": "Intelligence class choosing Intelligence = +12 Intelligence per level total",
+        "balance_example": "Intelligence class choosing Strength = +6 Intelligence, +8 Strength per level"
+      },
+      "strength_class_with_player_choice": {
+        "class_progression": "Strength +6, Vitality +3, Dexterity +3, Wisdom +2, Intelligence +2, Adaptability +1", 
+        "player_adds": "+6 to chosen fundamental (Intelligence, Dexterity, or Strength)",
+        "specialization_example": "Strength class choosing Strength = +12 Strength per level total",
+        "balance_example": "Strength class choosing Intelligence = +8 Intelligence, +6 Strength per level"
+      }
+    },
+    "progression_explanation": {
+      "divine_favor": "Class alignment represents the natural divine favor characters receive based on their chosen path and cultural background",
+      "conscious_development": "Player fundamental choice represents the character's conscious decision to master specific aspects of reality's foundation",
+      "cosmic_balance": "The hexagonal pattern ensures balanced growth while allowing focused specialization through player choice",
+      "guaranteed_growth": "Every character gains exactly 21 attribute points per level: 15 from natural class progression + 6 from player fundamental selection",
+      "fundamental_emphasis": "The additional fundamental choice system emphasizes that Intelligence, Dexterity, and Strength are the bedrock of all advancement in PrimalMyst"
+    }
+  },
+  "attribute_mechanics": {
     "scaling_patterns": {
-      "linear_scaling": ["strength", "dexterity", "intelligence"],
-      "threshold_scaling": ["adaptability", "vitality", "wisdom"],
-      "description": "Linear attributes scale predictably, threshold attributes provide breakpoint bonuses"
+      "fundamental_trinity": {
+        "type": "linear_scaling",
+        "pattern": "Predictable growth that directly translates to capability increases",
+        "focus": "Material world interaction and basic competency"
+      },
+      "transcendent_trinity": {
+        "type": "threshold_scaling", 
+        "pattern": "Breakthrough bonuses at key development milestones",
+        "focus": "Spiritual evolution and cosmic alignment"
+      }
     },
     "cross_system_effects": {
       "offensive_scaling": "Each attribute affects different offensive approaches",
@@ -104,16 +291,57 @@
     }
   },
   "development_paths": {
-    "specialization_builds": {
-      "single_focus": "Maximum investment in one attribute for extreme specialization",
-      "adjacent_focus": "Combining two adjacent attributes for synergistic builds",
-      "opposition_focus": "Balancing opposite attributes for versatile characters"
+    "trinity_specialization": {
+      "fundamental_focus": "Characters who specialize in the Fundamental Trinity become masters of material reality, excelling at traditional combat, crafting, and magical manipulation. The player choice system allows extreme specialization by consistently choosing the same fundamental attribute.",
+      "transcendent_focus": "Characters who specialize in the Transcendent Trinity become bridges between mortal and divine, excelling at spiritual growth, adaptation, and cosmic alignment. These characters benefit from using fundamental choices to shore up their material weaknesses.",
+      "balanced_development": "Characters who develop both trinities equally achieve perfect cosmic balance, embodying the complete hexagonal pattern. The fundamental choice system enables this by allowing strategic selection to maintain balance."
+    },
+    "fundamental_choice_strategies": {
+      "extreme_specialization": {
+        "approach": "Always choose the same fundamental attribute for maximum focused development",
+        "intelligence_path": "Creates unprecedented magical capability and scholarly mastery",
+        "dexterity_path": "Enables unmatched precision, speed, and technical proficiency", 
+        "strength_path": "Develops overwhelming physical presence and material dominance",
+        "risk": "Creates significant vulnerabilities in unchosen fundamental areas"
+      },
+      "balanced_rotation": {
+        "approach": "Cycle through different fundamental attributes to maintain well-rounded development",
+        "pattern_example": "Rotate Intelligence → Dexterity → Strength each level",
+        "benefit": "Eliminates fundamental weaknesses while maintaining specialization",
+        "timeline": "Achieves balanced fundamental development over 3-level cycles"
+      },
+      "adaptive_selection": {
+        "approach": "Choose fundamentals based on current challenges, party needs, and story developments",
+        "flexibility": "Allows characters to evolve with changing circumstances",
+        "strategic_depth": "Requires ongoing assessment of character needs and growth opportunities",
+        "narrative_integration": "Choices can reflect character development and story progression"
+      },
+      "weakness_mitigation": {
+        "approach": "Focus fundamental choices on attributes your class doesn't naturally develop",
+        "cross_class_access": "Enables use of equipment and abilities typically restricted to other classes",
+        "build_diversity": "Creates unexpected character builds and tactical options",
+        "long_term_viability": "Prevents characters from being locked out of content due to fundamental deficiencies"
+      }
     },
     "progression_patterns": {
-      "early_game": "Focus on 1-2 core attributes for basic effectiveness",
-      "mid_game": "Expand to adjacent attributes for build refinement", 
-      "late_game": "Achieve balance or push specialization to cosmic levels",
-      "endgame": "Transcendent builds that incorporate all six attributes"
+      "early_game": "Class-aligned attribute grows fastest (+6/level) plus player fundamental choice (+6/level) for immediate effectiveness",
+      "mid_game": "Adjacent attributes (+3/level) and cumulative fundamental choices create synergistic builds and tactical versatility", 
+      "late_game": "All attributes reach meaningful levels through natural progression and strategic fundamental choices",
+      "endgame": "Perfect cosmic balance becomes achievable through careful fundamental choice planning over the character's lifetime",
+      "level_scaling": "Characters gain 21 total attribute points per level: 15 from natural class progression + 6 from player fundamental choice"
+    },
+    "divine_patronage_paths": {
+      "fundamental_god_alignment": {
+        "glacius_devotion": "Consistent Intelligence choices align with Glacius's cosmic principle of understanding",
+        "voltharion_devotion": "Repeated Dexterity choices resonate with Voltharion's principle of precise action",
+        "korthak_devotion": "Focused Strength choices embody Korthak's principle of overwhelming force",
+        "divine_recognition": "Gods notice and favor characters who consistently choose their aligned fundamental attribute"
+      },
+      "balanced_cosmic_worship": {
+        "trinity_balance": "Equal rotation through all three fundamental choices demonstrates reverence for the cosmic foundation",
+        "universal_harmony": "Balanced fundamental development creates resonance with all three Fundamental Gods simultaneously",
+        "cosmic_understanding": "Characters who master all fundamentals gain insight into the deepest principles of reality"
+      }
     }
   },
   "cross_hexagon_integration": {
@@ -140,13 +368,13 @@
     },
     {
       "position": 4,
-      "filename": "corner-4-strength.json",
-      "file_path": "corners/corner-4-strength.json"
+      "filename": "corner-4-vitality.json",
+      "file_path": "corners/corner-4-vitality.json"
     },
     {
       "position": 5,
-      "filename": "corner-5-vitality.json",
-      "file_path": "corners/corner-5-vitality.json"
+      "filename": "corner-5-strength.json",
+      "file_path": "corners/corner-5-strength.json"
     },
     {
       "position": 6,
@@ -176,6 +404,20 @@
       "universal_implementation": "All complex systems in PrimalMyst naturally organize around hexagonal patterns because they mirror the cosmic structure of reality itself",
       "yggdrasil_connection": "Yggdrasil's six great branches create the foundational hexagonal structure that all other hexagons implement in their specific domains"
     },
+    "fundamental_trinity_lore": {
+      "cosmic_foundation": "Intelligence, Dexterity, and Strength represent the three pillars upon which all material existence rests - the cosmic forces that shaped reality itself during creation",
+      "yggdrasil_roots": "These attributes flow directly from Yggdrasil's primary root system that anchors all existence: the Intelligence Root of comprehension, the Dexterity Root of action, and the Strength Root of power",
+      "universal_constants": "Unlike transcendent attributes which vary across realms, the fundamental trinity remains constant - every object, being, and effect requires these three components to exist",
+      "divine_manifestation": "Glacius, Voltharion, and Korthak are not merely gods but living embodiments of reality's foundation itself",
+      "material_mastery": "All equipment, skills, and abilities trace back to fundamental attributes because they represent the basic requirements for manipulating physical reality"
+    },
+    "player_choice_lore": {
+      "conscious_evolution": "As Myst-Walkers grow in power, they gain deeper insight into the fundamental forces of reality, allowing them to consciously direct their development toward mastery of specific cosmic principles",
+      "divine_resonance": "Each fundamental choice resonates with the corresponding Fundamental God - consistent Intelligence choices align with Glacius's principle of understanding, Dexterity choices with Voltharion's precision, Strength choices with Korthak's force",
+      "cosmic_balance": "Characters who rotate through all three fundamentals demonstrate reverence for the complete cosmic foundation, achieving harmony with the deepest principles of existence",
+      "personal_destiny": "The fundamental choices represent more than mechanical advancement - they shape the character's cosmic destiny and relationship with the foundational forces of reality",
+      "transcendent_foundation": "Even characters focused on transcendent development must ground their spiritual growth in fundamental understanding - you cannot transcend what you do not first master"
+    },
     "mythological_basis": "The six attributes reflect the fundamental aspects of consciousness and capability that the Eldritch Gods embody and value in their followers. Characters who understand this pattern develop capabilities that mirror divine consciousness.",
     "cosmic_significance": "Understanding all six attributes allows Myst-Walkers to achieve cosmic balance, reflecting the perfect harmony that Yggdrasil maintains across all realms. This understanding reveals the underlying hexagonal nature of existence itself.",
     "divine_connections": "Each attribute draws on a specific god's essential nature, allowing mortals to develop aspects of divine consciousness in their personal growth. The gods serve as living embodiments of each attribute's ideal expression.",
@@ -183,7 +425,8 @@
       "hexagons_are_bestagons": "The hexagonal pattern appears throughout PrimalMyst because it represents perfect balance and maximum efficiency in all forms of development",
       "natural_manifestations": "From skill learning patterns to character growth to divine enlightenment, the six-fold pattern emerges naturally",
       "mystical_resonance": "Myst-Walkers who recognize and align with hexagonal patterns find their development enhanced by cosmic harmony",
-      "personal_evolution": "Advanced characters naturally balance their growth around hexagonal patterns, unconsciously responding to the cosmic structure"
+      "personal_evolution": "Advanced characters naturally balance their growth around hexagonal patterns, unconsciously responding to the cosmic structure",
+      "fundamental_mastery": "The player choice system reflects the deepest truth of PrimalMyst - that conscious mastery of fundamental forces is the path to both material success and spiritual transcendence"
     }
   },
   "metadata": {

@@ -3,36 +3,47 @@
   "canonical_name": "Chieftain",
   "hexagon_position": 5,
   "body_type": "M",
-  "archetype_category": "vital-leader",
-  "description": "Vital leaders masters of transformation and creative force who embody the principle of inspirational change and community building. Chieftains represent the ultimate expression of Pyrion's philosophy - that true leadership comes through transformation, inspiration, and the creative fire that sparks growth.",
+  "archetype_category": "mighty-leader",
+  "description": "Mighty leaders masters of physical prowess and direct confrontation who embody the principle of overwhelming force and unbreakable will. Chieftains represent the ultimate expression of Korthak's philosophy - that strength is truth and victory proves worthiness in leadership.",
   "origin_island": {
-    "island_name": "Pyrion Isle",
-    "cultural_name": "The Forge Realm",
-    "description": "A realm of creative workshops and forge-fires where innovation and transformation are the highest virtues. The culture values leadership, creativity, and the ability to inspire positive change in others.",
-    "cultural_philosophy": "Lead through transformation, inspire through action. True strength lies in building others up and creating something greater than yourself."
+    "island_name": "Korthak Isle", 
+    "cultural_name": "The Arena Realm",
+    "description": "A realm of grand coliseums and training grounds where physical prowess is the highest virtue and direct confrontation solves disputes. The culture values strength, courage, and the honor found in fair combat.",
+    "cultural_philosophy": "Strength is truth, victory proves worthiness. Face challenges directly, protect the weak, and earn respect through deeds."
   },
   "eldritch_connection": {
-    "aligned_god": "pyrion",
-    "divine_manifestation": "Pyrion, the First Flame - Creative transformation and vital leadership",
-    "npc_default_alignment": "pyrion",
+    "aligned_god": "korthak",
+    "divine_manifestation": "Korthak, the Dragon King - Overwhelming physical might and unbreakable will",
+    "npc_default_alignment": "korthak",
     "player_freedom": "Players can choose any god alignment or remain independent",
-    "cultural_pressure": "Forge Realm culture encourages Pyrion worship but respects those who demonstrate mastery of creative leadership regardless of divine alignment"
+    "cultural_pressure": "Arena Realm culture strongly encourages Korthak worship but respects those who demonstrate mastery of physical strength regardless of divine alignment"
   },
   "damage_type_affinity": {
-    "natural_alignment": "fire",
-    "cultural_preference": "Fire damage is celebrated as the purest expression of creative transformation and vital energy",
+    "natural_alignment": "physical",
+    "cultural_preference": "Physical damage is honored as the purest expression of personal strength and leadership through might",
     "mechanical_freedom": "No restrictions on learning or mastering other damage types",
-    "starting_bonus": "Enhanced effectiveness with fire-based abilities and resistance to fire effects"
+    "starting_bonus": "Enhanced effectiveness with physical combat and resistance to physical effects"
   },
   "attribute_inheritance": {
-    "primary_attribute": "vitality",
-    "growth_pattern": "Exceptional vitality growth, strong strength development, moderate wisdom",
+    "primary_attribute": "strength",
+    "trinity_alignment": "fundamental",
+    "hexagon_position": 5,
+    "per_level_gains": {
+      "strength": "+6 per level (aligned attribute)",
+      "vitality": "+3 per level (adjacent - position 4)",
+      "wisdom": "+3 per level (adjacent - position 6)", 
+      "dexterity": "+2 per level (next adjacent - position 3)",
+      "intelligence": "+2 per level (next adjacent - position 1)",
+      "adaptability": "+1 per level (opposing - position 2)"
+    },
+    "total_per_level": "15 attribute points distributed according to hexagonal pattern",
     "starting_bonuses": {
-      "vitality": "+2",
-      "strength": "+1",
+      "strength": "+2",
+      "vitality": "+1",
       "wisdom": "+1"
     },
-    "cultural_development": "Forge Realm education emphasizes leadership training, creative problem-solving, and community building"
+    "cultural_development": "Forge Realm education emphasizes leadership training, creative problem-solving, and community building",
+    "growth_philosophy": "Exceptional vitality growth with strong support in strength and wisdom, reflecting the mastery of transformative leadership and creative force"
   },
   "class_characteristics": {
     "core_philosophy": "Lead through transformation, inspire through action",
@@ -192,6 +203,6 @@
     "created": "2025-07-31T00:00:00Z",
     "schema_compliance": "character-class.schema.json",
     "hexagon_reference": "character-classes-core.json",
-    "position_verification": "Position 5 - Pyrion Alignment - Vitality Focus - Fire Affinity"
+    "position_verification": "Position 5 - Korthak Alignment - Strength Focus - Physical Affinity"
   }
 }

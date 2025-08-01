@@ -4,35 +4,46 @@
   "hexagon_position": 4,
   "body_type": "F",
   "archetype_category": "mighty-champion",
-  "description": "Mighty champions masters of physical prowess and direct confrontation who embody the principle of overwhelming force and unbreakable will. Warriors represent the ultimate expression of Korthak's philosophy - that strength is truth and victory proves worthiness.",
+  "description": "Resilient champions who embody vitality and regenerative power, mastering the art of enduring through any challenge. Warriors represent the ultimate expression of Pyrion's philosophy - that life force itself is the greatest strength.",
   "origin_island": {
-    "island_name": "Korthak Isle",
-    "cultural_name": "The Arena Realm",
-    "description": "A realm of grand coliseums and training grounds where physical prowess is the highest virtue and direct confrontation solves disputes. The culture values strength, courage, and the honor found in fair combat.",
-    "cultural_philosophy": "Strength is truth, victory proves worthiness. Face challenges directly, protect the weak, and earn respect through deeds."
+    "island_name": "Pyrion's Forge",
+    "cultural_name": "The Eternal Hearth",
+    "description": "A realm of eternal flames and forges where life force burns brightest and regeneration is mastered. The culture values endurance, healing, and the transformative power of vital energy.",
+    "cultural_philosophy": "Life energy is the true fire within. Endure all challenges, heal others, and transform through vitality."
   },
   "eldritch_connection": {
-    "aligned_god": "korthak",
-    "divine_manifestation": "Korthak, the Dragon King - Overwhelming physical dominance and unbreakable will",
-    "npc_default_alignment": "korthak",
+    "aligned_god": "pyrion",
+    "divine_manifestation": "Pyrion, the First Flame - Creative life force and transformative power",
+    "npc_default_alignment": "pyrion",
     "player_freedom": "Players can choose any god alignment or remain independent",
-    "cultural_pressure": "Arena Realm culture strongly encourages Korthak worship but respects those who demonstrate mastery of combat regardless of divine alignment"
+    "cultural_pressure": "Eternal Hearth culture strongly encourages Pyrion worship but respects those who demonstrate mastery of vitality regardless of divine alignment"
   },
   "damage_type_affinity": {
-    "natural_alignment": "physical",
-    "cultural_preference": "Physical damage is honored as the purest expression of personal strength and skill",
+    "natural_alignment": "fire",
+    "cultural_preference": "Fire damage represents the vital energy that burns within, the transformative force of life itself",
     "mechanical_freedom": "No restrictions on learning or mastering other damage types",
-    "starting_bonus": "Enhanced effectiveness with physical combat and resistance to physical effects"
+    "starting_bonus": "Enhanced effectiveness with fire combat and regenerative abilities"
   },
   "attribute_inheritance": {
-    "primary_attribute": "strength",
-    "growth_pattern": "Exceptional strength growth, strong vitality development, moderate dexterity",
-    "starting_bonuses": {
-      "strength": "+2",
-      "vitality": "+1",
-      "dexterity": "+1"
+    "primary_attribute": "vitality",
+    "trinity_alignment": "transcendent",
+    "hexagon_position": 4,
+    "per_level_gains": {
+      "vitality": "+6 per level (aligned attribute)",
+      "dexterity": "+3 per level (adjacent - position 3)",
+      "strength": "+3 per level (adjacent - position 5)", 
+      "adaptability": "+2 per level (next adjacent - position 2)",
+      "wisdom": "+2 per level (next adjacent - position 6)",
+      "intelligence": "+1 per level (opposing - position 1)"
     },
-    "cultural_development": "Arena Realm education emphasizes physical training, combat techniques, and warrior discipline"
+    "total_per_level": "15 attribute points distributed according to hexagonal pattern",
+    "starting_bonuses": {
+      "vitality": "+2",
+      "dexterity": "+1",
+      "strength": "+1"
+    },
+    "cultural_development": "Arena Realm education emphasizes physical training, combat techniques, and warrior discipline",
+    "growth_philosophy": "Exceptional strength growth with strong support in dexterity and intelligence, reflecting the mastery of physical combat and tactical thinking"
   },
   "class_characteristics": {
     "core_philosophy": "Strength is truth, victory proves worthiness",
@@ -192,6 +203,6 @@
     "created": "2025-07-31T00:00:00Z",
     "schema_compliance": "character-class.schema.json",
     "hexagon_reference": "character-classes-core.json",
-    "position_verification": "Position 4 - Korthak Alignment - Strength Focus - Physical Affinity"
+    "position_verification": "Position 4 - Pyrion Alignment - Vitality Focus - Fire Affinity"
   }
 }

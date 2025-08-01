@@ -26,13 +26,24 @@
   },
   "attribute_inheritance": {
     "primary_attribute": "adaptability",
-    "growth_pattern": "Exceptional adaptability growth, strong intelligence development, moderate dexterity",
+    "trinity_alignment": "transcendent",
+    "hexagon_position": 2,
+    "per_level_gains": {
+      "adaptability": "+6 per level (aligned attribute)",
+      "intelligence": "+3 per level (adjacent - position 1)",
+      "dexterity": "+3 per level (adjacent - position 3)", 
+      "wisdom": "+2 per level (next adjacent - position 6)",
+      "vitality": "+2 per level (next adjacent - position 4)",
+      "strength": "+1 per level (opposing - position 5)"
+    },
+    "total_per_level": "15 attribute points distributed according to hexagonal pattern",
     "starting_bonuses": {
       "adaptability": "+2",
       "intelligence": "+1",
       "dexterity": "+1"
     },
-    "cultural_development": "Shadow Court education emphasizes social dynamics, transformation techniques, and situational awareness"
+    "cultural_development": "Shadow Court education emphasizes social dynamics, transformation techniques, and situational awareness",
+    "growth_philosophy": "Exceptional adaptability growth with strong support in intelligence and dexterity, reflecting the mastery of transformation and flexible response"
   },
   "class_characteristics": {
     "core_philosophy": "Power flows through change and desire",
