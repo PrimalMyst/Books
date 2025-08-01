@@ -1,0 +1,171 @@
+{
+  "hexagon_id": "offensive-layers-core",
+  "name": "PrimalMyst Offensive Layers Hexagon",
+  "description": "The offensive implementation of the universal hexagonal pattern, translating the cosmic principles embodied by the Eldritch Gods into practical combat methodologies and force application strategies.",
+  "foundational_pattern": {
+    "source": "core-thematic-hexagon",
+    "implementation_domain": "offensive-combat-strategies",
+    "cosmic_principle": "The six-fold nature of existence manifests in all aspects of reality, from divine power to mortal combat techniques",
+    "eldritch_reference": "Each offensive approach reflects the combat wisdom and force application methods of its corresponding Eldritch God"
+  },
+  "center": {
+    "element": "The Warrior's Path - Combat Mastery",
+    "description": "The central understanding that all effective combat flows from mastery of force application, timing, positioning, and strategic thinking. True warriors understand that victory comes not from raw power alone, but from choosing the right method for each situation, embodying the cosmic balance that flows through Yggdrasil's structure."
+  },
+  "corners": [
+    {
+      "position": 1,
+      "primary_concept": "Precision Strikes",
+      "index_reference": "corner-1-precision-strikes",
+      "brief_description": "Targeted attacks focusing on accuracy, critical hits, and exploiting weaknesses",
+      "eldritch_archetype": "Glacius, the Eternal Frost - Perfect destruction through absolute knowledge",
+      "divine_manifestation": "The way Glacius strikes with perfect calculation, preserving what should remain while destroying exactly what must be eliminated",
+      "damage_type_alignment": "cold",
+      "god_alignment": "glacius",
+      "core_philosophy": "Calculated precision over raw force"
+    },
+    {
+      "position": 2,
+      "primary_concept": "Unpredictable Assault",
+      "index_reference": "corner-2-unpredictable-assault", 
+      "brief_description": "Chaotic and adaptive combat styles that confuse and overwhelm enemies",
+      "eldritch_archetype": "Serafina, the Shadow Empress - Victory through infinite adaptability",
+      "divine_manifestation": "The way Serafina's chaotic nature makes her attacks impossible to defend against, always striking where enemies are unprepared",
+      "damage_type_alignment": "chaos",
+      "god_alignment": "serafina",
+      "core_philosophy": "Adaptability and unpredictability as weapons"
+    },
+    {
+      "position": 3,
+      "primary_concept": "Speed Dominance",
+      "index_reference": "corner-3-speed-dominance",
+      "brief_description": "Lightning-fast attacks that prioritize attack speed and reaction time",
+      "eldritch_archetype": "Voltharion, the Cosmic Spark - Overwhelming through instantaneous action",
+      "divine_manifestation": "The way Voltharion's lightning-speed allows him to strike across the cosmic web before enemies can react",
+      "damage_type_alignment": "lightning", 
+      "god_alignment": "voltharion",
+      "core_philosophy": "Victory through superior speed and timing"
+    },
+    {
+      "position": 4,
+      "primary_concept": "Physical Overwhelm",
+      "index_reference": "corner-4-physical-overwhelm",
+      "brief_description": "Direct physical force and sustained combat through strength and endurance",
+      "eldritch_archetype": "Korthak, the Dragon King - Dominance through overwhelming physical might",
+      "divine_manifestation": "The way Korthak's incredible physical power simply crushes all opposition through unstoppable force",
+      "damage_type_alignment": "physical",
+      "god_alignment": "korthak", 
+      "core_philosophy": "Overwhelming force and physical dominance"
+    },
+    {
+      "position": 5,
+      "primary_concept": "Burst Devastation", 
+      "index_reference": "corner-5-burst-devastation",
+      "brief_description": "High-damage attacks focusing on maximum single-hit impact",
+      "eldritch_archetype": "Pyrion, the First Flame - Transformation through decisive moments",
+      "divine_manifestation": "The way Pyrion's creative fires can instantly transform anything through singular moments of perfect intensity",
+      "damage_type_alignment": "fire",
+      "god_alignment": "pyrion",
+      "core_philosophy": "Decisive moments and transformative strikes"
+    },
+    {
+      "position": 6,
+      "primary_concept": "Sustained Mastery",
+      "index_reference": "corner-6-sustained-mastery",
+      "brief_description": "Consistent, reliable damage through discipline and magical enhancement",
+      "eldritch_archetype": "Aurelius, the Radiant Sphere - Victory through sustained divine excellence",
+      "divine_manifestation": "The way Aurelius's radiant power provides consistent, reliable force that never falters or diminishes",
+      "damage_type_alignment": "radiance",
+      "god_alignment": "aurelius",
+      "core_philosophy": "Disciplined consistency and sustained excellence"
+    }
+  ],
+  "hexagon_dynamics": {
+    "adjacency_bonuses": "Adjacent offensive layers create natural combat synergies - Precision+Chaos provides adaptive accuracy, Speed+Physical enables mobile warriors, Burst+Sustained creates pulse-rhythm combat patterns.",
+    "opposition_tensions": "Opposite layers create meaningful specialization choices - Precision vs Physical (accuracy vs force), Chaos vs Burst (adaptability vs decisive moments), Speed vs Sustained (burst vs consistency).",
+    "full_cycle_effects": "Masters who understand all six offensive approaches gain 'Combat Transcendence' - the ability to fluidly shift between any combat methodology based on the tactical situation."
+  },
+  "layer_characteristics": {
+    "timing_patterns": {
+      "burst_oriented": ["precision-strikes", "burst-devastation"],
+      "sustained_oriented": ["speed-dominance", "sustained-mastery"], 
+      "adaptive_oriented": ["unpredictable-assault", "physical-overwhelm"]
+    },
+    "resource_usage": {
+      "high_skill": ["precision-strikes", "speed-dominance", "sustained-mastery"],
+      "high_stamina": ["unpredictable-assault", "physical-overwhelm", "burst-devastation"]
+    },
+    "tactical_focus": {
+      "single_target": ["precision-strikes", "burst-devastation"],
+      "area_control": ["unpredictable-assault", "sustained-mastery"],
+      "mobility_based": ["speed-dominance", "physical-overwhelm"]
+    }
+  },
+  "cross_hexagon_integration": {
+    "damage_type_resonance": "Each offensive layer aligns with a damage type, creating natural build synergies when combined appropriately",
+    "divine_patronage": "Gods favor warriors who master their aligned offensive approach, granting enhanced effectiveness",
+    "attribute_requirements": "Different offensive layers scale with different attribute combinations from the attributes hexagon",
+    "defensive_interactions": "Offensive layers interact predictably with defensive layers - some combinations synergize, others create tension"
+  },
+  "corner_files": [
+    {
+      "position": 1,
+      "filename": "corner-1-precision-strikes.json",
+      "file_path": "corners/corner-1-precision-strikes.json"
+    },
+    {
+      "position": 2, 
+      "filename": "corner-2-unpredictable-assault.json",
+      "file_path": "corners/corner-2-unpredictable-assault.json"
+    },
+    {
+      "position": 3,
+      "filename": "corner-3-speed-dominance.json", 
+      "file_path": "corners/corner-3-speed-dominance.json"
+    },
+    {
+      "position": 4,
+      "filename": "corner-4-physical-overwhelm.json",
+      "file_path": "corners/corner-4-physical-overwhelm.json"
+    },
+    {
+      "position": 5,
+      "filename": "corner-5-burst-devastation.json",
+      "file_path": "corners/corner-5-burst-devastation.json"
+    },
+    {
+      "position": 6,
+      "filename": "corner-6-sustained-mastery.json",
+      "file_path": "corners/corner-6-sustained-mastery.json"
+    }
+  ],
+  "lore_integration": {
+    "hexagonal_universality": {
+      "cosmic_principle": "The hexagon is the most stable and perfect geometric form, naturally arising in all aspects of PrimalMyst's reality",
+      "divine_reflection": "The Eldritch Gods themselves embody the six-fold pattern, with each god representing a fundamental approach to applying force",
+      "universal_implementation": "All complex systems in PrimalMyst naturally organize around hexagonal patterns because they mirror the cosmic structure of reality itself",
+      "yggdrasil_connection": "Yggdrasil's six great branches create the foundational hexagonal structure that all other hexagons implement in their specific domains"
+    },
+    "mythological_basis": "The six offensive approaches reflect the combat philosophies of the Eldritch Gods, each representing a fundamental approach to applying force in the universe. Warriors who understand this pattern tap into the same aggressive principles that allow gods to shape reality through conflict.",
+    "cosmic_significance": "Understanding all six offensive layers allows warriors to channel the complete spectrum of divine combat wisdom, from Glacius's precise calculations to Aurelius's sustained radiance. This understanding reveals the underlying hexagonal nature of reality itself.",
+    "divine_connections": "Each offensive layer draws on a specific god's approach to conflict, allowing mortals to embody divine combat principles in their fighting styles. The gods serve as living embodiments of each corner's ideal expression.",
+    "pattern_recognition": {
+      "hexagons_are_bestagons": "The hexagonal pattern appears throughout PrimalMyst because it represents perfect balance and maximum efficiency in all forms of action",
+      "natural_manifestations": "From crystal formations to storm patterns to divine power flows, the six-fold pattern emerges naturally in all force applications",
+      "mystical_resonance": "Myst-Walkers who recognize and align with hexagonal patterns find their combat abilities enhanced by cosmic harmony",
+      "tactical_advantage": "Advanced warriors naturally organize their techniques around hexagonal patterns, unconsciously responding to the cosmic structure"
+    }
+  },
+  "metadata": {
+    "version": "1.0.0",
+    "created": "2025-07-31T00:00:00Z",
+    "author": "PrimalMyst Development Team", 
+    "canonical": true,
+    "schema_reference": "hexagon-thematic.schema.json",
+    "related_hexagons": [
+      "core-thematic-hexagon.json",
+      "defensive-layers-core.json",
+      "attributes-core.json"
+    ]
+  }
+}

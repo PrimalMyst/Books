@@ -1,0 +1,65 @@
+{
+  "id": "glacius-archive-trial-of-preservation",
+  "title": "The Trial of Eternal Preservation - Glacius' Archive",
+  "governing_god": "glacius",
+  "location": {
+    "island": "glacius-archive",
+    "specific_site": "The Crystalline Library",
+    "coordinates": {"x": 0, "y": 0, "z": 0},
+    "accessibility": "public"
+  },
+  "trial_structure": {
+    "activation_trigger": "Approaching the Crystalline Library while experiencing divine decay from Glacius' influence",
+    "challenge_type": "knowledge_preservation",
+    "difficulty_scaling": "adaptive"
+  },
+  "choice_system": {
+    "available_paths": [
+      {
+        "path_name": "Embrace Preservation",
+        "philosophy": "Total commitment to eternal knowledge preservation",
+        "description": "Fully accept Glacius' ice and become a guardian of eternal knowledge"
+      },
+      {
+        "path_name": "Master Preservation", 
+        "philosophy": "Controlled use of preservation magic",
+        "description": "Demonstrate mastery over Glacius' ice while maintaining personal growth"
+      },
+      {
+        "path_name": "Transform Preservation",
+        "philosophy": "Evolution through preserved wisdom",
+        "description": "Work with Glacius' ice to create living preservation that grows and adapts"
+      }
+    ]
+  },
+  "completion_rewards": {
+    "divine_immunity": {
+      "god_source": "glacius",
+      "protection_type": "Complete immunity to cold-based divine decay",
+      "scope": "Glacius' archive and all ice-dominant environments"
+    },
+    "power_increase": {
+      "monster_level_boost": 6,
+      "mystical_authority": "Recognized as divinely approved practitioner with ice authority"
+    },
+    "hexagonal_system_access": {
+      "trial_purpose": "Grants player access to choose bonuses from the Cold corner of the core hexagonal system",
+      "available_choices": {
+        "corner_reference": "Position 1 - Cold (Fundamental)",
+        "god_approval": "Glacius, the Eternal Frost",
+        "mechanical_layers": "Players can choose to adopt the defensive and offensive bonuses defined in the core hexagonal system",
+        "choice_mechanism": "Trial completion unlocks access to Cold corner bonuses, but player must actively choose to adopt them"
+      },
+      "bonus_source": "All specific bonus values and effects are defined in the core-thematic-hexagon system"
+    }
+  },
+  "metadata": {
+    "created": "2025-07-31T00:00:00Z",
+    "last_updated": "2025-07-31T00:00:00Z",
+    "author": "PrimalMyst Development Team",
+    "version": "1.0.0",
+    "canonical": true,
+    "difficulty_rating": "beginner",
+    "status": "placeholder"
+  }
+}

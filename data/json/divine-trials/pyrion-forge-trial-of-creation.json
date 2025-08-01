@@ -95,6 +95,16 @@
         "Increased resistance to heat and flame"
       ]
     },
+    "hexagonal_system_access": {
+      "trial_purpose": "Grants player access to choose bonuses from the Fire corner of the core hexagonal system",
+      "available_choices": {
+        "corner_reference": "Position 5 - Fire (Fundamental)",
+        "god_approval": "Pyrion, the First Flame",
+        "mechanical_layers": "Players can choose to adopt the defensive and offensive bonuses defined in the core hexagonal system",
+        "choice_mechanism": "Trial completion unlocks access to Fire corner bonuses, but player must actively choose to adopt them"
+      },
+      "bonus_source": "All specific bonus values and effects are defined in the core-thematic-hexagon system"
+    },
     "divine_marks": [
       {
         "mark_name": "Pyrion's Forge-Mark",

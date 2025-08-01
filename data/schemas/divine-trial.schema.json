@@ -169,6 +169,30 @@
           "type": "array",
           "items": {"type": "string"},
           "description": "Special access or abilities granted"
+        },
+        "hexagonal_system_access": {
+          "type": "object",
+          "properties": {
+            "trial_purpose": {
+              "type": "string",
+              "description": "Explanation of how the trial grants access to hexagonal system bonuses"
+            },
+            "available_choices": {
+              "type": "object",
+              "properties": {
+                "corner_reference": {"type": "string"},
+                "god_approval": {"type": "string"},
+                "mechanical_layers": {"type": "string"},
+                "choice_mechanism": {"type": "string"}
+              },
+              "description": "What choices become available after trial completion"
+            },
+            "bonus_source": {
+              "type": "string",
+              "description": "Reference to where the actual bonus values are defined"
+            }
+          },
+          "description": "Access granted to choose bonuses from the hexagonal thematic system"
         }
       },
       "required": ["divine_immunity", "power_increase"],

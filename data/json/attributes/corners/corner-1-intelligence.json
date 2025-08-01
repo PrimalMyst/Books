@@ -1,0 +1,161 @@
+{
+  "id": "intelligence-attribute",
+  "name": "Intelligence",
+  "hexagon_position": 1,
+  "category": "core-attribute",
+  "hexagon_reference": "attributes-core",
+  "description": {
+    "brief": "Mental acuity, magical understanding, and analytical thinking",
+    "detailed": "Intelligence represents the mind's capacity for complex thought, pattern recognition, and magical comprehension. Characters with high Intelligence excel at solving problems, understanding mystical forces, learning new skills quickly, and seeing the deeper connections that others miss. This attribute enables both academic knowledge and practical application of mental abilities.",
+    "character_philosophy": "Understanding is the foundation of all achievement",
+    "visual_manifestation": "Glowing eyes, complex magical patterns, analytical auras"
+  },
+  "core_mechanics": {
+    "primary_effects": [
+      "Increases magical damage and effectiveness",
+      "Improves skill learning speed and skill point gains",
+      "Enhances mana pool and mana regeneration",
+      "Enables complex spell combinations and magical crafting"
+    ],
+    "secondary_effects": [
+      "Improves critical hit chance with analytical attacks",
+      "Enhances experience gain from study and research",
+      "Increases accuracy of predictive abilities",
+      "Enables understanding of enemy weaknesses and patterns"
+    ],
+    "scaling_formula": "Linear progression with breakthrough thresholds at 25, 50, 75, 100",
+    "soft_caps": "Diminishing returns begin after 100, but no hard cap exists"
+  },
+  "hexagonal_relationships": {
+    "adjacent_synergies": {
+      "with_wisdom": {
+        "combination_name": "Enlightened Mind",
+        "effect": "Intelligence provides knowledge, Wisdom provides understanding - together they enable profound insights",
+        "mechanical_bonus": "+20% magical effectiveness when both Intelligence and Wisdom exceed 50"
+      },
+      "with_adaptability": {
+        "combination_name": "Creative Intelligence", 
+        "effect": "Intelligence provides analysis, Adaptability provides flexibility - together they enable innovative solutions",
+        "mechanical_bonus": "+15% skill learning speed when both Intelligence and Adaptability exceed 40"
+      }
+    },
+    "opposite_tension": {
+      "with_strength": {
+        "conflict_name": "Mind vs Muscle",
+        "challenge": "Pure intellectual focus can neglect physical development and vice versa",
+        "resolution": "Advanced characters learn to apply intelligence to physical training and strength to mental discipline",
+        "mastery_bonus": "High Intelligence enhances Strength-based abilities through superior technique and understanding"
+      }
+    }
+  },
+  "divine_alignment": {
+    "patron_god": "Glacius, the Eternal Frost",
+    "divine_bonus": "Glacius rewards intellectual pursuits with enhanced memory and analytical capabilities",
+    "divine_trial_connection": "Intelligence is tested through complex puzzles and analytical challenges in Glacius's Archive",
+    "cosmic_principle": "Perfect knowledge leads to perfect action and ultimate preservation"
+  },
+  "scaling_progression": {
+    "per_level_gains": {
+      "base_intelligence": "+1 per level for all characters",
+      "focused_builds": "+2-3 additional per level when Intelligence is primary attribute",
+      "divine_trial_bonuses": "Glacius trials can grant +3-6 permanent Intelligence increases"
+    },
+    "threshold_effects": {
+      "intelligence_25": "Unlocks advanced magical learning and spell combinations",
+      "intelligence_50": "Enables magical crafting and enchantment creation", 
+      "intelligence_75": "Grants access to cosmic-level magical understanding",
+      "intelligence_100": "Allows direct manipulation of magical laws and reality"
+    }
+  },
+  "build_integration": {
+    "primary_builds": [
+      "Pure Mage - Maximum Intelligence for ultimate magical power",
+      "Scholar-Warrior - Intelligence + Dexterity for combat analysis",
+      "Mystic Sage - Intelligence + Wisdom for divine magical understanding"
+    ],
+    "secondary_builds": [
+      "All builds benefit from some Intelligence for skill learning and magical understanding"
+    ],
+    "equipment_scaling": [
+      "Magical weapons scale damage with Intelligence",
+      "Spell focuses enhance Intelligence-based abilities",
+      "Analytical tools provide Intelligence bonuses"
+    ]
+  },
+  "skill_dependencies": {
+    "intelligence_required_skills": [
+      "Advanced Spellcasting (25+ Intelligence)",
+      "Magical Crafting (40+ Intelligence)",
+      "Reality Manipulation (75+ Intelligence)",
+      "Cosmic Understanding (100+ Intelligence)"
+    ],
+    "intelligence_enhanced_skills": [
+      "All magical abilities scale with Intelligence",
+      "Learning abilities gain bonuses from Intelligence",
+      "Analytical combat techniques use Intelligence for effectiveness"
+    ]
+  },
+  "lore_integration": {
+    "mythological_basis": "Intelligence reflects Glacius's domain over knowledge, preservation, and analytical understanding of cosmic principles",
+    "historical_figures": [
+      "Archmage Valdris - First mortal to achieve Intelligence 100",
+      "The Eternal Scholar - Legendary researcher who mapped all magical laws",
+      "Glacius's Voice - Divine prophet who speaks cosmic knowledge"
+    ],
+    "training_traditions": [
+      "The Crystalline Academy - Premier institution for Intelligence development",
+      "Order of the Analytical Mind - Monks devoted to pure intellectual pursuit",
+      "Glacius's Libraries - Divine repositories of all knowledge"
+    ]
+  },
+  "damage_type_integration": {
+    "aligned_damage": "cold",
+    "damage_synergy": "Cold damage scales with Intelligence, representing precise application of preserving force",
+    "elemental_techniques": [
+      "Crystalline analysis that reveals optimal magical applications",
+      "Frost calculations that enable perfect spell timing",
+      "Preservation magic that maintains complex spell structures"
+    ]
+  },
+  "offensive_layer_connections": {
+    "primary_offensive": "precision-strikes",
+    "synergy_description": "Intelligence enables the analytical approach to combat that precision strikes requires",
+    "mechanical_integration": "Higher Intelligence improves critical hit calculation and weakness identification"
+  },
+  "defensive_layer_connections": {
+    "primary_defensive": "calculated-avoidance", 
+    "synergy_description": "Intelligence enables the predictive analysis that calculated avoidance requires",
+    "mechanical_integration": "Higher Intelligence improves attack pattern recognition and positional calculation"
+  },
+  "advancement_paths": {
+    "early_development": [
+      "Focus on basic magical abilities and skill learning bonuses",
+      "Develop foundational understanding of magical principles",
+      "Build mana pool and magical sustainability"
+    ],
+    "mid_development": [
+      "Unlock advanced magical combinations and crafting",
+      "Develop specialized magical schools and techniques",
+      "Begin understanding cosmic magical principles"
+    ],
+    "late_development": [
+      "Achieve mastery over fundamental magical laws",
+      "Develop unique magical techniques and abilities",
+      "Begin approaching cosmic-level understanding"
+    ],
+    "cosmic_development": [
+      "Transcend normal limitations of magical understanding",
+      "Develop reality-altering capabilities",
+      "Achieve Intelligence levels that approach divine consciousness"
+    ]
+  },
+  "tags": ["mental", "magical", "analytical", "learning", "knowledge"],
+  "metadata": {
+    "created": "2025-07-31T00:00:00Z",
+    "last_updated": "2025-07-31T00:00:00Z",
+    "author": "PrimalMyst Development Team", 
+    "version": "1.0.0",
+    "canonical": true,
+    "hexagon_system": "attributes"
+  }
+}

@@ -1,0 +1,203 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "PrimalMyst Defensive Layer",
+  "description": "Individual defensive layer corner within the defensive layers hexagon",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Unique identifier for this defensive layer"
+    },
+    "name": {
+      "type": "string",
+      "description": "Display name for this defensive layer"
+    },
+    "hexagon_position": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 6,
+      "description": "Position in the hexagon (1-6, clockwise from top)"
+    },
+    "category": {
+      "type": "string",
+      "enum": ["defensive-layer"],
+      "description": "Category identifier for this data type"
+    },
+    "hexagon_reference": {
+      "type": "string",
+      "description": "Reference to the parent hexagon structure"
+    },
+    "description": {
+      "type": "object",
+      "properties": {
+        "brief": {"type": "string"},
+        "detailed": {"type": "string"},
+        "survival_philosophy": {"type": "string"},
+        "visual_style": {"type": "string"}
+      },
+      "required": ["brief", "detailed", "survival_philosophy"]
+    },
+    "core_mechanics": {
+      "type": "object",
+      "properties": {
+        "primary_focus": {"type": "string"},
+        "secondary_effects": {
+          "type": "array",
+          "items": {"type": "string"}
+        },
+        "resource_costs": {
+          "type": "object",
+          "properties": {
+            "stamina_efficiency": {"type": "string"},
+            "skill_requirement": {"type": "string"},
+            "equipment_dependency": {"type": "string"}
+          }
+        },
+        "timing_pattern": {"type": "string"}
+      },
+      "required": ["primary_focus", "secondary_effects", "resource_costs"]
+    },
+    "hexagonal_relationships": {
+      "type": "object",
+      "properties": {
+        "adjacent_synergies": {"type": "object"},
+        "opposite_tension": {"type": "object"}
+      }
+    },
+    "divine_alignment": {
+      "type": "object",
+      "properties": {
+        "patron_god": {"type": "string"},
+        "divine_bonus": {"type": "string"},
+        "divine_trial_connection": {"type": "string"},
+        "cosmic_principle": {"type": "string"}
+      }
+    },
+    "attribute_scaling": {
+      "type": "object",
+      "properties": {
+        "primary_attribute": {"type": "string"},
+        "scaling_description": {"type": "string"},
+        "secondary_attributes": {"type": "object"},
+        "attribute_synergies": {
+          "type": "array",
+          "items": {"type": "string"}
+        }
+      }
+    },
+    "equipment_synergy": {
+      "type": "object",
+      "properties": {
+        "optimal_gear": {
+          "type": "array",
+          "items": {"type": "string"}
+        },
+        "complementary_items": {
+          "type": "array",
+          "items": {"type": "string"}
+        },
+        "artifact_resonance": {
+          "type": "array",
+          "items": {"type": "string"}
+        }
+      }
+    },
+    "skill_progression": {
+      "type": "object",
+      "properties": {
+        "novice_abilities": {
+          "type": "array",
+          "items": {"type": "string"}
+        },
+        "advanced_abilities": {
+          "type": "array",
+          "items": {"type": "string"}
+        },
+        "master_abilities": {
+          "type": "array",
+          "items": {"type": "string"}
+        },
+        "cosmic_abilities": {
+          "type": "array",
+          "items": {"type": "string"}
+        }
+      }
+    },
+    "build_archetypes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "archetype_name": {"type": "string"},
+          "focus": {"type": "string"},
+          "key_attributes": {
+            "type": "array",
+            "items": {"type": "string"}
+          },
+          "signature_abilities": {
+            "type": "array",
+            "items": {"type": "string"}
+          }
+        }
+      }
+    },
+    "lore_integration": {
+      "type": "object",
+      "properties": {
+        "historical_masters": {
+          "type": "array",
+          "items": {"type": "string"}
+        },
+        "training_traditions": {
+          "type": "array",
+          "items": {"type": "string"}
+        },
+        "legendary_techniques": {
+          "type": "array",
+          "items": {"type": "string"}
+        }
+      }
+    },
+    "damage_type_integration": {
+      "type": "object",
+      "properties": {
+        "aligned_damage": {"type": "string"},
+        "defensive_synergy": {"type": "string"},
+        "elemental_techniques": {
+          "type": "array",
+          "items": {"type": "string"}
+        }
+      }
+    },
+    "environmental_mastery": {
+      "type": "object",
+      "properties": {
+        "terrain_usage": {
+          "type": "array",
+          "items": {"type": "string"}
+        },
+        "weather_prediction": {
+          "type": "array",
+          "items": {"type": "string"}
+        }
+      }
+    },
+    "tags": {
+      "type": "array",
+      "items": {"type": "string"}
+    },
+    "metadata": {
+      "type": "object",
+      "properties": {
+        "created": {"type": "string", "format": "date-time"},
+        "last_updated": {"type": "string", "format": "date-time"},
+        "author": {"type": "string"},
+        "version": {"type": "string"},
+        "canonical": {"type": "boolean"},
+        "hexagon_system": {"type": "string"}
+      },
+      "required": ["created", "last_updated", "canonical", "hexagon_system"]
+    }
+  },
+  "required": ["id", "name", "hexagon_position", "category", "hexagon_reference", "description", "core_mechanics", "metadata"]
+}

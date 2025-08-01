@@ -4,170 +4,165 @@
   "elemental_embraces": [
     {
       "element": "lightning",
-      "patron_god": "voltharion",
-      "altar_location": "voltharion_storm_peaks_altar",
+      "embrace_name": "Wrath",
+      "embrace_level": 1,
+      "altar_location": "pyrion_primordial_forge_altar",
       "embrace_date": "2025-03-15T14:30:00Z",
-      "attunement_strength": "strong",
-      "divine_recognition": {
-        "title_granted": "Storm-Walker",
-        "blessing_received": "Lightning flows through her movements, granting supernatural speed and reflexes",
-        "obligations": [
-          "Bridge differences between opposing factions when possible",
-          "Respect the connecting power of lightning and communication",
-          "Never use electrical power to permanently sever connections"
-        ]
-      }
+      "choice_explanation": "First embrace: chose Lightning/Wrath at Pyrion's Fire altar"
     },
     {
-      "element": "fire",
-      "patron_god": "pyrion", 
-      "altar_location": "pyrion_sacred_flames_altar",
+      "element": "fire", 
+      "embrace_name": "Anger",
+      "embrace_level": 1,
+      "altar_location": "glacius_eternal_memory_altar",
       "embrace_date": "2025-03-18T10:15:00Z",
-      "attunement_strength": "moderate",
-      "divine_recognition": {
-        "title_granted": "Flame-Touched",
-        "blessing_received": "Her magic carries the warmth of creation and passion of destruction",
-        "obligations": [
-          "Honor both creative and destructive aspects of fire",
-          "Never let passion override wisdom completely",
-          "Protect the sacred flames of inspiration in others"
-        ]
-      }
+      "choice_explanation": "Second embrace: chose Fire/Anger at Glacius' Cold altar"
+    },
+    {
+      "element": "cold",
+      "embrace_name": "Hatred", 
+      "embrace_level": 1,
+      "altar_location": "voltharion_cosmic_spark_altar",
+      "embrace_date": "2025-03-20T09:30:00Z",
+      "choice_explanation": "Third embrace: chose Cold/Hatred at Voltharion's Lightning altar"
     }
   ],
+  "fundamental_mastery": {
+    "total_embraces_used": 3,
+    "distribution": "1+1+1 (balanced across all elements)",
+    "purity_of_elements": {
+      "unlocked": true,
+      "unlock_date": "2025-03-20T09:45:00Z",
+      "description": "Achieved Purity of Elements by embracing all three fundamental forces at level 1 each",
+      "benefits": [
+        "Access to combined elemental abilities",
+        "Resistance to all fundamental damage types",
+        "Enhanced mystical awareness across all realms"
+      ]
+    }
+  },
   "primal_relationships": [
     {
-      "primal_god": "aethon",
+      "primal_god": "serafina",
       "relationship_type": "opponent",
-      "representative_faced": "the-radiant-champion",
-      "trial_location": "aethon_radiant_temple_sanctum",
-      "trial_date": "2025-03-20T16:45:00Z",
-      "trial_outcome": {
-        "victory_achieved": true,
-        "choice_made": "Rejected absolute divine authority in favor of personal moral autonomy",
-        "divine_response": "Aethon acknowledged her strength of conviction and granted respect for her independence"
-      },
-      "relationship_effects": {
-        "mystical_access": [
-          "Reduced access to pure radiance magic",
-          "Enhanced personal willpower and resistance to divine compulsion",
-          "Improved ability to resist corruption and mind control"
-        ],
-        "world_interactions": [
-          "Order-focused NPCs see her as morally independent but trustworthy",
-          "Some divine authority figures regard her with suspicion",
-          "Common people respect her as someone who makes her own moral choices"
-        ],
-        "quest_availability": {
-          "unlocked": [
-            "independent-moral-choice-questlines",
-            "anti-corruption-missions",
-            "personal-responsibility-trials"
-          ],
-          "locked": [
-            "divine-champion-questlines",
-            "absolute-order-missions",
-            "unquestioning-faith-trials"
-          ]
-        }
+      "opposition_location": "serafina_twilight_sanctuary",
+      "opposition_date": "2025-03-22T16:45:00Z",
+      "opposition_outcome": {
+        "choice_made": "Rejected Serafina's teachings of forbidden transformation and shadow embrace",
+        "divine_response": "Serafina marked her as an enemy of chaos but acknowledged her strength of will"
       }
     },
     {
-      "primal_god": "umbrix",
-      "relationship_type": "opponent", 
-      "representative_faced": "the-chaotic-oracle",
-      "trial_location": "umbrix_chaos_grove_heart",
-      "trial_date": "2025-03-22T11:20:00Z",
-      "trial_outcome": {
-        "victory_achieved": true,
-        "choice_made": "Rejected destructive chaos in favor of constructive change and stability",
-        "divine_response": "Umbrix acknowledged her commitment to beneficial transformation over pure chaos"
-      },
-      "relationship_effects": {
-        "mystical_access": [
-          "Reduced access to pure chaos magic",
-          "Enhanced protective and stabilizing abilities",
-          "Improved resistance to random magical effects"
-        ],
-        "world_interactions": [
-          "Stability-seeking NPCs trust her completely",
-          "Chaos-aligned creatures regard her as an enemy",
-          "Scholars and builders seek her out for protection"
-        ],
-        "quest_availability": {
-          "unlocked": [
-            "stability-enhancement-missions",
-            "chaos-mitigation-quests",
-            "protective-ward-construction"
-          ],
-          "locked": [
-            "pure-chaos-magic-quests",
-            "random-transformation-trials",
-            "destruction-for-change-missions"
-          ]
-        }
+      "primal_god": "aurelius", 
+      "relationship_type": "opponent",
+      "opposition_location": "aurelius_radiant_sanctuary",
+      "opposition_date": "2025-03-25T11:20:00Z",
+      "opposition_outcome": {
+        "choice_made": "Rejected Aurelius's protective guidance in favor of independent moral choices",
+        "divine_response": "Aurelius acknowledged her commitment to self-determination"
       }
     },
     {
-      "primal_god": "verdania",
+      "primal_god": "korthak",
       "relationship_type": "follower",
-      "representative_faced": "the-earthen-guardian",
-      "trial_location": "verdania_earth_sanctuary_grove",
-      "trial_date": "2025-03-25T13:10:00Z",
+      "trial_location": "korthak_iron_sanctuary",
+      "trial_date": "2025-03-28T13:10:00Z",
       "trial_outcome": {
         "victory_achieved": true,
-        "choice_made": "Accepted the path of physical mastery harmonized with natural forces",
-        "divine_response": "Verdania welcomed her as a true daughter of earth and granted her the blessing of enduring strength"
-      },
-      "relationship_effects": {
-        "mystical_access": [
-          "Enhanced physical enhancement magic",
-          "Deep connection to natural forces and earth magic",
-          "Improved endurance and regeneration abilities"
-        ],
-        "world_interactions": [
-          "Nature spirits and earth elementals aid her readily", 
-          "Druids and earth-workers see her as a sister",
-          "Animals and plants respond positively to her presence"
-        ],
-        "quest_availability": {
-          "unlocked": [
-            "nature-harmony-questlines",
-            "earth-guardian-missions",
-            "physical-mastery-trials"
-          ],
-          "locked": [
-            "anti-nature-technology-quests",
-            "pure-spiritual-transcendence-missions"
-          ]
-        }
+        "choice_made": "Accepted the path of honorable strength and direct confrontation",
+        "divine_response": "Korthak welcomed her as a true warrior and granted his blessing"
       }
     }
   ],
+  "primal_opposition_result": {
+    "opposition_pattern": "oppose_two_worship_one",
+    "opposed_gods": ["serafina", "aurelius"],
+    "worshipped_god": "korthak",
+    "resulting_buff": "Korthak's Priest",
+    "buff_effects": {
+      "description": "Complete dedication to might and honor through rejection of chaos and light",
+      "mystical_access": [
+        "Greatly enhanced physical capabilities and combat prowess",
+        "Immunity to fear and intimidation effects", 
+        "Ability to inspire courage and strength in allies",
+        "Reduced access to chaos and radiance magic"
+      ],
+      "world_interactions": [
+        "Warriors and strength-focused NPCs see her as a paragon",
+        "Chaos and light-aligned beings regard her with suspicion",
+        "Honor-bound creatures and dragons respect her greatly"
+      ],
+      "quest_availability": {
+        "unlocked": [
+          "korthak-champion-questlines",
+          "honor-warfare-missions",
+          "dragon-bonding-trials",
+          "anti-chaos-crusades",
+          "anti-light-independence-quests"
+        ],
+        "locked": [
+          "serafina-shadow-magic-quests",
+          "aurelius-healing-missions", 
+          "chaos-transformation-trials",
+          "pure-radiance-blessings"
+        ]
+      }
+    }
+  },
   "divine_signature": {
-    "signature_id": "lightning-fire-independent-earth",
-    "signature_name": "The Grounded Storm",
-    "cosmic_alignment": "balance-seeking",
-    "power_focus": "hybrid-approach",
+    "signature_id": "purity-of-elements-korthak-priest",
+    "signature_name": "The Elemental Warrior-Priest",
+    "cosmic_alignment": "fundamental-mastery-primal-dedication",
+    "power_focus": "all-elements-with-honor-focus",
+    "elemental_mastery": {
+      "anger_level": 1,
+      "hatred_level": 1, 
+      "wrath_level": 1,
+      "total_embraces_used": 3,
+      "distribution_type": "balanced_purity",
+      "purity_of_elements": true
+    },
+    "primal_dedication": {
+      "priest_of": "korthak",
+      "opposed_to": ["serafina", "aurelius"],
+      "dedication_level": "complete"
+    },
     "social_standing": {
-      "divine_favor": 15,
-      "mortal_reputation": "independent-mystic"
+      "divine_favor": 25,
+      "mortal_reputation": "elemental-warrior-priest",
+      "special_recognition": "Respected by all strength-focused beings, viewed with suspicion by chaos and light followers"
     }
   },
   "positioning_completion": {
     "requirements_met": {
-      "minimum_elemental_embrace": true,
-      "minimum_primal_opposition": true,
-      "all_trials_completed": true
+      "fundamental_trials_completed": 3,
+      "elemental_embraces_achieved": 3,
+      "purity_of_elements_unlocked": true,
+      "primal_opposition_declared": 2,
+      "primal_worship_established": 1,
+      "priest_status_achieved": true
     },
-    "completion_date": "2025-03-25T13:45:00Z",
+    "completion_date": "2025-03-28T13:45:00Z",
     "act_progression": {
       "act_1_milestone": true,
       "unlocked_content": [
-        "act-2-divine-politics-questlines",
-        "elemental-mastery-advanced-training",
-        "divine-independence-reputation-track",
-        "balanced-mystic-skill-trees"
+        "act-2-god-slayer-preparation-questlines",
+        "fundamental-elemental-mastery-advanced-training", 
+        "korthak-priest-exclusive-missions",
+        "purity-of-elements-combined-abilities",
+        "dragon-bonding-opportunities",
+        "anti-chaos-anti-light-campaign-access"
+      ]
+    },
+    "endgame_preparation": {
+      "god_slayer_readiness": "high",
+      "fundamental_mastery": "complete",
+      "primal_positioning": "priest_of_korthak",
+      "special_advantages": [
+        "All fundamental damage types mastered",
+        "Enhanced physical combat abilities from Korthak",
+        "Resistance to chaos and light-based god attacks", 
+        "Purity of Elements provides balanced approach to all gods"
       ]
     }
   },

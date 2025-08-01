@@ -7,18 +7,20 @@ This document summarizes the comprehensive story structure created for PrimalMys
 
 ### **Five-Act Progression**
 1. **Prologue**: The Awakening (Levels 1-9, Hidden E Rank)
-2. **Act 1**: The Six Outer Islands (Levels 10-39, E-D Ranks)  
+2. **Act 1**: The Six Divine Islands (Levels 10-39, E-D Ranks)  
 3. **Act 2**: Midgard Exploration (Levels 40-69, C-B Ranks)
-4. **Act 3**: Yggdrasil Ascension (Levels 70-99, A-S Ranks)
-5. **Epilogue**: Divine Confrontation (Level 100, SS Rank)
+4. **Act 3**: Cosmic Ascension (Levels 70-84, A Rank)
+5. **Epilogue**: Divine Confrontation (Levels 85-100, S-SS Ranks)
 
 ### **Rank System Integration**
-- **E Rank (1-24)**: Hidden awakening and initial discovery phases
-- **D Rank (25-39)**: Cultural mastery and inter-island exploration
-- **C Rank (40-54)**: Continental integration and political navigation
-- **B Rank (55-69)**: Continental mastery and divine politics
-- **A Rank (70-84)**: Legendary status and cosmic responsibility
-- **S Rank (85-99)**: Transcendent power and reality influence
+- **Hidden E Rank (1-9)**: Tutorial awakening and basic discovery
+- **E Rank (10-24)**: Initial divine island exploration and basic trials
+- **D Rank (25-39)**: Divine trial completion and positioning establishment
+- **C Rank (40-54)**: Mainland access and basic divine realm exploration
+- **B Rank (55-69)**: Advanced realm exploration and cosmic understanding
+- **A Rank (70-84)**: Divine champion status and master trial completion
+- **S Rank (85-99)**: God-Slayer progression and divine confrontations
+- **SS Rank (100)**: Cosmic transcendence - achieved only at level 100
 - **SS Rank (100)**: Divine peer status and cosmic choice
 
 ## Key Design Achievements

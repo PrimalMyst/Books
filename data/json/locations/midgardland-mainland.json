@@ -41,21 +41,21 @@
       "harbor": "The Spark Harbor - ships with lightning-powered systems and instant communication"
     },
     {
-      "name": "Nyxtharion's Gate",
-      "description": "Southwestern coastal city facing the Shifting Straits and Nyxtharion's Isle",
-      "culture": "Revolutionaries and chaos mystics, constantly reinventing themselves",
-      "harbor": "The Change Harbor - ships that adapt their form based on journey needs"
+      "name": "Serafina's Gate",
+      "description": "Southwestern coastal city facing the Shifting Straits and Serafina's Isle",
+      "culture": "Shadow mystics and forbidden knowledge seekers, masters of transformation",
+      "harbor": "The Twilight Harbor - ships cloaked in shadows that can navigate unseen"
     },
     {
-      "name": "Luminareth's Gate", 
-      "description": "Southeastern coastal city facing the Radiant Straits and Luminareth's Isle",
-      "culture": "Healers and light mystics, providing sanctuary and truth",
+      "name": "Aurelius's Gate", 
+      "description": "Southeastern coastal city facing the Radiant Straits and Aurelius's Isle",
+      "culture": "Healers and light mystics, providing sanctuary and divine wisdom",
       "harbor": "The Radiant Harbor - ships blessed with protective light and healing capabilities"
     },
     {
-      "name": "Drakmorth's Gate",
-      "description": "Northwestern coastal city facing the Honor Straits and Drakmorth's Isle",
-      "culture": "Warriors and strength mystics, training grounds for champions",
+      "name": "Korthak's Gate",
+      "description": "Northwestern coastal city facing the Honor Straits and Korthak's Isle",
+      "culture": "Warriors and strength mystics, training grounds for champions of honor",
       "harbor": "The Iron Harbor - ships built for strength and honor, capable of weathering any storm"
     },
     {

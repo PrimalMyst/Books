@@ -31,7 +31,7 @@ The core hexagonal structure provides a universal framework for organizing Prima
 
 ### 1. Skill Trees / Passive Trees
 
-**Structure:** Each vertex anchors a major branch of the passive skill tree
+**Structure:** Each corner anchors a major branch of the passive skill tree
 
 - **Position 1 (Cold/Int/ES):** Spell power, mana, energy shield, preservation magic
 - **Position 2 (Chaos/Int+Dex/ES+Eva):** Chaos magic, hybrid casting, transformation
@@ -41,13 +41,13 @@ The core hexagonal structure provides a universal framework for organizing Prima
 - **Position 6 (Radiance/Str+Int/Arm+ES):** Protection, healing, paladin abilities
 
 **Connections:** 
-- Adjacent vertices have direct connection paths (easier to hybrid)
-- Opposite vertices require travel through intermediary nodes (harder to combine)
+- Adjacent corners have direct connection paths (easier to hybrid)
+- Opposite corners require travel through intermediary nodes (harder to combine)
 - Central hub connects to all six (World Tree mastery)
 
 ### 2. Equipment Categories
 
-**Weapons by Vertex:**
+**Weapons by Corner:**
 1. **Cold:** Staves, Wands, Crystal Focuses
 2. **Chaos:** Ritual Daggers, Transformation Orbs, Entropy Weapons  
 3. **Lightning:** Javelins, Crossbows, Speed Weapons
@@ -77,7 +77,7 @@ The core hexagonal structure provides a universal framework for organizing Prima
 
 ### 4. League Mechanics
 
-**Seasonal Focus:** Each league could emphasize different vertices or vertex combinations:
+**Seasonal Focus:** Each league could emphasize different corners or corner combinations:
 
 - **Glacial League:** Focus on cold/preservation mechanics
 - **Storm League:** Lightning/speed emphasis with chain reactions
@@ -89,7 +89,7 @@ The core hexagonal structure provides a universal framework for organizing Prima
 **Cross-Vertex Leagues:**
 - **Eclipse League:** Opposition pairs (Cold vs Physical, etc.)
 - **Harmony League:** Adjacent synergies enhanced
-- **World Tree League:** All six vertices active simultaneously
+- **World Tree League:** All six corners active simultaneously
 
 ### 5. Crafting Materials
 
@@ -114,7 +114,7 @@ The core hexagonal structure provides a universal framework for organizing Prima
 - Opposite quests create narrative tension and meaningful choices
 
 **Cross-Vertex Narratives:**
-- Story arcs that require understanding multiple vertices
+- Story arcs that require understanding multiple corners
 - Character development that spans the hexagon
 - Endgame content that tests mastery of all six themes
 
@@ -139,9 +139,9 @@ The core hexagonal structure provides a universal framework for organizing Prima
 - Can be approached effectively by opposite vertex builds
 
 **Multi-Vertex Bosses:**
-- Bosses that shift between adjacent vertices
+- Bosses that shift between adjacent corners
 - Requires adaptability and hybrid approaches
-- Elite bosses that cycle through all six vertices
+- Elite bosses that cycle through all six corners
 
 **Endgame Encounters:**
 - World Tree bosses that test mastery of all six vertices

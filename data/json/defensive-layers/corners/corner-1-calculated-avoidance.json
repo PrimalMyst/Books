@@ -1,0 +1,176 @@
+{
+  "id": "calculated-avoidance",
+  "name": "Calculated Avoidance", 
+  "hexagon_position": 1,
+  "category": "defensive-layer",
+  "hexagon_reference": "defensive-layers-core",
+  "description": {
+    "brief": "Intelligent positioning and threat analysis to avoid damage entirely",
+    "detailed": "Calculated Avoidance represents the intellectual approach to survival, where superior knowledge and planning prevent harm before it can occur. Practitioners study enemy patterns, predict attack trajectories, and position themselves to be untouchable through perfect understanding rather than quick reflexes or thick armor.",
+    "survival_philosophy": "The best defense is to never be where the attack lands",
+    "visual_style": "Deliberate, measured movement with perfect spatial awareness"
+  },
+  "core_mechanics": {
+    "primary_focus": "Attack prediction and positional advantage",
+    "secondary_effects": [
+      "Reduced enemy accuracy through superior positioning",
+      "Immunity to predictable area effects",
+      "Bonus defense when fighting previously studied enemies",
+      "Ability to position allies for optimal protection"
+    ],
+    "resource_costs": {
+      "stamina_efficiency": "very_high",
+      "skill_requirement": "very_high",
+      "equipment_dependency": "low"
+    },
+    "timing_pattern": "Prevention-focused with predictive positioning"
+  },
+  "hexagonal_relationships": {
+    "adjacent_synergies": {
+      "with_mystical_barriers": {
+        "combination_name": "Predictive Shielding",
+        "effect": "Barriers appear exactly where attacks will land before they arrive",
+        "bonus": "+20% barrier effectiveness when predicted damage types match barrier resistances"
+      },
+      "with_adaptive_evasion": {
+        "combination_name": "Analytical Adaptation",
+        "effect": "Calculated positioning enhanced by intuitive movement adjustments",
+        "bonus": "+15% avoidance chance when switching between calculation and adaptation"
+      }
+    },
+    "opposite_tension": {
+      "with_physical_resistance": {
+        "conflict_name": "Prevention vs Endurance",
+        "challenge": "Avoidance techniques require mobility that conflicts with heavy armor",
+        "resolution": "Master tacticians learn to position even while heavily armored",
+        "mastery_bonus": "Can maintain calculated positioning even in the heaviest protective gear"
+      }
+    }
+  },
+  "divine_alignment": {
+    "patron_god": "Glacius, the Eternal Frost",
+    "divine_bonus": "Glacius grants perfect memory of all enemy patterns and attack sequences",
+    "divine_trial_connection": "Calculated Avoidance mastery is tested in scenarios requiring perfect foresight",
+    "cosmic_principle": "Knowledge of all possible futures enables selection of the safest path"
+  },
+  "attribute_scaling": {
+    "primary_attribute": "intelligence",
+    "scaling_description": "Higher intelligence improves pattern recognition and trajectory calculation",
+    "secondary_attributes": {
+      "wisdom": "Enhances intuitive understanding of optimal positioning",
+      "dexterity": "Enables precise execution of calculated movement"
+    },
+    "attribute_synergies": [
+      "Int/Wis builds develop supernatural foresight",
+      "Int/Dex builds combine calculation with precise execution", 
+      "Pure Int builds become untouchable through perfect prediction"
+    ]
+  },
+  "equipment_synergy": {
+    "optimal_gear": [
+      "Analysis tools that track enemy movement patterns",
+      "Light armor that doesn't restrict movement calculations",
+      "Sensory enhancement equipment for better battlefield awareness",
+      "Mapping tools for optimal positioning"
+    ],
+    "complementary_items": [
+      "Mobility enhancement gear",
+      "Predictive calculation aids",
+      "Environmental awareness tools"
+    ],
+    "artifact_resonance": [
+      "Glacius-blessed analytical instruments",
+      "Ancient tactical manuals of divine generals",
+      "Crystals that show possible future attack patterns"
+    ]
+  },
+  "skill_progression": {
+    "novice_abilities": [
+      "Basic attack pattern recognition",
+      "Improved positioning against single enemies",
+      "Simple trajectory avoidance"
+    ],
+    "advanced_abilities": [
+      "Multi-enemy positioning calculations",
+      "Area effect prediction and avoidance", 
+      "Ally protection through guided positioning"
+    ],
+    "master_abilities": [
+      "Perfect battlefield awareness",
+      "Immunity to all predictable attacks",
+      "Ability to guide entire groups through dangerous areas unharmed"
+    ],
+    "cosmic_abilities": [
+      "Temporal positioning that exists in multiple timeline safety zones",
+      "Dimensional avoidance that steps between realities to avoid attacks",
+      "Causal analysis that prevents attacks from being made in the first place"
+    ]
+  },
+  "build_archetypes": [
+    {
+      "archetype_name": "Tactical Coordinator",
+      "focus": "Positioning self and allies for maximum safety and effectiveness",
+      "key_attributes": ["intelligence", "wisdom"],
+      "signature_abilities": ["Formation Master", "Battlefield Analysis", "Group Positioning"]
+    },
+    {
+      "archetype_name": "Untouchable Scholar",
+      "focus": "Perfect personal safety through superior knowledge",
+      "key_attributes": ["intelligence", "wisdom"],
+      "signature_abilities": ["Perfect Prediction", "Danger Sense", "Immunity to Patterns"]
+    },
+    {
+      "archetype_name": "Mobile Analyst",
+      "focus": "Combining movement and calculation for dynamic avoidance",
+      "key_attributes": ["intelligence", "dexterity"],
+      "signature_abilities": ["Calculated Movement", "Predictive Positioning", "Dynamic Analysis"]
+    }
+  ],
+  "lore_integration": {
+    "historical_masters": [
+      "Theren the Untouched - First mortal to achieve perfect avoidance",
+      "Master Veil - Glacius's chosen prophet of protective foresight",
+      "The Ghost General - Legendary commander who never lost a soldier to predictable attacks"
+    ],
+    "training_traditions": [
+      "The Academy of Tactical Foresight - Institution teaching predictive positioning",
+      "The Order of the Unseen Path - Monks devoted to perfect movement",
+      "Glacius's Watchers - Divine scouts trained in ultimate awareness"
+    ],
+    "legendary_techniques": [
+      "The Phantom Step - Positioning technique that makes one impossible to target",
+      "Foresight's Gift - Ability to see all possible attack patterns simultaneously",
+      "The Safe Path - Technique that finds the one route through any danger"
+    ]
+  },
+  "damage_type_integration": {
+    "aligned_damage": "cold",
+    "defensive_synergy": "Cold effects slow enemy movements, making their attacks easier to predict and avoid",
+    "elemental_techniques": [
+      "Frost analysis that reveals optimal positioning through ice crystal formations",
+      "Crystalline prediction that shows attack paths as frozen moments",
+      "Preservation effects that maintain perfect calculation under pressure"
+    ]
+  },
+  "environmental_mastery": {
+    "terrain_usage": [
+      "Calculating optimal positions using environmental features",
+      "Predicting enemy movement limitations based on terrain",
+      "Using obstacles and elevation for positional advantage"
+    ],
+    "weather_prediction": [
+      "Factoring weather effects into avoidance calculations",
+      "Using environmental conditions to enhance positioning",
+      "Predicting how weather will affect enemy accuracy"
+    ]
+  },
+  "tags": ["avoidance", "prediction", "intelligence-based", "positioning", "tactical"],
+  "metadata": {
+    "created": "2025-07-31T00:00:00Z",
+    "last_updated": "2025-07-31T00:00:00Z", 
+    "author": "PrimalMyst Development Team",
+    "version": "1.0.0",
+    "canonical": true,
+    "hexagon_system": "defensive-layers"
+  }
+}

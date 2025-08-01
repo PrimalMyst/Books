@@ -1,0 +1,65 @@
+{
+  "id": "korthak-arena-trial-of-might",
+  "title": "The Trial of Physical Mastery - Korthak's Arena",
+  "governing_god": "korthak",
+  "location": {
+    "island": "korthak-arena",
+    "specific_site": "The Dragon's Proving Ground",
+    "coordinates": {"x": 0, "y": 0, "z": 0},
+    "accessibility": "public"
+  },
+  "trial_structure": {
+    "activation_trigger": "Entering the Dragon's Proving Ground while experiencing divine decay from Korthak's influence",
+    "challenge_type": "physical_mastery",
+    "difficulty_scaling": "adaptive"
+  },
+  "choice_system": {
+    "available_paths": [
+      {
+        "path_name": "Embrace Might",
+        "philosophy": "Total commitment to physical dominance",
+        "description": "Fully accept Korthak's strength and become a physical force of nature"
+      },
+      {
+        "path_name": "Master Might",
+        "philosophy": "Controlled use of physical power",
+        "description": "Demonstrate mastery over Korthak's strength while maintaining tactical thinking"
+      },
+      {
+        "path_name": "Transform Might",
+        "philosophy": "Evolution through adaptive combat",
+        "description": "Work with Korthak's strength to create new forms of physical excellence"
+      }
+    ]
+  },
+  "completion_rewards": {
+    "divine_immunity": {
+      "god_source": "korthak",
+      "protection_type": "Complete immunity to physical-based divine decay",
+      "scope": "Korthak's arena and all might-dominant environments"
+    },
+    "power_increase": {
+      "monster_level_boost": 6,
+      "mystical_authority": "Recognized as divinely approved practitioner with physical authority"
+    },
+    "hexagonal_system_access": {
+      "trial_purpose": "Grants player access to choose bonuses from the Physical corner of the core hexagonal system",
+      "available_choices": {
+        "corner_reference": "Position 4 - Physical (Primal)",
+        "god_approval": "Korthak, the Dragon King",
+        "mechanical_layers": "Players can choose to adopt the defensive and offensive bonuses defined in the core hexagonal system",
+        "choice_mechanism": "Trial completion unlocks access to Physical corner bonuses, but player must actively choose to adopt them"
+      },
+      "bonus_source": "All specific bonus values and effects are defined in the core-thematic-hexagon system"
+    }
+  },
+  "metadata": {
+    "created": "2025-07-31T00:00:00Z",
+    "last_updated": "2025-07-31T00:00:00Z",
+    "author": "PrimalMyst Development Team",
+    "version": "1.0.0",
+    "canonical": true,
+    "difficulty_rating": "intermediate",
+    "status": "placeholder"
+  }
+}
