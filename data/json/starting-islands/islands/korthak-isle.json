@@ -1,0 +1,66 @@
+{
+  "island_id": "korthak-isle",
+  "position": 5,
+  "island_name": "Korthak Isle",
+  "cultural_name": "The Arena Realm",
+  "divine_anchor": "Korthak, the Dragon King",
+  "yggdrasil_branch": "Western Middle Branch",
+  "environmental_theme": "grand_coliseums_training_grounds",
+  "primary_element": "physical",
+  "trial_focus": "strength_and_leadership",
+  "cultural_philosophy": "Strength is truth, victory proves worthiness, honor through direct confrontation",
+  "geography": {
+    "climate": "Temperate with grand architectural complexes",
+    "dominant_features": ["Grand Coliseums", "Training Complexes", "Honor Halls", "Leadership Academies"],
+    "mystical_elements": ["Strength Amplification Circles", "Honor Binding Rituals", "Leadership Testing Grounds"],
+    "trial_locations": ["The Ultimate Arena", "Korthak's Throne of Might", "Chamber of Proven Worth"]
+  },
+  "cultural_expressions": {
+    "architecture": "Massive stone and metal constructions built for durability and grandeur",
+    "arts": "Physical combat, tactical leadership, honor displays, strength competitions",
+    "governance": "Merit-based leadership through proven strength and honor",
+    "values": ["Physical prowess", "Direct honesty", "Protective leadership", "Fair competition"]
+  },
+  "origin_races": ["Dragon-blooded Humans", "Stone Giants", "Honor-bound Orcs"],
+  "primary_class": "Chieftain",
+  "divine_trial": {
+    "trial_name": "The Trial of Absolute Strength",
+    "challenge_type": "physical_and_leadership",
+    "requirements": "Demonstrate mastery of physical power and inspirational leadership",
+    "trial_stages": ["Ultimate Strength Test", "Leadership Under Pressure", "Honor Proof Challenge"],
+    "reward": "Korthak's Blessing of Unbreakable Strength and Physical Immunity"
+  },
+  "hexagon_relationships": {
+    "adjacent_synergies": {
+      "with_pyrion": "Vital leaders - life-preserving strength and protective leadership",
+      "with_aurelius": "Honorable protectors - strength guided by wisdom and moral principles"
+    },
+    "opposition": {
+      "serafina": "Strength vs Adaptation - solid foundation vs fluid change"
+    }
+  },
+  "environmental_mechanics": {
+    "physical_immunity_zones": "Natural physical resistance for aligned characters",
+    "strength_amplification_fields": "Areas where physical power is dramatically enhanced",
+    "strength_resonance": "Strength-based characters gain enhanced physical capabilities",
+    "leadership_inspiration": "Enhanced ability to inspire and lead others"
+  },
+  "travel_connections": {
+    "nexus_pathway": "Stone Causeway to Worldtree Nexus",
+    "adjacent_routes": {
+      "to_pyrion": "Honor roads through volcanic training grounds",
+      "to_aurelius": "Radiant paths through temple complexes"
+    }
+  },
+  "metadata": {
+    "version": "1.0.0",
+    "created": "2025-08-04T00:00:00Z",
+    "canonical": true,
+    "schema_compliance": "individual-island.schema.json",
+    "cross_references": [
+      "starting-islands-core.json",
+      "class-5-chieftain.json",
+      "korthak-arena-trial-of-might.json"
+    ]
+  }
+}

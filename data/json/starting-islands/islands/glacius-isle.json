@@ -1,0 +1,66 @@
+{
+  "island_id": "glacius-isle",
+  "position": 1,
+  "island_name": "Glacius Isle",
+  "cultural_name": "The Archive Realm",
+  "divine_anchor": "Glacius, the Eternal Frost",
+  "yggdrasil_branch": "Western Crown Branch",
+  "environmental_theme": "eternal_winter_crystalline_libraries",
+  "primary_element": "cold",
+  "trial_focus": "preservation_and_knowledge",
+  "cultural_philosophy": "Knowledge is power, preservation is perfection, understanding transcends mortality",
+  "geography": {
+    "climate": "Eternal winter with crystal formations",
+    "dominant_features": ["Great Crystal Libraries", "Frozen Archives", "Ice Citadels", "Crystalline Research Towers"],
+    "mystical_elements": ["Memory Crystals", "Frost Preservation Fields", "Temporal Stasis Zones"],
+    "trial_locations": ["The Infinite Library", "Chamber of Eternal Questions", "Glacius's Contemplation Throne"]
+  },
+  "cultural_expressions": {
+    "architecture": "Crystal and ice constructions with perfect preservation techniques",
+    "arts": "Scholarly pursuits, memory preservation, analytical documentation",
+    "governance": "Meritocratic councils based on accumulated knowledge",
+    "values": ["Precision", "Long-term thinking", "Respect for wisdom", "Methodical problem-solving"]
+  },
+  "origin_races": ["Undead Scholars", "Crystal-touched Humans", "Frost Elves"],
+  "primary_class": "Lich",
+  "divine_trial": {
+    "trial_name": "The Trial of Eternal Understanding",
+    "challenge_type": "intellectual_and_preservation",
+    "requirements": "Demonstrate mastery of knowledge preservation and analytical thinking",
+    "trial_stages": ["Memory Palace Construction", "Ancient Riddle Solving", "Temporal Stability Testing"],
+    "reward": "Glacius's Blessing of Perfect Recall and Cold Immunity"
+  },
+  "hexagon_relationships": {
+    "adjacent_synergies": {
+      "with_aurelius": "Scholarly spirituality - wisdom through preserved knowledge",
+      "with_serafina": "Adaptive knowledge - flexible application of preserved understanding"
+    },
+    "opposition": {
+      "pyrion": "Preservation vs Creation - static knowledge vs dynamic vitality"
+    }
+  },
+  "environmental_mechanics": {
+    "cold_immunity_zones": "Natural cold resistance for aligned characters",
+    "preservation_fields": "Areas where time moves slower, preserving items and memories",
+    "crystal_resonance": "Intelligence-based characters gain enhanced mental clarity",
+    "knowledge_access": "Mystical libraries that respond to seeker's intent"
+  },
+  "travel_connections": {
+    "nexus_pathway": "Crystal Bridge to Worldtree Nexus",
+    "adjacent_routes": {
+      "to_aurelius": "Wisdom Path through crystalline caverns",
+      "to_serafina": "Shadow-touched ice bridges with shifting passages"
+    }
+  },
+  "metadata": {
+    "version": "1.0.0",
+    "created": "2025-08-04T00:00:00Z",
+    "canonical": true,
+    "schema_compliance": "individual-island.schema.json",
+    "cross_references": [
+      "starting-islands-core.json",
+      "class-1-lich.json",
+      "glacius-archive-trial-of-preservation.json"
+    ]
+  }
+}
