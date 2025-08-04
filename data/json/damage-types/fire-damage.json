@@ -9,7 +9,7 @@
     "associated_god": "Pyrion, the First Flame",
     "god_tier": "fundamental",
     "primary_attribute": "strength",
-    "defense_type": "armor",
+    "defense_type": "fire_resistance",
     "adjacent_synergies": ["physical", "radiance"],
     "opposite_element": "chaos"
   },

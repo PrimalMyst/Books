@@ -8,9 +8,8 @@
     "theme": "Physical Mastery",
     "associated_god": "Korthak, the Dragon King",
     "god_tier": "primal",
-    "primary_attribute": "dexterity",
-    "secondary_attribute": "strength",
-    "defense_type": "evasion_armor_hybrid",
+    "primary_attribute": "vitality",
+    "defense_type": "armor",
     "adjacent_synergies": ["lightning", "fire"],
     "opposite_element": "cold"
   },

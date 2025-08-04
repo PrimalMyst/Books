@@ -8,9 +8,7 @@
     "theme": "Radiant Order",
     "associated_god": "Aurelius, the Radiant Sphere",
     "god_tier": "primal",
-    "primary_attribute": "strength",
-    "secondary_attribute": "intelligence",
-    "defense_type": "armor_energy_shield_hybrid",
+    "defense_type": "energy_shield",
     "adjacent_synergies": ["fire", "cold"],
     "opposite_element": "lightning"
   },

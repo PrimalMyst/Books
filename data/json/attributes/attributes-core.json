@@ -55,10 +55,10 @@
       "trinity": "transcendent",
       "index_reference": "corner-4-vitality",
       "brief_description": "Life force, health, regeneration, and transformative energy",
-      "eldritch_archetype": "Pyrion, the First Flame - Creative life force and transformative power",
-      "divine_manifestation": "The way Pyrion embodies the creative fire of existence itself, constantly generating new life and transformation",
-      "damage_type_alignment": "fire", 
-      "god_alignment": "pyrion",
+      "eldritch_archetype": "Korthak, the Dragon King - Overwhelming vitality and transformative life force",
+      "divine_manifestation": "The way Korthak embodies the creative fire of existence itself, constantly generating new life and transformation through physical mastery",
+      "damage_type_alignment": "physical",
+      "god_alignment": "korthak",
       "core_philosophy": "Life energy is the fire that burns within"
     },
     {
@@ -67,11 +67,11 @@
       "trinity": "fundamental",
       "index_reference": "corner-5-strength",
       "brief_description": "Physical power, endurance, and forceful presence",
-      "eldritch_archetype": "Korthak, the Dragon King - Overwhelming physical might and unbreakable will",
-      "divine_manifestation": "The way Korthak embodies pure physical dominance, his very presence reshaping reality through force of will",
-      "damage_type_alignment": "physical",
-      "god_alignment": "korthak",
-      "core_philosophy": "Might makes right, power enforces will"
+      "eldritch_archetype": "Pyrion, the First Flame - Raw transformative power and forceful creation",
+      "divine_manifestation": "The way Pyrion embodies pure physical dominance and creative force, reshaping reality through strength of will",
+      "damage_type_alignment": "fire",
+      "god_alignment": "pyrion",
+      "core_philosophy": "Strength enforces creation, power transforms reality"
     },
     {
       "position": 6,

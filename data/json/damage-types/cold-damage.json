@@ -9,7 +9,7 @@
     "associated_god": "Glacius, the Eternal Frost",
     "god_tier": "fundamental",
     "primary_attribute": "intelligence",
-    "defense_type": "energy_shield",
+    "defense_type": "cold_resistance",
     "adjacent_synergies": ["radiance", "chaos"],
     "opposite_element": "physical"
   },

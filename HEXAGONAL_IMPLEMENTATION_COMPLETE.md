@@ -22,8 +22,8 @@ Successfully implemented PrimalMyst's **hexagonal preference** design pattern ac
 #### Defensive Layers Hexagon  
 - **Core File**: `data/json/defensive-layers/defensive-layers-core.json`
 - **Schema**: `data/schemas/defensive-layer.schema.json`
-- **Corner Example**: `data/json/defensive-layers/corners/corner-1-calculated-avoidance.json`
-- **Purpose**: Organizes six fundamental survival strategies aligned with divine and damage type systems
+- **Corner Example**: `data/json/defensive-layers/corners/corner-1-cold-resistance.json`
+- **Purpose**: Organizes six fundamental survival strategies with elemental resistances (fundamental) and active mitigation (primal)
 
 #### Attributes Hexagon
 - **Core File**: `data/json/attributes/attributes-core.json`
@@ -42,12 +42,12 @@ All systems now follow the same **position-based alignment**:
 
 | Position | Damage Type | God | Attribute | Offensive Layer | Defensive Layer |
 |----------|-------------|-----|-----------|-----------------|-----------------|
-| 1 | Cold | Glacius | Intelligence | Precision Strikes | Calculated Avoidance |
-| 2 | Chaos | Serafina | Adaptability | Unpredictable Assault | Adaptive Evasion |  
-| 3 | Lightning | Voltharion | Dexterity | Speed Dominance | Reaction Speed |
-| 4 | Physical | Korthak | Strength | Physical Overwhelm | Physical Resistance |
-| 5 | Fire | Pyrion | Vitality | Burst Devastation | Damage Absorption |
-| 6 | Radiance | Aurelius | Wisdom | Sustained Mastery | Mystical Barriers |
+| 1 | Cold | Glacius | Intelligence | Precision Strikes | Cold Resistance |
+| 2 | Chaos | Serafina | Adaptability | Unpredictable Assault | Evasion |  
+| 3 | Lightning | Voltharion | Dexterity | Speed Dominance | Lightning Resistance |
+| 4 | Physical | Korthak | Strength | Physical Overwhelm | Armor |
+| 5 | Fire | Pyrion | Vitality | Burst Devastation | Fire Resistance |
+| 6 | Radiance | Aurelius | Wisdom | Sustained Mastery | Energy Shield |
 
 ## Key Benefits Achieved
 
@@ -105,11 +105,11 @@ Each hexagon currently has one example corner (position 1). The remaining corner
 - Corner 6: Sustained Mastery (Radiance/Aurelius)
 
 **Defensive Layers**:
-- Corner 2: Adaptive Evasion (Chaos/Serafina)
-- Corner 3: Reaction Speed (Lightning/Voltharion)
-- Corner 4: Physical Resistance (Physical/Korthak)
-- Corner 5: Damage Absorption (Fire/Pyrion)
-- Corner 6: Mystical Barriers (Radiance/Aurelius)
+- Corner 2: Evasion (Chaos/Serafina)
+- Corner 3: Lightning Resistance (Lightning/Voltharion)
+- Corner 4: Armor (Physical/Korthak)
+- Corner 5: Fire Resistance (Fire/Pyrion)
+- Corner 6: Energy Shield (Radiance/Aurelius)
 
 **Attributes**:
 - Corner 2: Adaptability (Chaos/Serafina)

@@ -15,100 +15,114 @@
   "corners": [
     {
       "position": 1,
-      "primary_concept": "Calculated Avoidance",
-      "index_reference": "corner-1-calculated-avoidance",
-      "brief_description": "Intelligent positioning and threat analysis to avoid damage entirely",
-      "eldritch_archetype": "Glacius, the Eternal Frost - Perfect preservation through absolute knowledge",
-      "divine_manifestation": "The way Glacius preserves all things by understanding their exact nature and placing them beyond harm's reach",
+      "primary_concept": "Cold Resistance",
+      "index_reference": "corner-1-cold-resistance",
+      "brief_description": "Pure resistance to cold damage and freezing effects through crystalline understanding",
+      "eldritch_archetype": "Glacius, the Eternal Frost - Perfect preservation through elemental mastery",
+      "divine_manifestation": "The way Glacius's crystalline nature makes him immune to cold by understanding its fundamental essence",
       "damage_type_alignment": "cold",
-      "god_alignment": "glacius", 
-      "core_philosophy": "Perfect knowledge prevents all harm"
+      "god_alignment": "glacius",
+      "god_tier": "fundamental",
+      "core_philosophy": "Understanding cold's nature grants immunity to its effects"
     },
     {
       "position": 2,
-      "primary_concept": "Adaptive Evasion",
-      "index_reference": "corner-2-adaptive-evasion",
-      "brief_description": "Unpredictable movement and shapeshifting to confuse attackers",
-      "eldritch_archetype": "Serafina, the Shadow Empress - Survival through infinite adaptability",
-      "divine_manifestation": "The way Serafina's chaotic nature makes her impossible to pin down or predict, ensuring her eternal survival",
+      "primary_concept": "Evasion",
+      "index_reference": "corner-2-evasion",
+      "brief_description": "Unpredictable movement and positioning to avoid attacks entirely through chaos",
+      "eldritch_archetype": "Serafina, the Shadow Empress - Survival through infinite unpredictability",
+      "divine_manifestation": "The way Serafina's chaotic nature makes her impossible to target or predict",
       "damage_type_alignment": "chaos",
       "god_alignment": "serafina",
+      "god_tier": "primal",
       "core_philosophy": "What cannot be predicted cannot be hit"
     },
     {
       "position": 3,
-      "primary_concept": "Reaction Speed",
-      "index_reference": "corner-3-reaction-speed", 
-      "brief_description": "Lightning-fast reflexes and instant defensive responses",
-      "eldritch_archetype": "Voltharion, the Cosmic Spark - Protection through instantaneous connection and response",
-      "divine_manifestation": "The way Voltharion's lightning-speed allows him to react to threats across the cosmic web before they manifest",
+      "primary_concept": "Lightning Resistance",
+      "index_reference": "corner-3-lightning-resistance",
+      "brief_description": "Pure resistance to electrical damage through cosmic connection mastery",
+      "eldritch_archetype": "Voltharion, the Cosmic Spark - Protection through electrical harmony",
+      "divine_manifestation": "The way Voltharion's electrical essence makes him immune to lightning by being one with it",
       "damage_type_alignment": "lightning",
       "god_alignment": "voltharion",
-      "core_philosophy": "Speed of response negates speed of attack"
+      "god_tier": "fundamental",
+      "core_philosophy": "Mastery of lightning grants immunity to electrical harm"
     },
     {
       "position": 4,
-      "primary_concept": "Physical Resistance",
-      "index_reference": "corner-4-physical-resistance",
-      "brief_description": "Thick armor and natural toughness to absorb physical damage", 
-      "eldritch_archetype": "Korthak, the Dragon King - Survival through overwhelming physical dominance",
-      "divine_manifestation": "The way Korthak's incredible physical might makes him nearly invulnerable to direct force",
+      "primary_concept": "Armor",
+      "index_reference": "corner-4-armor",
+      "brief_description": "Physical protection through disciplined defense and martial toughness",
+      "eldritch_archetype": "Korthak, the Dragon King - Protection through honorable might and discipline",
+      "divine_manifestation": "The way Korthak's incredible physical prowess and disciplined training create impenetrable defense",
       "damage_type_alignment": "physical",
       "god_alignment": "korthak",
-      "core_philosophy": "Unbreakable strength endures all force"
+      "god_tier": "primal",
+      "core_philosophy": "Disciplined strength creates unbreakable defense"
     },
     {
       "position": 5,
-      "primary_concept": "Damage Absorption",
-      "index_reference": "corner-5-damage-absorption",
-      "brief_description": "Converting incoming damage into useful energy or healing",
-      "eldritch_archetype": "Pyrion, the First Flame - Transformation of all harm into greater power",
-      "divine_manifestation": "The way Pyrion transforms any attack into fuel for his creative fires, growing stronger from conflict",
+      "primary_concept": "Fire Resistance",
+      "index_reference": "corner-5-fire-resistance",
+      "brief_description": "Pure resistance to fire damage through transformative flame mastery",
+      "eldritch_archetype": "Pyrion, the First Flame - Protection through fire's transformative essence",
+      "divine_manifestation": "The way Pyrion's fiery nature makes him immune to flame by embodying its creative power",
       "damage_type_alignment": "fire",
       "god_alignment": "pyrion",
-      "core_philosophy": "Transform harm into strength"
+      "god_tier": "fundamental",
+      "core_philosophy": "Embodying fire's essence grants immunity to its destruction"
     },
     {
       "position": 6,
-      "primary_concept": "Mystical Barriers",
-      "index_reference": "corner-6-mystical-barriers",
-      "brief_description": "Magical shields and protective enchantments that repel attacks",
-      "eldritch_archetype": "Aurelius, the Radiant Sphere - Divine protection that transcends physical limitations",
-      "divine_manifestation": "The way Aurelius's radiant aura creates perfect barriers that protect both himself and his chosen followers",
-      "damage_type_alignment": "radiance", 
+      "primary_concept": "Energy Shield",
+      "index_reference": "corner-6-energy-shield",
+      "brief_description": "Mystical barriers and divine protection that absorb damage before it reaches the body",
+      "eldritch_archetype": "Aurelius, the Radiant Sphere - Protection through divine radiance and truth",
+      "divine_manifestation": "The way Aurelius's radiant aura creates perfect barriers of divine light that shield all beneath his protection",
+      "damage_type_alignment": "radiance",
       "god_alignment": "aurelius",
-      "core_philosophy": "Divine protection transcends physical limitations"
+      "god_tier": "primal",
+      "core_philosophy": "Divine truth creates impenetrable mystical protection"
     }
   ],
   "hexagon_dynamics": {
-    "adjacency_bonuses": "Adjacent defensive layers create comprehensive protection systems - Avoidance+Evasion provides unpredictable positioning, Speed+Resistance enables mobile tanking, Absorption+Barriers creates regenerative shields.",
-    "opposition_tensions": "Opposite layers represent fundamentally different survival philosophies - Avoidance vs Resistance (prevention vs endurance), Evasion vs Absorption (deflection vs conversion), Speed vs Barriers (reaction vs preparation).", 
-    "full_cycle_effects": "Masters who understand all six defensive approaches gain 'Survival Transcendence' - the ability to instantly select the perfect defensive response for any incoming threat type."
+    "adjacency_bonuses": "Adjacent defensive layers create comprehensive protection systems - Cold Resistance+Evasion provides frost-enhanced mobility, Lightning Resistance+Armor enables electrified defense, Fire Resistance+Energy Shield creates flame-powered barriers.",
+    "opposition_tensions": "Opposite layers represent different protection philosophies - Cold Resistance vs Armor (elemental immunity vs physical mitigation), Evasion vs Fire Resistance (avoidance vs absorption), Lightning Resistance vs Energy Shield (elemental mastery vs mystical barriers).",
+    "full_cycle_effects": "Masters who understand all six defensive approaches gain 'Divine Protection Transcendence' - the ability to seamlessly combine elemental resistances with advanced mitigation techniques for ultimate survival."
   },
   "layer_characteristics": {
-    "prevention_vs_mitigation": {
-      "prevention_focused": ["calculated-avoidance", "adaptive-evasion", "reaction-speed"],
-      "mitigation_focused": ["physical-resistance", "damage-absorption", "mystical-barriers"]
+    "fundamental_vs_primal": {
+      "fundamental_defenses": ["cold-resistance", "lightning-resistance", "fire-resistance"],
+      "primal_defenses": ["evasion", "armor", "energy-shield"]
     },
-    "resource_requirements": {
-      "high_skill": ["calculated-avoidance", "reaction-speed", "mystical-barriers"],
-      "high_stamina": ["adaptive-evasion", "physical-resistance", "damage-absorption"]
+    "resistance_vs_mitigation": {
+      "pure_resistance": ["cold-resistance", "lightning-resistance", "fire-resistance"],
+      "active_mitigation": ["evasion", "armor", "energy-shield"]
     },
-    "threat_specialization": {
-      "physical_threats": ["physical-resistance", "reaction-speed"],
-      "magical_threats": ["mystical-barriers", "adaptive-evasion"], 
-      "universal_threats": ["calculated-avoidance", "damage-absorption"]
+    "attribute_scaling": {
+      "intelligence_based": ["cold-resistance", "energy-shield"],
+      "dexterity_based": ["evasion", "lightning-resistance"],
+      "strength_based": ["armor", "fire-resistance"]
     }
   },
   "protection_mechanics": {
     "damage_flow": {
-      "stage_1_prevention": ["calculated-avoidance", "adaptive-evasion"],
-      "stage_2_deflection": ["reaction-speed", "mystical-barriers"],
-      "stage_3_absorption": ["physical-resistance", "damage-absorption"]
+      "stage_1_elemental_resistance": ["cold-resistance", "lightning-resistance", "fire-resistance"],
+      "stage_2_active_mitigation": ["evasion", "armor", "energy-shield"],
+      "stage_3_overflow_absorption": "When resistances are overcome, mitigation layers provide backup protection"
     },
-    "failure_cascades": {
-      "description": "When one defensive layer fails, adjacent layers provide backup protection",
-      "synergy_chains": "Multiple defensive approaches create redundant protection systems"
+    "fundamental_mastery": {
+      "description": "Fundamental Gods provide pure elemental resistance - mastering their essence grants immunity",
+      "cold_mastery": "Understanding Glacius's crystalline nature provides perfect cold immunity",
+      "lightning_mastery": "Harmonizing with Voltharion's electrical essence negates lightning damage",
+      "fire_mastery": "Embodying Pyrion's transformative flame grants fire immunity"
+    },
+    "primal_techniques": {
+      "description": "Primal Gods teach active defense techniques that require skill and timing",
+      "chaos_evasion": "Serafina's unpredictable movement patterns confuse all attackers",
+      "disciplined_armor": "Korthak's martial training maximizes physical protection efficiency",
+      "divine_barriers": "Aurelius's radiant truth creates impenetrable mystical shields"
     }
   },
   "cross_hexagon_integration": {
@@ -120,33 +134,33 @@
   "corner_files": [
     {
       "position": 1,
-      "filename": "corner-1-calculated-avoidance.json",
-      "file_path": "corners/corner-1-calculated-avoidance.json"
+      "filename": "corner-1-cold-resistance.json",
+      "file_path": "corners/corner-1-cold-resistance.json"
     },
     {
       "position": 2,
-      "filename": "corner-2-adaptive-evasion.json", 
-      "file_path": "corners/corner-2-adaptive-evasion.json"
+      "filename": "corner-2-evasion.json",
+      "file_path": "corners/corner-2-evasion.json"
     },
     {
       "position": 3,
-      "filename": "corner-3-reaction-speed.json",
-      "file_path": "corners/corner-3-reaction-speed.json"
+      "filename": "corner-3-lightning-resistance.json",
+      "file_path": "corners/corner-3-lightning-resistance.json"
     },
     {
       "position": 4,
-      "filename": "corner-4-physical-resistance.json",
-      "file_path": "corners/corner-4-physical-resistance.json"
+      "filename": "corner-4-armor.json",
+      "file_path": "corners/corner-4-armor.json"
     },
     {
       "position": 5,
-      "filename": "corner-5-damage-absorption.json",
-      "file_path": "corners/corner-5-damage-absorption.json"
+      "filename": "corner-5-fire-resistance.json",
+      "file_path": "corners/corner-5-fire-resistance.json"
     },
     {
       "position": 6,
-      "filename": "corner-6-mystical-barriers.json",
-      "file_path": "corners/corner-6-mystical-barriers.json"
+      "filename": "corner-6-energy-shield.json",
+      "file_path": "corners/corner-6-energy-shield.json"
     }
   ],
   "lore_integration": {
@@ -156,8 +170,8 @@
       "universal_implementation": "All complex systems in PrimalMyst naturally organize around hexagonal patterns because they mirror the cosmic structure of reality itself",
       "yggdrasil_connection": "Yggdrasil's six great branches create the foundational hexagonal structure that all other hexagons implement in their specific domains"
     },
-    "mythological_basis": "The six defensive approaches reflect the survival wisdom of the Eldritch Gods, each representing a fundamental method of enduring the dangers of existence. Mortals who understand this pattern tap into the same protective principles that allow gods to survive cosmic conflicts.",
-    "cosmic_significance": "Understanding all six defensive layers allows guardians to channel the complete spectrum of divine protection wisdom, from Glacius's perfect foresight to Aurelius's radiant shields. This understanding reveals the underlying hexagonal nature of reality itself.",
+    "mythological_basis": "The six defensive approaches reflect the protection wisdom of the Eldritch Gods, with Fundamental Gods providing pure elemental mastery and immunity, while Primal Gods teach active defensive techniques that require skill and discipline. This dual approach mirrors the cosmic structure where ancient powers provide foundation and active forces provide implementation.",
+    "cosmic_significance": "Understanding all six defensive layers allows guardians to channel both fundamental elemental immunity and primal defensive techniques, combining Glacius's cold mastery with Serafina's evasion, Voltharion's lightning harmony with Korthak's armor discipline, and Pyrion's fire embodiment with Aurelius's divine barriers.",
     "divine_connections": "Each defensive layer draws on a specific god's approach to self-preservation, allowing mortals to embody divine survival principles in their protection strategies. The gods serve as living embodiments of each corner's ideal expression.",
     "pattern_recognition": {
       "hexagons_are_bestagons": "The hexagonal pattern appears throughout PrimalMyst because it represents perfect balance and maximum efficiency",

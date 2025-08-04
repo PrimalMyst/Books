@@ -1,0 +1,58 @@
+{
+  "$schema": "../../schemas/defensive-layer.schema.json",
+  "name": "Lightning Resistance",
+  "description": "Pure elemental immunity to electrical damage through divine attunement with lightning forces.",
+  "position": 3,
+  "type": "defensive-layer",
+  "tier": "fundamental",
+  "category": "elemental-resistance",
+  "status": "active",
+  "alignment": {
+    "divine": "Voltharion",
+    "element": "Lightning",
+    "attribute": "Dexterity"
+  },
+  "mechanics": {
+    "core_function": "Provides immunity to lightning damage through elemental absorption and redirection",
+    "scaling": {
+      "primary": "dexterity",
+      "secondary": "intelligence",
+      "tertiary": "divine_attunement"
+    },
+    "synergies": [
+      {
+        "adjacent_corner": "evasion",
+        "interaction": "Lightning-enhanced speed for superior evasive maneuvers"
+      },
+      {
+        "adjacent_corner": "armor",
+        "interaction": "Electrical conduction channels through armor for enhanced protection"
+      }
+    ],
+    "effectiveness": {
+      "lightning_damage": 100,
+      "electrical_effects": 100,
+      "chain_lightning": 100,
+      "storm_effects": 90
+    }
+  },
+  "implementation": {
+    "character_stat": "lightning_resistance",
+    "formulas": {
+      "resistance_percentage": "base_resistance + (dexterity * 2) + (divine_attunement * 3)",
+      "absorption_capacity": "(lightning_resistance / 100) * max_health",
+      "conductivity_bonus": "1 + (lightning_resistance / 200)"
+    },
+    "passive_effects": [
+      "lightning_immunity",
+      "electrical_conduction_mastery", 
+      "storm_affinity"
+    ]
+  },
+  "hexagon": {
+    "position": 3,
+    "adjacent": [2, 4],
+    "opposite": 6,
+    "thematic_role": "Pure lightning immunity through fundamental elemental mastery"
+  }
+}
