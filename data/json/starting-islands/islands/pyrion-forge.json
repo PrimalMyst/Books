@@ -1,0 +1,66 @@
+{
+  "island_id": "pyrion-forge",
+  "position": 4,
+  "island_name": "Pyrion's Forge",
+  "cultural_name": "The Eternal Hearth",
+  "divine_anchor": "Pyrion, the First Flame",
+  "yggdrasil_branch": "Eastern Crown Branch",
+  "environmental_theme": "volcanic_forges_life_creation",
+  "primary_element": "fire",
+  "trial_focus": "vitality_and_creation",
+  "cultural_philosophy": "Life energy is the fire within, creation through transformation, vitality conquers all",
+  "geography": {
+    "climate": "Warm volcanic environment with healing hot springs",
+    "dominant_features": ["Great Life Forges", "Healing Springs", "Vitality Gardens", "Regeneration Chambers"],
+    "mystical_elements": ["Life Force Wellsprings", "Regenerative Pools", "Creative Fire Hearths"],
+    "trial_locations": ["The Heart of Creation", "Pyrion's Eternal Flame", "Chamber of Infinite Renewal"]
+  },
+  "cultural_expressions": {
+    "architecture": "Living structures that grow and regenerate naturally",
+    "arts": "Healing, life creation, regenerative techniques, vitality enhancement",
+    "governance": "Community-based councils focused on collective wellbeing",
+    "values": ["Life preservation", "Community support", "Regenerative power", "Creative expression"]
+  },
+  "origin_races": ["Phoenix-touched Humans", "Fire Spirits", "Regenerative Halflings"],
+  "primary_class": "Warrior",
+  "divine_trial": {
+    "trial_name": "The Trial of Eternal Vitality",
+    "challenge_type": "endurance_and_regeneration",
+    "requirements": "Demonstrate mastery of life force and regenerative power",
+    "trial_stages": ["Vitality Endurance Test", "Healing Mastery Challenge", "Life Creation Trial"],
+    "reward": "Pyrion's Blessing of Eternal Vitality and Fire Immunity"
+  },
+  "hexagon_relationships": {
+    "adjacent_synergies": {
+      "with_voltharion": "Vital connections - life-energy networks and swift creation",
+      "with_korthak": "Vital leaders - life-preserving strength and protective leadership"
+    },
+    "opposition": {
+      "glacius": "Creation vs Preservation - dynamic vitality vs static knowledge"
+    }
+  },
+  "environmental_mechanics": {
+    "fire_immunity_zones": "Natural fire resistance for aligned characters",
+    "regeneration_fields": "Areas where healing and life creation are enhanced",
+    "vitality_resonance": "Wisdom-based characters gain enhanced life force manipulation",
+    "creative_inspiration": "Enhanced crafting and creation abilities"
+  },
+  "travel_connections": {
+    "nexus_pathway": "Living Bridge to Worldtree Nexus",
+    "adjacent_routes": {
+      "to_voltharion": "Storm-charged bridges over volcanic vents",
+      "to_korthak": "Honor roads through volcanic training grounds"
+    }
+  },
+  "metadata": {
+    "version": "1.0.0",
+    "created": "2025-08-04T00:00:00Z",
+    "canonical": true,
+    "schema_compliance": "individual-island.schema.json",
+    "cross_references": [
+      "starting-islands-core.json",
+      "class-4-warrior.json",
+      "pyrion-forge-trial-of-creation.json"
+    ]
+  }
+}
