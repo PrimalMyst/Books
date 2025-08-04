@@ -8,9 +8,7 @@
     "theme": "Creative Chaos",
     "associated_god": "Serafina, the Shadow Empress",
     "god_tier": "primal",
-    "primary_attribute": "intelligence",
-    "secondary_attribute": "dexterity",
-    "defense_type": "energy_shield_evasion_hybrid",
+    "defense_type": "evasion",
     "adjacent_synergies": ["cold", "lightning"],
     "opposite_element": "fire"
   },

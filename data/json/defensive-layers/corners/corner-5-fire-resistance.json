@@ -1,0 +1,58 @@
+{
+  "$schema": "../../schemas/defensive-layer.schema.json",
+  "name": "Fire Resistance",
+  "description": "Pure elemental immunity to thermal damage through divine attunement with flame forces.",
+  "position": 5,
+  "type": "defensive-layer",
+  "tier": "fundamental",
+  "category": "elemental-resistance",
+  "status": "active",
+  "alignment": {
+    "divine": "Pyrion",
+    "element": "Fire",
+    "attribute": "Strength"
+  },
+  "mechanics": {
+    "core_function": "Provides immunity to fire damage through elemental absorption and thermal regulation",
+    "scaling": {
+      "primary": "strength",
+      "secondary": "vitality",
+      "tertiary": "divine_attunement"
+    },
+    "synergies": [
+      {
+        "adjacent_corner": "armor",
+        "interaction": "Heat-forged armor provides enhanced physical protection"
+      },
+      {
+        "adjacent_corner": "energy-shield",
+        "interaction": "Thermal energy feeds protective barrier generation"
+      }
+    ],
+    "effectiveness": {
+      "fire_damage": 100,
+      "thermal_effects": 100,
+      "burning_conditions": 100,
+      "heat_aura": 90
+    }
+  },
+  "implementation": {
+    "character_stat": "fire_resistance",
+    "formulas": {
+      "resistance_percentage": "base_resistance + (strength * 2) + (divine_attunement * 3)",
+      "absorption_capacity": "(fire_resistance / 100) * max_health",
+      "thermal_regulation": "1 + (fire_resistance / 200)"
+    },
+    "passive_effects": [
+      "fire_immunity",
+      "thermal_mastery",
+      "flame_affinity"
+    ]
+  },
+  "hexagon": {
+    "position": 5,
+    "adjacent": [4, 6],
+    "opposite": 2,
+    "thematic_role": "Pure fire immunity through fundamental elemental mastery"
+  }
+}

@@ -22,14 +22,11 @@
       "mechanical_layers": {
         "attribute_layer": {
           "primary_attribute": "intelligence",
-          "secondary_attributes": ["dexterity", "strength"],
           "pattern": "pure_fundamental",
           "per_level_gains": {
-            "intelligence": 3,
-            "dexterity": 1,
-            "strength": 1
+            "intelligence": 5
           },
-          "description": "Pure Fundamental Cold: +3 Intelligence, +1 Dexterity, +1 Strength per level"
+          "description": "Pure Fundamental Cold: +5 Intelligence per level"
         },
         "defensive_layer": {
           "resistance_granted": "cold_resistance",
@@ -69,15 +66,12 @@
       },
       "mechanical_layers": {
         "attribute_layer": {
-          "primary_attributes": ["intelligence", "dexterity"],
-          "secondary_attribute": "strength",
-          "pattern": "hybrid_primal",
+          "primary_attribute": "adaptability",
+          "pattern": "pure_primal",
           "per_level_gains": {
-            "intelligence": 2,
-            "dexterity": 2,
-            "strength": 1
+            "adaptability": 5
           },
-          "description": "Hybrid Primal Chaos: +2 Intelligence, +2 Dexterity, +1 Strength per level"
+          "description": "Pure Primal Chaos: +5 Adaptability per level"
         },
         "defensive_layer": {
           "resistance_granted": "chaos_resistance",
@@ -118,14 +112,11 @@
       "mechanical_layers": {
         "attribute_layer": {
           "primary_attribute": "dexterity",
-          "secondary_attributes": ["intelligence", "strength"],
           "pattern": "pure_fundamental",
           "per_level_gains": {
-            "dexterity": 3,
-            "intelligence": 1,
-            "strength": 1
+            "dexterity": 5
           },
-          "description": "Pure Fundamental Lightning: +3 Dexterity, +1 Intelligence, +1 Strength per level"
+          "description": "Pure Fundamental Lightning: +5 Dexterity per level"
         },
         "defensive_layer": {
           "resistance_granted": "lightning_resistance",
@@ -165,15 +156,12 @@
       },
       "mechanical_layers": {
         "attribute_layer": {
-          "primary_attributes": ["dexterity", "strength"],
-          "secondary_attribute": "intelligence",
-          "pattern": "hybrid_primal",
+          "primary_attribute": "vitality",
+          "pattern": "pure_primal",
           "per_level_gains": {
-            "dexterity": 2,
-            "strength": 2,
-            "intelligence": 1
+            "vitality": 5
           },
-          "description": "Hybrid Primal Physical: +2 Dexterity, +2 Strength, +1 Intelligence per level"
+          "description": "Pure Primal Physical: +5 Vitality per level"
         },
         "defensive_layer": {
           "resistance_granted": "physical_resistance",
@@ -191,7 +179,7 @@
         "opposite_corner": 1,
         "synergies": [
           "Dex/Str builds for mobile physical combat",
-          "Evasion/Armor hybrid for balanced physical defense"
+          "Armor mastery for enhanced physical defense"
         ],
         "conflicts": [
           "Intelligence-based magic opposes direct physical approach",
@@ -214,14 +202,11 @@
       "mechanical_layers": {
         "attribute_layer": {
           "primary_attribute": "strength",
-          "secondary_attributes": ["intelligence", "dexterity"],
           "pattern": "pure_fundamental",
           "per_level_gains": {
-            "strength": 3,
-            "intelligence": 1,
-            "dexterity": 1
+            "strength": 5
           },
-          "description": "Pure Fundamental Fire: +3 Strength, +1 Intelligence, +1 Dexterity per level"
+          "description": "Pure Fundamental Fire: +5 Strength per level"
         },
         "defensive_layer": {
           "resistance_granted": "fire_resistance",
@@ -243,7 +228,7 @@
         ],
         "conflicts": [
           "Chaotic magic opposes fire's transformative order",
-          "Evasion strategies conflict with fire's direct approach"
+          "Evasive techniques conflict with fire's direct approach"
         ]
       }
     },
@@ -261,15 +246,12 @@
       },
       "mechanical_layers": {
         "attribute_layer": {
-          "primary_attributes": ["strength", "intelligence"],
-          "secondary_attribute": "dexterity",
-          "pattern": "hybrid_primal",
+          "primary_attribute": "wisdom",
+          "pattern": "pure_primal",
           "per_level_gains": {
-            "strength": 2,
-            "intelligence": 2,
-            "dexterity": 1
+            "wisdom": 5
           },
-          "description": "Hybrid Primal Radiance: +2 Strength, +2 Intelligence, +1 Dexterity per level"
+          "description": "Pure Primal Radiance: +5 Wisdom per level"
         },
         "defensive_layer": {
           "resistance_granted": "radiance_resistance",
@@ -291,7 +273,7 @@
         ],
         "conflicts": [
           "Pure dexterity builds oppose radiance's protective stance",
-          "Evasion strategies conflict with radiant armor's direct protection"
+          "Evasive techniques conflict with energy shield's direct protection"
         ]
       }
     }

@@ -8,25 +8,25 @@ The PrimalMyst universe is organized around a fundamental hexagonal structure th
                     (1) COLD
                    Glacius (F)
                 Intelligence
-               Energy Shield (ES)
+              Cold Resistance
                       /\
                      /  \
          (6) RADIANCE    (2) CHAOS
          Aurelius (P)    Serafina (P)
           Str + Int      Int + Dex
-        Armor + ES       ES + Evasion
+        Energy Shield    Evasion
                    \    /
                     \  /
          (5) FIRE ---- ---- (3) LIGHTNING
          Pyrion (F)         Voltharion (F)
          Strength           Dexterity
-         Armor              Evasion
+        Fire Resistance    Lightning Resistance
                     \  /
                      \/
                 (4) PHYSICAL
                 Korthak (P)
                 Dex + Str
-              Evasion + Armor
+                Armor
 ```
 
 **Legend:**
@@ -41,7 +41,7 @@ The PrimalMyst universe is organized around a fundamental hexagonal structure th
 - **Realm:** Glacius' Archive - The Frost Realm
 - **Branch:** Western Crown Branch
 - **Attributes:** Intelligence (pure)
-- **Defense:** Energy Shield (pure)
+- **Defense:** Cold Resistance (pure)
 - **Theme:** Eternal Preservation, Memory, Crystalline Perfection
 
 ### Corner 2: CHAOS (Top-Right)
@@ -50,7 +50,7 @@ The PrimalMyst universe is organized around a fundamental hexagonal structure th
 - **Realm:** Serafina's Court - The Shadow Realm
 - **Branch:** Southern Middle Branch
 - **Attributes:** Intelligence + Dexterity
-- **Defense:** Energy Shield + Evasion
+- **Defense:** Evasion (pure)
 - **Theme:** Creative Chaos, Beneficial Change, Shadow Arts
 
 ### Corner 3: LIGHTNING (Bottom-Right)
@@ -59,7 +59,7 @@ The PrimalMyst universe is organized around a fundamental hexagonal structure th
 - **Realm:** Voltharion's Web - The Lightning Realm
 - **Branch:** Northern Crown Branch
 - **Attributes:** Dexterity (pure)
-- **Defense:** Evasion (pure)
+- **Defense:** Lightning Resistance (pure)
 - **Theme:** Divine Connection, Speed, Communication
 
 ### Corner 4: PHYSICAL (Bottom)
@@ -68,7 +68,7 @@ The PrimalMyst universe is organized around a fundamental hexagonal structure th
 - **Realm:** Korthak's Arena - The Might Realm
 - **Branch:** Western Middle Branch
 - **Attributes:** Dexterity + Strength
-- **Defense:** Evasion + Armor
+- **Defense:** Armor (pure)
 - **Theme:** Physical Mastery, Honor, Direct Combat
 
 ### Corner 5: FIRE (Bottom-Left)
@@ -77,7 +77,7 @@ The PrimalMyst universe is organized around a fundamental hexagonal structure th
 - **Realm:** Pyrion's Forge - The Flame Realm
 - **Branch:** Eastern Crown Branch
 - **Attributes:** Strength (pure)
-- **Defense:** Armor (pure)
+- **Defense:** Fire Resistance (pure)
 - **Theme:** Primal Fire, Creation, Transformation
 
 ### Corner 6: RADIANCE (Top-Left)
@@ -86,7 +86,7 @@ The PrimalMyst universe is organized around a fundamental hexagonal structure th
 - **Realm:** Aurelius's Sanctuary - The Radiance Realm
 - **Branch:** Eastern Middle Branch
 - **Attributes:** Strength + Intelligence
-- **Defense:** Armor + Energy Shield
+- **Defense:** Energy Shield (pure)
 - **Theme:** Radiant Order, Protection, Truth
 
 ## Divine Hierarchy Pattern
@@ -107,9 +107,9 @@ This creates natural build progression paths and hybrid opportunities.
 
 ## Defense Synergies
 
-Defense types flow to support different playstyles:
-- **Pure Defenses:** Energy Shield (1), Evasion (3), Armor (5)
-- **Hybrid Defenses:** ES+Evasion (2), Evasion+Armor (4), Armor+ES (6)
+Defense types are organized by divine tier and nature:
+- **Fundamental Defenses (Pure Resistance):** Cold Resistance (1), Lightning Resistance (3), Fire Resistance (5)
+- **Primal Defenses (Active Mitigation):** Evasion (2), Armor (4), Energy Shield (6)
 
 ## Yggdrasil Branch Structure
 

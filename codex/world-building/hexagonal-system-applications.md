@@ -9,22 +9,22 @@ The core hexagonal structure provides a universal framework for organizing Prima
 ```
                     (1) COLD
                    Intelligence
-                 Energy Shield
+                 Cold Resistance
                       /\
                      /  \
          (6) RADIANCE    (2) CHAOS
           Str + Int      Int + Dex
-        Armor + ES       ES + Evasion
+        Energy Shield     Evasion
                    \    /
                     \  /
          (5) FIRE ---- ---- (3) LIGHTNING
          Strength           Dexterity  
-         Armor              Evasion
+         Fire Resist    Lightning Resist
                     \  /
                      \/
                 (4) PHYSICAL
                 Dex + Str
-              Evasion + Armor
+                Armor
 ```
 
 ## System Applications
@@ -33,12 +33,12 @@ The core hexagonal structure provides a universal framework for organizing Prima
 
 **Structure:** Each corner anchors a major branch of the passive skill tree
 
-- **Position 1 (Cold/Int/ES):** Spell power, mana, energy shield, preservation magic
-- **Position 2 (Chaos/Int+Dex/ES+Eva):** Chaos magic, hybrid casting, transformation
-- **Position 3 (Lightning/Dex/Eva):** Speed, accuracy, chain effects, mobility
-- **Position 4 (Physical/Dex+Str/Eva+Arm):** Weapon mastery, martial arts, hybrid combat
-- **Position 5 (Fire/Str/Arm):** Raw damage, armor mastery, physical enhancement
-- **Position 6 (Radiance/Str+Int/Arm+ES):** Protection, healing, paladin abilities
+- **Position 1 (Cold/Int/CR):** Spell power, mana, cold immunity, preservation magic
+- **Position 2 (Chaos/Int+Dex/Eva):** Chaos magic, hybrid casting, evasive transformation
+- **Position 3 (Lightning/Dex/LR):** Speed, accuracy, lightning immunity, chain effects, mobility
+- **Position 4 (Physical/Dex+Str/Arm):** Weapon mastery, martial arts, physical mitigation
+- **Position 5 (Fire/Str/FR):** Raw damage, fire immunity, physical enhancement
+- **Position 6 (Radiance/Str+Int/ES):** Protection, healing, energy shield mastery
 
 **Connections:** 
 - Adjacent corners have direct connection paths (easier to hybrid)

@@ -1,0 +1,58 @@
+{
+  "$schema": "../../schemas/defensive-layer.schema.json",
+  "name": "Armor",
+  "description": "Physical mitigation through reinforced protection that absorbs and distributes impact energy.",
+  "position": 4,
+  "type": "defensive-layer",
+  "tier": "primal",
+  "category": "active-mitigation",
+  "status": "active",
+  "alignment": {
+    "divine": "Korthak",
+    "element": "Physical",
+    "attribute": "Vitality"
+  },
+  "mechanics": {
+    "core_function": "Reduces physical damage through damage absorption and impact distribution",
+    "scaling": {
+      "primary": "vitality",
+      "secondary": "dexterity",
+      "tertiary": "strength"
+    },
+    "synergies": [
+      {
+        "adjacent_corner": "lightning-resistance",
+        "interaction": "Conductive armor channels electrical damage safely"
+      },
+      {
+        "adjacent_corner": "fire-resistance",
+        "interaction": "Heat-resistant materials enhance fire protection"
+      }
+    ],
+    "effectiveness": {
+      "physical_damage": 100,
+      "blunt_trauma": 95,
+      "piercing_attacks": 80,
+      "elemental_damage": 30
+    }
+  },
+  "implementation": {
+    "character_stat": "armor_rating",
+    "formulas": {
+      "damage_reduction": "(armor_rating) / (armor_rating + monster_penetration + 100)",
+      "impact_absorption": "base_absorption + (vitality * 3) + (strength * 2)",
+      "durability_factor": "1 + (armor_rating / 150)"
+    },
+    "passive_effects": [
+      "physical_damage_reduction",
+      "impact_resistance",
+      "equipment_durability_bonus"
+    ]
+  },
+  "hexagon": {
+    "position": 4,
+    "adjacent": [3, 5],
+    "opposite": 1,
+    "thematic_role": "Physical mitigation through strength-based protection"
+  }
+}

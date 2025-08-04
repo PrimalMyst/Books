@@ -1,0 +1,58 @@
+{
+  "$schema": "../../schemas/defensive-layer.schema.json",
+  "name": "Energy Shield",
+  "description": "Active barrier generation using mystical energy to absorb damage before it reaches the character.",
+  "position": 6,
+  "type": "defensive-layer",
+  "tier": "primal",
+  "category": "active-mitigation",
+  "status": "active",
+  "alignment": {
+    "divine": "Aurelius",
+    "element": "Radiance",
+    "attribute": "Wisdom"
+  },
+  "mechanics": {
+    "core_function": "Creates protective energy barrier that absorbs damage through mystical generation",
+    "scaling": {
+      "primary": "wisdom",
+      "secondary": "intelligence",
+      "tertiary": "vitality"
+    },
+    "synergies": [
+      {
+        "adjacent_corner": "fire-resistance",
+        "interaction": "Thermal energy conversion enhances shield regeneration"
+      },
+      {
+        "adjacent_corner": "cold-resistance",
+        "interaction": "Crystalline stability improves shield structural integrity"
+      }
+    ],
+    "effectiveness": {
+      "radiance_damage": 100,
+      "magical_effects": 85,
+      "energy_attacks": 90,
+      "physical_damage": 60
+    }
+  },
+  "implementation": {
+    "character_stat": "energy_shield",
+    "formulas": {
+      "shield_capacity": "base_shield + (wisdom * 5) + (intelligence * 3)",
+      "regeneration_rate": "(wisdom + intelligence) / 4",
+      "recharge_delay": "base_delay - (wisdom / 20)"
+    },
+    "passive_effects": [
+      "mystical_barrier_generation",
+      "energy_absorption",
+      "magical_damage_mitigation"
+    ]
+  },
+  "hexagon": {
+    "position": 6,
+    "adjacent": [5, 1],
+    "opposite": 3,
+    "thematic_role": "Active mystical protection through wisdom-based energy manipulation"
+  }
+}
