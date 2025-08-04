@@ -26,13 +26,24 @@
   },
   "attribute_inheritance": {
     "primary_attribute": "dexterity",
-    "growth_pattern": "Exceptional dexterity growth, strong intelligence development, moderate adaptability",
+    "trinity_alignment": "fundamental",
+    "hexagon_position": 3,
+    "per_level_gains": {
+      "dexterity": "+6 per level (aligned attribute)",
+      "adaptability": "+3 per level (adjacent - position 2)",
+      "vitality": "+3 per level (adjacent - position 4)", 
+      "intelligence": "+2 per level (next adjacent - position 1)",
+      "strength": "+2 per level (next adjacent - position 5)",
+      "wisdom": "+1 per level (opposing - position 6)"
+    },
+    "total_per_level": "15 attribute points distributed according to hexagonal pattern",
     "starting_bonuses": {
       "dexterity": "+2",
-      "intelligence": "+1",
-      "adaptability": "+1"
+      "adaptability": "+1",
+      "strength": "+1"
     },
-    "cultural_development": "Lightning Web education emphasizes speed training, precision exercises, and rapid response protocols"
+    "cultural_development": "Lightning Web education emphasizes speed training, precision exercises, and rapid response protocols",
+    "growth_philosophy": "Exceptional dexterity growth with strong support in adaptability and strength, reflecting the mastery of speed and physical precision"
   },
   "class_characteristics": {
     "core_philosophy": "Strike fast, strike true, never be where the enemy expects",

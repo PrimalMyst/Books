@@ -26,13 +26,24 @@
   },
   "attribute_inheritance": {
     "primary_attribute": "intelligence",
-    "growth_pattern": "Exceptional intelligence growth, strong wisdom development, moderate adaptability",
+    "trinity_alignment": "fundamental",
+    "hexagon_position": 1,
+    "per_level_gains": {
+      "intelligence": "+6 per level (aligned attribute)",
+      "adaptability": "+3 per level (adjacent - position 2)",
+      "wisdom": "+3 per level (adjacent - position 6)", 
+      "dexterity": "+2 per level (next adjacent - position 3)",
+      "strength": "+2 per level (next adjacent - position 5)",
+      "vitality": "+1 per level (opposing - position 4)"
+    },
+    "total_per_level": "15 attribute points distributed according to hexagonal pattern",
     "starting_bonuses": {
       "intelligence": "+2",
       "wisdom": "+1",
       "adaptability": "+1"
     },
-    "cultural_development": "Archive Realm education emphasizes analytical thinking, research methodology, and preservation techniques"
+    "cultural_development": "Archive Realm education emphasizes analytical thinking, research methodology, and preservation techniques",
+    "growth_philosophy": "Exceptional intelligence growth with strong support in wisdom and adaptability, reflecting the scholarly pursuit of knowledge"
   },
   "class_characteristics": {
     "core_philosophy": "Death is merely another form of preservation",
@@ -106,8 +117,14 @@
     }
   },
   "hexagon_integration": {
+    "trinity_alignment": "fundamental",
+    "trinity_benefits": "Enhanced material world interaction, linear attribute scaling, gear/skill requirement advantages",
     "offensive_layer_preference": "Precision Strikes - Calculated application of force with perfect timing",
     "defensive_layer_preference": "Calculated Avoidance - Using knowledge to prevent problems before they occur",
+    "level_10_example": {
+      "intelligence": 70, "adaptability": 40, "wisdom": 40, "dexterity": 30, "vitality": 30, "strength": 20,
+      "description": "A level 10 Lich with exceptional analytical capabilities and well-rounded support attributes"
+    },
     "adjacent_class_relationships": {
       "priestess": "Shared wisdom focus creates natural philosophical exchanges",
       "succubus": "Complementary intelligence/adaptability enables versatile problem-solving"
@@ -142,11 +159,22 @@
     "moral_flexibility": "Can be benevolent preservers of knowledge, neutral researchers, or even knowledge hoarders - the class supports all approaches"
   },
   "mechanical_notes": {
+    "attribute_progression": {
+      "intelligence": "Primary focus - 6 points per level for exceptional analytical growth",
+      "adaptability_wisdom": "Secondary focus - 3 points each per level for scholarly flexibility and insight", 
+      "dexterity_vitality": "Moderate growth - 2 points each per level for basic physical capability",
+      "strength": "Minimal growth - 1 point per level to prevent complete physical weakness"
+    },
+    "trinity_benefits": {
+      "fundamental_trinity": "Enhanced gear usage, skill prerequisites, and material world interaction",
+      "linear_scaling": "Predictable, reliable attribute growth patterns",
+      "equipment_synergy": "Intelligence-based gear requirements align with natural growth"
+    },
     "suggested_starting_stats": {
-      "intelligence": "Highest",
-      "wisdom": "Second highest", 
-      "adaptability": "Moderate bonus",
-      "other_attributes": "Standard starting values with room for player customization"
+      "intelligence": "Highest + starting bonus",
+      "wisdom": "Second highest + starting bonus", 
+      "adaptability": "Moderate + starting bonus",
+      "other_attributes": "Standard starting values with guaranteed per-level growth"
     },
     "natural_resistances": [
       "Cold damage resistance",

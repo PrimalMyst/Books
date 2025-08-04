@@ -26,13 +26,24 @@
   },
   "attribute_inheritance": {
     "primary_attribute": "wisdom",
-    "growth_pattern": "Exceptional wisdom growth, strong vitality development, moderate intelligence",
+    "trinity_alignment": "transcendent",
+    "hexagon_position": 6,
+    "per_level_gains": {
+      "wisdom": "+6 per level (aligned attribute)",
+      "strength": "+3 per level (adjacent - position 5)",
+      "intelligence": "+3 per level (adjacent - position 1)", 
+      "vitality": "+2 per level (next adjacent - position 4)",
+      "adaptability": "+2 per level (next adjacent - position 2)",
+      "dexterity": "+1 per level (opposing - position 3)"
+    },
+    "total_per_level": "15 attribute points distributed according to hexagonal pattern",
     "starting_bonuses": {
       "wisdom": "+2",
-      "vitality": "+1",
+      "strength": "+1",
       "intelligence": "+1"
     },
-    "cultural_development": "Sanctuary Realm education emphasizes spiritual development, compassionate service, and protective wisdom"
+    "cultural_development": "Sanctuary Realm education emphasizes spiritual development, compassionate service, and protective wisdom",
+    "growth_philosophy": "Exceptional wisdom growth with strong support in vitality and intelligence, reflecting the mastery of spiritual insight and protective understanding"
   },
   "class_characteristics": {
     "core_philosophy": "Wisdom illuminates all paths, protection flows from understanding",
