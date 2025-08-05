@@ -253,12 +253,12 @@
       "character-classes-core.json",
       "core-thematic-hexagon.json",
       "defensive-layers-core.json",
-      "islands/glacius-isle.json",
-      "islands/serafina-isle.json",
-      "islands/voltharion-isle.json",
-      "islands/pyrion-forge.json",
-      "islands/korthak-isle.json",
-      "islands/aurelius-isle.json"
+      "aurelius-isle-kingdom.json",
+      "serafina-isle-kingdom.json",
+      "voltharion-isle-kingdom.json",
+      "pyrion-isle-kingdom.json",
+      "korthak-isle-kingdom.json",
+      "glacius-isle-kingdom.json"
     ]
   }
 }

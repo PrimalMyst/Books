@@ -1,11 +1,47 @@
 {
   "id": "glacius-isle-kingdom",
+  "island_id": "glacius-isle",
   "name": "Glacius' Isle - The Archive Kingdom", 
   "type": "divine-island",
   "region": "Western Waters",
   "significance": "frost-divine-realm",
   "ruler": "Queen Astrid the Memorykeeper",
   "kingdom": "The Eternal Archive Kingdom",
+  "hexagon_data": {
+    "position": 1,
+    "island_name": "Glacius Isle",
+    "cultural_name": "The Archive Realm",
+    "divine_anchor": "Glacius, the Eternal Frost",
+    "yggdrasil_branch": "Western Crown Branch",
+    "environmental_theme": "eternal_winter_crystalline_libraries",
+    "primary_element": "cold",
+    "trial_focus": "preservation_and_knowledge",
+    "cultural_philosophy": "Knowledge is power, preservation is perfection, understanding transcends mortality",
+    "origin_races": ["Undead Scholars", "Crystal-touched Humans", "Frost Elves"],
+    "primary_class": "Lich",
+    "hexagon_relationships": {
+      "adjacent_synergies": {
+        "with_aurelius": "Scholarly spirituality - wisdom through preserved knowledge",
+        "with_serafina": "Adaptive knowledge - flexible application of preserved understanding"
+      },
+      "opposition": {
+        "pyrion": "Preservation vs Creation - static knowledge vs dynamic vitality"
+      }
+    },
+    "environmental_mechanics": {
+      "cold_immunity_zones": "Natural cold resistance for aligned characters",
+      "preservation_fields": "Areas where time moves slower, preserving items and memories",
+      "crystal_resonance": "Intelligence-based characters gain enhanced mental clarity",
+      "knowledge_access": "Mystical libraries that respond to seeker's intent"
+    },
+    "travel_connections": {
+      "nexus_pathway": "Crystal Bridge to Worldtree Nexus",
+      "adjacent_routes": {
+        "to_aurelius": "Wisdom Path through crystalline caverns",
+        "to_serafina": "Shadow-touched ice bridges with shifting passages"
+      }
+    }
+  },
   "description": {
     "brief": "A crystalline island kingdom ruled by scholar-preservers and devoted to Glacius, where all knowledge is crystallized and preserved for eternity.",
     "detailed": "Glacius' Isle appears as a massive formation of living crystal rising from the western waters, its faceted surfaces refracting light into brilliant rainbows. The kingdom is built within and upon these crystal formations, with entire libraries grown from ice that never melts and archives that preserve knowledge in crystalline matrices. Every citizen is both scholar and preserver, dedicated to collecting, organizing, and maintaining the world's accumulated wisdom. Queen Astrid, the Memorykeeper, is said to have perfect recall of everything that has ever occurred on the island and can access memories crystallized in the ice going back centuries. The kingdom serves as the world's greatest repository of knowledge, with scholars from all realms traveling here to research and preserve their discoveries.",

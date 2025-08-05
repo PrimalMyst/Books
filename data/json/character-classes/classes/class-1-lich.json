@@ -25,25 +25,33 @@
     "starting_bonus": "Enhanced effectiveness with cold-based abilities and resistance to cold effects"
   },
   "attribute_inheritance": {
+    "source": "origin_island_position",
+    "island_position": 1,
+    "island_reference": "glacius-isle-kingdom.json",
     "primary_attribute": "intelligence",
     "trinity_alignment": "fundamental",
-    "hexagon_position": 1,
-    "per_level_gains": {
-      "intelligence": "+6 per level (aligned attribute)",
-      "adaptability": "+3 per level (adjacent - position 2)",
-      "wisdom": "+3 per level (adjacent - position 6)", 
-      "dexterity": "+2 per level (next adjacent - position 3)",
-      "strength": "+2 per level (next adjacent - position 5)",
-      "vitality": "+1 per level (opposing - position 4)"
+    "hexagon_pattern": {
+      "position_1_aligned": "+6 per level (intelligence - aligned with island position)",
+      "position_2_adjacent": "+3 per level (adaptability - adjacent position 2)",
+      "position_6_adjacent": "+3 per level (wisdom - adjacent position 6)", 
+      "position_3_next": "+2 per level (dexterity - next adjacent position 3)",
+      "position_5_next": "+2 per level (strength - next adjacent position 5)",
+      "position_4_opposing": "+1 per level (vitality - opposing position 4)"
     },
-    "total_per_level": "15 attribute points distributed according to hexagonal pattern",
+    "per_level_distribution": {
+      "intelligence": "+6 per level (island position 1)",
+      "adaptability": "+3 per level (adjacent position 2)",
+      "wisdom": "+3 per level (adjacent position 6)", 
+      "dexterity": "+2 per level (next adjacent position 3)",
+      "strength": "+2 per level (next adjacent position 5)",
+      "vitality": "+1 per level (opposing position 4)"
+    },
+    "total_per_level": "17 attribute points distributed according to hexagonal pattern from origin island",
     "starting_bonuses": {
-      "intelligence": "+2",
-      "wisdom": "+1",
-      "adaptability": "+1"
+      "note": "No starting attribute bonuses - all growth comes from leveling up"
     },
-    "cultural_development": "Archive Realm education emphasizes analytical thinking, research methodology, and preservation techniques",
-    "growth_philosophy": "Exceptional intelligence growth with strong support in wisdom and adaptability, reflecting the scholarly pursuit of knowledge"
+    "cultural_development": "Glacius Isle education emphasizes analytical thinking, research methodology, and preservation techniques",
+    "growth_philosophy": "Island position 1 produces exceptional intelligence growth with strong support in adjacent attributes"
   },
   "class_characteristics": {
     "core_philosophy": "Death is merely another form of preservation",

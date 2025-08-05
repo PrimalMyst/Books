@@ -76,7 +76,7 @@
         },
         "growth_pattern": {"type": "string"}
       },
-      "description": "Attribute growth inherited from hexagonal position"
+      "description": "Attribute growth inherited from origin island's hexagonal position and cultural influences"
     },
     "divine_preference": {
       "type": "object",

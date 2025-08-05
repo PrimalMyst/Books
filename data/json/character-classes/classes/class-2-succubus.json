@@ -25,25 +25,33 @@
     "starting_bonus": "Enhanced effectiveness with chaos-based abilities and resistance to transformation effects"
   },
   "attribute_inheritance": {
+    "source": "origin_island_position",
+    "island_position": 2,
+    "island_reference": "serafina-isle-nature.json",
     "primary_attribute": "adaptability",
     "trinity_alignment": "transcendent",
-    "hexagon_position": 2,
-    "per_level_gains": {
-      "adaptability": "+6 per level (aligned attribute)",
-      "intelligence": "+3 per level (adjacent - position 1)",
-      "dexterity": "+3 per level (adjacent - position 3)", 
-      "wisdom": "+2 per level (next adjacent - position 6)",
-      "vitality": "+2 per level (next adjacent - position 4)",
-      "strength": "+1 per level (opposing - position 5)"
+    "hexagon_pattern": {
+      "position_2_aligned": "+6 per level (adaptability - aligned with island position)",
+      "position_1_adjacent": "+3 per level (intelligence - adjacent position 1)",
+      "position_3_adjacent": "+3 per level (dexterity - adjacent position 3)", 
+      "position_6_next": "+2 per level (wisdom - next adjacent position 6)",
+      "position_4_next": "+2 per level (vitality - next adjacent position 4)",
+      "position_5_opposing": "+1 per level (strength - opposing position 5)"
     },
-    "total_per_level": "15 attribute points distributed according to hexagonal pattern",
+    "per_level_distribution": {
+      "adaptability": "+6 per level (island position 2)",
+      "intelligence": "+3 per level (adjacent position 1)",
+      "dexterity": "+3 per level (adjacent position 3)", 
+      "wisdom": "+2 per level (next adjacent position 6)",
+      "vitality": "+2 per level (next adjacent position 4)",
+      "strength": "+1 per level (opposing position 5)"
+    },
+    "total_per_level": "17 attribute points distributed according to hexagonal pattern from origin island",
     "starting_bonuses": {
-      "adaptability": "+2",
-      "intelligence": "+1",
-      "dexterity": "+1"
+      "note": "No starting attribute bonuses - all growth comes from leveling up"
     },
     "cultural_development": "Shadow Court education emphasizes social dynamics, transformation techniques, and situational awareness",
-    "growth_philosophy": "Exceptional adaptability growth with strong support in intelligence and dexterity, reflecting the mastery of transformation and flexible response"
+    "growth_philosophy": "Island position 2 produces exceptional adaptability growth with support from adjacent attributes, reflecting mastery of transformation and flexible response"
   },
   "class_characteristics": {
     "core_philosophy": "Power flows through change and desire",

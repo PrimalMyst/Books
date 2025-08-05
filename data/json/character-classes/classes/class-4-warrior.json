@@ -25,25 +25,33 @@
     "starting_bonus": "Enhanced effectiveness with fire combat and regenerative abilities"
   },
   "attribute_inheritance": {
+    "source": "origin_island_position",
+    "island_position": 4,
+    "island_reference": "pyrion-isle-forge.json",
     "primary_attribute": "vitality",
     "trinity_alignment": "transcendent",
-    "hexagon_position": 4,
-    "per_level_gains": {
-      "vitality": "+6 per level (aligned attribute)",
-      "dexterity": "+3 per level (adjacent - position 3)",
-      "strength": "+3 per level (adjacent - position 5)", 
-      "adaptability": "+2 per level (next adjacent - position 2)",
-      "wisdom": "+2 per level (next adjacent - position 6)",
-      "intelligence": "+1 per level (opposing - position 1)"
+    "hexagon_pattern": {
+      "position_4_aligned": "+6 per level (vitality - aligned with island position)",
+      "position_3_adjacent": "+3 per level (dexterity - adjacent position 3)",
+      "position_5_adjacent": "+3 per level (strength - adjacent position 5)", 
+      "position_2_next": "+2 per level (adaptability - next adjacent position 2)",
+      "position_6_next": "+2 per level (wisdom - next adjacent position 6)",
+      "position_1_opposing": "+1 per level (intelligence - opposing position 1)"
     },
-    "total_per_level": "15 attribute points distributed according to hexagonal pattern",
+    "per_level_distribution": {
+      "vitality": "+6 per level (island position 4)",
+      "dexterity": "+3 per level (adjacent position 3)",
+      "strength": "+3 per level (adjacent position 5)", 
+      "adaptability": "+2 per level (next adjacent position 2)",
+      "wisdom": "+2 per level (next adjacent position 6)",
+      "intelligence": "+1 per level (opposing position 1)"
+    },
+    "total_per_level": "17 attribute points distributed according to hexagonal pattern from origin island",
     "starting_bonuses": {
-      "vitality": "+2",
-      "dexterity": "+1",
-      "strength": "+1"
+      "note": "No starting attribute bonuses - all growth comes from leveling up"
     },
     "cultural_development": "Arena Realm education emphasizes physical training, combat techniques, and warrior discipline",
-    "growth_philosophy": "Exceptional strength growth with strong support in dexterity and intelligence, reflecting the mastery of physical combat and tactical thinking"
+    "growth_philosophy": "Island position 4 produces exceptional vitality growth with strong support in dexterity and strength, reflecting mastery of physical endurance and combat capability"
   },
   "class_characteristics": {
     "core_philosophy": "Strength is truth, victory proves worthiness",

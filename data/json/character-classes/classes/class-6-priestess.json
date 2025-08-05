@@ -25,25 +25,33 @@
     "starting_bonus": "Enhanced effectiveness with radiance-based abilities and resistance to negative spiritual effects"
   },
   "attribute_inheritance": {
+    "source": "origin_island_position",
+    "island_position": 6,
+    "island_reference": "aurelius-isle-divine.json",
     "primary_attribute": "wisdom",
     "trinity_alignment": "transcendent",
-    "hexagon_position": 6,
-    "per_level_gains": {
-      "wisdom": "+6 per level (aligned attribute)",
-      "strength": "+3 per level (adjacent - position 5)",
-      "intelligence": "+3 per level (adjacent - position 1)", 
-      "vitality": "+2 per level (next adjacent - position 4)",
-      "adaptability": "+2 per level (next adjacent - position 2)",
-      "dexterity": "+1 per level (opposing - position 3)"
+    "hexagon_pattern": {
+      "position_6_aligned": "+6 per level (wisdom - aligned with island position)",
+      "position_5_adjacent": "+3 per level (strength - adjacent position 5)",
+      "position_1_adjacent": "+3 per level (intelligence - adjacent position 1)", 
+      "position_4_next": "+2 per level (vitality - next adjacent position 4)",
+      "position_2_next": "+2 per level (adaptability - next adjacent position 2)",
+      "position_3_opposing": "+1 per level (dexterity - opposing position 3)"
     },
-    "total_per_level": "15 attribute points distributed according to hexagonal pattern",
+    "per_level_distribution": {
+      "wisdom": "+6 per level (island position 6)",
+      "strength": "+3 per level (adjacent position 5)",
+      "intelligence": "+3 per level (adjacent position 1)", 
+      "vitality": "+2 per level (next adjacent position 4)",
+      "adaptability": "+2 per level (next adjacent position 2)",
+      "dexterity": "+1 per level (opposing position 3)"
+    },
+    "total_per_level": "17 attribute points distributed according to hexagonal pattern from origin island",
     "starting_bonuses": {
-      "wisdom": "+2",
-      "strength": "+1",
-      "intelligence": "+1"
+      "note": "No starting attribute bonuses - all growth comes from leveling up"
     },
     "cultural_development": "Sanctuary Realm education emphasizes spiritual development, compassionate service, and protective wisdom",
-    "growth_philosophy": "Exceptional wisdom growth with strong support in vitality and intelligence, reflecting the mastery of spiritual insight and protective understanding"
+    "growth_philosophy": "Island position 6 produces exceptional wisdom growth with strong support in strength and intelligence, reflecting mastery of spiritual insight and protective understanding"
   },
   "class_characteristics": {
     "core_philosophy": "Wisdom illuminates all paths, protection flows from understanding",
