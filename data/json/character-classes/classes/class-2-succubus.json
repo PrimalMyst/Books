@@ -124,9 +124,34 @@
       "social_approach": "Can be subtle influencers, obvious charmers, behind-the-scenes coordinators, or front-line diplomats"
     }
   },
-  "hexagon_integration": {
-    "offensive_layer_preference": "Flowing Techniques - Continuous adaptation and smooth transitions between approaches",
-    "defensive_layer_preference": "Tactical Flexibility - Adapting protection methods to match current threats",
+
+  "ascendancy_system": {
+    "description": "Succubus serves as the primary anchor for adaptation, transformation, and social manipulation-focused ascendancy trees",
+    "ascendancy_role": "Main class for unlocking and progressing through metamorphosis, charm, and adaptation ascendancies",
+    "placeholder_implementation": "PLACEHOLDER - Future ascendancy trees will anchor to this class for transformation specializations",
+    "ascendancy_themes": [
+      "Metamorphosis Master - Advanced shapeshifting and transformation abilities",
+      "Social Catalyst - Enhanced diplomacy, persuasion, and social manipulation",
+      "Adaptive Specialist - Environmental adaptation and situational flexibility",
+      "Chaos Weaver - Mastery of change magic and entropy manipulation"
+    ],
+    "multiclass_ascendancy": "Other classes can access transformation ascendancies through this class as anchor point",
+    "ascendancy_points": "Standard ascendancy point progression - PLACEHOLDER for future implementation"
+  },
+
+  "origin_island_integration": {
+    "trinity_alignment": "transcendent",
+    "trinity_heritage": "Inherits transcendent trinity benefits from Serafina Isle origin position",
+    "attribute_scaling": "Breakthrough-based attribute scaling based on island hexagonal positioning",
+    "level_10_example": {
+      "adaptability": 70, "intelligence": 40, "dexterity": 40, "vitality": 30, "wisdom": 20, "strength": 20,
+      "description": "A level 10 Succubus with exceptional adaptability and well-rounded support attributes from island heritage"
+    },
+    "class_mechanical_focus": {
+      "core_abilities": "Shapeshifting mastery, social manipulation, environmental adaptation",
+      "signature_skills": "Enhanced persuasion, transformation techniques, chaos magic affinity",
+      "equipment_affinity": "Adaptability-based equipment, transformation tools, social accessories"
+    },
     "adjacent_class_relationships": {
       "necromancer": "Complementary adaptability/intelligence enables versatile problem-solving",
       "hunter": "Shared dexterity focus creates natural mobility and stealth synergies"
@@ -136,7 +161,7 @@
     }
   },
   "lore_connections": {
-    "divine_positioning": "Aligned with Position 2 - The Flow of Change",
+    "origin_island_position": "Represents Position 2 - The Flow of Change from Serafina Isle heritage",
     "cosmic_significance": "Represents the principle that consciousness can transcend limitations through perfect adaptation to circumstances",
     "mythological_role": "The eternal bridges between different aspects of existence, ensuring smooth transitions across cosmic changes",
     "island_legends": "Famous Succubi have facilitated major cultural exchanges and prevented conflicts through masterful adaptation and diplomacy"

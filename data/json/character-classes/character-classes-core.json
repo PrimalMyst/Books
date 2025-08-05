@@ -14,14 +14,16 @@
   },
   "design_principles": {
     "island_origin": "Each class originates from a specific island corresponding to their hexagonal position",
-    "trinity_inheritance": "Classes inherit their growth patterns from their trinity alignment (Fundamental or Transcendent)",
-    "attribute_progression": "Per-level gains follow hexagonal pattern based on origin island position: +6 aligned, +3 adjacent, +2 next adjacent, +1 opposing",
-    "island_based_attributes": "Attribute growth is determined by the character's origin island position, not their class - creating geographic heritage over occupational training",
+    "ascendancy_anchors": "Classes serve as primary anchors for ascendancy tree access and progression",
+    "attribute_inheritance": "Classes inherit attribute growth patterns from their origin island's hexagonal position",
+    "island_based_attributes": "Attribute growth is determined by the character's origin island position, not class training",
+    "no_hexagonal_positioning": "Classes provide no hexagonal layer positioning benefits - only divine trials grant positioning",
+    "mechanical_frameworks": "Classes provide core abilities, signature skills, and ascendancy access without cosmic positioning",
     "eldritch_divine_preference": "NPCs default to their aligned Eldritch God, players choose freely",
     "damage_flexibility": "No hard restrictions on damage types or alignments",
     "body_type_system": "M/F body types for development efficiency",
     "player_freedom": "Total customization freedom while maintaining archetypal identity",
-    "cultural_development": "Island culture shapes attribute development, reflecting environmental and Eldritch God influences rather than class training"
+    "cultural_development": "Island culture shapes attribute development, reflecting environmental and Eldritch God influences"
   },
   "corners": [
     {
@@ -165,10 +167,11 @@
     "damage_type_resonance": "Each class aligns with a damage type but can master others freely",
     "divine_patronage": "Gods favor their aligned classes but don't restrict others",
     "attribute_inheritance": "Characters inherit per-level growth patterns from their origin island's hexagonal position, with cultural and environmental influences shaping development regardless of chosen class",
-    "combat_layer_synergy": "Each class naturally aligns with specific offensive and defensive approaches",
+    "ascendancy_systems": "Each class provides anchor points for 3-4 thematic ascendancy specializations",
+    "hexagonal_positioning_separation": "Divine trial completion exclusively determines hexagonal layer positioning and cosmic benefits",
     "trinity_mechanics": {
-      "fundamental_classes": "Gain enhanced material world interaction and linear attribute scaling",
-      "transcendent_classes": "Gain enhanced spiritual evolution and threshold-based breakthrough bonuses"
+      "fundamental_classes": "Gain enhanced material world interaction and linear attribute scaling from island heritage",
+      "transcendent_classes": "Gain enhanced spiritual evolution and threshold-based breakthrough bonuses from island heritage"
     }
   },
   "cultural_framework": {

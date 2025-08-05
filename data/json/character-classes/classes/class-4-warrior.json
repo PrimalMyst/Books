@@ -124,9 +124,34 @@
       "social_approach": "Can be inspiring leaders, quiet guardians, tactical advisors, or front-line heroes"
     }
   },
-  "hexagon_integration": {
-    "offensive_layer_preference": "Overwhelming Force - Direct application of superior strength and skill",
-    "defensive_layer_preference": "Active Defense - Meeting threats head-on with superior combat ability",
+
+  "ascendancy_system": {
+    "description": "Warrior serves as the primary anchor for combat, vitality, and protection-focused ascendancy trees",
+    "ascendancy_role": "Main class for unlocking and progressing through combat mastery, life force, and defensive ascendancies",
+    "placeholder_implementation": "PLACEHOLDER - Future ascendancy trees will anchor to this class for combat specializations",
+    "ascendancy_themes": [
+      "Combat Master - Advanced weapon skills and martial arts mastery",
+      "Life Guardian - Vitality enhancement and regenerative abilities",
+      "Forge Warrior - Fire magic mastery and creation through combat",
+      "Defensive Specialist - Enhanced protection and damage mitigation"
+    ],
+    "multiclass_ascendancy": "Other classes can access combat ascendancies through this class as anchor point",
+    "ascendancy_points": "Standard ascendancy point progression - PLACEHOLDER for future implementation"
+  },
+
+  "origin_island_integration": {
+    "trinity_alignment": "fundamental", 
+    "trinity_heritage": "Inherits fundamental trinity benefits from Pyrion's Forge origin position",
+    "attribute_scaling": "Linear attribute scaling based on island hexagonal positioning",
+    "level_10_example": {
+      "vitality": 70, "dexterity": 40, "strength": 40, "adaptability": 30, "wisdom": 20, "intelligence": 20,
+      "description": "A level 10 Warrior with exceptional vitality and well-rounded support attributes from island heritage"
+    },
+    "class_mechanical_focus": {
+      "core_abilities": "Combat mastery, vitality enhancement, protective techniques",
+      "signature_skills": "Enhanced endurance, weapon expertise, fire affinity",
+      "equipment_affinity": "Vitality-based armor and weapons, protective gear, regenerative items"
+    },
     "adjacent_class_relationships": {
       "hunter": "Complementary strength/dexterity enables mobile combat tactics",
       "chieftain": "Shared vitality focus creates natural leadership and endurance synergies"
@@ -136,7 +161,7 @@
     }
   },
   "lore_connections": {
-    "divine_positioning": "Aligned with Position 4 - The Foundation of Action",
+    "origin_island_position": "Represents Position 4 - The Foundation of Action from Pyrion's Forge heritage",
     "cosmic_significance": "Represents the principle that consciousness can transcend limitations through perfect application of will and strength",
     "mythological_role": "The eternal defenders of Yggdrasil's structure, maintaining stability through strength and courage",
     "island_legends": "Famous Warriors have defended critical locations and people through multiple reality instances, ensuring continuity of protection"

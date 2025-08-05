@@ -230,23 +230,23 @@
   },
   "character_progression": {
     "per_level_gains": {
-      "class_aligned_attribute": "+6 attribute points per level to character's class-aligned attribute (based on character class position)",
-      "adjacent_attributes": "+3 attribute points per level to both attributes adjacent to the class-aligned attribute",
-      "next_adjacent_attributes": "+2 attribute points per level to attributes one step further from class alignment",
-      "opposing_attribute": "+1 attribute point per level to the attribute directly opposite the class-aligned attribute",
+      "origin_island_attribute": "+6 attribute points per level to character's origin island aligned attribute (based on island hexagonal position)",
+      "adjacent_attributes": "+3 attribute points per level to both attributes adjacent to the island-aligned attribute",
+      "next_adjacent_attributes": "+2 attribute points per level to attributes one step further from island alignment",
+      "opposing_attribute": "+1 attribute point per level to the attribute directly opposite the island-aligned attribute",
       "player_fundamental_choice": "+6 attribute points per level to ONE fundamental attribute of player's choice (Intelligence, Dexterity, or Strength)",
-      "total_per_level": "21 total attribute points distributed each level: 15 from class alignment + 6 from player fundamental choice"
+      "total_per_level": "21 total attribute points distributed each level: 15 from island heritage + 6 from player fundamental choice"
     },
     "player_choice_mechanics": {
       "selection_timing": "At each level up, players choose which fundamental attribute (Intelligence, Dexterity, or Strength) receives the additional +6 points",
       "strategic_options": {
-        "specialization_path": "Choose the same fundamental attribute that your class naturally favors for extreme specialization",
+        "specialization_path": "Choose the same fundamental attribute that your origin island naturally favors for extreme specialization",
         "balance_path": "Choose different fundamental attributes to create more well-rounded character builds",
-        "weakness_coverage": "Choose fundamental attributes your class doesn't naturally favor to eliminate weak spots",
+        "weakness_coverage": "Choose fundamental attributes your island heritage doesn't naturally favor to eliminate weak spots",
         "build_adaptation": "Adjust your choices as your playstyle and party needs evolve throughout the character's journey"
       },
       "implementation_method": "This choice system will be integrated into the passive skill tree, providing a clear interface for fundamental attribute selection at each level",
-      "lore_integration": "Represents the character's growing mastery of fundamental cosmic forces and conscious direction of their spiritual development"
+      "lore_integration": "Represents the character's growing mastery of fundamental cosmic forces and conscious direction of their spiritual development beyond their island heritage"
     },
     "alignment_examples": {
       "intelligence_class_with_player_choice": {

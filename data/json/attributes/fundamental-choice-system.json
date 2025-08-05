@@ -4,6 +4,14 @@
   "description": "Player-controlled selection of fundamental attribute bonus at each level, emphasizing the cosmic significance of Intelligence, Dexterity, and Strength as the foundation of all material existence.",
   "implementation_scope": "Passive skill tree integration with level progression system",
   
+  "architecture_integration": {
+    "origin_island_heritage": "Character classes inherit base attribute growth from their starting island's hexagonal position",
+    "class_role": "Classes provide ascendancy anchors and mechanical frameworks without hexagonal positioning benefits",
+    "player_choice_layer": "Fundamental choice system adds +6 attribute bonus on top of island heritage",
+    "divine_positioning": "Hexagonal layer positioning and benefits come exclusively from divine trial completion",
+    "separation_principle": "Island heritage, class mechanics, player choice, and divine positioning are completely separate systems"
+  },
+  
   "core_mechanics": {
     "choice_timing": "At each character level up",
     "available_options": ["intelligence", "dexterity", "strength"],
@@ -45,7 +53,7 @@
   
   "class_interaction_examples": {
     "necromancer_class_options": {
-      "class_natural_progression": "Intelligence +6, Adaptability +3, Wisdom +3, Dexterity +2, Strength +2, Vitality +1",
+      "origin_island_progression": "Intelligence +6, Adaptability +3, Wisdom +3, Dexterity +2, Strength +2, Vitality +1 (from Glacius Isle heritage)",
       "player_choice_effects": {
         "choose_intelligence": "Total Intelligence +12 per level (extreme magical specialization)",
         "choose_dexterity": "Intelligence +6, Dexterity +8 per level (scholarly precision master)",
@@ -53,7 +61,7 @@
       }
     },
     "warrior_class_options": {
-      "class_natural_progression": "Vitality +6, Dexterity +3, Strength +3, Adaptability +2, Wisdom +2, Intelligence +1", 
+      "origin_island_progression": "Vitality +6, Dexterity +3, Strength +3, Adaptability +2, Wisdom +2, Intelligence +1 (from Pyrion's Forge heritage)", 
       "player_choice_effects": {
         "choose_strength": "Vitality +6, Strength +9 per level (enhanced physical focus)",
         "choose_dexterity": "Vitality +6, Dexterity +9 per level (agile warrior build)",
@@ -61,7 +69,7 @@
       }
     },
     "hunter_class_options": {
-      "class_natural_progression": "Dexterity +6, Adaptability +3, Vitality +3, Intelligence +2, Strength +2, Wisdom +1",
+      "origin_island_progression": "Dexterity +6, Adaptability +3, Vitality +3, Intelligence +2, Strength +2, Wisdom +1 (from Voltharion Isle heritage)",
       "player_choice_effects": {
         "choose_dexterity": "Total Dexterity +12 per level (ultimate precision specialist)",
         "choose_intelligence": "Dexterity +6, Intelligence +8 per level (analytical hunter)",

@@ -53,6 +53,20 @@
     "cultural_development": "Glacius Isle education emphasizes analytical thinking, research methodology, and preservation techniques",
     "growth_philosophy": "Island position 1 produces exceptional intelligence growth with strong support in adjacent attributes"
   },
+
+  "ascendancy_system": {
+    "description": "Necromancer serves as the primary anchor for death magic and preservation-focused ascendancy trees",
+    "ascendancy_role": "Main class for unlocking and progressing through death magic, necromancy, and preservation ascendancies",
+    "placeholder_implementation": "PLACEHOLDER - Future ascendancy trees will anchor to this class for death magic specializations",
+    "ascendancy_themes": [
+      "Death Magic Mastery - Advanced necromantic spells and undead manipulation",
+      "Preservation Specialist - Knowledge preservation and temporal stasis abilities", 
+      "Life-Death Balance - Understanding and manipulating the boundary between existence states",
+      "Scholar Ascendant - Enhanced learning, research, and knowledge-based abilities"
+    ],
+    "multiclass_ascendancy": "Other classes can access death magic ascendancies through this class as anchor point",
+    "ascendancy_points": "Standard ascendancy point progression - PLACEHOLDER for future implementation"
+  },
   "class_characteristics": {
     "core_philosophy": "Death and life are two sides of the same coin",
     "life_approach": "Transform obstacles through knowledge and understanding of mortality",
@@ -124,14 +138,18 @@
       "social_approach": "Can be hermit researchers, helpful community scholars, or diplomatic mortality advisors"
     }
   },
-  "hexagon_integration": {
+  "origin_island_integration": {
     "trinity_alignment": "fundamental",
-    "trinity_benefits": "Enhanced material world interaction, linear attribute scaling, gear/skill requirement advantages",
-    "offensive_layer_preference": "Precision Strikes - Calculated application of force with perfect timing",
-    "defensive_layer_preference": "Calculated Avoidance - Using knowledge to prevent problems before they occur",
+    "trinity_heritage": "Inherits fundamental trinity benefits from Glacius Isle origin position",
+    "attribute_scaling": "Linear attribute scaling based on island hexagonal positioning",
     "level_10_example": {
-      "intelligence": 70, "adaptability": 40, "wisdom": 40, "dexterity": 30, "vitality": 30, "strength": 20,
-      "description": "A level 10 Necromancer with exceptional analytical capabilities and well-rounded support attributes"
+      "intelligence": 70, "adaptability": 40, "wisdom": 40, "dexterity": 30, "strength": 20, "vitality": 20,
+      "description": "A level 10 Necromancer with exceptional analytical capabilities and well-rounded support attributes from island heritage"
+    },
+    "class_mechanical_focus": {
+      "core_abilities": "Death magic mastery, scholarly research, necromantic communication",
+      "signature_skills": "Enhanced learning speed, undead interaction, preservation techniques",
+      "equipment_affinity": "Intelligence-based magical equipment, research tools, preservation materials"
     },
     "adjacent_class_relationships": {
       "priestess": "Shared wisdom focus creates natural philosophical exchanges about life and death balance",
@@ -142,7 +160,7 @@
     }
   },
   "lore_connections": {
-    "divine_positioning": "Aligned with Position 1 - The Foundation of Knowledge",
+    "origin_island_position": "Represents Position 1 - The Foundation of Knowledge from Glacius Isle heritage",
     "cosmic_significance": "Represents the principle that understanding mortality enhances appreciation for life and unlocks hidden wisdom",
     "mythological_role": "The mortal students of Yggdrasil's wisdom who bridge the gap between life and death knowledge",
     "island_legends": "Famous Necromancers have preserved critical knowledge about mortality and helped communities understand death without fear"
