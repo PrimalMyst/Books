@@ -1,0 +1,115 @@
+{
+  "trial_id": "aurelius-divine-trial",
+  "trial_name": "Trial of Sacred Protection",
+  "divine_patron": "aurelius",
+  "trial_type": "primal",
+  "domain_focus": "radiance",
+  "cosmic_principle": "protective_order",
+
+  "trial_overview": {
+    "description": "Face Aurelius's trial to determine your relationship with protective order and sacred truth",
+    "thematic_focus": "Protection, healing, truth, sanctuary, and the preservation of innocence",
+    "player_choice": "Choose to Follow or Oppose Aurelius's philosophy of protective order",
+    "cosmic_significance": "Establishes relationship with the primal force of protective sanctuary"
+  },
+
+  "trial_mechanics": {
+    "access_requirements": {
+      "minimum_level": "PLACEHOLDER - Level 15-17",
+      "story_prerequisite": "PLACEHOLDER - Previous primal trial completed",
+      "location_access": "PLACEHOLDER - Access to Aurelius's domain/sanctuary realm"
+    },
+
+    "trial_phases": {
+      "phase_1_introduction": {
+        "description": "Meet Aurelius and understand the nature of protective order",
+        "mechanics": "PLACEHOLDER - Dialogue/cutscene mechanics",
+        "learning_objective": "Understand protective sanctuary as cosmic principle"
+      },
+      "phase_2_trial_challenge": {
+        "description": "Face scenarios testing your relationship with protection and order",
+        "mechanics": "PLACEHOLDER - Trial challenge mechanics",
+        "choice_point": "Decide whether to Follow or Oppose Aurelius's protective path"
+      },
+      "phase_3_commitment": {
+        "description": "Commit to chosen relationship and receive Aurelius's response",
+        "mechanics": "PLACEHOLDER - Choice confirmation and consequence",
+        "permanent_effect": "Follow/Oppose choice recorded for final divine alignment"
+      }
+    },
+
+    "choice_implications": {
+      "follow_aurelius": {
+        "thematic_meaning": "Embrace protective order as the foundation for peace and healing",
+        "mechanical_preview": "Contributes to Sanctuary-focused primal patterns",
+        "roleplay_implication": "Character prioritizes protection, healing, and maintaining safe spaces",
+        "philosophy": "True strength comes from protecting others and maintaining order that enables flourishing"
+      },
+      "oppose_aurelius": {
+        "thematic_meaning": "Reject overprotective order that can stifle growth and necessary change",
+        "mechanical_preview": "Contributes to Revolution/Honor/Heretic-focused primal patterns",
+        "roleplay_implication": "Character believes protection can become stagnation or weakness",
+        "philosophy": "Over-protection prevents growth; strength comes from facing challenges directly"
+      }
+    }
+  },
+
+  "trial_rewards": {
+    "immediate_rewards": {
+      "experience_gain": "PLACEHOLDER - XP reward amount",
+      "attribute_bonus": "PLACEHOLDER - Temporary or permanent attribute enhancement",
+      "skill_unlock": "PLACEHOLDER - Protection/confrontation-related skill or ability",
+      "divine_response": "PLACEHOLDER - Aurelius's blessing or respectful disagreement"
+    },
+
+    "progression_benefits": {
+      "primal_positioning": "Follow/Oppose choice recorded for final divine alignment calculation",
+      "cosmic_authority": "Influence over protection/challenge dynamics",
+      "trial_completion": "5/6 divine trials completed (if fifth trial)"
+    },
+
+    "story_integration": {
+      "character_development": "PLACEHOLDER - How choice affects character approach to conflict",
+      "world_relationship": "PLACEHOLDER - How choice affects sanctuary/militant faction relationships",
+      "future_implications": "PLACEHOLDER - How choice affects final trial and story conclusion"
+    }
+  },
+
+  "location_details": {
+    "trial_location": "PLACEHOLDER - Aurelius's Sanctuary/Healing Chamber/Truth Temple",
+    "environmental_description": "PLACEHOLDER - Detailed location description",
+    "atmospheric_elements": "PLACEHOLDER - Environmental storytelling elements",
+    "interactive_elements": "PLACEHOLDER - Location-specific interactions"
+  },
+
+  "dialogue_framework": {
+    "aurelius_characterization": {
+      "personality": "PLACEHOLDER - Aurelius's personality traits and speech patterns",
+      "motivations": "PLACEHOLDER - What Aurelius seeks to understand about participants",
+      "teaching_style": "PLACEHOLDER - How Aurelius presents choice consequences"
+    },
+
+    "choice_explanations": {
+      "follow_path": "PLACEHOLDER - Benefits and responsibilities of embracing protective order",
+      "oppose_path": "PLACEHOLDER - Benefits and responsibilities of rejecting overprotection",
+      "consequence_clarity": "PLACEHOLDER - Clear explanation of choice permanence and implications"
+    }
+  },
+
+  "integration_points": {
+    "main_story": "PLACEHOLDER - How trial connects to cosmic balance themes",
+    "character_classes": "PLACEHOLDER - How choice interacts with different character approaches",
+    "other_trials": "PLACEHOLDER - How this choice affects final primal trial",
+    "world_lore": "PLACEHOLDER - Lore about cosmic protection and strength revealed"
+  },
+
+  "metadata": {
+    "created": "2025-08-05T00:00:00Z",
+    "last_updated": "2025-08-05T00:00:00Z",
+    "author": "PrimalMyst Development Team",
+    "version": "1.0.0",
+    "canonical": true,
+    "trial_category": "primal_divine_trial",
+    "related_systems": ["divine-trial-progression-system", "divine-alignment-buffs-system"]
+  }
+}

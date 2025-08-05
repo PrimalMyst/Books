@@ -1,0 +1,284 @@
+{
+  "system_id": "divine-trial-progression-system",
+  "name": "Divine Trial Progression System",
+  "description": "Step-by-step progression system managing divine trial completion, choice tracking, and divine alignment development throughout Act 1.",
+  "design_philosophy": "Provides structured progression through divine trials with meaningful choices that determine final character positioning within the hexagonal architecture.",
+
+  "progression_phases": {
+    "phase_1_introduction": {
+      "phase_name": "Divine Awakening",
+      "act1_timing": "Early Act 1 (Levels 1-5)",
+      "trials_available": 1,
+      "story_context": "First exposure to divine forces and trial concepts",
+      "player_preparation": {
+        "divine_awareness": "Introduction to the six eldritch gods and their domains",
+        "choice_understanding": "Basic understanding of follow/oppose mechanics",
+        "consequence_preview": "Preview of how choices affect character development"
+      },
+      "available_trials": [
+        {
+          "trial_type": "fundamental_introduction",
+          "recommended_god": "pyrion",
+          "choice_impact": "Establishes first elemental affinity preference",
+          "player_discovery": "Trial accessible through exploration or optional quest chains"
+        }
+      ]
+    },
+
+    "phase_2_active_trials": {
+      "phase_name": "Divine Positioning",
+      "act1_timing": "Mid Act 1 (Levels 6-15)",
+      "trials_available": 4,
+      "story_context": "Active trial completion phase with strategic choices",
+      "player_preparation": {
+        "strategic_planning": "Understanding long-term consequences of trial choices",
+        "archetype_preview": "Preview of potential character archetypes",
+        "hexagonal_awareness": "Introduction to hexagonal layer positioning"
+      },
+      "available_trials": [
+        {
+          "trial_type": "fundamental_completion",
+          "trials_remaining": "Complete remaining 2 fundamental god trials",
+          "choice_impact": "Establishes final elemental affinity pattern",
+          "player_discovery": "Trials accessible through exploration, side quests, or player initiative"
+        },
+        {
+          "trial_type": "primal_introduction", 
+          "trials_available": "First 2 primal god trials",
+          "choice_impact": "Begins establishing primal opposition pattern",
+          "player_discovery": "Player-driven discovery of primal cosmic forces"
+        }
+      ]
+    },
+
+    "phase_3_completion": {
+      "phase_name": "Divine Alignment",
+      "act1_timing": "Late Act 1 (Levels 16-20)",
+      "trials_available": 1,
+      "story_context": "Final trial completion and positioning confirmation",
+      "player_preparation": {
+        "final_choice": "Last primal trial determines final archetype",
+        "alignment_confirmation": "Full divine positioning established",
+        "power_activation": "Divine alignment buffs fully activate"
+      },
+      "available_trials": [
+        {
+          "trial_type": "primal_completion",
+          "final_trial": "Third primal god trial completion",
+          "choice_impact": "Finalizes all 49 possible character archetypes",
+          "player_discovery": "Player-driven completion of their chosen cosmic path"
+        }
+      ]
+    }
+  },
+
+  "trial_tracking_system": {
+    "fundamental_trials": {
+      "pyrion_trial": {
+        "trial_status": "not_started | in_progress | completed",
+        "element_choice": "fire | cold | lightning",
+        "choice_description": "Any element can be chosen - trial teaches elemental mastery through creation",
+        "completion_level": "PLACEHOLDER - Level requirement",
+        "discovery_method": "PLACEHOLDER - How players discover this trial (exploration, rumors, optional quests)",
+        "location": "PLACEHOLDER - Trial location",
+        "mechanics": "PLACEHOLDER - Trial mechanics description",
+        "repeat_mechanics": "Trial can be repeated to change element choice, but provides no additional bonuses"
+      },
+      "glacius_trial": {
+        "trial_status": "not_started | in_progress | completed", 
+        "element_choice": "fire | cold | lightning",
+        "choice_description": "Any element can be chosen - trial teaches elemental mastery through preservation",
+        "completion_level": "PLACEHOLDER - Level requirement",
+        "discovery_method": "PLACEHOLDER - How players discover this trial (exploration, rumors, optional quests)",
+        "location": "PLACEHOLDER - Trial location",
+        "mechanics": "PLACEHOLDER - Trial mechanics description",
+        "repeat_mechanics": "Trial can be repeated to change element choice, but provides no additional bonuses"
+      },
+      "voltharion_trial": {
+        "trial_status": "not_started | in_progress | completed",
+        "element_choice": "fire | cold | lightning",
+        "choice_description": "Any element can be chosen - trial teaches elemental mastery through connection",
+        "completion_level": "PLACEHOLDER - Level requirement",
+        "discovery_method": "PLACEHOLDER - How players discover this trial (exploration, rumors, optional quests)",
+        "location": "PLACEHOLDER - Trial location",
+        "mechanics": "PLACEHOLDER - Trial mechanics description",
+        "repeat_mechanics": "Trial can be repeated to change element choice, but provides no additional bonuses"
+      }
+    },
+
+    "primal_trials": {
+      "serafina_trial": {
+        "trial_status": "not_started | in_progress | completed",
+        "opposition_choice": "follow | oppose",
+        "choice_description": "Choose to follow or oppose Serafina's revolutionary change philosophy",
+        "completion_level": "PLACEHOLDER - Level requirement", 
+        "discovery_method": "PLACEHOLDER - How players discover this trial (exploration, rumors, optional quests)",
+        "location": "PLACEHOLDER - Trial location",
+        "mechanics": "PLACEHOLDER - Trial mechanics description",
+        "repeat_mechanics": "Trial can be repeated to change follow/oppose choice, but provides no additional bonuses"
+      },
+      "aurelius_trial": {
+        "trial_status": "not_started | in_progress | completed",
+        "opposition_choice": "follow | oppose",
+        "choice_description": "Choose to follow or oppose Aurelius's protective order philosophy",
+        "completion_level": "PLACEHOLDER - Level requirement",
+        "discovery_method": "PLACEHOLDER - How players discover this trial (exploration, rumors, optional quests)", 
+        "location": "PLACEHOLDER - Trial location",
+        "mechanics": "PLACEHOLDER - Trial mechanics description",
+        "repeat_mechanics": "Trial can be repeated to change follow/oppose choice, but provides no additional bonuses"
+      },
+      "korthak_trial": {
+        "trial_status": "not_started | in_progress | completed",
+        "opposition_choice": "follow | oppose",
+        "choice_description": "Choose to follow or oppose Korthak's traditional strength philosophy",
+        "completion_level": "PLACEHOLDER - Level requirement",
+        "discovery_method": "PLACEHOLDER - How players discover this trial (exploration, rumors, optional quests)",
+        "location": "PLACEHOLDER - Trial location", 
+        "mechanics": "PLACEHOLDER - Trial mechanics description",
+        "repeat_mechanics": "Trial can be repeated to change follow/oppose choice, but provides no additional bonuses"
+      }
+    }
+  },
+
+  "trial_completion_mechanics": {
+    "elemental_trial_design": {
+      "universal_access": "Each fundamental trial (Pyrion, Glacius, Voltharion) allows choosing any element (fire, cold, lightning)",
+      "thematic_approach": "Each god teaches elemental mastery through their unique perspective (creation, preservation, connection)",
+      "choice_freedom": "Players can choose any element regardless of which god's trial they're completing",
+      "mechanical_equality": "All elemental choices provide equivalent mechanical benefits"
+    },
+
+    "trial_repetition_system": {
+      "choice_modification": "Players can repeat any completed trial to change their previous choice",
+      "no_stacking_bonuses": "Repeating trials provides no additional rewards or bonuses beyond choice modification",
+      "positioning_update": "Changed choices immediately update divine alignment positioning and archetype calculation",
+      "cost_consideration": "PLACEHOLDER - Potential resource cost or cooldown for trial repetition"
+    },
+
+    "completion_tracking": {
+      "one_time_rewards": "Each trial provides its full reward package only on first completion",
+      "choice_recording": "System tracks most recent choice made in each trial",
+      "archetype_calculation": "Final divine alignment based on current choices, not completion history",
+      "flexibility_emphasis": "System encourages experimentation and character development over permanent lock-in"
+    }
+  },
+
+  "progression_rewards": {
+    "trial_completion_bonuses": {
+      "immediate_rewards": {
+        "experience_bonus": "PLACEHOLDER - XP reward per trial",
+        "attribute_enhancement": "PLACEHOLDER - Temporary attribute boosts",
+        "skill_unlock": "PLACEHOLDER - Trial-specific skill unlocks"
+      },
+      "cumulative_bonuses": {
+        "divine_favor": "PLACEHOLDER - Progressive divine favor system",
+        "cosmic_awareness": "PLACEHOLDER - Growing cosmic understanding",
+        "power_manifestation": "PLACEHOLDER - Early divine power manifestations"
+      }
+    },
+
+    "alignment_establishment": {
+      "elemental_pattern_rewards": {
+        "pattern_recognition": "Player receives notification of their elemental affinity pattern",
+        "hexagonal_positioning": "Elemental layer position within hexagonal architecture revealed",
+        "preview_benefits": "Preview of final elemental affinity benefits"
+      },
+      "primal_pattern_rewards": {
+        "pattern_recognition": "Player receives notification of their primal opposition pattern", 
+        "hexagonal_positioning": "Primal layer position within hexagonal architecture revealed",
+        "preview_benefits": "Preview of final primal pattern benefits"
+      },
+      "final_archetype": {
+        "archetype_revelation": "Final character archetype (1 of 49) fully revealed",
+        "complete_positioning": "Full hexagonal layer positioning established",
+        "power_activation": "All divine alignment buffs activate"
+      }
+    }
+  },
+
+  "choice_guidance_system": {
+    "decision_support": {
+      "elemental_choice_clarity": {
+        "universal_options": "All fundamental trials offer the same three elemental choices (fire, cold, lightning)",
+        "thematic_context": "Each god provides unique perspective on elemental mastery without restricting choice",
+        "mechanical_equivalence": "All elemental choices provide equal mechanical benefits regardless of trial source"
+      },
+      "consequence_preview": {
+        "pattern_formation": "Show how elemental and primal choices combine to form final patterns",
+        "archetype_preview": "Preview potential final archetypes based on current choices",
+        "positioning_impact": "Display hexagonal layer positioning implications"
+      },
+      "strategic_planning": {
+        "build_compatibility": "Show how choices align with current character build",
+        "roleplay_support": "Highlight roleplay implications of different choices",
+        "change_flexibility": "Emphasize that choices can be modified through trial repetition"
+      }
+    },
+
+    "player_agency": {
+      "choice_freedom": "All choices remain player-driven with clear consequences and modification options",
+      "build_viability": "All 49 combinations remain mechanically viable",
+      "roleplay_flexibility": "Support for diverse character personalities and evolving motivations",
+      "experimentation_encouragement": "Trial repetition system supports character growth and experimentation"
+    }
+  },
+
+  "integration_points": {
+    "player_driven_discovery": {
+      "exploration_rewards": "PLACEHOLDER - How trials are discovered through world exploration",
+      "optional_questlines": "PLACEHOLDER - Optional quest chains that lead to trial discovery", 
+      "world_lore": "PLACEHOLDER - How trials reveal world lore without main story dependency"
+    },
+
+    "mechanical_integration": {
+      "character_progression": "Trial rewards integrate with normal leveling system",
+      "skill_development": "Trial-specific skills complement class abilities", 
+      "equipment_synergy": "Trial rewards synergize with character equipment"
+    },
+
+    "social_integration": {
+      "npc_reactions": "NPCs react to player's trial choices and divine positioning",
+      "faction_relationships": "Divine alignment affects faction standing",
+      "environmental_responses": "World responds to player's cosmic positioning"
+    },
+
+    "island_story_potential": {
+      "maximum_integration": "Island story arcs may have deeper trial integration if needed",
+      "contained_impact": "Any story integration remains contained to specific locations/arcs",
+      "player_choice_emphasis": "Story integration always supports player agency rather than forcing progression"
+    }
+  },
+
+  "validation_systems": {
+    "progression_gates": {
+      "level_requirements": "Minimum levels for accessing each trial phase",
+      "discovery_prerequisites": "Exploration or optional quest completion for trial access",
+      "choice_constraints": "System enforces 'must oppose at least one primal' rule"
+    },
+
+    "completion_tracking": {
+      "trial_verification": "System tracks all 6 trial completions and current choices",
+      "choice_validation": "Validates all elemental and primal choices made in most recent completions",
+      "archetype_calculation": "Automatically calculates final archetype from current choices",
+      "repetition_tracking": "Tracks trial repetitions separately from reward eligibility"
+    },
+
+    "trial_repetition_validation": {
+      "completion_requirement": "Trials must be completed once before repetition is allowed",
+      "choice_modification": "Only choice modification allowed on repetition, no bonus rewards",
+      "cooldown_enforcement": "PLACEHOLDER - Potential cooldown or cost validation for repetitions",
+      "positioning_update": "Immediate validation and update of divine alignment positioning"
+    }
+  },
+
+  "metadata": {
+    "created": "2025-08-05T00:00:00Z",
+    "last_updated": "2025-08-05T00:00:00Z", 
+    "author": "PrimalMyst Development Team",
+    "version": "1.0.0",
+    "canonical": true,
+    "system_type": "progression_mechanics",
+    "parent_systems": ["divine-alignment-buffs-system", "divine-trial-progression-requirements"],
+    "related_systems": ["character-progression", "story-structure", "hexagonal-architecture"]
+  }
+}

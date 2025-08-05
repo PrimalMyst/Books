@@ -1,31 +1,31 @@
 {
   "system_id": "divine-trial-progression-requirements",
   "name": "Divine Trial Progression Requirements",
-  "description": "Mandatory progression timeline and requirements for divine trial completion within the story structure.",
-  "design_philosophy": "Ensures all players experience the full divine positioning system as integral story content rather than optional side activities.",
+  "description": "Optional progression timeline and player choice opportunities for divine trial completion within flexible story structure.",
+  "design_philosophy": "Provides comprehensive divine positioning system through player-driven exploration and choice, with trials discoverable through optional content rather than mandatory story progression.",
 
-  "mandatory_progression_timeline": {
-    "act1_completion_requirement": {
-      "description": "All players must complete their full divine positioning by the end of Act 1",
-      "fundamental_trio_completion": "All three Fundamental God trials (Pyrion, Glacius, Voltharion) must be completed during Act 1",
-      "primal_trio_completion": "All three Primal God trials (Serafina, Aurelius, Korthak) must be completed during Act 1",
-      "positioning_determination": "Player's elemental affinity pattern and primal opposition pattern are permanently established at Act 1 conclusion",
-      "story_integration": "Divine positioning becomes integral to character identity and capabilities for Acts 2-3",
-      "no_postponement": "Players cannot defer divine trial completion - all six trials are mandatory Act 1 content"
+  "optional_progression_timeline": {
+    "act1_completion_opportunity": {
+      "description": "Players have the opportunity to complete their full divine positioning by the end of Act 1 through exploration and choice",
+      "fundamental_trio_discovery": "All three Fundamental God trials (Pyrion, Glacius, Voltharion) can be discovered and completed during Act 1",
+      "primal_trio_discovery": "All three Primal God trials (Serafina, Aurelius, Korthak) can be discovered and completed during Act 1",
+      "positioning_determination": "Player's elemental affinity pattern and primal opposition pattern develop based on their chosen trial experiences",
+      "character_enhancement": "Divine positioning enhances character identity and capabilities for Acts 2-3",
+      "player_agency": "Players choose whether and how to engage with divine trial content based on their interests"
     },
     
     "trial_distribution": {
-      "early_act1": "Introduction to divine trial concepts and first trial experiences",
-      "mid_act1": "Active trial completion phase with player choice opportunities", 
-      "late_act1": "Final trial completions and positioning confirmation",
-      "act1_conclusion": "Full divine alignment buffs activate, character archetypes locked in"
+      "early_act1": "Introduction to divine trial concepts through exploration and optional discovery",
+      "mid_act1": "Active trial completion opportunities through player choice and initiative", 
+      "late_act1": "Final trial completion opportunities and positioning confirmation available",
+      "act1_conclusion": "Divine alignment buffs activate for completed trials, character archetypes develop based on choices"
     },
 
-    "mechanical_enforcement": {
-      "story_gates": "Act 2 content requires completed divine positioning",
-      "character_progression": "Divine alignment bonuses essential for Act 2+ challenges",
-      "narrative_continuity": "Character's divine relationships established for cosmic storyline",
-      "hexagonal_integration": "Full hexagonal layer positioning needed for advanced character development"
+    "mechanical_enhancement": {
+      "character_benefits": "Divine positioning provides character enhancement opportunities",
+      "advanced_content": "Divine alignment unlocks additional character development options",
+      "cosmic_participation": "Character's divine relationships enable participation in cosmic storylines",
+      "hexagonal_integration": "Hexagonal layer positioning enhances character development potential"
     }
   },
 
@@ -33,84 +33,84 @@
     "fundamental_trials": {
       "pyrion_trial": {
         "element_choice": "Fire/Cold/Lightning selection determines elemental affinity pattern",
-        "completion_status": "Required for Act 1 progression",
-        "story_impact": "Establishes relationship with creation aspects"
+        "completion_status": "Optional enhancement for character development",
+        "character_impact": "Establishes relationship with creation aspects when chosen"
       },
       "glacius_trial": {
         "element_choice": "Fire/Cold/Lightning selection determines elemental affinity pattern",
-        "completion_status": "Required for Act 1 progression", 
-        "story_impact": "Establishes relationship with preservation aspects"
+        "completion_status": "Optional enhancement for character development", 
+        "character_impact": "Establishes relationship with preservation aspects when chosen"
       },
       "voltharion_trial": {
         "element_choice": "Fire/Cold/Lightning selection determines elemental affinity pattern",
-        "completion_status": "Required for Act 1 progression",
-        "story_impact": "Establishes relationship with connection aspects"
+        "completion_status": "Optional enhancement for character development",
+        "character_impact": "Establishes relationship with connection aspects when chosen"
       }
     },
     
     "primal_trials": {
       "serafina_trial": {
         "opposition_choice": "Follow/Oppose selection determines primal opposition pattern",
-        "completion_status": "Required for Act 1 progression",
-        "story_impact": "Establishes relationship with revolutionary change"
+        "completion_status": "Optional enhancement for character development",
+        "character_impact": "Establishes relationship with revolutionary change when chosen"
       },
       "aurelius_trial": {
         "opposition_choice": "Follow/Oppose selection determines primal opposition pattern", 
-        "completion_status": "Required for Act 1 progression",
-        "story_impact": "Establishes relationship with protective order"
+        "completion_status": "Optional enhancement for character development",
+        "character_impact": "Establishes relationship with protective order when chosen"
       },
       "korthak_trial": {
         "opposition_choice": "Follow/Oppose selection determines primal opposition pattern",
-        "completion_status": "Required for Act 1 progression", 
-        "story_impact": "Establishes relationship with traditional strength"
+        "completion_status": "Optional enhancement for character development", 
+        "character_impact": "Establishes relationship with traditional strength when chosen"
       }
     }
   },
 
-  "story_integration_points": {
+  "discovery_integration_points": {
     "act1_phases": {
       "phase1_introduction": {
-        "trials_available": "First exposure to divine trial concepts",
-        "player_preparation": "Understanding divine positioning implications",
-        "story_context": "Introduction to eldritch gods and cosmic forces"
+        "trials_available": "First exposure to divine trial concepts through exploration",
+        "player_preparation": "Understanding divine positioning opportunities through choice",
+        "discovery_context": "Introduction to eldritch gods and cosmic forces through world exploration"
       },
-      "phase2_active_trials": {
-        "trials_available": "2-4 trials typically completed",
-        "player_preparation": "Active choice-making phase for positioning",
-        "story_context": "Direct interaction with divine forces and trial challenges"
+      "phase2_active_discovery": {
+        "trials_available": "2-4 trials discoverable through player initiative",
+        "player_preparation": "Active choice-making opportunities for positioning",
+        "discovery_context": "Direct interaction with divine forces through optional trial challenges"
       },
       "phase3_completion": {
-        "trials_available": "Final trials completed to reach mandatory 6 total",
-        "player_preparation": "Confirmation of final divine positioning",
-        "story_context": "Preparation for cosmic challenges in Acts 2-3"
+        "trials_available": "Remaining trials discoverable to complete positioning if desired",
+        "player_preparation": "Confirmation of chosen divine positioning",
+        "discovery_context": "Preparation for cosmic challenges in Acts 2-3 through enhanced character development"
       }
     },
 
-    "act2_prerequisites": {
-      "divine_positioning_complete": "All 6 trials completed with confirmed elemental and primal patterns",
-      "hexagonal_layer_access": "Player's hexagonal layer positioning established for advanced content",
-      "character_archetype_locked": "One of 49 unique divine alignment combinations permanently established",
-      "cosmic_authority_granted": "Divine relationships enable participation in cosmic storyline"
+    "character_enhancement_opportunities": {
+      "divine_positioning_benefits": "Completed trials provide confirmed elemental and primal patterns",
+      "hexagonal_layer_access": "Player's hexagonal layer positioning enhances advanced content access",
+      "character_archetype_development": "One of 49 unique divine alignment combinations available through choice",
+      "cosmic_authority_options": "Divine relationships enable participation in cosmic storylines when desired"
     }
   },
 
-  "enforcement_mechanisms": {
-    "progression_gates": {
-      "story_checkpoints": "Key story moments require divine positioning confirmation",
-      "character_development": "Advanced abilities require divine alignment foundation",
-      "cosmic_participation": "Major cosmic events require established divine relationships"
+  "player_choice_emphasis": {
+    "discovery_methods": {
+      "exploration_rewards": "Trials discovered through world exploration and investigation",
+      "optional_questlines": "Trial access through optional side quests and character-driven content", 
+      "social_interaction": "Trial discovery through NPC relationships and faction interactions"
     },
 
     "player_guidance": {
-      "trial_tracking": "Clear indication of completed vs remaining trials",
-      "choice_consequences": "Preview of how trial choices affect final positioning",
-      "positioning_clarity": "Understanding of hexagonal layer implications"
+      "trial_awareness": "Clear indication of available vs discovered trials",
+      "choice_consequences": "Preview of how trial choices affect character development",
+      "positioning_benefits": "Understanding of divine alignment enhancement opportunities"
     },
 
-    "narrative_integration": {
-      "character_identity": "Divine positioning becomes core character identity element",
-      "relationship_dynamics": "NPC interactions reflect divine alignment choices",
-      "cosmic_preparation": "Character's divine relationships prepare them for cosmic challenges"
+    "character_integration": {
+      "identity_enhancement": "Divine positioning enhances character identity when chosen",
+      "relationship_dynamics": "NPC interactions reflect divine alignment choices made",
+      "cosmic_opportunities": "Character's divine relationships provide cosmic storyline access when desired"
     }
   },
 
