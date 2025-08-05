@@ -415,16 +415,16 @@
     },
 
     "hexagonal_system_integration": {
-      "description": "Divine alignment determines hexagonal layer positioning which stacks with character class hexagonal bonuses",
-      "stacking_rules": "Divine layer bonuses enhance character class position bonuses within the same hexagonal framework",
+      "description": "Divine alignment determines hexagonal layer positioning exclusively through divine trial completion",
+      "independence_design": "Divine positioning is completely separate from character class mechanics",
       "choice_freedom": "Players choose their hexagonal positioning through trial choices rather than external assignment",
       "trial_unlocks": "Trial completion determines permanent hexagonal layer access and positioning"
     },
 
-    "character_class_synergies": {
-      "fundamental_matching": "Characters whose class origin matches their elemental affinity receive enhanced synergy",
-      "primal_contrast": "Characters whose primal pattern differs from their class philosophy create interesting roleplay opportunities",
-      "mechanical_balance": "All elemental-primal combinations remain viable and mechanically balanced"
+    "origin_island_inheritance": {
+      "attribute_source": "Character classes inherit attribute growth patterns from their origin island hexagonal position",
+      "island_positioning": "Starting island determines hexagonal-based attribute development independent of divine trials",
+      "class_mechanics": "Classes provide ascendancy anchors and basic mechanics without hexagonal positioning benefits"
     },
 
     "environmental_interactions": {
