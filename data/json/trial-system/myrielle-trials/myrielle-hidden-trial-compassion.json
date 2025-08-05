@@ -1,0 +1,177 @@
+{
+  "id": "myrielle-hidden-trial-compassion",
+  "title": "The Hidden Trial of Compassion - Myrielle's First Test",
+  "trial_category": "myrielle_trials",
+  "act": 2,
+  "trial_sequence": 1,
+  "governing_entity": "myrielle",
+  "location": {
+    "type": "hidden",
+    "discovery_method": "Myrielle's guidance leads to ancient site",
+    "accessibility": "secret",
+    "appearance": "Ancient ruins with subtle signs of The Hidden One's presence"
+  },
+  
+  "prerequisites": {
+    "divine_immunity_complete": true,
+    "required_divine_trials": [
+      "pyrion-forge-trial-of-creation",
+      "glacius-archive-trial-of-preservation", 
+      "voltharion-web-trial-of-connection",
+      "serafina-court-trial-of-chaos",
+      "aurelius-sanctuary-trial-of-radiance",
+      "korthak-arena-trial-of-might"
+    ],
+    "minimum_level": 40,
+    "cosmic_readiness": "Beginning awareness of cosmic responsibility",
+    "guild_rank": "A-rank or higher with special recognition",
+    "special_requirements": [
+      "Must have demonstrated selfless behavior in multiple situations",
+      "Evidence of placing others' welfare above personal gain",
+      "Recognition by local communities as protector and helper"
+    ]
+  },
+
+  "trial_structure": {
+    "discovery_phase": {
+      "trigger": "Myrielle's essence guides character to hidden location during moment of personal reflection",
+      "manifestation": "Subtle environmental changes lead to revelation of ancient trial site",
+      "preparation_time": "Character has time to understand the significance before trial begins"
+    },
+    "challenge_type": "moral_choice_with_sacrifice",
+    "difficulty_scaling": "cosmic_level",
+    "time_limit": {
+      "has_limit": false,
+      "contemplation_encouraged": true,
+      "urgency": "none"
+    }
+  },
+
+  "trial_challenge": {
+    "core_test": "Character must choose to sacrifice significant personal power or resources to save strangers in dire need",
+    "scenario": "A disaster threatens innocent lives, and the only way to save them requires giving up recently gained divine abilities or cosmic authority",
+    "complexity": "The sacrifice is permanent and meaningful - character loses real progression",
+    "hidden_purpose": "Testing willingness to use power for others rather than personal advancement",
+    "moral_framework": "No wrong choice exists, but Myrielle seeks those who naturally choose sacrifice for strangers"
+  },
+
+  "completion_criteria": {
+    "success_condition": "Character chooses to sacrifice personal power to save the innocent",
+    "alternative_outcomes": [
+      {
+        "choice": "Refuse sacrifice, save personal power",
+        "result": "Trial fails, but no punishment - character simply isn't ready for cosmic responsibility",
+        "retry_possibility": "Can retry after demonstrating growth through other means"
+      },
+      {
+        "choice": "Attempt compromise solution",
+        "result": "Partial success - gains partial ascendency progress but must face additional tests"
+      }
+    ],
+    "myrielle_response": "Direct but gentle appearance to acknowledge the choice and explain its cosmic significance"
+  },
+
+  "completion_rewards": {
+    "ascendency_points": 1,
+    "cosmic_transformation": {
+      "level": "initiated",
+      "description": "Beginning cosmic awareness and connection to Myrielle's consciousness",
+      "abilities": [
+        "Enhanced perception of others' needs and suffering",
+        "Subtle reality manipulation for protective purposes",
+        "Resistance to cosmic-level mental effects"
+      ]
+    },
+    "hidden_knowledge": {
+      "cosmic_structure": "First glimpses of reality instance mechanics",
+      "divine_vulnerability": "Understanding that gods can be challenged by worthy mortals",
+      "myrielle_nature": "Partial revelation of Myrielle's true purpose and sacrificial nature"
+    },
+    "power_restoration": {
+      "mechanism": "Myrielle secretly restores the sacrificed power with cosmic enhancement",
+      "enhancement": "Restored abilities are now cosmic-level rather than merely divine",
+      "hidden_nature": "Character doesn't immediately realize the restoration is enhanced"
+    }
+  },
+
+  "world_impact": {
+    "type": "divine_acknowledgment_tremor",
+    "reference": "trial-system-core.json#shared_world_mechanics",
+    "specific_effects": {
+      "monster_level_increase": "+6 minimum level worldwide",
+      "mystical_signature": "Mysterious cosmic energy with no clear divine source",
+      "community_response": "Confusion about source but recognition of character's increased mystique",
+      "reality_weakening": "Slight reduction in barriers between reality instances"
+    },
+    "hidden_purpose": "Prepares world for cosmic-level conflicts while concealing Myrielle's involvement"
+  },
+
+  "companion_integration": {
+    "companion_role": "Cosmic witness and moral support",
+    "evolution_potential": {
+      "awareness_enhancement": "Begins to perceive cosmic significance of events",
+      "reality_anchoring": "Develops ability to help character maintain identity during cosmic trials",
+      "myrielle_connection": "Subtle link to Myrielle's consciousness for guidance"
+    },
+    "bond_strengthening": "Shared cosmic experience deepens practitioner-companion relationship beyond normal divine approval"
+  },
+
+  "narrative_elements": {
+    "thematic_focus": "The nature of true power - using strength to protect rather than advance oneself",
+    "moral_questions": [
+      "What is the purpose of gaining power if not to help others?",
+      "How much are you willing to sacrifice for strangers?",
+      "Does cosmic responsibility require personal sacrifice?"
+    ],
+    "character_development": "Forces examination of motivations and establishes cosmic-level moral framework",
+    "mystery_elements": [
+      "Why does Myrielle care about mortal moral choices?",
+      "What cosmic responsibility is the character being prepared for?",
+      "How do these trials relate to the growing divine tensions?"
+    ]
+  },
+
+  "social_impact": {
+    "community_recognition": "Character gains reputation as mysterious protector with unknown power source",
+    "political_implications": "Growing influence and authority without clear explanation",
+    "relationship_effects": "Deepened bonds with those who witnessed the sacrifice",
+    "mystery_enhancement": "Increased questions about character's true nature and capabilities"
+  },
+
+  "cosmic_significance": {
+    "preparation_purpose": "Establishes character's readiness to wield cosmic power responsibly",
+    "consciousness_development": "Begins transformation toward being capable of preserving consciousness across reality instances",
+    "champion_evaluation": "First test of worthiness for eventual God-Slayer status",
+    "reality_bridge": "Begins process of creating being capable of surviving cosmic transitions"
+  },
+
+  "related_content": {
+    "prerequisite_trials": "All six divine trials",
+    "connected_trials": [
+      "myrielle-hidden-trial-wisdom",
+      "myrielle-hidden-trial-sacrifice"
+    ],
+    "story_integration": [
+      "act2-eldritch-ascension.json",
+      "pantheon-trials-positioning.json"
+    ]
+  },
+
+  "implementation_notes": {
+    "secrecy_mechanics": "Trial location and nature remain hidden until character demonstrates readiness",
+    "scaling_considerations": "Trial difficulty adapts to character's current power level and divine relationships",
+    "failure_handling": "Failed trials don't block progression but delay cosmic transformation",
+    "discovery_triggers": "Multiple possible scenarios can lead to trial discovery based on character choices"
+  },
+
+  "metadata": {
+    "created": "2025-08-05T00:00:00Z",
+    "last_updated": "2025-08-05T00:00:00Z",
+    "author": "PrimalMyst Development Team", 
+    "version": "1.0.0",
+    "canonical": true,
+    "trial_type": "hidden_cosmic",
+    "difficulty_rating": "advanced",
+    "cosmic_significance": "high"
+  }
+}
