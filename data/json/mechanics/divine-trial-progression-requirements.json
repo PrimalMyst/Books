@@ -1,0 +1,140 @@
+{
+  "system_id": "divine-trial-progression-requirements",
+  "name": "Divine Trial Progression Requirements",
+  "description": "Mandatory progression timeline and requirements for divine trial completion within the story structure.",
+  "design_philosophy": "Ensures all players experience the full divine positioning system as integral story content rather than optional side activities.",
+
+  "mandatory_progression_timeline": {
+    "act1_completion_requirement": {
+      "description": "All players must complete their full divine positioning by the end of Act 1",
+      "fundamental_trio_completion": "All three Fundamental God trials (Pyrion, Glacius, Voltharion) must be completed during Act 1",
+      "primal_trio_completion": "All three Primal God trials (Serafina, Aurelius, Korthak) must be completed during Act 1",
+      "positioning_determination": "Player's elemental affinity pattern and primal opposition pattern are permanently established at Act 1 conclusion",
+      "story_integration": "Divine positioning becomes integral to character identity and capabilities for Acts 2-3",
+      "no_postponement": "Players cannot defer divine trial completion - all six trials are mandatory Act 1 content"
+    },
+    
+    "trial_distribution": {
+      "early_act1": "Introduction to divine trial concepts and first trial experiences",
+      "mid_act1": "Active trial completion phase with player choice opportunities", 
+      "late_act1": "Final trial completions and positioning confirmation",
+      "act1_conclusion": "Full divine alignment buffs activate, character archetypes locked in"
+    },
+
+    "mechanical_enforcement": {
+      "story_gates": "Act 2 content requires completed divine positioning",
+      "character_progression": "Divine alignment bonuses essential for Act 2+ challenges",
+      "narrative_continuity": "Character's divine relationships established for cosmic storyline",
+      "hexagonal_integration": "Full hexagonal layer positioning needed for advanced character development"
+    }
+  },
+
+  "trial_completion_tracking": {
+    "fundamental_trials": {
+      "pyrion_trial": {
+        "element_choice": "Fire/Cold/Lightning selection determines elemental affinity pattern",
+        "completion_status": "Required for Act 1 progression",
+        "story_impact": "Establishes relationship with creation aspects"
+      },
+      "glacius_trial": {
+        "element_choice": "Fire/Cold/Lightning selection determines elemental affinity pattern",
+        "completion_status": "Required for Act 1 progression", 
+        "story_impact": "Establishes relationship with preservation aspects"
+      },
+      "voltharion_trial": {
+        "element_choice": "Fire/Cold/Lightning selection determines elemental affinity pattern",
+        "completion_status": "Required for Act 1 progression",
+        "story_impact": "Establishes relationship with connection aspects"
+      }
+    },
+    
+    "primal_trials": {
+      "serafina_trial": {
+        "opposition_choice": "Follow/Oppose selection determines primal opposition pattern",
+        "completion_status": "Required for Act 1 progression",
+        "story_impact": "Establishes relationship with revolutionary change"
+      },
+      "aurelius_trial": {
+        "opposition_choice": "Follow/Oppose selection determines primal opposition pattern", 
+        "completion_status": "Required for Act 1 progression",
+        "story_impact": "Establishes relationship with protective order"
+      },
+      "korthak_trial": {
+        "opposition_choice": "Follow/Oppose selection determines primal opposition pattern",
+        "completion_status": "Required for Act 1 progression", 
+        "story_impact": "Establishes relationship with traditional strength"
+      }
+    }
+  },
+
+  "story_integration_points": {
+    "act1_phases": {
+      "phase1_introduction": {
+        "trials_available": "First exposure to divine trial concepts",
+        "player_preparation": "Understanding divine positioning implications",
+        "story_context": "Introduction to eldritch gods and cosmic forces"
+      },
+      "phase2_active_trials": {
+        "trials_available": "2-4 trials typically completed",
+        "player_preparation": "Active choice-making phase for positioning",
+        "story_context": "Direct interaction with divine forces and trial challenges"
+      },
+      "phase3_completion": {
+        "trials_available": "Final trials completed to reach mandatory 6 total",
+        "player_preparation": "Confirmation of final divine positioning",
+        "story_context": "Preparation for cosmic challenges in Acts 2-3"
+      }
+    },
+
+    "act2_prerequisites": {
+      "divine_positioning_complete": "All 6 trials completed with confirmed elemental and primal patterns",
+      "hexagonal_layer_access": "Player's hexagonal layer positioning established for advanced content",
+      "character_archetype_locked": "One of 49 unique divine alignment combinations permanently established",
+      "cosmic_authority_granted": "Divine relationships enable participation in cosmic storyline"
+    }
+  },
+
+  "enforcement_mechanisms": {
+    "progression_gates": {
+      "story_checkpoints": "Key story moments require divine positioning confirmation",
+      "character_development": "Advanced abilities require divine alignment foundation",
+      "cosmic_participation": "Major cosmic events require established divine relationships"
+    },
+
+    "player_guidance": {
+      "trial_tracking": "Clear indication of completed vs remaining trials",
+      "choice_consequences": "Preview of how trial choices affect final positioning",
+      "positioning_clarity": "Understanding of hexagonal layer implications"
+    },
+
+    "narrative_integration": {
+      "character_identity": "Divine positioning becomes core character identity element",
+      "relationship_dynamics": "NPC interactions reflect divine alignment choices",
+      "cosmic_preparation": "Character's divine relationships prepare them for cosmic challenges"
+    }
+  },
+
+  "system_references": {
+    "core_systems": [
+      "divine-alignment-buffs-system",
+      "trial-system-core", 
+      "core_thematic_hexagon_system",
+      "story-structure-progression"
+    ],
+    "related_mechanics": [
+      "hexagonal-architecture-integration",
+      "character-archetype-combinations",
+      "npc-relationship-systems"
+    ]
+  },
+
+  "metadata": {
+    "created": "2025-08-05T00:00:00Z",
+    "last_updated": "2025-08-05T00:00:00Z",
+    "author": "PrimalMyst Development Team",
+    "version": "1.0.0",
+    "canonical": true,
+    "system_type": "progression_requirements",
+    "parent_system": "divine-alignment-buffs-system"
+  }
+}
