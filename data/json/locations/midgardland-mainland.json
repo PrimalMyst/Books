@@ -5,21 +5,21 @@
   "region": "Central World",
   "significance": "cosmic-center",
   "description": {
-    "brief": "The central mainland of PrimalMyst where Yggdrasil grows, serving as neutral ground where all divine influences meet in balance.",
-    "detailed": "Midgardland is the heart of the mortal world, a vast circular continent approximately 500 miles in diameter with Yggdrasil rising majestically from its exact center. This mainland serves as neutral territory where representatives of all six divine traditions can coexist and interact. The land is blessed with balanced divine influence - no single god dominates, but all six can be felt and accessed. Six great coastal cities serve as gateways to their corresponding island realms, while the interior holds the world's most important diplomatic and spiritual centers. The presence of Yggdrasil makes this the most mystically active location in the mortal world, where mists from all six realms converge and create unique opportunities for those skilled in multiple divine traditions.",
-    "atmosphere": "A sense of cosmic balance and limitless possibility, where every divine path remains open to those with dedication and wisdom"
+    "brief": "The central mainland of PrimalMyst where Yggdrasil grows, serving as neutral ground where all six Eldritch God influences meet in balance.",
+    "detailed": "Midgardland is the heart of the mortal world, a vast circular continent approximately 500 miles in diameter with Yggdrasil rising majestically from its exact center. This mainland serves as neutral territory where representatives of all six Eldritch God traditions can coexist and interact. The land is blessed with balanced eldritch divine influence - no single Eldritch God dominates, but all six can be felt and accessed. Six great coastal cities serve as gateways to their corresponding island realms, while the interior holds the world's most important diplomatic and spiritual centers. The presence of Yggdrasil makes this the most mystically active location in the mortal world, where mists from all six realms converge and create unique opportunities for those skilled in multiple eldritch divine traditions.",
+    "atmosphere": "A sense of cosmic balance and limitless possibility, where every eldritch divine path remains open to those with dedication and wisdom"
   },
   "geography": {
     "terrain": "Rolling hills and fertile plains radiating outward from Yggdrasil's base",
     "climate": "Temperate and stable, with mystical weather patterns that reflect cosmic breathing patterns",
     "size": "Approximately 500 miles diameter",
-    "borders": "Surrounded by the six straits leading to the divine island realms"
+    "borders": "Surrounded by the six straits leading to the Eldritch God island realms"
   },
   "key_locations": [
     {
       "name": "The Tree's Heart",
       "description": "The base of Yggdrasil itself, the most sacred location in the world",
-      "significance": "Cosmic center where all divine forces converge",
+      "significance": "Cosmic center where all Eldritch God forces converge",
       "access": "Open to all who approach with respect and genuine spiritual seeking"
     },
     {
@@ -49,7 +49,7 @@
     {
       "name": "Aurelius's Gate", 
       "description": "Southeastern coastal city facing the Radiant Straits and Aurelius's Isle",
-      "culture": "Healers and light mystics, providing sanctuary and divine wisdom",
+      "culture": "Healers and light mystics, providing sanctuary and eldritch divine wisdom",
       "harbor": "The Radiant Harbor - ships blessed with protective light and healing capabilities"
     },
     {
@@ -66,20 +66,20 @@
     },
     {
       "name": "The Neutral Halls",
-      "description": "Diplomatic centers where representatives from all divine traditions meet",
+      "description": "Diplomatic centers where representatives from all Eldritch God traditions meet",
       "significance": "Inter-realm politics, trade negotiations, and cultural exchange",
       "location": "Positioned equidistant between the six gates"
     }
   ],
-  "divine_influence": {
-    "balance_principle": "All six divine influences are present but balanced, preventing any single force from dominating",
+  "eldritch_divine_influence": {
+    "balance_principle": "All six Eldritch God influences are present but balanced, preventing any single force from dominating",
     "myrielle_presence": "Strongest at transition points - harbors, convergence fields, and diplomatic centers",
-    "mystical_opportunities": "Unique to being the only place where all divine traditions can be studied simultaneously",
-    "cosmic_significance": "Serves as the fulcrum point that maintains balance between the six divine forces"
+    "mystical_opportunities": "Unique to being the only place where all Eldritch God traditions can be studied simultaneously",
+    "cosmic_significance": "Serves as the fulcrum point that maintains balance between the six Eldritch God forces"
   },
   "cultural_aspects": {
-    "population": "Mixed communities representing all six divine traditions plus neutral scholars",
-    "governance": "Council of Six - representatives from each divine tradition plus neutral mediators",
+    "population": "Mixed communities representing all six Eldritch God traditions plus neutral scholars",
+    "governance": "Council of Six - representatives from each Eldritch God tradition plus neutral mediators",
     "economy": "Based on inter-realm trade, mystical services, and diplomatic activities",
     "education": "The world's premier institutions for multi-path mystical study",
     "festivals": "Regular celebrations honoring the cosmic balance and inter-realm cooperation"
@@ -93,9 +93,9 @@
       "act": 0,
       "description": "Available from character creation - the starting region"
     },
-    "divine_requirements": {
+    "eldritch_divine_requirements": {
       "needed": [],
-      "description": "No divine requirements - neutral ground accessible to all"
+      "description": "No Eldritch God requirements - neutral ground accessible to all"
     },
     "special_requirements": {
       "needed": [],
@@ -106,7 +106,7 @@
     "base_threat_rank": "E",
     "level_scaling": {
       "type": "safe_zone",
-      "description": "Heavily protected by divine balance - minimal threats in main areas"
+      "description": "Heavily protected by Eldritch God balance - minimal threats in main areas"
     },
     "environmental_hazards": [
       {
@@ -121,21 +121,21 @@
       {
         "name": "Convergence Storms",
         "rank": "C",
-        "description": "Rare events where all six divine influences clash, creating temporary dangerous zones",
+        "description": "Rare events where all six Eldritch God influences clash, creating temporary dangerous zones",
         "frequency": "monthly"
       }
     ]
   },
   "gameplay_significance": {
     "starting_location": "Most player characters begin their journey here",
-    "hub_function": "Central location for accessing all six divine paths and island realms",
-    "neutral_ground": "Safe space for players aligned with different divine traditions to interact",
-    "advanced_training": "Late-game location for mastering multiple divine influences simultaneously",
+    "hub_function": "Central location for accessing all six Eldritch God paths and island realms",
+    "neutral_ground": "Safe space for players aligned with different Eldritch God traditions to interact",
+    "advanced_training": "Late-game location for mastering multiple Eldritch God influences simultaneously",
     "endgame_content": "Critical location for cosmic events and multi-realm challenges"
   },
   "transportation": {
     "to_islands": "Regular ships depart from each gate city to its corresponding island realm",
-    "travel_time": "2-3 days by normal ship, faster with divine blessing or mystical enhancement",
+    "travel_time": "2-3 days by normal ship, faster with Eldritch God blessing or mystical enhancement",
     "mystical_routes": "Advanced mystics can travel instantly via Yggdrasil's branch network",
     "myrielle_guidance": "The Hidden One provides special transport during reality instance transitions"
   },

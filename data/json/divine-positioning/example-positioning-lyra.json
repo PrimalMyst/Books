@@ -6,25 +6,28 @@
       "element": "lightning",
       "embrace_name": "Wrath",
       "embrace_level": 1,
-      "altar_location": "pyrion_primordial_forge_altar",
+      "trial_location": "pyrion_divine_trial",
       "embrace_date": "2025-03-15T14:30:00Z",
-      "choice_explanation": "First embrace: chose Lightning/Wrath at Pyrion's Fire altar"
+      "choice_explanation": "First trial: chose Lightning/Wrath through Pyrion's trial of creative expression",
+      "discovery_method": "Found through exploration of Pyrion's island and rumors from local NPCs"
     },
     {
       "element": "fire", 
       "embrace_name": "Anger",
       "embrace_level": 1,
-      "altar_location": "glacius_eternal_memory_altar",
+      "trial_location": "glacius_divine_trial",
       "embrace_date": "2025-03-18T10:15:00Z",
-      "choice_explanation": "Second embrace: chose Fire/Anger at Glacius' Cold altar"
+      "choice_explanation": "Second trial: chose Fire/Anger through Glacius's trial of eternal preservation",
+      "discovery_method": "Discovered trial location through investigation of Glacius's preservation teachings"
     },
     {
       "element": "cold",
       "embrace_name": "Hatred", 
       "embrace_level": 1,
-      "altar_location": "voltharion_cosmic_spark_altar",
+      "trial_location": "voltharion_divine_trial",
       "embrace_date": "2025-03-20T09:30:00Z",
-      "choice_explanation": "Third embrace: chose Cold/Hatred at Voltharion's Lightning altar"
+      "choice_explanation": "Third trial: chose Cold/Hatred through Voltharion's trial of cosmic connection",
+      "discovery_method": "Found trial through optional quest chain about cosmic connections"
     }
   ],
   "fundamental_mastery": {
@@ -33,40 +36,44 @@
     "purity_of_elements": {
       "unlocked": true,
       "unlock_date": "2025-03-20T09:45:00Z",
-      "description": "Achieved Purity of Elements by embracing all three fundamental forces at level 1 each",
+      "description": "Achieved Purity of Elements by choosing all three fundamental elements through different divine trials",
       "benefits": [
         "Access to combined elemental abilities",
         "Resistance to all fundamental damage types",
         "Enhanced mystical awareness across all realms"
-      ]
+      ],
+      "trial_completion_note": "Each fundamental trial offered universal elemental choice - selected different elements to achieve balance"
     }
   },
   "primal_relationships": [
     {
       "primal_god": "serafina",
       "relationship_type": "opponent",
-      "opposition_location": "serafina_twilight_sanctuary",
-      "opposition_date": "2025-03-22T16:45:00Z",
-      "opposition_outcome": {
-        "choice_made": "Rejected Serafina's teachings of forbidden transformation and shadow embrace",
-        "divine_response": "Serafina marked her as an enemy of chaos but acknowledged her strength of will"
+      "trial_location": "serafina_divine_trial",
+      "trial_date": "2025-03-22T16:45:00Z",
+      "discovery_method": "Found trial through investigation of chaos-related disturbances",
+      "trial_outcome": {
+        "choice_made": "Rejected Serafina's teachings of revolutionary change in favor of independent path",
+        "divine_response": "Serafina marked her as an opponent but acknowledged her strength of will"
       }
     },
     {
       "primal_god": "aurelius", 
       "relationship_type": "opponent",
-      "opposition_location": "aurelius_radiant_sanctuary",
-      "opposition_date": "2025-03-25T11:20:00Z",
-      "opposition_outcome": {
-        "choice_made": "Rejected Aurelius's protective guidance in favor of independent moral choices",
-        "divine_response": "Aurelius acknowledged her commitment to self-determination"
+      "trial_location": "aurelius_divine_trial",
+      "trial_date": "2025-03-25T11:20:00Z",
+      "discovery_method": "Discovered trial location through rumors at healing sanctuaries",
+      "trial_outcome": {
+        "choice_made": "Rejected Aurelius's protective guidance in favor of self-determination",
+        "divine_response": "Aurelius acknowledged her commitment to independent moral choices"
       }
     },
     {
       "primal_god": "korthak",
       "relationship_type": "follower",
-      "trial_location": "korthak_iron_sanctuary",
+      "trial_location": "korthak_divine_trial",
       "trial_date": "2025-03-28T13:10:00Z",
+      "discovery_method": "Found trial through exploration of warrior training grounds",
       "trial_outcome": {
         "victory_achieved": true,
         "choice_made": "Accepted the path of honorable strength and direct confrontation",
@@ -118,9 +125,10 @@
       "anger_level": 1,
       "hatred_level": 1, 
       "wrath_level": 1,
-      "total_embraces_used": 3,
+      "total_trials_completed": 3,
       "distribution_type": "balanced_purity",
-      "purity_of_elements": true
+      "purity_of_elements": true,
+      "trial_discovery_note": "All elemental choices made through player-driven trial discovery"
     },
     "primal_dedication": {
       "priest_of": "korthak",
@@ -136,11 +144,12 @@
   "positioning_completion": {
     "requirements_met": {
       "fundamental_trials_completed": 3,
-      "elemental_embraces_achieved": 3,
+      "elemental_choices_made": 3,
       "purity_of_elements_unlocked": true,
-      "primal_opposition_declared": 2,
-      "primal_worship_established": 1,
-      "priest_status_achieved": true
+      "primal_trials_completed": 3,
+      "primal_positioning_established": true,
+      "priest_status_achieved": true,
+      "discovery_driven": "All trials discovered through player exploration and investigation"
     },
     "completion_date": "2025-03-28T13:45:00Z",
     "act_progression": {

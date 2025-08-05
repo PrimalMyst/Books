@@ -1,0 +1,118 @@
+{
+  "trial_id": "glacius-divine-trial",
+  "trial_name": "Trial of Eternal Preservation",
+  "divine_patron": "glacius",
+  "trial_type": "fundamental",
+  "element_focus": "cold",
+  "cosmic_domain": "preservation",
+
+  "trial_overview": {
+    "description": "Face Glacius's trial to prove mastery over preserving cold and eternal knowledge",
+    "thematic_focus": "Preservation, memory, eternal knowledge, and the archives of reality",
+    "player_choice": "Choose to embrace Fire, Cold, or Lightning as your elemental expression",
+    "cosmic_significance": "Establishes relationship with the fundamental force of preservation"
+  },
+
+  "trial_mechanics": {
+    "access_requirements": {
+      "minimum_level": "PLACEHOLDER - Level 6-8",
+      "story_prerequisite": "PLACEHOLDER - Main story checkpoint",
+      "location_access": "PLACEHOLDER - Access to Glacius's domain/archive"
+    },
+
+    "trial_phases": {
+      "phase_1_introduction": {
+        "description": "Meet Glacius and understand the nature of preservation force",
+        "mechanics": "PLACEHOLDER - Dialogue/cutscene mechanics",
+        "learning_objective": "Understand preservation as fundamental cosmic force"
+      },
+      "phase_2_trial_challenge": {
+        "description": "Demonstrate mastery of preservation through chosen elemental expression",
+        "mechanics": "PLACEHOLDER - Trial challenge mechanics",
+        "choice_point": "Choose Fire, Cold, or Lightning as preservation expression"
+      },
+      "phase_3_commitment": {
+        "description": "Commit to chosen elemental path and receive Glacius's blessing",
+        "mechanics": "PLACEHOLDER - Choice confirmation and reward granting",
+        "permanent_effect": "Elemental choice recorded for final divine alignment"
+      }
+    },
+
+    "elemental_choice_implications": {
+      "fire_choice": {
+        "thematic_meaning": "Embrace preserving fire - eternal flame that never dies",
+        "mechanical_preview": "Contributes to Fire-based elemental affinity patterns",
+        "roleplay_implication": "Character preserves through passionate, enduring commitment"
+      },
+      "cold_choice": {
+        "thematic_meaning": "Embrace pure preservation cold - freezing time itself",
+        "mechanical_preview": "Contributes to Cold-based elemental affinity patterns", 
+        "roleplay_implication": "Character favors absolute, unchanging preservation methods"
+      },
+      "lightning_choice": {
+        "thematic_meaning": "Embrace connecting preservation - memories shared across networks",
+        "mechanical_preview": "Contributes to Lightning-based elemental affinity patterns",
+        "roleplay_implication": "Character preserves through connection and distributed memory"
+      }
+    }
+  },
+
+  "trial_rewards": {
+    "immediate_rewards": {
+      "experience_gain": "PLACEHOLDER - XP reward amount",
+      "attribute_bonus": "PLACEHOLDER - Temporary or permanent attribute enhancement", 
+      "skill_unlock": "PLACEHOLDER - Preservation-related skill or ability",
+      "divine_favor": "PLACEHOLDER - Glacius favor points"
+    },
+
+    "progression_benefits": {
+      "elemental_affinity": "Chosen element recorded for final divine alignment calculation",
+      "cosmic_authority": "Slight increase in preservation-related cosmic authority",
+      "trial_completion": "2/6 divine trials completed (if second trial)"
+    },
+
+    "story_integration": {
+      "character_development": "PLACEHOLDER - How trial affects character growth",
+      "world_relationship": "PLACEHOLDER - How choice affects world interactions",
+      "future_implications": "PLACEHOLDER - How choice affects later story events"
+    }
+  },
+
+  "location_details": {
+    "trial_location": "PLACEHOLDER - Glacius's Archive/Eternal Vault/Memory Chamber",
+    "environmental_description": "PLACEHOLDER - Detailed location description",
+    "atmospheric_elements": "PLACEHOLDER - Environmental storytelling elements",
+    "interactive_elements": "PLACEHOLDER - Location-specific interactions"
+  },
+
+  "dialogue_framework": {
+    "glacius_characterization": {
+      "personality": "PLACEHOLDER - Glacius's personality traits and speech patterns",
+      "motivations": "PLACEHOLDER - What Glacius seeks in trial participants", 
+      "teaching_style": "PLACEHOLDER - How Glacius guides players through choices"
+    },
+
+    "choice_explanations": {
+      "elemental_guidance": "PLACEHOLDER - How Glacius explains elemental choices",
+      "consequence_warning": "PLACEHOLDER - Glacius's warnings about choice permanence",
+      "encouragement": "PLACEHOLDER - Glacius's supportive guidance"
+    }
+  },
+
+  "integration_points": {
+    "main_story": "PLACEHOLDER - How trial connects to main questline",
+    "character_classes": "PLACEHOLDER - How trial interacts with different character classes",
+    "other_trials": "PLACEHOLDER - How this trial relates to other divine trials",
+    "world_lore": "PLACEHOLDER - Lore revealed through trial completion"
+  },
+
+  "metadata": {
+    "created": "2025-08-05T00:00:00Z",
+    "last_updated": "2025-08-05T00:00:00Z",
+    "author": "PrimalMyst Development Team",
+    "version": "1.0.0", 
+    "canonical": true,
+    "trial_category": "fundamental_divine_trial",
+    "related_systems": ["divine-trial-progression-system", "divine-alignment-buffs-system"]
+  }
+}

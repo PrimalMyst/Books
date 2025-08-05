@@ -1,6 +1,7 @@
 {
   "id": "pyrion-forge-trial-of-creation",
   "title": "The Trial of Creative Fire - Pyrion's Forge",
+  "trial_category": "divine_trials",
   "governing_god": "pyrion",
   "location": {
     "island": "pyrion-forge",
@@ -125,11 +126,16 @@
       "healing_process": "Divine fire burns away all decay while strengthening the practitioner's form",
       "permanence": true
     },
-    "seismic_response": {
-      "tremor_intensity": "Moderate earthquake with heat-based vibrations",
-      "duration": "45-60 seconds",
-      "radius": "Entire Pyrion's Forge island",
-      "mystical_signature": "Fire and creation energy signature recognizable as Pyrion's approval"
+    "world_impact": {
+      "type": "divine_acknowledgment_tremor", 
+      "reference": "trial-system-core.json#shared_world_mechanics",
+      "specific_effects": {
+        "monster_level_increase": "+6 minimum level worldwide",
+        "mystical_signature": "Fire and creation energy signature recognizable as Pyrion's approval",
+        "seismic_intensity": "Moderate earthquake with heat-based vibrations",
+        "duration": "45-60 seconds",
+        "coverage": "Entire Pyrion's Forge island with worldwide mystical resonance"
+      }
     },
     "divine_manifestation": {
       "god_appearance": true,

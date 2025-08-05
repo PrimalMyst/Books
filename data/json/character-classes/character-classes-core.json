@@ -17,27 +17,27 @@
     "trinity_inheritance": "Classes inherit their growth patterns from their trinity alignment (Fundamental or Transcendent)",
     "attribute_progression": "Per-level gains follow hexagonal pattern based on origin island position: +6 aligned, +3 adjacent, +2 next adjacent, +1 opposing",
     "island_based_attributes": "Attribute growth is determined by the character's origin island position, not their class - creating geographic heritage over occupational training",
-    "divine_preference": "NPCs default to their aligned god, players choose freely",
+    "eldritch_divine_preference": "NPCs default to their aligned Eldritch God, players choose freely",
     "damage_flexibility": "No hard restrictions on damage types or alignments",
     "body_type_system": "M/F body types for development efficiency",
     "player_freedom": "Total customization freedom while maintaining archetypal identity",
-    "cultural_development": "Island culture shapes attribute development, reflecting environmental and divine influences rather than class training"
+    "cultural_development": "Island culture shapes attribute development, reflecting environmental and Eldritch God influences rather than class training"
   },
   "corners": [
     {
       "position": 1,
-      "primary_concept": "Lich",
+      "primary_concept": "Necromancer",
       "trinity": "fundamental",
-      "index_reference": "class-1-lich",
-      "brief_description": "Scholarly undead masters of preservation and cold calculation",
+      "index_reference": "class-1-necromancer",
+      "brief_description": "Scholarly humanoid masters of death magic and preservation",
       "body_type": "M",
       "eldritch_archetype": "Glacius, the Eternal Frost - Perfect preservation through absolute knowledge",
       "divine_manifestation": "The way Glacius embodies eternal preservation and perfect analytical understanding",
       "origin_island": "Glacius Isle - The Archive Realm",
       "damage_type_alignment": "cold",
-      "god_alignment": "glacius",
+      "eldritch_god_alignment": "glacius",
       "attribute_focus": "intelligence",
-      "core_philosophy": "Death is merely another form of preservation"
+      "core_philosophy": "Death and life are two sides of the same coin"
     },
     {
       "position": 2,
@@ -50,7 +50,7 @@
       "divine_manifestation": "The way Serafina embodies constant change and irresistible allure",
       "origin_island": "Serafina Isle - The Shadow Court",
       "damage_type_alignment": "chaos",
-      "god_alignment": "serafina",
+      "eldritch_god_alignment": "serafina",
       "attribute_focus": "adaptability",
       "core_philosophy": "Power flows through change and desire"
     },
@@ -65,7 +65,7 @@
       "divine_manifestation": "The way Voltharion embodies perfect speed and cosmic awareness",
       "origin_island": "Voltharion Isle - The Lightning Web",
       "damage_type_alignment": "lightning",
-      "god_alignment": "voltharion",
+      "eldritch_god_alignment": "voltharion",
       "attribute_focus": "dexterity",
       "core_philosophy": "Strike fast, strike true, never be where the enemy expects"
     },
@@ -80,7 +80,7 @@
       "divine_manifestation": "The way Pyrion embodies the creative fire of existence itself, constantly generating new life and transformation",
       "origin_island": "Pyrion's Forge - The Eternal Hearth",
       "damage_type_alignment": "fire",
-      "god_alignment": "pyrion",
+      "eldritch_god_alignment": "pyrion",
       "attribute_focus": "vitality",
       "core_philosophy": "Life energy is the true fire within"
     },
@@ -95,7 +95,7 @@
       "divine_manifestation": "The way Korthak embodies pure physical dominance, his very presence reshaping reality through force of will",
       "origin_island": "Korthak Isle - The Arena Realm",
       "damage_type_alignment": "physical",
-      "god_alignment": "korthak",
+      "eldritch_god_alignment": "korthak",
       "attribute_focus": "strength",
       "core_philosophy": "Strength is truth, victory proves worthiness"
     },
@@ -110,19 +110,19 @@
       "divine_manifestation": "The way Aurelius embodies perfect spiritual insight and protective radiance",
       "origin_island": "Aurelius Isle - The Sanctuary Realm",
       "damage_type_alignment": "radiance",
-      "god_alignment": "aurelius",
+      "eldritch_god_alignment": "aurelius",
       "attribute_focus": "wisdom",
       "core_philosophy": "Wisdom illuminates all paths, protection flows from understanding"
     }
   ],
   "hexagon_dynamics": {
-    "adjacency_bonuses": "Adjacent classes create natural multiclass synergies - Lich+Succubus enables scholarly shapeshifters, Hunter+Warrior creates mobile fighters, Chieftain+Priestess develops inspiring leaders.",
-    "opposition_tensions": "Opposite classes represent fundamentally different life philosophies - Lich vs Warrior (preservation vs action), Succubus vs Chieftain (adaptation vs leadership), Hunter vs Priestess (speed vs contemplation).",
+    "adjacency_bonuses": "Adjacent classes create natural multiclass synergies - Necromancer+Succubus enables scholarly shapeshifters with death magic, Hunter+Warrior creates mobile fighters, Chieftain+Priestess develops inspiring leaders.",
+    "opposition_tensions": "Opposite classes represent fundamentally different life philosophies - Necromancer vs Warrior (death study vs life action), Succubus vs Chieftain (adaptation vs leadership), Hunter vs Priestess (speed vs contemplation).",
     "full_cycle_effects": "Characters who understand all six archetypes gain 'Universal Understanding' - the ability to relate to any culture and adapt to any social situation."
   },
   "class_characteristics": {
     "trinity_distribution": {
-      "fundamental_trinity": ["lich", "hunter", "warrior"],
+      "fundamental_trinity": ["necromancer", "hunter", "warrior"],
       "transcendent_trinity": ["succubus", "chieftain", "priestess"],
       "description": "Classes are organized into two trinities that reflect their approach to existence and growth"
     },
@@ -137,7 +137,7 @@
       "class_independence": "Classes no longer determine attribute growth - this is now purely geographic/cultural heritage"
     },
     "origin_distribution": {
-      "glacius_isle": ["lich"],
+      "glacius_isle": ["necromancer"],
       "serafina_isle": ["succubus"],
       "voltharion_isle": ["hunter"],
       "korthak_isle": ["chieftain"],
@@ -145,7 +145,7 @@
       "aurelius_isle": ["priestess"]
     },
     "body_type_distribution": {
-      "masculine_archetypes": ["lich", "hunter", "chieftain"],
+      "masculine_archetypes": ["necromancer", "hunter", "chieftain"],
       "feminine_archetypes": ["succubus", "warrior", "priestess"]
     },
     "divine_preference_defaults": {
@@ -187,8 +187,8 @@
   "class_files": [
     {
       "position": 1,
-      "filename": "class-1-lich.json",
-      "file_path": "classes/class-1-lich.json"
+      "filename": "class-1-necromancer.json",
+      "file_path": "classes/class-1-necromancer.json"
     },
     {
       "position": 2,

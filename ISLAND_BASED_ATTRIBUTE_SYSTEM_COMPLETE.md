@@ -8,7 +8,7 @@ Successfully transitioned the PrimalMyst attribute growth system from class-base
 ### 1. Character Class Attribute Systems Updated
 All six character classes now reference their origin island for attribute growth:
 
-**Position 1 - Lich (Glacius Isle)**
+**Position 1 - Necromancer (Glacius Isle)**
 - Primary: Intelligence +6/level
 - Adjacent: Adaptability +3, Wisdom +3  
 - Next Adjacent: Dexterity +2, Strength +2
@@ -98,7 +98,7 @@ All systems now follow the confirmed hexagonal pattern:
 - Position 6: Aurelius/Wisdom
 
 ### Trinity Alignments Preserved
-- **Fundamental**: Lich, Hunter, Chieftain (positions 1,3,5)
+- **Fundamental**: Necromancer, Hunter, Chieftain (positions 1,3,5)
 - **Transcendent**: Succubus, Warrior, Priestess (positions 2,4,6)
 
 ### Cultural Development Updated
@@ -113,7 +113,7 @@ Each class now references appropriate island culture:
 ## Files Modified
 
 ### Core Data Files
-- `data/json/character-classes/classes/class-1-lich.json`
+- `data/json/character-classes/classes/class-1-necromancer.json`
 - `data/json/character-classes/classes/class-2-succubus.json`
 - `data/json/character-classes/classes/class-3-hunter.json`
 - `data/json/character-classes/classes/class-4-warrior.json`

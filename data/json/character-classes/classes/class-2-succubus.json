@@ -114,7 +114,7 @@
   },
   "role_flexibility": {
     "multiclass_synergies": [
-      "Succubus/Lich - Adaptive scholar with transformative research capabilities",
+      "Succubus/Necromancer - Adaptive scholar with transformative research capabilities",
       "Succubus/Hunter - Mobile infiltrator with enhanced tracking abilities",
       "Succubus/Priestess - Spiritual guide with transformative wisdom"
     ],
@@ -128,7 +128,7 @@
     "offensive_layer_preference": "Flowing Techniques - Continuous adaptation and smooth transitions between approaches",
     "defensive_layer_preference": "Tactical Flexibility - Adapting protection methods to match current threats",
     "adjacent_class_relationships": {
-      "lich": "Complementary adaptability/intelligence enables versatile problem-solving",
+      "necromancer": "Complementary adaptability/intelligence enables versatile problem-solving",
       "hunter": "Shared dexterity focus creates natural mobility and stealth synergies"
     },
     "opposing_class_tension": {
