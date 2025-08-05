@@ -65,15 +65,27 @@ The core hexagonal structure provides a universal framework for organizing Prima
 
 ### 3. Character Classes/Archetypes
 
-**Pure Vertex Classes:**
-1. **Frost Mage (Cold):** Pure intelligence caster
-2. **Lightning Dancer (Lightning):** Pure dexterity speed fighter
-3. **Fire Warrior (Fire):** Pure strength heavy combat
+**Origin Island Heritage System:**
+Character classes inherit their attribute growth patterns from their starting island's hexagonal position:
 
-**Hybrid Vertex Classes:**
-2. **Chaos Weaver (Chaos):** Int/Dex hybrid mage-rogue
-4. **Dragon Monk (Physical):** Dex/Str hybrid martial artist  
-6. **Radiant Paladin (Radiance):** Str/Int hybrid warrior-priest
+1. **Necromancer (Glacius Isle/Position 1):** Intelligence focus from cold/preservation heritage
+2. **Succubus (Serafina Isle/Position 2):** Intelligence+Dexterity hybrid from chaos/transformation heritage  
+3. **Hunter (Voltharion Isle/Position 3):** Dexterity focus from lightning/connection heritage
+4. **Warrior (Pyrion's Forge/Position 4):** Vitality focus from fire/creation heritage
+5. **Chieftain (Korthak Isle/Position 5):** Strength focus from physical/might heritage
+6. **Priestess (Aurelius Isle/Position 6):** Wisdom focus from radiance/protection heritage
+
+**Class Role - Ascendancy Anchors:**
+- Classes provide access to specific ascendancy trees (similar to Path of Exile)
+- Each class anchors 3-4 thematic ascendancy specializations
+- Multiclass characters can access multiple ascendancy trees through their class combinations
+- No hexagonal positioning benefits from classes themselves
+
+**Divine Positioning System:**
+- Hexagonal layer positioning comes exclusively from divine trial completion
+- 49 unique character archetypes through elemental + primal divine pattern combinations
+- Divine positioning independent of character class or origin island
+- Players choose their cosmic alignment through trial choices, not class selection
 
 ### 4. League Mechanics
 

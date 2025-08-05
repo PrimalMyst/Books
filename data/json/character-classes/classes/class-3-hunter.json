@@ -124,9 +124,34 @@
       "social_approach": "Can be silent observers, quick communicators, patient trackers, or dynamic leaders"
     }
   },
-  "hexagon_integration": {
-    "offensive_layer_preference": "Swift Strikes - Lightning-fast attacks that overwhelm through speed",
-    "defensive_layer_preference": "Evasive Maneuvers - Avoiding damage through superior mobility and positioning",
+
+  "ascendancy_system": {
+    "description": "Hunter serves as the primary anchor for tracking, mobility, and precision-focused ascendancy trees",
+    "ascendancy_role": "Main class for unlocking and progressing through hunting, speed, and connection ascendancies",
+    "placeholder_implementation": "PLACEHOLDER - Future ascendancy trees will anchor to this class for precision specializations",
+    "ascendancy_themes": [
+      "Master Tracker - Advanced hunting, tracking, and target acquisition abilities",
+      "Lightning Specialist - Speed enhancement and lightning magic mastery",
+      "Connection Weaver - Network building and cosmic web manipulation",
+      "Precision Master - Enhanced accuracy and critical strike capabilities"
+    ],
+    "multiclass_ascendancy": "Other classes can access tracking ascendancies through this class as anchor point",
+    "ascendancy_points": "Standard ascendancy point progression - PLACEHOLDER for future implementation"
+  },
+
+  "origin_island_integration": {
+    "trinity_alignment": "fundamental",
+    "trinity_heritage": "Inherits fundamental trinity benefits from Voltharion Isle origin position",
+    "attribute_scaling": "Linear attribute scaling based on island hexagonal positioning",
+    "level_10_example": {
+      "dexterity": 70, "adaptability": 40, "vitality": 40, "intelligence": 30, "strength": 20, "wisdom": 20,
+      "description": "A level 10 Hunter with exceptional dexterity and well-rounded support attributes from island heritage"
+    },
+    "class_mechanical_focus": {
+      "core_abilities": "Tracking mastery, precision strikes, mobility enhancement",
+      "signature_skills": "Enhanced accuracy, rapid movement, lightning affinity",
+      "equipment_affinity": "Dexterity-based weapons, tracking tools, mobility gear"
+    },
     "adjacent_class_relationships": {
       "succubus": "Shared dexterity focus creates natural mobility and stealth synergies",
       "warrior": "Complementary dexterity/strength enables mobile combat tactics"
@@ -136,7 +161,7 @@
     }
   },
   "lore_connections": {
-    "divine_positioning": "Aligned with Position 3 - The Web of Connection",
+    "origin_island_position": "Represents Position 3 - The Web of Connection from Voltharion Isle heritage",
     "cosmic_significance": "Represents the principle that consciousness can transcend distance through perfect connection and instant communication",
     "mythological_role": "The eternal messengers of Yggdrasil's network, maintaining communication across cosmic distances",
     "island_legends": "Famous Hunters have served as crucial links in major communications, enabling coordination across vast distances and time"

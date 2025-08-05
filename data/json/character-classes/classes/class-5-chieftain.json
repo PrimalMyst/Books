@@ -124,9 +124,34 @@
       "social_approach": "Can be collaborative facilitators, decisive directors, creative catalysts, or protective organizers"
     }
   },
-  "hexagon_integration": {
-    "offensive_layer_preference": "Coordinated Assault - Organizing team efforts for maximum effectiveness",
-    "defensive_layer_preference": "Team Defense - Coordinating group protection and mutual support",
+
+  "ascendancy_system": {
+    "description": "Chieftain serves as the primary anchor for leadership, strength, and honor-focused ascendancy trees",
+    "ascendancy_role": "Main class for unlocking and progressing through leadership, might, and honor ascendancies",
+    "placeholder_implementation": "PLACEHOLDER - Future ascendancy trees will anchor to this class for leadership specializations",
+    "ascendancy_themes": [
+      "War Leader - Advanced tactical leadership and combat coordination",
+      "Strength Master - Physical power enhancement and might-based abilities",
+      "Honor Guardian - Honor codes and righteousness-based powers",
+      "Dragon Warrior - Dragon heritage abilities and draconic power"
+    ],
+    "multiclass_ascendancy": "Other classes can access leadership ascendancies through this class as anchor point",
+    "ascendancy_points": "Standard ascendancy point progression - PLACEHOLDER for future implementation"
+  },
+
+  "origin_island_integration": {
+    "trinity_alignment": "fundamental",
+    "trinity_heritage": "Inherits fundamental trinity benefits from Korthak Isle origin position", 
+    "attribute_scaling": "Linear attribute scaling based on island hexagonal positioning",
+    "level_10_example": {
+      "strength": 70, "vitality": 40, "adaptability": 40, "dexterity": 30, "intelligence": 20, "wisdom": 20,
+      "description": "A level 10 Chieftain with exceptional strength and well-rounded support attributes from island heritage"
+    },
+    "class_mechanical_focus": {
+      "core_abilities": "Leadership mastery, strength enhancement, honor-based powers",
+      "signature_skills": "Enhanced command, physical might, honor detection",
+      "equipment_affinity": "Strength-based weapons and armor, leadership regalia, honor symbols"
+    },
     "adjacent_class_relationships": {
       "warrior": "Shared vitality focus creates natural leadership and endurance synergies",
       "priestess": "Complementary vitality/wisdom enables inspirational spiritual leadership"
@@ -136,7 +161,7 @@
     }
   },
   "lore_connections": {
-    "divine_positioning": "Aligned with Position 5 - The Flame of Creation",
+    "origin_island_position": "Represents Position 5 - The Flame of Creation from Korthak Isle heritage",
     "cosmic_significance": "Represents the principle that consciousness can transcend limitations through creative leadership and transformative vision",
     "mythological_role": "The eternal builders of Yggdrasil's growth, ensuring positive development and community strength",
     "island_legends": "Famous Chieftains have led major innovations and community developments that have survived across reality instances"
