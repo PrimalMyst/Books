@@ -12,9 +12,9 @@
 - **Ranks E-S:** Content difficulty and access gates
 - **Rule:** All content, equipment, and progression tied to BOTH level AND rank requirements
 
-### **📚 Mandatory Act Structure**
+### **📚 Flexible Act Structure**
 1. **Prologue: Tutorial Island** (Levels 1-9, Hidden E) → Choose starting divine island
-2. **Act 1: Divine Trials** (Levels 10-39, E-D) → Establish divine positioning  
+2. **Act 1: Divine Exploration** (Levels 10-39, E-D) → Optional divine positioning through discovery  
 3. **Act 2: Eldritch Ascension** (Levels 40-69, C-B) → Explore realms and mysteries
 4. **Act 3: Cosmic Ascendant** (Levels 70-84, A) → Prepare for godhood
 5. **Epilogue: God-Slayer** (Levels 85-100, S-SS) → Divine confrontation + Myrielle
@@ -26,9 +26,11 @@
 - **All divine power gained** through conscious trial participation
 
 ### **🔥 Divine Trial System**
-- **3 Elemental Embraces Maximum** (any distribution: 3+0+0, 2+1+0, or 1+1+1)
-- **Minimum 1 Primal Opposition Required** (Heathen/Nemesis/Priest outcomes)
-- **Player choice only** - no god interference or "calling"
+- **3 Elemental Trial Choices Maximum** (any distribution: 3+0+0, 2+1+0, or 1+1+1)
+- **Universal Elemental Choice** - All fundamental trials (Pyrion, Glacius, Voltharion) offer fire, cold, or lightning
+- **Optional Primal Opposition** (Heathen/Nemesis/Priest outcomes enhance character development)
+- **Player-driven discovery** - trials found through exploration, not story requirements
+- **Trial repetition allowed** - change choices without additional bonuses
 
 ---
 
@@ -52,34 +54,35 @@
 
 ---
 
-## **Act 1: Divine Trials (Levels 10-39, Ranks E-D)**
-### Establishing Divine Positioning
+## **Act 1: Divine Exploration (Levels 10-39, Ranks E-D)**
+### Optional Divine Positioning Through Discovery
 
 **Level 10-20: First Island Exploration (Rank E)**
 - Explore chosen starting island completely
-- **No divine influence** - gods remain in their sanctuaries/altars
+- **No divine influence** - gods remain in their sanctuaries/trials
 - Complete **[Island Quest Chains]** to understand local culture
 - **Divine Decay Threat:** Gradual deterioration near opposing gods
-- **Access Requirement:** Rank C to attempt divine trials (level 20)
+- **Discovery Opportunities:** Rumors and exploration lead to trial locations
 
-**Level 20-30: Fundamental Trials (Rank C - 3 Embraces Maximum)**
-- Visit **any three Fundamental altars** across Pyrion/Glacius/Voltharion isles
+**Level 20-30: Optional Fundamental Trials (Discoverable)**
+- **Discovery-based Access:** Find any three Fundamental trials through exploration
+- **Universal Choice:** Each trial (Pyrion/Glacius/Voltharion) offers fire, cold, or lightning
 - **Example Distribution:** Lightning/Wrath (Level 2), Fire/Anger (Level 1), Cold/Hatred (Level 0)
-- **Player Choice:** Can embrace same element multiple times OR spread across elements
-- **No God Interaction:** Altars are ancient, automated systems
+- **Player Choice:** Can choose same element multiple times OR spread across elements
+- **No God Interaction:** Trials are discovered locations with automated challenge systems
 
-**Level 30-39: Primal Opposition (Rank D - Minimum 1 Required)**
-- Visit **any Primal sanctuaries** across Serafina/Aurelius/Korthak isles
+**Level 30-39: Optional Primal Opposition (Player-Driven Discovery)**
+- **Exploration Access:** Discover any Primal sanctuaries through investigation
 - **Example:** Oppose Serafina, Oppose Aurelius, Accept Korthak = **Korthak's Priest**
 - **Player Choice Only:** Gods respond to player decisions, never initiate contact
-- **Divine Acknowledgment Tremor:** +6 monster level increase per trial completion
-- **Mainland Access:** Unlocked only after divine positioning complete
+- **Character Enhancement:** Divine positioning enhances abilities and unlocks content
+- **Mainland Access:** Available regardless of trial completion
 
 **Act 1 Complete:**
-- **Divine Signature Established:** "The Lightning-Fire Warrior-Priest"
-- **Final Monster Level:** Level 36+ minimum after all six trials
-- **Rank Requirement:** Achieve Rank C to proceed to Act 2
-- **Mainland Portal:** Now accessible from any divine island
+- **Optional Divine Signature:** Enhanced character development if trials completed
+- **Monster Level Scaling:** Environment adjusts to player choices made
+- **Mainland Portal:** Accessible from any divine island
+- **Character Development:** Trials provide enhancement, not requirements
 
 ---
 
@@ -87,10 +90,10 @@
 ### Realm Exploration & Power Development
 
 **Level 40-50: Midgardland Hub Access (Rank C)**
-- **First time accessing mainland** - the neutral heart realm
+- **Mainland access available** - the neutral heart realm
 - Establish base near **Yggdrasil** - gateway to surrounding realms
 - Access **[Six Surrounding Realms]** connected by Yggdrasil branches
-- **Advanced Trial Access:** Divine positioning +51 enables complex challenges
+- **Enhanced Trial Access:** Divine positioning enhances available challenges
 
 **Level 50-60: Divine Realm Exploration (Rank B required)**
 - **Guided Expeditions:** Formal visits to divine realms with experienced guides
@@ -103,7 +106,7 @@
 - Investigate **[Reality Instance Phenomena]** across realms
 - **Myrielle Encounters:** ONLY divine being who contacts player directly
 - Learn about **cosmic breathing** and **reality transitions**
-- **Advanced Divine Integration:** Combine elemental embraces with primal positioning
+- **Advanced Divine Integration:** Combine elemental trial choices with primal positioning
 - **Equipment:** Divine-blessed gear from trials, NOT god-granted
 
 **Act 2 Complete:**
@@ -168,10 +171,13 @@
 ## **CORE RULE VIOLATIONS TO AVOID**
 
 ❌ **Gods contacting/influencing players** outside trials  
-✅ **Player seeks gods** through conscious trial participation
+✅ **Player seeks gods** through conscious trial participation or exploration
+
+❌ **Mandatory trial completion** for story progression  
+✅ **Optional trials for character enhancement** discovered through exploration
 
 ❌ **Starting on mainland** or skipping island progression  
-✅ **Tutorial → Divine Island → Trials → Mainland access**
+✅ **Tutorial → Divine Island → Optional Trials → Mainland access**
 
 ❌ **Ignoring level/rank requirements** for content access  
 ✅ **Both level AND rank** must meet requirements
@@ -180,7 +186,7 @@
 ✅ **Player choice only** through trial system
 
 ❌ **Unlimited embraces** or unclear trial mechanics  
-✅ **3 embrace maximum, 1+ opposition minimum**
+✅ **3 trial maximum, universal elemental choice in trials**
 
 ---
 
@@ -193,8 +199,8 @@
 
 **Progression Path:**
 - **Prologue → Voltharion's Isle** (lightning focus start)
-- **Act 1:** Lightning embrace × 2, Fire embrace × 1, Korthak priest path
-- **Act 2:** Master combined lightning-fire abilities, divine realm exploration
+- **Act 1:** Optional trial discovery: Lightning choice × 2, Fire choice × 1, Korthak priest path
+- **Act 2:** Master combined lightning-fire abilities, enhanced realm exploration
 - **Act 3:** God-slayer equipment suited to elemental-physical hybrid, divine champion status
 - **Epilogue:** Yggdrasil ascension with Korthak advantage, consciousness preservation role
 
@@ -216,9 +222,10 @@
 
 **Replayability Factors:**
 - **6 different starting islands** create unique early experiences
-- **Multiple elemental distributions** (3+0+0, 2+1+0, 1+1+1)
-- **7 different primal outcomes** (3 Heathen, 3 Nemesis, 3 Priest, mixed)
-- **Different god-fighting orders** change strategy requirements
+- **Multiple elemental distributions** (3+0+0, 2+1+0, 1+1+1) with universal choice in trials
+- **Optional divine positioning** allows different character development paths
+- **Trial discovery variations** create different progression experiences
+- **Different god-fighting strategies** based on chosen enhancements
 - **Level/rank optimization** challenges for efficient progression
 
 ---
