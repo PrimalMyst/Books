@@ -18,7 +18,7 @@
     "trial_focus": "preservation_and_knowledge",
     "cultural_philosophy": "Knowledge is power, preservation is perfection, understanding transcends mortality",
     "origin_races": ["Undead Scholars", "Crystal-touched Humans", "Frost Elves"],
-    "primary_class": "Lich",
+    "primary_class": "Necromancer",
     "hexagon_relationships": {
       "adjacent_synergies": {
         "with_aurelius": "Scholarly spirituality - wisdom through preserved knowledge",

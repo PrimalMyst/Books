@@ -44,7 +44,7 @@
   },
   
   "class_interaction_examples": {
-    "lich_class_options": {
+    "necromancer_class_options": {
       "class_natural_progression": "Intelligence +6, Adaptability +3, Wisdom +3, Dexterity +2, Strength +2, Vitality +1",
       "player_choice_effects": {
         "choose_intelligence": "Total Intelligence +12 per level (extreme magical specialization)",

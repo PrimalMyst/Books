@@ -26,10 +26,10 @@
   "corners": [
     {
       "position": 1,
-      "primary_concept": "Lich",
+      "primary_concept": "Necromancer",
       "trinity": "fundamental",
-      "index_reference": "class-1-lich",
-      "brief_description": "Scholarly undead masters of preservation and cold calculation",
+      "index_reference": "class-1-necromancer",
+      "brief_description": "Scholarly humanoid masters of death magic and preservation",
       "body_type": "M",
       "eldritch_archetype": "Glacius, the Eternal Frost - Perfect preservation through absolute knowledge",
       "divine_manifestation": "The way Glacius embodies eternal preservation and perfect analytical understanding",
@@ -37,7 +37,7 @@
       "damage_type_alignment": "cold",
       "eldritch_god_alignment": "glacius",
       "attribute_focus": "intelligence",
-      "core_philosophy": "Death is merely another form of preservation"
+      "core_philosophy": "Death and life are two sides of the same coin"
     },
     {
       "position": 2,
@@ -116,13 +116,13 @@
     }
   ],
   "hexagon_dynamics": {
-    "adjacency_bonuses": "Adjacent classes create natural multiclass synergies - Lich+Succubus enables scholarly shapeshifters, Hunter+Warrior creates mobile fighters, Chieftain+Priestess develops inspiring leaders.",
-    "opposition_tensions": "Opposite classes represent fundamentally different life philosophies - Lich vs Warrior (preservation vs action), Succubus vs Chieftain (adaptation vs leadership), Hunter vs Priestess (speed vs contemplation).",
+    "adjacency_bonuses": "Adjacent classes create natural multiclass synergies - Necromancer+Succubus enables scholarly shapeshifters with death magic, Hunter+Warrior creates mobile fighters, Chieftain+Priestess develops inspiring leaders.",
+    "opposition_tensions": "Opposite classes represent fundamentally different life philosophies - Necromancer vs Warrior (death study vs life action), Succubus vs Chieftain (adaptation vs leadership), Hunter vs Priestess (speed vs contemplation).",
     "full_cycle_effects": "Characters who understand all six archetypes gain 'Universal Understanding' - the ability to relate to any culture and adapt to any social situation."
   },
   "class_characteristics": {
     "trinity_distribution": {
-      "fundamental_trinity": ["lich", "hunter", "warrior"],
+      "fundamental_trinity": ["necromancer", "hunter", "warrior"],
       "transcendent_trinity": ["succubus", "chieftain", "priestess"],
       "description": "Classes are organized into two trinities that reflect their approach to existence and growth"
     },
@@ -137,7 +137,7 @@
       "class_independence": "Classes no longer determine attribute growth - this is now purely geographic/cultural heritage"
     },
     "origin_distribution": {
-      "glacius_isle": ["lich"],
+      "glacius_isle": ["necromancer"],
       "serafina_isle": ["succubus"],
       "voltharion_isle": ["hunter"],
       "korthak_isle": ["chieftain"],
@@ -145,7 +145,7 @@
       "aurelius_isle": ["priestess"]
     },
     "body_type_distribution": {
-      "masculine_archetypes": ["lich", "hunter", "chieftain"],
+      "masculine_archetypes": ["necromancer", "hunter", "chieftain"],
       "feminine_archetypes": ["succubus", "warrior", "priestess"]
     },
     "divine_preference_defaults": {
@@ -187,8 +187,8 @@
   "class_files": [
     {
       "position": 1,
-      "filename": "class-1-lich.json",
-      "file_path": "classes/class-1-lich.json"
+      "filename": "class-1-necromancer.json",
+      "file_path": "classes/class-1-necromancer.json"
     },
     {
       "position": 2,

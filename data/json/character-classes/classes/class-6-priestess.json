@@ -116,7 +116,7 @@
     "multiclass_synergies": [
       "Priestess/Chieftain - Spiritual leader with transformative community focus",
       "Priestess/Warrior - Protective paladin with combat skills and healing abilities",
-      "Priestess/Lich - Wisdom-focused scholar with spiritual preservation techniques"
+      "Priestess/Necromancer - Wisdom-focused scholar with spiritual preservation techniques"
     ],
     "player_customization": {
       "personality_freedom": "Players can be gentle healers, fierce protectors, contemplative mystics, or active guides",
@@ -129,7 +129,7 @@
     "defensive_layer_preference": "Mystical Barriers - Spiritual protection and energy-based defense",
     "adjacent_class_relationships": {
       "chieftain": "Complementary wisdom/vitality enables inspirational spiritual leadership",
-      "lich": "Shared wisdom focus creates natural philosophical and scholarly connections"
+      "necromancer": "Shared wisdom focus creates natural philosophical and scholarly connections"
     },
     "opposing_class_tension": {
       "hunter": "Contemplation vs. Speed - Fundamental difference between thoughtful consideration and instant action"

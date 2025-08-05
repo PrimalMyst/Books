@@ -123,7 +123,7 @@
       "file": "data/schemas/character-class.schema.json",
       "description": "Character class definitions representing the six fundamental archetypes aligned with hexagonal principles",
       "required_fields": ["class_id", "canonical_name", "hexagon_position", "body_type", "archetype_category", "description", "metadata"],
-      "example": "data/json/character-classes/classes/class-1-lich.json"
+      "example": "data/json/character-classes/classes/class-1-necromancer.json"
     },
     "starting-island": {
       "file": "data/schemas/starting-island.schema.json",
@@ -403,7 +403,7 @@
       },
       "examples": [
         "character-classes-core.json",
-        "classes/class-1-lich.json",
+        "classes/class-1-necromancer.json",
         "classes/class-2-succubus.json",
         "classes/class-3-hunter.json",
         "classes/class-4-warrior.json",
