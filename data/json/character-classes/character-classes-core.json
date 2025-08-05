@@ -15,11 +15,13 @@
   "design_principles": {
     "island_origin": "Each class originates from a specific island corresponding to their hexagonal position",
     "trinity_inheritance": "Classes inherit their growth patterns from their trinity alignment (Fundamental or Transcendent)",
-    "attribute_progression": "Per-level gains follow hexagonal pattern: +6 aligned, +3 adjacent, +2 next adjacent, +1 opposing",
+    "attribute_progression": "Per-level gains follow hexagonal pattern based on origin island position: +6 aligned, +3 adjacent, +2 next adjacent, +1 opposing",
+    "island_based_attributes": "Attribute growth is determined by the character's origin island position, not their class - creating geographic heritage over occupational training",
     "divine_preference": "NPCs default to their aligned god, players choose freely",
     "damage_flexibility": "No hard restrictions on damage types or alignments",
     "body_type_system": "M/F body types for development efficiency",
-    "player_freedom": "Total customization freedom while maintaining archetypal identity"
+    "player_freedom": "Total customization freedom while maintaining archetypal identity",
+    "cultural_development": "Island culture shapes attribute development, reflecting environmental and divine influences rather than class training"
   },
   "corners": [
     {
@@ -125,11 +127,14 @@
       "description": "Classes are organized into two trinities that reflect their approach to existence and growth"
     },
     "attribute_progression": {
-      "per_level_gains": "All classes gain 15 attribute points per level distributed according to hexagonal alignment",
-      "aligned_attribute": "+6 per level to the class's primary attribute focus",
-      "adjacent_attributes": "+3 per level to attributes adjacent to the primary focus",
-      "next_adjacent": "+2 per level to attributes one step further from primary",
-      "opposing_attribute": "+1 per level to the attribute opposite the primary focus"
+      "source": "origin_island_position",
+      "per_level_gains": "All characters gain 17 attribute points per level distributed according to their origin island's hexagonal position",
+      "island_aligned_attribute": "+6 per level to the attribute aligned with origin island position",
+      "adjacent_attributes": "+3 per level to attributes adjacent to the origin island position",
+      "next_adjacent": "+2 per level to attributes one step further from origin island position",
+      "opposing_attribute": "+1 per level to the attribute opposite the origin island position",
+      "geographic_heritage": "Attribute growth reflects the environmental conditions and divine influences of the island where the character was raised",
+      "class_independence": "Classes no longer determine attribute growth - this is now purely geographic/cultural heritage"
     },
     "origin_distribution": {
       "glacius_isle": ["lich"],
@@ -159,7 +164,7 @@
   "cross_hexagon_integration": {
     "damage_type_resonance": "Each class aligns with a damage type but can master others freely",
     "divine_patronage": "Gods favor their aligned classes but don't restrict others",
-    "attribute_inheritance": "Classes inherit per-level growth patterns from their hexagonal position according to the trinity system",
+    "attribute_inheritance": "Characters inherit per-level growth patterns from their origin island's hexagonal position, with cultural and environmental influences shaping development regardless of chosen class",
     "combat_layer_synergy": "Each class naturally aligns with specific offensive and defensive approaches",
     "trinity_mechanics": {
       "fundamental_classes": "Gain enhanced material world interaction and linear attribute scaling",

@@ -1,11 +1,47 @@
 {
   "id": "aurelius-isle-kingdom",
+  "island_id": "aurelius-isle",
   "name": "Aurelius's Isle - The Golden Sanctuary",
   "type": "divine-island",
   "region": "Southeastern Waters",
   "significance": "radiance-divine-realm",
   "ruler": "High King Solaran the Lightbringer",
   "kingdom": "The Eternal Light Kingdom",
+  "hexagon_data": {
+    "position": 6,
+    "island_name": "Aurelius Isle",
+    "cultural_name": "The Sanctuary Realm",
+    "divine_anchor": "Aurelius, the Radiant Sphere",
+    "yggdrasil_branch": "Eastern Middle Branch",
+    "environmental_theme": "radiant_temples_protective_sanctuaries",
+    "primary_element": "radiance",
+    "trial_focus": "wisdom_and_protection",
+    "cultural_philosophy": "Wisdom illuminates all paths, protection flows from understanding, truth guides action",
+    "origin_races": ["Light-blessed Humans", "Radiant Angels", "Wisdom-keeper Elves"],
+    "primary_class": "Priestess",
+    "hexagon_relationships": {
+      "adjacent_synergies": {
+        "with_korthak": "Honorable protectors - strength guided by wisdom and moral principles",
+        "with_glacius": "Scholarly spirituality - wisdom through preserved knowledge"
+      },
+      "opposition": {
+        "voltharion": "Contemplation vs Speed - thoughtful wisdom vs instant action"
+      }
+    },
+    "environmental_mechanics": {
+      "radiance_immunity_zones": "Natural radiance resistance for aligned characters",
+      "protection_fields": "Areas where defensive abilities are dramatically enhanced",
+      "adaptability_resonance": "Adaptability-based characters gain enhanced protective instincts",
+      "wisdom_clarity": "Enhanced spiritual insight and truth detection abilities"
+    },
+    "travel_connections": {
+      "nexus_pathway": "Light Bridge to Worldtree Nexus",
+      "adjacent_routes": {
+        "to_korthak": "Radiant paths through temple complexes",
+        "to_glacius": "Wisdom Path through crystalline caverns"
+      }
+    }
+  },
   "description": {
     "brief": "A radiant island kingdom bathed in eternal golden light, ruled by enlightened healers and devoted to Aurelius, where protection and wisdom flourish.",
     "detailed": "Aurelius's Isle glows with perpetual golden sunlight that comes not from any sun, but from the divine radiance of Aurelius himself. The island is covered in white marble cities, crystal gardens, and golden temples that amplify and channel the holy light. This kingdom serves as a beacon of hope and healing, where scholars seek divine wisdom and healers perfect their arts. High King Solaran, blessed with fragments of Aurelius's radiance, rules with perfect wisdom and compassion, creating a society where all citizens are protected and guided toward their highest potential. The kingdom's culture emphasizes protection of the innocent, pursuit of knowledge, and the sacred duty to heal and guide others.",
@@ -13,9 +49,12 @@
   },
   "geography": {
     "terrain": "Rolling hills of white marble, crystal formations, and golden temples interconnected by light-bridges",
-    "climate": "Eternally pleasant with warm golden light and gentle healing breezes",
+    "climate": "Eternally pleasant with warm golden light and gentle healing breezes - perpetually gentle and luminous with protective barriers",
     "size": "110 miles north-south, 85 miles east-west",
-    "borders": "Southeastern waters, connected to Midgardland by the Radiant Straits"
+    "borders": "Southeastern waters, connected to Midgardland by the Radiant Straits",
+    "dominant_features": ["Radiant Temples", "Wisdom Libraries", "Healing Sanctuaries", "Protective Barriers"],
+    "mystical_elements": ["Light Focusing Crystals", "Wisdom Meditation Chambers", "Protective Energy Fields"],
+    "trial_locations": ["The Temple of Perfect Truth", "Aurelius's Radiant Throne", "Sanctuary of Ultimate Wisdom"]
   },
   "kingdom_structure": {
     "capital": "Aurelius's Crown",
@@ -31,6 +70,12 @@
   },
   "culture": {
     "primary_values": ["protection", "wisdom", "healing", "guidance"],
+    "cultural_expressions": {
+      "architecture": "Luminous constructions designed to focus and amplify light and positive energy",
+      "arts": "Spiritual guidance, healing arts, wisdom teaching, protective rituals",
+      "governance": "Wise councils guided by spiritual insight and protective principles",
+      "values": ["Spiritual wisdom", "Protective care", "Truth seeking", "Peaceful resolution"]
+    },
     "traditions": [
       "The Blessing of Light - ceremonies where citizens receive Aurelius's protective radiance",
       "Wisdom Trials - scholarly contests and philosophical debates to advance understanding",
@@ -89,6 +134,13 @@
           "offerings": ["Act of selfless healing", "Wisdom scroll", "Radiant crystal"]
         },
         "trial_description": "Candidates must demonstrate perfect compassion by healing others while enduring their pain, proving they can bear suffering to protect the innocent.",
+        "hexagon_trial_data": {
+          "trial_name": "The Trial of Perfect Wisdom",
+          "challenge_type": "spiritual_and_protective",
+          "requirements": "Demonstrate mastery of divine wisdom and protective power",
+          "trial_stages": ["Wisdom Integration Test", "Protection Mastery Challenge", "Truth Revelation Trial"],
+          "reward": "Aurelius's Blessing of Divine Wisdom and Radiance Immunity"
+        },
         "rewards": [
           "Enhanced radiance magic potency and healing abilities",
           "Immunity to negative energy and corruption effects",
@@ -152,5 +204,17 @@
     "midgardland": "Primary ally and protector, especially through Aurelius's Gate",
     "other_kingdoms": "Universally respected as healers and protectors, sought out in times of crisis",
     "diplomatic_stance": "Open arms to all who seek healing, protection, or guidance; neutral in conflicts but will defend the innocent"
+  },
+  "metadata": {
+    "version": "1.0.0",
+    "created": "2025-08-04T00:00:00Z",
+    "last_updated": "2025-08-04T00:00:00Z",
+    "canonical": true,
+    "schema_compliance": "location.schema.json",
+    "cross_references": [
+      "starting-islands-core.json",
+      "class-6-priestess.json",
+      "aurelius-sanctuary-trial-of-radiance.json"
+    ]
   }
 }

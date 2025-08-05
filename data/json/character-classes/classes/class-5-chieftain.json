@@ -25,25 +25,33 @@
     "starting_bonus": "Enhanced effectiveness with physical combat and resistance to physical effects"
   },
   "attribute_inheritance": {
+    "source": "origin_island_position",
+    "island_position": 5,
+    "island_reference": "korthak-isle-tribal.json",
     "primary_attribute": "strength",
     "trinity_alignment": "fundamental",
-    "hexagon_position": 5,
-    "per_level_gains": {
-      "strength": "+6 per level (aligned attribute)",
-      "vitality": "+3 per level (adjacent - position 4)",
-      "wisdom": "+3 per level (adjacent - position 6)", 
-      "dexterity": "+2 per level (next adjacent - position 3)",
-      "intelligence": "+2 per level (next adjacent - position 1)",
-      "adaptability": "+1 per level (opposing - position 2)"
+    "hexagon_pattern": {
+      "position_5_aligned": "+6 per level (strength - aligned with island position)",
+      "position_4_adjacent": "+3 per level (vitality - adjacent position 4)",
+      "position_6_adjacent": "+3 per level (wisdom - adjacent position 6)", 
+      "position_3_next": "+2 per level (dexterity - next adjacent position 3)",
+      "position_1_next": "+2 per level (intelligence - next adjacent position 1)",
+      "position_2_opposing": "+1 per level (adaptability - opposing position 2)"
     },
-    "total_per_level": "15 attribute points distributed according to hexagonal pattern",
+    "per_level_distribution": {
+      "strength": "+6 per level (island position 5)",
+      "vitality": "+3 per level (adjacent position 4)",
+      "wisdom": "+3 per level (adjacent position 6)", 
+      "dexterity": "+2 per level (next adjacent position 3)",
+      "intelligence": "+2 per level (next adjacent position 1)",
+      "adaptability": "+1 per level (opposing position 2)"
+    },
+    "total_per_level": "17 attribute points distributed according to hexagonal pattern from origin island",
     "starting_bonuses": {
-      "strength": "+2",
-      "vitality": "+1",
-      "wisdom": "+1"
+      "note": "No starting attribute bonuses - all growth comes from leveling up"
     },
     "cultural_development": "Forge Realm education emphasizes leadership training, creative problem-solving, and community building",
-    "growth_philosophy": "Exceptional vitality growth with strong support in strength and wisdom, reflecting the mastery of transformative leadership and creative force"
+    "growth_philosophy": "Island position 5 produces exceptional strength growth with strong support in vitality and wisdom, reflecting mastery of transformative leadership and creative force"
   },
   "class_characteristics": {
     "core_philosophy": "Lead through transformation, inspire through action",
