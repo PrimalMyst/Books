@@ -144,56 +144,8 @@
   },
 
   "primal_opposition_patterns": {
-    "oppose_korthak": {
-      "pattern": "Follow Serafina + Follow Aurelius + Oppose Korthak",
-      "thematic_name": "Compassion",
-      "description": "Revolutionary healing alliance opposing traditional strength - compassionate change through healing wisdom",
-      "philosophy": "Beneficial change and protection united against rigid tradition",
-      "benefits": {
-        "chaos_order_synthesis": "+25% chaos and radiance damage effectiveness",
-        "revolutionary_healing": "+10 to both creative problem solving and healing abilities",
-        "adaptive_protection": "+5 adaptability and +5 wisdom",
-        "traditional_opposition": "-15% physical damage effectiveness against traditional/honor targets",
-        "alliance_abilities": ["Beneficial Revolution - heal through positive change", "Protective Chaos - create order through controlled change"]
-      },
-      "npc_reactions": "Oppressed groups and healers love you, traditional warriors distrust you",
-      "environmental_effects": "Enhanced benefits in changing/healing environments, penalties in rigid/military areas"
-    },
-
-    "oppose_aurelius": {
-      "pattern": "Follow Serafina + Oppose Aurelius + Follow Korthak",
-      "thematic_name": "Ambition",
-      "description": "Revolutionary strength alliance opposing protective order - ambitious drive for honorable change",
-      "philosophy": "Beneficial change and honorable might united against stagnant protection",
-      "benefits": {
-        "chaos_might_synthesis": "+25% chaos and physical damage effectiveness",
-        "revolutionary_strength": "+10 to both creative problem solving and honor-based interactions",
-        "adaptive_power": "+5 adaptability and +5 strength",
-        "protection_opposition": "-15% radiance damage effectiveness and healing penalties",
-        "alliance_abilities": ["Honor Through Change - maintain honor while revolutionizing", "Strength of Innovation - power through new approaches"]
-      },
-      "npc_reactions": "Reformers and honorable warriors respect you, traditional protectors oppose you",
-      "environmental_effects": "Enhanced benefits in competitive/changing environments, penalties in sanctuary/healing areas"
-    },
-
-    "oppose_serafina": {
-      "pattern": "Oppose Serafina + Follow Aurelius + Follow Korthak",
-      "thematic_name": "Tradition",
-      "description": "Traditional protection alliance opposing revolutionary chaos - steadfast tradition through protective strength",
-      "philosophy": "Protective order and honorable strength united against disruptive change",
-      "benefits": {
-        "order_might_synthesis": "+25% radiance and physical damage effectiveness",
-        "traditional_protection": "+10 to both healing abilities and honor-based interactions",
-        "protective_strength": "+5 wisdom and +5 strength",
-        "chaos_opposition": "-15% chaos damage effectiveness and adaptation penalties",
-        "alliance_abilities": ["Honorable Protection - defend through righteous strength", "Order Through Might - maintain stability through disciplined power"]
-      },
-      "npc_reactions": "Traditional societies and protectors honor you, revolutionaries oppose you",
-      "environmental_effects": "Enhanced benefits in sanctuary/military environments, penalties in chaotic/changing areas"
-    },
-
     "follow_serafina_only": {
-      "pattern": "Follow Serafina + Oppose Aurelius + Oppose Korthak",
+      "pattern": "Follow Serafina Only (Oppose Aurelius + Oppose Korthak)",
       "thematic_name": "Revolution",
       "description": "Revolutionary change agent opposing both order and tradition - pure revolutionary spirit unleashed",
       "philosophy": "Beneficial chaos as the only true path, rejecting stagnant protection and rigid strength",
@@ -209,7 +161,7 @@
     },
 
     "follow_aurelius_only": {
-      "pattern": "Oppose Serafina + Follow Aurelius + Oppose Korthak",
+      "pattern": "Follow Aurelius Only (Oppose Serafina + Oppose Korthak)",
       "thematic_name": "Sanctuary",
       "description": "Protective order champion opposing both chaos and rigid tradition - sacred sanctuary of pure protection",
       "philosophy": "Truth and protection as the highest calling, rejecting both disruptive change and inflexible tradition",
@@ -225,7 +177,7 @@
     },
 
     "follow_korthak_only": {
-      "pattern": "Oppose Serafina + Oppose Aurelius + Follow Korthak",
+      "pattern": "Follow Korthak Only (Oppose Serafina + Oppose Aurelius)",
       "thematic_name": "Honor",
       "description": "Traditional strength champion opposing both chaos and protective order - pure honor through disciplined might",
       "philosophy": "Honor and disciplined strength as ultimate truth, rejecting both disruptive change and soft protection",
@@ -240,8 +192,56 @@
       "environmental_effects": "Maximum benefits in competitive/military environments, major penalties in chaotic/sanctuary areas"
     },
 
+    "oppose_serafina_only": {
+      "pattern": "Oppose Serafina Only (Follow Aurelius + Follow Korthak)",
+      "thematic_name": "Tradition",
+      "description": "Traditional protection alliance opposing revolutionary chaos - steadfast tradition through protective strength",
+      "philosophy": "Protective order and honorable strength united against disruptive change",
+      "benefits": {
+        "order_might_synthesis": "+25% radiance and physical damage effectiveness",
+        "traditional_protection": "+10 to both healing abilities and honor-based interactions",
+        "protective_strength": "+5 wisdom and +5 strength",
+        "chaos_opposition": "-15% chaos damage effectiveness and adaptation penalties",
+        "alliance_abilities": ["Honorable Protection - defend through righteous strength", "Order Through Might - maintain stability through disciplined power"]
+      },
+      "npc_reactions": "Traditional societies and protectors honor you, revolutionaries oppose you",
+      "environmental_effects": "Enhanced benefits in sanctuary/military environments, penalties in chaotic/changing areas"
+    },
+
+    "oppose_aurelius_only": {
+      "pattern": "Oppose Aurelius Only (Follow Serafina + Follow Korthak)",
+      "thematic_name": "Ambition",
+      "description": "Revolutionary strength alliance opposing protective order - ambitious drive for honorable change",
+      "philosophy": "Beneficial change and honorable might united against stagnant protection",
+      "benefits": {
+        "chaos_might_synthesis": "+25% chaos and physical damage effectiveness",
+        "revolutionary_strength": "+10 to both creative problem solving and honor-based interactions",
+        "adaptive_power": "+5 adaptability and +5 strength",
+        "protection_opposition": "-15% radiance damage effectiveness and healing penalties",
+        "alliance_abilities": ["Honor Through Change - maintain honor while revolutionizing", "Strength of Innovation - power through new approaches"]
+      },
+      "npc_reactions": "Reformers and honorable warriors respect you, traditional protectors oppose you",
+      "environmental_effects": "Enhanced benefits in competitive/changing environments, penalties in sanctuary/healing areas"
+    },
+
+    "oppose_korthak_only": {
+      "pattern": "Oppose Korthak Only (Follow Serafina + Follow Aurelius)",
+      "thematic_name": "Compassion",
+      "description": "Revolutionary healing alliance opposing traditional strength - compassionate change through healing wisdom",
+      "philosophy": "Beneficial change and protection united against rigid tradition",
+      "benefits": {
+        "chaos_order_synthesis": "+25% chaos and radiance damage effectiveness",
+        "revolutionary_healing": "+10 to both creative problem solving and healing abilities",
+        "adaptive_protection": "+5 adaptability and +5 wisdom",
+        "traditional_opposition": "-15% physical damage effectiveness against traditional/honor targets",
+        "alliance_abilities": ["Beneficial Revolution - heal through positive change", "Protective Chaos - create order through controlled change"]
+      },
+      "npc_reactions": "Oppressed groups and healers love you, traditional warriors distrust you",
+      "environmental_effects": "Enhanced benefits in changing/healing environments, penalties in rigid/military areas"
+    },
+
     "oppose_all_primals": {
-      "pattern": "Oppose Serafina + Oppose Aurelius + Oppose Korthak",
+      "pattern": "Oppose All Primals (Oppose Serafina + Oppose Aurelius + Oppose Korthak)",
       "thematic_name": "Heretic",
       "description": "Independent path rejecting all divine authority - heretical stance against all divine influence",
       "philosophy": "True strength comes from within, not from following any divine principle",
@@ -270,7 +270,7 @@
         "description": "Maximum creation and change authority, transforming reality through fire and revolution",
         "hexagonal_significance": "Dual apex position - peak creative and revolutionary power"
       },
-      "fire_cold_oppose_serafina": {
+      "fire_cold_oppose_serafina_only": {
         "elemental_layer": "creation_preservation_synthesis",
         "primal_layer": "protective_authority_layer",
         "combined_position": "Creation-Preservation + Authority Layer Synthesis", 
@@ -286,7 +286,7 @@
         "description": "Self-reliant practitioner mastering all elements without divine dependence",
         "hexagonal_significance": "Ultimate center position - transcends all layers through complete independence"
       },
-      "pure_cold_oppose_korthak": {
+      "pure_cold_oppose_korthak_only": {
         "elemental_layer": "preservation_layer_apex",
         "primal_layer": "adaptive_harmony_layer",
         "combined_position": "Preservation Apex + Harmony Layer Synthesis",
@@ -355,21 +355,6 @@
     },
 
     "primal_layer_mapping": {
-      "oppose_korthak": {
-        "hexagonal_position": "adaptive_harmony_layer",
-        "layer_name": "Adaptive Harmony Layer",
-        "position_description": "Revolutionary healing synthesis opposing rigid tradition"
-      },
-      "oppose_aurelius": {
-        "hexagonal_position": "dynamic_strength_layer",
-        "layer_name": "Dynamic Strength Layer", 
-        "position_description": "Innovative power synthesis opposing stagnant protection"
-      },
-      "oppose_serafina": {
-        "hexagonal_position": "protective_authority_layer",
-        "layer_name": "Protective Authority Layer",
-        "position_description": "Traditional strength synthesis opposing disruptive change"
-      },
       "follow_serafina_only": {
         "hexagonal_position": "revolution_layer_apex",
         "layer_name": "Revolution Layer",
@@ -384,6 +369,21 @@
         "hexagonal_position": "justice_layer_apex",
         "layer_name": "Justice Layer",
         "position_description": "Pure honorable strength opposing all weakness and disruption"
+      },
+      "oppose_serafina_only": {
+        "hexagonal_position": "protective_authority_layer",
+        "layer_name": "Protective Authority Layer",
+        "position_description": "Traditional strength synthesis opposing disruptive change"
+      },
+      "oppose_aurelius_only": {
+        "hexagonal_position": "dynamic_strength_layer",
+        "layer_name": "Dynamic Strength Layer", 
+        "position_description": "Innovative power synthesis opposing stagnant protection"
+      },
+      "oppose_korthak_only": {
+        "hexagonal_position": "adaptive_harmony_layer",
+        "layer_name": "Adaptive Harmony Layer",
+        "position_description": "Revolutionary healing synthesis opposing rigid tradition"
       },
       "oppose_all_primals": {
         "hexagonal_position": "hexagon_center_independent",
