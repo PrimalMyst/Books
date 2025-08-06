@@ -1,0 +1,21 @@
+{
+  "id": "rings-health-category-core",
+  "name": "RINGS HEALTH Category Core",
+  "description": "Core definitions and characteristics for rings health jewelry category",
+  "parent_slot": "rings",
+  "resource_type": "health",
+  "references": {
+    "slot_core": "../rings-categories-core.json",
+    "base_types": "../../jewelry-base-categories-core.json"
+  },
+  "category_specifics": {
+    "placeholder": "This file contains specific implementations for rings health jewelry pieces"
+  },
+  "metadata": {
+    "created": "2025-08-06T00:00:00Z",
+    "last_updated": "2025-08-06T00:00:00Z",
+    "author": "PrimalMyst Development Team",
+    "version": "1.0.0",
+    "canonical": true
+  }
+}

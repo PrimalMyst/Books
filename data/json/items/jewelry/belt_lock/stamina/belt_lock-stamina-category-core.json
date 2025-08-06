@@ -1,0 +1,21 @@
+{
+  "id": "belt_lock-stamina-category-core",
+  "name": "BELT_LOCK STAMINA Category Core",
+  "description": "Core definitions and characteristics for belt_lock stamina jewelry category",
+  "parent_slot": "belt_lock",
+  "resource_type": "stamina",
+  "references": {
+    "slot_core": "../belt_lock-categories-core.json",
+    "base_types": "../../jewelry-base-categories-core.json"
+  },
+  "category_specifics": {
+    "placeholder": "This file contains specific implementations for belt_lock stamina jewelry pieces"
+  },
+  "metadata": {
+    "created": "2025-08-06T00:00:00Z",
+    "last_updated": "2025-08-06T00:00:00Z",
+    "author": "PrimalMyst Development Team",
+    "version": "1.0.0",
+    "canonical": true
+  }
+}

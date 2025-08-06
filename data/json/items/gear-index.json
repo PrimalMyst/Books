@@ -17,11 +17,65 @@
       "implementation_notes": "Weapon system to be implemented in future updates"
     },
     "jewelry": {
-      "description": "Mystical accessories providing passive bonuses and special abilities",
-      "status": "placeholder_defined",
+      "description": "Resource-aligned jewelry with linear hierarchical organization",
+      "status": "linear_structure_implemented",
       "total_slots": 6,
-      "slot_types": ["earrings", "rings", "amulet", "belt_lock"],
-      "implementation_notes": "Jewelry categories defined, specific items moved to examples"
+      "structure": "jewelry/[slot]/[type]/ - Linear hierarchical folder organization",
+      "resource_system": {
+        "base_types": {
+          "health": "Life force and vitality enhancement, physical durability focus",
+          "mana": "Magical energy and spell power enhancement, mystical focus",
+          "stamina": "Physical endurance and action efficiency enhancement, performance focus"
+        },
+        "total_categories_per_slot": 3,
+        "total_jewelry_categories": 12
+      },
+      "folder_structure": {
+        "root": "jewelry/",
+        "organization": "Each jewelry slot contains 3 resource type folders",
+        "jewelry_slots": ["earrings", "rings", "amulet", "belt_lock"],
+        "types_per_slot": ["health", "mana", "stamina"],
+        "total_folders": 16
+      },
+      "core_files": {
+        "jewelry_base_categories_core": "jewelry/jewelry-base-categories-core.json",
+        "jewelry_categories_core": "jewelry/jewelry-categories-core.json",
+        "earrings_core": "jewelry/earrings/earrings-categories-core.json",
+        "rings_core": "jewelry/rings/rings-categories-core.json",
+        "amulet_core": "jewelry/amulet/amulet-categories-core.json",
+        "belt_lock_core": "jewelry/belt_lock/belt-lock-categories-core.json"
+      },
+      "jewelry_slots": {
+        "earrings": {
+          "description": "Sensory enhancement and awareness improvement",
+          "slot_count": 2,
+          "slot_names": ["left_ear", "right_ear"],
+          "core_file": "earrings-categories-core.json",
+          "specializations": ["sensory_bonuses", "communication_enhancement", "balance_improvement"]
+        },
+        "rings": {
+          "description": "Hand-based enhancement and spell channeling",
+          "slot_count": 2,
+          "slot_names": ["left_hand", "right_hand"],
+          "core_file": "rings-categories-core.json",
+          "specializations": ["manual_dexterity", "spell_casting", "crafting_enhancement"]
+        },
+        "amulet": {
+          "description": "Central power enhancement and identity manifestation",
+          "slot_count": 1,
+          "slot_names": ["neck"],
+          "core_file": "amulet-categories-core.json",
+          "specializations": ["primary_enhancement", "divine_connection", "identity_manifestation"]
+        },
+        "belt_lock": {
+          "description": "Utility enhancement through belt integration",
+          "slot_count": 1,
+          "slot_names": ["belt_attachment"],
+          "core_file": "belt-lock-categories-core.json",
+          "specializations": ["utility_bonuses", "belt_synergy", "quick_access"],
+          "special_requirement": "Requires belt armor piece for attachment"
+        }
+      }
     },
     "armor": {
       "description": "Protective equipment with linear hierarchical organization",
@@ -150,7 +204,8 @@
   },
   "implementation_status": {
     "weapons": "placeholder_only",
-    "jewelry": "structure_defined",
+    "jewelry": "linear_structure_implemented",
+    "jewelry_structure": "complete_hierarchical_organization_with_16_folders",
     "armor": "linear_structure_implemented",
     "armor_structure": "complete_hierarchical_organization_with_42_folders",
     "schemas": "complete",

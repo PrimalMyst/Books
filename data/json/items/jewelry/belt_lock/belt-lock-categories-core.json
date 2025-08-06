@@ -1,0 +1,101 @@
+{
+  "id": "belt-lock-categories-core",
+  "name": "Belt Lock Categories Core",
+  "description": "Core information and generic characteristics shared by all belt lock types and categories",
+  "jewelry_slot": "belt_lock",
+  "slot_count": 1,
+  "slot_names": ["belt_attachment"],
+  "attachment_requirement": "Requires belt armor piece for mounting",
+  "references": {
+    "base_types": "../jewelry-base-categories-core.json",
+    "description": "Inherits resource alignment type definitions from jewelry-base-categories-core.json"
+  },
+  "generic_belt_lock_characteristics": {
+    "core_function": "Utility enhancement and convenience bonuses through belt-integrated jewelry",
+    "universal_properties": {
+      "utility_enhancement": {
+        "description": "Belt locks provide practical utility bonuses and convenience features",
+        "functionality": "Enhances belt functionality and provides quick-access capabilities",
+        "enhancement_types": ["storage_bonuses", "quick_access", "utility_improvements", "convenience_features"]
+      },
+      "belt_integration": {
+        "description": "Belt locks integrate seamlessly with belt armor to provide combined benefits",
+        "integration_types": ["armor_synergy", "combined_bonuses", "enhanced_functionality", "unified_system"],
+        "enhancement_potential": "Can amplify belt armor capabilities and provide unique combinations"
+      },
+      "accessibility": {
+        "description": "Belt locks are designed for quick access and frequent use during adventures",
+        "access_features": ["one_handed_operation", "quick_release", "secure_attachment", "emergency_access"],
+        "practical_benefits": "Provides convenient access to resources and tools during combat and exploration"
+      },
+      "compact_design": {
+        "description": "Belt locks are designed to be compact yet effective jewelry pieces",
+        "design_features": ["space_efficient", "lightweight", "secure_mounting", "minimal_interference"],
+        "advantage": "Provides jewelry benefits without compromising belt functionality or movement"
+      }
+    },
+    "wearing_mechanics": {
+      "attachment_system": "Requires a belt armor piece for proper mounting and functionality",
+      "belt_compatibility": "Compatible with all belt armor types and can enhance belt-specific bonuses",
+      "quick_access": "Designed for rapid access during combat and exploration situations"
+    },
+    "resource_type_structure": {
+      "base_types": {
+        "health": {
+          "folder_name": "health",
+          "type_name": "Vitality Belt Locks",
+          "description": "Life force enhancement through belt-integrated health jewelry",
+          "generic_characteristics": {
+            "construction": "Compact health-aligned gems integrated into belt lock mechanisms",
+            "typical_materials": ["ruby_accents", "carnelian_inlays", "bloodstone_cores", "gold_fittings", "copper_mechanisms"],
+            "resource_focus": "Health enhancement with utility bonuses",
+            "enhancement_effects": ["health_bonuses", "healing_acceleration", "vitality_support"],
+            "aesthetic": "Red and gold accents integrated into functional belt lock design"
+          }
+        },
+        "mana": {
+          "folder_name": "mana",
+          "type_name": "Mystical Belt Locks",
+          "description": "Magical energy enhancement through belt-integrated mana jewelry",
+          "generic_characteristics": {
+            "construction": "Compact mana-aligned gems integrated into mystically enhanced lock mechanisms",
+            "typical_materials": ["sapphire_accents", "amethyst_inlays", "moonstone_cores", "silver_fittings", "mystical_mechanisms"],
+            "resource_focus": "Mana enhancement with utility bonuses",
+            "enhancement_effects": ["mana_bonuses", "spell_component_storage", "mystical_utility"],
+            "aesthetic": "Blue and silver accents integrated into arcane-enhanced lock design"
+          }
+        },
+        "stamina": {
+          "folder_name": "stamina",
+          "type_name": "Endurance Belt Locks",
+          "description": "Physical endurance enhancement through belt-integrated stamina jewelry",
+          "generic_characteristics": {
+            "construction": "Compact stamina-aligned gems integrated into endurance-focused lock mechanisms",
+            "typical_materials": ["emerald_accents", "jade_inlays", "peridot_cores", "bronze_fittings", "steel_mechanisms"],
+            "resource_focus": "Stamina enhancement with utility bonuses",
+            "enhancement_effects": ["stamina_bonuses", "action_efficiency", "endurance_support"],
+            "aesthetic": "Green and bronze accents integrated into performance-enhanced lock design"
+          }
+        }
+      }
+    }
+  },
+  "slot_specializations": {
+    "utility_bonuses": "Belt locks provide unique utility and convenience bonuses",
+    "belt_synergy": "Integration with belt armor creates combined enhancement effects",
+    "quick_access": "Designed for rapid resource access during critical situations",
+    "compact_efficiency": "Maximum jewelry benefit in minimal space and weight"
+  },
+  "folder_structure": {
+    "total_type_folders": 3,
+    "organization": "Each resource type has its own folder containing specific implementations",
+    "folder_list": ["health", "mana", "stamina"]
+  },
+  "metadata": {
+    "created": "2025-08-06T00:00:00Z",
+    "last_updated": "2025-08-06T00:00:00Z",
+    "author": "PrimalMyst Development Team",
+    "version": "1.0.0",
+    "canonical": true
+  }
+}
