@@ -1,0 +1,101 @@
+{
+  "id": "adaptability-ring",
+  "name": "Ring of Endless Adaptation",
+  "type": "jewelry",
+  "subtype": "ring",
+  "rank_level": {
+    "item_rank": "A",
+    "required_level": 50,
+    "optimal_level": 70,
+    "level_scaling": {
+      "scales_with_user": true,
+      "scaling_type": "stepped",
+      "max_scaling_level": 80
+    },
+    "quality_tier": "epic",
+    "power_classification": "mystical"
+  },
+  "divine_influences": {
+    "primary_influence": "serafina",
+    "secondary_influences": ["nyxtharion"],
+    "divine_resonance": "strong",
+    "humanoid_only": true
+  },
+  "physical_properties": {
+    "weight": {
+      "value": 0.3,
+      "unit": "ounces"
+    },
+    "size": "tiny",
+    "material": "Shapeshifting metal with chaos crystal core",
+    "durability": "reinforced",
+    "magical_nature": "mystical"
+  },
+  "gameplay_properties": {
+    "stack_size": 1,
+    "tradeable": true,
+    "bind_on_pickup": false,
+    "bind_on_equip": true,
+    "unique": false,
+    "set_item": null
+  },
+  "gear_slot": {
+    "category": "jewelry",
+    "slot_type": "ring",
+    "occupies_slots": ["left_ring"],
+    "slot_requirement": "One ring slot",
+    "notes": "Can be worn on either left or right ring slot"
+  },
+  "effects": [
+    {
+      "name": "Metamorphic Mastery",
+      "description": "Adaptability attribute effectiveness increased by 20-35% (scales with level)",
+      "type": "passive",
+      "power_level": "major",
+      "divine_source": "serafina"
+    },
+    {
+      "name": "Situational Flexibility",
+      "description": "Once per combat, may change one active ability to a different one from the same school",
+      "type": "triggered",
+      "power_level": "moderate",
+      "divine_source": "serafina"
+    },
+    {
+      "name": "Chaos Harmony",
+      "description": "Chaos damage spells have 15% chance to trigger beneficial random effects",
+      "type": "passive",
+      "power_level": "moderate",
+      "divine_source": "nyxtharion"
+    }
+  ],
+  "acquisition": {
+    "drop_sources": ["master-shapeshifters", "chaos-touched-elementals"],
+    "quest_rewards": ["trials-of-infinite-change"],
+    "crafting_recipe": {
+      "required_rank": "A",
+      "required_level": 60,
+      "materials": [
+        {"item_id": "serafina-essence", "quantity": 5},
+        {"item_id": "chaos-crystal-core", "quantity": 1},
+        {"item_id": "metamorphic-metal", "quantity": 2}
+      ],
+      "crafting_station": "chaos-forge"
+    },
+    "rarity_notes": "Only manifests for those who have truly mastered the art of adaptation"
+  },
+  "lore": {
+    "description": "This ring shifts its appearance constantly, reflecting the wearer's current needs and the chaotic beauty of endless possibility.",
+    "history": "Created by a legendary Succubus who sought to capture the essence of perfect adaptation in physical form.",
+    "creator": "Archshaper Metamorphia the Eternal",
+    "significance": "Represents the philosophy that true power comes from the ability to change with circumstances"
+  },
+  "tags": ["ring", "jewelry", "serafina", "nyxtharion", "A-rank", "epic", "adaptation", "chaos"],
+  "metadata": {
+    "created": "2025-08-06T00:00:00Z",
+    "last_updated": "2025-08-06T00:00:00Z",
+    "author": "PrimalMyst Development Team",
+    "version": "1.0.0",
+    "canonical": true
+  }
+}

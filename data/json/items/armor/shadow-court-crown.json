@@ -1,0 +1,126 @@
+{
+  "id": "shadow-court-crown",
+  "name": "Crown of the Shadow Court",
+  "type": "armor",
+  "subtype": "helmet",
+  "rank_level": {
+    "item_rank": "A",
+    "required_level": 60,
+    "optimal_level": 75,
+    "level_scaling": {
+      "scales_with_user": true,
+      "scaling_type": "linear",
+      "max_scaling_level": 85
+    },
+    "quality_tier": "epic",
+    "power_classification": "divine-touched"
+  },
+  "divine_influences": {
+    "primary_influence": "serafina",
+    "secondary_influences": ["myrielle"],
+    "divine_resonance": "strong",
+    "humanoid_only": true
+  },
+  "physical_properties": {
+    "weight": {
+      "value": 1.8,
+      "unit": "pounds"
+    },
+    "size": "medium",
+    "material": "Shadowsteel with adaptive crystal inlays",
+    "durability": "reinforced",
+    "magical_nature": "divine"
+  },
+  "gameplay_properties": {
+    "stack_size": 1,
+    "tradeable": true,
+    "bind_on_pickup": false,
+    "bind_on_equip": true,
+    "unique": false,
+    "set_item": "shadow-court-regalia"
+  },
+  "gear_slot": {
+    "category": "armor",
+    "slot_type": "helmet",
+    "occupies_slots": ["head"],
+    "slot_requirement": "Head armor slot must be empty",
+    "protection_areas": ["head", "face", "neck_partial"]
+  },
+  "armor_properties": {
+    "physical_protection": {
+      "base_armor_value": 180,
+      "armor_type": "light_mystical",
+      "protection_bonus": "+25% resistance to mental effects"
+    },
+    "mystical_protection": {
+      "mystical_resistance": 220,
+      "chaos_resistance": "+40%",
+      "illusion_immunity": true
+    },
+    "mobility_impact": {
+      "movement_penalty": "none",
+      "dexterity_modifier": "+5% (enhanced peripheral vision)",
+      "stealth_bonus": "+15% (shadow harmonization)"
+    }
+  },
+  "effects": [
+    {
+      "name": "Royal Presence",
+      "description": "Charisma and social interaction effectiveness increased by 30%",
+      "type": "passive",
+      "power_level": "major",
+      "divine_source": "serafina"
+    },
+    {
+      "name": "Shadow Sight",
+      "description": "See clearly in darkness and detect hidden passages",
+      "type": "passive",
+      "power_level": "moderate",
+      "divine_source": "myrielle"
+    },
+    {
+      "name": "Court Authority",
+      "description": "Commands from the wearer carry mystical weight - +50% to leadership abilities",
+      "type": "passive",
+      "power_level": "major",
+      "divine_source": "serafina"
+    },
+    {
+      "name": "Adaptive Defense",
+      "description": "Crown shifts to provide optimal protection against the most recent damage type received",
+      "type": "triggered",
+      "power_level": "moderate",
+      "divine_source": "serafina"
+    }
+  ],
+  "acquisition": {
+    "drop_sources": ["shadow-court-nobles", "elder-succubi"],
+    "quest_rewards": ["ascension-to-shadow-court"],
+    "crafting_recipe": {
+      "required_rank": "A",
+      "required_level": 70,
+      "materials": [
+        {"item_id": "shadowsteel-ingot", "quantity": 3},
+        {"item_id": "serafina-royal-essence", "quantity": 5},
+        {"item_id": "adaptive-crystal", "quantity": 2},
+        {"item_id": "myrielle-sight-gem", "quantity": 1}
+      ],
+      "crafting_station": "shadow-court-forge"
+    },
+    "rarity_notes": "Reserved for those who have proven their mastery of Shadow Court arts"
+  },
+  "lore": {
+    "description": "This elegant crown embodies the adaptive authority of the Shadow Court, shifting its appearance to match the wearer's current role and circumstances.",
+    "history": "Worn by generations of Shadow Court leaders, each crown adapts to its new bearer while retaining the wisdom of previous rulers.",
+    "creator": "Master Crown-Shaper of the Eternal Court",
+    "significance": "Symbol of mastery over transformation and the responsibility of adaptive leadership"
+  },
+  "tags": ["helmet", "armor", "crown", "serafina", "myrielle", "A-rank", "epic", "shadow-court"],
+  "metadata": {
+    "created": "2025-08-06T00:00:00Z",
+    "last_updated": "2025-08-06T00:00:00Z",
+    "author": "PrimalMyst Development Team",
+    "version": "1.0.0",
+    "canonical": true
+  }
+}

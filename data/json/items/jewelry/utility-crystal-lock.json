@@ -1,0 +1,112 @@
+{
+  "id": "utility-crystal-lock",
+  "name": "Prismatic Utility Crystal",
+  "type": "jewelry",
+  "subtype": "belt_lock",
+  "rank_level": {
+    "item_rank": "C",
+    "required_level": 25,
+    "optimal_level": 40,
+    "level_scaling": {
+      "scales_with_user": true,
+      "scaling_type": "linear",
+      "max_scaling_level": 50
+    },
+    "quality_tier": "uncommon",
+    "power_classification": "enhanced"
+  },
+  "divine_influences": {
+    "primary_influence": "none",
+    "secondary_influences": [],
+    "divine_resonance": "faint",
+    "humanoid_only": false
+  },
+  "physical_properties": {
+    "weight": {
+      "value": 1.5,
+      "unit": "ounces"
+    },
+    "size": "tiny",
+    "material": "Multi-faceted crystal with metal mounting",
+    "durability": "durable",
+    "magical_nature": "enhanced"
+  },
+  "gameplay_properties": {
+    "stack_size": 1,
+    "tradeable": true,
+    "bind_on_pickup": false,
+    "bind_on_equip": false,
+    "unique": false,
+    "set_item": null
+  },
+  "gear_slot": {
+    "category": "jewelry",
+    "slot_type": "belt_lock",
+    "occupies_slots": ["belt_attachment"],
+    "slot_requirement": "Belt must be equipped with available attachment point",
+    "notes": "Attaches to belt gear piece - belt must be worn to use this item"
+  },
+  "effects": [
+    {
+      "name": "Emergency Light",
+      "description": "Provides bright illumination in dark areas (toggleable)",
+      "type": "active",
+      "power_level": "minor",
+      "divine_source": "none"
+    },
+    {
+      "name": "Resource Monitor",
+      "description": "Displays current health, mana, and stamina as colored light patterns",
+      "type": "passive",
+      "power_level": "minor",
+      "divine_source": "none"
+    },
+    {
+      "name": "Quick Access Storage",
+      "description": "Stores up to 3 small utility items for instant retrieval",
+      "type": "utility",
+      "power_level": "moderate",
+      "divine_source": "none"
+    },
+    {
+      "name": "Proximity Alert",
+      "description": "Glows when hostile creatures are within 30 feet",
+      "type": "passive",
+      "power_level": "minor",
+      "divine_source": "none"
+    }
+  ],
+  "acquisition": {
+    "drop_sources": ["adventurer-supply-caches", "abandoned-campsites"],
+    "quest_rewards": ["basic-survival-training"],
+    "crafting_recipe": {
+      "required_rank": "C",
+      "required_level": 20,
+      "materials": [
+        {"item_id": "prismatic-crystal", "quantity": 1},
+        {"item_id": "copper-wire", "quantity": 2},
+        {"item_id": "leather-mount", "quantity": 1}
+      ],
+      "crafting_station": "basic-workbench"
+    },
+    "vendor_price": {
+      "currency": "gold",
+      "amount": 150
+    },
+    "rarity_notes": "Common utility item often carried by experienced adventurers"
+  },
+  "lore": {
+    "description": "A practical crystal device designed to assist adventurers with common exploration challenges and resource management.",
+    "history": "Developed by the Adventurer's Guild as standard equipment for new members venturing into dangerous territories.",
+    "creator": "Guild Artificer Workshop",
+    "significance": "Represents the practical wisdom gained from countless adventuring expeditions"
+  },
+  "tags": ["belt_lock", "jewelry", "utility", "crystal", "C-rank", "uncommon", "practical"],
+  "metadata": {
+    "created": "2025-08-06T00:00:00Z",
+    "last_updated": "2025-08-06T00:00:00Z",
+    "author": "PrimalMyst Development Team",
+    "version": "1.0.0",
+    "canonical": true
+  }
+}

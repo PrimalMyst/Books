@@ -1,0 +1,129 @@
+{
+  "id": "artisan-crafting-gloves",
+  "name": "Gloves of the Master Artisan",
+  "type": "armor",
+  "subtype": "gloves",
+  "rank_level": {
+    "item_rank": "C",
+    "required_level": 30,
+    "optimal_level": 50,
+    "level_scaling": {
+      "scales_with_user": true,
+      "scaling_type": "stepped",
+      "max_scaling_level": 60
+    },
+    "quality_tier": "uncommon",
+    "power_classification": "enhanced"
+  },
+  "divine_influences": {
+    "primary_influence": "none",
+    "secondary_influences": ["pyrion"],
+    "divine_resonance": "faint",
+    "humanoid_only": true
+  },
+  "physical_properties": {
+    "weight": {
+      "value": 2.5,
+      "unit": "pounds"
+    },
+    "size": "medium",
+    "material": "Reinforced leather with metal fingertip guards",
+    "durability": "durable",
+    "magical_nature": "enhanced"
+  },
+  "gameplay_properties": {
+    "stack_size": 1,
+    "tradeable": true,
+    "bind_on_pickup": false,
+    "bind_on_equip": false,
+    "unique": false,
+    "set_item": "master-artisan-set"
+  },
+  "gear_slot": {
+    "category": "armor",
+    "slot_type": "gloves",
+    "occupies_slots": ["hands"],
+    "slot_requirement": "Hand armor slot must be empty",
+    "protection_areas": ["hands", "wrists", "forearms"]
+  },
+  "armor_properties": {
+    "physical_protection": {
+      "base_armor_value": 85,
+      "armor_type": "light_leather",
+      "protection_bonus": "+20% resistance to burns and cuts"
+    },
+    "mystical_protection": {
+      "mystical_resistance": 60,
+      "fire_resistance": "+25%",
+      "tool_damage_immunity": true
+    },
+    "mobility_impact": {
+      "movement_penalty": "none",
+      "dexterity_modifier": "+15% (enhanced fine motor control)",
+      "stealth_bonus": "none"
+    }
+  },
+  "effects": [
+    {
+      "name": "Crafting Mastery",
+      "description": "All crafting attempts have +25% chance of creating higher quality results",
+      "type": "passive",
+      "power_level": "moderate",
+      "divine_source": "none"
+    },
+    {
+      "name": "Steady Hands",
+      "description": "Dexterity-based tasks and fine manipulation receive +3 bonus to all rolls",
+      "type": "passive",
+      "power_level": "moderate",
+      "divine_source": "none"
+    },
+    {
+      "name": "Heat Resistance",
+      "description": "Can handle hot materials without damage - immunity to heat-based crafting hazards",
+      "type": "passive",
+      "power_level": "minor",
+      "divine_source": "pyrion"
+    },
+    {
+      "name": "Tool Bonding",
+      "description": "Crafting tools used while wearing these gloves become 25% more effective",
+      "type": "passive",
+      "power_level": "moderate",
+      "divine_source": "none"
+    }
+  ],
+  "acquisition": {
+    "drop_sources": ["master-craftsmen", "artisan-workshops"],
+    "quest_rewards": ["apprentice-graduation-trial"],
+    "crafting_recipe": {
+      "required_rank": "C",
+      "required_level": 25,
+      "materials": [
+        {"item_id": "masterwork-leather", "quantity": 4},
+        {"item_id": "steel-fingertip-guards", "quantity": 10},
+        {"item_id": "enhancement-thread", "quantity": 6}
+      ],
+      "crafting_station": "leatherworking-station"
+    },
+    "vendor_price": {
+      "currency": "gold",
+      "amount": 250
+    },
+    "rarity_notes": "Popular among serious crafters and artisans of all disciplines"
+  },
+  "lore": {
+    "description": "These practical gloves enhance the wearer's ability to work with tools and materials, representing years of accumulated crafting wisdom.",
+    "history": "Originally designed by the Master Artisan's Guild to help apprentices learn advanced techniques safely.",
+    "creator": "Guild Master Craftsman Thorin Steadyhands",
+    "significance": "Symbol of dedication to the crafting arts and respect for practical skills"
+  },
+  "tags": ["gloves", "armor", "crafting", "artisan", "C-rank", "uncommon", "practical"],
+  "metadata": {
+    "created": "2025-08-06T00:00:00Z",
+    "last_updated": "2025-08-06T00:00:00Z",
+    "author": "PrimalMyst Development Team",
+    "version": "1.0.0",
+    "canonical": true
+  }
+}

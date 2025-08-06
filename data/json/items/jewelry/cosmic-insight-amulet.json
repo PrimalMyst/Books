@@ -1,0 +1,99 @@
+{
+  "id": "cosmic-insight-amulet",
+  "name": "Amulet of Cosmic Insight",
+  "type": "jewelry",
+  "subtype": "amulet",
+  "rank_level": {
+    "item_rank": "S",
+    "required_level": 75,
+    "optimal_level": 90,
+    "level_scaling": {
+      "scales_with_user": true,
+      "scaling_type": "exponential",
+      "max_scaling_level": 100
+    },
+    "quality_tier": "legendary",
+    "power_classification": "cosmic"
+  },
+  "divine_influences": {
+    "primary_influence": "myrielle",
+    "secondary_influences": ["aurelius", "nyxtharion"],
+    "divine_resonance": "overwhelming",
+    "humanoid_only": true
+  },
+  "physical_properties": {
+    "weight": {
+      "value": 2.0,
+      "unit": "ounces"
+    },
+    "size": "small",
+    "material": "Crystallized starlight with cosmic void core",
+    "durability": "nearly-indestructible",
+    "magical_nature": "cosmic"
+  },
+  "gameplay_properties": {
+    "stack_size": 1,
+    "tradeable": false,
+    "bind_on_pickup": true,
+    "bind_on_equip": true,
+    "unique": true,
+    "set_item": null
+  },
+  "gear_slot": {
+    "category": "jewelry",
+    "slot_type": "amulet",
+    "occupies_slots": ["neck_amulet"],
+    "slot_requirement": "Neck/amulet slot must be empty",
+    "notes": "Unique item - only one can be owned per character"
+  },
+  "effects": [
+    {
+      "name": "Veil Piercing Sight",
+      "description": "See through illusions, hidden passages, and mystical concealment",
+      "type": "passive",
+      "power_level": "legendary",
+      "divine_source": "myrielle"
+    },
+    {
+      "name": "Cosmic Wisdom",
+      "description": "Wisdom attribute effectiveness increased by 40% and gain insight into optimal choices",
+      "type": "passive",
+      "power_level": "legendary",
+      "divine_source": "aurelius"
+    },
+    {
+      "name": "Probability Sight",
+      "description": "Can see potential outcomes of major decisions before making them",
+      "type": "active",
+      "power_level": "cosmic",
+      "divine_source": "myrielle"
+    },
+    {
+      "name": "Chaos Understanding",
+      "description": "All random effects become controllable - choose the result instead of rolling",
+      "type": "passive",
+      "power_level": "legendary",
+      "divine_source": "nyxtharion"
+    }
+  ],
+  "acquisition": {
+    "drop_sources": ["the-cosmic-oracle"],
+    "quest_rewards": ["mysteries-of-infinite-sight"],
+    "crafting_recipe": null,
+    "rarity_notes": "Unique artifact - only one exists in the entire realm"
+  },
+  "lore": {
+    "description": "This amulet contains a fragment of cosmic consciousness itself, granting the wearer perception beyond mortal limitations.",
+    "history": "Created when Myrielle shed a single tear of joy upon witnessing perfect cosmic harmony.",
+    "creator": "Spontaneous manifestation of cosmic consciousness",
+    "significance": "Represents the ultimate achievement in mystical perception and cosmic understanding"
+  },
+  "tags": ["amulet", "jewelry", "myrielle", "aurelius", "nyxtharion", "S-rank", "legendary", "cosmic", "unique"],
+  "metadata": {
+    "created": "2025-08-06T00:00:00Z",
+    "last_updated": "2025-08-06T00:00:00Z",
+    "author": "PrimalMyst Development Team",
+    "version": "1.0.0",
+    "canonical": true
+  }
+}

@@ -1,0 +1,206 @@
+{
+  "id": "gear-index",
+  "name": "PrimalMyst Gear Index",
+  "description": "Complete index of all gear items organized by category and slot type",
+  "version": "1.0.0",
+  "total_equipment_slots": 13,
+  "slot_breakdown": {
+    "weapons": 1,
+    "jewelry": 6,
+    "armor": 6
+  },
+  "categories": {
+    "weapons": {
+      "description": "Combat equipment - placeholder implementation",
+      "status": "placeholder_only",
+      "total_slots": 1,
+      "slot_types": {
+        "main_hand": {
+          "description": "Primary weapon slot",
+          "example_items": [
+            "example-weapon-placeholder.json"
+          ],
+          "weapon_types": ["sword", "staff", "bow", "hammer", "dagger", "axe", "mace", "spear", "wand", "orb"],
+          "implementation_status": "pending"
+        }
+      }
+    },
+    "jewelry": {
+      "description": "Mystical accessories providing passive bonuses and special abilities",
+      "status": "fully_implemented",
+      "total_slots": 6,
+      "slot_types": {
+        "earrings": {
+          "description": "Dual earring slots for mystical resistance and minor enhancements",
+          "slots": 2,
+          "slot_names": ["left_earring", "right_earring"],
+          "example_items": [
+            "divine-harmony-earrings.json"
+          ],
+          "typical_effects": ["Mystical resistance", "Divine connection", "Attribute bonuses"]
+        },
+        "rings": {
+          "description": "Dual ring slots for damage bonuses and special abilities",
+          "slots": 2,
+          "slot_names": ["left_ring", "right_ring"],
+          "example_items": [
+            "adaptability-ring.json",
+            "stormcaller-ring.json"
+          ],
+          "typical_effects": ["Damage bonuses", "Special abilities", "Set bonuses"]
+        },
+        "amulet": {
+          "description": "Single neck slot for major passive abilities",
+          "slots": 1,
+          "slot_names": ["neck_amulet"],
+          "example_items": [
+            "cosmic-insight-amulet.json"
+          ],
+          "typical_effects": ["Major abilities", "Cosmic connections", "Transformation bonuses"]
+        },
+        "belt_lock": {
+          "description": "Belt attachment point for utility items and tools",
+          "slots": 1,
+          "slot_names": ["belt_attachment"],
+          "example_items": [
+            "utility-crystal-lock.json"
+          ],
+          "typical_effects": ["Utility functions", "Resource management", "Emergency effects"],
+          "requirements": "Must have belt equipped"
+        }
+      }
+    },
+    "armor": {
+      "description": "Protective equipment providing defense and utility features",
+      "status": "fully_implemented",
+      "total_slots": 6,
+      "slot_types": {
+        "helmet": {
+          "description": "Head protection with vision and mental enhancements",
+          "slots": 1,
+          "slot_names": ["head"],
+          "example_items": [
+            "shadow-court-crown.json"
+          ],
+          "protection_areas": ["head", "face", "neck_partial"],
+          "typical_effects": ["Mystical resistance", "Vision enhancement", "Mental protection"]
+        },
+        "body_armor": {
+          "description": "Primary torso protection with major defensive bonuses",
+          "slots": 1,
+          "slot_names": ["chest"],
+          "example_items": [
+            "stormrider-chestplate.json"
+          ],
+          "protection_areas": ["chest", "back", "shoulders", "upper_arms"],
+          "typical_effects": ["Physical protection", "Major defensive bonuses", "Movement modifications"]
+        },
+        "gloves": {
+          "description": "Hand protection with dexterity and crafting enhancements",
+          "slots": 1,
+          "slot_names": ["hands"],
+          "example_items": [
+            "artisan-crafting-gloves.json"
+          ],
+          "protection_areas": ["hands", "wrists", "forearms"],
+          "typical_effects": ["Dexterity bonuses", "Crafting enhancement", "Touch abilities"]
+        },
+        "belt": {
+          "description": "Waist protection with utility storage and belt_lock attachment",
+          "slots": 1,
+          "slot_names": ["waist"],
+          "example_items": [
+            "adventurers-utility-belt.json"
+          ],
+          "protection_areas": ["waist", "lower_back"],
+          "typical_effects": ["Utility storage", "Resource bonuses", "Core stability"],
+          "special_feature": "Provides attachment point for belt_lock jewelry"
+        },
+        "pants": {
+          "description": "Leg protection with mobility and movement enhancements",
+          "slots": 1,
+          "slot_names": ["legs"],
+          "example_items": [
+            "frost-guard-leggings.json"
+          ],
+          "protection_areas": ["thighs", "knees", "shins"],
+          "typical_effects": ["Mobility enhancement", "Lower body protection", "Movement abilities"]
+        },
+        "boots": {
+          "description": "Foot protection with movement speed and terrain adaptation",
+          "slots": 1,
+          "slot_names": ["feet"],
+          "example_items": [
+            "pathfinder-boots.json"
+          ],
+          "protection_areas": ["feet", "ankles", "calves"],
+          "typical_effects": ["Movement speed", "Terrain adaptation", "Stealth bonuses"]
+        }
+      }
+    }
+  },
+  "example_loadout": {
+    "description": "Example of a fully equipped character with all 13 gear slots filled",
+    "weapon_slot": {
+      "main_hand": "example-weapon-placeholder"
+    },
+    "jewelry_slots": {
+      "left_earring": "divine-harmony-earrings",
+      "right_earring": "divine-harmony-earrings",
+      "left_ring": "adaptability-ring",
+      "right_ring": "stormcaller-ring",
+      "neck_amulet": "cosmic-insight-amulet",
+      "belt_attachment": "utility-crystal-lock"
+    },
+    "armor_slots": {
+      "head": "shadow-court-crown",
+      "chest": "stormrider-chestplate",
+      "hands": "artisan-crafting-gloves",
+      "waist": "adventurers-utility-belt",
+      "legs": "frost-guard-leggings",
+      "feet": "pathfinder-boots"
+    },
+    "total_items": 13,
+    "notes": "This represents maximum equipment capacity with diverse effects and origins"
+  },
+  "enhancement_systems": {
+    "divine_influences": {
+      "description": "Gear can be influenced by any of the six primary gods",
+      "gods": ["pyrion", "glacius", "voltharion", "serafina", "aurelius", "korthak", "myrielle"],
+      "application": "Divine alignment affects gear bonuses and availability"
+    },
+    "rank_progression": {
+      "description": "All gear follows E-D-C-B-A-S-SS rank system",
+      "rank_distribution": {
+        "E_D": "Early game gear with basic effects",
+        "C_B": "Mid-game gear with specialized bonuses",
+        "A_S": "Late game gear with powerful abilities",
+        "SS": "Legendary gear with unique mechanics"
+      }
+    },
+    "set_bonuses": {
+      "description": "Related gear pieces provide additional bonuses when worn together",
+      "example_sets": [
+        "shadow-court-regalia",
+        "stormrider-armor-set",
+        "master-artisan-set",
+        "pathfinder-explorer-set"
+      ]
+    }
+  },
+  "implementation_status": {
+    "weapons": "placeholder_only",
+    "jewelry": "fully_implemented",
+    "armor": "fully_implemented",
+    "schemas": "complete",
+    "examples": "complete",
+    "integration": "ready"
+  },
+  "metadata": {
+    "created": "2025-08-06T00:00:00Z",
+    "last_updated": "2025-08-06T00:00:00Z",
+    "author": "PrimalMyst Development Team",
+    "version": "1.0.0",
+    "canonical": true
+  }
+}
