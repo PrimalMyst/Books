@@ -1,0 +1,156 @@
+{
+  "id": "gloves-categories",
+  "name": "Gloves Armor Categories",
+  "description": "All armor types available for the hands/gloves slot",
+  "body_slot": "gloves",
+  "slot_name": "hands", 
+  "protection_areas": ["hands", "wrists", "forearms"],
+  "armor_types": {
+    "armor": {
+      "type_name": "Heavy Gauntlets",
+      "base_type": "armor",
+      "description": "Maximum physical protection for hands and forearms",
+      "primary_stats": {
+        "physical_protection": "high",
+        "armor_rating": "primary_focus"
+      },
+      "secondary_benefits": [
+        "impact_resistance",
+        "crushing_immunity",
+        "weapon_grip_enhancement",
+        "unarmed_damage_bonus"
+      ],
+      "drawbacks": [
+        "dexterity_penalty",
+        "fine_manipulation_difficulty",
+        "crafting_impairment",
+        "spell_casting_hindrance"
+      ],
+      "typical_materials": ["steel_plate", "iron_mail", "reinforced_metal", "combat_alloys"],
+      "visual_examples": ["plate_gauntlets", "mail_gloves", "combat_fists", "war_mittens"]
+    },
+    "evasion": {
+      "type_name": "Dexterous Gloves",
+      "base_type": "evasion",
+      "description": "Minimal protection focused on hand agility and precision",
+      "primary_stats": {
+        "evasion_rating": "high", 
+        "dexterity_bonus": "primary_focus"
+      },
+      "secondary_benefits": [
+        "enhanced_dexterity",
+        "crafting_bonus",
+        "sleight_of_hand",
+        "fine_manipulation",
+        "spell_casting_enhancement"
+      ],
+      "drawbacks": [
+        "minimal_physical_protection",
+        "vulnerable_to_cuts",
+        "limited_durability"
+      ],
+      "typical_materials": ["soft_leather", "silk", "cloth", "flexible_fabric"],
+      "visual_examples": ["leather_gloves", "silk_gloves", "fingerless_gloves", "cloth_wraps"]
+    },
+    "energy_shield": {
+      "type_name": "Mystical Wraps",
+      "base_type": "energy_shield",
+      "description": "Magical protection through energy barriers and mystical enhancement",
+      "primary_stats": {
+        "energy_shield_capacity": "high",
+        "mystical_resistance": "primary_focus"
+      },
+      "secondary_benefits": [
+        "spell_power_enhancement",
+        "mana_efficiency",
+        "mystical_touch",
+        "energy_channeling",
+        "divine_connection"
+      ],
+      "drawbacks": [
+        "no_physical_protection",
+        "mana_dependency",
+        "vulnerable_to_disruption"
+      ],
+      "typical_materials": ["energy_conduits", "mystical_thread", "crystalline_fiber", "ethereal_weave"],
+      "visual_examples": ["energy_wraps", "mystical_gloves", "crystal_gauntlets", "divine_hands"]
+    },
+    "armor_evasion": {
+      "type_name": "Reinforced Gloves",
+      "base_type": "armor_evasion",
+      "description": "Balanced protection with maintained hand dexterity",
+      "primary_stats": {
+        "physical_protection": "moderate",
+        "dexterity_bonus": "moderate"
+      },
+      "secondary_benefits": [
+        "versatile_protection",
+        "maintained_dexterity",
+        "combat_readiness"
+      ],
+      "drawbacks": [
+        "compromised_specialization",
+        "moderate_weight"
+      ],
+      "typical_materials": ["reinforced_leather", "light_metal", "studded_fabric", "composite_materials"],
+      "visual_examples": ["studded_gloves", "reinforced_leather", "light_gauntlets", "combat_gloves"]
+    },
+    "armor_energy_shield": {
+      "type_name": "Warded Gauntlets",
+      "base_type": "armor_energy_shield",
+      "description": "Heavy protection enhanced with mystical barriers",
+      "primary_stats": {
+        "physical_protection": "moderate",
+        "energy_shield_capacity": "moderate"
+      },
+      "secondary_benefits": [
+        "mystical_durability",
+        "enhanced_grip",
+        "magical_reinforcement",
+        "spell_deflection"
+      ],
+      "drawbacks": [
+        "weight_burden",
+        "mana_dependency",
+        "dexterity_reduction"
+      ],
+      "typical_materials": ["enchanted_metal", "warded_steel", "mystical_alloys", "runed_gauntlets"],
+      "visual_examples": ["enchanted_gauntlets", "runed_gloves", "mystical_fists", "divine_gauntlets"]
+    },
+    "evasion_energy_shield": {
+      "type_name": "Ethereal Gloves",
+      "base_type": "evasion_energy_shield",
+      "description": "Agile mystical protection with enhanced casting abilities",
+      "primary_stats": {
+        "dexterity_bonus": "moderate",
+        "energy_shield_capacity": "moderate"
+      },
+      "secondary_benefits": [
+        "mystical_agility",
+        "enhanced_spellcasting",
+        "energy_manipulation",
+        "ethereal_touch"
+      ],
+      "drawbacks": [
+        "vulnerable_to_physical_damage",
+        "energy_dependency",
+        "fragile_construction"
+      ],
+      "typical_materials": ["ethereal_fabric", "energy_weave", "mystical_silk", "spirit_thread"],
+      "visual_examples": ["ethereal_wraps", "energy_gloves", "mystical_silk", "spirit_hands"]
+    }
+  },
+  "slot_specializations": {
+    "dexterity_bonuses": "Gloves primarily affect hand coordination and fine motor skills",
+    "crafting_enhancement": "Hand protection directly impacts crafting and manipulation abilities",
+    "touch_abilities": "Many gloves provide special touch-based powers and sensitivities",
+    "spell_casting": "Hand gear significantly affects spellcasting precision and power"
+  },
+  "metadata": {
+    "created": "2025-08-06T00:00:00Z",
+    "last_updated": "2025-08-06T00:00:00Z",
+    "author": "PrimalMyst Development Team",
+    "version": "1.0.0",
+    "canonical": true
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "id": "armor-categories-core",
+  "name": "Armor Categories System",
+  "description": "Core framework for armor categorization by body slot and base type",
+  "version": "1.0.0",
+  "armor_system": {
+    "design_philosophy": "Each body slot has distinct armor categories with three base types and hybrid combinations",
+    "base_types": {
+      "armor": {
+        "description": "High physical protection, heavy defense focus",
+        "primary_stat": "physical_protection",
+        "secondary_benefits": ["damage_reduction", "status_resistance"],
+        "drawbacks": ["movement_penalty", "stealth_reduction"]
+      },
+      "evasion": {
+        "description": "High mobility and dodge chance, agility focus",
+        "primary_stat": "evasion_rating",
+        "secondary_benefits": ["movement_speed", "stealth_bonus", "dexterity_enhancement"],
+        "drawbacks": ["low_physical_protection", "mystical_vulnerability"]
+      },
+      "energy_shield": {
+        "description": "Mystical protection and mana enhancement, magical focus",
+        "abbreviation": "ES",
+        "primary_stat": "energy_shield_capacity",
+        "secondary_benefits": ["mystical_resistance", "mana_bonuses", "spell_power"],
+        "drawbacks": ["no_physical_protection", "energy_dependency"]
+      }
+    },
+    "hybrid_types": {
+      "armor_evasion": {
+        "description": "Balanced physical protection with mobility",
+        "abbreviation": "AR/EV",
+        "combines": ["armor", "evasion"],
+        "balance": "moderate_protection_with_mobility",
+        "trade_offs": "reduced_specialization_for_versatility"
+      },
+      "armor_energy_shield": {
+        "description": "Heavy protection with mystical enhancement",
+        "abbreviation": "AR/ES", 
+        "combines": ["armor", "energy_shield"],
+        "balance": "high_defense_with_mystical_support",
+        "trade_offs": "heavy_and_mana_dependent"
+      },
+      "evasion_energy_shield": {
+        "description": "Mobile mystical protection",
+        "abbreviation": "EV/ES",
+        "combines": ["evasion", "energy_shield"],
+        "balance": "agile_mystical_defense",
+        "trade_offs": "vulnerable_to_physical_damage"
+      }
+    }
+  },
+  "body_slots": {
+    "helmet": {
+      "slot_name": "head",
+      "protection_areas": ["head", "face", "neck_partial"],
+      "base_types": ["armor", "evasion", "energy_shield"],
+      "hybrid_types": ["armor_evasion", "armor_energy_shield", "evasion_energy_shield"],
+      "special_properties": ["vision_enhancement", "mental_protection", "mystical_resistance"]
+    },
+    "body_armor": {
+      "slot_name": "chest", 
+      "protection_areas": ["chest", "back", "shoulders", "upper_arms"],
+      "base_types": ["armor", "evasion", "energy_shield"],
+      "hybrid_types": ["armor_evasion", "armor_energy_shield", "evasion_energy_shield"],
+      "special_properties": ["primary_defense", "major_bonuses", "movement_modification"]
+    },
+    "gloves": {
+      "slot_name": "hands",
+      "protection_areas": ["hands", "wrists", "forearms"], 
+      "base_types": ["armor", "evasion", "energy_shield"],
+      "hybrid_types": ["armor_evasion", "armor_energy_shield", "evasion_energy_shield"],
+      "special_properties": ["dexterity_bonuses", "crafting_enhancement", "touch_abilities"]
+    },
+    "belt": {
+      "slot_name": "waist",
+      "protection_areas": ["waist", "lower_back"],
+      "base_types": ["armor", "evasion", "energy_shield"], 
+      "hybrid_types": ["armor_evasion", "armor_energy_shield", "evasion_energy_shield"],
+      "special_properties": ["utility_storage", "resource_bonuses", "belt_lock_attachment"]
+    },
+    "pants": {
+      "slot_name": "legs",
+      "protection_areas": ["thighs", "knees", "shins"],
+      "base_types": ["armor", "evasion", "energy_shield"],
+      "hybrid_types": ["armor_evasion", "armor_energy_shield", "evasion_energy_shield"], 
+      "special_properties": ["mobility_enhancement", "lower_body_protection", "movement_abilities"]
+    },
+    "boots": {
+      "slot_name": "feet",
+      "protection_areas": ["feet", "ankles", "calves"],
+      "base_types": ["armor", "evasion", "energy_shield"],
+      "hybrid_types": ["armor_evasion", "armor_energy_shield", "evasion_energy_shield"],
+      "special_properties": ["movement_speed", "terrain_adaptation", "stealth_bonuses"]
+    }
+  },
+  "implementation_structure": {
+    "total_armor_categories": 36,
+    "breakdown": {
+      "body_slots": 6,
+      "base_types_per_slot": 3,
+      "hybrid_types_per_slot": 3,
+      "total_types_per_slot": 6,
+      "calculation": "6 slots × 6 types = 36 total armor categories"
+    },
+    "file_organization": {
+      "category_files": "One file per body slot defining all types for that slot",
+      "structure": "armor-categories/{slot-name}-categories.json",
+      "examples": [
+        "helmet-categories.json",
+        "body-armor-categories.json", 
+        "gloves-categories.json",
+        "belt-categories.json",
+        "pants-categories.json",
+        "boots-categories.json"
+      ]
+    }
+  },
+  "metadata": {
+    "created": "2025-08-06T00:00:00Z",
+    "last_updated": "2025-08-06T00:00:00Z",
+    "author": "PrimalMyst Development Team",
+    "version": "1.0.0",
+    "canonical": true
+  }
+}

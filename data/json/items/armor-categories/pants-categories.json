@@ -1,0 +1,160 @@
+{
+  "id": "pants-categories",
+  "name": "Pants Armor Categories",
+  "description": "All armor types available for the legs/pants slot",
+  "body_slot": "pants",
+  "slot_name": "legs",
+  "protection_areas": ["thighs", "knees", "shins"],
+  "armor_types": {
+    "armor": {
+      "type_name": "Heavy Leg Armor",
+      "base_type": "armor",
+      "description": "Maximum physical protection for legs and mobility joints",
+      "primary_stats": {
+        "physical_protection": "high",
+        "armor_rating": "primary_focus"
+      },
+      "secondary_benefits": [
+        "impact_resistance",
+        "joint_protection",
+        "stance_stability",
+        "kick_damage_bonus",
+        "fall_damage_reduction"
+      ],
+      "drawbacks": [
+        "movement_speed_penalty",
+        "jump_height_reduction",
+        "flexibility_limitation",
+        "weight_burden"
+      ],
+      "typical_materials": ["steel_plate", "reinforced_mail", "metal_scales", "combat_alloys"],
+      "visual_examples": ["plate_leggings", "mail_chausses", "scale_pants", "armored_greaves"]
+    },
+    "evasion": {
+      "type_name": "Mobility Pants",
+      "base_type": "evasion",
+      "description": "Minimal protection focused on leg mobility and athletic performance",
+      "primary_stats": {
+        "evasion_rating": "high",
+        "movement_speed": "primary_focus"
+      },
+      "secondary_benefits": [
+        "enhanced_mobility",
+        "jump_enhancement",
+        "acrobatic_bonus",
+        "running_speed",
+        "athletic_performance",
+        "stealth_movement"
+      ],
+      "drawbacks": [
+        "minimal_physical_protection",
+        "vulnerable_to_cuts",
+        "limited_durability"
+      ],
+      "typical_materials": ["soft_leather", "cloth", "flexible_fabric", "athletic_materials"],
+      "visual_examples": ["leather_pants", "cloth_trousers", "athletic_leggings", "flexible_wraps"]
+    },
+    "energy_shield": {
+      "type_name": "Mystical Leggings",
+      "base_type": "energy_shield",
+      "description": "Magical protection through energy barriers and mystical enhancement",
+      "primary_stats": {
+        "energy_shield_capacity": "high",
+        "mystical_resistance": "primary_focus"
+      },
+      "secondary_benefits": [
+        "mystical_mobility",
+        "energy_stride",
+        "spell_movement",
+        "ethereal_step",
+        "divine_grace"
+      ],
+      "drawbacks": [
+        "no_physical_protection",
+        "mana_dependency",
+        "energy_drain_vulnerability"
+      ],
+      "typical_materials": ["energy_fabric", "mystical_thread", "crystalline_weave", "ethereal_materials"],
+      "visual_examples": ["energy_leggings", "mystical_pants", "crystal_wraps", "divine_garments"]
+    },
+    "armor_evasion": {
+      "type_name": "Battle Leggings",
+      "base_type": "armor_evasion",
+      "description": "Balanced protection with maintained leg mobility",
+      "primary_stats": {
+        "physical_protection": "moderate",
+        "movement_speed": "moderate"
+      },
+      "secondary_benefits": [
+        "combat_mobility",
+        "tactical_movement",
+        "balanced_protection",
+        "versatile_performance"
+      ],
+      "drawbacks": [
+        "compromised_specialization",
+        "moderate_weight"
+      ],
+      "typical_materials": ["reinforced_leather", "light_metal", "studded_fabric", "composite_armor"],
+      "visual_examples": ["studded_pants", "reinforced_leggings", "light_mail", "combat_trousers"]
+    },
+    "armor_energy_shield": {
+      "type_name": "Warded Leggings",
+      "base_type": "armor_energy_shield",
+      "description": "Heavy protection enhanced with mystical barriers",
+      "primary_stats": {
+        "physical_protection": "moderate",
+        "energy_shield_capacity": "moderate"
+      },
+      "secondary_benefits": [
+        "mystical_durability",
+        "enhanced_protection",
+        "magical_reinforcement",
+        "spell_resistance"
+      ],
+      "drawbacks": [
+        "weight_burden",
+        "mana_dependency",
+        "movement_restriction"
+      ],
+      "typical_materials": ["enchanted_metal", "warded_steel", "mystical_alloys", "runed_armor"],
+      "visual_examples": ["enchanted_leggings", "runed_pants", "mystical_mail", "divine_armor"]
+    },
+    "evasion_energy_shield": {
+      "type_name": "Ethereal Pants",
+      "base_type": "evasion_energy_shield",
+      "description": "Agile mystical protection with enhanced movement abilities",
+      "primary_stats": {
+        "movement_speed": "moderate",
+        "energy_shield_capacity": "moderate"
+      },
+      "secondary_benefits": [
+        "mystical_agility",
+        "enhanced_movement",
+        "energy_flow",
+        "ethereal_stride",
+        "spell_mobility"
+      ],
+      "drawbacks": [
+        "vulnerable_to_physical_damage",
+        "energy_dependency",
+        "fragile_construction"
+      ],
+      "typical_materials": ["ethereal_fabric", "energy_weave", "mystical_silk", "spirit_thread"],
+      "visual_examples": ["ethereal_leggings", "energy_pants", "mystical_wraps", "spirit_garments"]
+    }
+  },
+  "slot_specializations": {
+    "mobility_enhancement": "Leg armor primarily affects movement speed and athletic abilities",
+    "lower_body_protection": "Pants provide critical protection for leg joints and mobility",
+    "movement_abilities": "Many leg armors grant special movement and traversal capabilities",
+    "stance_support": "Leg protection affects combat stance and stability"
+  },
+  "metadata": {
+    "created": "2025-08-06T00:00:00Z",
+    "last_updated": "2025-08-06T00:00:00Z",
+    "author": "PrimalMyst Development Team",
+    "version": "1.0.0",
+    "canonical": true
+  }
+}

@@ -14,154 +14,93 @@
       "description": "Combat equipment - placeholder implementation",
       "status": "placeholder_only",
       "total_slots": 1,
-      "slot_types": {
-        "main_hand": {
-          "description": "Primary weapon slot",
-          "example_items": [
-            "example-weapon-placeholder.json"
-          ],
-          "weapon_types": ["sword", "staff", "bow", "hammer", "dagger", "axe", "mace", "spear", "wand", "orb"],
-          "implementation_status": "pending"
-        }
-      }
+      "implementation_notes": "Weapon system to be implemented in future updates"
     },
     "jewelry": {
       "description": "Mystical accessories providing passive bonuses and special abilities",
-      "status": "fully_implemented",
+      "status": "placeholder_defined",
       "total_slots": 6,
-      "slot_types": {
-        "earrings": {
-          "description": "Dual earring slots for mystical resistance and minor enhancements",
-          "slots": 2,
-          "slot_names": ["left_earring", "right_earring"],
-          "example_items": [
-            "divine-harmony-earrings.json"
-          ],
-          "typical_effects": ["Mystical resistance", "Divine connection", "Attribute bonuses"]
-        },
-        "rings": {
-          "description": "Dual ring slots for damage bonuses and special abilities",
-          "slots": 2,
-          "slot_names": ["left_ring", "right_ring"],
-          "example_items": [
-            "adaptability-ring.json",
-            "stormcaller-ring.json"
-          ],
-          "typical_effects": ["Damage bonuses", "Special abilities", "Set bonuses"]
-        },
-        "amulet": {
-          "description": "Single neck slot for major passive abilities",
-          "slots": 1,
-          "slot_names": ["neck_amulet"],
-          "example_items": [
-            "cosmic-insight-amulet.json"
-          ],
-          "typical_effects": ["Major abilities", "Cosmic connections", "Transformation bonuses"]
-        },
-        "belt_lock": {
-          "description": "Belt attachment point for utility items and tools",
-          "slots": 1,
-          "slot_names": ["belt_attachment"],
-          "example_items": [
-            "utility-crystal-lock.json"
-          ],
-          "typical_effects": ["Utility functions", "Resource management", "Emergency effects"],
-          "requirements": "Must have belt equipped"
-        }
-      }
+      "slot_types": ["earrings", "rings", "amulet", "belt_lock"],
+      "implementation_notes": "Jewelry categories defined, specific items moved to examples"
     },
     "armor": {
-      "description": "Protective equipment providing defense and utility features",
-      "status": "fully_implemented",
+      "description": "Protective equipment with categorized base types and hybrid combinations",
+      "status": "categories_implemented",
       "total_slots": 6,
-      "slot_types": {
+      "category_system": {
+        "base_types": {
+          "armor": "High physical protection, heavy defense focus",
+          "evasion": "High mobility and dodge chance, agility focus", 
+          "energy_shield": "Mystical protection and mana enhancement, magical focus"
+        },
+        "hybrid_types": {
+          "armor_evasion": "Balanced physical protection with mobility",
+          "armor_energy_shield": "Heavy protection with mystical enhancement",
+          "evasion_energy_shield": "Mobile mystical protection"
+        },
+        "total_categories_per_slot": 6,
+        "total_armor_categories": 36
+      },
+      "body_slots": {
         "helmet": {
           "description": "Head protection with vision and mental enhancements",
-          "slots": 1,
-          "slot_names": ["head"],
-          "example_items": [
-            "shadow-court-crown.json"
-          ],
           "protection_areas": ["head", "face", "neck_partial"],
-          "typical_effects": ["Mystical resistance", "Vision enhancement", "Mental protection"]
+          "category_file": "helmet-categories.json",
+          "armor_types": ["Heavy Helm", "Light Circlet", "Mystical Crown", "Battle Helm", "Warded Helm", "Mystical Circlet"]
         },
         "body_armor": {
           "description": "Primary torso protection with major defensive bonuses",
-          "slots": 1,
-          "slot_names": ["chest"],
-          "example_items": [
-            "stormrider-chestplate.json"
-          ],
           "protection_areas": ["chest", "back", "shoulders", "upper_arms"],
-          "typical_effects": ["Physical protection", "Major defensive bonuses", "Movement modifications"]
+          "category_file": "body-armor-categories.json",
+          "armor_types": ["Plate Armor", "Leather Armor", "Mystical Robe", "Mail Armor", "Warded Plate", "Mystical Leather"]
         },
         "gloves": {
           "description": "Hand protection with dexterity and crafting enhancements",
-          "slots": 1,
-          "slot_names": ["hands"],
-          "example_items": [
-            "artisan-crafting-gloves.json"
-          ],
           "protection_areas": ["hands", "wrists", "forearms"],
-          "typical_effects": ["Dexterity bonuses", "Crafting enhancement", "Touch abilities"]
+          "category_file": "gloves-categories.json",
+          "armor_types": ["Heavy Gauntlets", "Dexterous Gloves", "Mystical Wraps", "Reinforced Gloves", "Warded Gauntlets", "Ethereal Gloves"]
         },
         "belt": {
           "description": "Waist protection with utility storage and belt_lock attachment",
-          "slots": 1,
-          "slot_names": ["waist"],
-          "example_items": [
-            "adventurers-utility-belt.json"
-          ],
           "protection_areas": ["waist", "lower_back"],
-          "typical_effects": ["Utility storage", "Resource bonuses", "Core stability"],
+          "category_file": "belt-categories.json",
+          "armor_types": ["Heavy Battle Belt", "Agility Sash", "Mystical Girdle", "Tactical Belt", "Warded Girdle", "Ethereal Sash"],
           "special_feature": "Provides attachment point for belt_lock jewelry"
         },
         "pants": {
           "description": "Leg protection with mobility and movement enhancements",
-          "slots": 1,
-          "slot_names": ["legs"],
-          "example_items": [
-            "frost-guard-leggings.json"
-          ],
           "protection_areas": ["thighs", "knees", "shins"],
-          "typical_effects": ["Mobility enhancement", "Lower body protection", "Movement abilities"]
+          "category_file": "pants-categories.json",
+          "armor_types": ["Heavy Leg Armor", "Mobility Pants", "Mystical Leggings", "Battle Leggings", "Warded Leggings", "Ethereal Pants"]
         },
         "boots": {
           "description": "Foot protection with movement speed and terrain adaptation",
-          "slots": 1,
-          "slot_names": ["feet"],
-          "example_items": [
-            "pathfinder-boots.json"
-          ],
           "protection_areas": ["feet", "ankles", "calves"],
-          "typical_effects": ["Movement speed", "Terrain adaptation", "Stealth bonuses"]
+          "category_file": "boots-categories.json",
+          "armor_types": ["Heavy Sabatons", "Silent Boots", "Mystical Footwear", "Tactical Boots", "Warded Sabatons", "Ethereal Boots"]
         }
       }
     }
   },
   "example_loadout": {
-    "description": "Example of a fully equipped character with all 13 gear slots filled",
-    "weapon_slot": {
-      "main_hand": "example-weapon-placeholder"
+    "description": "Example items moved to examples/ folder for reference",
+    "file_locations": {
+      "armor_examples": "examples/armor/",
+      "jewelry_examples": "examples/jewelry/",
+      "weapon_examples": "examples/weapons/"
     },
-    "jewelry_slots": {
-      "left_earring": "divine-harmony-earrings",
-      "right_earring": "divine-harmony-earrings",
-      "left_ring": "adaptability-ring",
-      "right_ring": "stormcaller-ring",
-      "neck_amulet": "cosmic-insight-amulet",
-      "belt_attachment": "utility-crystal-lock"
-    },
-    "armor_slots": {
-      "head": "shadow-court-crown",
-      "chest": "stormrider-chestplate",
-      "hands": "artisan-crafting-gloves",
-      "waist": "adventurers-utility-belt",
-      "legs": "frost-guard-leggings",
-      "feet": "pathfinder-boots"
-    },
-    "total_items": 13,
-    "notes": "This represents maximum equipment capacity with diverse effects and origins"
+    "armor_categories_structure": {
+      "total_categories": 36,
+      "breakdown": "6 body slots × 6 armor types (3 base + 3 hybrid) = 36 total armor categories",
+      "category_files": [
+        "armor-categories/helmet-categories.json",
+        "armor-categories/body-armor-categories.json", 
+        "armor-categories/gloves-categories.json",
+        "armor-categories/belt-categories.json",
+        "armor-categories/pants-categories.json",
+        "armor-categories/boots-categories.json"
+      ]
+    }
   },
   "enhancement_systems": {
     "divine_influences": {
@@ -190,11 +129,12 @@
   },
   "implementation_status": {
     "weapons": "placeholder_only",
-    "jewelry": "fully_implemented",
-    "armor": "fully_implemented",
+    "jewelry": "structure_defined",
+    "armor": "categories_implemented",
+    "armor_categories": "complete_structure_with_36_types",
     "schemas": "complete",
-    "examples": "complete",
-    "integration": "ready"
+    "examples": "moved_to_examples_folder",
+    "integration": "ready_for_item_creation"
   },
   "metadata": {
     "created": "2025-08-06T00:00:00Z",
