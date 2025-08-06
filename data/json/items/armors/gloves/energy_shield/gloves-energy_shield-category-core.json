@@ -1,0 +1,21 @@
+{
+  "id": "gloves-energy_shield-category-core",
+  "name": "GLOVES ENERGY_SHIELD Category Core",
+  "description": "Core definitions and characteristics for gloves energy_shield armor category",
+  "parent_slot": "gloves",
+  "armor_type": "energy_shield",
+  "references": {
+    "slot_core": "../gloves-categories-core.json",
+    "base_types": "../../base-categories-core.json"
+  },
+  "category_specifics": {
+    "placeholder": "This file contains specific implementations for gloves energy_shield armor pieces"
+  },
+  "metadata": {
+    "created": "2025-08-06T00:00:00Z",
+    "last_updated": "2025-08-06T00:00:00Z",
+    "author": "PrimalMyst Development Team",
+    "version": "1.0.0",
+    "canonical": true
+  }
+}

@@ -24,9 +24,10 @@
       "implementation_notes": "Jewelry categories defined, specific items moved to examples"
     },
     "armor": {
-      "description": "Protective equipment with categorized base types and hybrid combinations",
-      "status": "categories_implemented",
+      "description": "Protective equipment with linear hierarchical organization",
+      "status": "linear_structure_implemented",
       "total_slots": 6,
+      "structure": "armors/[slot]/[type]/ - Linear hierarchical folder organization",
       "category_system": {
         "base_types": {
           "armor": "High physical protection, heavy defense focus",
@@ -41,42 +42,59 @@
         "total_categories_per_slot": 6,
         "total_armor_categories": 36
       },
+      "folder_structure": {
+        "root": "armors/",
+        "organization": "Each body slot contains 6 type folders",
+        "body_slots": ["helmet", "body_armor", "gloves", "belt", "pants", "boots"],
+        "types_per_slot": ["armor", "evasion", "energy_shield", "armor_evasion", "armor_energy_shield", "evasion_energy_shield"],
+        "total_folders": 42
+      },
+      "core_files": {
+        "base_categories_core": "armors/base-categories-core.json",
+        "armor_categories_core": "armors/armor-categories-core.json",
+        "helmet_core": "armors/helmet/helmet-categories-core.json",
+        "body_armor_core": "armors/body_armor/body-armor-categories-core.json",
+        "gloves_core": "armors/gloves/gloves-categories-core.json",
+        "belt_core": "armors/belt/belt-categories-core.json",
+        "pants_core": "armors/pants/pants-categories-core.json",
+        "boots_core": "armors/boots/boots-categories-core.json"
+      },
       "body_slots": {
         "helmet": {
           "description": "Head protection with vision and mental enhancements",
           "protection_areas": ["head", "face", "neck_partial"],
-          "category_file": "helmet-categories.json",
+          "core_file": "helmet-categories-core.json",
           "armor_types": ["Heavy Helm", "Light Circlet", "Mystical Crown", "Battle Helm", "Warded Helm", "Mystical Circlet"]
         },
         "body_armor": {
           "description": "Primary torso protection with major defensive bonuses",
           "protection_areas": ["chest", "back", "shoulders", "upper_arms"],
-          "category_file": "body-armor-categories.json",
+          "core_file": "body-armor-categories-core.json",
           "armor_types": ["Plate Armor", "Leather Armor", "Mystical Robe", "Mail Armor", "Warded Plate", "Mystical Leather"]
         },
         "gloves": {
           "description": "Hand protection with dexterity and crafting enhancements",
           "protection_areas": ["hands", "wrists", "forearms"],
-          "category_file": "gloves-categories.json",
-          "armor_types": ["Heavy Gauntlets", "Dexterous Gloves", "Mystical Wraps", "Reinforced Gloves", "Warded Gauntlets", "Ethereal Gloves"]
+          "core_file": "gloves-categories-core.json",
+          "armor_types": ["Plate Gauntlets", "Leather Gloves", "Mystical Wraps", "Chain Gloves", "Warded Gauntlets", "Ethereal Gloves"]
         },
         "belt": {
           "description": "Waist protection with utility storage and belt_lock attachment",
           "protection_areas": ["waist", "lower_back"],
-          "category_file": "belt-categories.json",
-          "armor_types": ["Heavy Battle Belt", "Agility Sash", "Mystical Girdle", "Tactical Belt", "Warded Girdle", "Ethereal Sash"],
+          "core_file": "belt-categories-core.json",
+          "armor_types": ["Heavy War Belt", "Light Sash", "Mystical Cord", "Studded Belt", "Warded Girdle", "Ethereal Sash"],
           "special_feature": "Provides attachment point for belt_lock jewelry"
         },
         "pants": {
           "description": "Leg protection with mobility and movement enhancements",
           "protection_areas": ["thighs", "knees", "shins"],
-          "category_file": "pants-categories.json",
-          "armor_types": ["Heavy Leg Armor", "Mobility Pants", "Mystical Leggings", "Battle Leggings", "Warded Leggings", "Ethereal Pants"]
+          "core_file": "pants-categories-core.json",
+          "armor_types": ["Plate Greaves", "Leather Breeches", "Mystical Leggings", "Chain Leggings", "Warded Greaves", "Ethereal Breeches"]
         },
         "boots": {
           "description": "Foot protection with movement speed and terrain adaptation",
           "protection_areas": ["feet", "ankles", "calves"],
-          "category_file": "boots-categories.json",
+          "core_file": "boots-categories-core.json",
           "armor_types": ["Heavy Sabatons", "Silent Boots", "Mystical Footwear", "Tactical Boots", "Warded Sabatons", "Ethereal Boots"]
         }
       }
@@ -89,16 +107,19 @@
       "jewelry_examples": "examples/jewelry/",
       "weapon_examples": "examples/weapons/"
     },
-    "armor_categories_structure": {
+    "armor_structure": {
       "total_categories": 36,
       "breakdown": "6 body slots × 6 armor types (3 base + 3 hybrid) = 36 total armor categories",
-      "category_files": [
-        "armor-categories/helmet-categories.json",
-        "armor-categories/body-armor-categories.json", 
-        "armor-categories/gloves-categories.json",
-        "armor-categories/belt-categories.json",
-        "armor-categories/pants-categories.json",
-        "armor-categories/boots-categories.json"
+      "structure": "Linear hierarchical folder organization: armors/[slot]/[type]/",
+      "core_files": [
+        "armors/base-categories-core.json",
+        "armors/armor-categories-core.json",
+        "armors/helmet/helmet-categories-core.json",
+        "armors/body_armor/body-armor-categories-core.json", 
+        "armors/gloves/gloves-categories-core.json",
+        "armors/belt/belt-categories-core.json",
+        "armors/pants/pants-categories-core.json",
+        "armors/boots/boots-categories-core.json"
       ]
     }
   },
@@ -130,8 +151,8 @@
   "implementation_status": {
     "weapons": "placeholder_only",
     "jewelry": "structure_defined",
-    "armor": "categories_implemented",
-    "armor_categories": "complete_structure_with_36_types",
+    "armor": "linear_structure_implemented",
+    "armor_structure": "complete_hierarchical_organization_with_42_folders",
     "schemas": "complete",
     "examples": "moved_to_examples_folder",
     "integration": "ready_for_item_creation"

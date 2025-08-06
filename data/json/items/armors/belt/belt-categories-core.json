@@ -1,0 +1,150 @@
+{
+  "id": "belt-categories-core",
+  "name": "Belt Categories Core",
+  "description": "Core information and generic characteristics shared by all belt types and categories",
+  "body_slot": "belt",
+  "slot_name": "waist",
+  "protection_areas": ["waist", "lower_back", "hips"],
+  "references": {
+    "base_types": "../base-categories-core.json",
+    "description": "Inherits base armor type definitions from base-categories-core.json"
+  },
+  "generic_belt_characteristics": {
+    "core_function": "Waist protection and utility enhancement",
+    "universal_properties": {
+      "belt_lock_attachment": {
+        "description": "All belts provide attachment point for belt_lock jewelry",
+        "functionality": "Enables belt_lock jewelry slot for additional bonuses",
+        "attachment_types": ["buckle_mounted", "loop_threaded", "mystically_bonded"]
+      },
+      "utility_storage": {
+        "description": "Belts provide utility storage and quick access capabilities",
+        "storage_types": ["pouches", "holsters", "tool_loops", "mystical_containers"],
+        "capacity_scaling": "Varies by belt type and quality"
+      },
+      "core_stabilization": {
+        "description": "Belts provide core body stabilization and balance enhancement",
+        "benefits": ["stance_stability", "lifting_support", "balance_improvement"],
+        "combat_application": "Improves combat stance and defensive positioning"
+      },
+      "energy_circulation": {
+        "description": "Belts can channel and focus personal energy flow",
+        "mystical_function": "Facilitates energy circulation between upper and lower body",
+        "enhancement_potential": "Can amplify personal power and divine connection"
+      }
+    },
+    "size_and_fit": {
+      "adjustment_range": "Belts accommodate various body types through mystical or mechanical adjustment",
+      "comfort_factors": ["padding", "flexibility", "weight_distribution"],
+      "ergonomic_design": "Designed for extended wear during adventuring and combat"
+    },
+    "visual_characteristics": {
+      "style_elements": ["buckles", "studs", "engravings", "mystical_runes"],
+      "material_visibility": "Belt materials and craftsmanship are prominently displayed",
+      "divine_manifestation": "Divine alignment often manifests through belt symbols and aura"
+    }
+  },
+  "armor_type_structure": {
+    "base_types": {
+      "armor": {
+        "folder_name": "armor",
+        "type_name": "Heavy War Belt",
+        "description": "Maximum waist protection with reinforced metal plating and hip guards",
+        "generic_characteristics": {
+          "construction": "Heavy metal plates with reinforced buckles and protective hip guards",
+          "typical_materials": ["steel plates", "iron buckles", "leather backing", "metal studs"],
+          "weight": "Heavy - provides substantial protection but reduces agility",
+          "durability": "Extremely durable, resistant to physical damage",
+          "utility_features": ["heavy_duty_pouches", "weapon_holsters", "tool_loops"],
+          "comfort": "Padded interior for extended wear despite weight"
+        }
+      },
+      "evasion": {
+        "folder_name": "evasion",
+        "type_name": "Light Sash",
+        "description": "Minimal protection focused on mobility and agility enhancement",
+        "generic_characteristics": {
+          "construction": "Flexible fabric or soft leather with minimal hardware",
+          "typical_materials": ["silk", "soft_leather", "flexible_cord", "lightweight_buckles"],
+          "weight": "Very light - enhances natural agility and movement",
+          "durability": "Moderate durability, prioritizes flexibility over resilience",
+          "utility_features": ["hidden_pockets", "quick_release_mechanisms", "silent_clasps"],
+          "comfort": "Extremely comfortable, barely noticeable when worn"
+        }
+      },
+      "energy_shield": {
+        "folder_name": "energy_shield",
+        "type_name": "Mystical Cord",
+        "description": "Magical waist protection through energy circulation and power focusing",
+        "generic_characteristics": {
+          "construction": "Mystical materials woven with energy-conducting properties",
+          "typical_materials": ["energy_crystals", "mystical_threads", "spirit_weaves", "enchanted_metals"],
+          "weight": "Ethereal - weight varies based on energy saturation",
+          "durability": "Variable durability dependent on mystical energy levels",
+          "utility_features": ["energy_storage", "spell_component_holders", "mystical_focus_points"],
+          "comfort": "Adapts to wearer's energy signature for perfect fit"
+        }
+      }
+    },
+    "hybrid_types": {
+      "armor_evasion": {
+        "folder_name": "armor_evasion",
+        "type_name": "Studded Belt",
+        "description": "Protective waistguard maintaining flexibility and movement freedom",
+        "generic_characteristics": {
+          "construction": "Reinforced leather with strategic metal studs for protection",
+          "typical_materials": ["reinforced_leather", "metal_studs", "flexible_plates", "quality_buckles"],
+          "weight": "Medium - balanced protection and mobility",
+          "durability": "Good durability with maintained flexibility",
+          "utility_features": ["versatile_pouches", "quick_access_loops", "adjustable_fittings"],
+          "comfort": "Well-balanced comfort for extended adventuring"
+        }
+      },
+      "armor_energy_shield": {
+        "folder_name": "armor_energy_shield", 
+        "type_name": "Warded Girdle",
+        "description": "Heavy waist protection enhanced with mystical power amplification",
+        "generic_characteristics": {
+          "construction": "Heavy protection with integrated mystical enhancement systems",
+          "typical_materials": ["enchanted_metals", "warded_plates", "mystical_gems", "runed_leather"],
+          "weight": "Heavy - substantial protection with mystical enhancement",
+          "durability": "Extremely high durability enhanced by mystical wards",
+          "utility_features": ["power_amplification", "mystical_storage", "energy_channeling"],
+          "comfort": "Mystically adjusted for comfort despite substantial construction"
+        }
+      },
+      "evasion_energy_shield": {
+        "folder_name": "evasion_energy_shield",
+        "type_name": "Ethereal Sash",
+        "description": "Agile mystical waistguard combining fluid movement with energy manipulation",
+        "generic_characteristics": {
+          "construction": "Mystical materials designed for maximum agility and energy flow",
+          "typical_materials": ["ethereal_silks", "spirit_threads", "phase_crystals", "energy_weaves"],
+          "weight": "Ethereal light - enhances both agility and mystical connection",
+          "durability": "Moderate durability with self-repair mystical properties",
+          "utility_features": ["energy_manipulation", "phase_storage", "mystical_quick_access"],
+          "comfort": "Perfectly adapted to wearer's energy flow and movement patterns"
+        }
+      }
+    }
+  },
+  "slot_specializations": {
+    "power_focusing": "Belts often serve as conduits for channeling and focusing personal energy",
+    "utility_enhancement": "Waist slots frequently provide utility bonuses and inventory benefits",
+    "stance_stability": "Belt protection affects combat stance and balance capabilities",
+    "divine_connection": "Often bears symbols and provides connection to divine power sources",
+    "social_status": "Belt quality and style often indicate social standing and wealth"
+  },
+  "folder_structure": {
+    "total_type_folders": 6,
+    "organization": "Each armor type has its own folder containing specific implementations",
+    "folder_list": ["armor", "evasion", "energy_shield", "armor_evasion", "armor_energy_shield", "evasion_energy_shield"]
+  },
+  "metadata": {
+    "created": "2025-08-06T00:00:00Z",
+    "last_updated": "2025-08-06T00:00:00Z",
+    "author": "PrimalMyst Development Team",
+    "version": "1.0.0",
+    "canonical": true
+  }
+}

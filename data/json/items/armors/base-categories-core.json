@@ -1,0 +1,105 @@
+{
+  "id": "base-categories-core",
+  "name": "Base Armor Categories System",
+  "description": "Core definitions for all armor base types and hybrid combinations used across all equipment slots",
+  "version": "1.0.0",
+  "armor_system": {
+    "design_philosophy": "Three fundamental protection philosophies with hybrid combinations for versatility",
+    "base_types": {
+      "armor": {
+        "description": "High physical protection, heavy defense focus",
+        "abbreviation": "AR",
+        "protection_philosophy": "Maximum physical damage mitigation through solid materials and reinforcement",
+        "primary_stat": "physical_protection",
+        "secondary_benefits": ["damage_reduction", "status_resistance", "knockback_resistance"],
+        "drawbacks": ["movement_penalty", "stealth_reduction", "agility_loss"],
+        "typical_materials": ["steel", "iron", "hardened_leather", "bone", "mystical_metals"],
+        "weight_category": "heavy",
+        "durability": "high",
+        "maintenance": "requires_regular_care"
+      },
+      "evasion": {
+        "description": "High mobility and dodge chance, agility focus",
+        "abbreviation": "EV",
+        "protection_philosophy": "Avoid damage through superior mobility and positioning",
+        "primary_stat": "evasion_rating",
+        "secondary_benefits": ["movement_speed", "stealth_bonus", "dexterity_enhancement", "dodge_chance"],
+        "drawbacks": ["low_physical_protection", "mystical_vulnerability", "durability_issues"],
+        "typical_materials": ["soft_leather", "cloth", "silk", "flexible_fibers", "light_metals"],
+        "weight_category": "light",
+        "durability": "moderate",
+        "maintenance": "minimal_upkeep"
+      },
+      "energy_shield": {
+        "description": "Mystical protection and mana enhancement, magical focus",
+        "abbreviation": "ES",
+        "protection_philosophy": "Mystical barriers and energy manipulation for supernatural defense",
+        "primary_stat": "energy_shield_capacity",
+        "secondary_benefits": ["mystical_resistance", "mana_bonuses", "spell_power", "energy_regeneration"],
+        "drawbacks": ["no_physical_protection", "energy_dependency", "mystical_interference"],
+        "typical_materials": ["mystical_fabrics", "enchanted_gems", "spirit_weaves", "energy_crystals"],
+        "weight_category": "ethereal",
+        "durability": "variable",
+        "maintenance": "requires_mystical_attunement"
+      }
+    },
+    "hybrid_types": {
+      "armor_evasion": {
+        "description": "Balanced physical protection with mobility",
+        "abbreviation": "AR/EV",
+        "combines": ["armor", "evasion"],
+        "balance": "moderate_protection_with_mobility",
+        "trade_offs": "reduced_specialization_for_versatility",
+        "protection_philosophy": "Compromise between defense and agility for tactical flexibility",
+        "typical_materials": ["reinforced_leather", "scale_mail", "chain_links", "flexible_plates"],
+        "weight_category": "medium",
+        "durability": "good"
+      },
+      "armor_energy_shield": {
+        "description": "Heavy protection with mystical enhancement",
+        "abbreviation": "AR/ES",
+        "combines": ["armor", "energy_shield"],
+        "balance": "high_defense_with_mystical_support",
+        "trade_offs": "heavy_and_mana_dependent",
+        "protection_philosophy": "Maximum defense through combined physical and mystical barriers",
+        "typical_materials": ["enchanted_metals", "warded_plates", "mystical_alloys", "runed_steel"],
+        "weight_category": "heavy",
+        "durability": "very_high"
+      },
+      "evasion_energy_shield": {
+        "description": "Mobile mystical protection",
+        "abbreviation": "EV/ES",
+        "combines": ["evasion", "energy_shield"],
+        "balance": "agile_mystical_defense",
+        "trade_offs": "vulnerable_to_physical_damage",
+        "protection_philosophy": "Supernatural agility combined with mystical barriers",
+        "typical_materials": ["ethereal_silks", "spirit_leather", "phase_fabrics", "energy_weaves"],
+        "weight_category": "light",
+        "durability": "moderate"
+      }
+    }
+  },
+  "universal_properties": {
+    "stat_scaling": {
+      "armor": "Scales with Strength and Constitution",
+      "evasion": "Scales with Dexterity and Agility", 
+      "energy_shield": "Scales with Intelligence and Wisdom"
+    },
+    "enhancement_potential": {
+      "all_types": "Can be enhanced through crafting, enchantment, and divine blessing",
+      "upgrade_paths": ["material_improvement", "mystical_enhancement", "divine_blessing", "legendary_transformation"]
+    },
+    "divine_alignment": {
+      "influence": "All armor types can manifest divine positioning characteristics",
+      "manifestation": "Divine alignment affects appearance, special abilities, and resonance"
+    }
+  },
+  "metadata": {
+    "created": "2025-08-06T00:00:00Z",
+    "last_updated": "2025-08-06T00:00:00Z",
+    "author": "PrimalMyst Development Team",
+    "version": "1.0.0",
+    "canonical": true,
+    "references": "Referenced by all slot-specific core files"
+  }
+}

@@ -1,0 +1,150 @@
+{
+  "id": "boots-categories-core",
+  "name": "Boots Categories Core",
+  "description": "Core information and generic characteristics shared by all boots types and categories",
+  "body_slot": "boots",
+  "slot_name": "feet",
+  "protection_areas": ["feet", "ankles", "calves"],
+  "references": {
+    "base_types": "../base-categories-core.json",
+    "description": "Inherits base armor type definitions from base-categories-core.json"
+  },
+  "generic_boots_characteristics": {
+    "core_function": "Foot protection with movement speed and terrain adaptation",
+    "universal_properties": {
+      "terrain_adaptation": {
+        "description": "All boots provide adaptation to various terrain types and conditions",
+        "functionality": "Enables safe and efficient movement across different surfaces",
+        "terrain_types": ["rocky_ground", "soft_earth", "water_surfaces", "icy_conditions", "mystical_realms"]
+      },
+      "movement_enhancement": {
+        "description": "Boots can enhance movement speed and agility",
+        "enhancement_types": ["running_speed", "jumping_distance", "climbing_ability", "stealth_movement"],
+        "enhancement_potential": "Can provide supernatural movement capabilities"
+      },
+      "ankle_support": {
+        "description": "Boots provide critical ankle and foot support for stability",
+        "support_areas": ["ankle_joints", "arch_support", "heel_stability", "toe_protection"],
+        "enhancement_potential": "Can prevent injuries and improve balance"
+      },
+      "environmental_protection": {
+        "description": "Boots protect feet from environmental hazards and conditions",
+        "protection_types": ["sharp_objects", "temperature_extremes", "wet_conditions", "mystical_terrain"],
+        "adaptation": "Can provide immunity to foot-based environmental damage"
+      }
+    },
+    "size_and_fit": {
+      "adjustment_range": "Boots accommodate various foot sizes through mystical or mechanical adjustment",
+      "comfort_factors": ["arch_support", "heel_cushioning", "toe_room", "ankle_flexibility"],
+      "ergonomic_design": "Designed for extended wear during travel and adventuring"
+    },
+    "visual_characteristics": {
+      "style_elements": ["buckles", "straps", "decorative_patterns", "mystical_soles"],
+      "material_visibility": "Boot materials and craftsmanship are visible with every step",
+      "divine_manifestation": "Divine alignment can manifest through boot auras and footprint effects"
+    }
+  },
+  "armor_type_structure": {
+    "base_types": {
+      "armor": {
+        "folder_name": "armor",
+        "type_name": "Heavy Sabatons",
+        "description": "Maximum foot protection with reinforced metal construction",
+        "generic_characteristics": {
+          "construction": "Heavy metal plates with reinforced soles and comprehensive foot coverage",
+          "typical_materials": ["steel_plates", "iron_reinforcements", "leather_lining", "metal_soles"],
+          "weight": "Heavy - provides maximum protection but reduces movement speed",
+          "durability": "Extremely durable, resistant to all forms of physical damage",
+          "utility_features": ["spike_attachments", "climbing_aids", "weapon_integration"],
+          "comfort": "Heavily padded interior with shock absorption for extended wear"
+        }
+      },
+      "evasion": {
+        "folder_name": "evasion",
+        "type_name": "Silent Boots",
+        "description": "Minimal protection focused on stealth and agility enhancement",
+        "generic_characteristics": {
+          "construction": "Lightweight materials with silent soles and flexible construction",
+          "typical_materials": ["soft_leather", "silent_soles", "flexible_components", "breathable_materials"],
+          "weight": "Very light - enhances natural agility and silent movement",
+          "durability": "Good durability with emphasis on flexibility and stealth capability",
+          "utility_features": ["silent_movement", "enhanced_grip", "quick_removal"],
+          "comfort": "Extremely comfortable, designed for extended silent operations"
+        }
+      },
+      "energy_shield": {
+        "folder_name": "energy_shield",
+        "type_name": "Mystical Footwear",
+        "description": "Magical foot protection through energy enhancement and mystical properties",
+        "generic_characteristics": {
+          "construction": "Mystical materials designed for energy channeling and supernatural movement",
+          "typical_materials": ["mystical_leather", "energy_crystals", "spirit_soles", "enchanted_components"],
+          "weight": "Ethereal - weight varies based on energy saturation and mystical power",
+          "durability": "Variable durability dependent on mystical energy and magical maintenance",
+          "utility_features": ["levitation", "phase_walking", "energy_storage"],
+          "comfort": "Adapts to wearer's energy signature and movement style"
+        }
+      }
+    },
+    "hybrid_types": {
+      "armor_evasion": {
+        "folder_name": "armor_evasion",
+        "type_name": "Tactical Boots",
+        "description": "Protective footwear maintaining mobility and terrain adaptability",
+        "generic_characteristics": {
+          "construction": "Reinforced design balancing protection with maintained agility",
+          "typical_materials": ["reinforced_leather", "metal_reinforcements", "flexible_soles", "padded_interior"],
+          "weight": "Medium - balanced protection and mobility for versatile terrain",
+          "durability": "Good durability with maintained flexibility and comfort",
+          "utility_features": ["terrain_adaptation", "climbing_assistance", "shock_absorption"],
+          "comfort": "Well-balanced design for extended adventuring operations"
+        }
+      },
+      "armor_energy_shield": {
+        "folder_name": "armor_energy_shield",
+        "type_name": "Warded Sabatons",
+        "description": "Heavy foot protection enhanced with mystical barrier systems",
+        "generic_characteristics": {
+          "construction": "Heavy protection with integrated mystical enhancement systems",
+          "typical_materials": ["enchanted_metals", "warded_plates", "mystical_gems", "runed_soles"],
+          "weight": "Heavy - substantial protection enhanced with mystical power",
+          "durability": "Extremely high durability enhanced by mystical wards and enchantments",
+          "utility_features": ["mystical_barriers", "energy_channeling", "supernatural_movement"],
+          "comfort": "Mystically adjusted for comfort despite substantial construction"
+        }
+      },
+      "evasion_energy_shield": {
+        "folder_name": "evasion_energy_shield",
+        "type_name": "Ethereal Boots",
+        "description": "Agile mystical footwear combining enhanced movement with energy manipulation",
+        "generic_characteristics": {
+          "construction": "Mystical materials designed for maximum agility and energy flow",
+          "typical_materials": ["ethereal_leather", "spirit_components", "phase_crystals", "energy_soles"],
+          "weight": "Ethereal light - enhances both agility and mystical connection",
+          "durability": "Moderate durability with self-repair mystical properties",
+          "utility_features": ["phase_stepping", "energy_manipulation", "mystical_agility"],
+          "comfort": "Perfectly adapted to wearer's energy flow and movement patterns"
+        }
+      }
+    }
+  },
+  "slot_specializations": {
+    "movement_speed": "Boots provide the primary bonuses to movement and travel speed",
+    "terrain_adaptation": "Foot protection determines effectiveness on different terrain types",
+    "stealth_bonuses": "Boots significantly affect stealth and silent movement capabilities",
+    "divine_connection": "Footwear can enhance connection to earth-based divine powers",
+    "exploration_utility": "Boots often provide specialized bonuses for exploration and travel"
+  },
+  "folder_structure": {
+    "total_type_folders": 6,
+    "organization": "Each armor type has its own folder containing specific implementations",
+    "folder_list": ["armor", "evasion", "energy_shield", "armor_evasion", "armor_energy_shield", "evasion_energy_shield"]
+  },
+  "metadata": {
+    "created": "2025-08-06T00:00:00Z",
+    "last_updated": "2025-08-06T00:00:00Z",
+    "author": "PrimalMyst Development Team",
+    "version": "1.0.0",
+    "canonical": true
+  }
+}

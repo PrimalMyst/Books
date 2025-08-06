@@ -1,54 +1,17 @@
 {
   "id": "armor-categories-core",
   "name": "Armor Categories System",
-  "description": "Core framework for armor categorization by body slot and base type",
+  "description": "Core framework for armor categorization by body slot with reference to base type definitions",
   "version": "1.0.0",
+  "references": {
+    "base_types": "base-categories-core.json",
+    "description": "Base armor type definitions are maintained in base-categories-core.json"
+  },
   "armor_system": {
     "design_philosophy": "Each body slot has distinct armor categories with three base types and hybrid combinations",
-    "base_types": {
-      "armor": {
-        "description": "High physical protection, heavy defense focus",
-        "primary_stat": "physical_protection",
-        "secondary_benefits": ["damage_reduction", "status_resistance"],
-        "drawbacks": ["movement_penalty", "stealth_reduction"]
-      },
-      "evasion": {
-        "description": "High mobility and dodge chance, agility focus",
-        "primary_stat": "evasion_rating",
-        "secondary_benefits": ["movement_speed", "stealth_bonus", "dexterity_enhancement"],
-        "drawbacks": ["low_physical_protection", "mystical_vulnerability"]
-      },
-      "energy_shield": {
-        "description": "Mystical protection and mana enhancement, magical focus",
-        "abbreviation": "ES",
-        "primary_stat": "energy_shield_capacity",
-        "secondary_benefits": ["mystical_resistance", "mana_bonuses", "spell_power"],
-        "drawbacks": ["no_physical_protection", "energy_dependency"]
-      }
-    },
-    "hybrid_types": {
-      "armor_evasion": {
-        "description": "Balanced physical protection with mobility",
-        "abbreviation": "AR/EV",
-        "combines": ["armor", "evasion"],
-        "balance": "moderate_protection_with_mobility",
-        "trade_offs": "reduced_specialization_for_versatility"
-      },
-      "armor_energy_shield": {
-        "description": "Heavy protection with mystical enhancement",
-        "abbreviation": "AR/ES", 
-        "combines": ["armor", "energy_shield"],
-        "balance": "high_defense_with_mystical_support",
-        "trade_offs": "heavy_and_mana_dependent"
-      },
-      "evasion_energy_shield": {
-        "description": "Mobile mystical protection",
-        "abbreviation": "EV/ES",
-        "combines": ["evasion", "energy_shield"],
-        "balance": "agile_mystical_defense",
-        "trade_offs": "vulnerable_to_physical_damage"
-      }
-    }
+    "structure": "Linear hierarchical organization: armors/[slot]/[type]/",
+    "base_type_reference": "See base-categories-core.json for detailed base type definitions",
+    "supported_types": ["armor", "evasion", "energy_shield", "armor_evasion", "armor_energy_shield", "evasion_energy_shield"]
   },
   "body_slots": {
     "helmet": {
