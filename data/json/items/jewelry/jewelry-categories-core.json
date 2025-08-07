@@ -1,0 +1,81 @@
+{
+  "id": "jewelry-categories-core",
+  "name": "Jewelry Categories System",
+  "description": "Core framework for jewelry categorization by slot with reference to resource alignment types",
+  "version": "1.0.0",
+  "references": {
+    "base_types": "jewelry-base-categories-core.json",
+    "description": "Resource alignment type definitions are maintained in jewelry-base-categories-core.json"
+  },
+  "jewelry_system": {
+    "design_philosophy": "Each jewelry slot enhances specific resources with three alignment types",
+    "structure": "Linear hierarchical organization: jewelry/[slot]/[type]/",
+    "base_type_reference": "See jewelry-base-categories-core.json for detailed resource alignment definitions",
+    "supported_types": ["health", "mana", "stamina"]
+  },
+  "jewelry_slots": {
+    "earrings": {
+      "slot_count": 2,
+      "slot_names": ["left_ear", "right_ear"],
+      "enhancement_focus": ["sensory_enhancement", "awareness_bonuses", "communication_abilities"],
+      "base_types": ["health", "mana", "stamina"],
+      "special_properties": ["hearing_enhancement", "mystical_perception", "balance_improvement"]
+    },
+    "rings": {
+      "slot_count": 2,
+      "slot_names": ["left_hand", "right_hand"],
+      "enhancement_focus": ["manipulation_bonuses", "casting_enhancement", "dexterity_improvement"],
+      "base_types": ["health", "mana", "stamina"],
+      "special_properties": ["finger_dexterity", "spell_channeling", "grip_enhancement"]
+    },
+    "amulet": {
+      "slot_count": 1,
+      "slot_names": ["neck"],
+      "enhancement_focus": ["core_enhancement", "major_bonuses", "identity_manifestation"],
+      "base_types": ["health", "mana", "stamina"],
+      "special_properties": ["core_power", "divine_connection", "personal_identity"]
+    },
+    "belt_lock": {
+      "slot_count": 1,
+      "slot_names": ["belt_attachment"],
+      "enhancement_focus": ["utility_enhancement", "storage_bonuses", "convenience_features"],
+      "base_types": ["health", "mana", "stamina"],
+      "special_properties": ["quick_access", "utility_storage", "belt_integration"],
+      "attachment_requirement": "Requires belt armor piece for attachment"
+    }
+  },
+  "implementation_structure": {
+    "total_jewelry_categories": 12,
+    "breakdown": {
+      "jewelry_slots": 4,
+      "base_types_per_slot": 3,
+      "total_types_per_slot": 3,
+      "calculation": "4 slots × 3 types = 12 total jewelry categories"
+    },
+    "file_organization": {
+      "structure": "jewelry/[slot]/[type]/",
+      "slot_cores": "One core file per jewelry slot defining generic characteristics",
+      "category_files": "One skeleton file per [slot]+[type] combination"
+    }
+  },
+  "slot_interaction_system": {
+    "total_jewelry_slots": 6,
+    "slot_distribution": {
+      "earrings": 2,
+      "rings": 2,
+      "amulet": 1,
+      "belt_lock": 1
+    },
+    "set_bonuses": {
+      "description": "Multiple jewelry pieces of the same type can provide set bonuses",
+      "bonus_types": ["resource_synergy", "enhanced_regeneration", "specialized_abilities"]
+    }
+  },
+  "metadata": {
+    "created": "2025-08-06T00:00:00Z",
+    "last_updated": "2025-08-06T00:00:00Z",
+    "author": "PrimalMyst Development Team",
+    "version": "1.0.0",
+    "canonical": true
+  }
+}

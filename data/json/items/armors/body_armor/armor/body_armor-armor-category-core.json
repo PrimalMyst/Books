@@ -1,0 +1,21 @@
+{
+  "id": "body_armor-armor-category-core",
+  "name": "BODY_ARMOR ARMOR Category Core",
+  "description": "Core definitions and characteristics for body_armor armor armor category",
+  "parent_slot": "body_armor",
+  "armor_type": "armor",
+  "references": {
+    "slot_core": "../body_armor-categories-core.json",
+    "base_types": "../../base-categories-core.json"
+  },
+  "category_specifics": {
+    "placeholder": "This file contains specific implementations for body_armor armor armor pieces"
+  },
+  "metadata": {
+    "created": "2025-08-06T00:00:00Z",
+    "last_updated": "2025-08-06T00:00:00Z",
+    "author": "PrimalMyst Development Team",
+    "version": "1.0.0",
+    "canonical": true
+  }
+}

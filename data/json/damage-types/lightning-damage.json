@@ -9,7 +9,7 @@
     "associated_god": "Voltharion, the Cosmic Spark",
     "god_tier": "fundamental",
     "primary_attribute": "dexterity",
-    "defense_type": "evasion",
+    "defense_type": "lightning_resistance",
     "adjacent_synergies": ["chaos", "physical"],
     "opposite_element": "radiance"
   },

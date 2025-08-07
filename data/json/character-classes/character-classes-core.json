@@ -1,0 +1,252 @@
+{
+  "hexagon_id": "character-classes-core",
+  "name": "PrimalMyst Character Classes Hexagon",
+  "description": "The character archetype implementation of the universal hexagonal pattern, translating the cosmic principles embodied by the Eldritch Gods into playable character archetypes and starting backgrounds.",
+  "foundational_pattern": {
+    "source": "core-thematic-hexagon",
+    "implementation_domain": "character-archetypes-and-backgrounds",
+    "cosmic_principle": "The six-fold nature of existence manifests in the fundamental character archetypes that emerge naturally from each realm's culture and divine influence",
+    "eldritch_reference": "Each character class reflects the cultural expression and personal embodiment of its corresponding Eldritch God's influence"
+  },
+  "center": {
+    "element": "The Archetypal Self - Character Identity",
+    "description": "The central understanding that all character archetypes spring from the deep cultural and divine influences of their origin realms. Each class represents not just a set of abilities, but a way of existing in harmony with cosmic forces, embodying the perfect balance that Yggdrasil maintains through its six great branches."
+  },
+  "design_principles": {
+    "island_origin": "Each class originates from a specific island corresponding to their hexagonal position",
+    "ascendancy_anchors": "Classes serve as primary anchors for ascendancy tree access and progression",
+    "attribute_inheritance": "Classes inherit attribute growth patterns from their origin island's hexagonal position",
+    "island_based_attributes": "Attribute growth is determined by the character's origin island position, not class training",
+    "no_hexagonal_positioning": "Classes provide no hexagonal layer positioning benefits - only divine trials grant positioning",
+    "mechanical_frameworks": "Classes provide core abilities, signature skills, and ascendancy access without cosmic positioning",
+    "eldritch_divine_preference": "NPCs default to their aligned Eldritch God, players choose freely",
+    "damage_flexibility": "No hard restrictions on damage types or alignments",
+    "body_type_system": "M/F body types for development efficiency",
+    "player_freedom": "Total customization freedom while maintaining archetypal identity",
+    "cultural_development": "Island culture shapes attribute development, reflecting environmental and Eldritch God influences"
+  },
+  "corners": [
+    {
+      "position": 1,
+      "primary_concept": "Necromancer",
+      "trinity": "fundamental",
+      "index_reference": "class-1-necromancer",
+      "brief_description": "Scholarly humanoid masters of death magic and preservation",
+      "body_type": "M",
+      "eldritch_archetype": "Glacius, the Eternal Frost - Perfect preservation through absolute knowledge",
+      "divine_manifestation": "The way Glacius embodies eternal preservation and perfect analytical understanding",
+      "origin_island": "Glacius Isle - The Archive Realm",
+      "damage_type_alignment": "cold",
+      "eldritch_god_alignment": "glacius",
+      "attribute_focus": "intelligence",
+      "core_philosophy": "Death and life are two sides of the same coin"
+    },
+    {
+      "position": 2,
+      "primary_concept": "Succubus",
+      "trinity": "transcendent",
+      "index_reference": "class-2-succubus",
+      "brief_description": "Charismatic shapeshifters masters of adaptation and seduction",
+      "body_type": "F",
+      "eldritch_archetype": "Serafina, the Shadow Empress - Infinite adaptability and transformative charm",
+      "divine_manifestation": "The way Serafina embodies constant change and irresistible allure",
+      "origin_island": "Serafina Isle - The Shadow Court",
+      "damage_type_alignment": "chaos",
+      "eldritch_god_alignment": "serafina",
+      "attribute_focus": "adaptability",
+      "core_philosophy": "Power flows through change and desire"
+    },
+    {
+      "position": 3,
+      "primary_concept": "Hunter",
+      "trinity": "fundamental",
+      "index_reference": "class-3-hunter",
+      "brief_description": "Swift trackers masters of speed and precision striking",
+      "body_type": "M",
+      "eldritch_archetype": "Voltharion, the Cosmic Spark - Lightning connection and instant response",
+      "divine_manifestation": "The way Voltharion embodies perfect speed and cosmic awareness",
+      "origin_island": "Voltharion Isle - The Lightning Web",
+      "damage_type_alignment": "lightning",
+      "eldritch_god_alignment": "voltharion",
+      "attribute_focus": "dexterity",
+      "core_philosophy": "Strike fast, strike true, never be where the enemy expects"
+    },
+    {
+      "position": 4,
+      "primary_concept": "Warrior",
+      "trinity": "transcendent",
+      "index_reference": "class-4-warrior",
+      "brief_description": "Resilient champions who embody vitality and regenerative power",
+      "body_type": "F",
+      "eldritch_archetype": "Pyrion, the First Flame - Creative life force and transformative power",
+      "divine_manifestation": "The way Pyrion embodies the creative fire of existence itself, constantly generating new life and transformation",
+      "origin_island": "Pyrion's Forge - The Eternal Hearth",
+      "damage_type_alignment": "fire",
+      "eldritch_god_alignment": "pyrion",
+      "attribute_focus": "vitality",
+      "core_philosophy": "Life energy is the true fire within"
+    },
+    {
+      "position": 5,
+      "primary_concept": "Chieftain",
+      "trinity": "fundamental",
+      "index_reference": "class-5-chieftain",
+      "brief_description": "Mighty leaders masters of physical prowess and direct confrontation",
+      "body_type": "M",
+      "eldritch_archetype": "Korthak, the Dragon King - Overwhelming physical might and unbreakable will",
+      "divine_manifestation": "The way Korthak embodies pure physical dominance, his very presence reshaping reality through force of will",
+      "origin_island": "Korthak Isle - The Arena Realm",
+      "damage_type_alignment": "physical",
+      "eldritch_god_alignment": "korthak",
+      "attribute_focus": "strength",
+      "core_philosophy": "Strength is truth, victory proves worthiness"
+    },
+    {
+      "position": 6,
+      "primary_concept": "Priestess",
+      "trinity": "transcendent",
+      "index_reference": "class-6-priestess",
+      "brief_description": "Wise spiritualists masters of divine wisdom and radiant protection",
+      "body_type": "F",
+      "eldritch_archetype": "Aurelius, the Radiant Sphere - Divine wisdom and transcendent understanding",
+      "divine_manifestation": "The way Aurelius embodies perfect spiritual insight and protective radiance",
+      "origin_island": "Aurelius Isle - The Sanctuary Realm",
+      "damage_type_alignment": "radiance",
+      "eldritch_god_alignment": "aurelius",
+      "attribute_focus": "wisdom",
+      "core_philosophy": "Wisdom illuminates all paths, protection flows from understanding"
+    }
+  ],
+  "hexagon_dynamics": {
+    "adjacency_bonuses": "Adjacent classes create natural multiclass synergies - Necromancer+Succubus enables scholarly shapeshifters with death magic, Hunter+Warrior creates mobile fighters, Chieftain+Priestess develops inspiring leaders.",
+    "opposition_tensions": "Opposite classes represent fundamentally different life philosophies - Necromancer vs Warrior (death study vs life action), Succubus vs Chieftain (adaptation vs leadership), Hunter vs Priestess (speed vs contemplation).",
+    "full_cycle_effects": "Characters who understand all six archetypes gain 'Universal Understanding' - the ability to relate to any culture and adapt to any social situation."
+  },
+  "class_characteristics": {
+    "trinity_distribution": {
+      "fundamental_trinity": ["necromancer", "hunter", "warrior"],
+      "transcendent_trinity": ["succubus", "chieftain", "priestess"],
+      "description": "Classes are organized into two trinities that reflect their approach to existence and growth"
+    },
+    "attribute_progression": {
+      "source": "origin_island_position",
+      "per_level_gains": "All characters gain 17 attribute points per level distributed according to their origin island's hexagonal position",
+      "island_aligned_attribute": "+6 per level to the attribute aligned with origin island position",
+      "adjacent_attributes": "+3 per level to attributes adjacent to the origin island position",
+      "next_adjacent": "+2 per level to attributes one step further from origin island position",
+      "opposing_attribute": "+1 per level to the attribute opposite the origin island position",
+      "geographic_heritage": "Attribute growth reflects the environmental conditions and divine influences of the island where the character was raised",
+      "class_independence": "Classes no longer determine attribute growth - this is now purely geographic/cultural heritage"
+    },
+    "origin_distribution": {
+      "glacius_isle": ["necromancer"],
+      "serafina_isle": ["succubus"],
+      "voltharion_isle": ["hunter"],
+      "korthak_isle": ["chieftain"],
+      "pyrion_isle": ["warrior"],
+      "aurelius_isle": ["priestess"]
+    },
+    "body_type_distribution": {
+      "masculine_archetypes": ["necromancer", "hunter", "chieftain"],
+      "feminine_archetypes": ["succubus", "warrior", "priestess"]
+    },
+    "divine_preference_defaults": {
+      "npc_alignment": "Classes default to their aligned god for NPCs",
+      "player_freedom": "Players can choose any god alignment or remain independent",
+      "cultural_pressure": "Origin island culture influences but doesn't restrict choices"
+    }
+  },
+  "player_freedom_principles": {
+    "damage_type_openness": "No class restrictions on damage type usage or mastery",
+    "god_alignment_choice": "Complete freedom in divine relationships and trials",
+    "attribute_customization": "Base growth can be modified through choices and training",
+    "role_interpretation": "Classes provide starting point, not rigid definition",
+    "multiclass_potential": "All classes can blend with others through player choices"
+  },
+  "cross_hexagon_integration": {
+    "damage_type_resonance": "Each class aligns with a damage type but can master others freely",
+    "divine_patronage": "Gods favor their aligned classes but don't restrict others",
+    "attribute_inheritance": "Characters inherit per-level growth patterns from their origin island's hexagonal position, with cultural and environmental influences shaping development regardless of chosen class",
+    "ascendancy_systems": "Each class provides anchor points for 3-4 thematic ascendancy specializations",
+    "hexagonal_positioning_separation": "Divine trial completion exclusively determines hexagonal layer positioning and cosmic benefits",
+    "trinity_mechanics": {
+      "fundamental_classes": "Gain enhanced material world interaction and linear attribute scaling from island heritage",
+      "transcendent_classes": "Gain enhanced spiritual evolution and threshold-based breakthrough bonuses from island heritage"
+    }
+  },
+  "cultural_framework": {
+    "island_cultures": {
+      "description": "Each origin island has developed a culture that naturally produces its aligned archetype",
+      "social_roles": "Classes represent the most common and respected archetypes from each culture",
+      "cross_cultural_interaction": "Characters can appreciate and learn from other island cultures",
+      "migration_stories": "Characters can have complex origins involving multiple islands"
+    },
+    "archetypal_flexibility": {
+      "core_identity": "Classes provide strong starting identity while allowing growth",
+      "personal_evolution": "Characters can evolve beyond their starting archetype",
+      "cultural_bridges": "Understanding multiple archetypes enables diplomatic and social advantages"
+    }
+  },
+  "class_files": [
+    {
+      "position": 1,
+      "filename": "class-1-necromancer.json",
+      "file_path": "classes/class-1-necromancer.json"
+    },
+    {
+      "position": 2,
+      "filename": "class-2-succubus.json",
+      "file_path": "classes/class-2-succubus.json"
+    },
+    {
+      "position": 3,
+      "filename": "class-3-hunter.json",
+      "file_path": "classes/class-3-hunter.json"
+    },
+    {
+      "position": 4,
+      "filename": "class-4-warrior.json",
+      "file_path": "classes/class-4-warrior.json"
+    },
+    {
+      "position": 5,
+      "filename": "class-5-chieftain.json",
+      "file_path": "classes/class-5-chieftain.json"
+    },
+    {
+      "position": 6,
+      "filename": "class-6-priestess.json",
+      "file_path": "classes/class-6-priestess.json"
+    }
+  ],
+  "lore_integration": {
+    "hexagonal_universality": {
+      "cosmic_principle": "Character archetypes naturally emerge from the six-fold cosmic structure, with each island culture developing in harmony with its divine influence",
+      "divine_reflection": "The Eldritch Gods themselves embody the perfect expression of each archetype, serving as aspirational ideals",
+      "universal_implementation": "All cultures across PrimalMyst recognize these six fundamental approaches to existence",
+      "yggdrasil_connection": "Yggdrasil's six great branches create the cultural environments that naturally produce these archetypes"
+    },
+    "mythological_basis": "The six character classes reflect the natural cultural evolution of societies living under the influence of each Eldritch God, representing the most successful ways to thrive in each realm.",
+    "cosmic_significance": "Understanding all six archetypes allows characters to achieve social and cultural mastery, reflecting the complete spectrum of mortal potential when aligned with cosmic principles.",
+    "divine_connections": "Each class draws on a specific god's cultural influence, allowing characters to embody mortal expressions of divine principles in their personal development.",
+    "pattern_recognition": {
+      "hexagons_are_bestagons": "The hexagonal pattern appears in character development because it represents the most balanced and sustainable approaches to mortal existence",
+      "natural_manifestations": "From family structures to social hierarchies to personal development paths, the six-fold pattern emerges naturally in all cultures",
+      "mystical_resonance": "Characters who recognize and embody archetypal patterns find their social interactions and personal growth enhanced by cosmic harmony",
+      "cultural_evolution": "Advanced societies naturally organize around representations of all six archetypes, creating balanced and resilient communities"
+    }
+  },
+  "metadata": {
+    "version": "1.0.0",
+    "created": "2025-07-31T00:00:00Z",
+    "author": "PrimalMyst Development Team",
+    "canonical": true,
+    "schema_reference": "hexagon-thematic.schema.json",
+    "related_hexagons": [
+      "core-thematic-hexagon.json",
+      "offensive-layers-core.json",
+      "defensive-layers-core.json",
+      "attributes-core.json"
+    ]
+  }
+}

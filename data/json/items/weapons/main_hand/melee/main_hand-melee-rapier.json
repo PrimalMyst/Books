@@ -1,0 +1,32 @@
+﻿{
+  "$schema": "../../../../schemas/weapon-item.schema.json",
+  "id": "main_hand_melee_rapier",
+  "name": "rapier",
+  "display_name": "rapier",
+  "description": "A one-handed rapier weapon for main hand use.",
+  "category": "main_hand_melee",
+  "rarity": "common",
+  "tier": 1,
+  
+  "weapon_properties": {
+    "hand_usage": "main_hand",
+    "combat_style": "melee",
+    "weapon_type": "rapier",
+    "damage_type": "placeholder",
+    "reach": "standard",
+    "weight": "medium"
+  },
+  
+  "combat_stats": {
+    "base_damage": "placeholder",
+    "attack_speed": "placeholder",
+    "critical_chance": "placeholder",
+    "requirements": {
+      "strength": "placeholder",
+      "dexterity": "placeholder"
+    }
+  },
+  
+  "placeholder": true,
+  "implementation_notes": "rapier weapon template - requires complete implementation"
+}

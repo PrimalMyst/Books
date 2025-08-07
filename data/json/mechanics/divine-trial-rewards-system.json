@@ -1,0 +1,217 @@
+{
+  "system_id": "divine-trial-rewards-system",
+  "name": "Divine Trial Rewards and Progression Tracking",
+  "description": "Comprehensive system for managing trial rewards, progression tracking, and divine alignment calculation throughout Act 1.",
+  "design_philosophy": "Provides meaningful rewards for each trial while building toward the ultimate divine alignment revelation.",
+
+  "reward_categories": {
+    "immediate_trial_rewards": {
+      "experience_rewards": {
+        "base_xp": "PLACEHOLDER - Base XP amount per trial completion",
+        "level_scaling": "PLACEHOLDER - How XP scales with player level",
+        "bonus_xp": "PLACEHOLDER - Bonus XP for creative solutions or role-playing"
+      },
+      "attribute_enhancements": {
+        "temporary_boosts": "PLACEHOLDER - Short-term attribute increases",
+        "permanent_improvements": "PLACEHOLDER - Small permanent attribute gains",
+        "divine_favor_effects": "PLACEHOLDER - God-specific attribute bonuses"
+      },
+      "skill_unlocks": {
+        "trial_specific_abilities": "PLACEHOLDER - Abilities related to trial choices",
+        "divine_connection_skills": "PLACEHOLDER - Skills representing divine relationships",
+        "cosmic_awareness": "PLACEHOLDER - Growing understanding of cosmic forces"
+      }
+    },
+
+    "progressive_rewards": {
+      "divine_favor_system": {
+        "favor_accumulation": "PLACEHOLDER - How divine favor builds with each trial",
+        "favor_spending": "PLACEHOLDER - Ways to use accumulated divine favor",
+        "favor_effects": "PLACEHOLDER - Passive benefits from high divine favor"
+      },
+      "cosmic_authority": {
+        "authority_growth": "PLACEHOLDER - How cosmic authority increases with trials",
+        "authority_applications": "PLACEHOLDER - Uses for cosmic authority in story/gameplay",
+        "authority_recognition": "PLACEHOLDER - How NPCs/world responds to cosmic authority"
+      },
+      "hexagonal_positioning": {
+        "layer_access": "PLACEHOLDER - Progressive access to hexagonal layer benefits",
+        "positioning_preview": "PLACEHOLDER - Growing awareness of final positioning",
+        "synergy_development": "PLACEHOLDER - How positioning synergizes with character class"
+      }
+    },
+
+    "completion_rewards": {
+      "archetype_revelation": {
+        "dramatic_revelation": "PLACEHOLDER - Cinematic reveal of final character archetype",
+        "power_manifestation": "PLACEHOLDER - Visual/mechanical display of divine alignment",
+        "cosmic_recognition": "PLACEHOLDER - Recognition from cosmic forces"
+      },
+      "divine_alignment_activation": {
+        "full_buff_activation": "All divine alignment buffs from alignment system activate",
+        "hexagonal_positioning": "Complete hexagonal layer positioning established",
+        "cosmic_authority_grant": "Full cosmic authority appropriate to divine alignment"
+      }
+    }
+  },
+
+  "progression_tracking": {
+    "trial_completion_tracking": {
+      "fundamental_trials": {
+        "pyrion_completed": "boolean - Trial of Creative Fire completed",
+        "glacius_completed": "boolean - Trial of Eternal Preservation completed", 
+        "voltharion_completed": "boolean - Trial of Eternal Connection completed",
+        "fundamental_choices": {
+          "pyrion_element": "fire | cold | lightning | null",
+          "glacius_element": "fire | cold | lightning | null",
+          "voltharion_element": "fire | cold | lightning | null"
+        }
+      },
+      "primal_trials": {
+        "serafina_completed": "boolean - Trial of Revolutionary Change completed",
+        "aurelius_completed": "boolean - Trial of Sacred Protection completed",
+        "korthak_completed": "boolean - Trial of Righteous Honor completed",
+        "primal_choices": {
+          "serafina_stance": "follow | oppose | null",
+          "aurelius_stance": "follow | oppose | null",
+          "korthak_stance": "follow | oppose | null"
+        }
+      }
+    },
+
+    "divine_alignment_calculation": {
+      "elemental_pattern_calculation": {
+        "fire_count": "Number of fire choices (0-3)",
+        "cold_count": "Number of cold choices (0-3)",
+        "lightning_count": "Number of lightning choices (0-3)",
+        "calculated_pattern": "One of 7 elemental affinity patterns",
+        "thematic_name": "Anger | Hatred | Wrath | Fury | Rage | Malice | Purity of Elements"
+      },
+      "primal_pattern_calculation": {
+        "serafina_follow": "boolean - Following Serafina",
+        "aurelius_follow": "boolean - Following Aurelius", 
+        "korthak_follow": "boolean - Following Korthak",
+        "calculated_pattern": "One of 7 primal opposition patterns",
+        "thematic_name": "Revolution | Sanctuary | Honor | Tradition | Ambition | Compassion | Heretic"
+      },
+      "final_archetype": {
+        "elemental_layer": "Hexagonal layer position from elemental pattern",
+        "primal_layer": "Hexagonal layer position from primal pattern",
+        "combined_archetype": "One of 49 unique character archetypes",
+        "archetype_name": "Descriptive name for the specific combination"
+      }
+    }
+  },
+
+  "reward_distribution_system": {
+    "trial_completion_rewards": {
+      "immediate_gratification": {
+        "xp_grant": "PLACEHOLDER - Immediate XP reward calculation",
+        "attribute_bonus": "PLACEHOLDER - Immediate attribute enhancement",
+        "skill_unlock": "PLACEHOLDER - Trial-specific skill or ability grant"
+      },
+      "progression_advancement": {
+        "divine_favor": "PLACEHOLDER - Divine favor point accumulation",
+        "cosmic_authority": "PLACEHOLDER - Cosmic authority level increase",
+        "story_progression": "PLACEHOLDER - Story milestone advancement"
+      }
+    },
+
+    "pattern_recognition_rewards": {
+      "elemental_pattern_complete": {
+        "pattern_revelation": "Player informed of their elemental affinity pattern",
+        "preview_benefits": "Preview of final elemental alignment benefits",
+        "hexagonal_positioning": "Elemental layer position revealed"
+      },
+      "primal_pattern_complete": {
+        "pattern_revelation": "Player informed of their primal opposition pattern",
+        "preview_benefits": "Preview of final primal alignment benefits", 
+        "hexagonal_positioning": "Primal layer position revealed"
+      }
+    },
+
+    "final_completion_rewards": {
+      "archetype_ceremony": {
+        "dramatic_revelation": "PLACEHOLDER - Cinematic archetype revelation sequence",
+        "power_awakening": "PLACEHOLDER - Visual/mechanical power manifestation",
+        "cosmic_acknowledgment": "PLACEHOLDER - Recognition from cosmic entities"
+      },
+      "mechanical_activation": {
+        "buff_activation": "All divine alignment buffs activate according to archetype",
+        "ability_unlocks": "Archetype-specific abilities become available",
+        "environmental_responses": "World begins responding to divine alignment"
+      }
+    }
+  },
+
+  "player_guidance_system": {
+    "choice_consequence_preview": {
+      "elemental_impact": "Show how current elemental choice affects potential patterns",
+      "primal_impact": "Show how current primal choice affects potential patterns",
+      "archetype_preview": "Preview potential final archetypes based on current choices"
+    },
+
+    "progress_visualization": {
+      "trial_progress": "Visual representation of completed vs remaining trials",
+      "pattern_development": "Visual representation of emerging patterns",
+      "archetype_narrowing": "Visual representation of narrowing archetype possibilities"
+    },
+
+    "strategic_planning": {
+      "build_compatibility": "Analysis of how choices align with character build",
+      "roleplay_implications": "Guidance on roleplay implications of different choices",
+      "mechanical_optimization": "Optional guidance on mechanical effectiveness"
+    }
+  },
+
+  "validation_and_enforcement": {
+    "choice_validation": {
+      "primal_constraint": "Enforce 'must oppose at least one primal' rule",
+      "trial_prerequisites": "Ensure proper trial order and prerequisites",
+      "choice_permanence": "Prevent changing choices once committed"
+    },
+
+    "progression_gates": {
+      "level_requirements": "Enforce minimum levels for trial access",
+      "story_requirements": "Enforce story progression requirements",
+      "completion_requirements": "Enforce trial completion before advancing"
+    },
+
+    "archetype_calculation": {
+      "pattern_validation": "Validate elemental and primal pattern calculations",
+      "archetype_assignment": "Correctly assign one of 49 archetypes",
+      "buff_application": "Apply correct divine alignment buffs"
+    }
+  },
+
+  "integration_systems": {
+    "story_integration": {
+      "trial_narrative": "PLACEHOLDER - How rewards integrate with story progression",
+      "character_development": "PLACEHOLDER - How rewards support character growth",
+      "world_response": "PLACEHOLDER - How world responds to divine alignment"
+    },
+
+    "mechanical_integration": {
+      "character_class_synergy": "How divine alignment enhances character class abilities",
+      "equipment_compatibility": "How divine alignment affects equipment effectiveness",
+      "skill_system_integration": "How divine abilities integrate with existing skills"
+    },
+
+    "social_integration": {
+      "npc_recognition": "How NPCs respond to divine alignment and trial choices",
+      "faction_relationships": "How divine alignment affects faction standing",
+      "environmental_interactions": "How divine alignment affects environmental interactions"
+    }
+  },
+
+  "metadata": {
+    "created": "2025-08-05T00:00:00Z",
+    "last_updated": "2025-08-05T00:00:00Z",
+    "author": "PrimalMyst Development Team",
+    "version": "1.0.0",
+    "canonical": true,
+    "system_type": "reward_progression_mechanics",
+    "parent_systems": ["divine-trial-progression-system", "divine-alignment-buffs-system"],
+    "related_systems": ["character-progression", "story-structure", "npc-relationship-systems"]
+  }
+}

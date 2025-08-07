@@ -1,0 +1,100 @@
+{
+  "id": "divine-harmony-earrings",
+  "name": "Earrings of Divine Harmony",
+  "type": "jewelry",
+  "subtype": "earrings",
+  "rank_level": {
+    "item_rank": "B",
+    "required_level": 35,
+    "optimal_level": 45,
+    "level_scaling": {
+      "scales_with_user": true,
+      "scaling_type": "linear",
+      "max_scaling_level": 60
+    },
+    "quality_tier": "rare",
+    "power_classification": "divine-touched"
+  },
+  "divine_influences": {
+    "primary_influence": "aurelius",
+    "secondary_influences": ["luminareth"],
+    "divine_resonance": "moderate",
+    "humanoid_only": true
+  },
+  "physical_properties": {
+    "weight": {
+      "value": 0.1,
+      "unit": "ounces"
+    },
+    "size": "tiny",
+    "material": "Golden crystal with divine inscription",
+    "durability": "reinforced",
+    "magical_nature": "divine"
+  },
+  "gameplay_properties": {
+    "stack_size": 1,
+    "tradeable": true,
+    "bind_on_pickup": false,
+    "bind_on_equip": true,
+    "unique": false,
+    "set_item": "divine-harmony-set"
+  },
+  "gear_slot": {
+    "category": "jewelry",
+    "slot_type": "earrings",
+    "occupies_slots": ["left_earring", "right_earring"],
+    "slot_requirement": "Both earring slots must be empty to equip"
+  },
+  "effects": [
+    {
+      "name": "Divine Attunement",
+      "description": "Increases mystical resistance by 15-25% (scales with level)",
+      "type": "passive",
+      "power_level": "moderate",
+      "divine_source": "aurelius"
+    },
+    {
+      "name": "Harmonious Whispers",
+      "description": "Grants +2 to all social interaction rolls",
+      "type": "passive",
+      "power_level": "minor",
+      "divine_source": "aurelius"
+    },
+    {
+      "name": "Radiant Connection",
+      "description": "Radiance damage spells gain +10% effectiveness",
+      "type": "passive",
+      "power_level": "moderate",
+      "divine_source": "luminareth"
+    }
+  ],
+  "acquisition": {
+    "drop_sources": ["divine-touched-spirits", "aurelius-temple-guardians"],
+    "quest_rewards": ["harmony-of-divine-paths"],
+    "crafting_recipe": {
+      "required_rank": "B",
+      "required_level": 40,
+      "materials": [
+        {"item_id": "aurelius-blessed-crystal", "quantity": 2},
+        {"item_id": "luminareth-essence", "quantity": 3},
+        {"item_id": "fine-gold-wire", "quantity": 1}
+      ],
+      "crafting_station": "divine-jewelers-bench"
+    },
+    "rarity_notes": "More commonly found near temples with dual divine influences"
+  },
+  "lore": {
+    "description": "These delicate earrings channel the harmonious wisdom of Aurelius while carrying whispers of Luminareth's radiant truth.",
+    "history": "Originally crafted by temple artisans who sought to bridge the gap between divine wisdom and radiant revelation.",
+    "creator": "Master Jeweler Seraphic of the Dual Temples",
+    "significance": "Represents the harmony possible between different divine influences"
+  },
+  "tags": ["earrings", "jewelry", "divine", "aurelius", "luminareth", "B-rank", "rare", "harmony"],
+  "metadata": {
+    "created": "2025-08-06T00:00:00Z",
+    "last_updated": "2025-08-06T00:00:00Z",
+    "author": "PrimalMyst Development Team",
+    "version": "1.0.0",
+    "canonical": true
+  }
+}

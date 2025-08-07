@@ -1,0 +1,118 @@
+{
+  "trial_id": "voltharion-divine-trial",
+  "trial_name": "Trial of Eternal Connection",
+  "divine_patron": "voltharion",
+  "trial_type": "fundamental",
+  "element_focus": "lightning",
+  "cosmic_domain": "connection",
+
+  "trial_overview": {
+    "description": "Face Voltharion's trial to prove mastery over connecting lightning and universal bonds",
+    "thematic_focus": "Connection, communication, networks, and the web of reality",
+    "player_choice": "Choose to embrace Fire, Cold, or Lightning as your elemental expression",
+    "cosmic_significance": "Establishes relationship with the fundamental force of connection"
+  },
+
+  "trial_mechanics": {
+    "access_requirements": {
+      "minimum_level": "PLACEHOLDER - Level 9-11",
+      "story_prerequisite": "PLACEHOLDER - Main story checkpoint",
+      "location_access": "PLACEHOLDER - Access to Voltharion's domain/network"
+    },
+
+    "trial_phases": {
+      "phase_1_introduction": {
+        "description": "Meet Voltharion and understand the nature of connection force",
+        "mechanics": "PLACEHOLDER - Dialogue/cutscene mechanics",
+        "learning_objective": "Understand connection as fundamental cosmic force"
+      },
+      "phase_2_trial_challenge": {
+        "description": "Demonstrate mastery of connection through chosen elemental expression",
+        "mechanics": "PLACEHOLDER - Trial challenge mechanics",
+        "choice_point": "Choose Fire, Cold, or Lightning as connection expression"
+      },
+      "phase_3_commitment": {
+        "description": "Commit to chosen elemental path and receive Voltharion's blessing",
+        "mechanics": "PLACEHOLDER - Choice confirmation and reward granting",
+        "permanent_effect": "Elemental choice recorded for final divine alignment"
+      }
+    },
+
+    "elemental_choice_implications": {
+      "fire_choice": {
+        "thematic_meaning": "Embrace connecting fire - passionate bonds that inspire and unite",
+        "mechanical_preview": "Contributes to Fire-based elemental affinity patterns",
+        "roleplay_implication": "Character connects through passion, inspiration, and emotional bonds"
+      },
+      "cold_choice": {
+        "thematic_meaning": "Embrace preserving connection - eternal bonds that transcend time",
+        "mechanical_preview": "Contributes to Cold-based elemental affinity patterns",
+        "roleplay_implication": "Character connects through lasting, unchanging relationships"
+      },
+      "lightning_choice": {
+        "thematic_meaning": "Embrace pure connection lightning - instant, universal communication",
+        "mechanical_preview": "Contributes to Lightning-based elemental affinity patterns",
+        "roleplay_implication": "Character favors immediate, widespread, networked connections"
+      }
+    }
+  },
+
+  "trial_rewards": {
+    "immediate_rewards": {
+      "experience_gain": "PLACEHOLDER - XP reward amount",
+      "attribute_bonus": "PLACEHOLDER - Temporary or permanent attribute enhancement",
+      "skill_unlock": "PLACEHOLDER - Connection-related skill or ability",
+      "divine_favor": "PLACEHOLDER - Voltharion favor points"
+    },
+
+    "progression_benefits": {
+      "elemental_affinity": "Chosen element recorded for final divine alignment calculation",
+      "cosmic_authority": "Slight increase in connection-related cosmic authority",
+      "trial_completion": "3/6 divine trials completed (if third trial)"
+    },
+
+    "story_integration": {
+      "character_development": "PLACEHOLDER - How trial affects character growth",
+      "world_relationship": "PLACEHOLDER - How choice affects world interactions",
+      "future_implications": "PLACEHOLDER - How choice affects later story events"
+    }
+  },
+
+  "location_details": {
+    "trial_location": "PLACEHOLDER - Voltharion's Web/Network Hub/Connection Chamber",
+    "environmental_description": "PLACEHOLDER - Detailed location description",
+    "atmospheric_elements": "PLACEHOLDER - Environmental storytelling elements",
+    "interactive_elements": "PLACEHOLDER - Location-specific interactions"
+  },
+
+  "dialogue_framework": {
+    "voltharion_characterization": {
+      "personality": "PLACEHOLDER - Voltharion's personality traits and speech patterns",
+      "motivations": "PLACEHOLDER - What Voltharion seeks in trial participants",
+      "teaching_style": "PLACEHOLDER - How Voltharion guides players through choices"
+    },
+
+    "choice_explanations": {
+      "elemental_guidance": "PLACEHOLDER - How Voltharion explains elemental choices",
+      "consequence_warning": "PLACEHOLDER - Voltharion's warnings about choice permanence",
+      "encouragement": "PLACEHOLDER - Voltharion's supportive guidance"
+    }
+  },
+
+  "integration_points": {
+    "main_story": "PLACEHOLDER - How trial connects to main questline",
+    "character_classes": "PLACEHOLDER - How trial interacts with different character classes",
+    "other_trials": "PLACEHOLDER - How this trial relates to other divine trials",
+    "world_lore": "PLACEHOLDER - Lore revealed through trial completion"
+  },
+
+  "metadata": {
+    "created": "2025-08-05T00:00:00Z",
+    "last_updated": "2025-08-05T00:00:00Z",
+    "author": "PrimalMyst Development Team",
+    "version": "1.0.0",
+    "canonical": true,
+    "trial_category": "fundamental_divine_trial",
+    "related_systems": ["divine-trial-progression-system", "divine-alignment-buffs-system"]
+  }
+}

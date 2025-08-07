@@ -1,0 +1,125 @@
+{
+  "id": "stormrider-chestplate",
+  "name": "Stormrider's Chestplate",
+  "type": "armor",
+  "subtype": "body_armor",
+  "rank_level": {
+    "item_rank": "B",
+    "required_level": 45,
+    "optimal_level": 60,
+    "level_scaling": {
+      "scales_with_user": true,
+      "scaling_type": "linear",
+      "max_scaling_level": 70
+    },
+    "quality_tier": "rare",
+    "power_classification": "divine-touched"
+  },
+  "divine_influences": {
+    "primary_influence": "voltharion",
+    "secondary_influences": ["myrielle"],
+    "divine_resonance": "strong",
+    "humanoid_only": true
+  },
+  "physical_properties": {
+    "weight": {
+      "value": 12.0,
+      "unit": "pounds"
+    },
+    "size": "medium",
+    "material": "Storm-forged steel with lightning crystal channels",
+    "durability": "reinforced",
+    "magical_nature": "divine"
+  },
+  "gameplay_properties": {
+    "stack_size": 1,
+    "tradeable": true,
+    "bind_on_pickup": false,
+    "bind_on_equip": true,
+    "unique": false,
+    "set_item": "stormrider-armor-set"
+  },
+  "gear_slot": {
+    "category": "armor",
+    "slot_type": "body_armor",
+    "occupies_slots": ["chest"],
+    "slot_requirement": "Body armor slot must be empty",
+    "protection_areas": ["chest", "back", "shoulders", "upper_arms"]
+  },
+  "armor_properties": {
+    "physical_protection": {
+      "base_armor_value": 320,
+      "armor_type": "medium_plate",
+      "protection_bonus": "+35% resistance to physical damage"
+    },
+    "mystical_protection": {
+      "mystical_resistance": 180,
+      "lightning_resistance": "+60%",
+      "storm_immunity": true
+    },
+    "mobility_impact": {
+      "movement_penalty": "-5% movement speed",
+      "dexterity_modifier": "-10% (weight burden)",
+      "stealth_penalty": "-20% (metallic noise)"
+    }
+  },
+  "effects": [
+    {
+      "name": "Storm Channeling",
+      "description": "Lightning damage increased by 25% and lightning spells cost 15% less mana",
+      "type": "passive",
+      "power_level": "major",
+      "divine_source": "voltharion"
+    },
+    {
+      "name": "Thunder Step",
+      "description": "Once per combat, teleport up to 30 feet with a thunderous crack that stuns nearby enemies",
+      "type": "active",
+      "power_level": "moderate",
+      "divine_source": "voltharion"
+    },
+    {
+      "name": "Storm Resilience",
+      "description": "Immunity to weather effects and +50% resistance to area-of-effect abilities",
+      "type": "passive",
+      "power_level": "moderate",
+      "divine_source": "voltharion"
+    },
+    {
+      "name": "Hidden Path Awareness",
+      "description": "Detect secret passages and hidden routes during storms",
+      "type": "passive",
+      "power_level": "minor",
+      "divine_source": "myrielle"
+    }
+  ],
+  "acquisition": {
+    "drop_sources": ["storm-elementals", "voltharion-champions"],
+    "quest_rewards": ["mastery-of-the-storm"],
+    "crafting_recipe": {
+      "required_rank": "B",
+      "required_level": 50,
+      "materials": [
+        {"item_id": "storm-forged-steel", "quantity": 8},
+        {"item_id": "voltharion-essence", "quantity": 6},
+        {"item_id": "lightning-crystal", "quantity": 3}
+      ],
+      "crafting_station": "storm-forge"
+    },
+    "rarity_notes": "Only manifests during active thunderstorms when crafted"
+  },
+  "lore": {
+    "description": "This powerful chestplate channels the raw energy of storms, allowing the wearer to move as thunder across the battlefield.",
+    "history": "Forged by ancient storm-riders who bonded with the great thunderbirds that soar above the highest peaks.",
+    "creator": "Stormsmith Ragnar the Lightning-Touched",
+    "significance": "Represents mastery over the primal forces of storm and the courage to ride the winds"
+  },
+  "tags": ["body_armor", "armor", "chestplate", "voltharion", "myrielle", "B-rank", "rare", "storm"],
+  "metadata": {
+    "created": "2025-08-06T00:00:00Z",
+    "last_updated": "2025-08-06T00:00:00Z",
+    "author": "PrimalMyst Development Team",
+    "version": "1.0.0",
+    "canonical": true
+  }
+}

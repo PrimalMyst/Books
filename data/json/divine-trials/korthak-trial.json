@@ -1,0 +1,130 @@
+{
+  "trial_id": "korthak-divine-trial",
+  "trial_name": "Trial of Righteous Honor",
+  "divine_patron": "korthak",
+  "trial_type": "primal",
+  "domain_focus": "might",
+  "cosmic_principle": "traditional_strength",
+
+  "trial_overview": {
+    "description": "Face Korthak's trial to determine your relationship with traditional honor and disciplined strength",
+    "thematic_focus": "Honor, tradition, disciplined strength, justice, and the warrior's code",
+    "player_choice": "Choose to Follow or Oppose Korthak's philosophy of traditional honor",
+    "cosmic_significance": "Establishes relationship with the primal force of righteous might"
+  },
+
+  "trial_mechanics": {
+    "access_requirements": {
+      "minimum_level": "PLACEHOLDER - Level 18-20",
+      "story_prerequisite": "PLACEHOLDER - Previous primal trials completed",
+      "location_access": "PLACEHOLDER - Access to Korthak's domain/honor hall"
+    },
+
+    "trial_phases": {
+      "phase_1_introduction": {
+        "description": "Meet Korthak and understand the nature of traditional honor",
+        "mechanics": "PLACEHOLDER - Dialogue/cutscene mechanics",
+        "learning_objective": "Understand righteous strength as cosmic principle"
+      },
+      "phase_2_trial_challenge": {
+        "description": "Face scenarios testing your relationship with honor and tradition",
+        "mechanics": "PLACEHOLDER - Trial challenge mechanics",
+        "choice_point": "Decide whether to Follow or Oppose Korthak's traditional path"
+      },
+      "phase_3_commitment": {
+        "description": "Commit to final choice and complete divine positioning",
+        "mechanics": "PLACEHOLDER - Final choice confirmation and archetype revelation",
+        "permanent_effect": "Final Follow/Oppose choice completes divine alignment calculation"
+      }
+    },
+
+    "choice_implications": {
+      "follow_korthak": {
+        "thematic_meaning": "Embrace traditional honor and disciplined strength as the foundation of justice",
+        "mechanical_preview": "Contributes to Honor-focused primal patterns",
+        "roleplay_implication": "Character values tradition, discipline, honor codes, and proven methods",
+        "philosophy": "True strength comes from discipline, honor, and maintaining just traditions"
+      },
+      "oppose_korthak": {
+        "thematic_meaning": "Reject rigid tradition that can prevent adaptation and compassionate flexibility",
+        "mechanical_preview": "Contributes to Revolution/Sanctuary/Heretic-focused primal patterns",
+        "roleplay_implication": "Character believes rigid tradition can prevent necessary growth and compassion",
+        "philosophy": "Honor must adapt; inflexible tradition can become a barrier to justice and mercy"
+      }
+    }
+  },
+
+  "trial_rewards": {
+    "immediate_rewards": {
+      "experience_gain": "PLACEHOLDER - XP reward amount",
+      "attribute_bonus": "PLACEHOLDER - Temporary or permanent attribute enhancement",
+      "skill_unlock": "PLACEHOLDER - Honor/adaptation-related skill or ability",
+      "divine_response": "PLACEHOLDER - Korthak's respect or honorable opposition"
+    },
+
+    "progression_benefits": {
+      "primal_positioning": "Final Follow/Oppose choice completes divine alignment calculation",
+      "cosmic_authority": "Full cosmic positioning established within hexagonal architecture",
+      "trial_completion": "6/6 divine trials completed - full divine alignment achieved"
+    },
+
+    "archetype_revelation": {
+      "character_archetype": "Final character archetype (1 of 49) fully revealed and activated",
+      "hexagonal_positioning": "Complete elemental and primal layer positioning within hexagonal architecture",
+      "divine_alignment_buffs": "All divine alignment buffs and abilities activate",
+      "cosmic_authority": "Full cosmic authority based on divine positioning established"
+    },
+
+    "story_integration": {
+      "character_development": "PLACEHOLDER - How final choice completes character philosophical development",
+      "world_relationship": "PLACEHOLDER - How complete divine alignment affects all world relationships",
+      "act2_preparation": "PLACEHOLDER - How complete divine positioning prepares character for Act 2 challenges"
+    }
+  },
+
+  "location_details": {
+    "trial_location": "PLACEHOLDER - Korthak's Honor Hall/Warrior's Chamber/Justice Temple",
+    "environmental_description": "PLACEHOLDER - Detailed location description",
+    "atmospheric_elements": "PLACEHOLDER - Environmental storytelling elements",
+    "interactive_elements": "PLACEHOLDER - Location-specific interactions"
+  },
+
+  "dialogue_framework": {
+    "korthak_characterization": {
+      "personality": "PLACEHOLDER - Korthak's personality traits and speech patterns",
+      "motivations": "PLACEHOLDER - What Korthak seeks to understand about participants",
+      "teaching_style": "PLACEHOLDER - How Korthak presents final choice consequences"
+    },
+
+    "choice_explanations": {
+      "follow_path": "PLACEHOLDER - Benefits and responsibilities of embracing traditional honor",
+      "oppose_path": "PLACEHOLDER - Benefits and responsibilities of rejecting rigid tradition",
+      "final_significance": "PLACEHOLDER - Explanation of how this choice completes divine alignment"
+    }
+  },
+
+  "completion_ceremony": {
+    "archetype_revelation": "PLACEHOLDER - Dramatic revelation of player's final divine archetype",
+    "power_manifestation": "PLACEHOLDER - Visual/mechanical manifestation of divine alignment buffs",
+    "cosmic_recognition": "PLACEHOLDER - Recognition from cosmic forces of player's positioning",
+    "preparation_for_act2": "PLACEHOLDER - Setting up player's role in Act 2 cosmic conflicts"
+  },
+
+  "integration_points": {
+    "main_story": "PLACEHOLDER - How final trial concludes Act 1 and prepares for Act 2",
+    "character_classes": "PLACEHOLDER - How final divine alignment integrates with character class",
+    "complete_positioning": "PLACEHOLDER - How all 6 trial choices create final character positioning",
+    "world_lore": "PLACEHOLDER - Final lore revelations about cosmic structure and player's role"
+  },
+
+  "metadata": {
+    "created": "2025-08-05T00:00:00Z",
+    "last_updated": "2025-08-05T00:00:00Z",
+    "author": "PrimalMyst Development Team",
+    "version": "1.0.0",
+    "canonical": true,
+    "trial_category": "primal_divine_trial",
+    "completion_significance": "final_trial",
+    "related_systems": ["divine-trial-progression-system", "divine-alignment-buffs-system", "act2-preparation"]
+  }
+}

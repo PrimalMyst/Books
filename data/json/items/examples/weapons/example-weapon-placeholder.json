@@ -1,0 +1,115 @@
+{
+  "id": "example-weapon-placeholder",
+  "name": "Placeholder Weapon Example",
+  "type": "weapon",
+  "subtype": "placeholder",
+  "rank_level": {
+    "item_rank": "B",
+    "required_level": 45,
+    "optimal_level": 60,
+    "level_scaling": {
+      "scales_with_user": true,
+      "scaling_type": "linear",
+      "max_scaling_level": 70
+    },
+    "quality_tier": "rare",
+    "power_classification": "mystical"
+  },
+  "divine_influences": {
+    "primary_influence": "pyrion",
+    "secondary_influences": [],
+    "divine_resonance": "moderate",
+    "humanoid_only": true
+  },
+  "physical_properties": {
+    "weight": {
+      "value": 6.0,
+      "unit": "pounds"
+    },
+    "size": "medium",
+    "material": "PLACEHOLDER - weapon material system to be implemented",
+    "durability": "reinforced",
+    "magical_nature": "mystical"
+  },
+  "gameplay_properties": {
+    "stack_size": 1,
+    "tradeable": true,
+    "bind_on_pickup": false,
+    "bind_on_equip": true,
+    "unique": false,
+    "set_item": null
+  },
+  "gear_slot": {
+    "category": "weapons",
+    "slot_type": "main_hand",
+    "occupies_slots": ["weapon"],
+    "slot_requirement": "Weapon slot must be empty",
+    "weapon_classification": "PLACEHOLDER - weapon system to be fully implemented"
+  },
+  "weapon_properties": {
+    "damage": {
+      "base_damage": "PLACEHOLDER - damage system to be implemented",
+      "damage_type": "PLACEHOLDER - damage type system to be implemented",
+      "attack_speed": "PLACEHOLDER - attack speed system to be implemented"
+    },
+    "special_mechanics": {
+      "weapon_skills": "PLACEHOLDER - weapon skill system to be implemented",
+      "combat_abilities": "PLACEHOLDER - combat ability system to be implemented"
+    }
+  },
+  "effects": [
+    {
+      "name": "PLACEHOLDER Effect",
+      "description": "This is a placeholder for future weapon effect implementation",
+      "type": "passive",
+      "power_level": "moderate",
+      "divine_source": "pyrion"
+    }
+  ],
+  "acquisition": {
+    "drop_sources": ["PLACEHOLDER - combat system to be implemented"],
+    "quest_rewards": ["PLACEHOLDER - quest system integration"],
+    "crafting_recipe": {
+      "required_rank": "B",
+      "required_level": 50,
+      "materials": [
+        {"item_id": "PLACEHOLDER-material-1", "quantity": 3},
+        {"item_id": "PLACEHOLDER-material-2", "quantity": 2}
+      ],
+      "crafting_station": "PLACEHOLDER-weapon-forge"
+    },
+    "rarity_notes": "PLACEHOLDER - weapon acquisition system to be implemented"
+  },
+  "implementation_status": {
+    "status": "placeholder_only",
+    "planned_features": [
+      "Weapon type specializations (sword, staff, bow, etc.)",
+      "Combat mechanics integration",
+      "Weapon skill trees",
+      "Divine weapon enchantments",
+      "Damage calculation systems",
+      "Attack speed and range mechanics"
+    ],
+    "dependencies": [
+      "Combat system implementation",
+      "Damage calculation framework",
+      "Weapon skill system design",
+      "Divine enhancement mechanics"
+    ]
+  },
+  "lore": {
+    "description": "PLACEHOLDER - Weapon lore will be implemented with the full weapon system",
+    "history": "PLACEHOLDER - Historical significance to be developed",
+    "creator": "PLACEHOLDER - Creator information pending weapon system design",
+    "significance": "PLACEHOLDER - Cultural significance to be established"
+  },
+  "tags": ["weapon", "placeholder", "pyrion", "B-rank", "rare", "implementation-pending"],
+  "metadata": {
+    "created": "2025-08-06T00:00:00Z",
+    "last_updated": "2025-08-06T00:00:00Z",
+    "author": "PrimalMyst Development Team",
+    "version": "1.0.0",
+    "canonical": false,
+    "placeholder_notes": "This file serves as a template for future weapon implementation"
+  }
+}

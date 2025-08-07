@@ -1,0 +1,241 @@
+{
+  "class_id": "chieftain",
+  "canonical_name": "Chieftain",
+  "hexagon_position": 5,
+  "body_type": "M",
+  "archetype_category": "mighty-leader",
+  "description": "Mighty leaders masters of physical prowess and direct confrontation who embody the principle of overwhelming force and unbreakable will. Chieftains represent the ultimate expression of Korthak's philosophy - that strength is truth and victory proves worthiness in leadership.",
+  "origin_island": {
+    "island_name": "Korthak Isle", 
+    "cultural_name": "The Arena Realm",
+    "description": "A realm of grand coliseums and training grounds where physical prowess is the highest virtue and direct confrontation solves disputes. The culture values strength, courage, and the honor found in fair combat.",
+    "cultural_philosophy": "Strength is truth, victory proves worthiness. Face challenges directly, protect the weak, and earn respect through deeds."
+  },
+  "eldritch_connection": {
+    "aligned_god": "korthak",
+    "divine_manifestation": "Korthak, the Dragon King - Overwhelming physical might and unbreakable will",
+    "npc_default_alignment": "korthak",
+    "player_freedom": "Players can choose any god alignment or remain independent",
+    "cultural_pressure": "Arena Realm culture strongly encourages Korthak worship but respects those who demonstrate mastery of physical strength regardless of divine alignment"
+  },
+  "damage_type_affinity": {
+    "natural_alignment": "physical",
+    "cultural_preference": "Physical damage is honored as the purest expression of personal strength and leadership through might",
+    "mechanical_freedom": "No restrictions on learning or mastering other damage types",
+    "starting_bonus": "Enhanced effectiveness with physical combat and resistance to physical effects"
+  },
+  "attribute_inheritance": {
+    "source": "origin_island_position",
+    "island_position": 5,
+    "island_reference": "korthak-isle-tribal.json",
+    "primary_attribute": "strength",
+    "trinity_alignment": "fundamental",
+    "hexagon_pattern": {
+      "position_5_aligned": "+6 per level (strength - aligned with island position)",
+      "position_4_adjacent": "+3 per level (vitality - adjacent position 4)",
+      "position_6_adjacent": "+3 per level (wisdom - adjacent position 6)", 
+      "position_3_next": "+2 per level (dexterity - next adjacent position 3)",
+      "position_1_next": "+2 per level (intelligence - next adjacent position 1)",
+      "position_2_opposing": "+1 per level (adaptability - opposing position 2)"
+    },
+    "per_level_distribution": {
+      "strength": "+6 per level (island position 5)",
+      "vitality": "+3 per level (adjacent position 4)",
+      "wisdom": "+3 per level (adjacent position 6)", 
+      "dexterity": "+2 per level (next adjacent position 3)",
+      "intelligence": "+2 per level (next adjacent position 1)",
+      "adaptability": "+1 per level (opposing position 2)"
+    },
+    "total_per_level": "17 attribute points distributed according to hexagonal pattern from origin island",
+    "starting_bonuses": {
+      "note": "No starting attribute bonuses - all growth comes from leveling up"
+    },
+    "cultural_development": "Forge Realm education emphasizes leadership training, creative problem-solving, and community building",
+    "growth_philosophy": "Island position 5 produces exceptional strength growth with strong support in vitality and wisdom, reflecting mastery of transformative leadership and creative force"
+  },
+  "class_characteristics": {
+    "core_philosophy": "Lead through transformation, inspire through action",
+    "life_approach": "Build others up, create positive change, lead by example",
+    "social_role": "Leader, Innovator, Community Builder, Creative Catalyst",
+    "combat_style": "Inspirational leadership, team coordination, transformative tactics, vital energy projection",
+    "signature_abilities": [
+      "Inspirational Leadership - Ability to motivate and coordinate others",
+      "Creative Problem-Solving - Innovative approaches to challenges",
+      "Vital Energy - Enhanced life force and endurance",
+      "Transformative Vision - Seeing potential for positive change",
+      "Community Building - Natural talent for bringing people together"
+    ]
+  },
+  "cultural_background": {
+    "typical_upbringing": "Raised in the collaborative workshops of the Forge Realm, learning leadership through participation in creative projects",
+    "social_expectations": "Expected to serve as community leaders and catalysts for positive change",
+    "common_motivations": [
+      "Building stronger communities",
+      "Inspiring others to reach their potential",
+      "Creating innovative solutions to challenges",
+      "Leading transformative projects"
+    ],
+    "cultural_values": [
+      "Creative innovation",
+      "Collaborative leadership",
+      "Community strength",
+      "Positive transformation"
+    ]
+  },
+  "starting_equipment": {
+    "typical_gear": [
+      "Tools of leadership and organization",
+      "Creative implements for problem-solving",
+      "Flame-touched weapons or focuses",
+      "Community building materials",
+      "Inspirational symbols and regalia"
+    ],
+    "cultural_items": [
+      "Forge Realm leadership certification",
+      "Family innovation lineage documentation",
+      "Community project achievement records",
+      "Specialized crafting and building tools"
+    ]
+  },
+  "advancement_paths": {
+    "traditional_progression": [
+      "Novice Leader - Basic leadership and creative skills",
+      "Forge Coordinator - Recognized organizer of Forge Realm projects",
+      "Master Chieftain - Advanced leadership and transformation abilities",
+      "Elder Innovator - Legendary creative leadership and community building",
+      "Eternal Catalyst - Mythical status with power to transform entire civilizations"
+    ],
+    "alternative_developments": [
+      "Battle Commander - Applying leadership skills to military coordination",
+      "Diplomatic Innovator - Using creative approaches for inter-realm relations",
+      "Workshop Master - Focusing on technical innovation and crafting excellence",
+      "Cross-Cultural Unifier - Specializing in bringing different communities together"
+    ]
+  },
+  "role_flexibility": {
+    "multiclass_synergies": [
+      "Chieftain/Warrior - Leadership-oriented combatant with tactical command abilities",
+      "Chieftain/Priestess - Spiritual leader with transformative wisdom and community focus",
+      "Chieftain/Necromancer - Innovative scholar with long-term planning and organizational skills"
+    ],
+    "player_customization": {
+      "personality_freedom": "Players can be inspiring mentors, decisive commanders, creative innovators, or passionate motivators",
+      "moral_alignment": "Can be selfless community builders, ambitious leaders, or independent innovators",
+      "social_approach": "Can be collaborative facilitators, decisive directors, creative catalysts, or protective organizers"
+    }
+  },
+
+  "ascendancy_system": {
+    "description": "Chieftain serves as the primary anchor for leadership, strength, and honor-focused ascendancy trees",
+    "ascendancy_role": "Main class for unlocking and progressing through leadership, might, and honor ascendancies",
+    "placeholder_implementation": "PLACEHOLDER - Future ascendancy trees will anchor to this class for leadership specializations",
+    "ascendancy_themes": [
+      "War Leader - Advanced tactical leadership and combat coordination",
+      "Strength Master - Physical power enhancement and might-based abilities",
+      "Honor Guardian - Honor codes and righteousness-based powers",
+      "Dragon Warrior - Dragon heritage abilities and draconic power"
+    ],
+    "multiclass_ascendancy": "Other classes can access leadership ascendancies through this class as anchor point",
+    "ascendancy_points": "Standard ascendancy point progression - PLACEHOLDER for future implementation"
+  },
+
+  "origin_island_integration": {
+    "trinity_alignment": "fundamental",
+    "trinity_heritage": "Inherits fundamental trinity benefits from Korthak Isle origin position", 
+    "attribute_scaling": "Linear attribute scaling based on island hexagonal positioning",
+    "level_10_example": {
+      "strength": 70, "vitality": 40, "adaptability": 40, "dexterity": 30, "intelligence": 20, "wisdom": 20,
+      "description": "A level 10 Chieftain with exceptional strength and well-rounded support attributes from island heritage"
+    },
+    "class_mechanical_focus": {
+      "core_abilities": "Leadership mastery, strength enhancement, honor-based powers",
+      "signature_skills": "Enhanced command, physical might, honor detection",
+      "equipment_affinity": "Strength-based weapons and armor, leadership regalia, honor symbols"
+    },
+    "adjacent_class_relationships": {
+      "warrior": "Shared vitality focus creates natural leadership and endurance synergies",
+      "priestess": "Complementary vitality/wisdom enables inspirational spiritual leadership"
+    },
+    "opposing_class_tension": {
+      "succubus": "Leadership vs. Adaptation - Fundamental difference between providing stable direction and responding to change"
+    }
+  },
+  "lore_connections": {
+    "origin_island_position": "Represents Position 5 - The Flame of Creation from Korthak Isle heritage",
+    "cosmic_significance": "Represents the principle that consciousness can transcend limitations through creative leadership and transformative vision",
+    "mythological_role": "The eternal builders of Yggdrasil's growth, ensuring positive development and community strength",
+    "island_legends": "Famous Chieftains have led major innovations and community developments that have survived across reality instances"
+  },
+  "npc_examples": {
+    "typical_representatives": [
+      "Forge-Master Koreth - Chief organizer of the Forge Realm's great creative projects",
+      "Innovation Prime Valdris - Leading expert on transformative leadership and community building",
+      "Elder Builder Tharkun - Ancient Chieftain who led reconstruction during the previous reality instance"
+    ],
+    "cultural_variations": [
+      "Battle-Commander Gareth - Chieftain who applies leadership skills to military coordination",
+      "Diplomatic Innovator Marcus - Chieftain focused on inter-realm creative cooperation",
+      "Wandering Catalyst Darius - Chieftain who travels to help communities transform and grow"
+    ]
+  },
+  "player_freedom_emphasis": {
+    "damage_type_openness": "While naturally aligned with fire, Chieftains can master cold, lightning, chaos, physical, or radiance without restriction",
+    "divine_choice": "Can worship any god, practice multiple faiths, or remain independent leaders",
+    "personality_range": "From inspiring mentors to decisive commanders to creative innovators to passionate motivators",
+    "social_roles": "Can be leaders, innovators, teachers, coordinators, or adventurers depending on player choice",
+    "moral_flexibility": "Can be selfless community builders, ambitious leaders, or independent innovators - the class supports all approaches"
+  },
+  "leadership_specialties": {
+    "community_organization": [
+      "Project planning and coordination",
+      "Resource management and distribution",
+      "Conflict resolution and mediation",
+      "Long-term community development"
+    ],
+    "creative_innovation": [
+      "Problem-solving through novel approaches",
+      "Technical innovation and improvement",
+      "Artistic and cultural development",
+      "Transformative change management"
+    ],
+    "inspirational_abilities": [
+      "Motivational speaking and encouragement",
+      "Team building and coordination",
+      "Vision casting and goal setting",
+      "Personal development mentoring"
+    ],
+    "transformative_leadership": [
+      "Change management and adaptation",
+      "Crisis leadership and response",
+      "Growth planning and execution",
+      "Legacy building and sustainability"
+    ]
+  },
+  "mechanical_notes": {
+    "suggested_starting_stats": {
+      "vitality": "Highest",
+      "strength": "Second highest",
+      "wisdom": "Moderate bonus",
+      "other_attributes": "Standard starting values with room for player customization"
+    },
+    "natural_resistances": [
+      "Fire damage resistance",
+      "Enhanced stamina and endurance",
+      "Leadership presence and charisma bonuses",
+      "Improved recovery and healing rates"
+    ],
+    "starting_abilities": [
+      "Enhanced leadership and organization",
+      "Creative problem-solving techniques",
+      "Basic team coordination abilities",
+      "Fire affinity"
+    ]
+  },
+  "metadata": {
+    "version": "1.0.0",
+    "created": "2025-07-31T00:00:00Z",
+    "schema_compliance": "character-class.schema.json",
+    "hexagon_reference": "character-classes-core.json",
+    "position_verification": "Position 5 - Korthak Alignment - Strength Focus - Physical Affinity"
+  }
+}

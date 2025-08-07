@@ -1,0 +1,222 @@
+{
+  "id": "gear-index",
+  "name": "PrimalMyst Gear Index",
+  "description": "Complete index of all gear items organized by category and slot type",
+  "version": "1.0.0",
+  "total_equipment_slots": 13,
+  "slot_breakdown": {
+    "weapons": 1,
+    "jewelry": 6,
+    "armor": 6
+  },
+  "categories": {
+    "weapons": {
+      "description": "Combat equipment - placeholder implementation",
+      "status": "placeholder_only",
+      "total_slots": 1,
+      "implementation_notes": "Weapon system to be implemented in future updates"
+    },
+    "jewelry": {
+      "description": "Resource-aligned jewelry with linear hierarchical organization",
+      "status": "linear_structure_implemented",
+      "total_slots": 6,
+      "structure": "jewelry/[slot]/[type]/ - Linear hierarchical folder organization",
+      "resource_system": {
+        "base_types": {
+          "health": "Life force and vitality enhancement, physical durability focus",
+          "mana": "Magical energy and spell power enhancement, mystical focus",
+          "stamina": "Physical endurance and action efficiency enhancement, performance focus"
+        },
+        "total_categories_per_slot": 3,
+        "total_jewelry_categories": 12
+      },
+      "folder_structure": {
+        "root": "jewelry/",
+        "organization": "Each jewelry slot contains 3 resource type folders",
+        "jewelry_slots": ["earrings", "rings", "amulet", "belt_lock"],
+        "types_per_slot": ["health", "mana", "stamina"],
+        "total_folders": 16
+      },
+      "core_files": {
+        "jewelry_base_categories_core": "jewelry/jewelry-base-categories-core.json",
+        "jewelry_categories_core": "jewelry/jewelry-categories-core.json",
+        "earrings_core": "jewelry/earrings/earrings-categories-core.json",
+        "rings_core": "jewelry/rings/rings-categories-core.json",
+        "amulet_core": "jewelry/amulet/amulet-categories-core.json",
+        "belt_lock_core": "jewelry/belt_lock/belt-lock-categories-core.json"
+      },
+      "jewelry_slots": {
+        "earrings": {
+          "description": "Sensory enhancement and awareness improvement",
+          "slot_count": 2,
+          "slot_names": ["left_ear", "right_ear"],
+          "core_file": "earrings-categories-core.json",
+          "specializations": ["sensory_bonuses", "communication_enhancement", "balance_improvement"]
+        },
+        "rings": {
+          "description": "Hand-based enhancement and spell channeling",
+          "slot_count": 2,
+          "slot_names": ["left_hand", "right_hand"],
+          "core_file": "rings-categories-core.json",
+          "specializations": ["manual_dexterity", "spell_casting", "crafting_enhancement"]
+        },
+        "amulet": {
+          "description": "Central power enhancement and identity manifestation",
+          "slot_count": 1,
+          "slot_names": ["neck"],
+          "core_file": "amulet-categories-core.json",
+          "specializations": ["primary_enhancement", "divine_connection", "identity_manifestation"]
+        },
+        "belt_lock": {
+          "description": "Utility enhancement through belt integration",
+          "slot_count": 1,
+          "slot_names": ["belt_attachment"],
+          "core_file": "belt-lock-categories-core.json",
+          "specializations": ["utility_bonuses", "belt_synergy", "quick_access"],
+          "special_requirement": "Requires belt armor piece for attachment"
+        }
+      }
+    },
+    "armor": {
+      "description": "Protective equipment with linear hierarchical organization",
+      "status": "linear_structure_implemented",
+      "total_slots": 6,
+      "structure": "armors/[slot]/[type]/ - Linear hierarchical folder organization",
+      "category_system": {
+        "base_types": {
+          "armor": "High physical protection, heavy defense focus",
+          "evasion": "High mobility and dodge chance, agility focus", 
+          "energy_shield": "Mystical protection and mana enhancement, magical focus"
+        },
+        "hybrid_types": {
+          "armor_evasion": "Balanced physical protection with mobility",
+          "armor_energy_shield": "Heavy protection with mystical enhancement",
+          "evasion_energy_shield": "Mobile mystical protection"
+        },
+        "total_categories_per_slot": 6,
+        "total_armor_categories": 36
+      },
+      "folder_structure": {
+        "root": "armors/",
+        "organization": "Each body slot contains 6 type folders",
+        "body_slots": ["helmet", "body_armor", "gloves", "belt", "pants", "boots"],
+        "types_per_slot": ["armor", "evasion", "energy_shield", "armor_evasion", "armor_energy_shield", "evasion_energy_shield"],
+        "total_folders": 42
+      },
+      "core_files": {
+        "base_categories_core": "armors/base-categories-core.json",
+        "armor_categories_core": "armors/armor-categories-core.json",
+        "helmet_core": "armors/helmet/helmet-categories-core.json",
+        "body_armor_core": "armors/body_armor/body-armor-categories-core.json",
+        "gloves_core": "armors/gloves/gloves-categories-core.json",
+        "belt_core": "armors/belt/belt-categories-core.json",
+        "pants_core": "armors/pants/pants-categories-core.json",
+        "boots_core": "armors/boots/boots-categories-core.json"
+      },
+      "body_slots": {
+        "helmet": {
+          "description": "Head protection with vision and mental enhancements",
+          "protection_areas": ["head", "face", "neck_partial"],
+          "core_file": "helmet-categories-core.json",
+          "armor_types": ["Heavy Helm", "Light Circlet", "Mystical Crown", "Battle Helm", "Warded Helm", "Mystical Circlet"]
+        },
+        "body_armor": {
+          "description": "Primary torso protection with major defensive bonuses",
+          "protection_areas": ["chest", "back", "shoulders", "upper_arms"],
+          "core_file": "body-armor-categories-core.json",
+          "armor_types": ["Plate Armor", "Leather Armor", "Mystical Robe", "Mail Armor", "Warded Plate", "Mystical Leather"]
+        },
+        "gloves": {
+          "description": "Hand protection with dexterity and crafting enhancements",
+          "protection_areas": ["hands", "wrists", "forearms"],
+          "core_file": "gloves-categories-core.json",
+          "armor_types": ["Plate Gauntlets", "Leather Gloves", "Mystical Wraps", "Chain Gloves", "Warded Gauntlets", "Ethereal Gloves"]
+        },
+        "belt": {
+          "description": "Waist protection with utility storage and belt_lock attachment",
+          "protection_areas": ["waist", "lower_back"],
+          "core_file": "belt-categories-core.json",
+          "armor_types": ["Heavy War Belt", "Light Sash", "Mystical Cord", "Studded Belt", "Warded Girdle", "Ethereal Sash"],
+          "special_feature": "Provides attachment point for belt_lock jewelry"
+        },
+        "pants": {
+          "description": "Leg protection with mobility and movement enhancements",
+          "protection_areas": ["thighs", "knees", "shins"],
+          "core_file": "pants-categories-core.json",
+          "armor_types": ["Plate Greaves", "Leather Breeches", "Mystical Leggings", "Chain Leggings", "Warded Greaves", "Ethereal Breeches"]
+        },
+        "boots": {
+          "description": "Foot protection with movement speed and terrain adaptation",
+          "protection_areas": ["feet", "ankles", "calves"],
+          "core_file": "boots-categories-core.json",
+          "armor_types": ["Heavy Sabatons", "Silent Boots", "Mystical Footwear", "Tactical Boots", "Warded Sabatons", "Ethereal Boots"]
+        }
+      }
+    }
+  },
+  "example_loadout": {
+    "description": "Example items moved to examples/ folder for reference",
+    "file_locations": {
+      "armor_examples": "examples/armor/",
+      "jewelry_examples": "examples/jewelry/",
+      "weapon_examples": "examples/weapons/"
+    },
+    "armor_structure": {
+      "total_categories": 36,
+      "breakdown": "6 body slots × 6 armor types (3 base + 3 hybrid) = 36 total armor categories",
+      "structure": "Linear hierarchical folder organization: armors/[slot]/[type]/",
+      "core_files": [
+        "armors/base-categories-core.json",
+        "armors/armor-categories-core.json",
+        "armors/helmet/helmet-categories-core.json",
+        "armors/body_armor/body-armor-categories-core.json", 
+        "armors/gloves/gloves-categories-core.json",
+        "armors/belt/belt-categories-core.json",
+        "armors/pants/pants-categories-core.json",
+        "armors/boots/boots-categories-core.json"
+      ]
+    }
+  },
+  "enhancement_systems": {
+    "divine_influences": {
+      "description": "Gear can be influenced by any of the six primary gods",
+      "gods": ["pyrion", "glacius", "voltharion", "serafina", "aurelius", "korthak", "myrielle"],
+      "application": "Divine alignment affects gear bonuses and availability"
+    },
+    "rank_progression": {
+      "description": "All gear follows E-D-C-B-A-S-SS rank system",
+      "rank_distribution": {
+        "E_D": "Early game gear with basic effects",
+        "C_B": "Mid-game gear with specialized bonuses",
+        "A_S": "Late game gear with powerful abilities",
+        "SS": "Legendary gear with unique mechanics"
+      }
+    },
+    "set_bonuses": {
+      "description": "Related gear pieces provide additional bonuses when worn together",
+      "example_sets": [
+        "shadow-court-regalia",
+        "stormrider-armor-set",
+        "master-artisan-set",
+        "pathfinder-explorer-set"
+      ]
+    }
+  },
+  "implementation_status": {
+    "weapons": "placeholder_only",
+    "jewelry": "linear_structure_implemented",
+    "jewelry_structure": "complete_hierarchical_organization_with_16_folders",
+    "armor": "linear_structure_implemented",
+    "armor_structure": "complete_hierarchical_organization_with_42_folders",
+    "schemas": "complete",
+    "examples": "moved_to_examples_folder",
+    "integration": "ready_for_item_creation"
+  },
+  "metadata": {
+    "created": "2025-08-06T00:00:00Z",
+    "last_updated": "2025-08-06T00:00:00Z",
+    "author": "PrimalMyst Development Team",
+    "version": "1.0.0",
+    "canonical": true
+  }
+}

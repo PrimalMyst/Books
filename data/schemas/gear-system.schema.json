@@ -1,0 +1,281 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "PrimalMyst Gear System",
+  "description": "Schema for gear items in the PrimalMyst universe - weapons, jewelry, and armor with slot-specific properties",
+  "type": "object",
+  "allOf": [
+    {
+      "$ref": "item.schema.json"
+    }
+  ],
+  "properties": {
+    "gear_slot": {
+      "type": "object",
+      "properties": {
+        "category": {
+          "type": "string",
+          "enum": ["weapons", "jewelry", "armor"],
+          "description": "Primary gear category"
+        },
+        "slot_type": {
+          "type": "string",
+          "description": "Specific slot type within category"
+        },
+        "occupies_slots": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "List of equipment slots this item occupies"
+        },
+        "slot_requirement": {
+          "type": "string",
+          "description": "Requirements for equipping this item"
+        }
+      },
+      "required": ["category", "slot_type", "occupies_slots"],
+      "allOf": [
+        {
+          "if": {
+            "properties": {"category": {"const": "weapons"}}
+          },
+          "then": {
+            "properties": {
+              "slot_type": {
+                "enum": ["main_hand", "two_handed", "off_hand"]
+              },
+              "occupies_slots": {
+                "items": {
+                  "enum": ["weapon", "main_hand", "off_hand"]
+                }
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {"category": {"const": "jewelry"}}
+          },
+          "then": {
+            "properties": {
+              "slot_type": {
+                "enum": ["earrings", "ring", "amulet", "belt_lock"]
+              },
+              "occupies_slots": {
+                "items": {
+                  "enum": ["left_earring", "right_earring", "left_ring", "right_ring", "neck_amulet", "belt_attachment"]
+                }
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {"category": {"const": "armor"}}
+          },
+          "then": {
+            "properties": {
+              "slot_type": {
+                "enum": ["helmet", "body_armor", "gloves", "belt", "pants", "boots"]
+              },
+              "occupies_slots": {
+                "items": {
+                  "enum": ["head", "chest", "hands", "waist", "legs", "feet"]
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "armor_properties": {
+      "type": "object",
+      "properties": {
+        "physical_protection": {
+          "type": "object",
+          "properties": {
+            "base_armor_value": {
+              "type": "integer",
+              "minimum": 0,
+              "description": "Base physical protection value"
+            },
+            "armor_type": {
+              "type": "string",
+              "enum": ["light_cloth", "light_leather", "light_mystical", "medium_mail", "medium_plate", "heavy_plate", "mystical_protection"],
+              "description": "Type of armor protection provided"
+            },
+            "protection_bonus": {
+              "type": "string",
+              "description": "Additional protection bonuses or special resistances"
+            }
+          }
+        },
+        "mystical_protection": {
+          "type": "object",
+          "properties": {
+            "mystical_resistance": {
+              "type": "integer",
+              "minimum": 0,
+              "description": "Base mystical damage resistance"
+            },
+            "elemental_resistances": {
+              "type": "object",
+              "properties": {
+                "fire_resistance": {"type": "string"},
+                "cold_resistance": {"type": "string"},
+                "lightning_resistance": {"type": "string"},
+                "chaos_resistance": {"type": "string"},
+                "radiance_resistance": {"type": "string"},
+                "physical_resistance": {"type": "string"}
+              }
+            },
+            "status_immunities": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              },
+              "description": "Status effects this armor provides immunity to"
+            }
+          }
+        },
+        "mobility_impact": {
+          "type": "object",
+          "properties": {
+            "movement_penalty": {
+              "type": "string",
+              "description": "Movement speed modification"
+            },
+            "dexterity_modifier": {
+              "type": "string",
+              "description": "Dexterity attribute modification"
+            },
+            "stealth_bonus": {
+              "type": "string",
+              "description": "Stealth ability modification"
+            }
+          }
+        },
+        "protection_areas": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Body areas protected by this armor piece"
+        }
+      },
+      "description": "Armor-specific properties for defensive gear"
+    },
+    "weapon_properties": {
+      "type": "object",
+      "properties": {
+        "damage": {
+          "type": "object",
+          "properties": {
+            "base_damage": {
+              "description": "Base weapon damage - format TBD with combat system"
+            },
+            "damage_type": {
+              "type": "string",
+              "enum": ["physical", "fire", "cold", "lightning", "chaos", "radiance", "hybrid"],
+              "description": "Primary damage type"
+            },
+            "attack_speed": {
+              "type": "string",
+              "enum": ["very_slow", "slow", "medium", "fast", "very_fast"],
+              "description": "Weapon attack speed"
+            }
+          }
+        },
+        "weapon_type": {
+          "type": "string",
+          "enum": ["sword", "axe", "mace", "hammer", "spear", "bow", "staff", "wand", "orb", "dagger", "shield"],
+          "description": "Weapon type classification"
+        },
+        "hand_requirement": {
+          "type": "string",
+          "enum": ["one_handed", "two_handed", "main_hand_only", "off_hand_only"],
+          "description": "Hand requirements for wielding"
+        },
+        "reach": {
+          "type": "string",
+          "enum": ["melee", "reach", "ranged"],
+          "description": "Weapon reach classification"
+        }
+      },
+      "description": "Weapon-specific properties for combat gear"
+    },
+    "jewelry_properties": {
+      "type": "object",
+      "properties": {
+        "jewelry_type": {
+          "type": "string",
+          "enum": ["earrings", "ring", "amulet", "belt_lock"],
+          "description": "Type of jewelry item"
+        },
+        "mystical_focus": {
+          "type": "object",
+          "properties": {
+            "focus_type": {
+              "type": "string",
+              "enum": ["attribute_enhancement", "ability_amplification", "resistance_boost", "utility_function"],
+              "description": "Primary mystical function"
+            },
+            "enhancement_target": {
+              "type": "string",
+              "description": "What this jewelry primarily enhances"
+            }
+          }
+        },
+        "socket_compatibility": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Types of gems or enhancements that can be socketed"
+        }
+      },
+      "description": "Jewelry-specific properties for accessory gear"
+    },
+    "set_bonuses": {
+      "type": "object",
+      "properties": {
+        "set_name": {
+          "type": "string",
+          "description": "Name of the equipment set"
+        },
+        "set_pieces": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "List of all items in the set"
+        },
+        "bonus_tiers": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "pieces_required": {
+                "type": "integer",
+                "minimum": 2
+              },
+              "bonus_description": {
+                "type": "string"
+              },
+              "bonus_effects": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "description": "Set bonuses for wearing multiple pieces"
+        }
+      },
+      "description": "Set bonus information if item is part of a gear set"
+    }
+  },
+  "required": ["gear_slot"],
+  "additionalProperties": true
+}

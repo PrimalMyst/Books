@@ -1,0 +1,241 @@
+{
+  "class_id": "warrior",
+  "canonical_name": "Warrior",
+  "hexagon_position": 4,
+  "body_type": "F",
+  "archetype_category": "mighty-champion",
+  "description": "Resilient champions who embody vitality and regenerative power, mastering the art of enduring through any challenge. Warriors represent the ultimate expression of Pyrion's philosophy - that life force itself is the greatest strength.",
+  "origin_island": {
+    "island_name": "Pyrion's Forge",
+    "cultural_name": "The Eternal Hearth",
+    "description": "A realm of eternal flames and forges where life force burns brightest and regeneration is mastered. The culture values endurance, healing, and the transformative power of vital energy.",
+    "cultural_philosophy": "Life energy is the true fire within. Endure all challenges, heal others, and transform through vitality."
+  },
+  "eldritch_connection": {
+    "aligned_god": "pyrion",
+    "divine_manifestation": "Pyrion, the First Flame - Creative life force and transformative power",
+    "npc_default_alignment": "pyrion",
+    "player_freedom": "Players can choose any god alignment or remain independent",
+    "cultural_pressure": "Eternal Hearth culture strongly encourages Pyrion worship but respects those who demonstrate mastery of vitality regardless of divine alignment"
+  },
+  "damage_type_affinity": {
+    "natural_alignment": "fire",
+    "cultural_preference": "Fire damage represents the vital energy that burns within, the transformative force of life itself",
+    "mechanical_freedom": "No restrictions on learning or mastering other damage types",
+    "starting_bonus": "Enhanced effectiveness with fire combat and regenerative abilities"
+  },
+  "attribute_inheritance": {
+    "source": "origin_island_position",
+    "island_position": 4,
+    "island_reference": "pyrion-isle-forge.json",
+    "primary_attribute": "vitality",
+    "trinity_alignment": "transcendent",
+    "hexagon_pattern": {
+      "position_4_aligned": "+6 per level (vitality - aligned with island position)",
+      "position_3_adjacent": "+3 per level (dexterity - adjacent position 3)",
+      "position_5_adjacent": "+3 per level (strength - adjacent position 5)", 
+      "position_2_next": "+2 per level (adaptability - next adjacent position 2)",
+      "position_6_next": "+2 per level (wisdom - next adjacent position 6)",
+      "position_1_opposing": "+1 per level (intelligence - opposing position 1)"
+    },
+    "per_level_distribution": {
+      "vitality": "+6 per level (island position 4)",
+      "dexterity": "+3 per level (adjacent position 3)",
+      "strength": "+3 per level (adjacent position 5)", 
+      "adaptability": "+2 per level (next adjacent position 2)",
+      "wisdom": "+2 per level (next adjacent position 6)",
+      "intelligence": "+1 per level (opposing position 1)"
+    },
+    "total_per_level": "17 attribute points distributed according to hexagonal pattern from origin island",
+    "starting_bonuses": {
+      "note": "No starting attribute bonuses - all growth comes from leveling up"
+    },
+    "cultural_development": "Arena Realm education emphasizes physical training, combat techniques, and warrior discipline",
+    "growth_philosophy": "Island position 4 produces exceptional vitality growth with strong support in dexterity and strength, reflecting mastery of physical endurance and combat capability"
+  },
+  "class_characteristics": {
+    "core_philosophy": "Strength is truth, victory proves worthiness",
+    "life_approach": "Face challenges directly, protect the innocent, earn respect through actions",
+    "social_role": "Protector, Champion, Combat Instructor, Honor Guard",
+    "combat_style": "Direct confrontation, overwhelming force, defensive positioning, tactical supremacy",
+    "signature_abilities": [
+      "Overwhelming Strength - Exceptional physical power and combat capability",
+      "Unbreakable Will - Mental and emotional resilience under pressure",
+      "Protective Instincts - Enhanced ability to defend others and control battlefield",
+      "Combat Mastery - Expertise with weapons, armor, and fighting techniques",
+      "Honor Code - Personal integrity that inspires others and provides inner strength"
+    ]
+  },
+  "cultural_background": {
+    "typical_upbringing": "Raised in the martial culture of the Arena Realm, trained from childhood in physical disciplines and combat techniques",
+    "social_expectations": "Expected to serve as protectors and champions for the community",
+    "common_motivations": [
+      "Achieving mastery of combat arts",
+      "Protecting those who cannot protect themselves",
+      "Earning honor through fair competition",
+      "Testing personal limits against worthy opponents"
+    ],
+    "cultural_values": [
+      "Physical strength and skill",
+      "Honor and fair play",
+      "Protection of the innocent",
+      "Direct and honest communication"
+    ]
+  },
+  "starting_equipment": {
+    "typical_gear": [
+      "High-quality weapons suited to personal fighting style",
+      "Protective armor with cultural significance",
+      "Training equipment and maintenance tools",
+      "Symbol of Arena Realm standing or achievement",
+      "Equipment for physical conditioning"
+    ],
+    "cultural_items": [
+      "Arena Realm competitor certification",
+      "Family warrior lineage documentation",
+      "Combat achievement trophies",
+      "Specialized weapon or armor crafting materials"
+    ]
+  },
+  "advancement_paths": {
+    "traditional_progression": [
+      "Novice Fighter - Basic combat and physical training",
+      "Arena Competitor - Recognized warrior of the Arena Realm",
+      "Master Combatant - Advanced fighting techniques and tactical knowledge",
+      "Elder Champion - Legendary combat mastery and teaching authority",
+      "Eternal Guardian - Mythical status with power to protect entire realms"
+    ],
+    "alternative_developments": [
+      "Tactical Commander - Applying combat knowledge to strategic leadership",
+      "Diplomatic Protector - Using warrior skills for peacekeeping missions",
+      "Combat Scholar - Studying and teaching martial arts and strategy",
+      "Cross-Realm Defender - Specializing in protection across different territories"
+    ]
+  },
+  "role_flexibility": {
+    "multiclass_synergies": [
+      "Warrior/Hunter - Speed-focused fighter with tactical mobility and scouting",
+      "Warrior/Chieftain - Leadership-oriented combatant with inspirational abilities",
+      "Warrior/Priestess - Protective paladin with spiritual strength and healing"
+    ],
+    "player_customization": {
+      "personality_freedom": "Players can be gentle protectors, fierce competitors, stoic guardians, or passionate fighters",
+      "moral_alignment": "Can be selfless defenders, professional soldiers, or ambitious champions",
+      "social_approach": "Can be inspiring leaders, quiet guardians, tactical advisors, or front-line heroes"
+    }
+  },
+
+  "ascendancy_system": {
+    "description": "Warrior serves as the primary anchor for combat, vitality, and protection-focused ascendancy trees",
+    "ascendancy_role": "Main class for unlocking and progressing through combat mastery, life force, and defensive ascendancies",
+    "placeholder_implementation": "PLACEHOLDER - Future ascendancy trees will anchor to this class for combat specializations",
+    "ascendancy_themes": [
+      "Combat Master - Advanced weapon skills and martial arts mastery",
+      "Life Guardian - Vitality enhancement and regenerative abilities",
+      "Forge Warrior - Fire magic mastery and creation through combat",
+      "Defensive Specialist - Enhanced protection and damage mitigation"
+    ],
+    "multiclass_ascendancy": "Other classes can access combat ascendancies through this class as anchor point",
+    "ascendancy_points": "Standard ascendancy point progression - PLACEHOLDER for future implementation"
+  },
+
+  "origin_island_integration": {
+    "trinity_alignment": "fundamental", 
+    "trinity_heritage": "Inherits fundamental trinity benefits from Pyrion's Forge origin position",
+    "attribute_scaling": "Linear attribute scaling based on island hexagonal positioning",
+    "level_10_example": {
+      "vitality": 70, "dexterity": 40, "strength": 40, "adaptability": 30, "wisdom": 20, "intelligence": 20,
+      "description": "A level 10 Warrior with exceptional vitality and well-rounded support attributes from island heritage"
+    },
+    "class_mechanical_focus": {
+      "core_abilities": "Combat mastery, vitality enhancement, protective techniques",
+      "signature_skills": "Enhanced endurance, weapon expertise, fire affinity",
+      "equipment_affinity": "Vitality-based armor and weapons, protective gear, regenerative items"
+    },
+    "adjacent_class_relationships": {
+      "hunter": "Complementary strength/dexterity enables mobile combat tactics",
+      "chieftain": "Shared vitality focus creates natural leadership and endurance synergies"
+    },
+    "opposing_class_tension": {
+      "necromancer": "Life Action vs. Death Study - Fundamental difference between vibrant living and mortality contemplation"
+    }
+  },
+  "lore_connections": {
+    "origin_island_position": "Represents Position 4 - The Foundation of Action from Pyrion's Forge heritage",
+    "cosmic_significance": "Represents the principle that consciousness can transcend limitations through perfect application of will and strength",
+    "mythological_role": "The eternal defenders of Yggdrasil's structure, maintaining stability through strength and courage",
+    "island_legends": "Famous Warriors have defended critical locations and people through multiple reality instances, ensuring continuity of protection"
+  },
+  "npc_examples": {
+    "typical_representatives": [
+      "Arena Champion Valeria - Undefeated master of the Grand Coliseum",
+      "Combat Mistress Korinth - Leading instructor of Arena Realm military training",
+      "Elder Guardian Thyra - Ancient Warrior who defended during the previous reality instance"
+    ],
+    "cultural_variations": [
+      "Tactical Commander Briganda - Warrior who applies combat skills to strategic leadership",
+      "Diplomatic Protector Serena - Warrior focused on peacekeeping and protection missions",
+      "Wandering Defender Morgaine - Warrior who travels to protect those in need"
+    ]
+  },
+  "player_freedom_emphasis": {
+    "damage_type_openness": "While naturally aligned with physical, Warriors can master cold, fire, lightning, chaos, or radiance without restriction",
+    "divine_choice": "Can worship any god, practice multiple faiths, or remain independent fighters",
+    "personality_range": "From gentle protectors to fierce competitors to stoic guardians to passionate fighters",
+    "social_roles": "Can be defenders, leaders, teachers, competitors, or adventurers depending on player choice",
+    "moral_flexibility": "Can be selfless defenders, professional soldiers, or ambitious champions - the class supports all approaches"
+  },
+  "combat_specialties": {
+    "weapon_mastery": [
+      "Melee weapon expertise across multiple categories",
+      "Ranged weapon proficiency for tactical options",
+      "Improvised weapon use in emergency situations",
+      "Weapon maintenance and modification"
+    ],
+    "defensive_techniques": [
+      "Shield use and advanced blocking",
+      "Armor optimization and maintenance",
+      "Battlefield positioning and control",
+      "Protection of allies and civilians"
+    ],
+    "tactical_applications": [
+      "Single combat excellence",
+      "Group fighting coordination",
+      "Siege warfare participation",
+      "Emergency response and rescue"
+    ],
+    "leadership_abilities": [
+      "Combat instruction and training",
+      "Battlefield inspiration and morale",
+      "Protective command presence",
+      "Honor-based conflict resolution"
+    ]
+  },
+  "mechanical_notes": {
+    "suggested_starting_stats": {
+      "strength": "Highest",
+      "vitality": "Second highest",
+      "dexterity": "Moderate bonus",
+      "other_attributes": "Standard starting values with room for player customization"
+    },
+    "natural_resistances": [
+      "Physical damage resistance",
+      "Enhanced durability and endurance",
+      "Improved recovery from injury",
+      "Mental resistance to fear and intimidation"
+    ],
+    "starting_abilities": [
+      "Advanced weapon and armor proficiency",
+      "Enhanced combat techniques",
+      "Basic tactical knowledge",
+      "Physical conditioning benefits"
+    ]
+  },
+  "metadata": {
+    "version": "1.0.0",
+    "created": "2025-07-31T00:00:00Z",
+    "schema_compliance": "character-class.schema.json",
+    "hexagon_reference": "character-classes-core.json",
+    "position_verification": "Position 4 - Pyrion Alignment - Vitality Focus - Fire Affinity"
+  }
+}

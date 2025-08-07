@@ -1,0 +1,100 @@
+{
+  "id": "amulet-categories-core",
+  "name": "Amulet Categories Core",
+  "description": "Core information and generic characteristics shared by all amulet types and categories",
+  "jewelry_slot": "amulet",
+  "slot_count": 1,
+  "slot_names": ["neck"],
+  "references": {
+    "base_types": "../jewelry-base-categories-core.json",
+    "description": "Inherits resource alignment type definitions from jewelry-base-categories-core.json"
+  },
+  "generic_amulet_characteristics": {
+    "core_function": "Central power enhancement and personal identity manifestation",
+    "universal_properties": {
+      "core_enhancement": {
+        "description": "Amulets provide the most significant single-piece jewelry bonuses",
+        "functionality": "Serves as the primary jewelry piece with major stat enhancements",
+        "enhancement_types": ["primary_resource_boost", "core_stat_enhancement", "major_abilities", "signature_powers"]
+      },
+      "divine_connection": {
+        "description": "Amulets often serve as conduits for divine power and spiritual connection",
+        "connection_types": ["divine_favor", "spiritual_guidance", "religious_affiliation", "cosmic_alignment"],
+        "enhancement_potential": "Can provide direct connection to divine entities and cosmic forces"
+      },
+      "personal_identity": {
+        "description": "Amulets represent and enhance the wearer's personal identity and core nature",
+        "identity_aspects": ["personal_philosophy", "life_purpose", "core_values", "spiritual_alignment"],
+        "manifestation": "Often displays the wearer's most fundamental characteristics and beliefs"
+      },
+      "protective_power": {
+        "description": "Amulets traditionally provide protective benefits and ward against harm",
+        "protection_types": ["curse_resistance", "negative_energy_ward", "evil_protection", "mystical_shielding"],
+        "enhancement_potential": "Can provide immunity to specific types of supernatural harm"
+      }
+    },
+    "wearing_mechanics": {
+      "single_slot_system": "One amulet slot provides focused, powerful enhancement",
+      "prominence": "Worn prominently on the chest, visible and accessible",
+      "interaction_hub": "Often serves as the central focus for other jewelry set bonuses"
+    },
+    "resource_type_structure": {
+      "base_types": {
+        "health": {
+          "folder_name": "health",
+          "type_name": "Life Amulets",
+          "description": "Powerful life force enhancement through chest-worn health jewelry",
+          "generic_characteristics": {
+            "construction": "Large health-aligned gems set in protective amulet designs",
+            "typical_materials": ["ruby_centerpieces", "garnet_clusters", "bloodstone_cores", "gold_framework", "life_crystals"],
+            "resource_focus": "Major health points and vitality enhancement",
+            "enhancement_effects": ["significant_health_boost", "powerful_regeneration", "life_protection"],
+            "aesthetic": "Prominent red and gold designs with strong life energy emanation"
+          }
+        },
+        "mana": {
+          "folder_name": "mana",
+          "type_name": "Arcane Amulets",
+          "description": "Powerful magical energy enhancement through chest-worn mana jewelry",
+          "generic_characteristics": {
+            "construction": "Large mana-aligned gems set in mystically designed amulet frameworks",
+            "typical_materials": ["sapphire_centerpieces", "amethyst_clusters", "lapis_cores", "silver_framework", "energy_crystals"],
+            "resource_focus": "Major mana points and magical power enhancement",
+            "enhancement_effects": ["significant_mana_boost", "powerful_spell_enhancement", "mystical_protection"],
+            "aesthetic": "Prominent blue and silver designs with strong mystical energy flow"
+          }
+        },
+        "stamina": {
+          "folder_name": "stamina",
+          "type_name": "Endurance Amulets",
+          "description": "Powerful physical endurance enhancement through chest-worn stamina jewelry",
+          "generic_characteristics": {
+            "construction": "Large stamina-aligned gems set in endurance-focused amulet designs",
+            "typical_materials": ["emerald_centerpieces", "jade_clusters", "peridot_cores", "bronze_framework", "endurance_crystals"],
+            "resource_focus": "Major stamina points and action efficiency enhancement",
+            "enhancement_effects": ["significant_stamina_boost", "powerful_endurance_enhancement", "action_bonuses"],
+            "aesthetic": "Prominent green and bronze designs with strong kinetic energy patterns"
+          }
+        }
+      }
+    }
+  },
+  "slot_specializations": {
+    "primary_enhancement": "Amulets provide the largest single jewelry bonus to chosen resource",
+    "divine_connection": "Neck jewelry serves as the primary conduit for divine and spiritual powers",
+    "identity_manifestation": "Amulets display and enhance the wearer's core identity and beliefs",
+    "protective_focus": "Amulets often provide the primary magical protection and ward effects"
+  },
+  "folder_structure": {
+    "total_type_folders": 3,
+    "organization": "Each resource type has its own folder containing specific implementations",
+    "folder_list": ["health", "mana", "stamina"]
+  },
+  "metadata": {
+    "created": "2025-08-06T00:00:00Z",
+    "last_updated": "2025-08-06T00:00:00Z",
+    "author": "PrimalMyst Development Team",
+    "version": "1.0.0",
+    "canonical": true
+  }
+}

@@ -64,22 +64,22 @@ PrimalMyst is built around a **hexagonal thematic structure** that organizes all
 
 ```
                     COLD (Preservation)
-                   Intelligence / ES
+                   Intelligence / CR
                       /\
                      /  \
          RADIANCE       CHAOS
          Str+Int        Int+Dex  
-        Armor+ES        ES+Eva
+        Energy Shield   Evasion
                    \    /
                     \  /
          FIRE ---- ---- LIGHTNING
          Strength       Dexterity
-         Armor          Evasion
+        Fire Resist    Lightning Resist
                     \  /
                      \/
                 PHYSICAL
                 Dex+Str
-               Eva+Armor
+                Armor
 ```
 
 This hexagon aligns:
@@ -87,7 +87,7 @@ This hexagon aligns:
 - **Six Eldritch Gods**: Fundamental (Glacius, Voltharion, Pyrion) and Primal (Serafina, Korthak, Aurelius)  
 - **Six Realms**: Each anchored by a branch of Yggdrasil
 - **Character Attributes**: Intelligence, Dexterity, Strength and their hybrids
-- **Defense Types**: Energy Shield, Evasion, Armor and their combinations
+- **Defense Types**: Elemental Resistances (Fundamental) and Active Mitigation (Primal)
 
 Adjacent elements synergize naturally, while opposite elements create meaningful build challenges and strategic depth.
 

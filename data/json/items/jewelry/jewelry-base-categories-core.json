@@ -1,0 +1,82 @@
+{
+  "id": "jewelry-base-categories-core",
+  "name": "Base Jewelry Categories System",
+  "description": "Core definitions for all jewelry base types focused on resource alignment",
+  "version": "1.0.0",
+  "jewelry_system": {
+    "design_philosophy": "Three fundamental resource enhancement philosophies without hybrid combinations",
+    "base_types": {
+      "health": {
+        "description": "Physical vitality and life force enhancement",
+        "abbreviation": "HP",
+        "alignment_philosophy": "Enhance physical constitution, vitality, and life regeneration",
+        "primary_stat": "health_points",
+        "secondary_benefits": ["health_regeneration", "physical_resistance", "vitality_bonuses", "constitution_enhancement"],
+        "typical_materials": ["ruby_gems", "carnelian", "garnet", "bloodstone", "life_crystals"],
+        "energy_type": "life_force",
+        "enhancement_focus": "physical_durability_and_recovery"
+      },
+      "mana": {
+        "description": "Mystical energy and magical power enhancement",
+        "abbreviation": "MP",
+        "alignment_philosophy": "Amplify mystical energy, spell power, and magical capabilities",
+        "primary_stat": "mana_points",
+        "secondary_benefits": ["mana_regeneration", "spell_power", "magical_resistance", "intelligence_enhancement"],
+        "typical_materials": ["sapphire_gems", "amethyst", "lapis_lazuli", "moonstone", "energy_crystals"],
+        "energy_type": "mystical_energy",
+        "enhancement_focus": "magical_power_and_regeneration"
+      },
+      "stamina": {
+        "description": "Physical endurance and action capability enhancement",
+        "abbreviation": "SP",
+        "alignment_philosophy": "Boost physical endurance, action economy, and sustained performance",
+        "primary_stat": "stamina_points",
+        "secondary_benefits": ["stamina_regeneration", "action_speed", "endurance_bonuses", "agility_enhancement"],
+        "typical_materials": ["emerald_gems", "jade", "peridot", "malachite", "endurance_crystals"],
+        "energy_type": "kinetic_energy",
+        "enhancement_focus": "sustained_activity_and_performance"
+      }
+    }
+  },
+  "universal_properties": {
+    "stat_scaling": {
+      "health": "Scales with Constitution and Vitality",
+      "mana": "Scales with Intelligence and Wisdom",
+      "stamina": "Scales with Dexterity and Endurance"
+    },
+    "enhancement_potential": {
+      "all_types": "Can be enhanced through gem cutting, enchantment, and divine blessing",
+      "upgrade_paths": ["gem_quality_improvement", "mystical_enhancement", "divine_blessing", "legendary_transformation"]
+    },
+    "divine_alignment": {
+      "influence": "All jewelry types can manifest divine positioning characteristics",
+      "manifestation": "Divine alignment affects gem quality, special abilities, and resonance"
+    },
+    "resource_synergy": {
+      "description": "Jewelry pieces work together to create balanced resource management",
+      "synergy_bonuses": "Multiple jewelry pieces can provide set bonuses and resource synergies"
+    }
+  },
+  "crafting_system": {
+    "base_materials": {
+      "precious_metals": ["gold", "silver", "platinum", "mystical_alloys"],
+      "gem_categories": ["precious_stones", "semi_precious", "mystical_crystals", "divine_fragments"],
+      "enhancement_materials": ["enchanting_dust", "divine_essence", "elemental_cores"]
+    },
+    "quality_tiers": {
+      "common": "Basic materials with standard enhancements",
+      "uncommon": "Quality materials with improved effects",
+      "rare": "Exceptional materials with significant bonuses",
+      "epic": "Legendary materials with powerful effects",
+      "legendary": "Mythical materials with extraordinary capabilities"
+    }
+  },
+  "metadata": {
+    "created": "2025-08-06T00:00:00Z",
+    "last_updated": "2025-08-06T00:00:00Z",
+    "author": "PrimalMyst Development Team",
+    "version": "1.0.0",
+    "canonical": true,
+    "references": "Referenced by all jewelry slot-specific core files"
+  }
+}

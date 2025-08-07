@@ -1,0 +1,32 @@
+﻿{
+  "$schema": "../../../../schemas/weapon-item.schema.json",
+  "id": "off_hand_defensive_sword_breaker",
+  "name": "sword breaker",
+  "display_name": "sword breaker",
+  "description": "A specialized sword breaker for off-hand defensive use, focusing on parrying and defense.",
+  "category": "off_hand_defensive",
+  "rarity": "common",
+  "tier": 1,
+  
+  "weapon_properties": {
+    "hand_usage": "off_hand",
+    "combat_style": "defensive",
+    "weapon_type": "sword_breaker",
+    "damage_type": "minimal_piercing",
+    "reach": "short",
+    "weight": "light_to_medium"
+  },
+  
+  "defensive_stats": {
+    "parry_bonus": "placeholder",
+    "block_chance": "placeholder",
+    "counter_attack": "placeholder",
+    "requirements": {
+      "dexterity": "placeholder",
+      "constitution": "placeholder"
+    }
+  },
+  
+  "placeholder": true,
+  "implementation_notes": "Defensive weapon sword breaker template - requires complete defensive mechanics implementation"
+}

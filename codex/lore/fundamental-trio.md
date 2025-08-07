@@ -9,7 +9,7 @@ The Fundamental Trio consists of Pyrion (First Flame), Glacius (Eternal Frost), 
 - **Cosmic Role**: Provide the essential forces that power Yggdrasil and enable reality instance existence
 - **Interaction Level**: Indirect influence through environmental forces and tree structure
 - **Worship Status**: Respected but not actively worshipped; their power flows through natural phenomena
-- **Trial Access**: No direct trials; their influence is experienced through environmental challenges
+- **Trial Access**: Direct divine trials available for discovering elemental mastery through their unique perspectives
 
 ### Power Distribution
 - **Pyrion**: Energy generation and transformative change
@@ -39,10 +39,11 @@ The Fundamental Trio consists of Pyrion (First Flame), Glacius (Eternal Frost), 
 - **Peaceful Zones**: Fire-based warmth and energy, enhanced crafting and creation
 
 **Player Interaction**:
-- No direct trials or worship systems
+- Divine trial available through discovery and exploration
+- Trial teaches elemental mastery (fire, cold, lightning) through creation perspective
 - Influence felt through environmental fire challenges
-- Transformation magic effectiveness varies by divine favor
-- Creation and crafting activities enhanced by alignment
+- Transformation magic effectiveness varies by trial choices made
+- Creation and crafting activities enhanced by trial completion
 
 **God-Slayer Context**:
 - **Level 96 Encounter**: Fought at Yggdrasil's heartwood core
@@ -71,10 +72,11 @@ The Fundamental Trio consists of Pyrion (First Flame), Glacius (Eternal Frost), 
 - **Peaceful Zones**: Cool preservation effects, enhanced memory and learning
 
 **Player Interaction**:
-- No direct trials or worship systems
+- Divine trial available through discovery and exploration
+- Trial teaches elemental mastery (fire, cold, lightning) through preservation perspective
 - Influence felt through environmental ice challenges and memory tests
-- Preservation magic effectiveness varies by divine favor
-- Knowledge gathering and memory activities enhanced by alignment
+- Preservation magic effectiveness varies by trial choices made
+- Knowledge gathering and memory activities enhanced by trial completion
 
 **God-Slayer Context**:
 - **Level 97 Encounter**: Fought within crystalline memory archives
@@ -103,9 +105,10 @@ The Fundamental Trio consists of Pyrion (First Flame), Glacius (Eternal Frost), 
 - **Peaceful Zones**: Enhanced communication, revelation, and networking effects
 
 **Player Interaction**:
-- No direct trials or worship systems
+- Divine trial available through discovery and exploration
+- Trial teaches elemental mastery (fire, cold, lightning) through connection perspective
 - Influence felt through environmental lightning challenges and revelation moments
-- Communication magic effectiveness varies by divine favor
+- Communication magic effectiveness varies by trial choices made
 - Networking and connection activities enhanced by alignment
 
 **God-Slayer Context**:
@@ -129,11 +132,13 @@ Without the Fundamental Trio's combined power:
 - Consciousness could not be preserved across transitions
 - The cosmic rhythms would cease to function
 
-### Environmental Challenges
-Rather than formal trials, players encounter the Fundamental Trio's influence through:
-- **Fire Challenges**: Transformation tests, purification trials, energy management
-- **Ice Challenges**: Memory preservation, structural stability, knowledge retention
-- **Lightning Challenges**: Connection establishment, communication trials, revelation moments
+### Divine Trial Discovery
+The Fundamental Trio offers players opportunities for elemental mastery through discovered trials:
+- **Pyrion's Trial**: Choose fire, cold, or lightning mastery through creative expression and transformation
+- **Glacius' Trial**: Choose fire, cold, or lightning mastery through preservation and eternal memory
+- **Voltharion's Trial**: Choose fire, cold, or lightning mastery through connection and cosmic communication
+
+Each trial provides the same elemental choices but teaches them through the god's unique perspective, allowing players to discover their preferred approach to elemental mastery.
 
 ## Cross-References
 - **[Yggdrasil](./yggdrasil.md)**: The World Tree they power and structure

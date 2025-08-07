@@ -1,0 +1,49 @@
+{
+  "$schema": "../../../schemas/weapon-category.schema.json",
+  "category": "off_hand_ranged",
+  "display_name": "Off Hand Ranged Weapons",
+  "description": "Compact ranged weapons designed for non-dominant hand use, offering rapid-fire capabilities and tactical versatility.",
+  
+  "hand_usage": {
+    "type": "off_hand",
+    "requirements": ["non_dominant_hand"],
+    "restrictions": ["no_shield_when_equipped"]
+  },
+  
+  "combat_style": {
+    "type": "ranged",
+    "engagement_range": "short_to_medium_range",
+    "primary_attributes": ["dexterity", "agility"]
+  },
+  
+  "weapon_examples": {
+    "basic": ["throwing_knife", "sling", "small_crossbow"],
+    "advanced": ["enchanted_shuriken", "mystic_sling", "arcane_repeater"],
+    "legendary": ["shadow_dart", "void_spinner", "reality_fragment"],
+    "cosmic": ["universe_shard", "concept_projectile", "existence_splinter"]
+  },
+  
+  "generic_characteristics": {
+    "damage_output": "moderate",
+    "attack_speed": "very_fast",
+    "reach": "medium",
+    "ammunition_capacity": "high",
+    "reload_speed": "excellent"
+  },
+  
+  "depth_progression": {
+    "tier_1_focus": "basic_rapid_fire_techniques",
+    "tier_2_focus": "advanced_multi_projectile_control",
+    "tier_3_focus": "masterful_barrage_coordination",
+    "tier_4_focus": "perfect_projectile_streams",
+    "tier_5_focus": "reality_piercing_volleys",
+    "tier_6_focus": "cosmic_projectile_mastery"
+  },
+  
+  "material_evolution": {
+    "early_tiers": ["lightweight_metals", "balanced_projectiles", "quick_mechanisms"],
+    "mid_tiers": ["enchanted_projectiles", "velocity_enhancers", "rapid_fire_crystals"],
+    "high_tiers": ["ethereal_ammunition", "divine_projectiles", "star_swift_darts"],
+    "cosmic_tiers": ["reality_fragments", "concept_shards", "universal_projectiles"]
+  }
+}

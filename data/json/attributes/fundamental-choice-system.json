@@ -1,0 +1,191 @@
+{
+  "system_id": "fundamental-attribute-choice",
+  "name": "Fundamental Attribute Player Choice System",
+  "description": "Player-controlled selection of fundamental attribute bonus at each level, emphasizing the cosmic significance of Intelligence, Dexterity, and Strength as the foundation of all material existence.",
+  "implementation_scope": "Passive skill tree integration with level progression system",
+  
+  "architecture_integration": {
+    "origin_island_heritage": "Character classes inherit base attribute growth from their starting island's hexagonal position",
+    "class_role": "Classes provide ascendancy anchors and mechanical frameworks without hexagonal positioning benefits",
+    "player_choice_layer": "Fundamental choice system adds +6 attribute bonus on top of island heritage",
+    "divine_positioning": "Hexagonal layer positioning and benefits come exclusively from divine trial completion",
+    "separation_principle": "Island heritage, class mechanics, player choice, and divine positioning are completely separate systems"
+  },
+  
+  "core_mechanics": {
+    "choice_timing": "At each character level up",
+    "available_options": ["intelligence", "dexterity", "strength"],
+    "bonus_amount": "+6 attribute points",
+    "selection_restriction": "Must choose exactly one fundamental attribute per level",
+    "cumulative_effect": "Choices accumulate over character lifetime for significant build customization"
+  },
+  
+  "strategic_paths": {
+    "extreme_specialization": {
+      "description": "Always choose the same fundamental attribute for maximum focused development",
+      "intelligence_focus": "Creates scholar-mage builds with unprecedented magical capability",
+      "dexterity_focus": "Creates precision-master builds with unmatched speed and accuracy", 
+      "strength_focus": "Creates warrior-champion builds with overwhelming physical presence",
+      "risk_factor": "Creates significant weaknesses in unchosen fundamental areas"
+    },
+    "balanced_development": {
+      "description": "Rotate between different fundamental attributes for well-rounded growth",
+      "rotation_example": "Level 1: Intelligence, Level 2: Dexterity, Level 3: Strength, repeat",
+      "benefit": "Eliminates fundamental weaknesses and maintains gear/skill accessibility",
+      "tradeoff": "Slower progression toward high-tier requirements in any single fundamental"
+    },
+    "adaptive_selection": {
+      "description": "Choose fundamental attributes based on current needs and party composition",
+      "scenario_examples": [
+        "Choose Intelligence when party needs more magical capability",
+        "Choose Dexterity when facing speed-based challenges",
+        "Choose Strength when party lacks physical power"
+      ],
+      "flexibility": "Allows character builds to evolve with changing circumstances"
+    },
+    "weakness_mitigation": {
+      "description": "Focus on fundamental attributes that your class doesn't naturally favor",
+      "caster_example": "Intelligence-based class choosing Strength to enable heavy armor use",
+      "warrior_example": "Strength-based class choosing Intelligence to access magical items",
+      "benefit": "Creates unexpected build possibilities and eliminates hard capability gaps"
+    }
+  },
+  
+  "class_interaction_examples": {
+    "necromancer_class_options": {
+      "origin_island_progression": "Intelligence +6, Adaptability +3, Wisdom +3, Dexterity +2, Strength +2, Vitality +1 (from Glacius Isle heritage)",
+      "player_choice_effects": {
+        "choose_intelligence": "Total Intelligence +12 per level (extreme magical specialization)",
+        "choose_dexterity": "Intelligence +6, Dexterity +8 per level (scholarly precision master)",
+        "choose_strength": "Intelligence +6, Strength +8 per level (battle-mage hybrid)"
+      }
+    },
+    "warrior_class_options": {
+      "origin_island_progression": "Vitality +6, Dexterity +3, Strength +3, Adaptability +2, Wisdom +2, Intelligence +1 (from Pyrion's Forge heritage)", 
+      "player_choice_effects": {
+        "choose_strength": "Vitality +6, Strength +9 per level (enhanced physical focus)",
+        "choose_dexterity": "Vitality +6, Dexterity +9 per level (agile warrior build)",
+        "choose_intelligence": "Vitality +6, Intelligence +7 per level (thinking warrior)"
+      }
+    },
+    "hunter_class_options": {
+      "origin_island_progression": "Dexterity +6, Adaptability +3, Vitality +3, Intelligence +2, Strength +2, Wisdom +1 (from Voltharion Isle heritage)",
+      "player_choice_effects": {
+        "choose_dexterity": "Total Dexterity +12 per level (ultimate precision specialist)",
+        "choose_intelligence": "Dexterity +6, Intelligence +8 per level (analytical hunter)",
+        "choose_strength": "Dexterity +6, Strength +8 per level (powerful ranger)"
+      }
+    }
+  },
+  
+  "gear_requirement_integration": {
+    "equipment_accessibility": {
+      "fundamental_gates": "All equipment has hard fundamental attribute requirements that cannot be bypassed",
+      "player_choice_impact": "Strategic fundamental selection directly affects what gear becomes available",
+      "tier_progression": "Higher fundamental attributes unlock increasingly powerful equipment tiers"
+    },
+    "build_enablement": {
+      "hybrid_builds": "Player choice system enables characters to meet requirements for gear outside their class focus",
+      "versatility_rewards": "Balanced fundamental development maintains access to diverse equipment options",
+      "specialization_rewards": "Focused fundamental development unlocks exclusive high-tier equipment"
+    }
+  },
+  
+  "skill_requirement_integration": {
+    "ability_prerequisites": {
+      "learning_gates": "All abilities require minimum fundamental attributes to learn and use effectively",
+      "cross_class_access": "Player choice system enables learning abilities typically restricted to other classes",
+      "mastery_thresholds": "High fundamental attributes unlock advanced techniques and mastery options"
+    },
+    "build_diversity": {
+      "unexpected_combinations": "Player choice enables previously impossible skill combinations",
+      "tactical_flexibility": "Characters can develop capabilities outside their natural class limitations",
+      "strategic_depth": "Long-term planning of fundamental choices creates complex build possibilities"
+    }
+  },
+  
+  "passive_skill_tree_integration": {
+    "interface_design": {
+      "visual_representation": "Triangular fundamental section showing Intelligence, Dexterity, Strength relationships",
+      "choice_highlighting": "Clear indication of which fundamental is selected for current level",
+      "progress_tracking": "Visual history of previous fundamental choices and their cumulative effects",
+      "requirement_preview": "Display how current choice affects future gear and skill accessibility"
+    },
+    "user_experience": {
+      "decision_support": "Tooltips explaining strategic implications of each fundamental choice",
+      "build_planning": "Preview mode showing effects of different choice sequences",
+      "respec_options": "Limited ability to modify past fundamental choices at significant cost",
+      "guidance_system": "Suggested paths based on playstyle and current build direction"
+    }
+  },
+  
+  "lore_integration": {
+    "narrative_justification": {
+      "cosmic_awakening": "Characters gain deeper understanding of fundamental forces as they grow in power",
+      "conscious_development": "Level progression represents deliberate choice to master specific aspects of reality",
+      "divine_resonance": "Fundamental choices align characters with cosmic principles embodied by the Fundamental Gods"
+    },
+    "story_impact": {
+      "character_identity": "Fundamental choices shape how NPCs perceive and interact with the character",
+      "world_interaction": "Different fundamental focuses unlock different approaches to world challenges",
+      "divine_favor": "Consistent fundamental choices may attract attention from relevant Fundamental Gods"
+    }
+  },
+  
+  "balance_considerations": {
+    "power_scaling": {
+      "total_points_increase": "System adds 6 attribute points per level (40% increase over base 15)",
+      "choice_significance": "Each fundamental choice has meaningful long-term impact on character capability",
+      "weakness_mitigation": "System allows addressing fundamental weaknesses without eliminating specialization benefits"
+    },
+    "strategic_complexity": {
+      "decision_weight": "Each level choice has significant impact on character development trajectory", 
+      "build_diversity": "System enables vastly different builds even within the same character class",
+      "planning_depth": "Optimal play requires long-term strategic thinking about fundamental development"
+    }
+  },
+  
+  "implementation_phases": {
+    "phase_1": {
+      "description": "Basic choice system in passive skill tree",
+      "features": ["Fundamental attribute selection at level up", "Visual choice tracking", "Basic tooltips"]
+    },
+    "phase_2": {
+      "description": "Enhanced decision support systems",
+      "features": ["Build planning tools", "Requirement previews", "Strategic guidance"]
+    },
+    "phase_3": {
+      "description": "Advanced integration features", 
+      "features": ["Respec options", "Advanced build analytics", "Divine favor tracking"]
+    }
+  },
+  
+  "technical_specifications": {
+    "data_storage": {
+      "character_record": "Array tracking fundamental choice made at each level",
+      "cumulative_tracking": "Running totals of bonus points allocated to each fundamental attribute",
+      "choice_history": "Complete log of when each fundamental choice was made"
+    },
+    "validation_rules": {
+      "choice_restriction": "Must select exactly one fundamental attribute per level",
+      "option_limitation": "Only Intelligence, Dexterity, and Strength available for selection",
+      "timing_enforcement": "Choice must be made during level up process"
+    },
+    "integration_points": {
+      "level_progression": "Hooks into existing level up system",
+      "passive_skill_tree": "New fundamental choice section in skill tree interface",
+      "character_sheet": "Display cumulative fundamental bonuses from player choices",
+      "equipment_system": "Factor player fundamental bonuses into gear requirement calculations",
+      "skill_system": "Include player fundamental bonuses in ability prerequisite checks"
+    }
+  },
+  
+  "metadata": {
+    "version": "1.0.0",
+    "created": "2025-08-01T00:00:00Z",
+    "design_priority": "high",
+    "implementation_complexity": "medium",
+    "player_impact": "high",
+    "system_integration": "extensive"
+  }
+}

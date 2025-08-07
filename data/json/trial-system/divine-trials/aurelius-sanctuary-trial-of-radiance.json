@@ -1,0 +1,65 @@
+{
+  "id": "aurelius-sanctuary-trial-of-radiance",
+  "title": "The Trial of Radiant Order - Aurelius' Sanctuary",
+  "governing_god": "aurelius",
+  "location": {
+    "island": "aurelius-sanctuary",
+    "specific_site": "The Golden Temple",
+    "coordinates": {"x": 0, "y": 0, "z": 0},
+    "accessibility": "public"
+  },
+  "trial_structure": {
+    "activation_trigger": "Approaching the Golden Temple while experiencing divine decay from Aurelius' influence",
+    "challenge_type": "radiant_mastery",
+    "difficulty_scaling": "adaptive"
+  },
+  "choice_system": {
+    "available_paths": [
+      {
+        "path_name": "Embrace Radiance",
+        "philosophy": "Total commitment to divine light and order",
+        "description": "Fully accept Aurelius' radiance and become a beacon of divine order"
+      },
+      {
+        "path_name": "Master Radiance",
+        "philosophy": "Controlled use of radiant power",
+        "description": "Demonstrate mastery over Aurelius' light while maintaining personal will"
+      },
+      {
+        "path_name": "Transform Radiance",
+        "philosophy": "Evolution through ordered illumination",
+        "description": "Work with Aurelius' radiance to create new forms of divine protection"
+      }
+    ]
+  },
+  "completion_rewards": {
+    "divine_immunity": {
+      "god_source": "aurelius",
+      "protection_type": "Complete immunity to radiance-based divine decay",
+      "scope": "Aurelius' sanctuary and all light-dominant environments"
+    },
+    "power_increase": {
+      "monster_level_boost": 6,
+      "mystical_authority": "Recognized as divinely approved practitioner with radiance authority"
+    },
+    "hexagonal_system_access": {
+      "trial_purpose": "Grants player access to choose bonuses from the Radiance corner of the core hexagonal system",
+      "available_choices": {
+        "corner_reference": "Position 6 - Radiance (Primal)",
+        "god_approval": "Aurelius, the Radiant Sphere",
+        "mechanical_layers": "Players can choose to adopt the defensive and offensive bonuses defined in the core hexagonal system",
+        "choice_mechanism": "Trial completion unlocks access to Radiance corner bonuses, but player must actively choose to adopt them"
+      },
+      "bonus_source": "All specific bonus values and effects are defined in the core-thematic-hexagon system"
+    }
+  },
+  "metadata": {
+    "created": "2025-07-31T00:00:00Z",
+    "last_updated": "2025-07-31T00:00:00Z",
+    "author": "PrimalMyst Development Team",
+    "version": "1.0.0",
+    "canonical": true,
+    "difficulty_rating": "intermediate",
+    "status": "placeholder"
+  }
+}

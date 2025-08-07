@@ -1,0 +1,125 @@
+{
+  "id": "frost-guard-leggings",
+  "name": "Frost Guard Leggings",
+  "type": "armor",
+  "subtype": "pants",
+  "rank_level": {
+    "item_rank": "B",
+    "required_level": 40,
+    "optimal_level": 55,
+    "level_scaling": {
+      "scales_with_user": true,
+      "scaling_type": "linear",
+      "max_scaling_level": 65
+    },
+    "quality_tier": "rare",
+    "power_classification": "divine-touched"
+  },
+  "divine_influences": {
+    "primary_influence": "glacius",
+    "secondary_influences": ["korthak"],
+    "divine_resonance": "moderate",
+    "humanoid_only": true
+  },
+  "physical_properties": {
+    "weight": {
+      "value": 8.5,
+      "unit": "pounds"
+    },
+    "size": "medium",
+    "material": "Frost-touched mail with insulated padding",
+    "durability": "reinforced",
+    "magical_nature": "divine"
+  },
+  "gameplay_properties": {
+    "stack_size": 1,
+    "tradeable": true,
+    "bind_on_pickup": false,
+    "bind_on_equip": true,
+    "unique": false,
+    "set_item": "frost-guard-armor"
+  },
+  "gear_slot": {
+    "category": "armor",
+    "slot_type": "pants",
+    "occupies_slots": ["legs"],
+    "slot_requirement": "Leg armor slot must be empty",
+    "protection_areas": ["thighs", "knees", "shins"]
+  },
+  "armor_properties": {
+    "physical_protection": {
+      "base_armor_value": 240,
+      "armor_type": "medium_mail",
+      "protection_bonus": "+30% resistance to slashing damage"
+    },
+    "mystical_protection": {
+      "mystical_resistance": 160,
+      "cold_resistance": "+70%",
+      "ice_immunity": true
+    },
+    "mobility_impact": {
+      "movement_penalty": "none",
+      "dexterity_modifier": "+10% (enhanced stability on ice)",
+      "stealth_bonus": "-10% (mail rustling)"
+    }
+  },
+  "effects": [
+    {
+      "name": "Frost Walking",
+      "description": "Move across ice and snow at full speed without slipping",
+      "type": "passive",
+      "power_level": "moderate",
+      "divine_source": "glacius"
+    },
+    {
+      "name": "Cold Channeling",
+      "description": "Cold damage increased by 20% and cold spells cost 10% less mana",
+      "type": "passive",
+      "power_level": "moderate",
+      "divine_source": "glacius"
+    },
+    {
+      "name": "Enduring Strength",
+      "description": "Physical endurance increased by 25% in harsh weather conditions",
+      "type": "passive",
+      "power_level": "moderate",
+      "divine_source": "korthak"
+    },
+    {
+      "name": "Frost Aura",
+      "description": "Enemies in melee range take minor cold damage each round",
+      "type": "passive",
+      "power_level": "minor",
+      "divine_source": "glacius"
+    }
+  ],
+  "acquisition": {
+    "drop_sources": ["frost-giants", "glacius-templars"],
+    "quest_rewards": ["trials-of-endless-winter"],
+    "crafting_recipe": {
+      "required_rank": "B",
+      "required_level": 45,
+      "materials": [
+        {"item_id": "frost-touched-mail", "quantity": 12},
+        {"item_id": "glacius-essence", "quantity": 5},
+        {"item_id": "winter-bear-fur", "quantity": 8}
+      ],
+      "crafting_station": "frost-forge"
+    },
+    "rarity_notes": "Only found in the deepest winter regions or crafted during blizzards"
+  },
+  "lore": {
+    "description": "These leggings channel the eternal cold of Glacius, allowing the wearer to thrive in the harshest winter conditions.",
+    "history": "Originally worn by the legendary Frost Guard, elite warriors who protected mountain villages from winter storms.",
+    "creator": "Master Armorer Bjorn Frostbeard",
+    "significance": "Represents mastery over winter's challenges and the strength to endure any hardship"
+  },
+  "tags": ["pants", "armor", "leggings", "glacius", "korthak", "B-rank", "rare", "frost"],
+  "metadata": {
+    "created": "2025-08-06T00:00:00Z",
+    "last_updated": "2025-08-06T00:00:00Z",
+    "author": "PrimalMyst Development Team",
+    "version": "1.0.0",
+    "canonical": true
+  }
+}

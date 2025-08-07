@@ -1,0 +1,241 @@
+{
+  "class_id": "priestess",
+  "canonical_name": "Priestess",
+  "hexagon_position": 6,
+  "body_type": "F",
+  "archetype_category": "wise-spiritualist",
+  "description": "Wise spiritualists masters of divine wisdom and radiant protection who embody the principle of transcendent understanding and spiritual guidance. Priestesses represent the ultimate expression of Aurelius's philosophy - that wisdom illuminates all paths and protection flows from understanding.",
+  "origin_island": {
+    "island_name": "Aurelius Isle",
+    "cultural_name": "The Sanctuary Realm",
+    "description": "A realm of sacred temples and contemplative gardens where spiritual wisdom and divine understanding are the highest pursuits. The culture values contemplation, compassion, and the protection that comes from deep spiritual insight.",
+    "cultural_philosophy": "Wisdom illuminates all paths, protection flows from understanding. True strength comes through spiritual insight and compassionate action."
+  },
+  "eldritch_connection": {
+    "aligned_god": "aurelius",
+    "divine_manifestation": "Aurelius, the Radiant Sphere - Divine wisdom and transcendent understanding",
+    "npc_default_alignment": "aurelius",
+    "player_freedom": "Players can choose any god alignment or remain independent",
+    "cultural_pressure": "Sanctuary Realm culture encourages Aurelius worship but respects those who demonstrate mastery of spiritual wisdom regardless of divine alignment"
+  },
+  "damage_type_affinity": {
+    "natural_alignment": "radiance",
+    "cultural_preference": "Radiance damage is revered as the purest expression of divine wisdom and protective power",
+    "mechanical_freedom": "No restrictions on learning or mastering other damage types",
+    "starting_bonus": "Enhanced effectiveness with radiance-based abilities and resistance to negative spiritual effects"
+  },
+  "attribute_inheritance": {
+    "source": "origin_island_position",
+    "island_position": 6,
+    "island_reference": "aurelius-isle-divine.json",
+    "primary_attribute": "wisdom",
+    "trinity_alignment": "transcendent",
+    "hexagon_pattern": {
+      "position_6_aligned": "+6 per level (wisdom - aligned with island position)",
+      "position_5_adjacent": "+3 per level (strength - adjacent position 5)",
+      "position_1_adjacent": "+3 per level (intelligence - adjacent position 1)", 
+      "position_4_next": "+2 per level (vitality - next adjacent position 4)",
+      "position_2_next": "+2 per level (adaptability - next adjacent position 2)",
+      "position_3_opposing": "+1 per level (dexterity - opposing position 3)"
+    },
+    "per_level_distribution": {
+      "wisdom": "+6 per level (island position 6)",
+      "strength": "+3 per level (adjacent position 5)",
+      "intelligence": "+3 per level (adjacent position 1)", 
+      "vitality": "+2 per level (next adjacent position 4)",
+      "adaptability": "+2 per level (next adjacent position 2)",
+      "dexterity": "+1 per level (opposing position 3)"
+    },
+    "total_per_level": "17 attribute points distributed according to hexagonal pattern from origin island",
+    "starting_bonuses": {
+      "note": "No starting attribute bonuses - all growth comes from leveling up"
+    },
+    "cultural_development": "Sanctuary Realm education emphasizes spiritual development, compassionate service, and protective wisdom",
+    "growth_philosophy": "Island position 6 produces exceptional wisdom growth with strong support in strength and intelligence, reflecting mastery of spiritual insight and protective understanding"
+  },
+  "class_characteristics": {
+    "core_philosophy": "Wisdom illuminates all paths, protection flows from understanding",
+    "life_approach": "Guide through insight, protect through compassion, heal through wisdom",
+    "social_role": "Spiritual Guide, Healer, Protector, Wisdom Keeper",
+    "combat_style": "Protective magic, spiritual warfare, healing support, radiant cleansing",
+    "signature_abilities": [
+      "Divine Wisdom - Deep spiritual insight and understanding",
+      "Radiant Protection - Ability to shield others with spiritual energy",
+      "Healing Arts - Exceptional ability to restore health and vitality",
+      "Spiritual Guidance - Natural talent for counseling and direction",
+      "Sacred Knowledge - Access to divine and spiritual understanding"
+    ]
+  },
+  "cultural_background": {
+    "typical_upbringing": "Raised in the peaceful temples of the Sanctuary Realm, trained in contemplative practices and compassionate service",
+    "social_expectations": "Expected to serve as spiritual guides and healers for the community",
+    "common_motivations": [
+      "Deepening spiritual understanding",
+      "Protecting and healing those in need",
+      "Sharing wisdom and guidance",
+      "Maintaining sacred traditions and knowledge"
+    ],
+    "cultural_values": [
+      "Spiritual wisdom and insight",
+      "Compassionate service",
+      "Protective responsibility",
+      "Contemplative understanding"
+    ]
+  },
+  "starting_equipment": {
+    "typical_gear": [
+      "Sacred implements for spiritual practice",
+      "Healing supplies and medicinal knowledge",
+      "Radiance-touched symbols or focuses",
+      "Protective vestments and regalia",
+      "Contemplative aids and study materials"
+    ],
+    "cultural_items": [
+      "Sanctuary Realm ordination certification",
+      "Family spiritual lineage documentation",
+      "Sacred service achievement records",
+      "Specialized healing and blessing tools"
+    ]
+  },
+  "advancement_paths": {
+    "traditional_progression": [
+      "Novice Acolyte - Basic spiritual and healing training",
+      "Temple Guardian - Recognized protector and healer of the Sanctuary Realm",
+      "Master Priestess - Advanced spiritual abilities and wisdom mastery",
+      "Elder Oracle - Legendary spiritual insight and guidance authority",
+      "Eternal Light - Mythical status with power to provide spiritual protection across realms"
+    ],
+    "alternative_developments": [
+      "Battle Cleric - Applying spiritual power to protective combat",
+      "Diplomatic Healer - Using wisdom for inter-realm peace and understanding",
+      "Scholar Mystic - Focusing on spiritual research and divine knowledge",
+      "Cross-Cultural Guide - Specializing in spiritual guidance across different traditions"
+    ]
+  },
+  "role_flexibility": {
+    "multiclass_synergies": [
+      "Priestess/Chieftain - Spiritual leader with transformative community focus",
+      "Priestess/Warrior - Protective paladin with combat skills and healing abilities",
+      "Priestess/Necromancer - Wisdom-focused scholar with spiritual preservation techniques"
+    ],
+    "player_customization": {
+      "personality_freedom": "Players can be gentle healers, fierce protectors, contemplative mystics, or active guides",
+      "moral_alignment": "Can be selfless servants, balanced advisors, or dedicated scholars",
+      "social_approach": "Can be quiet counselors, active leaders, behind-the-scenes supporters, or front-line protectors"
+    }
+  },
+
+  "ascendancy_system": {
+    "description": "Priestess serves as the primary anchor for wisdom, healing, and spiritual protection-focused ascendancy trees",
+    "ascendancy_role": "Main class for unlocking and progressing through spiritual, healing, and protection ascendancies",
+    "placeholder_implementation": "PLACEHOLDER - Future ascendancy trees will anchor to this class for spiritual specializations",
+    "ascendancy_themes": [
+      "Spiritual Guide - Advanced wisdom and spiritual counseling abilities",
+      "Divine Healer - Enhanced healing and restoration powers",
+      "Radiance Master - Light magic mastery and protection abilities",
+      "Truth Seeker - Truth detection and wisdom-based powers"
+    ],
+    "multiclass_ascendancy": "Other classes can access spiritual ascendancies through this class as anchor point",
+    "ascendancy_points": "Standard ascendancy point progression - PLACEHOLDER for future implementation"
+  },
+
+  "origin_island_integration": {
+    "trinity_alignment": "transcendent",
+    "trinity_heritage": "Inherits transcendent trinity benefits from Aurelius Isle origin position",
+    "attribute_scaling": "Breakthrough-based attribute scaling based on island hexagonal positioning", 
+    "level_10_example": {
+      "wisdom": 70, "strength": 40, "intelligence": 40, "vitality": 30, "adaptability": 20, "dexterity": 20,
+      "description": "A level 10 Priestess with exceptional wisdom and well-rounded support attributes from island heritage"
+    },
+    "class_mechanical_focus": {
+      "core_abilities": "Spiritual guidance, healing mastery, protective barriers",
+      "signature_skills": "Enhanced insight, healing powers, radiance affinity",
+      "equipment_affinity": "Wisdom-based magical items, healing tools, protective artifacts"
+    },
+    "adjacent_class_relationships": {
+      "chieftain": "Complementary wisdom/vitality enables inspirational spiritual leadership",
+      "necromancer": "Shared wisdom focus creates natural philosophical and scholarly connections"
+    },
+    "opposing_class_tension": {
+      "hunter": "Contemplation vs. Speed - Fundamental difference between thoughtful consideration and instant action"
+    }
+  },
+  "lore_connections": {
+    "origin_island_position": "Represents Position 6 - The Sphere of Understanding from Aurelius Isle heritage",
+    "cosmic_significance": "Represents the principle that consciousness can transcend limitations through perfect spiritual wisdom and compassionate understanding",
+    "mythological_role": "The eternal guardians of Yggdrasil's spiritual balance, maintaining harmony through wisdom and protection",
+    "island_legends": "Famous Priestesses have provided crucial spiritual guidance and protection during major cosmic transitions and reality instances"
+  },
+  "npc_examples": {
+    "typical_representatives": [
+      "Sanctuary Mother Lyralei - Supreme spiritual leader of the Sanctuary Realm",
+      "Wisdom Prime Celestia - Leading expert on divine knowledge and spiritual healing",
+      "Elder Oracle Seraphina - Ancient Priestess who guided transitions between reality instances"
+    ],
+    "cultural_variations": [
+      "Battle-Cleric Morgana - Priestess who applies spiritual power to protective combat",
+      "Diplomatic Healer Aurelia - Priestess focused on inter-realm peace and understanding",
+      "Wandering Guide Thessarian - Priestess who travels to provide spiritual guidance"
+    ]
+  },
+  "player_freedom_emphasis": {
+    "damage_type_openness": "While naturally aligned with radiance, Priestesses can master cold, fire, lightning, chaos, or physical without restriction",
+    "divine_choice": "Can worship any god, practice multiple faiths, or remain independent spiritual guides",
+    "personality_range": "From gentle healers to fierce protectors to contemplative mystics to active community guides",
+    "social_roles": "Can be healers, protectors, teachers, advisors, or adventurers depending on player choice",
+    "moral_flexibility": "Can be selfless servants, balanced advisors, or dedicated scholars - the class supports all approaches"
+  },
+  "spiritual_specialties": {
+    "healing_arts": [
+      "Physical healing and restoration",
+      "Emotional and mental counseling",
+      "Spiritual cleansing and purification",
+      "Community health and wellness"
+    ],
+    "protective_abilities": [
+      "Individual spiritual protection",
+      "Group blessing and warding",
+      "Sacred space creation and maintenance",
+      "Defense against spiritual threats"
+    ],
+    "wisdom_practices": [
+      "Divination and spiritual insight",
+      "Sacred knowledge preservation",
+      "Contemplative meditation techniques",
+      "Divine communication and interpretation"
+    ],
+    "guidance_skills": [
+      "Personal counseling and direction",
+      "Community spiritual leadership",
+      "Crisis intervention and support",
+      "Life transition assistance"
+    ]
+  },
+  "mechanical_notes": {
+    "suggested_starting_stats": {
+      "wisdom": "Highest",
+      "vitality": "Second highest",
+      "intelligence": "Moderate bonus",
+      "other_attributes": "Standard starting values with room for player customization"
+    },
+    "natural_resistances": [
+      "Radiance damage resistance",
+      "Enhanced spiritual protection",
+      "Improved healing and recovery abilities",
+      "Resistance to fear and negative spiritual effects"
+    ],
+    "starting_abilities": [
+      "Enhanced healing and restoration",
+      "Basic spiritual protection techniques",
+      "Wisdom-based guidance abilities",
+      "Radiance affinity"
+    ]
+  },
+  "metadata": {
+    "version": "1.0.0",
+    "created": "2025-07-31T00:00:00Z",
+    "schema_compliance": "character-class.schema.json",
+    "hexagon_reference": "character-classes-core.json",
+    "position_verification": "Position 6 - Aurelius Alignment - Wisdom Focus - Radiance Affinity"
+  }
+}

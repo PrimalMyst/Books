@@ -1,0 +1,71 @@
+{
+  "id": "weapons-categories-core",
+  "name": "Weapons Categories System",
+  "description": "Core framework for weapon categorization by hand usage and combat style",
+  "version": "1.0.0",
+  "references": {
+    "base_types": "weapons-base-categories-core.json",
+    "description": "Hand usage and combat style definitions are maintained in weapons-base-categories-core.json"
+  },
+  "weapon_system": {
+    "design_philosophy": "Each hand usage type has three combat style specializations",
+    "structure": "Linear hierarchical organization: weapons/[hand_usage]/[combat_style]/",
+    "base_type_reference": "See weapons-base-categories-core.json for detailed hand usage and combat style definitions",
+    "supported_hand_usage": ["two_handed", "main_hand", "off_hand"],
+    "supported_combat_styles": ["melee", "ranged", "spell_caster", "defensive"]
+  },
+  "hand_usage_categories": {
+    "two_handed": {
+      "usage_name": "two_handed",
+      "hand_requirement": "both_hands",
+      "combat_styles": ["melee", "ranged", "spell_caster"],
+      "special_properties": ["high_damage", "extended_reach", "powerful_abilities", "no_shield_compatibility"]
+    },
+    "main_hand": {
+      "usage_name": "main_hand",
+      "hand_requirement": "dominant_hand",
+      "combat_styles": ["melee", "ranged", "spell_caster"],
+      "special_properties": ["balanced_stats", "shield_compatibility", "versatile_combat", "tactical_flexibility"]
+    },
+    "off_hand": {
+      "usage_name": "off_hand",
+      "hand_requirement": "non_dominant_hand",
+      "combat_styles": ["melee", "ranged", "spell_caster", "defensive"],
+      "special_properties": ["dual_wield_support", "utility_functions", "defensive_options", "specialized_techniques", "shield_compatibility"]
+    }
+  },
+  "implementation_structure": {
+    "total_weapon_categories": 10,
+    "breakdown": {
+      "hand_usage_types": 3,
+      "combat_styles_standard": 3,
+      "combat_styles_off_hand_only": 1,
+      "total_combinations": "two_handed: 3, main_hand: 3, off_hand: 4 = 10 total weapon categories"
+    },
+    "file_organization": {
+      "structure": "weapons/[hand_usage]/[combat_style]/",
+      "usage_cores": "One core file per hand usage type defining generic characteristics",
+      "category_files": "One skeleton file per [hand_usage]+[combat_style] combination"
+    }
+  },
+  "weapon_slot_system": {
+    "total_weapon_slots": 1,
+    "slot_description": "Single weapon slot that can accommodate any weapon type",
+    "usage_restrictions": {
+      "two_handed": "Occupies entire weapon slot, prevents shield use",
+      "main_hand": "Uses primary weapon slot, allows shield in off-hand",
+      "off_hand": "Requires main-hand weapon for dual-wielding or can be used alone for specialized builds"
+    },
+    "tactical_considerations": {
+      "weapon_choice_impact": "Weapon selection affects combat style, armor optimization, and tactical options",
+      "build_synergy": "Weapon type influences optimal character build and equipment selection"
+    }
+  },
+  "metadata": {
+    "created": "2025-08-07T00:00:00Z",
+    "last_updated": "2025-08-07T00:00:00Z",
+    "author": "PrimalMyst Development Team",
+    "version": "1.0.0",
+    "canonical": true
+  }
+}

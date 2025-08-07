@@ -83,17 +83,71 @@
       "required_fields": ["id", "name", "type", "origin", "appearance", "personality", "abilities", "bonding_mechanics", "story_integration", "metadata"],
       "example": "data/json/companions/whisper-first-companion.json"
     },
+    "trial-system": {
+      "file": "data/schemas/trial-system.schema.json",
+      "description": "Universal trial framework encompassing both Divine Trials and Myrielle's Hidden Trials with shared world impact mechanics",
+      "required_fields": ["system_id", "trial_categories", "shared_world_mechanics", "trial_integration", "metadata"],
+      "example": "data/json/trial-system/trial-system-core.json"
+    },
     "divine-trial": {
       "file": "data/schemas/divine-trial.schema.json",
-      "description": "Divine trial definitions for Act 1 where Myst-Walkers prove their worthiness to exist in divine presence",
-      "required_fields": ["id", "title", "governing_god", "location", "trial_structure", "choice_system", "completion_rewards", "environmental_effects", "metadata"],
-      "example": "data/json/divine-trials/pyrion-forge-trial-of-creation.json"
+      "description": "Divine approval trials where Myst-Walkers prove worthiness to exist in divine presence",
+      "required_fields": ["id", "title", "trial_category", "governing_god", "location", "trial_structure", "choice_system", "completion_rewards", "environmental_effects", "metadata"],
+      "example": "data/json/trial-system/divine-trials/pyrion-forge-trial-of-creation.json"
+    },
+    "myrielle-trial": {
+      "file": "data/schemas/myrielle-trial.schema.json", 
+      "description": "Hidden cosmic trials that prepare worthy souls for cosmic responsibility and God-Slayer status",
+      "required_fields": ["id", "title", "trial_category", "act", "trial_sequence", "governing_entity", "prerequisites", "trial_challenge", "completion_rewards", "world_impact", "metadata"],
+      "example": "data/json/trial-system/myrielle-trials/myrielle-hidden-trial-compassion.json"
     },
     "ascendency-points": {
       "file": "data/schemas/ascendency-points.schema.json",
       "description": "Ascendency Point tracking system for cosmic transformation through Myrielle's hidden trials",
       "required_fields": ["character_id", "total_ascendency_points", "point_progression", "trials_completed", "cosmic_transformation_level", "myrielle_relationship", "metadata"],
       "example": "TBD - Character progression tracking"
+    },
+    "hexagon-thematic": {
+      "file": "data/schemas/hexagon-thematic.schema.json",
+      "description": "Core hexagonal thematic structure organizing all major game systems around six-point patterns",
+      "required_fields": ["hexagon_id", "name", "description", "center", "corners"],
+      "example": "data/json/lore/core-thematic-hexagon.json"
+    },
+    "offensive-layer": {
+      "file": "data/schemas/offensive-layer.schema.json",
+      "description": "Individual offensive layer definitions within the offensive layers hexagon",
+      "required_fields": ["id", "name", "hexagon_position", "category", "description", "metadata"],
+      "example": "data/json/offensive-layers/corners/corner-1-precision-strikes.json"
+    },
+    "defensive-layer": {
+      "file": "data/schemas/defensive-layer.schema.json", 
+      "description": "Individual defensive layer definitions within the defensive layers hexagon",
+      "required_fields": ["id", "name", "hexagon_position", "category", "description", "metadata"],
+      "example": "data/json/defensive-layers/corners/corner-1-calculated-avoidance.json"
+    },
+    "core-attribute": {
+      "file": "data/schemas/core-attribute.schema.json",
+      "description": "Individual core attribute definitions within the attributes hexagon",
+      "required_fields": ["id", "name", "hexagon_position", "category", "description", "metadata"], 
+      "example": "data/json/attributes/corners/corner-1-intelligence.json"
+    },
+    "character-class": {
+      "file": "data/schemas/character-class.schema.json",
+      "description": "Character class definitions representing the six fundamental archetypes aligned with hexagonal principles",
+      "required_fields": ["class_id", "canonical_name", "hexagon_position", "body_type", "archetype_category", "description", "metadata"],
+      "example": "data/json/character-classes/classes/class-1-necromancer.json"
+    },
+    "starting-island": {
+      "file": "data/schemas/starting-island.schema.json",
+      "description": "Starting island definitions organizing geographical locations, cultural origins, and divine trial locations within hexagonal structure",
+      "required_fields": ["island_name", "divine_anchor", "environmental_theme", "trial_focus", "cultural_philosophy", "geography", "origin_races", "divine_trial"],
+      "example": "data/json/locations/starting-islands-core.json"
+    },
+    "individual-island": {
+      "file": "data/schemas/individual-island.schema.json",
+      "description": "Individual island definitions with detailed geography, culture, trial integration, and hexagonal relationships - now merged into location files",
+      "required_fields": ["island_id", "position", "geography", "cultural_expressions", "divine_trial", "hexagon_relationships", "environmental_mechanics", "travel_connections"],
+      "example": "data/json/locations/aurelius-isle-kingdom.json"
     }
   },
 
@@ -113,14 +167,27 @@
     "locations": {
       "path": "data/json/locations/",
       "schema": "location", 
-      "count": 1,
+      "count": 8,
       "subcategories": {
         "cities": "Urban settlements and capitals",
         "dungeons": "Underground complexes and ruins",
         "structures": "Important buildings and monuments",
         "natural": "Geographic features and wilderness",
-        "realms": "Dimensions and planes of existence"
-      }
+        "realms": "Dimensions and planes of existence",
+        "divine-islands": "Starting islands with integrated hexagonal system data",
+        "kingdoms": "Political entities and their territories"
+      },
+      "examples": [
+        "example-location.json",
+        "midgardland-mainland.json",
+        "starting-islands-core.json",
+        "aurelius-isle-kingdom.json",
+        "glacius-isle-kingdom.json",
+        "voltharion-isle-kingdom.json",
+        "serafina-isle-kingdom.json",
+        "pyrion-isle-kingdom.json",
+        "korthak-isle-kingdom.json"
+      ]
     },
     "timeline-events": {
       "path": "data/json/timeline-events/",
@@ -142,7 +209,7 @@
     "lore": {
       "path": "data/json/lore/",
       "schema": "lore",
-      "count": 13,
+      "count": 6,
       "subcategories": {
         "cosmology": "Six Realms, Yggdrasil, and divine structure",
         "geography": "World geography, island realms, and physical manifestations",
@@ -166,13 +233,27 @@
         "hexagonal-damage-calculation.json",
         "mystical-number-harmonies.json",
         "pantheon-trials-positioning.json",
+        "myrielle-central-town-presence.json"
+      ]
+    },
+    "main-story": {
+      "path": "data/json/main-story/",
+      "schema": "lore",
+      "count": 7,
+      "subcategories": {
+        "prologue": "Tutorial and awakening journey",
+        "acts": "Main story progression through Acts 1-3",
+        "epilogue": "End-game and divine confrontation content",
+        "structure": "Overall story framework and progression systems"
+      },
+      "examples": [
         "prologue-awakening-journey.json",
+        "act-level-rank-structure.json",
         "act1-divine-trials.json",
         "act2-eldritch-ascension.json",
         "act3-cosmic-ascendant.json",
         "epilogue-god-slayer-ascension.json",
-        "primalmyst-story-structure.json",
-        "myrielle-central-town-presence.json"
+        "primalmyst-story-structure.json"
       ]
     },
     "leagues": {
@@ -266,18 +347,76 @@
         "whisper-first-companion.json"
       ]
     },
-    "divine-trials": {
-      "path": "data/json/divine-trials/",
-      "schema": "divine-trial",
+    "trial-system": {
+      "path": "data/json/trial-system/",
+      "schema": "trial-system",
       "count": 1,
       "subcategories": {
-        "fundamental-trials": "Trials for the six Fundamental Gods (Pyrion, Glacius, Voltharion, Serafina, Aurelius, Korthak)",
-        "primal-trials": "Advanced trials for the three Primal Gods",
-        "eldritch-trials": "Expert-level trials for Eldritch entities",
-        "myrielle-trials": "Master-level trials for The Hidden One"
+        "core-framework": "Universal trial system with shared mechanics",
+        "divine-trials": "Divine approval trials for the six Eldritch Gods",
+        "myrielle-trials": "Hidden cosmic trials for transcendent preparation"
       },
       "examples": [
-        "pyrion-forge-trial-of-creation.json"
+        "trial-system-core.json",
+        "divine-trials/pyrion-forge-trial-of-creation.json",
+        "myrielle-trials/myrielle-hidden-trial-compassion.json"
+      ]
+    },
+    "offensive-layers": {
+      "path": "data/json/offensive-layers/",
+      "schema": "hexagon-thematic",
+      "count": 1,
+      "subcategories": {
+        "core-structure": "Core hexagonal organization of offensive approaches",
+        "individual-layers": "Detailed corner implementations in corners/ subdirectory"
+      },
+      "examples": [
+        "offensive-layers-core.json",
+        "corners/corner-1-precision-strikes.json"
+      ]
+    },
+    "defensive-layers": {
+      "path": "data/json/defensive-layers/",
+      "schema": "hexagon-thematic", 
+      "count": 1,
+      "subcategories": {
+        "core-structure": "Core hexagonal organization of defensive approaches",
+        "individual-layers": "Detailed corner implementations in corners/ subdirectory"
+      },
+      "examples": [
+        "defensive-layers-core.json",
+        "corners/corner-1-calculated-avoidance.json"
+      ]
+    },
+    "attributes": {
+      "path": "data/json/attributes/",
+      "schema": "hexagon-thematic",
+      "count": 1,
+      "subcategories": {
+        "core-structure": "Core hexagonal organization of character attributes",
+        "individual-attributes": "Detailed corner implementations in corners/ subdirectory"
+      },
+      "examples": [
+        "attributes-core.json",
+        "corners/corner-1-intelligence.json"
+      ]
+    },
+    "character-classes": {
+      "path": "data/json/character-classes/",
+      "schema": "hexagon-thematic",
+      "count": 1,
+      "subcategories": {
+        "core-structure": "Core hexagonal organization of character archetypes",
+        "individual-classes": "Detailed class implementations in classes/ subdirectory"
+      },
+      "examples": [
+        "character-classes-core.json",
+        "classes/class-1-necromancer.json",
+        "classes/class-2-succubus.json",
+        "classes/class-3-hunter.json",
+        "classes/class-4-warrior.json",
+        "classes/class-5-chieftain.json",
+        "classes/class-6-priestess.json"
       ]
     }
   },

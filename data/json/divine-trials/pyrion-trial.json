@@ -1,0 +1,141 @@
+{
+  "trial_id": "pyrion-divine-trial",
+  "trial_name": "Trial of Creative Fire",
+  "divine_patron": "pyrion",
+  "trial_type": "fundamental",
+  "element_focus": "fire",
+  "cosmic_domain": "creation",
+
+  "trial_overview": {
+    "description": "Face Pyrion's trial to prove mastery over elemental forces through the lens of creative expression",
+    "thematic_focus": "Creation, artistic expression, and the forge of reality through elemental mastery",
+    "player_choice": "Choose to embrace Fire, Cold, or Lightning as your preferred elemental expression",
+    "cosmic_significance": "Establishes relationship with the fundamental force of creation and chosen elemental mastery",
+    "choice_flexibility": "Any element can be chosen - Pyrion teaches elemental mastery through creative expression"
+  },
+
+  "trial_mechanics": {
+    "access_requirements": {
+      "minimum_level": "PLACEHOLDER - Level 3-5",
+      "discovery_prerequisite": "PLACEHOLDER - Found through exploration, rumors, or optional quests",
+      "location_access": "PLACEHOLDER - Access to Pyrion's domain/shrine"
+    },
+
+    "trial_phases": {
+      "phase_1_introduction": {
+        "description": "Meet Pyrion and understand the nature of creative force",
+        "mechanics": "PLACEHOLDER - Dialogue/cutscene mechanics",
+        "learning_objective": "Understand creation as fundamental cosmic force"
+      },
+      "phase_2_trial_challenge": {
+        "description": "Demonstrate mastery of creation through chosen elemental expression",
+        "mechanics": "PLACEHOLDER - Trial challenge mechanics",
+        "choice_point": "Choose Fire, Cold, or Lightning as creative expression"
+      },
+      "phase_3_commitment": {
+        "description": "Commit to chosen elemental path and receive Pyrion's blessing",
+        "mechanics": "PLACEHOLDER - Choice confirmation and reward granting",
+        "permanent_effect": "Elemental choice recorded for final divine alignment"
+      }
+    },
+
+    "elemental_choice_implications": {
+      "fire_choice": {
+        "thematic_meaning": "Embrace passionate creative fire - direct, intense expression of creative force",
+        "mechanical_preview": "Contributes to Fire-based elemental affinity patterns",
+        "roleplay_implication": "Character favors direct, passionate approaches to creation and problem-solving",
+        "pyrion_perspective": "Pyrion teaches fire mastery through forge-work and passionate creation"
+      },
+      "cold_choice": {
+        "thematic_meaning": "Embrace preserving creative cold - methodical, enduring expression of creative force", 
+        "mechanical_preview": "Contributes to Cold-based elemental affinity patterns",
+        "roleplay_implication": "Character favors methodical, enduring approaches to creation and preservation",
+        "pyrion_perspective": "Pyrion teaches cold mastery through precise crafting and eternal preservation"
+      },
+      "lightning_choice": {
+        "thematic_meaning": "Embrace connecting creative lightning - collaborative, networked expression of creative force",
+        "mechanical_preview": "Contributes to Lightning-based elemental affinity patterns", 
+        "roleplay_implication": "Character favors collaborative, networked approaches to creation and innovation",
+        "pyrion_perspective": "Pyrion teaches lightning mastery through interconnected creation and shared inspiration"
+      }
+    }
+  },
+
+  "trial_repetition_mechanics": {
+    "choice_modification": {
+      "availability": "Trial can be repeated after initial completion to change elemental choice",
+      "process": "Full trial experience repeated with opportunity to make different elemental choice",
+      "reward_limitation": "No additional experience, bonuses, or rewards granted on repetition"
+    },
+    "positioning_update": {
+      "immediate_effect": "Changed elemental choice immediately updates divine alignment positioning",
+      "archetype_recalculation": "Character archetype automatically recalculated based on new choice combination",
+      "flexibility_emphasis": "Supports character growth and experimentation without penalty"
+    },
+    "cost_considerations": {
+      "access_cost": "PLACEHOLDER - Potential resource cost or cooldown for trial repetition",
+      "time_investment": "Full trial experience required, not abbreviated repetition",
+      "story_integration": "PLACEHOLDER - How repeated trials integrate with ongoing character development"
+    }
+  },
+
+  "trial_rewards": {
+    "immediate_rewards": {
+      "experience_gain": "PLACEHOLDER - XP reward amount",
+      "attribute_bonus": "PLACEHOLDER - Temporary or permanent attribute enhancement",
+      "skill_unlock": "PLACEHOLDER - Creation-related skill or ability",
+      "divine_favor": "PLACEHOLDER - Pyrion favor points"
+    },
+
+    "progression_benefits": {
+      "elemental_affinity": "Chosen element recorded for final divine alignment calculation",
+      "cosmic_authority": "Slight increase in creation-related cosmic authority",
+      "trial_completion": "1/6 divine trials completed"
+    },
+
+    "story_integration": {
+      "character_development": "PLACEHOLDER - How trial enhances character growth through choice",
+      "world_relationship": "PLACEHOLDER - How choice affects optional world interactions",
+      "island_story_potential": "PLACEHOLDER - Deeper integration possible in specific island story arcs"
+    }
+  },
+
+  "location_details": {
+    "trial_location": "PLACEHOLDER - Pyrion's Forge/Sacred Fire/Creation Chamber",
+    "environmental_description": "PLACEHOLDER - Detailed location description",
+    "atmospheric_elements": "PLACEHOLDER - Environmental storytelling elements",
+    "interactive_elements": "PLACEHOLDER - Location-specific interactions"
+  },
+
+  "dialogue_framework": {
+    "pyrion_characterization": {
+      "personality": "PLACEHOLDER - Pyrion's personality traits and speech patterns",
+      "motivations": "PLACEHOLDER - What Pyrion seeks in trial participants",
+      "teaching_style": "PLACEHOLDER - How Pyrion guides players through choices"
+    },
+
+    "choice_explanations": {
+      "elemental_guidance": "PLACEHOLDER - How Pyrion explains elemental choices",
+      "consequence_warning": "PLACEHOLDER - Pyrion's warnings about choice permanence",
+      "encouragement": "PLACEHOLDER - Pyrion's supportive guidance"
+    }
+  },
+
+  "integration_points": {
+    "player_driven_discovery": "PLACEHOLDER - How trial connects to exploration and player initiative",
+    "character_classes": "PLACEHOLDER - How trial interacts with different character classes",
+    "other_trials": "PLACEHOLDER - How this trial relates to other divine trials",
+    "world_lore": "PLACEHOLDER - Lore revealed through trial completion",
+    "island_story_arcs": "PLACEHOLDER - Potential for deeper integration in specific story arcs"
+  },
+
+  "metadata": {
+    "created": "2025-08-05T00:00:00Z",
+    "last_updated": "2025-08-05T00:00:00Z",
+    "author": "PrimalMyst Development Team", 
+    "version": "1.0.0",
+    "canonical": true,
+    "trial_category": "fundamental_divine_trial",
+    "related_systems": ["divine-trial-progression-system", "divine-alignment-buffs-system"]
+  }
+}

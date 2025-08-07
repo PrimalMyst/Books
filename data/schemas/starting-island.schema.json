@@ -1,0 +1,282 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "starting-island.schema.json",
+  "title": "Starting Island Schema",
+  "description": "Schema for starting island definitions within the PrimalMyst hexagonal system",
+  "type": "object",
+  "required": [
+    "hexagon_id",
+    "name", 
+    "description",
+    "foundational_pattern",
+    "center",
+    "design_principles",
+    "corners",
+    "hexagon_dynamics",
+    "trial_integration",
+    "racial_origins",
+    "travel_mechanics",
+    "environmental_interactions",
+    "metadata"
+  ],
+  "properties": {
+    "hexagon_id": {
+      "type": "string",
+      "description": "Unique identifier for the hexagonal system"
+    },
+    "name": {
+      "type": "string",
+      "description": "Display name for the hexagonal system"
+    },
+    "description": {
+      "type": "string",
+      "description": "Comprehensive description of the system's purpose and scope"
+    },
+    "foundational_pattern": {
+      "type": "object",
+      "required": ["source", "implementation_domain", "cosmic_principle", "eldritch_reference"],
+      "properties": {
+        "source": {
+          "type": "string",
+          "description": "Reference to the foundational hexagonal pattern"
+        },
+        "implementation_domain": {
+          "type": "string", 
+          "description": "The domain where this hexagon manifests"
+        },
+        "cosmic_principle": {
+          "type": "string",
+          "description": "The cosmic principle this hexagon embodies"
+        },
+        "eldritch_reference": {
+          "type": "string",
+          "description": "Connection to the eldritch pantheon"
+        }
+      }
+    },
+    "center": {
+      "type": "object",
+      "required": ["element", "description"],
+      "properties": {
+        "element": {
+          "type": "string",
+          "description": "The central unifying element"
+        },
+        "description": {
+          "type": "string",
+          "description": "Detailed description of the center's role"
+        }
+      }
+    },
+    "design_principles": {
+      "type": "object",
+      "description": "Core principles governing the hexagonal system design"
+    },
+    "corners": {
+      "type": "array",
+      "minItems": 6,
+      "maxItems": 6,
+      "items": {
+        "type": "object",
+        "required": [
+          "position",
+          "island_name",
+          "cultural_name", 
+          "divine_anchor",
+          "yggdrasil_branch",
+          "environmental_theme",
+          "primary_element",
+          "trial_focus",
+          "cultural_philosophy",
+          "geography",
+          "cultural_expressions",
+          "origin_races",
+          "primary_class",
+          "divine_trial"
+        ],
+        "properties": {
+          "position": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 6,
+            "description": "Position within the hexagon (1-6)"
+          },
+          "island_name": {
+            "type": "string",
+            "description": "Official name of the island"
+          },
+          "cultural_name": {
+            "type": "string",
+            "description": "Cultural title for the island"
+          },
+          "divine_anchor": {
+            "type": "string",
+            "description": "The god or divine force anchoring this island"
+          },
+          "yggdrasil_branch": {
+            "type": "string",
+            "description": "Which branch of Yggdrasil connects to this island"
+          },
+          "environmental_theme": {
+            "type": "string",
+            "description": "Primary environmental and aesthetic theme"
+          },
+          "primary_element": {
+            "type": "string",
+            "description": "Dominant elemental force"
+          },
+          "trial_focus": {
+            "type": "string",
+            "description": "Core focus of divine trials on this island"
+          },
+          "cultural_philosophy": {
+            "type": "string", 
+            "description": "Philosophical outlook of island inhabitants"
+          },
+          "geography": {
+            "type": "object",
+            "required": ["climate", "dominant_features", "mystical_elements", "trial_locations"],
+            "properties": {
+              "climate": {
+                "type": "string",
+                "description": "Climate and weather patterns"
+              },
+              "dominant_features": {
+                "type": "array",
+                "items": {"type": "string"},
+                "description": "Major geographical and architectural features"
+              },
+              "mystical_elements": {
+                "type": "array", 
+                "items": {"type": "string"},
+                "description": "Magical or supernatural geographical elements"
+              },
+              "trial_locations": {
+                "type": "array",
+                "items": {"type": "string"},
+                "description": "Specific locations where divine trials take place"
+              }
+            }
+          },
+          "cultural_expressions": {
+            "type": "object",
+            "required": ["architecture", "arts", "governance", "values"],
+            "properties": {
+              "architecture": {
+                "type": "string",
+                "description": "Architectural style and building approaches"
+              },
+              "arts": {
+                "type": "string",
+                "description": "Artistic traditions and cultural practices"
+              },
+              "governance": {
+                "type": "string",
+                "description": "Political and social organization"
+              },
+              "values": {
+                "type": "array",
+                "items": {"type": "string"},
+                "description": "Core cultural values and principles"
+              }
+            }
+          },
+          "origin_races": {
+            "type": "array",
+            "items": {"type": "string"},
+            "description": "Playable races that originate from this island"
+          },
+          "primary_class": {
+            "type": "string",
+            "description": "Primary character class associated with this island"
+          },
+          "divine_trial": {
+            "type": "object",
+            "required": ["trial_name", "challenge_type", "requirements", "trial_stages", "reward"],
+            "properties": {
+              "trial_name": {
+                "type": "string",
+                "description": "Official name of the divine trial"
+              },
+              "challenge_type": {
+                "type": "string", 
+                "description": "Type of challenge the trial presents"
+              },
+              "requirements": {
+                "type": "string",
+                "description": "What participants must demonstrate"
+              },
+              "trial_stages": {
+                "type": "array",
+                "items": {"type": "string"},
+                "description": "Sequential stages of the trial"
+              },
+              "reward": {
+                "type": "string",
+                "description": "Blessing or reward for trial completion"
+              }
+            }
+          }
+        }
+      }
+    },
+    "hexagon_dynamics": {
+      "type": "object",
+      "description": "How the hexagonal positions interact with each other"
+    },
+    "trial_integration": {
+      "type": "object",
+      "description": "How divine trials are integrated into the island system"
+    },
+    "racial_origins": {
+      "type": "object", 
+      "description": "How playable races connect to their origin islands"
+    },
+    "travel_mechanics": {
+      "type": "object",
+      "description": "How characters can travel between islands"
+    },
+    "environmental_interactions": {
+      "type": "object",
+      "description": "How characters interact with island environments"
+    },
+    "metadata": {
+      "type": "object",
+      "required": ["version", "created", "canonical"],
+      "properties": {
+        "version": {
+          "type": "string",
+          "pattern": "^\\d+\\.\\d+\\.\\d+$",
+          "description": "Semantic version"
+        },
+        "created": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Creation timestamp"
+        },
+        "last_updated": {
+          "type": "string", 
+          "format": "date-time",
+          "description": "Last modification timestamp"
+        },
+        "canonical": {
+          "type": "boolean",
+          "description": "Whether this is the official version"
+        },
+        "author": {
+          "type": "string",
+          "description": "Content creator"
+        },
+        "schema_compliance": {
+          "type": "string",
+          "description": "Schema this data validates against"
+        },
+        "cross_references": {
+          "type": "array",
+          "items": {"type": "string"},
+          "description": "Related data files"
+        }
+      }
+    }
+  }
+}

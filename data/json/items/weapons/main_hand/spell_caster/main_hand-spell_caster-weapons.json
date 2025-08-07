@@ -1,0 +1,49 @@
+{
+  "$schema": "../../../schemas/weapon-category.schema.json",
+  "category": "main_hand_spell_caster",
+  "display_name": "Main Hand Spell Caster Weapons",
+  "description": "One-handed magical implements designed for dominant hand use, offering spell casting capabilities with defensive versatility.",
+  
+  "hand_usage": {
+    "type": "main_hand",
+    "requirements": ["dominant_hand"],
+    "restrictions": []
+  },
+  
+  "combat_style": {
+    "type": "spell_caster",
+    "engagement_range": "variable_magical",
+    "primary_attributes": ["intelligence", "wisdom"]
+  },
+  
+  "weapon_examples": {
+    "basic": ["wand", "staff", "orb"],
+    "advanced": ["enchanted_wand", "arcane_focus", "elemental_orb"],
+    "legendary": ["reality_wand", "void_focus", "cosmos_orb"],
+    "cosmic": ["universe_director", "concept_focus", "existence_manipulator"]
+  },
+  
+  "generic_characteristics": {
+    "spell_power": "high",
+    "casting_speed": "fast",
+    "mana_efficiency": "good",
+    "spell_range": "good",
+    "shield_compatibility": "excellent"
+  },
+  
+  "depth_progression": {
+    "tier_1_focus": "basic_spell_channeling",
+    "tier_2_focus": "advanced_magical_focus",
+    "tier_3_focus": "masterful_spell_control",
+    "tier_4_focus": "perfect_magical_balance",
+    "tier_5_focus": "reality_bending_magic",
+    "tier_6_focus": "cosmic_force_manipulation"
+  },
+  
+  "material_evolution": {
+    "early_tiers": ["enchanted_wood", "crystal_cores", "magical_metals"],
+    "mid_tiers": ["arcane_crystals", "elemental_cores", "mystic_alloys"],
+    "high_tiers": ["divine_focuses", "ethereal_crystals", "star_touched_cores"],
+    "cosmic_tiers": ["reality_crystals", "concept_cores", "universal_focal_points"]
+  }
+}

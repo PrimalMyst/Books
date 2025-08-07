@@ -1,0 +1,32 @@
+﻿{
+  "$schema": "../../../../schemas/weapon-item.schema.json",
+  "id": "two_handed_ranged_hunting_bow",
+  "name": "hunting bow",
+  "display_name": "hunting bow",
+  "description": "A powerful two-handed ranged hunting bow weapon requiring both hands for stability and power.",
+  "category": "two_handed_ranged",
+  "rarity": "common",
+  "tier": 1,
+  
+  "weapon_properties": {
+    "hand_usage": "two_handed",
+    "combat_style": "ranged",
+    "weapon_type": "hunting_bow",
+    "damage_type": "piercing",
+    "reach": "long_range",
+    "weight": "medium_to_heavy"
+  },
+  
+  "combat_stats": {
+    "base_damage": "placeholder",
+    "attack_speed": "moderate",
+    "critical_chance": "enhanced",
+    "requirements": {
+      "dexterity": "placeholder",
+      "strength": "placeholder"
+    }
+  },
+  
+  "placeholder": true,
+  "implementation_notes": "Two-handed ranged hunting bow weapon template - requires complete implementation"
+}

@@ -1,0 +1,186 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "PrimalMyst Character Class",
+  "description": "Character class definitions aligned with the hexagonal system and starting islands",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Unique identifier for this character class"
+    },
+    "name": {
+      "type": "string",
+      "description": "Display name for this character class"
+    },
+    "hexagon_position": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 6,
+      "description": "Position in the hexagon (1-6, clockwise from top)"
+    },
+    "category": {
+      "type": "string",
+      "enum": ["character-class"],
+      "description": "Category identifier for this data type"
+    },
+    "body_type": {
+      "type": "string",
+      "enum": ["M", "F"],
+      "description": "Body type for ease of development (M = masculine, F = feminine)"
+    },
+    "origin_island": {
+      "type": "object",
+      "properties": {
+        "island_name": {"type": "string"},
+        "realm_reference": {"type": "string"},
+        "starting_location": {"type": "string"},
+        "cultural_background": {"type": "string"}
+      },
+      "required": ["island_name", "realm_reference"],
+      "description": "Starting island based on hexagonal position"
+    },
+    "hexagonal_alignment": {
+      "type": "object",
+      "properties": {
+        "damage_type": {"type": "string"},
+        "eldritch_god": {"type": "string"},
+        "primary_attribute": {"type": "string"},
+        "god_tier": {"type": "string", "enum": ["fundamental", "primal"]},
+        "preferred_offensive_layer": {"type": "string"},
+        "preferred_defensive_layer": {"type": "string"}
+      },
+      "required": ["damage_type", "eldritch_god", "primary_attribute"],
+      "description": "Alignment with hexagonal systems"
+    },
+    "attribute_growth": {
+      "type": "object",
+      "properties": {
+        "primary_attribute": {
+          "type": "object",
+          "properties": {
+            "attribute_name": {"type": "string"},
+            "per_level_bonus": {"type": "number"},
+            "starting_bonus": {"type": "number"}
+          }
+        },
+        "secondary_attributes": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "attribute_name": {"type": "string"},
+              "per_level_bonus": {"type": "number"},
+              "starting_bonus": {"type": "number"}
+            }
+          }
+        },
+        "growth_pattern": {"type": "string"}
+      },
+      "description": "Attribute growth inherited from origin island's hexagonal position and cultural influences"
+    },
+    "divine_preference": {
+      "type": "object",
+      "properties": {
+        "preferred_god": {"type": "string"},
+        "alignment_strength": {"type": "string", "enum": ["weak", "moderate", "strong"]},
+        "divine_trial_affinity": {"type": "string"},
+        "npc_default": {"type": "boolean"},
+        "player_freedom": {"type": "string"}
+      },
+      "description": "God alignment preferences (default for NPCs, open for players)"
+    },
+    "class_characteristics": {
+      "type": "object",
+      "properties": {
+        "archetype_description": {"type": "string"},
+        "core_philosophy": {"type": "string"},
+        "combat_style": {"type": "string"},
+        "social_role": {"type": "string"},
+        "typical_equipment": {
+          "type": "array",
+          "items": {"type": "string"}
+        }
+      }
+    },
+    "starting_advantages": {
+      "type": "object",
+      "properties": {
+        "innate_abilities": {
+          "type": "array",
+          "items": {"type": "string"}
+        },
+        "equipment_bonuses": {
+          "type": "array",
+          "items": {"type": "string"}
+        },
+        "social_connections": {
+          "type": "array",
+          "items": {"type": "string"}
+        },
+        "knowledge_bonuses": {
+          "type": "array",
+          "items": {"type": "string"}
+        }
+      }
+    },
+    "development_paths": {
+      "type": "object",
+      "properties": {
+        "primary_specializations": {
+          "type": "array",
+          "items": {"type": "string"}
+        },
+        "multiclass_synergies": {
+          "type": "array",
+          "items": {"type": "string"}
+        },
+        "late_game_potential": {
+          "type": "array",
+          "items": {"type": "string"}
+        }
+      }
+    },
+    "cultural_integration": {
+      "type": "object",
+      "properties": {
+        "island_culture": {"type": "string"},
+        "traditional_roles": {
+          "type": "array",
+          "items": {"type": "string"}
+        },
+        "cultural_conflicts": {
+          "type": "array",
+          "items": {"type": "string"}
+        },
+        "cross_cultural_interactions": {"type": "string"}
+      }
+    },
+    "player_freedom": {
+      "type": "object",
+      "properties": {
+        "damage_type_flexibility": {"type": "string"},
+        "god_alignment_freedom": {"type": "string"},
+        "attribute_customization": {"type": "string"},
+        "role_interpretation": {"type": "string"}
+      },
+      "description": "How players can customize and interpret the class"
+    },
+    "tags": {
+      "type": "array",
+      "items": {"type": "string"}
+    },
+    "metadata": {
+      "type": "object",
+      "properties": {
+        "created": {"type": "string", "format": "date-time"},
+        "last_updated": {"type": "string", "format": "date-time"},
+        "author": {"type": "string"},
+        "version": {"type": "string"},
+        "canonical": {"type": "boolean"},
+        "hexagon_system": {"type": "string"}
+      },
+      "required": ["created", "last_updated", "canonical", "hexagon_system"]
+    }
+  },
+  "required": ["id", "name", "hexagon_position", "category", "body_type", "origin_island", "hexagonal_alignment", "attribute_growth", "divine_preference", "metadata"]
+}

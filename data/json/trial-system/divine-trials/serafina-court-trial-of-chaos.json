@@ -1,0 +1,65 @@
+{
+  "id": "serafina-court-trial-of-chaos",
+  "title": "The Trial of Beneficial Chaos - Serafina's Court",
+  "governing_god": "serafina",
+  "location": {
+    "island": "serafina-court",
+    "specific_site": "The Shadow Labyrinth",
+    "coordinates": {"x": 0, "y": 0, "z": 0},
+    "accessibility": "public"
+  },
+  "trial_structure": {
+    "activation_trigger": "Entering the Shadow Labyrinth while experiencing divine decay from Serafina's influence",
+    "challenge_type": "chaos_adaptation",
+    "difficulty_scaling": "adaptive"
+  },
+  "choice_system": {
+    "available_paths": [
+      {
+        "path_name": "Embrace Chaos",
+        "philosophy": "Total acceptance of chaotic transformation",
+        "description": "Fully accept Serafina's shadow and become an agent of creative chaos"
+      },
+      {
+        "path_name": "Master Chaos",
+        "philosophy": "Controlled use of chaotic power",
+        "description": "Demonstrate mastery over Serafina's shadow while maintaining core identity"
+      },
+      {
+        "path_name": "Transform Chaos",
+        "philosophy": "Evolution through controlled unpredictability", 
+        "description": "Work with Serafina's shadow to create ordered chaos and chaotic order"
+      }
+    ]
+  },
+  "completion_rewards": {
+    "divine_immunity": {
+      "god_source": "serafina",
+      "protection_type": "Complete immunity to chaos-based divine decay",
+      "scope": "Serafina's court and all shadow-dominant environments"
+    },
+    "power_increase": {
+      "monster_level_boost": 6,
+      "mystical_authority": "Recognized as divinely approved practitioner with chaos authority"
+    },
+    "hexagonal_system_access": {
+      "trial_purpose": "Grants player access to choose bonuses from the Chaos corner of the core hexagonal system",
+      "available_choices": {
+        "corner_reference": "Position 2 - Chaos (Primal)",
+        "god_approval": "Serafina, the Shadow Empress",
+        "mechanical_layers": "Players can choose to adopt the defensive and offensive bonuses defined in the core hexagonal system",
+        "choice_mechanism": "Trial completion unlocks access to Chaos corner bonuses, but player must actively choose to adopt them"
+      },
+      "bonus_source": "All specific bonus values and effects are defined in the core-thematic-hexagon system"
+    }
+  },
+  "metadata": {
+    "created": "2025-07-31T00:00:00Z",
+    "last_updated": "2025-07-31T00:00:00Z",
+    "author": "PrimalMyst Development Team",
+    "version": "1.0.0",
+    "canonical": true,
+    "difficulty_rating": "intermediate",
+    "status": "placeholder"
+  }
+}

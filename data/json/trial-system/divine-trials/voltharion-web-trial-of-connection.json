@@ -1,0 +1,65 @@
+{
+  "id": "voltharion-web-trial-of-connection",
+  "title": "The Trial of Divine Connection - Voltharion's Web",
+  "governing_god": "voltharion",
+  "location": {
+    "island": "voltharion-web",
+    "specific_site": "The Lightning Nexus",
+    "coordinates": {"x": 0, "y": 0, "z": 0},
+    "accessibility": "public"
+  },
+  "trial_structure": {
+    "activation_trigger": "Approaching the Lightning Nexus while experiencing divine decay from Voltharion's influence",
+    "challenge_type": "speed_connection",
+    "difficulty_scaling": "adaptive"
+  },
+  "choice_system": {
+    "available_paths": [
+      {
+        "path_name": "Embrace Connection",
+        "philosophy": "Total integration with divine lightning network",
+        "description": "Fully accept Voltharion's lightning and become part of the cosmic web"
+      },
+      {
+        "path_name": "Master Connection",
+        "philosophy": "Controlled use of lightning power",
+        "description": "Demonstrate mastery over Voltharion's lightning while maintaining independence"
+      },
+      {
+        "path_name": "Transform Connection",
+        "philosophy": "Evolution through divine networking",
+        "description": "Work with Voltharion's lightning to create new forms of cosmic connection"
+      }
+    ]
+  },
+  "completion_rewards": {
+    "divine_immunity": {
+      "god_source": "voltharion",
+      "protection_type": "Complete immunity to lightning-based divine decay",
+      "scope": "Voltharion's web and all lightning-dominant environments"
+    },
+    "power_increase": {
+      "monster_level_boost": 6,
+      "mystical_authority": "Recognized as divinely approved practitioner with lightning authority"
+    },
+    "hexagonal_system_access": {
+      "trial_purpose": "Grants player access to choose bonuses from the Lightning corner of the core hexagonal system",
+      "available_choices": {
+        "corner_reference": "Position 3 - Lightning (Fundamental)",
+        "god_approval": "Voltharion, the Cosmic Spark",
+        "mechanical_layers": "Players can choose to adopt the defensive and offensive bonuses defined in the core hexagonal system",
+        "choice_mechanism": "Trial completion unlocks access to Lightning corner bonuses, but player must actively choose to adopt them"
+      },
+      "bonus_source": "All specific bonus values and effects are defined in the core-thematic-hexagon system"
+    }
+  },
+  "metadata": {
+    "created": "2025-07-31T00:00:00Z",
+    "last_updated": "2025-07-31T00:00:00Z",
+    "author": "PrimalMyst Development Team",
+    "version": "1.0.0",
+    "canonical": true,
+    "difficulty_rating": "beginner",
+    "status": "placeholder"
+  }
+}

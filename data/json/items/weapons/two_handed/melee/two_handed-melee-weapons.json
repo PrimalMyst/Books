@@ -1,0 +1,49 @@
+{
+  "$schema": "../../../schemas/weapon-category.schema.json",
+  "category": "two_handed_melee",
+  "display_name": "Two-Handed Melee Weapons",
+  "description": "Powerful melee weapons requiring both hands, designed for devastating close-quarters combat with exceptional reach and damage potential.",
+  
+  "hand_usage": {
+    "type": "two_handed",
+    "requirements": ["both_hands"],
+    "restrictions": ["no_shield", "no_dual_wield"]
+  },
+  
+  "combat_style": {
+    "type": "melee",
+    "engagement_range": "close_to_extended_melee",
+    "primary_attributes": ["strength", "endurance"]
+  },
+  
+  "weapon_examples": {
+    "basic": ["longsword", "greatsword", "battle_axe", "war_hammer", "halberd", "glaive", "pike"],
+    "advanced": ["claymore", "zweihander", "great_axe", "war_maul", "poleaxe", "bardiche", "lucerne_hammer"],
+    "legendary": ["reality_cleaver", "titan_crusher", "void_splitter", "flamberge_of_souls", "executioner_greataxe"],
+    "cosmic": ["universe_render", "concept_breaker", "existence_ender", "dimensional_greatblade", "cosmic_maul"]
+  },
+  
+  "generic_characteristics": {
+    "damage_output": "very_high",
+    "attack_speed": "slow",
+    "reach": "extended",
+    "crowd_control": "excellent",
+    "armor_penetration": "superior"
+  },
+  
+  "depth_progression": {
+    "tier_1_focus": "basic_two_handed_melee_combat",
+    "tier_2_focus": "advanced_striking_techniques", 
+    "tier_3_focus": "masterful_combat_forms",
+    "tier_4_focus": "perfect_weapon_control",
+    "tier_5_focus": "reality_shaping_strikes",
+    "tier_6_focus": "cosmic_destruction_mastery"
+  },
+  
+  "material_evolution": {
+    "early_tiers": ["steel", "iron", "bronze"],
+    "mid_tiers": ["enchanted_metals", "magical_alloys", "crystal_cores"],
+    "high_tiers": ["star_metals", "divine_substances", "ethereal_materials"],
+    "cosmic_tiers": ["reality_fragments", "concept_crystallizations", "universal_essences"]
+  }
+}

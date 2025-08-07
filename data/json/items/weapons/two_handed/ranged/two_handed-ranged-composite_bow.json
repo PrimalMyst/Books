@@ -1,0 +1,32 @@
+﻿{
+  "$schema": "../../../../schemas/weapon-item.schema.json",
+  "id": "two_handed_ranged_composite_bow",
+  "name": "composite bow",
+  "display_name": "composite bow",
+  "description": "A powerful two-handed ranged composite bow weapon requiring both hands for stability and power.",
+  "category": "two_handed_ranged",
+  "rarity": "common",
+  "tier": 1,
+  
+  "weapon_properties": {
+    "hand_usage": "two_handed",
+    "combat_style": "ranged",
+    "weapon_type": "composite_bow",
+    "damage_type": "piercing",
+    "reach": "long_range",
+    "weight": "medium_to_heavy"
+  },
+  
+  "combat_stats": {
+    "base_damage": "placeholder",
+    "attack_speed": "moderate",
+    "critical_chance": "enhanced",
+    "requirements": {
+      "dexterity": "placeholder",
+      "strength": "placeholder"
+    }
+  },
+  
+  "placeholder": true,
+  "implementation_notes": "Two-handed ranged composite bow weapon template - requires complete implementation"
+}

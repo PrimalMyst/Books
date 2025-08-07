@@ -1,0 +1,58 @@
+{
+  "$schema": "../../schemas/defensive-layer.schema.json",
+  "name": "Evasion",
+  "description": "Active avoidance techniques utilizing speed, agility, and mobility to prevent damage entirely through movement and timing.",
+  "position": 2,
+  "type": "defensive-layer",
+  "tier": "primal",
+  "category": "active-mitigation",
+  "status": "active",
+  "alignment": {
+    "divine": "Serafina",
+    "element": "Chaos",
+    "attribute": "Adaptability"
+  },
+  "mechanics": {
+    "core_function": "Prevents damage through spatial positioning and reactive movement",
+    "scaling": {
+      "primary": "dexterity",
+      "secondary": "intelligence",
+      "tertiary": "adaptability"
+    },
+    "synergies": [
+      {
+        "adjacent_corner": "cold-resistance",
+        "interaction": "Evasive techniques combined with freezing effects for crowd control"
+      },
+      {
+        "adjacent_corner": "lightning-resistance",
+        "interaction": "Enhanced mobility through electrical conduction mastery"
+      }
+    ],
+    "effectiveness": {
+      "chaos_damage": 100,
+      "physical_damage": 75,
+      "elemental_damage": 50,
+      "area_effects": 25
+    }
+  },
+  "implementation": {
+    "character_stat": "evasion_rating",
+    "formulas": {
+      "evasion_chance": "(base_evasion + (dexterity * 2) + (adaptability * 1.5)) / (monster_accuracy + 100)",
+      "movement_speed": "1 + (evasion_rating / 100)",
+      "dodge_window": "base_dodge_time * (1 + adaptability / 50)"
+    },
+    "passive_effects": [
+      "increased_movement_speed",
+      "enhanced_spatial_awareness",
+      "improved_reaction_time"
+    ]
+  },
+  "hexagon": {
+    "position": 2,
+    "adjacent": [1, 3],
+    "opposite": 5,
+    "thematic_role": "Active avoidance through adaptation and mobility"
+  }
+}

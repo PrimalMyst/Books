@@ -1,0 +1,129 @@
+{
+  "id": "adventurers-utility-belt",
+  "name": "Adventurer's Utility Belt",
+  "type": "armor",
+  "subtype": "belt",
+  "rank_level": {
+    "item_rank": "D",
+    "required_level": 15,
+    "optimal_level": 35,
+    "level_scaling": {
+      "scales_with_user": false,
+      "scaling_type": "fixed",
+      "max_scaling_level": null
+    },
+    "quality_tier": "common",
+    "power_classification": "enhanced"
+  },
+  "divine_influences": {
+    "primary_influence": "none",
+    "secondary_influences": [],
+    "divine_resonance": "none",
+    "humanoid_only": true
+  },
+  "physical_properties": {
+    "weight": {
+      "value": 3.0,
+      "unit": "pounds"
+    },
+    "size": "medium",
+    "material": "Reinforced leather with multiple pouches and attachment points",
+    "durability": "durable",
+    "magical_nature": "enhanced"
+  },
+  "gameplay_properties": {
+    "stack_size": 1,
+    "tradeable": true,
+    "bind_on_pickup": false,
+    "bind_on_equip": false,
+    "unique": false,
+    "set_item": null
+  },
+  "gear_slot": {
+    "category": "armor",
+    "slot_type": "belt",
+    "occupies_slots": ["waist"],
+    "slot_requirement": "Belt armor slot must be empty",
+    "protection_areas": ["waist", "lower_back"],
+    "special_features": ["Provides belt_lock attachment point for jewelry"]
+  },
+  "armor_properties": {
+    "physical_protection": {
+      "base_armor_value": 45,
+      "armor_type": "light_leather",
+      "protection_bonus": "+10% resistance to impacts to core area"
+    },
+    "mystical_protection": {
+      "mystical_resistance": 25,
+      "status_effect_resistance": "+15%"
+    },
+    "mobility_impact": {
+      "movement_penalty": "none",
+      "dexterity_modifier": "none",
+      "stealth_bonus": "none"
+    }
+  },
+  "effects": [
+    {
+      "name": "Extended Storage",
+      "description": "Increases carrying capacity by 25% through efficient organization",
+      "type": "passive",
+      "power_level": "moderate",
+      "divine_source": "none"
+    },
+    {
+      "name": "Quick Access",
+      "description": "Retrieving items from inventory takes 50% less time",
+      "type": "passive",
+      "power_level": "minor",
+      "divine_source": "none"
+    },
+    {
+      "name": "Belt Lock Compatibility",
+      "description": "Provides attachment point for belt_lock jewelry items",
+      "type": "utility",
+      "power_level": "minor",
+      "divine_source": "none"
+    },
+    {
+      "name": "Emergency Supplies",
+      "description": "Contains emergency rations and basic first aid supplies (limited use)",
+      "type": "utility",
+      "power_level": "minor",
+      "divine_source": "none"
+    }
+  ],
+  "acquisition": {
+    "drop_sources": ["supply-merchants", "abandoned-campsites"],
+    "quest_rewards": ["basic-adventuring-preparation"],
+    "crafting_recipe": {
+      "required_rank": "D",
+      "required_level": 10,
+      "materials": [
+        {"item_id": "quality-leather", "quantity": 6},
+        {"item_id": "metal-buckles", "quantity": 3},
+        {"item_id": "reinforcement-thread", "quantity": 8}
+      ],
+      "crafting_station": "basic-leatherworking"
+    },
+    "vendor_price": {
+      "currency": "gold",
+      "amount": 75
+    },
+    "rarity_notes": "Standard equipment for most adventurers and travelers"
+  },
+  "lore": {
+    "description": "A practical belt designed to help adventurers carry and organize their essential supplies efficiently.",
+    "history": "Developed by the Adventurer's Guild after collecting feedback from countless expeditions about gear organization needs.",
+    "creator": "Guild Equipment Committee",
+    "significance": "Represents the practical wisdom gained from real-world adventuring experience"
+  },
+  "tags": ["belt", "armor", "utility", "adventurer", "D-rank", "common", "practical"],
+  "metadata": {
+    "created": "2025-08-06T00:00:00Z",
+    "last_updated": "2025-08-06T00:00:00Z",
+    "author": "PrimalMyst Development Team",
+    "version": "1.0.0",
+    "canonical": true
+  }
+}

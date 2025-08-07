@@ -1,0 +1,32 @@
+﻿{
+  "$schema": "../../../../schemas/weapon-item.schema.json",
+  "id": "off_hand_defensive_spiked_shield",
+  "name": "spiked shield",
+  "display_name": "spiked shield",
+  "description": "A protective spiked shield for off-hand defensive use, providing armor class bonus and active blocking.",
+  "category": "off_hand_defensive",
+  "rarity": "common",
+  "tier": 1,
+  
+  "weapon_properties": {
+    "hand_usage": "off_hand",
+    "combat_style": "defensive",
+    "weapon_type": "spiked_shield",
+    "damage_type": "none",
+    "reach": "personal_protection",
+    "weight": "medium"
+  },
+  
+  "defensive_stats": {
+    "armor_class_bonus": "placeholder",
+    "block_chance": "placeholder",
+    "damage_reduction": "placeholder",
+    "requirements": {
+      "strength": "placeholder",
+      "constitution": "placeholder"
+    }
+  },
+  
+  "placeholder": true,
+  "implementation_notes": "Defensive spiked shield template - requires complete defensive stats implementation"
+}

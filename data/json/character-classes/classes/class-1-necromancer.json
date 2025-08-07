@@ -1,0 +1,224 @@
+{
+  "class_id": "necromancer",
+  "canonical_name": "Necromancer",
+  "hexagon_position": 1,
+  "body_type": "M",
+  "archetype_category": "scholarly-humanoid",
+  "description": "Scholarly humanoid masters of death magic and preservation who study the boundary between life and death to unlock hidden knowledge. Necromancers represent the ultimate expression of Glacius's philosophy - that true understanding comes through mastering all aspects of existence, including death itself.",
+  "origin_island": {
+    "island_name": "Glacius Isle",
+    "cultural_name": "The Archive Realm",
+    "description": "A crystalline realm of eternal winter where vast libraries and research institutions preserve knowledge across the ages. The culture values scholarship, precision, and methodical advancement.",
+    "cultural_philosophy": "Knowledge is power, understanding death unlocks life's secrets, mastery of both states leads to true wisdom."
+  },
+  "eldritch_connection": {
+    "aligned_god": "glacius",
+    "divine_manifestation": "Glacius, the Eternal Frost - Perfect preservation through absolute knowledge",
+    "npc_default_alignment": "glacius",
+    "player_freedom": "Players can choose any god alignment or remain independent",
+    "cultural_pressure": "Archive Realm culture strongly encourages Glacius worship but respects scholarly pursuits regardless of divine alignment"
+  },
+  "damage_type_affinity": {
+    "natural_alignment": "cold",
+    "cultural_preference": "Cold damage is highly respected in Archive Realm culture",
+    "mechanical_freedom": "No restrictions on learning or mastering other damage types",
+    "starting_bonus": "Enhanced effectiveness with cold-based abilities and resistance to cold effects"
+  },
+  "attribute_inheritance": {
+    "source": "origin_island_position",
+    "island_position": 1,
+    "island_reference": "glacius-isle-kingdom.json",
+    "primary_attribute": "intelligence",
+    "trinity_alignment": "fundamental",
+    "hexagon_pattern": {
+      "position_1_aligned": "+6 per level (intelligence - aligned with island position)",
+      "position_2_adjacent": "+3 per level (adaptability - adjacent position 2)",
+      "position_6_adjacent": "+3 per level (wisdom - adjacent position 6)", 
+      "position_3_next": "+2 per level (dexterity - next adjacent position 3)",
+      "position_5_next": "+2 per level (strength - next adjacent position 5)",
+      "position_4_opposing": "+1 per level (vitality - opposing position 4)"
+    },
+    "per_level_distribution": {
+      "intelligence": "+6 per level (island position 1)",
+      "adaptability": "+3 per level (adjacent position 2)",
+      "wisdom": "+3 per level (adjacent position 6)", 
+      "dexterity": "+2 per level (next adjacent position 3)",
+      "strength": "+2 per level (next adjacent position 5)",
+      "vitality": "+1 per level (opposing position 4)"
+    },
+    "total_per_level": "17 attribute points distributed according to hexagonal pattern from origin island",
+    "starting_bonuses": {
+      "note": "No starting attribute bonuses - all growth comes from leveling up"
+    },
+    "cultural_development": "Glacius Isle education emphasizes analytical thinking, research methodology, and preservation techniques",
+    "growth_philosophy": "Island position 1 produces exceptional intelligence growth with strong support in adjacent attributes"
+  },
+
+  "ascendancy_system": {
+    "description": "Necromancer serves as the primary anchor for death magic and preservation-focused ascendancy trees",
+    "ascendancy_role": "Main class for unlocking and progressing through death magic, necromancy, and preservation ascendancies",
+    "placeholder_implementation": "PLACEHOLDER - Future ascendancy trees will anchor to this class for death magic specializations",
+    "ascendancy_themes": [
+      "Death Magic Mastery - Advanced necromantic spells and undead manipulation",
+      "Preservation Specialist - Knowledge preservation and temporal stasis abilities", 
+      "Life-Death Balance - Understanding and manipulating the boundary between existence states",
+      "Scholar Ascendant - Enhanced learning, research, and knowledge-based abilities"
+    ],
+    "multiclass_ascendancy": "Other classes can access death magic ascendancies through this class as anchor point",
+    "ascendancy_points": "Standard ascendancy point progression - PLACEHOLDER for future implementation"
+  },
+  "class_characteristics": {
+    "core_philosophy": "Death and life are two sides of the same coin",
+    "life_approach": "Transform obstacles through knowledge and understanding of mortality",
+    "social_role": "Scholar, Death Researcher, Keeper of Life-Death Balance",
+    "combat_style": "Calculated application of death magic, preparation-based tactics, intellectual dominance over mortality",
+    "signature_abilities": [
+      "Death Magic Mastery - Enhanced necromantic spells and undead communication",
+      "Scholarly Mastery - Exceptional learning speed and knowledge retention",
+      "Cold Calculation - Enhanced strategic thinking and tactical analysis",
+      "Archive Access - Connection to vast stores of preserved knowledge",
+      "Life-Death Balance - Understanding of the boundary between existence states"
+    ]
+  },
+  "cultural_background": {
+    "typical_upbringing": "Raised in the great libraries and research institutions of Glacius Isle, with special focus on mortality studies and death magic theory",
+    "social_expectations": "Expected to contribute to the understanding of life-death balance and preservation of both living and post-mortem knowledge",
+    "common_motivations": [
+      "Understanding the mysteries of death and undeath",
+      "Preserving knowledge of both the living and the dead",
+      "Mastering the balance between life and death forces",
+      "Helping others understand mortality without fear"
+    ],
+    "cultural_values": [
+      "Respect for both life and death",
+      "Scholarly pursuit of forbidden knowledge",
+      "Balance between preservation and acceptance",
+      "Methodical study of mortality"
+    ]
+  },
+  "starting_equipment": {
+    "typical_gear": [
+      "Scholarly robes with death-warding enchantments",
+      "Tome of necromantic theory and practice",
+      "Cold-forged staff with bone or crystal focus",
+      "Research materials and anatomical charts",
+      "Preservation kit for studying specimens"
+    ],
+    "cultural_items": [
+      "Archive Realm library access token",
+      "Family scholarly lineage documentation", 
+      "Cold-weather survival gear",
+      "Necromantic research equipment"
+    ]
+  },
+  "advancement_paths": {
+    "traditional_progression": [
+      "Novice Death Scholar - Basic necromantic theory and preservation skills",
+      "Archive Keeper - Responsible for maintaining both living and death-related knowledge",
+      "Master Necromancer - Leading research into life-death boundaries",
+      "Elder Death Sage - Transcendent understanding of mortality and teaching authority",
+      "Eternal Scholar - Legendary status bridging the gap between life and death knowledge"
+    ],
+    "alternative_developments": [
+      "Battle Necromancer - Applying death magic knowledge to combat situations",
+      "Diplomatic Death Speaker - Using mortality understanding for counseling and mediation",
+      "Experimental Researcher - Pushing boundaries of life-death magical theory",
+      "Cross-Cultural Scholar - Studying death customs and knowledge from other islands"
+    ]
+  },
+  "role_flexibility": {
+    "multiclass_synergies": [
+      "Necromancer/Succubus - Scholarly shapeshifter with death magic and adaptation",
+      "Necromancer/Priestess - Wisdom-focused scholar balancing life and death understanding",
+      "Necromancer/Hunter - Mobile researcher with enhanced tracking of undead and mortality"
+    ],
+    "player_customization": {
+      "personality_freedom": "Players can be compassionate death counselors, clinical researchers, passionate scholars, or detached mortality experts",
+      "moral_alignment": "Can be benevolent guides to understanding death, neutral scholars, or calculating death magic specialists",
+      "social_approach": "Can be hermit researchers, helpful community scholars, or diplomatic mortality advisors"
+    }
+  },
+  "origin_island_integration": {
+    "trinity_alignment": "fundamental",
+    "trinity_heritage": "Inherits fundamental trinity benefits from Glacius Isle origin position",
+    "attribute_scaling": "Linear attribute scaling based on island hexagonal positioning",
+    "level_10_example": {
+      "intelligence": 70, "adaptability": 40, "wisdom": 40, "dexterity": 30, "strength": 20, "vitality": 20,
+      "description": "A level 10 Necromancer with exceptional analytical capabilities and well-rounded support attributes from island heritage"
+    },
+    "class_mechanical_focus": {
+      "core_abilities": "Death magic mastery, scholarly research, necromantic communication",
+      "signature_skills": "Enhanced learning speed, undead interaction, preservation techniques",
+      "equipment_affinity": "Intelligence-based magical equipment, research tools, preservation materials"
+    },
+    "adjacent_class_relationships": {
+      "priestess": "Shared wisdom focus creates natural philosophical exchanges about life and death balance",
+      "succubus": "Complementary intelligence/adaptability enables versatile problem-solving with transformation themes"
+    },
+    "opposing_class_tension": {
+      "warrior": "Death Study vs. Life Action - Fundamental difference between mortality contemplation and vibrant living"
+    }
+  },
+  "lore_connections": {
+    "origin_island_position": "Represents Position 1 - The Foundation of Knowledge from Glacius Isle heritage",
+    "cosmic_significance": "Represents the principle that understanding mortality enhances appreciation for life and unlocks hidden wisdom",
+    "mythological_role": "The mortal students of Yggdrasil's wisdom who bridge the gap between life and death knowledge",
+    "island_legends": "Famous Necromancers have preserved critical knowledge about mortality and helped communities understand death without fear"
+  },
+  "npc_examples": {
+    "typical_representatives": [
+      "Archive Master Kelleth - Head librarian specializing in mortality studies at the Great Glacius Repository",
+      "Death Scholar Prime Vorthak - Leading expert on necromantic theory and life-death balance",
+      "Elder Necromancer Mythara - Wise counselor who helps communities understand death and grief"
+    ],
+    "cultural_variations": [
+      "Battle-Necromancer Korvain - Death mage who applies mortality knowledge to tactical situations",
+      "Diplomatic Death Speaker Selene - Necromancer focused on grief counseling and death customs",
+      "Wandering Death Researcher Thymon - Necromancer who travels to study mortality practices across realms"
+    ]
+  },
+  "player_freedom_emphasis": {
+    "damage_type_openness": "While naturally aligned with cold, Necromancers can master fire, lightning, chaos, physical, or radiance without restriction",
+    "divine_choice": "Can worship any god, practice multiple faiths, or remain independent scholars",
+    "personality_range": "From compassionate death counselors to clinical researchers to passionate mortality scholars",
+    "social_roles": "Can be hermits, teachers, grief counselors, adventurers, or community leaders depending on player choice",
+    "moral_flexibility": "Can be benevolent guides to understanding death, neutral researchers, or even dark necromancers - the class supports all approaches"
+  },
+  "mechanical_notes": {
+    "attribute_progression": {
+      "intelligence": "Primary focus - 6 points per level for exceptional analytical growth",
+      "adaptability_wisdom": "Secondary focus - 3 points each per level for scholarly flexibility and insight", 
+      "dexterity_vitality": "Moderate growth - 2 points each per level for basic physical capability",
+      "strength": "Minimal growth - 1 point per level to prevent complete physical weakness"
+    },
+    "trinity_benefits": {
+      "fundamental_trinity": "Enhanced gear usage, skill prerequisites, and material world interaction",
+      "linear_scaling": "Predictable, reliable attribute growth patterns",
+      "equipment_synergy": "Intelligence-based gear requirements align with natural growth"
+    },
+    "suggested_starting_stats": {
+      "intelligence": "Highest + starting bonus",
+      "wisdom": "Second highest + starting bonus", 
+      "adaptability": "Moderate + starting bonus",
+      "other_attributes": "Standard starting values with guaranteed per-level growth"
+    },
+    "natural_resistances": [
+      "Cold damage resistance",
+      "Enhanced understanding of undead and death magic",
+      "Enhanced learning and memory capabilities for mortality-related knowledge"
+    ],
+    "starting_abilities": [
+      "Enhanced necromantic spell learning",
+      "Death magic theory knowledge",
+      "Basic undead communication",
+      "Cold affinity"
+    ]
+  },
+  "metadata": {
+    "version": "1.0.0",
+    "created": "2025-07-31T00:00:00Z",
+    "schema_compliance": "character-class.schema.json",
+    "hexagon_reference": "character-classes-core.json",
+    "position_verification": "Position 1 - Glacius Alignment - Intelligence Focus - Cold Affinity"
+  }
+}

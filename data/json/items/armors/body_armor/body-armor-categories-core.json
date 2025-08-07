@@ -1,0 +1,149 @@
+{
+  "id": "body-armor-categories-core",
+  "name": "Body Armor Categories Core",
+  "description": "Core information and generic characteristics shared by all body armor types and categories",
+  "body_slot": "body_armor",
+  "slot_name": "chest",
+  "protection_areas": ["chest", "back", "shoulders", "upper_arms"],
+  "references": {
+    "base_types": "../base-categories-core.json",
+    "description": "Inherits base armor type definitions from base-categories-core.json"
+  },
+  "generic_body_armor_characteristics": {
+    "core_function": "Primary torso protection with major defensive bonuses",
+    "universal_properties": {
+      "vital_organ_protection": {
+        "description": "All body armor provides critical protection for vital organs",
+        "functionality": "Protects heart, lungs, and major blood vessels from damage",
+        "coverage_areas": ["chest_cavity", "spine", "shoulder_joints", "upper_arm_attachment"]
+      },
+      "movement_integration": {
+        "description": "Body armor must integrate with natural body movement",
+        "design_factors": ["joint_flexibility", "breathing_accommodation", "arm_mobility", "torso_rotation"],
+        "enhancement_potential": "Can provide movement bonuses when properly fitted"
+      },
+      "layering_compatibility": {
+        "description": "Body armor serves as the foundation for additional protective layers",
+        "compatibility": ["under_garments", "over_cloaks", "utility_attachments", "mystical_overlays"],
+        "integration": "Designed to work with other equipment pieces"
+      },
+      "status_indication": {
+        "description": "Body armor prominently displays wearer status and affiliations",
+        "visual_elements": ["rank_insignia", "family_crests", "guild_symbols", "divine_alignment"],
+        "social_function": "Primary indicator of wearer's role and position"
+      }
+    },
+    "size_and_fit": {
+      "adjustment_range": "Body armor accommodates various torso sizes through advanced fitting systems",
+      "comfort_factors": ["weight_distribution", "padding_placement", "ventilation_systems", "flexibility_zones"],
+      "ergonomic_design": "Designed for extended wear during combat and adventuring"
+    },
+    "visual_characteristics": {
+      "style_elements": ["plate_patterns", "decorative_elements", "color_schemes", "mystical_markings"],
+      "material_visibility": "Body armor materials and craftsmanship are the most prominently displayed",
+      "divine_manifestation": "Divine alignment most strongly manifests through body armor appearance"
+    }
+  },
+  "armor_type_structure": {
+    "base_types": {
+      "armor": {
+        "folder_name": "armor",
+        "type_name": "Plate Armor",
+        "description": "Maximum physical protection for the torso with full coverage",
+        "generic_characteristics": {
+          "construction": "Full metal plate coverage with articulated joints and reinforced vital areas",
+          "typical_materials": ["steel_plates", "iron_reinforcements", "leather_strapping", "metal_rivets"],
+          "weight": "Very Heavy - provides maximum protection but significantly impacts mobility",
+          "durability": "Extremely durable, resistant to all forms of physical damage",
+          "utility_features": ["attachment_points", "weapon_storage", "utility_pockets"],
+          "comfort": "Extensively padded interior with ventilation and weight distribution systems"
+        }
+      },
+      "evasion": {
+        "folder_name": "evasion",
+        "type_name": "Leather Armor",
+        "description": "Minimal protection focused on mobility and flexibility",
+        "generic_characteristics": {
+          "construction": "Flexible leather construction with minimal rigid components",
+          "typical_materials": ["soft_leather", "flexible_bindings", "lightweight_buckles", "fabric_lining"],
+          "weight": "Light - enhances natural agility and maintains full range of motion",
+          "durability": "Good durability with emphasis on flexibility and repair capability",
+          "utility_features": ["hidden_pockets", "quick_release_systems", "silent_movement"],
+          "comfort": "Extremely comfortable, designed for extended wear without restriction"
+        }
+      },
+      "energy_shield": {
+        "folder_name": "energy_shield",
+        "type_name": "Mystical Robe",
+        "description": "Magical protection through energy barriers and mystical enhancement",
+        "generic_characteristics": {
+          "construction": "Mystical fabrics woven with energy-conducting threads and gem inlays",
+          "typical_materials": ["mystical_fabrics", "energy_crystals", "enchanted_threads", "spirit_weaves"],
+          "weight": "Ethereal - weight varies based on energy saturation and mystical power",
+          "durability": "Variable durability dependent on mystical energy and maintenance",
+          "utility_features": ["spell_amplification", "energy_storage", "mystical_focus"],
+          "comfort": "Adapts to wearer's energy signature and mystical attunement"
+        }
+      }
+    },
+    "hybrid_types": {
+      "armor_evasion": {
+        "folder_name": "armor_evasion",
+        "type_name": "Mail Armor",
+        "description": "Balanced protection with maintained combat mobility",
+        "generic_characteristics": {
+          "construction": "Interlocked metal rings with flexible leather backing",
+          "typical_materials": ["mail_rings", "leather_backing", "reinforced_joints", "padded_interior"],
+          "weight": "Medium - balanced protection and mobility for versatile combat",
+          "durability": "Good durability with maintained flexibility and repair capability",
+          "utility_features": ["modular_attachments", "quick_adjustments", "combat_mobility"],
+          "comfort": "Well-balanced design for extended combat operations"
+        }
+      },
+      "armor_energy_shield": {
+        "folder_name": "armor_energy_shield",
+        "type_name": "Warded Plate",
+        "description": "Heavy protection enhanced with mystical barriers and magical reinforcement",
+        "generic_characteristics": {
+          "construction": "Heavy plate armor integrated with mystical enhancement systems",
+          "typical_materials": ["enchanted_metals", "warded_plates", "mystical_gems", "runed_components"],
+          "weight": "Very Heavy - substantial protection enhanced with mystical power",
+          "durability": "Extremely high durability enhanced by mystical wards and enchantments",
+          "utility_features": ["power_amplification", "mystical_storage", "energy_channeling"],
+          "comfort": "Mystically adjusted for comfort despite substantial construction"
+        }
+      },
+      "evasion_energy_shield": {
+        "folder_name": "evasion_energy_shield",
+        "type_name": "Mystical Leather",
+        "description": "Agile mystical protection combining mobility with energy barriers",
+        "generic_characteristics": {
+          "construction": "Mystical leather enhanced with energy-conducting properties",
+          "typical_materials": ["spirit_leather", "energy_threads", "phase_crystals", "ethereal_components"],
+          "weight": "Light - enhances both agility and mystical connection",
+          "durability": "Moderate durability with self-repair mystical properties",
+          "utility_features": ["energy_manipulation", "mystical_mobility", "phase_capabilities"],
+          "comfort": "Perfectly adapted to wearer's energy flow and movement patterns"
+        }
+      }
+    }
+  },
+  "slot_specializations": {
+    "primary_defense": "Body armor provides the largest contribution to overall defense",
+    "major_bonuses": "Chest pieces often carry the most significant stat modifications",
+    "movement_modification": "Body armor has the greatest impact on mobility and stealth",
+    "divine_manifestation": "Often displays the most prominent divine alignment indicators"
+  },
+  "folder_structure": {
+    "total_type_folders": 6,
+    "organization": "Each armor type has its own folder containing specific implementations",
+    "folder_list": ["armor", "evasion", "energy_shield", "armor_evasion", "armor_energy_shield", "evasion_energy_shield"]
+  },
+  "metadata": {
+    "created": "2025-08-06T00:00:00Z",
+    "last_updated": "2025-08-06T00:00:00Z",
+    "author": "PrimalMyst Development Team",
+    "version": "1.0.0",
+    "canonical": true
+  }
+}

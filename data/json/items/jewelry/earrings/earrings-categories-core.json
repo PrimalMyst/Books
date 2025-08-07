@@ -1,0 +1,110 @@
+{
+  "id": "earrings-categories-core",
+  "name": "Earrings Categories Core",
+  "description": "Core information and generic characteristics shared by all earring types and categories",
+  "jewelry_slot": "earrings",
+  "slot_count": 2,
+  "slot_names": ["left_ear", "right_ear"],
+  "references": {
+    "base_types": "../jewelry-base-categories-core.json",
+    "description": "Inherits resource alignment type definitions from jewelry-base-categories-core.json"
+  },
+  "generic_earrings_characteristics": {
+    "core_function": "Sensory enhancement and awareness improvement through ear-based jewelry",
+    "universal_properties": {
+      "sensory_enhancement": {
+        "description": "All earrings provide enhanced sensory perception and awareness",
+        "functionality": "Improves hearing, balance, and spatial awareness",
+        "enhancement_types": ["acute_hearing", "directional_awareness", "mystical_perception", "communication_clarity"]
+      },
+      "balance_improvement": {
+        "description": "Earrings can enhance physical and mystical balance",
+        "balance_types": ["physical_equilibrium", "mystical_balance", "resource_harmony", "emotional_stability"],
+        "enhancement_potential": "Can provide immunity to disorientation and confusion effects"
+      },
+      "communication_enhancement": {
+        "description": "Earrings can improve communication and language abilities",
+        "communication_types": ["speech_clarity", "language_comprehension", "telepathic_links", "divine_communication"],
+        "mystical_function": "Facilitates enhanced communication with party members and divine entities"
+      },
+      "aesthetic_presence": {
+        "description": "Earrings contribute significantly to personal appearance and social presence",
+        "social_effects": ["charisma_bonuses", "social_standing", "cultural_significance", "personal_expression"],
+        "enhancement_potential": "Can amplify personal magnetism and social influence"
+      }
+    },
+    "wearing_mechanics": {
+      "dual_slot_system": "Two separate earring slots allow for matching pairs or complementary combinations",
+      "pairing_options": ["matching_set", "complementary_types", "asymmetric_combinations"],
+      "set_bonuses": "Wearing matching earrings can provide additional set bonuses"
+    },
+    "size_and_fit": {
+      "adjustment_range": "Earrings accommodate various ear sizes through mystical or mechanical adjustment",
+      "comfort_factors": ["weight_distribution", "secure_attachment", "non_irritating_materials"],
+      "ergonomic_design": "Designed for extended wear without discomfort or hearing impairment"
+    },
+    "visual_characteristics": {
+      "style_elements": ["gem_settings", "metal_work", "dangling_elements", "mystical_auras"],
+      "material_visibility": "Earring materials and craftsmanship are prominently displayed near the face",
+      "divine_manifestation": "Divine alignment can manifest through earring auras and sound effects"
+    }
+  },
+  "resource_type_structure": {
+    "base_types": {
+      "health": {
+        "folder_name": "health",
+        "type_name": "Vitality Earrings",
+        "description": "Life force enhancement through ear-based health jewelry",
+        "generic_characteristics": {
+          "construction": "Health-aligned gems set in vitality-enhancing metals",
+          "typical_materials": ["ruby_gems", "carnelian", "garnet", "life_gold", "copper_alloys"],
+          "resource_focus": "Health points and vitality enhancement",
+          "enhancement_effects": ["health_regeneration", "physical_resistance", "constitution_bonuses"],
+          "aesthetic": "Warm colors with life-energy auras and pulsing effects"
+        }
+      },
+      "mana": {
+        "folder_name": "mana",
+        "type_name": "Mystical Earrings",
+        "description": "Magical energy enhancement through ear-based mana jewelry",
+        "generic_characteristics": {
+          "construction": "Mana-aligned gems set in mystically conductive metals",
+          "typical_materials": ["sapphire_gems", "amethyst", "lapis_lazuli", "silver", "mystical_alloys"],
+          "resource_focus": "Mana points and magical power enhancement",
+          "enhancement_effects": ["mana_regeneration", "spell_power", "intelligence_bonuses"],
+          "aesthetic": "Cool colors with mystical auras and flowing energy effects"
+        }
+      },
+      "stamina": {
+        "folder_name": "stamina",
+        "type_name": "Endurance Earrings",
+        "description": "Physical endurance enhancement through ear-based stamina jewelry",
+        "generic_characteristics": {
+          "construction": "Stamina-aligned gems set in endurance-boosting metals",
+          "typical_materials": ["emerald_gems", "jade", "peridot", "bronze", "titanium_alloys"],
+          "resource_focus": "Stamina points and endurance enhancement",
+          "enhancement_effects": ["stamina_regeneration", "action_speed", "agility_bonuses"],
+          "aesthetic": "Natural colors with kinetic auras and movement-based effects"
+        }
+      }
+    }
+  },
+  "slot_specializations": {
+    "sensory_bonuses": "Earrings provide the primary bonuses to hearing and perception",
+    "communication_enhancement": "Ear jewelry significantly affects communication and language abilities",
+    "balance_improvement": "Earrings can enhance both physical and mystical balance",
+    "social_presence": "Earring style and quality contribute to social interactions and charisma"
+  },
+  "folder_structure": {
+    "total_type_folders": 3,
+    "organization": "Each resource type has its own folder containing specific implementations",
+    "folder_list": ["health", "mana", "stamina"]
+  },
+  "metadata": {
+    "created": "2025-08-06T00:00:00Z",
+    "last_updated": "2025-08-06T00:00:00Z",
+    "author": "PrimalMyst Development Team",
+    "version": "1.0.0",
+    "canonical": true
+  }
+}

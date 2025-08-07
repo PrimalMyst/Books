@@ -1,0 +1,465 @@
+{
+  "system_id": "divine-alignment-buffs",
+  "name": "Divine Alignment Buff System",
+  "description": "Comprehensive system defining all mechanical bonuses, penalties, and special abilities granted through divine trial completion and divine positioning relationships.",
+  "design_philosophy": "Divine alignment provides tangible benefits that reflect the practitioner's relationship with cosmic forces while maintaining player agency and choice flexibility.",
+
+  "alignment_categories": {
+    "fundamental_trio": {
+      "category_name": "Fundamental God Elemental Affinities",
+      "description": "Elemental mastery patterns established through three Fundamental God trial completions",
+      "gods_included": ["pyrion", "glacius", "voltharion"],
+      "trial_mechanic": "element_choice_at_each_trial",
+      "possible_outcomes": 7,
+      "outcome_types": ["pure_element", "primary_element", "balanced_elements"]
+    },
+    "primal_trio": {
+      "category_name": "Primal God Opposition Patterns",
+      "description": "Divine relationship patterns established through three Primal God trial completions",
+      "gods_included": ["serafina", "aurelius", "korthak"],
+      "trial_mechanic": "follow_oppose_choice_at_each_trial",
+      "constraint": "must_oppose_at_least_one",
+      "possible_outcomes": 7
+    }
+  },
+
+  "fundamental_elemental_affinities": {
+    "pure_fire_mastery": {
+      "pattern": "3x Fire trials",
+      "thematic_name": "Anger",
+      "description": "Complete dedication to Pyrion's creative fire - pure burning anger that creates and destroys",
+      "primary_god": "pyrion",
+      "benefits": {
+        "fire_immunity": "Complete immunity to fire damage from non-divine sources",
+        "fire_mastery": "+50% fire damage effectiveness",
+        "creation_authority": "+15 to all crafting and artistic endeavors",
+        "vitality_regeneration": "+10 vitality per hour in peaceful areas",
+        "divine_champion_status": "Maximum Pyrion champion abilities",
+        "cosmic_authority": "Authority over fire and creation in cosmic events"
+      },
+      "environmental_mastery": "No penalties in any fire-dominant environment",
+      "divine_realm_access": "Full access to Pyrion's forge realm"
+    },
+
+    "pure_cold_mastery": {
+      "pattern": "3x Cold trials",
+      "thematic_name": "Hatred",
+      "description": "Complete dedication to Glacius' preserving cold - pure freezing hatred that preserves and entombs",
+      "primary_god": "glacius",
+      "benefits": {
+        "cold_immunity": "Complete immunity to cold damage from non-divine sources",
+        "cold_mastery": "+50% cold damage effectiveness",
+        "knowledge_authority": "+15 to all research and investigation",
+        "intelligence_enhancement": "+10 intelligence for problem-solving",
+        "divine_champion_status": "Maximum Glacius champion abilities",
+        "eternal_preservation": "Character and memories cannot be erased or forgotten"
+      },
+      "environmental_mastery": "No penalties in any cold-dominant environment",
+      "divine_realm_access": "Full access to Glacius' eternal archives"
+    },
+
+    "pure_lightning_mastery": {
+      "pattern": "3x Lightning trials",
+      "thematic_name": "Wrath",
+      "description": "Complete dedication to Voltharion's connecting lightning - pure crackling wrath that connects and strikes",
+      "primary_god": "voltharion",
+      "benefits": {
+        "lightning_immunity": "Complete immunity to lightning damage from non-divine sources",
+        "lightning_mastery": "+50% lightning damage effectiveness",
+        "connection_authority": "+15 to all social interactions and persuasion",
+        "dexterity_enhancement": "+10 dexterity for speed and coordination",
+        "divine_champion_status": "Maximum Voltharion champion abilities",
+        "omnipresent_awareness": "Sense of connection to all things in reality instance"
+      },
+      "environmental_mastery": "No penalties in any lightning-dominant environment",
+      "divine_realm_access": "Full access to Voltharion's eternal web"
+    },
+
+    "fire_cold_affinity": {
+      "pattern": "Fire + Cold combinations (2x Fire + 1x Cold OR 1x Fire + 2x Cold)",
+      "thematic_name": "Fury",
+      "description": "Mastery of creation and preservation through fire and cold synthesis - burning fury tempered by cold calculation",
+      "primary_gods": ["pyrion", "glacius"],
+      "benefits": {
+        "fire_cold_resistance": "+40% fire and cold damage resistance",
+        "creation_preservation": "+25% fire and cold damage effectiveness",
+        "craft_knowledge_synthesis": "+10 to crafting and research",
+        "vitality_intelligence": "+5 vitality regeneration and +5 intelligence",
+        "dual_authority": "Authority over creation and preservation domains",
+        "temperature_mastery": "No penalties in extreme temperature environments"
+      },
+      "environmental_adaptation": "Enhanced benefits in forge/archive environments",
+      "unique_abilities": ["Thermal Balance - manipulate temperature extremes", "Creation Archive - permanent magical item creation"]
+    },
+
+    "fire_lightning_affinity": {
+      "pattern": "Fire + Lightning combinations (2x Fire + 1x Lightning OR 1x Fire + 2x Lightning)",
+      "thematic_name": "Rage",
+      "description": "Mastery of creation and connection through fire and lightning synthesis - explosive rage that spreads like wildfire",
+      "primary_gods": ["pyrion", "voltharion"],
+      "benefits": {
+        "fire_lightning_resistance": "+40% fire and lightning damage resistance",
+        "creation_connection": "+25% fire and lightning damage effectiveness",
+        "craft_social_synthesis": "+10 to crafting and social interactions",
+        "vitality_dexterity": "+5 vitality regeneration and +5 dexterity",
+        "dual_authority": "Authority over creation and connection domains",
+        "energy_mastery": "No penalties in high-energy environments"
+      },
+      "environmental_adaptation": "Enhanced benefits in forge/network environments",
+      "unique_abilities": ["Energy Forge - craft with pure energy", "Creative Networks - inspire through connection"]
+    },
+
+    "cold_lightning_affinity": {
+      "pattern": "Cold + Lightning combinations (2x Cold + 1x Lightning OR 1x Cold + 2x Lightning)",
+      "thematic_name": "Malice",
+      "description": "Mastery of preservation and connection through cold and lightning synthesis - calculated malice that strikes with precision",
+      "primary_gods": ["glacius", "voltharion"], 
+      "benefits": {
+        "cold_lightning_resistance": "+40% cold and lightning damage resistance",
+        "preservation_connection": "+25% cold and lightning damage effectiveness",
+        "knowledge_social_synthesis": "+10 to research and social interactions",
+        "intelligence_dexterity": "+5 intelligence and +5 dexterity",
+        "dual_authority": "Authority over preservation and connection domains",
+        "information_mastery": "No penalties in data-rich environments"
+      },
+      "environmental_adaptation": "Enhanced benefits in archive/network environments",
+      "unique_abilities": ["Information Networks - preserve knowledge across connections", "Static Archive - freeze information in time"]
+    },
+
+    "balanced_elemental_mastery": {
+      "pattern": "1x Fire + 1x Cold + 1x Lightning",
+      "thematic_name": "Purity of Elements",
+      "description": "Harmonious balance of all three fundamental elements - pure elemental mastery transcending base emotion",
+      "primary_gods": ["pyrion", "glacius", "voltharion"],
+      "benefits": {
+        "elemental_versatility": "+25% resistance to fire, cold, and lightning damage",
+        "balanced_mastery": "+15% damage effectiveness with fire, cold, and lightning",
+        "synthesis_skills": "+5 to crafting, research, and social interactions",
+        "adaptive_attributes": "+3 to vitality, intelligence, and dexterity",
+        "environmental_adaptation": "No penalties in any elemental environment",
+        "unique_abilities": ["Elemental Synthesis - combine elements", "Perfect Balance - resist all elemental effects"]
+      },
+      "cosmic_significance": "Represents mastery of fundamental forces, preparation for transcendent challenges"
+    }
+  },
+
+  "primal_opposition_patterns": {
+    "follow_serafina_only": {
+      "pattern": "Follow Serafina Only (Oppose Aurelius + Oppose Korthak)",
+      "thematic_name": "Revolution",
+      "description": "Revolutionary change agent opposing both order and tradition - pure revolutionary spirit unleashed",
+      "philosophy": "Beneficial chaos as the only true path, rejecting stagnant protection and rigid strength",
+      "benefits": {
+        "chaos_mastery": "+50% chaos damage effectiveness",
+        "revolutionary_authority": "+15 to creative problem solving and innovation",
+        "change_mastery": "+10 adaptability",
+        "order_tradition_opposition": "-25% radiance and physical damage effectiveness",
+        "pure_abilities": ["Avatar of Change - temporary transformation avatar", "Revolution Mastery - transform any system", "Chaos Authority - control chaotic forces"]
+      },
+      "npc_reactions": "Oppressed groups see you as liberator, all traditional groups distrust you",
+      "environmental_effects": "Maximum benefits in chaotic environments, major penalties in ordered/traditional areas"
+    },
+
+    "follow_aurelius_only": {
+      "pattern": "Follow Aurelius Only (Oppose Serafina + Oppose Korthak)",
+      "thematic_name": "Sanctuary",
+      "description": "Protective order champion opposing both chaos and rigid tradition - sacred sanctuary of pure protection",
+      "philosophy": "Truth and protection as the highest calling, rejecting both disruptive change and inflexible tradition",
+      "benefits": {
+        "order_mastery": "+50% radiance damage effectiveness",
+        "protection_authority": "+15 to healing abilities and truth detection",
+        "wisdom_mastery": "+10 wisdom",
+        "chaos_tradition_opposition": "-25% chaos and physical damage effectiveness",
+        "pure_abilities": ["Avatar of Protection - temporary guardian avatar", "Truth Mastery - reveal ultimate truth", "Order Authority - create and maintain sanctuaries"]
+      },
+      "npc_reactions": "Innocent and oppressed trust you completely, revolutionaries and traditionalists oppose you",
+      "environmental_effects": "Maximum benefits in sanctuary environments, major penalties in chaotic/military areas"
+    },
+
+    "follow_korthak_only": {
+      "pattern": "Follow Korthak Only (Oppose Serafina + Oppose Aurelius)",
+      "thematic_name": "Honor",
+      "description": "Traditional strength champion opposing both chaos and protective order - pure honor through disciplined might",
+      "philosophy": "Honor and disciplined strength as ultimate truth, rejecting both disruptive change and soft protection",
+      "benefits": {
+        "might_mastery": "+50% physical damage effectiveness",
+        "honor_authority": "+15 to honor-based interactions and combat mastery",
+        "strength_mastery": "+10 strength",
+        "chaos_order_opposition": "-25% chaos and radiance damage effectiveness",
+        "pure_abilities": ["Avatar of Honor - temporary champion avatar", "Justice Mastery - enforce cosmic justice", "Might Authority - command through righteous strength"]
+      },
+      "npc_reactions": "Traditional warriors honor you deeply, reformers and healers distrust you",
+      "environmental_effects": "Maximum benefits in competitive/military environments, major penalties in chaotic/sanctuary areas"
+    },
+
+    "oppose_serafina_only": {
+      "pattern": "Oppose Serafina Only (Follow Aurelius + Follow Korthak)",
+      "thematic_name": "Tradition",
+      "description": "Traditional protection alliance opposing revolutionary chaos - steadfast tradition through protective strength",
+      "philosophy": "Protective order and honorable strength united against disruptive change",
+      "benefits": {
+        "order_might_synthesis": "+25% radiance and physical damage effectiveness",
+        "traditional_protection": "+10 to both healing abilities and honor-based interactions",
+        "protective_strength": "+5 wisdom and +5 strength",
+        "chaos_opposition": "-15% chaos damage effectiveness and adaptation penalties",
+        "alliance_abilities": ["Honorable Protection - defend through righteous strength", "Order Through Might - maintain stability through disciplined power"]
+      },
+      "npc_reactions": "Traditional societies and protectors honor you, revolutionaries oppose you",
+      "environmental_effects": "Enhanced benefits in sanctuary/military environments, penalties in chaotic/changing areas"
+    },
+
+    "oppose_aurelius_only": {
+      "pattern": "Oppose Aurelius Only (Follow Serafina + Follow Korthak)",
+      "thematic_name": "Ambition",
+      "description": "Revolutionary strength alliance opposing protective order - ambitious drive for honorable change",
+      "philosophy": "Beneficial change and honorable might united against stagnant protection",
+      "benefits": {
+        "chaos_might_synthesis": "+25% chaos and physical damage effectiveness",
+        "revolutionary_strength": "+10 to both creative problem solving and honor-based interactions",
+        "adaptive_power": "+5 adaptability and +5 strength",
+        "protection_opposition": "-15% radiance damage effectiveness and healing penalties",
+        "alliance_abilities": ["Honor Through Change - maintain honor while revolutionizing", "Strength of Innovation - power through new approaches"]
+      },
+      "npc_reactions": "Reformers and honorable warriors respect you, traditional protectors oppose you",
+      "environmental_effects": "Enhanced benefits in competitive/changing environments, penalties in sanctuary/healing areas"
+    },
+
+    "oppose_korthak_only": {
+      "pattern": "Oppose Korthak Only (Follow Serafina + Follow Aurelius)",
+      "thematic_name": "Compassion",
+      "description": "Revolutionary healing alliance opposing traditional strength - compassionate change through healing wisdom",
+      "philosophy": "Beneficial change and protection united against rigid tradition",
+      "benefits": {
+        "chaos_order_synthesis": "+25% chaos and radiance damage effectiveness",
+        "revolutionary_healing": "+10 to both creative problem solving and healing abilities",
+        "adaptive_protection": "+5 adaptability and +5 wisdom",
+        "traditional_opposition": "-15% physical damage effectiveness against traditional/honor targets",
+        "alliance_abilities": ["Beneficial Revolution - heal through positive change", "Protective Chaos - create order through controlled change"]
+      },
+      "npc_reactions": "Oppressed groups and healers love you, traditional warriors distrust you",
+      "environmental_effects": "Enhanced benefits in changing/healing environments, penalties in rigid/military areas"
+    },
+
+    "oppose_all_primals": {
+      "pattern": "Oppose All Primals (Oppose Serafina + Oppose Aurelius + Oppose Korthak)",
+      "thematic_name": "Heretic",
+      "description": "Independent path rejecting all divine authority - heretical stance against all divine influence",
+      "philosophy": "True strength comes from within, not from following any divine principle",
+      "benefits": {
+        "independent_mastery": "No damage bonuses, but +25% resistance to all divine damage types",
+        "self_authority": "+10 to all skills through self-reliance",
+        "cosmic_independence": "+5 to all attributes through personal development",
+        "divine_opposition": "-15% effectiveness with all divine magic types",
+        "unique_abilities": ["Divine Resistance - immunity to divine influence", "Self Mastery - enhanced personal growth", "Independent Authority - cosmic recognition without divine backing"]
+      },
+      "npc_reactions": "Respected for independence, but all divine factions view with suspicion",
+      "environmental_effects": "Moderate benefits everywhere, but no maximum benefits anywhere"
+    }
+  },
+
+  "character_archetype_combinations": {
+    "total_combinations": 49,
+    "combination_formula": "7 Elemental Layer Positions × 7 Primal Layer Positions = 49 Unique Hexagonal Archetypes",
+    "transcendent_center_combinations": 4,
+    "layer_combination_examples": {
+      "pure_fire_follow_serafina_only": {
+        "elemental_layer": "creation_layer_apex",
+        "primal_layer": "revolution_layer_apex", 
+        "combined_position": "Creation-Revolution Apex",
+        "archetype": "Revolutionary Fire Master",
+        "description": "Maximum creation and change authority, transforming reality through fire and revolution",
+        "hexagonal_significance": "Dual apex position - peak creative and revolutionary power"
+      },
+      "fire_cold_oppose_serafina_only": {
+        "elemental_layer": "creation_preservation_synthesis",
+        "primal_layer": "protective_authority_layer",
+        "combined_position": "Creation-Preservation + Authority Layer Synthesis", 
+        "archetype": "Traditional Fire-Cold Guardian",
+        "description": "Dual elemental protector maintaining order through creative preservation",
+        "hexagonal_significance": "Synthesis position - dual elemental authority through protective tradition"
+      },
+      "balanced_oppose_all_primals": {
+        "elemental_layer": "hexagon_center_transcendent",
+        "primal_layer": "hexagon_center_independent",
+        "combined_position": "Dual Center - Transcendent Independent",
+        "archetype": "Independent Elemental Master", 
+        "description": "Self-reliant practitioner mastering all elements without divine dependence",
+        "hexagonal_significance": "Ultimate center position - transcends all layers through complete independence"
+      },
+      "pure_cold_oppose_korthak_only": {
+        "elemental_layer": "preservation_layer_apex",
+        "primal_layer": "adaptive_harmony_layer",
+        "combined_position": "Preservation Apex + Harmony Layer Synthesis",
+        "archetype": "Revolutionary Archive Keeper",
+        "description": "Knowledge preserver who heals through beneficial change", 
+        "hexagonal_significance": "Apex-layer synthesis - peak preservation through adaptive harmony"
+      },
+      "cold_lightning_follow_aurelius_only": {
+        "elemental_layer": "preservation_connection_synthesis",
+        "primal_layer": "sanctuary_layer_apex",
+        "combined_position": "Preservation-Connection Synthesis + Sanctuary Apex",
+        "archetype": "Connected Sanctuary Guardian",
+        "description": "Network-focused protector creating unity through preserved truth",
+        "hexagonal_significance": "Synthesis-apex combination - dual elemental mastery through peak sanctuary authority"
+      }
+    },
+
+    "hexagonal_positioning_benefits": {
+      "apex_positions": "Peak layer authority with maximum specialization bonuses",
+      "primary_positions": "Strong layer focus with secondary layer integration", 
+      "synthesis_positions": "Combined layer benefits creating unique hybrid capabilities",
+      "center_positions": "Transcendent abilities that operate beyond normal layer limitations",
+      "dual_center": "Ultimate transcendent state combining elemental mastery with divine independence"
+    }
+  },
+
+  "hexagonal_architecture_integration": {
+    "core_design_principle": "Divine alignment patterns map directly to hexagonal layers, with special center positions for transcendent outcomes",
+    
+    "elemental_layer_mapping": {
+      "pure_fire_mastery": {
+        "hexagonal_position": "creation_layer_apex",
+        "layer_name": "Creation Layer",
+        "position_description": "Peak creation authority through pure fire mastery"
+      },
+      "pure_cold_mastery": {
+        "hexagonal_position": "preservation_layer_apex", 
+        "layer_name": "Preservation Layer",
+        "position_description": "Peak preservation authority through pure cold mastery"
+      },
+      "pure_lightning_mastery": {
+        "hexagonal_position": "connection_layer_apex",
+        "layer_name": "Connection Layer", 
+        "position_description": "Peak connection authority through pure lightning mastery"
+      },
+      "fire_cold_affinity": {
+        "hexagonal_position": "creation_preservation_synthesis",
+        "layer_name": "Creation-Preservation Synthesis Layer",
+        "position_description": "Dual mastery of creation and preservation through fire-cold synthesis"
+      },
+      "fire_lightning_affinity": {
+        "hexagonal_position": "creation_connection_synthesis",
+        "layer_name": "Creation-Connection Synthesis Layer",
+        "position_description": "Dual mastery of creation and connection through fire-lightning synthesis"
+      },
+      "cold_lightning_affinity": {
+        "hexagonal_position": "preservation_connection_synthesis",
+        "layer_name": "Preservation-Connection Synthesis Layer",
+        "position_description": "Dual mastery of preservation and connection through cold-lightning synthesis"
+      },
+      "balanced_elemental_mastery": {
+        "hexagonal_position": "hexagon_center_transcendent",
+        "layer_name": "Transcendent Center",
+        "position_description": "Perfect balance transcending individual layers - embracing all fundamentals"
+      }
+    },
+
+    "primal_layer_mapping": {
+      "follow_serafina_only": {
+        "hexagonal_position": "revolution_layer_apex",
+        "layer_name": "Revolution Layer",
+        "position_description": "Pure revolutionary change opposing all traditional structure"
+      },
+      "follow_aurelius_only": {
+        "hexagonal_position": "sanctuary_layer_apex", 
+        "layer_name": "Sanctuary Layer",
+        "position_description": "Pure protective order opposing all chaos and rigidity"
+      },
+      "follow_korthak_only": {
+        "hexagonal_position": "justice_layer_apex",
+        "layer_name": "Justice Layer",
+        "position_description": "Pure honorable strength opposing all weakness and disruption"
+      },
+      "oppose_serafina_only": {
+        "hexagonal_position": "protective_authority_layer",
+        "layer_name": "Protective Authority Layer",
+        "position_description": "Traditional strength synthesis opposing disruptive change"
+      },
+      "oppose_aurelius_only": {
+        "hexagonal_position": "dynamic_strength_layer",
+        "layer_name": "Dynamic Strength Layer", 
+        "position_description": "Innovative power synthesis opposing stagnant protection"
+      },
+      "oppose_korthak_only": {
+        "hexagonal_position": "adaptive_harmony_layer",
+        "layer_name": "Adaptive Harmony Layer",
+        "position_description": "Revolutionary healing synthesis opposing rigid tradition"
+      },
+      "oppose_all_primals": {
+        "hexagonal_position": "hexagon_center_independent",
+        "layer_name": "Independent Center", 
+        "position_description": "Self-reliant mastery transcending all divine authority - opposing all primals"
+      }
+    },
+
+    "center_position_exceptions": {
+      "balanced_elemental_mastery": {
+        "reason": "Embraces all three fundamental elements equally",
+        "cosmic_significance": "Represents mastery over fundamental forces",
+        "hexagonal_meaning": "Transcends individual elemental layers through perfect synthesis"
+      },
+      "triple_opposition": {
+        "reason": "Opposes all three primal authorities equally", 
+        "cosmic_significance": "Represents complete independence from divine influence",
+        "hexagonal_meaning": "Transcends all divine layers through self-reliant mastery"
+      }
+    }
+  },
+
+  "mechanical_interactions": {
+    "combination_system": {
+      "description": "Players create unique character archetypes by combining hexagonal elemental layers with hexagonal primal layers",
+      "total_combinations": 49,
+      "formula": "7 elemental layer positions × 7 primal layer positions = 49 unique hexagonal archetypes",
+      "special_combinations": "4 combinations involving center positions represent transcendent archetypes"
+    },
+
+    "hexagonal_system_integration": {
+      "description": "Divine alignment determines hexagonal layer positioning exclusively through divine trial completion",
+      "independence_design": "Divine positioning is completely separate from character class mechanics",
+      "choice_freedom": "Players choose their hexagonal positioning through trial choices rather than external assignment",
+      "trial_unlocks": "Trial completion determines permanent hexagonal layer access and positioning"
+    },
+
+    "origin_island_inheritance": {
+      "attribute_source": "Character classes inherit attribute growth patterns from their origin island hexagonal position",
+      "island_positioning": "Starting island determines hexagonal-based attribute development independent of divine trials",
+      "class_mechanics": "Classes provide ascendancy anchors and basic mechanics without hexagonal positioning benefits"
+    },
+
+    "environmental_interactions": {
+      "elemental_domains": "Enhanced benefits when operating in environments matching elemental affinity",
+      "primal_territories": "Social benefits or penalties based on primal pattern alignment with local cultures",
+      "neutral_areas": "Standard benefits and penalties in non-aligned areas"
+    }
+  },
+
+  "implementation_notes": {
+    "hexagonal_layer_tracking": "System tracks elemental layer positions and primal layer positions within core hexagonal architecture",
+    "buff_application": "All bonuses apply automatically based on hexagonal layer positioning determined by trial completion patterns",
+    "trial_mechanics": "Each trial choice determines hexagonal layer positioning that affects final character archetype",
+    "balance_considerations": "Apex layer positions balanced against synthesis positions and center transcendent positions through different benefit types",
+    "progression_clarity": "Players can clearly see how their trial choices will position them within the hexagonal architecture"
+  },
+
+  "system_philosophy": {
+    "hexagonal_integration": "Divine alignment is fully integrated with core hexagonal architecture rather than being a separate system",
+    "meaningful_positioning": "Every trial choice significantly impacts hexagonal layer positioning and cosmic authority",
+    "multiple_viable_layers": "All 49 layer combinations provide unique and effective character builds within hexagonal framework",
+    "clear_consequences": "Players can understand how their choices position them within the cosmic hexagonal structure",
+    "roleplay_support": "Each hexagonal position combination supports distinct character personalities and cosmic approaches",
+    "cosmic_preparation": "All layer positions ultimately prepare characters for cosmic challenges through different hexagonal pathways",
+    "transcendent_exceptions": "Center positions represent true transcendence - embracing all fundamentals or opposing all primals"
+  },
+
+  "metadata": {
+    "created": "2025-08-05T00:00:00Z",
+    "last_updated": "2025-08-05T00:00:00Z",
+    "author": "PrimalMyst Development Team",
+    "version": "1.0.0",
+    "canonical": true,
+    "system_type": "buff_framework",
+    "reference_systems": ["divine_positioning", "trial_system_core", "core_thematic_hexagon"],
+    "related_mechanics": ["divine-trial-progression-requirements"]
+  }
+}

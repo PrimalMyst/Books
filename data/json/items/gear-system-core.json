@@ -1,0 +1,202 @@
+{
+  "id": "gear-system-core",
+  "name": "PrimalMyst Gear System",
+  "description": "Core framework for the three-tier gear system in PrimalMyst",
+  "version": "1.0.0",
+  "gear_system": {
+    "total_gear_slots": 12,
+    "gear_categories": ["weapons", "jewelry", "armor"],
+    "equipment_philosophy": "Balanced progression with specialized enhancement options across three distinct gear categories"
+  },
+  "gear_categories": {
+    "weapons": {
+      "description": "Combat-focused equipment for dealing damage and enabling special abilities",
+      "status": "comprehensive_implementation",
+      "slots": 1,
+      "slot_configuration": {
+        "weapon_slot": {
+          "hand_usage_types": ["two_handed", "main_hand", "off_hand"],
+          "combat_styles": ["melee", "ranged", "spell_caster", "defensive"],
+          "total_categories": 10,
+          "category_breakdown": {
+            "two_handed": ["melee", "ranged", "spell_caster"],
+            "main_hand": ["melee", "ranged", "spell_caster"],
+            "off_hand": ["melee", "ranged", "spell_caster", "defensive"]
+          },
+          "restrictions": "One primary weapon at a time",
+          "two_handed_consideration": "Two-handed weapons occupy the entire weapon slot and prevent shield use",
+          "defensive_items": "Off-hand defensive items include shields and parrying weapons"
+        }
+      },
+      "implementation_status": {
+        "base_framework": "Complete with hand usage and combat style categorization",
+        "individual_weapons": "124 placeholder weapon files created across all categories",
+        "folder_structure": "Linear hierarchical organization implemented",
+        "examples_created": "Comprehensive weapon examples from basic to cosmic tiers"
+      },
+      "weapon_categories": {
+        "two_handed_melee": "Powerful melee weapons requiring both hands (longsword, greatsword, halberd, pike)",
+        "two_handed_ranged": "Long-range weapons requiring both hands (longbow, crossbow, war bow, ballista)",
+        "two_handed_spell_caster": "Powerful magical implements (staff, quarterstaff, crystal staff, battlestaff)",
+        "main_hand_melee": "Versatile one-handed melee weapons (sword, axe, rapier, falchion)",
+        "main_hand_ranged": "One-handed ranged weapons (hand crossbow, javelin, throwing axe, dart)",
+        "main_hand_spell_caster": "One-handed magical implements (wand, scepter, orb, focus)",
+        "off_hand_melee": "Fast dual-wield weapons (dagger, stiletto, kukri, parrying dagger)",
+        "off_hand_ranged": "Rapid-fire ranged weapons (throwing knife, shuriken, dart, kunai)",
+        "off_hand_spell_caster": "Utility magical implements (focus crystal, charm, elemental gem)",
+        "off_hand_defensive": "Protective items (shields, sword breakers, defensive weapons)"
+      },
+      "future_features": [
+        "Individual weapon stat implementation",
+        "Weapon skill trees and mastery systems",
+        "Divine weapon enchantments and transformations",
+        "Material and crafting system integration",
+        "Legendary weapon questlines and progression"
+      ]
+    },
+    "jewelry": {
+      "description": "Mystical accessories providing passive bonuses, resistances, and unique effects",
+      "status": "fully_specified",
+      "total_slots": 6,
+      "slot_configuration": {
+        "earrings": {
+          "slots": 2,
+          "slot_names": ["left_earring", "right_earring"],
+          "typical_effects": ["Mystical resistance", "Divine connection enhancement", "Attribute bonuses"],
+          "size_restriction": "Small jewelry items only"
+        },
+        "rings": {
+          "slots": 2,
+          "slot_names": ["left_ring", "right_ring"],
+          "typical_effects": ["Damage bonuses", "Special abilities", "Set bonuses", "Unique active effects"],
+          "size_restriction": "Finger-worn accessories only"
+        },
+        "amulet": {
+          "slots": 1,
+          "slot_names": ["neck_amulet"],
+          "typical_effects": ["Major passive abilities", "Transformation bonuses", "Cosmic connections"],
+          "size_restriction": "Neck-worn pendant or charm"
+        },
+        "belt_lock": {
+          "slots": 1,
+          "slot_names": ["belt_attachment"],
+          "typical_effects": ["Utility abilities", "Resource management", "Emergency effects"],
+          "size_restriction": "Belt-mounted accessory or tool",
+          "description": "Special attachment point on the belt for utility items, charms, or mystical focuses"
+        }
+      },
+      "jewelry_philosophy": {
+        "design_principle": "Jewelry provides specialized mystical enhancements that complement core abilities without overshadowing them",
+        "balance_consideration": "Six jewelry slots allow for diverse customization while maintaining clear identity",
+        "thematic_integration": "Each jewelry type serves different mystical functions aligned with PrimalMyst's divine and hexagonal themes"
+      }
+    },
+    "armor": {
+      "description": "Protective equipment providing defense, resistances, and utility features",
+      "status": "fully_specified", 
+      "total_slots": 6,
+      "slot_configuration": {
+        "helmet": {
+          "slots": 1,
+          "protection_areas": ["head", "face", "neck_partial"],
+          "typical_effects": ["Mystical resistance", "Vision enhancements", "Mental protections"],
+          "armor_types": ["light_helm", "battle_helm", "crown", "circlet", "hood", "mask"]
+        },
+        "body_armor": {
+          "slots": 1,
+          "protection_areas": ["chest", "back", "shoulders", "upper_arms"],
+          "typical_effects": ["Primary physical protection", "Major defensive bonuses", "Movement modifications"],
+          "armor_types": ["robe", "leather_armor", "chainmail", "plate_armor", "mystical_garb", "battle_dress"]
+        },
+        "gloves": {
+          "slots": 1,
+          "protection_areas": ["hands", "wrists", "forearms"],
+          "typical_effects": ["Dexterity bonuses", "Crafting enhancements", "Touch-based abilities"],
+          "armor_types": ["leather_gloves", "gauntlets", "mystical_wraps", "fingerless_gloves", "claws", "hand_guards"],
+          "design_note": "Gloves and gauntlets are treated as a single armor piece"
+        },
+        "belt": {
+          "slots": 1,
+          "protection_areas": ["waist", "lower_back"],
+          "typical_effects": ["Utility storage", "Resource bonuses", "Core stability"],
+          "armor_types": ["leather_belt", "chain_belt", "mystical_sash", "utility_harness", "ceremonial_girdle"],
+          "special_feature": "Belt provides the attachment point for the belt_lock jewelry slot"
+        },
+        "pants": {
+          "slots": 1,
+          "protection_areas": ["thighs", "knees", "shins"],
+          "typical_effects": ["Mobility enhancements", "Lower body protection", "Movement abilities"],
+          "armor_types": ["cloth_pants", "leather_leggings", "chain_leggings", "plate_leggings", "mystical_wraps", "battle_skirt"]
+        },
+        "boots": {
+          "slots": 1,
+          "protection_areas": ["feet", "ankles", "calves"],
+          "typical_effects": ["Movement speed", "Terrain adaptation", "Stealth bonuses"],
+          "armor_types": ["leather_boots", "metal_boots", "mystical_sandals", "combat_boots", "elemental_footwear"],
+          "design_note": "Boots are treated as a single armor piece covering both feet"
+        }
+      },
+      "armor_philosophy": {
+        "design_principle": "Six armor pieces provide comprehensive protection while allowing for diverse aesthetic and functional choices",
+        "balance_consideration": "Each armor slot serves distinct protective and enhancement roles",
+        "thematic_integration": "Armor reflects the wearer's cultural background, divine alignment, and personal style preferences"
+      }
+    }
+  },
+  "slot_summary": {
+    "weapons": 1,
+    "jewelry": 6,
+    "armor": 6,
+    "total_equipment_slots": 13,
+    "note": "13 total slots (1 weapon + 6 jewelry + 6 armor) provide extensive customization while maintaining clear equipment identity"
+  },
+  "enhancement_systems": {
+    "divine_influences": {
+      "description": "All gear can be influenced by divine energies from the six primary gods",
+      "application": "Gear gains thematic bonuses and effects based on divine alignment",
+      "flexibility": "Players can seek gear aligned with their preferred divine traditions"
+    },
+    "hexagonal_resonance": {
+      "description": "Gear can resonate with hexagonal positioning and cosmic patterns",
+      "application": "Equipment bonuses that complement hexagonal positioning benefits",
+      "integration": "Gear effects harmonize with divine trial positioning without direct dependency"
+    },
+    "rank_progression": {
+      "description": "Gear follows the E-D-C-B-A-S-SS rank system",
+      "application": "Higher rank gear provides more powerful effects and greater customization",
+      "balance": "Ensures meaningful progression throughout the entire level range"
+    },
+    "set_bonuses": {
+      "description": "Related gear pieces can provide set bonuses when worn together",
+      "application": "Wearing multiple pieces from the same thematic set grants additional benefits",
+      "flexibility": "Set bonuses complement but don't restrict individual gear choices"
+    }
+  },
+  "design_principles": {
+    "choice_variety": "Extensive customization options through 12 total equipment slots",
+    "thematic_coherence": "All gear reflects PrimalMyst's divine, hexagonal, and mystical themes",
+    "balance_maintenance": "No single gear piece should dominate character power",
+    "progression_clarity": "Clear upgrade paths through rank and level progression",
+    "aesthetic_freedom": "Wide variety of visual styles to match player preferences",
+    "mechanical_depth": "Complex interactions between gear, abilities, and positioning systems"
+  },
+  "implementation_notes": {
+    "weapon_system": "Placeholder implementation - will be expanded with full combat mechanics",
+    "jewelry_system": "Ready for immediate implementation with example items",
+    "armor_system": "Ready for immediate implementation with full protection mechanics",
+    "future_expansions": [
+      "Weapon skill specializations",
+      "Legendary gear questlines", 
+      "Crafting and enhancement systems",
+      "Divine gear transformations"
+    ]
+  },
+  "metadata": {
+    "created": "2025-08-06T00:00:00Z",
+    "last_updated": "2025-08-06T00:00:00Z",
+    "author": "PrimalMyst Development Team",
+    "version": "1.0.0",
+    "canonical": true,
+    "schema_compliance": "gear-system.schema.json"
+  }
+}

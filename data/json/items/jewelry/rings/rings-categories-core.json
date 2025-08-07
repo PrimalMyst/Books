@@ -1,0 +1,95 @@
+{
+  "id": "rings-categories-core",
+  "name": "Rings Categories Core",
+  "description": "Core information and generic characteristics shared by all ring types and categories",
+  "jewelry_slot": "rings",
+  "slot_count": 2,
+  "slot_names": ["left_hand", "right_hand"],
+  "references": {
+    "base_types": "../jewelry-base-categories-core.json",
+    "description": "Inherits resource alignment type definitions from jewelry-base-categories-core.json"
+  },
+  "generic_rings_characteristics": {
+    "core_function": "Hand-based enhancement providing manipulation and dexterity bonuses",
+    "universal_properties": {
+      "manual_enhancement": {
+        "description": "All rings enhance hand-based activities and manual dexterity",
+        "functionality": "Improves finger dexterity, grip strength, and hand coordination",
+        "enhancement_types": ["fine_motor_control", "grip_enhancement", "casting_precision", "crafting_bonuses"]
+      },
+      "spell_channeling": {
+        "description": "Rings serve as conduits for spell casting and magical channeling",
+        "channeling_types": ["spell_focus", "energy_direction", "mystical_amplification", "casting_speed"],
+        "enhancement_potential": "Can reduce casting times and improve spell accuracy"
+      },
+      "symbolic_power": {
+        "description": "Rings carry significant symbolic and cultural meaning",
+        "symbolic_aspects": ["authority", "commitment", "achievement", "identity"],
+        "social_effects": "Can influence social interactions and personal recognition"
+      }
+    },
+    "wearing_mechanics": {
+      "dual_slot_system": "Two separate ring slots allow for different combinations on each hand",
+      "hand_specialization": ["dominant_hand_bonuses", "off_hand_versatility", "ambidextrous_benefits"],
+      "interaction_effects": "Different rings on different hands can create unique interaction effects"
+    },
+    "resource_type_structure": {
+      "base_types": {
+        "health": {
+          "folder_name": "health",
+          "type_name": "Vitality Rings",
+          "description": "Life force enhancement through hand-based health jewelry",
+          "generic_characteristics": {
+            "construction": "Health-aligned gems set in life-enhancing ring settings",
+            "typical_materials": ["ruby_gems", "carnelian", "bloodstone", "gold_bands", "copper_inlays"],
+            "resource_focus": "Health points and physical vitality",
+            "enhancement_effects": ["health_regeneration", "healing_touch", "vitality_bonuses"],
+            "aesthetic": "Warm red and gold tones with pulsing life energy"
+          }
+        },
+        "mana": {
+          "folder_name": "mana",
+          "type_name": "Arcane Rings",
+          "description": "Magical energy enhancement through hand-based mana jewelry",
+          "generic_characteristics": {
+            "construction": "Mana-aligned gems set in mystically conductive ring settings",
+            "typical_materials": ["sapphire_gems", "amethyst", "moonstone", "silver_bands", "platinum_settings"],
+            "resource_focus": "Mana points and spell casting enhancement",
+            "enhancement_effects": ["mana_regeneration", "spell_power", "casting_precision"],
+            "aesthetic": "Cool blue and silver tones with flowing mystical energy"
+          }
+        },
+        "stamina": {
+          "folder_name": "stamina",
+          "type_name": "Vigor Rings",
+          "description": "Physical endurance enhancement through hand-based stamina jewelry",
+          "generic_characteristics": {
+            "construction": "Stamina-aligned gems set in endurance-boosting ring settings",
+            "typical_materials": ["emerald_gems", "jade", "malachite", "bronze_bands", "steel_settings"],
+            "resource_focus": "Stamina points and action efficiency",
+            "enhancement_effects": ["stamina_regeneration", "action_speed", "endurance_bonuses"],
+            "aesthetic": "Green and bronze tones with kinetic energy patterns"
+          }
+        }
+      }
+    }
+  },
+  "slot_specializations": {
+    "manual_dexterity": "Rings provide primary bonuses to hand-based skills and precision",
+    "spell_casting": "Ring jewelry significantly enhances magical casting and channeling",
+    "crafting_enhancement": "Rings often provide specialized bonuses to crafting and manipulation",
+    "symbolic_authority": "Ring quality and design can indicate social status and authority"
+  },
+  "folder_structure": {
+    "total_type_folders": 3,
+    "organization": "Each resource type has its own folder containing specific implementations",
+    "folder_list": ["health", "mana", "stamina"]
+  },
+  "metadata": {
+    "created": "2025-08-06T00:00:00Z",
+    "last_updated": "2025-08-06T00:00:00Z",
+    "author": "PrimalMyst Development Team",
+    "version": "1.0.0",
+    "canonical": true
+  }
+}

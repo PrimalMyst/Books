@@ -1,0 +1,125 @@
+{
+  "id": "pathfinder-boots",
+  "name": "Pathfinder's Boots",
+  "type": "armor",
+  "subtype": "boots",
+  "rank_level": {
+    "item_rank": "C",
+    "required_level": 25,
+    "optimal_level": 45,
+    "level_scaling": {
+      "scales_with_user": true,
+      "scaling_type": "linear",
+      "max_scaling_level": 55
+    },
+    "quality_tier": "uncommon",
+    "power_classification": "enhanced"
+  },
+  "divine_influences": {
+    "primary_influence": "myrielle",
+    "secondary_influences": ["serafina"],
+    "divine_resonance": "moderate",
+    "humanoid_only": true
+  },
+  "physical_properties": {
+    "weight": {
+      "value": 4.0,
+      "unit": "pounds"
+    },
+    "size": "medium",
+    "material": "Adaptive leather with mystical sole reinforcement",
+    "durability": "durable",
+    "magical_nature": "enhanced"
+  },
+  "gameplay_properties": {
+    "stack_size": 1,
+    "tradeable": true,
+    "bind_on_pickup": false,
+    "bind_on_equip": false,
+    "unique": false,
+    "set_item": "pathfinder-explorer-set"
+  },
+  "gear_slot": {
+    "category": "armor",
+    "slot_type": "boots",
+    "occupies_slots": ["feet"],
+    "slot_requirement": "Foot armor slot must be empty",
+    "protection_areas": ["feet", "ankles", "calves"]
+  },
+  "armor_properties": {
+    "physical_protection": {
+      "base_armor_value": 120,
+      "armor_type": "light_leather",
+      "protection_bonus": "+25% resistance to terrain hazards"
+    },
+    "mystical_protection": {
+      "mystical_resistance": 80,
+      "movement_effect_immunity": true,
+      "trap_resistance": "+35%"
+    },
+    "mobility_impact": {
+      "movement_penalty": "none",
+      "dexterity_modifier": "none",
+      "stealth_bonus": "+25% (silent movement)"
+    }
+  },
+  "effects": [
+    {
+      "name": "Hidden Path Detection",
+      "description": "Automatically detect secret passages and hidden routes within 15 feet",
+      "type": "passive",
+      "power_level": "moderate",
+      "divine_source": "myrielle"
+    },
+    {
+      "name": "Sure Footing",
+      "description": "Immune to being knocked down and move normally across difficult terrain",
+      "type": "passive",
+      "power_level": "moderate",
+      "divine_source": "myrielle"
+    },
+    {
+      "name": "Silent Steps",
+      "description": "Movement produces no sound - +50% effectiveness of stealth abilities",
+      "type": "passive",
+      "power_level": "moderate",
+      "divine_source": "myrielle"
+    },
+    {
+      "name": "Adaptive Traction",
+      "description": "Boots automatically adjust to provide optimal grip on any surface",
+      "type": "passive",
+      "power_level": "minor",
+      "divine_source": "serafina"
+    }
+  ],
+  "acquisition": {
+    "drop_sources": ["master-scouts", "hidden-path-guardians"],
+    "quest_rewards": ["trials-of-the-hidden-ways"],
+    "crafting_recipe": {
+      "required_rank": "C",
+      "required_level": 30,
+      "materials": [
+        {"item_id": "adaptive-leather", "quantity": 6},
+        {"item_id": "myrielle-essence", "quantity": 4},
+        {"item_id": "mystical-sole-material", "quantity": 2}
+      ],
+      "crafting_station": "mystical-cobbler-workshop"
+    },
+    "rarity_notes": "Favored by scouts, spies, and explorers of dangerous territories"
+  },
+  "lore": {
+    "description": "These boots are blessed by Myrielle to help their wearer find paths that others cannot see and walk silently where stealth is vital.",
+    "history": "Created for the legendary pathfinder guild that mapped the hidden routes between realms.",
+    "creator": "Mystical Cobbler Whisperfoot",
+    "significance": "Represents the wisdom to find hidden opportunities and the courage to walk unexplored paths"
+  },
+  "tags": ["boots", "armor", "pathfinder", "myrielle", "serafina", "C-rank", "uncommon", "stealth"],
+  "metadata": {
+    "created": "2025-08-06T00:00:00Z",
+    "last_updated": "2025-08-06T00:00:00Z",
+    "author": "PrimalMyst Development Team",
+    "version": "1.0.0",
+    "canonical": true
+  }
+}

@@ -1,0 +1,177 @@
+{
+  "id": "cold-resistance",
+  "name": "Cold Resistance",
+  "hexagon_position": 1,
+  "category": "defensive-layer",
+  "hexagon_reference": "defensive-layers-core",
+  "description": {
+    "brief": "Pure resistance to cold damage and freezing effects through crystalline understanding",
+    "detailed": "Cold Resistance represents the fundamental mastery of ice and preservation that flows from Glacius, the Eternal Frost. Rather than avoiding cold or mitigating its effects, practitioners achieve true immunity by understanding and embodying the crystalline essence of cold itself. This is elemental mastery at its purest - becoming one with the cosmic force of preservation.",
+    "survival_philosophy": "True understanding grants immunity - to know cold is to be beyond its harm",
+    "visual_style": "Crystalline formations, frost patterns, and preservation auras"
+  },
+  "core_mechanics": {
+    "primary_focus": "Complete immunity to cold damage and freezing effects",
+    "secondary_effects": [
+      "Immunity to slowing effects from cold sources",
+      "Resistance to preservation-based magic",
+      "Ability to withstand extreme cold environments",
+      "Enhanced effectiveness of cold-based abilities when used by the practitioner"
+    ],
+    "resource_costs": {
+      "stamina_efficiency": "excellent",
+      "skill_requirement": "moderate",
+      "equipment_dependency": "low"
+    },
+    "timing_pattern": "Passive resistance with no timing requirements"
+  },
+  "hexagonal_relationships": {
+    "adjacent_synergies": {
+      "with_energy_shield": {
+        "combination_name": "Crystalline Barriers",
+        "effect": "Energy shields gain cold immunity and freezing properties",
+        "bonus": "+25% energy shield capacity when combined with cold mastery"
+      },
+      "with_evasion": {
+        "combination_name": "Frost-Enhanced Mobility",
+        "effect": "Cold mastery enables movement over ice and through frozen environments",
+        "bonus": "+20% evasion chance in cold environments or against cold attacks"
+      }
+    },
+    "opposite_tension": {
+      "with_armor": {
+        "conflict_name": "Elemental Immunity vs Physical Protection",
+        "challenge": "Physical armor can interfere with elemental harmony required for true cold mastery",
+        "resolution": "Master practitioners learn to infuse armor with crystalline essence",
+        "mastery_bonus": "Can grant cold immunity to worn armor and carried equipment"
+      }
+    }
+  },
+  "divine_alignment": {
+    "patron_god": "Glacius, the Eternal Frost",
+    "god_tier": "fundamental",
+    "divine_bonus": "Glacius grants perfect understanding of cold's preserving nature",
+    "divine_trial_connection": "Cold Resistance mastery is proven through exposure to absolute zero",
+    "cosmic_principle": "Understanding the fundamental force of preservation grants immunity to its destructive aspects"
+  },
+  "attribute_scaling": {
+    "primary_attribute": "intelligence",
+    "scaling_description": "Higher intelligence enables deeper understanding of cold's crystalline nature",
+    "secondary_attributes": {
+      "wisdom": "Enhances spiritual harmony with preservation forces",
+      "vitality": "Provides foundation for elemental transformation"
+    },
+    "attribute_synergies": [
+      "Int/Wis builds achieve perfect elemental harmony",
+      "Int/Vit builds develop supernatural cold endurance",
+      "Pure Int builds become living embodiments of crystalline preservation"
+    ]
+  },
+  "equipment_synergy": {
+    "optimal_gear": [
+      "Crystalline focuses that channel cold mastery",
+      "Ice-blessed jewelry that enhances elemental harmony",
+      "Preservation artifacts that deepen cold understanding",
+      "Glacius-touched items that resonate with fundamental cold"
+    ],
+    "complementary_items": [
+      "Cold-based offensive equipment",
+      "Preservation magic tools",
+      "Environmental adaptation gear"
+    ],
+    "artifact_resonance": [
+      "Fragments of Glacius's crystalline archive",
+      "Ancient ice from the first freezing",
+      "Crystals that contain memories of absolute cold"
+    ]
+  },
+  "skill_progression": {
+    "novice_abilities": [
+      "Basic cold damage reduction",
+      "Resistance to minor freezing effects",
+      "Comfort in cold environments"
+    ],
+    "advanced_abilities": [
+      "Complete cold damage immunity",
+      "Immunity to all freezing and slowing effects",
+      "Ability to extend cold resistance to others through touch"
+    ],
+    "master_abilities": [
+      "Perfect cold mastery with offensive applications",
+      "Ability to create zones of absolute cold immunity",
+      "Transformation of hostile cold into beneficial preservation effects"
+    ],
+    "cosmic_abilities": [
+      "Embodiment of Glacius's preserving essence",
+      "Ability to preserve others across time through crystalline stasis",
+      "Cosmic cold mastery that affects the fundamental temperature of reality"
+    ]
+  },
+  "build_archetypes": [
+    {
+      "archetype_name": "Frost Guardian",
+      "focus": "Protecting others through cold mastery and preservation magic",
+      "key_attributes": ["intelligence", "wisdom"],
+      "signature_abilities": ["Preservation Aura", "Crystalline Shield", "Cold Sanctuary"]
+    },
+    {
+      "archetype_name": "Ice Mystic",
+      "focus": "Perfect harmony with Glacius and the cosmic force of preservation",
+      "key_attributes": ["intelligence", "wisdom"],
+      "signature_abilities": ["Glacial Unity", "Preservation Mastery", "Crystalline Transcendence"]
+    },
+    {
+      "archetype_name": "Arctic Wanderer",
+      "focus": "Survival and exploration in the most extreme cold environments",
+      "key_attributes": ["intelligence", "vitality"],
+      "signature_abilities": ["Environmental Mastery", "Cold Adaptation", "Polar Endurance"]
+    }
+  ],
+  "lore_integration": {
+    "historical_masters": [
+      "Kira Frostborn - First mortal to achieve perfect cold immunity",
+      "High Preserver Thane - Glacius's chosen keeper of crystalline wisdom",
+      "The Eternal Scholar - Legendary figure preserved in perfect ice for millennia"
+    ],
+    "training_traditions": [
+      "The Crystalline Academy - Institution teaching fundamental cold mastery",
+      "The Order of Preservation - Monks devoted to Glacius's wisdom",
+      "Glacius's Archive Guards - Divine protectors of cosmic memory"
+    ],
+    "legendary_techniques": [
+      "The Perfect Freeze - Technique that creates absolute cold immunity zones",
+      "Glacial Harmony - Ability to commune directly with Glacius's essence",
+      "Preservation's Gift - Power to protect anything from time's passage"
+    ]
+  },
+  "damage_type_integration": {
+    "aligned_damage": "cold",
+    "resistance_mechanics": "Complete immunity to cold damage of all types and sources",
+    "elemental_mastery": [
+      "Understanding cold's preserving nature grants control over ice and frost",
+      "Ability to channel Glacius's crystalline power for both defense and utility",
+      "Mastery enables creation of beneficial cold effects that heal and preserve"
+    ]
+  },
+  "environmental_mastery": {
+    "climate_immunity": [
+      "Complete comfort in any cold environment",
+      "Immunity to hypothermia and frostbite",
+      "Ability to survive in absolute zero conditions"
+    ],
+    "terrain_benefits": [
+      "Enhanced abilities in ice and snow environments",
+      "Ability to walk on water by freezing it instantly",
+      "Creation of ice structures and temporary shelters"
+    ]
+  },
+  "tags": ["elemental-resistance", "cold-immunity", "intelligence-based", "preservation", "fundamental"],
+  "metadata": {
+    "created": "2025-08-04T00:00:00Z",
+    "last_updated": "2025-08-04T00:00:00Z",
+    "author": "PrimalMyst Development Team",
+    "version": "1.0.0",
+    "canonical": true,
+    "hexagon_system": "defensive-layers"
+  }
+}

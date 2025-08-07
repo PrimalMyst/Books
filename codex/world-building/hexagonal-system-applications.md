@@ -9,45 +9,45 @@ The core hexagonal structure provides a universal framework for organizing Prima
 ```
                     (1) COLD
                    Intelligence
-                 Energy Shield
+                 Cold Resistance
                       /\
                      /  \
          (6) RADIANCE    (2) CHAOS
           Str + Int      Int + Dex
-        Armor + ES       ES + Evasion
+        Energy Shield     Evasion
                    \    /
                     \  /
          (5) FIRE ---- ---- (3) LIGHTNING
          Strength           Dexterity  
-         Armor              Evasion
+         Fire Resist    Lightning Resist
                     \  /
                      \/
                 (4) PHYSICAL
                 Dex + Str
-              Evasion + Armor
+                Armor
 ```
 
 ## System Applications
 
 ### 1. Skill Trees / Passive Trees
 
-**Structure:** Each vertex anchors a major branch of the passive skill tree
+**Structure:** Each corner anchors a major branch of the passive skill tree
 
-- **Position 1 (Cold/Int/ES):** Spell power, mana, energy shield, preservation magic
-- **Position 2 (Chaos/Int+Dex/ES+Eva):** Chaos magic, hybrid casting, transformation
-- **Position 3 (Lightning/Dex/Eva):** Speed, accuracy, chain effects, mobility
-- **Position 4 (Physical/Dex+Str/Eva+Arm):** Weapon mastery, martial arts, hybrid combat
-- **Position 5 (Fire/Str/Arm):** Raw damage, armor mastery, physical enhancement
-- **Position 6 (Radiance/Str+Int/Arm+ES):** Protection, healing, paladin abilities
+- **Position 1 (Cold/Int/CR):** Spell power, mana, cold immunity, preservation magic
+- **Position 2 (Chaos/Int+Dex/Eva):** Chaos magic, hybrid casting, evasive transformation
+- **Position 3 (Lightning/Dex/LR):** Speed, accuracy, lightning immunity, chain effects, mobility
+- **Position 4 (Physical/Dex+Str/Arm):** Weapon mastery, martial arts, physical mitigation
+- **Position 5 (Fire/Str/FR):** Raw damage, fire immunity, physical enhancement
+- **Position 6 (Radiance/Str+Int/ES):** Protection, healing, energy shield mastery
 
 **Connections:** 
-- Adjacent vertices have direct connection paths (easier to hybrid)
-- Opposite vertices require travel through intermediary nodes (harder to combine)
+- Adjacent corners have direct connection paths (easier to hybrid)
+- Opposite corners require travel through intermediary nodes (harder to combine)
 - Central hub connects to all six (World Tree mastery)
 
 ### 2. Equipment Categories
 
-**Weapons by Vertex:**
+**Weapons by Corner:**
 1. **Cold:** Staves, Wands, Crystal Focuses
 2. **Chaos:** Ritual Daggers, Transformation Orbs, Entropy Weapons  
 3. **Lightning:** Javelins, Crossbows, Speed Weapons
@@ -65,19 +65,31 @@ The core hexagonal structure provides a universal framework for organizing Prima
 
 ### 3. Character Classes/Archetypes
 
-**Pure Vertex Classes:**
-1. **Frost Mage (Cold):** Pure intelligence caster
-2. **Lightning Dancer (Lightning):** Pure dexterity speed fighter
-3. **Fire Warrior (Fire):** Pure strength heavy combat
+**Origin Island Heritage System:**
+Character classes inherit their attribute growth patterns from their starting island's hexagonal position:
 
-**Hybrid Vertex Classes:**
-2. **Chaos Weaver (Chaos):** Int/Dex hybrid mage-rogue
-4. **Dragon Monk (Physical):** Dex/Str hybrid martial artist  
-6. **Radiant Paladin (Radiance):** Str/Int hybrid warrior-priest
+1. **Necromancer (Glacius Isle/Position 1):** Intelligence focus from cold/preservation heritage
+2. **Succubus (Serafina Isle/Position 2):** Intelligence+Dexterity hybrid from chaos/transformation heritage  
+3. **Hunter (Voltharion Isle/Position 3):** Dexterity focus from lightning/connection heritage
+4. **Warrior (Pyrion's Forge/Position 4):** Vitality focus from fire/creation heritage
+5. **Chieftain (Korthak Isle/Position 5):** Strength focus from physical/might heritage
+6. **Priestess (Aurelius Isle/Position 6):** Wisdom focus from radiance/protection heritage
+
+**Class Role - Ascendancy Anchors:**
+- Classes provide access to specific ascendancy trees (similar to Path of Exile)
+- Each class anchors 3-4 thematic ascendancy specializations
+- Multiclass characters can access multiple ascendancy trees through their class combinations
+- No hexagonal positioning benefits from classes themselves
+
+**Divine Positioning System:**
+- Hexagonal layer positioning comes exclusively from divine trial completion
+- 49 unique character archetypes through elemental + primal divine pattern combinations
+- Divine positioning independent of character class or origin island
+- Players choose their cosmic alignment through trial choices, not class selection
 
 ### 4. League Mechanics
 
-**Seasonal Focus:** Each league could emphasize different vertices or vertex combinations:
+**Seasonal Focus:** Each league could emphasize different corners or corner combinations:
 
 - **Glacial League:** Focus on cold/preservation mechanics
 - **Storm League:** Lightning/speed emphasis with chain reactions
@@ -89,7 +101,7 @@ The core hexagonal structure provides a universal framework for organizing Prima
 **Cross-Vertex Leagues:**
 - **Eclipse League:** Opposition pairs (Cold vs Physical, etc.)
 - **Harmony League:** Adjacent synergies enhanced
-- **World Tree League:** All six vertices active simultaneously
+- **World Tree League:** All six corners active simultaneously
 
 ### 5. Crafting Materials
 
@@ -114,7 +126,7 @@ The core hexagonal structure provides a universal framework for organizing Prima
 - Opposite quests create narrative tension and meaningful choices
 
 **Cross-Vertex Narratives:**
-- Story arcs that require understanding multiple vertices
+- Story arcs that require understanding multiple corners
 - Character development that spans the hexagon
 - Endgame content that tests mastery of all six themes
 
@@ -139,9 +151,9 @@ The core hexagonal structure provides a universal framework for organizing Prima
 - Can be approached effectively by opposite vertex builds
 
 **Multi-Vertex Bosses:**
-- Bosses that shift between adjacent vertices
+- Bosses that shift between adjacent corners
 - Requires adaptability and hybrid approaches
-- Elite bosses that cycle through all six vertices
+- Elite bosses that cycle through all six corners
 
 **Endgame Encounters:**
 - World Tree bosses that test mastery of all six vertices

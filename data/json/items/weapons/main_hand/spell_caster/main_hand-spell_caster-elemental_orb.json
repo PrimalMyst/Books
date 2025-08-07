@@ -1,0 +1,32 @@
+﻿{
+  "$schema": "../../../../schemas/weapon-item.schema.json",
+  "id": "main_hand_spell_caster_elemental_orb",
+  "name": "elemental orb",
+  "display_name": "elemental orb",
+  "description": "A magical elemental orb implement for channeling spells and mystical energies.",
+  "category": "main_hand_spell_caster",
+  "rarity": "common",
+  "tier": 1,
+  
+  "weapon_properties": {
+    "hand_usage": "main_hand",
+    "combat_style": "spell_caster",
+    "weapon_type": "elemental_orb",
+    "damage_type": "magical",
+    "reach": "magical_range",
+    "weight": "light"
+  },
+  
+  "combat_stats": {
+    "spell_power": "placeholder",
+    "casting_speed": "fast",
+    "mana_efficiency": "standard",
+    "requirements": {
+      "intelligence": "placeholder",
+      "wisdom": "placeholder"
+    }
+  },
+  
+  "placeholder": true,
+  "implementation_notes": "Main hand spell caster elemental orb implement template - requires complete implementation"
+}

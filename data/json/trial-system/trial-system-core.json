@@ -1,0 +1,213 @@
+{
+  "system_id": "universal-trial-system",
+  "name": "PrimalMyst Universal Trial System",
+  "description": "Overarching trial framework that encompasses both Divine Trials and Myrielle's Hidden Trials, providing unified mechanics for world impact, progression, and cosmic transformation.",
+  "system_philosophy": "All trials represent tests of worthiness for cosmic responsibility, whether through divine approval or hidden cosmic preparation. Each trial completion contributes to the practitioner's authority and the world's adaptation to their growing power.",
+  
+  "trial_categories": {
+    "divine_trials": {
+      "category_name": "Divine Approval Trials",
+      "purpose": "Prove worthiness to exist in divine presence and gain immunity from divine decay",
+      "accessibility": "Public knowledge, guild-mediated access",
+      "governing_entities": ["pyrion", "glacius", "voltharion", "serafina", "aurelius", "korthak"],
+      "completion_rewards": {
+        "divine_immunity": "Immunity to the specific god's divine decay",
+        "power_increase": "+6 minimum monster level per trial",
+        "social_recognition": "Community acknowledgment as divine-approved practitioner",
+        "mystical_authority": "Authority in the god's domain of influence"
+      },
+      "world_impact": {
+        "type": "shared_tremor_system",
+        "reference": "divine_acknowledgment_tremor"
+      },
+      "progression_structure": {
+        "act1_trials": {
+          "name": "Fundamental and Primal God Trials",
+          "quantity": 6,
+          "level_range": "10-39",
+          "difficulty": "beginner_to_intermediate",
+          "requirements": ["guild_rank_minimum", "divine_decay_presence", "companion_guidance"]
+        }
+      }
+    },
+    
+    "myrielle_trials": {
+      "category_name": "Hidden Cosmic Trials",
+      "purpose": "Prepare worthy souls for cosmic responsibility and eventual God-Slayer status",
+      "accessibility": "Secret, requires specific prerequisites and Myrielle's direct guidance",
+      "governing_entity": "myrielle",
+      "completion_rewards": {
+        "ascendency_points": "1 point per trial toward cosmic transformation",
+        "cosmic_authority": "Increasing authority over reality manipulation",
+        "hidden_knowledge": "Understanding of cosmic structure and divine vulnerabilities",
+        "champion_preparation": "Gradual transformation into being capable of challenging gods"
+      },
+      "world_impact": {
+        "type": "shared_tremor_system",
+        "reference": "divine_acknowledgment_tremor",
+        "special_notes": "Hidden trials trigger the same world scaling as divine trials but source is concealed"
+      },
+      "progression_structure": {
+        "act2_trials": {
+          "name": "Eldritch Preparation Trials",
+          "quantity": 3,
+          "level_range": "40-69",
+          "difficulty": "advanced",
+          "requirements": ["all_divine_trials_complete", "eldritch_encounters", "cosmic_readiness"]
+        },
+        "act3_trials": {
+          "name": "Cosmic Champion Trials", 
+          "quantity": 3,
+          "level_range": "70-95",
+          "difficulty": "master",
+          "requirements": ["act2_myrielle_trials_complete", "transcendent_status", "divine_champion_recognition"]
+        }
+      }
+    }
+  },
+
+  "shared_world_mechanics": {
+    "divine_acknowledgment_tremor": {
+      "trigger_event": "Any trial completion from either Divine Trials or Myrielle Trials",
+      "description": "Cosmic event that acknowledges a practitioner's growing worthiness and adapts the world to their increased power level",
+      "effects": {
+        "seismic_response": {
+          "intensity": "Moderate earthquake with mystical resonance",
+          "duration": "45-60 seconds",
+          "coverage": "Worldwide across entire reality instance",
+          "mystical_signature": "Energy pattern specific to trial type and governing entity"
+        },
+        "monster_enhancement": {
+          "level_increase": "+6 minimum monster level worldwide",
+          "justification": "World adapts to practitioner's cosmic authority - weaker entities become incompatible",
+          "cumulative_effect": "Each trial compounds previous increases",
+          "cap_mechanism": "No upper limit during normal progression"
+        },
+        "environmental_adaptation": {
+          "mystical_density": "Increased ambient mystical energy worldwide",
+          "divine_sensitivity": "Enhanced responsiveness to divine and cosmic presences", 
+          "reality_stability": "Slight weakening of reality barriers with each trial"
+        }
+      },
+      "recognition_mechanics": {
+        "divine_trials": {
+          "signature": "God-specific energy pattern clearly identifies source",
+          "community_response": "Open celebration and recognition of achievement",
+          "political_impact": "Immediate social and political status enhancement"
+        },
+        "myrielle_trials": {
+          "signature": "Mysterious cosmic energy pattern with no clear divine source",
+          "community_response": "Confusion about source but recognition of increased power",
+          "political_impact": "Growing mystique and authority without clear explanation"
+        }
+      }
+    },
+
+    "progressive_world_scaling": {
+      "baseline": {
+        "tutorial_completion": "Monsters level 1-5 during prologue",
+        "act1_start": "Minimum level 6 after tutorial"
+      },
+      "trial_progression": {
+        "1_trial": "Minimum level 12 (+6 from baseline)",
+        "2_trials": "Minimum level 18 (+12 from baseline)",
+        "3_trials": "Minimum level 24 (+18 from baseline)",
+        "6_trials": "Minimum level 36 (+30 from baseline) - End of Act 1",
+        "9_trials": "Minimum level 54 (+48 from baseline) - Mid Act 2",
+        "12_trials": "Minimum level 72 (+66 from baseline) - End of Act 3"
+      },
+      "rationale": "Each trial represents cosmic recognition that makes the practitioner incompatible with weaker entities while preparing them for greater challenges",
+      "balance_considerations": "Player level should track with monster level increases to maintain challenge scaling"
+    },
+
+    "cosmic_authority_accumulation": {
+      "divine_trials": {
+        "authority_type": "Domain-specific divine authority",
+        "scope": "Authority within aligned god's sphere of influence",
+        "recognition": "Open acknowledgment by communities and divine entities"
+      },
+      "myrielle_trials": {
+        "authority_type": "Cosmic-level transcendent authority",
+        "scope": "Authority that transcends normal divine limitations",
+        "recognition": "Hidden but growing influence over fundamental reality"
+      },
+      "cumulative_effect": "Both trial types contribute to overall cosmic standing and ability to influence reality"
+    }
+  },
+
+  "trial_integration": {
+    "prerequisite_chains": {
+      "myrielle_access": {
+        "requirement": "All six divine trials must be completed before any Myrielle trial becomes accessible",
+        "rationale": "Divine immunity is prerequisite for surviving cosmic-level challenges"
+      },
+      "progressive_difficulty": {
+        "divine_trials": "No internal prerequisites - can be completed in any order",
+        "myrielle_act2": "Requires divine trial completion and specific cosmic readiness",
+        "myrielle_act3": "Requires Act 2 Myrielle trials and transcendent transformation level"
+      }
+    },
+
+    "companion_integration": {
+      "divine_trials": {
+        "companion_role": "Guide and emotional support",
+        "evolution_potential": "May gain abilities aligned with chosen divine relationships"
+      },
+      "myrielle_trials": {
+        "companion_role": "Cosmic witness and stability anchor",
+        "evolution_potential": "Develops cosmic perception and reality anchoring abilities"
+      }
+    },
+
+    "social_recognition": {
+      "combined_status": "Characters with both divine approval and hidden cosmic authority gain unique social standing",
+      "mysterious_power": "Myrielle trial completion creates growing mystique about character's true capabilities",
+      "leadership_potential": "High completion in both categories prepares characters for cosmic leadership roles"
+    }
+  },
+
+  "implementation_structure": {
+    "file_organization": {
+      "core_system": "trial-system-core.json (this file)",
+      "divine_trials": "divine-trials/ directory contains individual god trial files",
+      "myrielle_trials": "myrielle-trials/ directory contains hidden trial files",
+      "shared_mechanics": "All world impact mechanics centralized in this file"
+    },
+    "cross_references": {
+      "individual_trials": "Reference this core file for world impact mechanics",
+      "character_progression": "Ascendency point system tracks Myrielle trial completion",
+      "story_integration": "Act structure depends on trial completion patterns"
+    }
+  },
+
+  "system_benefits": {
+    "unified_mechanics": "Single source of truth for world impact mechanics",
+    "clear_categorization": "Distinct purposes for divine vs cosmic trials while maintaining mechanical consistency", 
+    "progressive_preparation": "Divine trials prepare for Myrielle trials, which prepare for God-Slayer challenges",
+    "balanced_authority": "Both trial types contribute to cosmic standing through different pathways",
+    "mystery_preservation": "Myrielle trials remain hidden while using familiar mechanics"
+  },
+
+  "future_expansion": {
+    "additional_categories": "Framework supports addition of new trial types",
+    "scaling_flexibility": "World impact mechanics can be adjusted without changing individual trials",
+    "cross_act_integration": "Structure supports trials spanning multiple acts",
+    "cosmic_preparation": "Framework builds toward ultimate God-Slayer challenges"
+  },
+
+  "lore_integration": {
+    "cosmic_significance": "All trials represent steps in preparing worthy souls for cosmic responsibility",
+    "divine_cooperation": "Divine trials serve Myrielle's hidden agenda by creating strong potential champions",
+    "reality_preparation": "Progressive world scaling prepares reality instance for cosmic conflict",
+    "consciousness_preservation": "Ultimate goal is creating beings capable of preserving consciousness across reality instances"
+  },
+
+  "metadata": {
+    "created": "2025-08-05T00:00:00Z",
+    "last_updated": "2025-08-05T00:00:00Z", 
+    "author": "PrimalMyst Development Team",
+    "version": "1.0.0",
+    "canonical": true,
+    "system_type": "core_framework"
+  }
+}

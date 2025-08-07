@@ -1,0 +1,32 @@
+﻿{
+  "$schema": "../../../../schemas/weapon-item.schema.json",
+  "id": "two_handed_spell_caster_quarterstaff",
+  "name": "quarterstaff",
+  "display_name": "quarterstaff",
+  "description": "A powerful two-handed magical quarterstaff for channeling great mystical energies.",
+  "category": "two_handed_spell_caster",
+  "rarity": "common",
+  "tier": 1,
+  
+  "weapon_properties": {
+    "hand_usage": "two_handed",
+    "combat_style": "spell_caster",
+    "weapon_type": "quarterstaff",
+    "damage_type": "magical",
+    "reach": "extended_magical_range",
+    "weight": "medium"
+  },
+  
+  "combat_stats": {
+    "spell_power": "placeholder",
+    "casting_speed": "moderate",
+    "mana_efficiency": "excellent",
+    "requirements": {
+      "intelligence": "placeholder",
+      "wisdom": "placeholder"
+    }
+  },
+  
+  "placeholder": true,
+  "implementation_notes": "Two-handed spell caster quarterstaff implement template - requires complete implementation"
+}

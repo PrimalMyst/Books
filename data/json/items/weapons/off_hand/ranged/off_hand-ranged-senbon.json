@@ -1,0 +1,32 @@
+﻿{
+  "$schema": "../../../../schemas/weapon-item.schema.json",
+  "id": "off_hand_ranged_senbon",
+  "name": "senbon",
+  "display_name": "senbon",
+  "description": "A compact ranged senbon weapon for off-hand use and rapid attacks.",
+  "category": "off_hand_ranged",
+  "rarity": "common",
+  "tier": 1,
+  
+  "weapon_properties": {
+    "hand_usage": "off_hand",
+    "combat_style": "ranged",
+    "weapon_type": "senbon",
+    "damage_type": "piercing",
+    "reach": "short_to_medium_range",
+    "weight": "very_light"
+  },
+  
+  "combat_stats": {
+    "base_damage": "placeholder",
+    "attack_speed": "very_fast",
+    "critical_chance": "standard",
+    "requirements": {
+      "dexterity": "placeholder",
+      "agility": "placeholder"
+    }
+  },
+  
+  "placeholder": true,
+  "implementation_notes": "Off-hand ranged senbon weapon template - requires complete implementation"
+}
