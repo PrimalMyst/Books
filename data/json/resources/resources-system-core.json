@@ -1,0 +1,144 @@
+{
+  "id": "resources-system-core",
+  "name": "PrimalMyst Refreshable Resources System",
+  "description": "Core framework for the three primary refreshable resources aligned with hexagonal positioning",
+  "version": "1.0.0",
+  "resource_philosophy": {
+    "design_principle": "Three core resources that govern different aspects of character capability and align with hexagonal cosmic positioning",
+    "hexagonal_alignment": "Resources are positioned at specific hexagon vertices to reinforce cosmic harmony",
+    "refresh_mechanics": "All resources can be restored through rest, items, abilities, and environmental interactions"
+  },
+  "primary_resources": {
+    "health_points": {
+      "id": "health_points",
+      "display_name": "Health Points",
+      "short_name": "HP",
+      "description": "Life force and physical resilience - represents the character's ability to withstand damage and continue functioning",
+      "hexagonal_position": 5,
+      "hexagon_corner": "fire",
+      "color_theme": "crimson_flame",
+      "resource_type": "vital_pool",
+      "depletion_consequence": "unconsciousness_or_death",
+      "primary_attributes": ["vitality", "constitution"],
+      "regeneration_methods": [
+        "natural_healing_over_time",
+        "healing_abilities_and_spells",
+        "restorative_items_and_potions",
+        "divine_intervention",
+        "rest_and_recovery"
+      ],
+      "placeholder": true,
+      "implementation_notes": "Core survival resource - requires damage system integration"
+    },
+    "mana_points": {
+      "id": "mana_points",
+      "display_name": "Mana Points",
+      "short_name": "MP",
+      "description": "Magical energy and divine connection - represents the character's ability to channel supernatural forces",
+      "hexagonal_position": 1,
+      "hexagon_corner": "cold",
+      "color_theme": "azure_frost",
+      "resource_type": "mystical_pool",
+      "depletion_consequence": "magical_exhaustion",
+      "primary_attributes": ["intelligence", "wisdom"],
+      "regeneration_methods": [
+        "meditative_focus",
+        "divine_communion",
+        "mystical_items_and_elixirs",
+        "cosmic_alignment_rituals",
+        "arcane_study_and_practice"
+      ],
+      "placeholder": true,
+      "implementation_notes": "Magical resource - requires spell system integration"
+    },
+    "stamina_points": {
+      "id": "stamina_points",
+      "display_name": "Stamina Points",
+      "short_name": "SP",
+      "description": "Physical energy and endurance - represents the character's ability to perform strenuous actions",
+      "hexagonal_position": 3,
+      "hexagon_corner": "lightning",
+      "color_theme": "electric_gold",
+      "resource_type": "physical_pool",
+      "depletion_consequence": "exhaustion_and_fatigue",
+      "primary_attributes": ["dexterity", "strength"],
+      "regeneration_methods": [
+        "brief_rest_and_breathing",
+        "physical_conditioning",
+        "energizing_consumables",
+        "adrenaline_surge_abilities",
+        "rhythmic_movement_meditation"
+      ],
+      "placeholder": true,
+      "implementation_notes": "Physical resource - requires action system integration"
+    }
+  },
+  "hexagonal_integration": {
+    "resource_positioning": {
+      "fire_corner_5": "health_points",
+      "cold_corner_1": "mana_points", 
+      "lightning_corner_3": "stamina_points"
+    },
+    "cosmic_resonance": {
+      "description": "Resources gain bonuses when character positioning aligns with their hexagonal corners",
+      "implementation": "Characters positioned at their resource's corner receive enhanced regeneration",
+      "balance_note": "Encourages strategic positioning without forcing rigid placements"
+    },
+    "opposing_corners": {
+      "health_points_opposite": "chaos_corner_2",
+      "mana_points_opposite": "physical_corner_4",
+      "stamina_points_opposite": "radiance_corner_6",
+      "design_note": "Opposite corners may provide unique interaction opportunities"
+    }
+  },
+  "resource_mechanics": {
+    "pool_structure": {
+      "current_value": "Active available resource amount",
+      "maximum_value": "Total possible resource capacity",
+      "temporary_modifications": "Buffs/debuffs affecting current or maximum values",
+      "regeneration_rate": "Speed at which resource naturally restores"
+    },
+    "depletion_effects": {
+      "health_points_depletion": "Physical vulnerability, unconsciousness risk, death threshold",
+      "mana_points_depletion": "Spell failure, magical feedback, divine disconnection",
+      "stamina_points_depletion": "Action penalties, movement restrictions, performance degradation"
+    },
+    "overflow_mechanics": {
+      "description": "Resources can temporarily exceed maximum through abilities or items",
+      "health_points_overflow": "Temporary vitality boost, enhanced healing, damage resistance",
+      "mana_points_overflow": "Spell amplification, extended casting range, magical overflow effects",
+      "stamina_points_overflow": "Enhanced speed, extra actions, performance bonuses"
+    }
+  },
+  "future_expansions": {
+    "secondary_resources": [
+      "Cosmic_Resonance - Connection to hexagonal positioning",
+      "Divine_Favor - Relationship with patron deities",
+      "Eldritch_Insight - Understanding of cosmic mysteries"
+    ],
+    "resource_interactions": [
+      "Cross-resource abilities that consume multiple types",
+      "Resource conversion mechanics",
+      "Emergency resource sacrifice options"
+    ],
+    "advanced_mechanics": [
+      "Resource mastery systems",
+      "Divine resource transformations",
+      "Legendary resource enhancement effects"
+    ]
+  },
+  "implementation_priorities": {
+    "phase_1": "Basic resource pools with simple regeneration",
+    "phase_2": "Hexagonal positioning integration",
+    "phase_3": "Advanced mechanics and overflow systems",
+    "phase_4": "Secondary resource systems"
+  },
+  "metadata": {
+    "created": "2025-08-07T00:00:00Z",
+    "last_updated": "2025-08-07T00:00:00Z",
+    "author": "PrimalMyst Development Team",
+    "version": "1.0.0",
+    "canonical": true,
+    "schema_compliance": "resources-system.schema.json"
+  }
+}
