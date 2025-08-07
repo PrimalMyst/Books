@@ -1,0 +1,49 @@
+{
+  "$schema": "../../../schemas/weapon-category.schema.json",
+  "category": "two_handed_spell_caster",
+  "display_name": "Two-Handed Spell Caster Weapons",
+  "description": "Powerful magical implements requiring both hands to channel and focus mystical energies for devastating spell-based combat.",
+  
+  "hand_usage": {
+    "type": "two_handed",
+    "requirements": ["both_hands"],
+    "restrictions": ["no_shield", "no_dual_wield"]
+  },
+  
+  "combat_style": {
+    "type": "spell_caster",
+    "engagement_range": "variable_magical",
+    "primary_attributes": ["intelligence", "wisdom"]
+  },
+  
+  "weapon_examples": {
+    "basic": ["great_staff", "war_scepter", "ritual_rod"],
+    "advanced": ["arcane_battlestaff", "elemental_conduit", "mystic_channeler"],
+    "legendary": ["reality_weaver", "void_conductor", "cosmos_manipulator"],
+    "cosmic": ["universe_conduit", "concept_channeler", "existence_director"]
+  },
+  
+  "generic_characteristics": {
+    "spell_power": "very_high",
+    "casting_speed": "moderate",
+    "mana_efficiency": "excellent",
+    "spell_range": "extended",
+    "elemental_affinity": "enhanced"
+  },
+  
+  "depth_progression": {
+    "tier_1_focus": "basic_magical_channeling",
+    "tier_2_focus": "advanced_spell_focusing",
+    "tier_3_focus": "masterful_energy_control",
+    "tier_4_focus": "perfect_magical_harmony",
+    "tier_5_focus": "reality_manipulating_magic",
+    "tier_6_focus": "cosmic_force_direction"
+  },
+  
+  "material_evolution": {
+    "early_tiers": ["enchanted_wood", "crystal_cores", "metal_conduits"],
+    "mid_tiers": ["magical_composites", "elemental_crystals", "arcane_alloys"],
+    "high_tiers": ["divine_materials", "ethereal_substances", "star_touched_cores"],
+    "cosmic_tiers": ["reality_crystals", "concept_condensations", "universal_focal_points"]
+  }
+}

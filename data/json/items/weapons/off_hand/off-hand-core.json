@@ -1,0 +1,133 @@
+{
+  "$schema": "../../schemas/weapon-usage-core.schema.json",
+  "category": "off_hand",
+  "display_name": "Off Hand Weapons",
+  "description": "Secondary weapons designed for non-dominant hand use, focusing on speed, utility, and dual-wielding coordination or defensive support.",
+  
+  "generic_characteristics": {
+    "physical_properties": {
+      "size_category": "small_to_medium",
+      "grip_requirement": "non_dominant_hand",
+      "wielding_style": "one_handed_secondary",
+      "reach_advantage": "minimal",
+      "weight_distribution": "light_balanced"
+    },
+    
+    "combat_attributes": {
+      "damage_potential": "moderate",
+      "attack_speed": "fast_to_very_fast",
+      "critical_multiplier": "enhanced_speed",
+      "defensive_options": {
+        "shield_compatibility": false,
+        "parrying_capability": "excellent",
+        "blocking_effectiveness": "moderate"
+      }
+    },
+    
+    "tactical_advantages": {
+      "dual_wield_synergy": "exceptional",
+      "attack_frequency": "very_high",
+      "utility_functions": "diverse",
+      "surprise_factor": "significant",
+      "combat_flow_enhancement": "substantial"
+    },
+    
+    "resource_requirements": {
+      "stamina_per_swing": "low",
+      "recovery_time": "minimal",
+      "strength_requirement": "low",
+      "dexterity_requirement": "very_high"
+    }
+  },
+  
+  "depth_based_information": {
+    "tier_1": {
+      "focus": "basic_off_hand_concepts",
+      "information": [
+        "Wielded in non-dominant hand",
+        "Faster than main hand weapons",
+        "Lower individual damage",
+        "Dual-wield compatibility"
+      ]
+    },
+    
+    "tier_2": {
+      "focus": "coordination_mechanics",
+      "information": [
+        "Hand coordination techniques",
+        "Rapid strike combinations",
+        "Defensive positioning",
+        "Combat rhythm enhancement"
+      ]
+    },
+    
+    "tier_3": {
+      "focus": "advanced_coordination",
+      "information": [
+        "Perfect dual-wield harmony",
+        "Ambidextrous combat forms",
+        "Utility function integration",
+        "Advanced parrying techniques"
+      ]
+    },
+    
+    "tier_4": {
+      "focus": "mastery_concepts",
+      "information": [
+        "Seamless weapon coordination",
+        "Perfect timing synchronization",
+        "Enhanced combat flow",
+        "Utility mastery integration"
+      ]
+    },
+    
+    "tier_5": {
+      "focus": "legendary_techniques",
+      "information": [
+        "Reality-blurring speed",
+        "Dimensional strike weaving",
+        "Essence-guided coordination",
+        "Perfect duality manifestation"
+      ]
+    },
+    
+    "tier_6": {
+      "focus": "cosmic_mastery",
+      "information": [
+        "Universal duality embodiment",
+        "Conceptual speed transcendence",
+        "Reality-weaving coordination",
+        "Cosmic harmony through duality"
+      ]
+    }
+  },
+  
+  "material_considerations": {
+    "primary_materials": [
+      "lightweight_steel", "speed_enchanted_alloys", "velocity_crystals",
+      "wind_touched_metals", "ethereal_substances", "motion_essences"
+    ],
+    "grip_materials": [
+      "textured_leather", "grip_enhanced_wraps", "stability_crystals",
+      "coordination_bindings", "dexterity_materials", "flow_essences"
+    ],
+    "weight_optimization": [
+      "hollow_construction", "magical_lightening", "essence_reduction",
+      "dimensional_compression", "mass_transcendence", "conceptual_weightlessness"
+    ]
+  },
+  
+  "slot_integration": {
+    "equipment_slot": "weapon",
+    "slot_synergies": ["main_hand_weapon", "dual_wield_sets"],
+    "grip_requirements": "non_dominant_hand_primary",
+    "stance_modifications": "speed_focused_combat_forms"
+  },
+  
+  "progression_scaling": {
+    "speed_scaling": "exponential_with_tier",
+    "coordination_scaling": "geometric_with_mastery",
+    "utility_complexity": "linear_progression",
+    "cosmic_integration": "fluid_at_tier_6"
+  }
+}

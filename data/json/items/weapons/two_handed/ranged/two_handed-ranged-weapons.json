@@ -1,0 +1,49 @@
+{
+  "$schema": "../../../schemas/weapon-category.schema.json",
+  "category": "two_handed_ranged",
+  "display_name": "Two-Handed Ranged Weapons",
+  "description": "Powerful ranged weapons requiring both hands for stability and accuracy, offering exceptional range and precision at distance.",
+  
+  "hand_usage": {
+    "type": "two_handed",
+    "requirements": ["both_hands"],
+    "restrictions": ["no_shield", "no_dual_wield"]
+  },
+  
+  "combat_style": {
+    "type": "ranged",
+    "engagement_range": "long_to_extreme_range",
+    "primary_attributes": ["dexterity", "perception"]
+  },
+  
+  "weapon_examples": {
+    "basic": ["longbow", "crossbow", "hunting_bow"],
+    "advanced": ["elven_warbow", "mechanical_crossbow", "mystic_longbow"],
+    "legendary": ["storm_caller_bow", "void_piercer", "reality_archer"],
+    "cosmic": ["universe_string", "concept_launcher", "existence_projectile"]
+  },
+  
+  "generic_characteristics": {
+    "damage_output": "high",
+    "attack_speed": "moderate",
+    "reach": "extreme",
+    "accuracy": "excellent",
+    "ammunition_dependency": "high"
+  },
+  
+  "depth_progression": {
+    "tier_1_focus": "basic_archery_fundamentals",
+    "tier_2_focus": "advanced_marksmanship",
+    "tier_3_focus": "masterful_precision_techniques",
+    "tier_4_focus": "perfect_accuracy_control",
+    "tier_5_focus": "reality_piercing_shots",
+    "tier_6_focus": "cosmic_trajectory_mastery"
+  },
+  
+  "material_evolution": {
+    "early_tiers": ["yew_wood", "horn_composites", "steel_prods"],
+    "mid_tiers": ["enchanted_woods", "magical_strings", "crystal_mechanisms"],
+    "high_tiers": ["ethereal_materials", "divine_components", "star_touched_elements"],
+    "cosmic_tiers": ["reality_strings", "concept_tensions", "universal_projectiles"]
+  }
+}

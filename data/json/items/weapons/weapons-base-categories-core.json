@@ -1,0 +1,108 @@
+{
+  "id": "weapons-base-categories-core",
+  "name": "Base Weapons Categories System",
+  "description": "Core definitions for all weapon base types focused on hand usage and combat style",
+  "version": "1.0.0",
+  "weapon_system": {
+    "design_philosophy": "Three fundamental weapon usage philosophies with three combat style specializations each",
+    "hand_usage_types": {
+      "two_handed": {
+        "description": "Weapons requiring both hands for effective use",
+        "abbreviation": "2H",
+        "usage_philosophy": "Maximum power and reach through two-handed weapon mastery",
+        "primary_benefits": ["high_damage", "extended_reach", "powerful_attacks", "crowd_control"],
+        "drawbacks": ["no_shield_use", "slower_attacks", "limited_versatility"],
+        "typical_characteristics": ["large_size", "heavy_weight", "high_damage_potential", "two_hand_requirement"],
+        "combat_role": "primary_damage_dealer_and_battlefield_controller"
+      },
+      "main_hand": {
+        "description": "Primary weapons for dominant hand use",
+        "abbreviation": "MH",
+        "usage_philosophy": "Balanced combat effectiveness with shield or off-hand compatibility",
+        "primary_benefits": ["versatile_combat", "shield_compatibility", "balanced_stats", "tactical_flexibility"],
+        "drawbacks": ["moderate_damage", "standard_reach", "requires_skill_investment"],
+        "typical_characteristics": ["medium_size", "balanced_weight", "one_hand_optimized", "versatile_design"],
+        "combat_role": "primary_combat_weapon_with_tactical_options"
+      },
+      "off_hand": {
+        "description": "Secondary weapons for non-dominant hand or dual-wielding",
+        "abbreviation": "OH",
+        "usage_philosophy": "Supplementary combat support and specialized techniques",
+        "primary_benefits": ["dual_wield_compatibility", "defensive_options", "surprise_attacks", "utility_functions"],
+        "drawbacks": ["lower_damage", "limited_reach", "requires_dual_wield_skill"],
+        "typical_characteristics": ["compact_size", "light_weight", "off_hand_optimized", "specialized_design"],
+        "combat_role": "secondary_weapon_and_tactical_support"
+      }
+    },
+    "combat_style_types": {
+      "melee": {
+        "description": "Close-quarters combat weapons for physical engagement",
+        "combat_philosophy": "Direct physical combat through strength and skill",
+        "engagement_range": "close_quarters",
+        "primary_stats": ["strength", "dexterity", "constitution"],
+        "damage_types": ["slashing", "piercing", "bludgeoning"],
+        "special_features": ["parrying", "blocking", "power_attacks", "combo_strikes"],
+        "typical_materials": ["steel", "iron", "enchanted_metals", "mystical_alloys"]
+      },
+      "ranged": {
+        "description": "Distance combat weapons for projectile-based attacks",
+        "combat_philosophy": "Tactical combat through precision and positioning",
+        "engagement_range": "medium_to_long_distance",
+        "primary_stats": ["dexterity", "agility", "perception"],
+        "damage_types": ["piercing", "slashing", "impact"],
+        "special_features": ["aiming", "critical_strikes", "multiple_shots", "elemental_ammunition"],
+        "typical_materials": ["wood", "bone", "composite_materials", "mystical_strings"]
+      },
+      "spell_caster": {
+        "description": "Mystical weapons for magical combat and spell enhancement",
+        "combat_philosophy": "Arcane combat through magical power and knowledge",
+        "engagement_range": "variable_mystical_range",
+        "primary_stats": ["intelligence", "wisdom", "mystical_power"],
+        "damage_types": ["elemental", "energy", "mystical", "divine"],
+        "special_features": ["spell_amplification", "mana_channeling", "elemental_effects", "mystical_abilities"],
+        "typical_materials": ["mystical_woods", "crystals", "enchanted_gems", "divine_materials"]
+      }
+    }
+  },
+  "universal_properties": {
+    "stat_scaling": {
+      "melee": "Scales with Strength, Dexterity, and weapon-specific attributes",
+      "ranged": "Scales with Dexterity, Agility, and Perception",
+      "spell_caster": "Scales with Intelligence, Wisdom, and Mystical Power"
+    },
+    "enhancement_potential": {
+      "all_types": "Can be enhanced through smithing, enchantment, and divine blessing",
+      "upgrade_paths": ["material_improvement", "mystical_enhancement", "divine_blessing", "legendary_transformation"]
+    },
+    "divine_alignment": {
+      "influence": "All weapon types can manifest divine positioning characteristics",
+      "manifestation": "Divine alignment affects weapon appearance, special abilities, and combat effectiveness"
+    },
+    "combat_integration": {
+      "description": "Weapons work together with armor and jewelry to create complete combat builds",
+      "synergy_bonuses": "Weapon choice influences optimal armor and jewelry selections"
+    }
+  },
+  "crafting_system": {
+    "base_materials": {
+      "metals": ["iron", "steel", "mithril", "adamantine", "mystical_alloys"],
+      "organic": ["wood", "bone", "horn", "leather", "mystical_fibers"],
+      "mystical": ["crystals", "gems", "divine_fragments", "elemental_cores"]
+    },
+    "quality_tiers": {
+      "common": "Basic materials with standard effectiveness",
+      "uncommon": "Quality materials with improved performance",
+      "rare": "Exceptional materials with significant bonuses",
+      "epic": "Legendary materials with powerful effects",
+      "legendary": "Mythical materials with extraordinary capabilities"
+    }
+  },
+  "metadata": {
+    "created": "2025-08-07T00:00:00Z",
+    "last_updated": "2025-08-07T00:00:00Z",
+    "author": "PrimalMyst Development Team",
+    "version": "1.0.0",
+    "canonical": true,
+    "references": "Referenced by all weapon-specific core files"
+  }
+}

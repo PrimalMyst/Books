@@ -1,0 +1,133 @@
+{
+  "$schema": "../../schemas/weapon-usage-core.schema.json",
+  "category": "main_hand",
+  "display_name": "Main Hand Weapons",
+  "description": "Primary weapons designed for dominant hand use, offering balanced combat performance with shield compatibility and versatile fighting styles.",
+  
+  "generic_characteristics": {
+    "physical_properties": {
+      "size_category": "medium",
+      "grip_requirement": "dominant_hand",
+      "wielding_style": "one_handed_primary",
+      "reach_advantage": "moderate",
+      "weight_distribution": "balanced"
+    },
+    
+    "combat_attributes": {
+      "damage_potential": "high",
+      "attack_speed": "moderate_to_fast",
+      "critical_multiplier": "standard",
+      "defensive_options": {
+        "shield_compatibility": true,
+        "parrying_capability": "excellent",
+        "blocking_effectiveness": "very_good"
+      }
+    },
+    
+    "tactical_advantages": {
+      "versatility": "exceptional",
+      "single_target_focus": "excellent",
+      "defensive_integration": "seamless",
+      "combat_mobility": "enhanced",
+      "technique_variety": "extensive"
+    },
+    
+    "resource_requirements": {
+      "stamina_per_swing": "moderate",
+      "recovery_time": "standard",
+      "strength_requirement": "moderate",
+      "dexterity_requirement": "significant"
+    }
+  },
+  
+  "depth_based_information": {
+    "tier_1": {
+      "focus": "basic_main_hand_concepts",
+      "information": [
+        "Wielded in dominant hand",
+        "Compatible with shields",
+        "Balanced damage and speed",
+        "Versatile combat options"
+      ]
+    },
+    
+    "tier_2": {
+      "focus": "combat_integration",
+      "information": [
+        "Shield combat coordination",
+        "Offensive-defensive balance",
+        "Precision striking techniques",
+        "Combat flow management"
+      ]
+    },
+    
+    "tier_3": {
+      "focus": "advanced_techniques",
+      "information": [
+        "Multi-weapon coordination",
+        "Advanced parrying systems",
+        "Combat stance transitions",
+        "Tactical positioning mastery"
+      ]
+    },
+    
+    "tier_4": {
+      "focus": "mastery_concepts",
+      "information": [
+        "Perfect weapon control",
+        "Seamless defense integration",
+        "Combat rhythm optimization",
+        "Technique flow mastery"
+      ]
+    },
+    
+    "tier_5": {
+      "focus": "legendary_techniques",
+      "information": [
+        "Reality-cutting precision",
+        "Dimensional strike coordination",
+        "Essence-guided combat flow",
+        "Perfect balance manifestation"
+      ]
+    },
+    
+    "tier_6": {
+      "focus": "cosmic_mastery",
+      "information": [
+        "Universal harmony through combat",
+        "Conceptual weapon mastery",
+        "Reality-shaping precision",
+        "Cosmic balance embodiment"
+      ]
+    }
+  },
+  
+  "material_considerations": {
+    "blade_materials": [
+      "quality_steel", "enchanted_metals", "crystalline_alloys",
+      "star_touched_steel", "divine_essences", "reality_shards"
+    ],
+    "hilt_materials": [
+      "wrapped_leather", "precious_metals", "mystic_crystals",
+      "ethereal_bindings", "celestial_materials", "conceptual_forms"
+    ],
+    "balance_points": [
+      "traditional_weighted", "magically_perfect", "essence_balanced",
+      "dimensionally_stable", "cosmically_aligned", "conceptually_ideal"
+    ]
+  },
+  
+  "slot_integration": {
+    "equipment_slot": "weapon",
+    "slot_synergies": ["shield", "off_hand_items"],
+    "grip_requirements": "dominant_hand_primary",
+    "stance_modifications": "balanced_combat_forms"
+  },
+  
+  "progression_scaling": {
+    "damage_scaling": "steady_with_tier",
+    "versatility_scaling": "exponential_with_mastery",
+    "technique_complexity": "linear_progression",
+    "cosmic_integration": "harmonious_at_tier_6"
+  }
+}

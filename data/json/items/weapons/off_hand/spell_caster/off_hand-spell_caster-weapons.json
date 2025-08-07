@@ -1,0 +1,49 @@
+{
+  "$schema": "../../../schemas/weapon-category.schema.json",
+  "category": "off_hand_spell_caster",
+  "display_name": "Off Hand Spell Caster Weapons",
+  "description": "Compact magical implements designed for non-dominant hand use, offering utility spells and magical support while maintaining combat mobility.",
+  
+  "hand_usage": {
+    "type": "off_hand",
+    "requirements": ["non_dominant_hand"],
+    "restrictions": ["no_shield_when_equipped"]
+  },
+  
+  "combat_style": {
+    "type": "spell_caster",
+    "engagement_range": "variable_magical",
+    "primary_attributes": ["intelligence", "dexterity"]
+  },
+  
+  "weapon_examples": {
+    "basic": ["focus_crystal", "minor_wand", "spell_component"],
+    "advanced": ["enchanted_focus", "mystic_component", "arcane_catalyst"],
+    "legendary": ["reality_focus", "void_catalyst", "cosmos_component"],
+    "cosmic": ["universe_catalyst", "concept_focus", "existence_component"]
+  },
+  
+  "generic_characteristics": {
+    "spell_power": "moderate",
+    "casting_speed": "very_fast",
+    "mana_efficiency": "excellent",
+    "utility_focus": "high",
+    "spell_variety": "diverse"
+  },
+  
+  "depth_progression": {
+    "tier_1_focus": "basic_utility_magic",
+    "tier_2_focus": "advanced_spell_support",
+    "tier_3_focus": "masterful_magical_utility",
+    "tier_4_focus": "perfect_spell_coordination",
+    "tier_5_focus": "reality_support_magic",
+    "tier_6_focus": "cosmic_utility_mastery"
+  },
+  
+  "material_evolution": {
+    "early_tiers": ["small_crystals", "minor_focuses", "basic_components"],
+    "mid_tiers": ["enchanted_crystals", "magical_catalysts", "arcane_focuses"],
+    "high_tiers": ["divine_components", "ethereal_catalysts", "star_touched_focuses"],
+    "cosmic_tiers": ["reality_catalysts", "concept_focuses", "universal_components"]
+  }
+}

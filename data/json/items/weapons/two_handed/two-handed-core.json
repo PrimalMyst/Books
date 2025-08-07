@@ -1,0 +1,133 @@
+{
+  "$schema": "../../schemas/weapon-usage-core.schema.json",
+  "category": "two_handed",
+  "display_name": "Two-Handed Weapons",
+  "description": "Weapons requiring both hands to wield effectively, offering exceptional power and reach at the cost of defensive versatility.",
+  
+  "generic_characteristics": {
+    "physical_properties": {
+      "size_category": "large",
+      "grip_requirement": "both_hands",
+      "wielding_style": "two_handed_only",
+      "reach_advantage": true,
+      "weight_distribution": "balanced_heavy"
+    },
+    
+    "combat_attributes": {
+      "damage_potential": "very_high",
+      "attack_speed": "slow_to_moderate",
+      "critical_multiplier": "enhanced",
+      "defensive_options": {
+        "shield_compatibility": false,
+        "parrying_capability": "moderate",
+        "blocking_effectiveness": "weapon_dependent"
+      }
+    },
+    
+    "tactical_advantages": {
+      "crowd_control": "excellent",
+      "single_target_damage": "exceptional",
+      "reach_extension": "significant",
+      "armor_penetration": "high",
+      "stance_stability": "requires_proper_footing"
+    },
+    
+    "resource_requirements": {
+      "stamina_per_swing": "high",
+      "recovery_time": "extended",
+      "strength_requirement": "significant",
+      "dexterity_requirement": "moderate"
+    }
+  },
+  
+  "depth_based_information": {
+    "tier_1": {
+      "focus": "basic_two_handed_concepts",
+      "information": [
+        "Requires both hands to wield",
+        "Higher damage than one-handed weapons",
+        "Cannot use shields",
+        "Slower attack speed"
+      ]
+    },
+    
+    "tier_2": {
+      "focus": "combat_mechanics",
+      "information": [
+        "Extended reach for safer engagement",
+        "Enhanced critical strike potential",
+        "Crowd control capabilities",
+        "Stamina management important"
+      ]
+    },
+    
+    "tier_3": {
+      "focus": "advanced_tactics",
+      "information": [
+        "Stance-based combat techniques",
+        "Momentum and timing mastery",
+        "Specialized grip techniques",
+        "Environmental leverage usage"
+      ]
+    },
+    
+    "tier_4": {
+      "focus": "mastery_concepts",
+      "information": [
+        "Perfect weight distribution control",
+        "Advanced parrying techniques",
+        "Combat flow optimization",
+        "Weapon-specific martial arts"
+      ]
+    },
+    
+    "tier_5": {
+      "focus": "legendary_techniques",
+      "information": [
+        "Reality-cleaving strikes",
+        "Temporal momentum manipulation",
+        "Essence-infused combat forms",
+        "Dimensional reach extension"
+      ]
+    },
+    
+    "tier_6": {
+      "focus": "cosmic_mastery",
+      "information": [
+        "Universal force channeling",
+        "Conceptual weapon manifestation",
+        "Reality-rewriting strikes",
+        "Cosmic balance through combat"
+      ]
+    }
+  },
+  
+  "material_considerations": {
+    "shaft_materials": [
+      "hardwoods", "reinforced_steel", "crystalline_cores",
+      "mythril_frameworks", "ethereal_essences", "cosmic_conduits"
+    ],
+    "head_materials": [
+      "tempered_steel", "enchanted_alloys", "prismatic_crystals",
+      "star_forged_metals", "divine_substances", "reality_fragments"
+    ],
+    "binding_methods": [
+      "traditional_wrapping", "magical_fusion", "essence_bonding",
+      "dimensional_anchoring", "cosmic_integration", "conceptual_unity"
+    ]
+  },
+  
+  "slot_integration": {
+    "equipment_slot": "weapon",
+    "slot_exclusions": ["shield", "off_hand_weapon"],
+    "grip_requirements": "both_primary_appendages",
+    "stance_modifications": "two_handed_combat_forms"
+  },
+  
+  "progression_scaling": {
+    "damage_scaling": "exponential_with_tier",
+    "reach_scaling": "linear_with_mastery",
+    "technique_complexity": "geometric_progression",
+    "cosmic_integration": "transcendent_at_tier_6"
+  }
+}

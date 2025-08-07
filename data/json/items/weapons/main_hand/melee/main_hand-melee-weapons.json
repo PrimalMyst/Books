@@ -1,0 +1,49 @@
+{
+  "$schema": "../../../schemas/weapon-category.schema.json",
+  "category": "main_hand_melee",
+  "display_name": "Main Hand Melee Weapons",
+  "description": "Versatile one-handed melee weapons designed for dominant hand use, offering balanced combat performance with shield compatibility.",
+  
+  "hand_usage": {
+    "type": "main_hand",
+    "requirements": ["dominant_hand"],
+    "restrictions": []
+  },
+  
+  "combat_style": {
+    "type": "melee",
+    "engagement_range": "close_melee",
+    "primary_attributes": ["strength", "dexterity"]
+  },
+  
+  "weapon_examples": {
+    "basic": ["sword", "axe", "mace"],
+    "advanced": ["enchanted_blade", "runic_axe", "crystal_mace"],
+    "legendary": ["fate_cutter", "soul_cleaver", "reality_slicer"],
+    "cosmic": ["universe_edge", "concept_blade", "existence_cutter"]
+  },
+  
+  "generic_characteristics": {
+    "damage_output": "high",
+    "attack_speed": "moderate_to_fast",
+    "reach": "standard",
+    "versatility": "excellent",
+    "shield_synergy": "perfect"
+  },
+  
+  "depth_progression": {
+    "tier_1_focus": "basic_swordplay_fundamentals",
+    "tier_2_focus": "advanced_combat_techniques",
+    "tier_3_focus": "masterful_weapon_control",
+    "tier_4_focus": "perfect_combat_harmony",
+    "tier_5_focus": "reality_cutting_precision",
+    "tier_6_focus": "cosmic_balance_through_steel"
+  },
+  
+  "material_evolution": {
+    "early_tiers": ["steel", "iron", "quality_metals"],
+    "mid_tiers": ["enchanted_alloys", "magical_steel", "crystal_edges"],
+    "high_tiers": ["star_forged_metal", "divine_steel", "ethereal_blades"],
+    "cosmic_tiers": ["reality_metal", "concept_alloys", "universal_substances"]
+  }
+}

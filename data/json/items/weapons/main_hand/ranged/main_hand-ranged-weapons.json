@@ -1,0 +1,49 @@
+{
+  "$schema": "../../../schemas/weapon-category.schema.json",
+  "category": "main_hand_ranged",
+  "display_name": "Main Hand Ranged Weapons",
+  "description": "One-handed ranged weapons designed for dominant hand use, offering mobility and defensive options while maintaining ranged combat effectiveness.",
+  
+  "hand_usage": {
+    "type": "main_hand",
+    "requirements": ["dominant_hand"],
+    "restrictions": []
+  },
+  
+  "combat_style": {
+    "type": "ranged",
+    "engagement_range": "medium_to_long_range",
+    "primary_attributes": ["dexterity", "perception"]
+  },
+  
+  "weapon_examples": {
+    "basic": ["throwing_axe", "javelin", "hand_crossbow"],
+    "advanced": ["enchanted_dart", "mystic_chakram", "arcane_thrower"],
+    "legendary": ["void_piercer", "reality_dart", "soul_seeker"],
+    "cosmic": ["universe_projectile", "concept_thrower", "existence_launcher"]
+  },
+  
+  "generic_characteristics": {
+    "damage_output": "moderate_to_high",
+    "attack_speed": "fast",
+    "reach": "long",
+    "mobility": "excellent",
+    "ammunition_efficiency": "moderate"
+  },
+  
+  "depth_progression": {
+    "tier_1_focus": "basic_throwing_accuracy",
+    "tier_2_focus": "advanced_projectile_control",
+    "tier_3_focus": "masterful_trajectory_mastery",
+    "tier_4_focus": "perfect_ranged_precision",
+    "tier_5_focus": "reality_seeking_projectiles",
+    "tier_6_focus": "cosmic_targeting_mastery"
+  },
+  
+  "material_evolution": {
+    "early_tiers": ["steel", "balanced_metals", "weighted_alloys"],
+    "mid_tiers": ["enchanted_materials", "magical_projectiles", "seeking_metals"],
+    "high_tiers": ["star_touched_alloys", "divine_projectiles", "ethereal_darts"],
+    "cosmic_tiers": ["reality_seekers", "concept_projectiles", "universal_missiles"]
+  }
+}

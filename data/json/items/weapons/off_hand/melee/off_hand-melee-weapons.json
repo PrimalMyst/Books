@@ -1,0 +1,49 @@
+{
+  "$schema": "../../../schemas/weapon-category.schema.json",
+  "category": "off_hand_melee",
+  "display_name": "Off Hand Melee Weapons",
+  "description": "Fast, lightweight melee weapons designed for non-dominant hand use, focusing on speed, parrying, and dual-wield coordination.",
+  
+  "hand_usage": {
+    "type": "off_hand",
+    "requirements": ["non_dominant_hand"],
+    "restrictions": ["no_shield_when_equipped"]
+  },
+  
+  "combat_style": {
+    "type": "melee",
+    "engagement_range": "close_melee",
+    "primary_attributes": ["dexterity", "agility"]
+  },
+  
+  "weapon_examples": {
+    "basic": ["dagger", "short_sword", "parrying_blade"],
+    "advanced": ["enchanted_dagger", "mystic_blade", "crystal_parrier"],
+    "legendary": ["shadow_fang", "void_slicer", "reality_piercer"],
+    "cosmic": ["universe_fang", "concept_blade", "existence_pierce"]
+  },
+  
+  "generic_characteristics": {
+    "damage_output": "moderate",
+    "attack_speed": "very_fast",
+    "reach": "short",
+    "parrying_ability": "excellent",
+    "dual_wield_synergy": "perfect"
+  },
+  
+  "depth_progression": {
+    "tier_1_focus": "basic_dual_wield_coordination",
+    "tier_2_focus": "advanced_speed_techniques",
+    "tier_3_focus": "masterful_parrying_forms",
+    "tier_4_focus": "perfect_ambidextrous_control",
+    "tier_5_focus": "reality_blurring_speed",
+    "tier_6_focus": "cosmic_duality_mastery"
+  },
+  
+  "material_evolution": {
+    "early_tiers": ["lightweight_steel", "balanced_alloys", "speed_metals"],
+    "mid_tiers": ["enchanted_lightweights", "velocity_crystals", "quick_alloys"],
+    "high_tiers": ["ethereal_metals", "divine_lightness", "star_swift_materials"],
+    "cosmic_tiers": ["reality_speed", "concept_velocity", "universal_swiftness"]
+  }
+}
