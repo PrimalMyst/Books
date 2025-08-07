@@ -1,0 +1,32 @@
+﻿{
+  "$schema": "../../../../schemas/weapon-item.schema.json",
+  "id": "main_hand_melee_military_pick",
+  "name": "military pick",
+  "display_name": "military pick",
+  "description": "A one-handed military pick weapon for main hand use.",
+  "category": "main_hand_melee",
+  "rarity": "common",
+  "tier": 1,
+  
+  "weapon_properties": {
+    "hand_usage": "main_hand",
+    "combat_style": "melee",
+    "weapon_type": "military_pick",
+    "damage_type": "placeholder",
+    "reach": "standard",
+    "weight": "medium"
+  },
+  
+  "combat_stats": {
+    "base_damage": "placeholder",
+    "attack_speed": "placeholder",
+    "critical_chance": "placeholder",
+    "requirements": {
+      "strength": "placeholder",
+      "dexterity": "placeholder"
+    }
+  },
+  
+  "placeholder": true,
+  "implementation_notes": "military pick weapon template - requires complete implementation"
+}

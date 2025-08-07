@@ -1,0 +1,32 @@
+﻿{
+  "$schema": "../../../../schemas/weapon-item.schema.json",
+  "id": "main_hand_ranged_hand_crossbow",
+  "name": "hand crossbow",
+  "display_name": "hand crossbow",
+  "description": "A one-handed ranged hand crossbow weapon for main hand use.",
+  "category": "main_hand_ranged",
+  "rarity": "common",
+  "tier": 1,
+  
+  "weapon_properties": {
+    "hand_usage": "main_hand",
+    "combat_style": "ranged",
+    "weapon_type": "hand_crossbow",
+    "damage_type": "placeholder",
+    "reach": "ranged",
+    "weight": "light_to_medium"
+  },
+  
+  "combat_stats": {
+    "base_damage": "placeholder",
+    "attack_speed": "fast",
+    "critical_chance": "standard",
+    "requirements": {
+      "dexterity": "placeholder",
+      "perception": "placeholder"
+    }
+  },
+  
+  "placeholder": true,
+  "implementation_notes": "Main hand ranged hand crossbow weapon template - requires complete implementation"
+}

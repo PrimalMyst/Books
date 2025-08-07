@@ -1,0 +1,32 @@
+﻿{
+  "$schema": "../../../../schemas/weapon-item.schema.json",
+  "id": "two_handed_melee_longsword",
+  "name": "longsword",
+  "display_name": "longsword",
+  "description": "A powerful two-handed longsword weapon requiring both hands to wield.",
+  "category": "two_handed_melee",
+  "rarity": "common",
+  "tier": 1,
+  
+  "weapon_properties": {
+    "hand_usage": "two_handed",
+    "combat_style": "melee",
+    "weapon_type": "longsword",
+    "damage_type": "placeholder",
+    "reach": "extended",
+    "weight": "heavy"
+  },
+  
+  "combat_stats": {
+    "base_damage": "placeholder",
+    "attack_speed": "slow",
+    "critical_chance": "enhanced",
+    "requirements": {
+      "strength": "placeholder",
+      "dexterity": "placeholder"
+    }
+  },
+  
+  "placeholder": true,
+  "implementation_notes": "Two-handed longsword weapon template - requires complete implementation"
+}

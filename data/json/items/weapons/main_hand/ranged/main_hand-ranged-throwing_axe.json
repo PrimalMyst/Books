@@ -1,0 +1,32 @@
+﻿{
+  "$schema": "../../../../schemas/weapon-item.schema.json",
+  "id": "main_hand_ranged_throwing_axe",
+  "name": "throwing axe",
+  "display_name": "throwing axe",
+  "description": "A one-handed ranged throwing axe weapon for main hand use.",
+  "category": "main_hand_ranged",
+  "rarity": "common",
+  "tier": 1,
+  
+  "weapon_properties": {
+    "hand_usage": "main_hand",
+    "combat_style": "ranged",
+    "weapon_type": "throwing_axe",
+    "damage_type": "placeholder",
+    "reach": "ranged",
+    "weight": "light_to_medium"
+  },
+  
+  "combat_stats": {
+    "base_damage": "placeholder",
+    "attack_speed": "fast",
+    "critical_chance": "standard",
+    "requirements": {
+      "dexterity": "placeholder",
+      "perception": "placeholder"
+    }
+  },
+  
+  "placeholder": true,
+  "implementation_notes": "Main hand ranged throwing axe weapon template - requires complete implementation"
+}

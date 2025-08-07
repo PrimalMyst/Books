@@ -1,0 +1,32 @@
+﻿{
+  "$schema": "../../../../schemas/weapon-item.schema.json",
+  "id": "main_hand_melee_war_sword",
+  "name": "war sword",
+  "display_name": "war sword",
+  "description": "A one-handed war sword weapon for main hand use.",
+  "category": "main_hand_melee",
+  "rarity": "common",
+  "tier": 1,
+  
+  "weapon_properties": {
+    "hand_usage": "main_hand",
+    "combat_style": "melee",
+    "weapon_type": "war_sword",
+    "damage_type": "placeholder",
+    "reach": "standard",
+    "weight": "medium"
+  },
+  
+  "combat_stats": {
+    "base_damage": "placeholder",
+    "attack_speed": "placeholder",
+    "critical_chance": "placeholder",
+    "requirements": {
+      "strength": "placeholder",
+      "dexterity": "placeholder"
+    }
+  },
+  
+  "placeholder": true,
+  "implementation_notes": "war sword weapon template - requires complete implementation"
+}

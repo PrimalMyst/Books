@@ -1,0 +1,32 @@
+{
+  "$schema": "../../../../schemas/weapon-item.schema.json",
+  "id": "main_hand_melee_sword",
+  "name": "Sword",
+  "display_name": "Sword",
+  "description": "A balanced one-handed blade weapon, versatile and reliable for combat.",
+  "category": "main_hand_melee",
+  "rarity": "common",
+  "tier": 1,
+  
+  "weapon_properties": {
+    "hand_usage": "main_hand",
+    "combat_style": "melee",
+    "weapon_type": "sword",
+    "damage_type": "slashing",
+    "reach": "standard",
+    "weight": "medium"
+  },
+  
+  "combat_stats": {
+    "base_damage": "placeholder",
+    "attack_speed": "moderate",
+    "critical_chance": "standard",
+    "requirements": {
+      "strength": "placeholder",
+      "dexterity": "placeholder"
+    }
+  },
+  
+  "placeholder": true,
+  "implementation_notes": "Basic one-handed sword template - requires stat values and specific mechanics"
+}

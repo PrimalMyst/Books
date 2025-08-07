@@ -1,0 +1,32 @@
+﻿{
+  "$schema": "../../../../schemas/weapon-item.schema.json",
+  "id": "off_hand_melee_kris",
+  "name": "kris",
+  "display_name": "kris",
+  "description": "A lightweight kris weapon designed for off-hand use and dual-wielding.",
+  "category": "off_hand_melee",
+  "rarity": "common",
+  "tier": 1,
+  
+  "weapon_properties": {
+    "hand_usage": "off_hand",
+    "combat_style": "melee",
+    "weapon_type": "kris",
+    "damage_type": "piercing",
+    "reach": "short",
+    "weight": "light"
+  },
+  
+  "combat_stats": {
+    "base_damage": "placeholder",
+    "attack_speed": "very_fast",
+    "critical_chance": "enhanced",
+    "requirements": {
+      "dexterity": "placeholder",
+      "agility": "placeholder"
+    }
+  },
+  
+  "placeholder": true,
+  "implementation_notes": "Off-hand melee kris weapon template - requires complete implementation"
+}

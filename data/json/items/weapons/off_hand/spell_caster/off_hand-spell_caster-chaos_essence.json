@@ -1,0 +1,32 @@
+﻿{
+  "$schema": "../../../../schemas/weapon-item.schema.json",
+  "id": "off_hand_spell_caster_chaos_essence",
+  "name": "chaos essence",
+  "display_name": "chaos essence",
+  "description": "A compact magical chaos essence for off-hand spell support and utility magic.",
+  "category": "off_hand_spell_caster",
+  "rarity": "common",
+  "tier": 1,
+  
+  "weapon_properties": {
+    "hand_usage": "off_hand",
+    "combat_style": "spell_caster",
+    "weapon_type": "chaos_essence",
+    "damage_type": "magical",
+    "reach": "utility_magical_range",
+    "weight": "very_light"
+  },
+  
+  "combat_stats": {
+    "spell_power": "placeholder",
+    "casting_speed": "very_fast",
+    "mana_efficiency": "excellent",
+    "requirements": {
+      "intelligence": "placeholder",
+      "dexterity": "placeholder"
+    }
+  },
+  
+  "placeholder": true,
+  "implementation_notes": "Off-hand spell caster chaos essence implement template - requires complete implementation"
+}
