@@ -25,13 +25,14 @@
         "combat_role": "primary_combat_weapon_with_tactical_options"
       },
       "off_hand": {
-        "description": "Secondary weapons for non-dominant hand or dual-wielding",
+        "description": "Secondary weapons for non-dominant hand, dual-wielding, or defensive items",
         "abbreviation": "OH",
-        "usage_philosophy": "Supplementary combat support and specialized techniques",
-        "primary_benefits": ["dual_wield_compatibility", "defensive_options", "surprise_attacks", "utility_functions"],
-        "drawbacks": ["lower_damage", "limited_reach", "requires_dual_wield_skill"],
-        "typical_characteristics": ["compact_size", "light_weight", "off_hand_optimized", "specialized_design"],
-        "combat_role": "secondary_weapon_and_tactical_support"
+        "usage_philosophy": "Supplementary combat support, specialized techniques, and defensive protection",
+        "primary_benefits": ["dual_wield_compatibility", "defensive_options", "surprise_attacks", "utility_functions", "shield_protection"],
+        "drawbacks": ["lower_damage", "limited_reach", "requires_dual_wield_skill", "defensive_items_reduce_offense"],
+        "typical_characteristics": ["compact_size", "light_weight", "off_hand_optimized", "specialized_design", "defensive_capabilities"],
+        "combat_role": "secondary_weapon_tactical_support_and_defense",
+        "includes_defensive_items": true
       }
     },
     "combat_style_types": {
@@ -61,6 +62,75 @@
         "damage_types": ["elemental", "energy", "mystical", "divine"],
         "special_features": ["spell_amplification", "mana_channeling", "elemental_effects", "mystical_abilities"],
         "typical_materials": ["mystical_woods", "crystals", "enchanted_gems", "divine_materials"]
+      },
+      "defensive": {
+        "description": "Protective items designed to absorb, deflect, or mitigate incoming damage",
+        "combat_philosophy": "Protection and survival through active defense and damage mitigation",
+        "engagement_range": "personal_protection_zone",
+        "primary_stats": ["constitution", "strength", "defensive_mastery"],
+        "damage_types": ["none", "minimal_bash_damage"],
+        "special_features": ["damage_blocking", "spell_deflection", "armor_class_bonus", "defensive_maneuvers"],
+        "typical_materials": ["reinforced_metals", "hardened_wood", "protective_crystals", "divine_materials"],
+        "availability": "off_hand_only"
+      }
+    }
+  },
+  "weapon_type_examples": {
+    "two_handed_melee": {
+      "basic_examples": ["longsword", "greatsword", "battle_axe", "war_hammer", "halberd", "glaive", "pike", "maul"],
+      "advanced_examples": ["claymore", "zweihander", "great_axe", "war_maul", "poleaxe", "bardiche", "lucerne_hammer"],
+      "specialized_examples": ["flamberge", "executioner_axe", "war_scythe", "heavy_mace", "morning_star", "flail"]
+    },
+    "two_handed_ranged": {
+      "basic_examples": ["longbow", "crossbow", "hunting_bow", "composite_bow"],
+      "advanced_examples": ["war_bow", "heavy_crossbow", "elven_longbow", "siege_crossbow"],
+      "specialized_examples": ["recurve_bow", "arbalest", "ballista", "repeating_crossbow"]
+    },
+    "two_handed_spell_caster": {
+      "basic_examples": ["staff", "quarterstaff", "great_staff", "war_staff"],
+      "advanced_examples": ["arcane_staff", "elemental_staff", "battle_staff", "ritual_staff"],
+      "specialized_examples": ["crystal_staff", "runic_staff", "divine_staff", "chaos_staff"]
+    },
+    "main_hand_melee": {
+      "basic_examples": ["sword", "axe", "mace", "hammer", "scimitar", "rapier"],
+      "advanced_examples": ["falchion", "war_axe", "military_pick", "war_hammer", "cutlass"],
+      "specialized_examples": ["estoc", "sabre", "tomahawk", "war_pick", "flanged_mace"]
+    },
+    "main_hand_ranged": {
+      "basic_examples": ["hand_crossbow", "throwing_axe", "javelin", "throwing_knife"],
+      "advanced_examples": ["repeating_crossbow", "war_dart", "pilum", "francisca"],
+      "specialized_examples": ["chakram", "boomerang", "atlatl", "sling"]
+    },
+    "main_hand_spell_caster": {
+      "basic_examples": ["wand", "rod", "scepter", "focus_orb"],
+      "advanced_examples": ["arcane_wand", "crystal_rod", "royal_scepter", "elemental_orb"],
+      "specialized_examples": ["runic_wand", "chaos_rod", "divine_scepter", "void_orb"]
+    },
+    "off_hand_melee": {
+      "basic_examples": ["dagger", "short_sword", "kukri", "stiletto", "dirk"],
+      "advanced_examples": ["parrying_dagger", "main_gauche", "assassin_blade", "punching_dagger"],
+      "specialized_examples": ["kris", "tanto", "rondel", "misericorde"]
+    },
+    "off_hand_ranged": {
+      "basic_examples": ["throwing_knife", "dart", "shuriken", "throwing_star"],
+      "advanced_examples": ["weighted_dart", "assassin_knife", "needle", "caltrops"],
+      "specialized_examples": ["kunai", "senbon", "tessen", "hidden_blade"]
+    },
+    "off_hand_spell_caster": {
+      "basic_examples": ["focus_crystal", "spell_component", "minor_wand", "charm"],
+      "advanced_examples": ["power_crystal", "arcane_focus", "elemental_gem", "mystic_orb"],
+      "specialized_examples": ["soul_crystal", "void_shard", "divine_fragment", "chaos_essence"]
+    },
+    "off_hand_defensive": {
+      "shields": {
+        "basic_examples": ["buckler", "round_shield", "heater_shield", "kite_shield"],
+        "advanced_examples": ["tower_shield", "pavise", "war_shield", "spiked_shield"],
+        "specialized_examples": ["magical_barrier", "crystal_ward", "divine_aegis", "void_shield"]
+      },
+      "defensive_weapons": {
+        "basic_examples": ["parrying_dagger", "defensive_baton", "guard_stick"],
+        "advanced_examples": ["sword_breaker", "parrying_cloak", "defensive_gauntlet"],
+        "specialized_examples": ["spell_ward", "energy_barrier", "protective_charm"]
       }
     }
   },

@@ -17,10 +17,10 @@
   },
   
   "weapon_examples": {
-    "basic": ["great_sword", "battle_axe", "war_hammer"],
-    "advanced": ["mythril_claymore", "enchanted_poleaxe", "runic_maul"],
-    "legendary": ["reality_cleaver", "titan_crusher", "void_splitter"],
-    "cosmic": ["universe_render", "concept_breaker", "existence_ender"]
+    "basic": ["longsword", "greatsword", "battle_axe", "war_hammer", "halberd", "glaive", "pike"],
+    "advanced": ["claymore", "zweihander", "great_axe", "war_maul", "poleaxe", "bardiche", "lucerne_hammer"],
+    "legendary": ["reality_cleaver", "titan_crusher", "void_splitter", "flamberge_of_souls", "executioner_greataxe"],
+    "cosmic": ["universe_render", "concept_breaker", "existence_ender", "dimensional_greatblade", "cosmic_maul"]
   },
   
   "generic_characteristics": {

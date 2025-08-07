@@ -1,0 +1,71 @@
+{
+  "$schema": "../../../schemas/weapon-category.schema.json",
+  "category": "off_hand_defensive",
+  "display_name": "Off Hand Defensive Items",
+  "description": "Defensive equipment designed for off-hand use, focusing on protection, damage mitigation, and defensive tactics.",
+  
+  "hand_usage": {
+    "type": "off_hand",
+    "requirements": ["non_dominant_hand"],
+    "restrictions": ["no_dual_wield_when_equipped"]
+  },
+  
+  "combat_style": {
+    "type": "defensive",
+    "engagement_range": "personal_protection",
+    "primary_attributes": ["constitution", "strength"]
+  },
+  
+  "defensive_categories": {
+    "shields": {
+      "basic_examples": ["buckler", "round_shield", "heater_shield", "kite_shield"],
+      "advanced_examples": ["tower_shield", "pavise", "war_shield", "spiked_shield"],
+      "legendary_examples": ["aegis_of_valor", "void_barrier", "reality_ward"],
+      "cosmic_examples": ["universal_aegis", "concept_shield", "existence_barrier"]
+    },
+    "defensive_weapons": {
+      "basic_examples": ["parrying_dagger", "defensive_baton", "guard_stick"],
+      "advanced_examples": ["sword_breaker", "parrying_cloak", "defensive_gauntlet"],
+      "legendary_examples": ["spell_ward", "energy_barrier", "soul_guard"],
+      "cosmic_examples": ["reality_deflector", "concept_parry", "universal_guard"]
+    }
+  },
+  
+  "generic_characteristics": {
+    "defensive_rating": "high_to_very_high",
+    "damage_output": "none_to_minimal",
+    "block_chance": "excellent",
+    "damage_reduction": "significant",
+    "special_abilities": ["active_blocking", "spell_deflection", "counter_attacks"]
+  },
+  
+  "shield_mechanics": {
+    "armor_class_bonus": "shields provide AC bonus based on type and quality",
+    "active_defense": "requires active use for maximum effectiveness",
+    "material_benefits": "shield material affects defensive properties",
+    "enchantment_potential": "high potential for defensive enchantments"
+  },
+  
+  "depth_progression": {
+    "tier_1_focus": "basic_blocking_and_protection",
+    "tier_2_focus": "advanced_defensive_techniques",
+    "tier_3_focus": "masterful_shield_combat",
+    "tier_4_focus": "perfect_defensive_mastery",
+    "tier_5_focus": "reality_protecting_barriers",
+    "tier_6_focus": "cosmic_defense_transcendence"
+  },
+  
+  "material_evolution": {
+    "early_tiers": ["wood", "leather", "bronze", "iron", "steel"],
+    "mid_tiers": ["enchanted_metals", "magical_woods", "crystal_reinforcements"],
+    "high_tiers": ["divine_materials", "ethereal_substances", "star_forged_metals"],
+    "cosmic_tiers": ["reality_barriers", "concept_materials", "universal_protections"]
+  },
+  
+  "tactical_applications": {
+    "formations": "essential for formation fighting and group tactics",
+    "spell_protection": "magical shields can deflect or absorb spells",
+    "environmental": "protection from environmental hazards",
+    "crowd_control": "can be used to control enemy positioning"
+  }
+}

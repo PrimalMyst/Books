@@ -17,10 +17,10 @@
   },
   
   "weapon_examples": {
-    "basic": ["throwing_axe", "javelin", "hand_crossbow"],
-    "advanced": ["enchanted_dart", "mystic_chakram", "arcane_thrower"],
-    "legendary": ["void_piercer", "reality_dart", "soul_seeker"],
-    "cosmic": ["universe_projectile", "concept_thrower", "existence_launcher"]
+    "basic": ["hand_crossbow", "throwing_axe", "javelin", "throwing_knife", "dart", "sling"],
+    "advanced": ["repeating_crossbow", "war_dart", "pilum", "francisca", "enchanted_chakram", "mystic_boomerang"],
+    "legendary": ["void_piercer", "reality_dart", "soul_seeker", "dimensional_javelin", "chaos_thrower"],
+    "cosmic": ["universe_projectile", "concept_thrower", "existence_launcher", "cosmic_dart", "stellar_javelin"]
   },
   
   "generic_characteristics": {

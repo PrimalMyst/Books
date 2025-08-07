@@ -17,10 +17,10 @@
   },
   
   "weapon_examples": {
-    "basic": ["great_staff", "war_scepter", "ritual_rod"],
-    "advanced": ["arcane_battlestaff", "elemental_conduit", "mystic_channeler"],
-    "legendary": ["reality_weaver", "void_conductor", "cosmos_manipulator"],
-    "cosmic": ["universe_conduit", "concept_channeler", "existence_director"]
+    "basic": ["staff", "quarterstaff", "great_staff", "war_staff", "battle_staff"],
+    "advanced": ["arcane_staff", "elemental_staff", "crystal_staff", "runic_staff", "mystic_battlestaff"],
+    "legendary": ["reality_weaver", "void_conductor", "cosmos_manipulator", "divine_staff", "chaos_conduit"],
+    "cosmic": ["universe_conduit", "concept_channeler", "existence_director", "stellar_staff", "dimensional_focus"]
   },
   
   "generic_characteristics": {

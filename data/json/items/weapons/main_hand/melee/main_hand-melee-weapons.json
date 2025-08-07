@@ -17,10 +17,10 @@
   },
   
   "weapon_examples": {
-    "basic": ["sword", "axe", "mace"],
-    "advanced": ["enchanted_blade", "runic_axe", "crystal_mace"],
-    "legendary": ["fate_cutter", "soul_cleaver", "reality_slicer"],
-    "cosmic": ["universe_edge", "concept_blade", "existence_cutter"]
+    "basic": ["sword", "axe", "mace", "hammer", "scimitar", "rapier", "falchion"],
+    "advanced": ["war_sword", "battle_axe", "military_pick", "war_hammer", "enchanted_blade", "runic_axe"],
+    "legendary": ["fate_cutter", "soul_cleaver", "reality_slicer", "divine_blade", "void_edge"],
+    "cosmic": ["universe_edge", "concept_blade", "existence_cutter", "dimensional_sword", "cosmic_steel"]
   },
   
   "generic_characteristics": {

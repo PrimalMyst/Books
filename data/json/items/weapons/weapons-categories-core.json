@@ -12,7 +12,7 @@
     "structure": "Linear hierarchical organization: weapons/[hand_usage]/[combat_style]/",
     "base_type_reference": "See weapons-base-categories-core.json for detailed hand usage and combat style definitions",
     "supported_hand_usage": ["two_handed", "main_hand", "off_hand"],
-    "supported_combat_styles": ["melee", "ranged", "spell_caster"]
+    "supported_combat_styles": ["melee", "ranged", "spell_caster", "defensive"]
   },
   "hand_usage_categories": {
     "two_handed": {
@@ -30,17 +30,17 @@
     "off_hand": {
       "usage_name": "off_hand",
       "hand_requirement": "non_dominant_hand",
-      "combat_styles": ["melee", "ranged", "spell_caster"],
-      "special_properties": ["dual_wield_support", "utility_functions", "defensive_options", "specialized_techniques"]
+      "combat_styles": ["melee", "ranged", "spell_caster", "defensive"],
+      "special_properties": ["dual_wield_support", "utility_functions", "defensive_options", "specialized_techniques", "shield_compatibility"]
     }
   },
   "implementation_structure": {
-    "total_weapon_categories": 9,
+    "total_weapon_categories": 10,
     "breakdown": {
       "hand_usage_types": 3,
-      "combat_styles_per_usage": 3,
-      "total_styles_per_usage": 3,
-      "calculation": "3 hand usage × 3 combat styles = 9 total weapon categories"
+      "combat_styles_standard": 3,
+      "combat_styles_off_hand_only": 1,
+      "total_combinations": "two_handed: 3, main_hand: 3, off_hand: 4 = 10 total weapon categories"
     },
     "file_organization": {
       "structure": "weapons/[hand_usage]/[combat_style]/",
