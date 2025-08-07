@@ -5,84 +5,82 @@
 The PrimalMyst universe is organized around a fundamental hexagonal structure that aligns all major game systems. Starting from the top and proceeding clockwise:
 
 ```
-                    (1) COLD
-                   Glacius (F)
+                    (1) RED
+                   Glacius (P)
                 Intelligence
-              Cold Resistance
                       /\
                      /  \
          (6) RADIANCE    (2) CHAOS
-         Aurelius (P)    Serafina (P)
+         Aurelius (S)    Serafina (S)
           Str + Int      Int + Dex
         Energy Shield    Evasion
                    \    /
                     \  /
-         (5) FIRE ---- ---- (3) LIGHTNING
-         Pyrion (F)         Voltharion (F)
+         (5) BLUE ---- ---- (3) GREEN
+         Pyrion (P)         Voltharion (P)
          Strength           Dexterity
-        Fire Resistance    Lightning Resistance
                     \  /
                      \/
                 (4) PHYSICAL
-                Korthak (P)
+                Korthak (S)
                 Dex + Str
                 Armor
 ```
 
 **Legend:**
-- (F) = Fundamental God
 - (P) = Primal God
+- (S) = Sovereign God
 
 ## Corner Mappings
 
-### Corner 1: COLD (Top)
-- **Damage Type:** Cold
-- **God:** Glacius, the Eternal Frost (Fundamental)
+### Corner 1: RED (Top)
+- **Damage Type:** Red
+- **God:** Glacius, the Eternal Frost (Primal)
 - **Realm:** Glacius' Archive - The Frost Realm
 - **Branch:** Western Crown Branch
 - **Attributes:** Intelligence (pure)
-- **Defense:** Cold Resistance (pure)
+- **Defense:** Red Resistance (pure)
 - **Theme:** Eternal Preservation, Memory, Crystalline Perfection
 
 ### Corner 2: CHAOS (Top-Right)
 - **Damage Type:** Chaos
-- **God:** Serafina, the Shadow Empress (Primal)
+- **God:** Serafina, the Shadow Empress (Sovereign)
 - **Realm:** Serafina's Court - The Shadow Realm
 - **Branch:** Southern Middle Branch
 - **Attributes:** Intelligence + Dexterity
 - **Defense:** Evasion (pure)
 - **Theme:** Creative Chaos, Beneficial Change, Shadow Arts
 
-### Corner 3: LIGHTNING (Bottom-Right)
-- **Damage Type:** Lightning
-- **God:** Voltharion, the Cosmic Spark (Fundamental)
+### Corner 3: GREEN (Bottom-Right)
+- **Damage Type:** Green
+- **God:** Voltharion, the Cosmic Spark (Primal)
 - **Realm:** Voltharion's Web - The Lightning Realm
 - **Branch:** Northern Crown Branch
 - **Attributes:** Dexterity (pure)
-- **Defense:** Lightning Resistance (pure)
+- **Defense:** Green Resistance (pure)
 - **Theme:** Divine Connection, Speed, Communication
 
 ### Corner 4: PHYSICAL (Bottom)
 - **Damage Type:** Physical
-- **God:** Korthak, the Dragon King (Primal)
+- **God:** Korthak, the Dragon King (Sovereign)
 - **Realm:** Korthak's Arena - The Might Realm
 - **Branch:** Western Middle Branch
 - **Attributes:** Dexterity + Strength
 - **Defense:** Armor (pure)
 - **Theme:** Physical Mastery, Honor, Direct Combat
 
-### Corner 5: FIRE (Bottom-Left)
-- **Damage Type:** Fire
-- **God:** Pyrion, the First Flame (Fundamental)
+### Corner 5: BLUE (Bottom-Left)
+- **Damage Type:** Blue
+- **God:** Pyrion, the First Flame (Primal)
 - **Realm:** Pyrion's Forge - The Flame Realm
 - **Branch:** Eastern Crown Branch
 - **Attributes:** Strength (pure)
-- **Defense:** Fire Resistance (pure)
+- **Defense:** Blue Resistance (pure)
 - **Theme:** Primal Fire, Creation, Transformation
 
 ### Corner 6: RADIANCE (Top-Left)
 - **Damage Type:** Radiance (Light)
-- **God:** Aurelius, the Radiant Sphere (Primal)
+- **God:** Aurelius, the Radiant Sphere (Sovereign)
 - **Realm:** Aurelius's Sanctuary - The Radiance Realm
 - **Branch:** Eastern Middle Branch
 - **Attributes:** Strength + Intelligence
@@ -91,9 +89,9 @@ The PrimalMyst universe is organized around a fundamental hexagonal structure th
 
 ## Divine Hierarchy Pattern
 
-The hexagon alternates between Fundamental and Primal gods:
-- **Fundamental Gods** (Ancient Powers): Glacius, Voltharion, Pyrion
-- **Primal Gods** (Active Deities): Serafina, Korthak, Aurelius
+The hexagon alternates between Primal and Sovereign gods:
+- **Primal Gods** (Ancient Powers): Glacius, Voltharion, Pyrion
+- **Sovereign Gods** (Active Deities): Serafina, Korthak, Aurelius
 
 This creates a balanced cosmic structure where ancient foundational forces support active divine influence.
 
@@ -108,13 +106,13 @@ This creates natural build progression paths and hybrid opportunities.
 ## Defense Synergies
 
 Defense types are organized by divine tier and nature:
-- **Fundamental Defenses (Pure Resistance):** Cold Resistance (1), Lightning Resistance (3), Fire Resistance (5)
-- **Primal Defenses (Active Mitigation):** Evasion (2), Armor (4), Energy Shield (6)
+- **Primal Defenses (Pure Resistance):** Red Resistance (1), Green Resistance (3), Blue Resistance (5)
+- **Sovereign Defenses (Active Mitigation):** Evasion (2), Armor (4), Energy Shield (6)
 
 ## Yggdrasil Branch Structure
 
 The World Tree's six great branches map to the hexagon:
-- **Crown Branches:** Western (Cold), Northern (Lightning), Eastern (Fire)
+- **Crown Branches:** Western (Red), Northern (Green), Eastern (Blue)
 - **Middle Branches:** Southern (Chaos), Western (Physical), Eastern (Radiance)
 
 ## Gameplay Applications

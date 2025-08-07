@@ -26,16 +26,16 @@
       "core_philosophy": "Knowledge is the foundation of all power"
     },
     {
-      "position": 2, 
-      "primary_concept": "Adaptability",
+      "position": 2,
+      "primary_concept": "Constitution",
       "trinity": "transcendent",
-      "index_reference": "corner-2-adaptability",
-      "brief_description": "Flexibility, creativity, and ability to handle unexpected situations",
-      "eldritch_archetype": "Serafina, the Shadow Empress - Infinite flexibility and creative transformation",
-      "divine_manifestation": "The way Serafina constantly changes and adapts, never being the same twice, embracing all possibilities",
-      "damage_type_alignment": "chaos",
-      "god_alignment": "serafina", 
-      "core_philosophy": "Change is the only constant, adaptation is survival"
+      "index_reference": "corner-2-constitution",
+      "brief_description": "Physical resilience, endurance, and bodily conditioning",
+      "eldritch_archetype": "Korthak, the Dragon King - Disciplined might and physical mastery",
+      "divine_manifestation": "The way Korthak embodies overwhelming physical conditioning and disciplined strength",
+      "damage_type_alignment": "physical",
+      "god_alignment": "korthak",
+      "core_philosophy": "The body is the temple, discipline is the way"
     },
     {
       "position": 3,
@@ -51,15 +51,15 @@
     },
     {
       "position": 4,
-      "primary_concept": "Vitality",
+      "primary_concept": "Wisdom",
       "trinity": "transcendent",
-      "index_reference": "corner-4-vitality",
-      "brief_description": "Life force, health, regeneration, and transformative energy",
-      "eldritch_archetype": "Korthak, the Dragon King - Overwhelming vitality and transformative life force",
-      "divine_manifestation": "The way Korthak embodies the creative fire of existence itself, constantly generating new life and transformation through physical mastery",
-      "damage_type_alignment": "physical",
-      "god_alignment": "korthak",
-      "core_philosophy": "Life energy is the fire that burns within"
+      "index_reference": "corner-4-wisdom",
+      "brief_description": "Applied knowledge, divine insight, and spiritual awareness",
+      "eldritch_archetype": "Aurelius, the Radiant Sphere - Divine wisdom and protective understanding",
+      "divine_manifestation": "The way Aurelius embodies perfect spiritual insight and healing knowledge",
+      "damage_type_alignment": "radiance",
+      "god_alignment": "aurelius",
+      "core_philosophy": "Understanding transcends mere knowledge, wisdom guides protection"
     },
     {
       "position": 5,
@@ -75,15 +75,15 @@
     },
     {
       "position": 6,
-      "primary_concept": "Wisdom",
+      "primary_concept": "Charisma",
       "trinity": "transcendent",
-      "index_reference": "corner-6-wisdom",
-      "brief_description": "Insight, intuition, spiritual awareness, and divine connection",
-      "eldritch_archetype": "Aurelius, the Radiant Sphere - Divine insight and spiritual transcendence",
-      "divine_manifestation": "The way Aurelius embodies perfect spiritual understanding and connection to divine truth",
-      "damage_type_alignment": "radiance",
-      "god_alignment": "aurelius",
-      "core_philosophy": "Understanding transcends mere knowledge"
+      "index_reference": "corner-6-charisma",
+      "brief_description": "Social influence, force of personality, and chaotic persuasion",
+      "eldritch_archetype": "Serafina, the Shadow Empress - Charismatic influence and beneficial chaos",
+      "divine_manifestation": "The way Serafina spreads creative revolution through charismatic influence and social transformation",
+      "damage_type_alignment": "chaos",
+      "god_alignment": "serafina",
+      "core_philosophy": "Change spreads through influence, chaos creates through charm"
     }
   ],
   "attribute_trios": {
@@ -163,7 +163,7 @@
     },
     "transcendent_trinity": {
       "name": "The Transcendent Trinity", 
-      "attributes": ["adaptability", "vitality", "wisdom"],
+      "attributes": ["constitution", "wisdom", "charisma"],
       "positions": [2, 4, 6],
       "description": "The elevated aspects of consciousness that bridge mortal limitations and divine potential",
       "domain": "Spiritual evolution and cosmic alignment",
@@ -174,46 +174,46 @@
         "transcendent_focus": "Govern spiritual growth and divine connection"
       },
       "lore_foundations": {
-        "adaptability_mastery": {
-          "base_concept": "Adaptability represents the fluid intelligence that allows consciousness to reshape itself in response to changing circumstances. Unlike the linear progression of Intelligence, Adaptability grows through breakthrough moments.",
-          "serafina_connection": "Serafina, the Dreaming Mother, embodies the ultimate expression of Adaptability - the ability to dream new realities into existence and shift between possibilities as needed.",
-          "threshold_progression": "Every 5 levels in Adaptability unlocks new ways of thinking and perceiving reality, allowing characters to access previously impossible solutions.",
-          "transformative_power": "High Adaptability allows characters to temporarily respec their builds, access cross-class abilities, and discover hidden synergies between disparate elements."
-        },
-        "vitality_mastery": {
-          "base_concept": "Vitality is the raw life force that sustains, heals, and transforms. It represents the fire of existence itself - both creative and destructive, always seeking growth and renewal.",
-          "pyrion_connection": "Pyrion, the First Flame, channels the primal creative fire that sparked all life. Vitality reflects this divine spark within mortals.",
-          "regenerative_scaling": "Every 10 levels in Vitality dramatically increases natural healing rates and unlocks new forms of regeneration - from physical healing to emotional resilience to spiritual renewal.",
-          "transformative_potential": "At high levels, Vitality allows characters to undergo profound transformations - changing species, elemental alignment, or even achieving forms of immortality."
+        "constitution_mastery": {
+          "base_concept": "Constitution represents the disciplined conditioning of the physical form to achieve maximum resilience and endurance. Unlike raw Strength, Constitution grows through sustained training.",
+          "korthak_connection": "Korthak, the Dragon King, embodies the ultimate expression of Constitution - the disciplined might that comes from perfect physical conditioning and martial training.",
+          "threshold_progression": "Every 5 levels in Constitution unlocks new forms of physical resilience and endurance capabilities.",
+          "transformative_power": "High Constitution allows characters to withstand extreme conditions, resist status effects, and maintain peak performance in extended conflicts."
         },
         "wisdom_mastery": {
-          "base_concept": "Wisdom represents the deep understanding that comes from connection to cosmic principles. It transcends mere knowledge to encompass intuitive grasp of universal truths.",
-          "aurelius_connection": "Aurelius, the Light Bearer, embodies perfect Wisdom - the ability to see through all illusions and understand the true nature of existence.",
-          "divine_connection": "Wisdom enhances the character's ability to commune with divine forces, predict future events, and understand the hidden patterns that govern reality.",
+          "base_concept": "Wisdom represents the deep understanding that comes from connection to cosmic principles and divine insight. It transcends mere knowledge to encompass intuitive grasp of universal truths.",
+          "aurelius_connection": "Aurelius, the Radiant Sphere, embodies perfect Wisdom - the ability to see through all illusions and understand the true nature of existence through divine light.",
+          "divine_connection": "Wisdom enhances the character's ability to commune with divine forces, provide healing, and understand the hidden patterns that govern reality.",
           "enlightenment_thresholds": "Major Wisdom milestones (20, 40, 60, 80) represent different stages of enlightenment, each unlocking new forms of cosmic awareness."
+        },
+        "charisma_mastery": {
+          "base_concept": "Charisma is the force of personality that can influence reality through social interaction and the power to inspire change in others. It represents the ability to spread transformation through influence.",
+          "serafina_connection": "Serafina, the Shadow Empress, channels the primal charismatic force that can reshape society and spread beneficial chaos through personal magnetism and revolutionary charm.",
+          "transformative_scaling": "Every 10 levels in Charisma dramatically increases social influence and unlocks new forms of reality alteration through persuasion and inspiration.",
+          "chaos_potential": "At high levels, Charisma allows characters to inspire dramatic changes in others, manipulate probability through force of personality, and spread beneficial chaos through charismatic revolution."
         }
       },
       "threshold_mechanics": {
-        "adaptability_thresholds": {
-          "level_5": "Situational Flexibility - Can adapt to one unexpected circumstance per encounter",
-          "level_10": "Cross-Training - Can temporarily access abilities from adjacent classes",
-          "level_15": "Reality Shifting - Can alter minor environmental details once per day",
-          "level_20": "Possibility Mastery - Can rewrite one decision made in the last hour",
-          "level_25": "Dream Logic - Can access impossible combinations of abilities"
-        },
-        "vitality_thresholds": {
-          "level_10": "Enhanced Regeneration - Heal 10% health per minute outside combat",
-          "level_20": "Elemental Resistance - Gain resistance to one chosen damage type",
-          "level_30": "Life Surge - Can enter a temporary state of enhanced vitality",
-          "level_40": "Metamorphosis - Can temporarily transform into alternate forms",
-          "level_50": "Phoenix Rebirth - Can return from death once per character lifetime"
+        "constitution_thresholds": {
+          "level_5": "Enhanced Endurance - Can sustain physical activity 50% longer without fatigue",
+          "level_10": "Physical Resilience - Gain resistance to status effects and environmental hazards",
+          "level_15": "Disciplined Recovery - Heal 15% faster and recover from exhaustion more quickly",
+          "level_20": "Martial Conditioning - Can wear heavier armor and wield larger weapons effectively",
+          "level_25": "Iron Will - Immunity to fear effects and enhanced resistance to mental influences"
         },
         "wisdom_thresholds": {
-          "level_20": "Cosmic Awareness - Gain insight into hidden connections and patterns",
-          "level_40": "Divine Communication - Can commune directly with aligned gods",
-          "level_60": "Future Sight - Can glimpse possible futures and outcomes",
-          "level_80": "Universal Understanding - Comprehend any language or symbolic system",
-          "level_100": "Enlightened Transcendence - Approach divine consciousness"
+          "level_20": "Divine Insight - Gain insight into hidden connections and divine patterns",
+          "level_40": "Healing Mastery - Enhanced healing abilities and protective magic effectiveness",
+          "level_60": "Spiritual Awareness - Can sense divine presence and understand cosmic truths",
+          "level_80": "Sacred Understanding - Comprehend any religious or spiritual system",
+          "level_100": "Radiant Transcendence - Approach divine consciousness through perfect wisdom"
+        },
+        "charisma_thresholds": {
+          "level_5": "Natural Charm - Enhanced social interactions and persuasion attempts",
+          "level_10": "Inspiring Presence - Can motivate allies and influence group dynamics",
+          "level_15": "Chaotic Luck - Minor probability alterations through force of personality",
+          "level_20": "Revolutionary Leader - Can inspire dramatic change in individuals and communities",
+          "level_25": "Reality Persuasion - Can convince reality to bend slightly through sheer charisma"
         }
       }
     }
@@ -221,11 +221,11 @@
   "hexagon_dynamics": {
     "trinity_interactions": {
       "fundamental_synergies": "Intelligence + Dexterity = tactical precision, Dexterity + Strength = athletic prowess, Strength + Intelligence = calculated force",
-      "transcendent_synergies": "Adaptability + Vitality = transformative resilience, Vitality + Wisdom = enlightened health, Wisdom + Adaptability = intuitive flexibility",
+      "transcendent_synergies": "Constitution + Wisdom = disciplined spirituality, Wisdom + Charisma = inspiring leadership, Charisma + Constitution = commanding endurance",
       "cross_trinity_bridges": "Each fundamental attribute has a transcendent partner that elevates its expression to divine levels"
     },
-    "adjacency_bonuses": "Adjacent attributes create natural character synergies - Intelligence+Adaptability enables creative problem-solving, Dexterity+Vitality creates athletic prowess, Strength+Wisdom provides enlightened power.",
-    "opposition_tensions": "Opposite attributes represent different character focuses - Intelligence vs Vitality (mind vs life force), Adaptability vs Strength (change vs force), Dexterity vs Wisdom (action vs contemplation).",
+    "adjacency_bonuses": "Adjacent attributes create natural character synergies - Strength+Constitution enables unstoppable endurance, Dexterity+Wisdom provides perfect awareness, Intelligence+Charisma creates persuasive genius.",
+    "opposition_tensions": "Opposite attributes represent different character focuses - Strength vs Wisdom (raw power vs applied knowledge), Constitution vs Intelligence (physical endurance vs mental agility), Dexterity vs Charisma (precise action vs social influence).",
     "full_cycle_effects": "Characters who develop all six attributes achieve 'Cosmic Balance' - the ability to respond to any challenge with their strongest aspect while maintaining harmony across all capabilities."
   },
   "character_progression": {
@@ -250,13 +250,13 @@
     },
     "alignment_examples": {
       "intelligence_class_with_player_choice": {
-        "class_progression": "Intelligence +6, Adaptability +3, Wisdom +3, Dexterity +2, Strength +2, Vitality +1",
+        "class_progression": "Intelligence +6, Constitution +3, Wisdom +3, Dexterity +2, Strength +2, Charisma +1",
         "player_adds": "+6 to chosen fundamental (Intelligence, Dexterity, or Strength)",
         "specialization_example": "Intelligence class choosing Intelligence = +12 Intelligence per level total",
         "balance_example": "Intelligence class choosing Strength = +6 Intelligence, +8 Strength per level"
       },
       "strength_class_with_player_choice": {
-        "class_progression": "Strength +6, Vitality +3, Dexterity +3, Wisdom +2, Intelligence +2, Adaptability +1", 
+        "class_progression": "Strength +6, Charisma +3, Dexterity +3, Wisdom +2, Intelligence +2, Constitution +1", 
         "player_adds": "+6 to chosen fundamental (Intelligence, Dexterity, or Strength)",
         "specialization_example": "Strength class choosing Strength = +12 Strength per level total",
         "balance_example": "Strength class choosing Intelligence = +8 Intelligence, +6 Strength per level"
@@ -358,8 +358,8 @@
     },
     {
       "position": 2,
-      "filename": "corner-2-adaptability.json",
-      "file_path": "corners/corner-2-adaptability.json"
+      "filename": "corner-2-constitution.json",
+      "file_path": "corners/corner-2-constitution.json"
     },
     {
       "position": 3,
@@ -368,8 +368,8 @@
     },
     {
       "position": 4,
-      "filename": "corner-4-vitality.json",
-      "file_path": "corners/corner-4-vitality.json"
+      "filename": "corner-4-wisdom.json",
+      "file_path": "corners/corner-4-wisdom.json"
     },
     {
       "position": 5,
@@ -378,23 +378,23 @@
     },
     {
       "position": 6,
-      "filename": "corner-6-wisdom.json",
-      "file_path": "corners/corner-6-wisdom.json"
+      "filename": "corner-6-charisma.json",
+      "file_path": "corners/corner-6-charisma.json"
     }
   ],
   "attribute_interactions": {
     "synergy_matrix": {
       "intelligence_synergies": ["Enhances magical damage", "Improves skill learning", "Enables complex strategies"],
-      "adaptability_synergies": ["Improves situational bonuses", "Enables build flexibility", "Enhances improvisation"],
+      "constitution_synergies": ["Improves health and stamina", "Enhances physical resilience", "Enables heavy equipment usage"],
       "dexterity_synergies": ["Increases action speed", "Improves accuracy", "Enables mobility options"],
+      "wisdom_synergies": ["Improves divine connection", "Enhances healing power", "Enables spiritual abilities"],
       "strength_synergies": ["Increases physical damage", "Improves carry capacity", "Enables heavy equipment"],
-      "vitality_synergies": ["Increases health and stamina", "Improves regeneration", "Enhances transformation abilities"],
-      "wisdom_synergies": ["Improves divine connection", "Enhances intuition", "Enables spiritual abilities"]
+      "charisma_synergies": ["Improves social influence", "Enhances chaos effects", "Enables leadership abilities"]
     },
     "conflict_resolutions": {
-      "intelligence_vs_strength": "Requires gear or abilities that bridge mental and physical approaches",
-      "adaptability_vs_vitality": "Needs skills that balance change with stability",
-      "dexterity_vs_wisdom": "Must find harmony between quick action and careful contemplation"
+      "strength_vs_wisdom": "Requires gear or abilities that bridge physical power and applied knowledge",
+      "constitution_vs_intelligence": "Needs skills that balance physical endurance with mental agility",
+      "dexterity_vs_charisma": "Must find harmony between precise action and social influence"
     }
   },
   "lore_integration": {

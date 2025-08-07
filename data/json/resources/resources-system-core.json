@@ -14,12 +14,12 @@
       "display_name": "Health Points",
       "short_name": "HP",
       "description": "Life force and physical resilience - represents the character's ability to withstand damage and continue functioning",
-      "hexagonal_position": 5,
-      "hexagon_corner": "fire",
-      "color_theme": "crimson_flame",
+      "hexagonal_position": 1,
+      "hexagon_corner": "red",
+      "color_theme": "crimson_red",
       "resource_type": "vital_pool",
       "depletion_consequence": "unconsciousness_or_death",
-      "primary_attributes": ["vitality", "constitution"],
+      "primary_attributes": ["strength", "constitution"],
       "regeneration_methods": [
         "natural_healing_over_time",
         "healing_abilities_and_spells",
@@ -35,9 +35,9 @@
       "display_name": "Mana Points",
       "short_name": "MP",
       "description": "Magical energy and divine connection - represents the character's ability to channel supernatural forces",
-      "hexagonal_position": 1,
-      "hexagon_corner": "cold",
-      "color_theme": "azure_frost",
+      "hexagonal_position": 3,
+      "hexagon_corner": "green",
+      "color_theme": "azure_green",
       "resource_type": "mystical_pool",
       "depletion_consequence": "magical_exhaustion",
       "primary_attributes": ["intelligence", "wisdom"],
@@ -56,9 +56,9 @@
       "display_name": "Stamina Points",
       "short_name": "SP",
       "description": "Physical energy and endurance - represents the character's ability to perform strenuous actions",
-      "hexagonal_position": 3,
-      "hexagon_corner": "lightning",
-      "color_theme": "electric_gold",
+      "hexagonal_position": 5,
+      "hexagon_corner": "blue",
+      "color_theme": "electric_blue",
       "resource_type": "physical_pool",
       "depletion_consequence": "exhaustion_and_fatigue",
       "primary_attributes": ["dexterity", "strength"],
@@ -75,9 +75,9 @@
   },
   "hexagonal_integration": {
     "resource_positioning": {
-      "fire_corner_5": "health_points",
-      "cold_corner_1": "mana_points", 
-      "lightning_corner_3": "stamina_points"
+      "red_corner_1": "health_points",
+      "green_corner_3": "mana_points", 
+      "blue_corner_5": "stamina_points"
     },
     "cosmic_resonance": {
       "description": "Resources gain bonuses when character positioning aligns with their hexagonal corners",
@@ -85,9 +85,9 @@
       "balance_note": "Encourages strategic positioning without forcing rigid placements"
     },
     "opposing_corners": {
-      "health_points_opposite": "chaos_corner_2",
-      "mana_points_opposite": "physical_corner_4",
-      "stamina_points_opposite": "radiance_corner_6",
+      "health_points_opposite": "physical_corner_4",
+      "mana_points_opposite": "radiance_corner_6",
+      "stamina_points_opposite": "chaos_corner_2",
       "design_note": "Opposite corners may provide unique interaction opportunities"
     }
   },

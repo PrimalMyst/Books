@@ -63,31 +63,30 @@ The game world centers around **Yggdrasil**, the cosmic World Tree whose roots, 
 PrimalMyst is built around a **hexagonal thematic structure** that organizes all major game systems:
 
 ```
-                    COLD (Preservation)
-                   Intelligence / CR
+                    RED (1)
+                   Intelligence
                       /\
                      /  \
-         RADIANCE       CHAOS
+         RADIANCE (6)    CHAOS (2)
          Str+Int        Int+Dex  
         Energy Shield   Evasion
                    \    /
                     \  /
-         FIRE ---- ---- LIGHTNING
+         BLUE (5) ---- ---- GREEN (3)
          Strength       Dexterity
-        Fire Resist    Lightning Resist
                     \  /
                      \/
-                PHYSICAL
+                PHYSICAL (4)
                 Dex+Str
                 Armor
 ```
 
 This hexagon aligns:
-- **Six Damage Types**: Cold → Chaos → Lightning → Physical → Fire → Radiance
-- **Six Eldritch Gods**: Fundamental (Glacius, Voltharion, Pyrion) and Primal (Serafina, Korthak, Aurelius)  
+- **Six Damage Types**: Red → Chaos → Green → Physical → Blue → Radiance
+- **Six Eldritch Gods**: Primal (Glacius, Voltharion, Pyrion) and Sovereign (Serafina, Korthak, Aurelius)  
 - **Six Realms**: Each anchored by a branch of Yggdrasil
 - **Character Attributes**: Intelligence, Dexterity, Strength and their hybrids
-- **Defense Types**: Elemental Resistances (Fundamental) and Active Mitigation (Primal)
+- **Defense Types**: Elemental Resistances (Primal) and Active Mitigation (Sovereign)
 
 Adjacent elements synergize naturally, while opposite elements create meaningful build challenges and strategic depth.
 
@@ -118,8 +117,8 @@ Four confirmed humanoid races with unique divine affinities:
 
 ### **Eldritch Pantheon**
 Seven canonical gods across three divine tiers:
-- **Fundamental Gods**: Pyrion (Fire), Glacius (Cold), Voltharion (Lightning)
-- **Primal Gods**: Serafina (Chaos), Aurelius (Radiance), Korthak (Physical)
+- **Primal Gods**: Pyrion (Fire), Glacius (Cold), Voltharion (Lightning)
+- **Sovereign Gods**: Serafina (Chaos), Aurelius (Radiance), Korthak (Physical)
 - **Veiled Ones**: Myrielle (Cycles/Guidance)
 
 ### **Monster Classification**

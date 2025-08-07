@@ -1,7 +1,7 @@
-# The Fundamental Trio - Foundational Divine Forces
+# The Primal Trio - Foundational Divine Forces
 
 ## Summary
-The Fundamental Trio consists of Pyrion (First Flame), Glacius (Eternal Frost), and Voltharion (Cosmic Spark) - the three foundational gods whose combined essence powers Yggdrasil's structure and enables all existence within reality instances. Unlike the Primal Trio, these gods do not rule realms directly but instead form the fundamental framework that makes divine influence possible.
+The Primal Trio consists of Pyrion (First Flame), Glacius (Eternal Frost), and Voltharion (Cosmic Spark) - the three foundational gods whose combined essence powers Yggdrasil's structure and enables all existence within reality instances. Unlike the Sovereign Trio, these gods do not rule realms directly but instead form the fundamental framework that makes divine influence possible.
 
 ## Divine Hierarchy
 
@@ -18,7 +18,7 @@ The Fundamental Trio consists of Pyrion (First Flame), Glacius (Eternal Frost), 
 
 ## Individual Profiles
 
-### Pyrion, the First Flame (Fundamental)
+### Pyrion, the First Flame (Primal)
 **Divine Domain**: Creation, Transformation, Energy Generation
 
 **Cosmic Function**:
@@ -51,7 +51,7 @@ The Fundamental Trio consists of Pyrion (First Flame), Glacius (Eternal Frost), 
 - **Defeat Effect**: Energy essence flows into subsequent god encounters
 - **Final Integration**: Becomes part of Myrielle's level 100 power absorption
 
-### Glacius, the Eternal Frost (Fundamental)
+### Glacius, the Eternal Frost (Primal)
 **Divine Domain**: Preservation, Memory, Structural Stability
 
 **Cosmic Function**:
@@ -84,7 +84,7 @@ The Fundamental Trio consists of Pyrion (First Flame), Glacius (Eternal Frost), 
 - **Defeat Effect**: Memory preservation essence flows into subsequent encounters
 - **Final Integration**: Becomes part of Myrielle's consciousness preservation system
 
-### Voltharion, the Cosmic Spark (Fundamental)
+### Voltharion, the Cosmic Spark (Primal)
 **Divine Domain**: Connection, Communication, Divine Revelation
 
 **Cosmic Function**:
@@ -120,20 +120,20 @@ The Fundamental Trio consists of Pyrion (First Flame), Glacius (Eternal Frost), 
 ## Collective Power
 
 ### Yggdrasil Integration
-The three Fundamental Gods form the essential trinity that powers Yggdrasil:
+The three Primal Gods form the essential trinity that powers Yggdrasil:
 - **Pyrion's Heartwood**: Provides life energy to the entire tree
 - **Glacius' Bark**: Preserves structure and memories within the tree
 - **Voltharion's Branches**: Connects all parts with instant communication
 
 ### Reality Instance Foundation
-Without the Fundamental Trio's combined power:
+Without the Primal Trio's combined power:
 - Reality instances could not maintain stable existence
 - Divine realms would collapse without energy and structure
 - Consciousness could not be preserved across transitions
 - The cosmic rhythms would cease to function
 
 ### Divine Trial Discovery
-The Fundamental Trio offers players opportunities for elemental mastery through discovered trials:
+The Primal Trio offers players opportunities for elemental mastery through discovered trials:
 - **Pyrion's Trial**: Choose fire, cold, or lightning mastery through creative expression and transformation
 - **Glacius' Trial**: Choose fire, cold, or lightning mastery through preservation and eternal memory
 - **Voltharion's Trial**: Choose fire, cold, or lightning mastery through connection and cosmic communication

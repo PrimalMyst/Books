@@ -4,13 +4,16 @@
   "category": "primal",
   "type": "radiance",
   "hexagonal_position": {
-    "vertex": 6,
+    "vertex": 4,
     "theme": "Radiant Order",
     "associated_god": "Aurelius, the Radiant Sphere",
-    "god_tier": "primal",
+    "god_tier": "sovereign",
+    "primary_attribute": "wisdom",
     "defense_type": "energy_shield",
-    "adjacent_synergies": ["fire", "cold"],
-    "opposite_element": "lightning"
+    "thematic_color": "azure_cyan",
+    "color_code": "cyan",
+    "adjacent_synergies": ["lightning", "cold"],
+    "opposite_element": "fire"
   },
   "description": {
     "brief": "Pure divine energy that bypasses many defenses and provides special effectiveness against corrupted enemies.",

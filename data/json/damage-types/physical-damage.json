@@ -4,13 +4,15 @@
   "category": "primal",
   "type": "physical",
   "hexagonal_position": {
-    "vertex": 4,
+    "vertex": 2,
     "theme": "Physical Mastery",
     "associated_god": "Korthak, the Dragon King",
-    "god_tier": "primal",
-    "primary_attribute": "vitality",
+    "god_tier": "sovereign",
+    "primary_attribute": "constitution",
     "defense_type": "armor",
-    "adjacent_synergies": ["lightning", "fire"],
+    "thematic_color": "golden_yellow",
+    "color_code": "yellow",
+    "adjacent_synergies": ["fire", "lightning"],
     "opposite_element": "cold"
   },
   "description": {

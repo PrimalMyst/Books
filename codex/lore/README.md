@@ -29,10 +29,10 @@ The stranded crew of *The Wandering Hope* who rescue the player and serve as the
 
 ## Divine Entities
 
-### **[The Fundamental Trio](./fundamental-trio.md)**
+### **[The Primal Trio](./primal-trio.md)**
 Pyrion (First Flame), Glacius (Eternal Frost), and Voltharion (Cosmic Spark) - the foundational gods who power Yggdrasil.
 
-### **[The Primal Trio](./primal-trio.md)**
+### **[The Sovereign Trio](./sovereign-trio.md)**
 Serafina (Shadow Empress), Aurelius (Radiant Sphere), and Korthak (Dragon King) - the active gods who rule realms and interact with mortals.
 
 ### **[The Eldritch Pantheon](./eldritch-pantheon.md)**

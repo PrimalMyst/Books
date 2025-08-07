@@ -1,7 +1,7 @@
-# The Primal Trio - Active Divine Rulers
+# The Sovereign Trio - Active Divine Rulers
 
 ## Summary
-The Primal Trio consists of Serafina (Shadow Empress), Aurelius (Radiant Sphere), and Korthak (Dragon King) - the three active gods who directly rule realms, interact with mortals, and can be worshipped through the pantheon positioning system. Unlike the Fundamental Trio, these gods offer trials, grant favors, and actively shape mortal destinies within their domains.
+The Sovereign Trio consists of Serafina (Shadow Empress), Aurelius (Radiant Sphere), and Korthak (Dragon King) - the three active gods who directly rule realms, interact with mortals, and can be worshipped through the pantheon positioning system. Unlike the Primal Trio, these gods offer trials, grant favors, and actively shape mortal destinies within their domains.
 
 ## Divine Hierarchy
 
@@ -18,7 +18,7 @@ The Primal Trio consists of Serafina (Shadow Empress), Aurelius (Radiant Sphere)
 
 ## Individual Profiles
 
-### Serafina, the Shadow Empress (Primal)
+### Serafina, the Shadow Empress (Sovereign)
 **Divine Domain**: Beneficial Chaos, Creative Revolution, Change Enforcement
 
 **Realm**: Serafina's Court - The Shadow Realm (Southern Middle Branch)
@@ -53,7 +53,7 @@ The Primal Trio consists of Serafina (Shadow Empress), Aurelius (Radiant Sphere)
 - Promotes innovative thinking and problem-solving
 - Enables safe experimentation with new ideas and approaches
 
-### Aurelius, the Radiant Sphere (Primal)
+### Aurelius, the Radiant Sphere (Sovereign)
 **Divine Domain**: Healing Light, Protective Order, Truth Revelation
 
 **Realm**: Aurelius's Sanctuary - The Radiance Realm (Eastern Middle Branch)
@@ -88,7 +88,7 @@ The Primal Trio consists of Serafina (Shadow Empress), Aurelius (Radiant Sphere)
 - Reveals truth and prevents deception within the zone
 - Provides healing and restoration to all who enter peacefully
 
-### Korthak, the Dragon King (Primal)
+### Korthak, the Dragon King (Sovereign)
 **Divine Domain**: Honorable Strength, Disciplined Might, Combat Mastery
 
 **Realm**: Korthak's Arena - The Might Realm (Western Middle Branch)
@@ -126,13 +126,13 @@ The Primal Trio consists of Serafina (Shadow Empress), Aurelius (Radiant Sphere)
 ## Collective Dynamics
 
 ### Balanced Opposition
-The Primal Trio represents three approaches to divine interaction:
+The Sovereign Trio represents three approaches to divine interaction:
 - **Serafina**: Change through chaos and revolution
 - **Aurelius**: Stability through truth and protection
 - **Korthak**: Growth through discipline and honor
 
 ### Pantheon Positioning
-Players can align with any combination of the Primal Trio:
+Players can align with any combination of the Sovereign Trio:
 - **Triple Alignment**: Extremely rare, requires balancing opposing philosophies
 - **Dual Alignment**: Common, creates interesting philosophical tensions
 - **Single Alignment**: Focused approach, may limit access to certain content
@@ -154,7 +154,7 @@ Alignment with each god affects:
 ## God-Slayer Preparation
 
 ### Enhanced Encounters
-During the epilogue's God-Slayer path, the Primal Trio fights at level 99, enhanced by the defeated Fundamental Trio's essence:
+During the epilogue's God-Slayer path, the Sovereign Trio fights at level 99, enhanced by the defeated Primal Trio's essence:
 - **Serafina**: Gains transformative chaos from Pyrion's defeat
 - **Aurelius**: Gains preserving truth from Glacius' defeat  
 - **Korthak**: Gains connecting might from Voltharion's defeat

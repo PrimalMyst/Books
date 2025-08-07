@@ -46,14 +46,14 @@
       "primary_concept": "Succubus",
       "trinity": "transcendent",
       "index_reference": "class-2-succubus",
-      "brief_description": "Charismatic shapeshifters masters of adaptation and seduction",
+      "brief_description": "Charismatic shapeshifters masters of constitution and seduction",
       "body_type": "F",
-      "eldritch_archetype": "Serafina, the Shadow Empress - Infinite adaptability and transformative charm",
+      "eldritch_archetype": "Serafina, the Shadow Empress - Infinite constitution and transformative charm",
       "divine_manifestation": "The way Serafina embodies constant change and irresistible allure",
       "origin_island": "Serafina Isle - The Shadow Court",
       "damage_type_alignment": "chaos",
       "eldritch_god_alignment": "serafina",
-      "attribute_focus": "adaptability",
+      "attribute_focus": "constitution",
       "core_philosophy": "Power flows through change and desire"
     },
     {
@@ -76,14 +76,14 @@
       "primary_concept": "Warrior",
       "trinity": "transcendent",
       "index_reference": "class-4-warrior",
-      "brief_description": "Resilient champions who embody vitality and regenerative power",
+      "brief_description": "Resilient champions who embody wisdom and regenerative power",
       "body_type": "F",
       "eldritch_archetype": "Pyrion, the First Flame - Creative life force and transformative power",
       "divine_manifestation": "The way Pyrion embodies the creative fire of existence itself, constantly generating new life and transformation",
       "origin_island": "Pyrion's Forge - The Eternal Hearth",
       "damage_type_alignment": "fire",
       "eldritch_god_alignment": "pyrion",
-      "attribute_focus": "vitality",
+      "attribute_focus": "wisdom",
       "core_philosophy": "Life energy is the true fire within"
     },
     {
@@ -106,15 +106,15 @@
       "primary_concept": "Priestess",
       "trinity": "transcendent",
       "index_reference": "class-6-priestess",
-      "brief_description": "Wise spiritualists masters of divine wisdom and radiant protection",
+      "brief_description": "Wise spiritualists masters of divine charisma and radiant protection",
       "body_type": "F",
-      "eldritch_archetype": "Aurelius, the Radiant Sphere - Divine wisdom and transcendent understanding",
+      "eldritch_archetype": "Aurelius, the Radiant Sphere - Divine charisma and transcendent understanding",
       "divine_manifestation": "The way Aurelius embodies perfect spiritual insight and protective radiance",
       "origin_island": "Aurelius Isle - The Sanctuary Realm",
       "damage_type_alignment": "radiance",
       "eldritch_god_alignment": "aurelius",
-      "attribute_focus": "wisdom",
-      "core_philosophy": "Wisdom illuminates all paths, protection flows from understanding"
+      "attribute_focus": "charisma",
+      "core_philosophy": "Charisma illuminates all paths, protection flows from understanding"
     }
   ],
   "hexagon_dynamics": {

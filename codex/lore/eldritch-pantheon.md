@@ -1,17 +1,17 @@
 # The Eldritch Pantheon - Complete Divine Overview
 
 ## Summary
-The Eldritch Pantheon consists of six divine beings who embody the fundamental forces of existence within PrimalMyst reality instances. These gods are divided into the Fundamental Trio (who power existence itself) and the Primal Trio (who actively rule and interact with mortals), creating a balanced divine hierarchy that enables life, growth, and meaning within the universe container until their inevitable conflicts destroy everything.
+The Eldritch Pantheon consists of six divine beings who embody the fundamental forces of existence within PrimalMyst reality instances. These gods are divided into the Primal Trio (who power existence itself) and the Sovereign Trio (who actively rule and interact with mortals), creating a balanced divine hierarchy that enables life, growth, and meaning within the universe container until their inevitable conflicts destroy everything.
 
 ## Pantheon Structure
 
 ### Divine Hierarchy
-**The Fundamental Trio (Cosmic Foundation)**:
+**The Primal Trio (Cosmic Foundation)**:
 - **Pyrion, the First Flame**: Energy generation, transformation, creative force
 - **Glacius, the Eternal Frost**: Preservation, memory, structural stability  
 - **Voltharion, the Cosmic Spark**: Connection, communication, divine revelation
 
-**The Primal Trio (Active Governance)**:
+**The Sovereign Trio (Active Governance)**:
 - **Serafina, the Shadow Empress**: Beneficial chaos, creative revolution, change enforcement
 - **Aurelius, the Radiant Sphere**: Healing light, protective order, truth revelation
 - **Korthak, the Dragon King**: Honorable strength, disciplined might, combat mastery
@@ -20,13 +20,13 @@ The Eldritch Pantheon consists of six divine beings who embody the fundamental f
 - **Myrielle, the Hidden One**: Consciousness preservation, memory transfer, ultimate sacrifice
 
 ### Power Distribution
-**Foundational Layer**: Fundamental Trio provides the energy, structure, and connectivity that makes existence possible
-**Active Layer**: Primal Trio uses foundational power to create meaningful experiences and moral growth
+**Foundational Layer**: Primal Trio provides the energy, structure, and connectivity that makes existence possible
+**Active Layer**: Sovereign Trio uses foundational power to create meaningful experiences and moral growth
 **Preservation Layer**: Myrielle exists outside both layers to ensure continuity across reality instances
 
 ## Individual Divine Profiles
 
-### Pyrion, the First Flame (Fundamental)
+### Pyrion, the First Flame (Primal)
 **Core Domain**: Creation, Transformation, Energy Generation
 **Cosmic Function**: Powers all existence through eternal fire energy
 **Personality**: Passionate, transformative, endlessly creative
@@ -42,7 +42,7 @@ The Eldritch Pantheon consists of six divine beings who embody the fundamental f
 **Worship and Trials**: No direct worship; influence felt through environmental challenges
 **God-Slayer Role**: First confrontation (Level 96) at Yggdrasil's heartwood core
 
-### Glacius, the Eternal Frost (Fundamental)
+### Glacius, the Eternal Frost (Primal)
 **Core Domain**: Preservation, Memory, Structural Stability
 **Cosmic Function**: Maintains existence through crystalline memory storage
 **Personality**: Wise, conservative, eternally patient
@@ -58,7 +58,7 @@ The Eldritch Pantheon consists of six divine beings who embody the fundamental f
 **Worship and Trials**: No direct worship; influence felt through memory and knowledge challenges
 **God-Slayer Role**: Second confrontation (Level 97) within crystalline memory archives
 
-### Voltharion, the Cosmic Spark (Fundamental)
+### Voltharion, the Cosmic Spark (Primal)
 **Core Domain**: Connection, Communication, Divine Revelation
 **Cosmic Function**: Enables interaction and understanding between all elements
 **Personality**: Enlightened, connecting, revelatory
@@ -74,7 +74,7 @@ The Eldritch Pantheon consists of six divine beings who embody the fundamental f
 **Worship and Trials**: No direct worship; influence felt through revelation and communication challenges
 **God-Slayer Role**: Third confrontation (Level 98) within infinite electrical networks
 
-### Serafina, the Shadow Empress (Primal)
+### Serafina, the Shadow Empress (Sovereign)
 **Core Domain**: Beneficial Chaos, Creative Revolution, Change Enforcement
 **Cosmic Function**: Prevents stagnation and promotes beneficial transformation
 **Personality**: Revolutionary, creative, passionately dedicated to improvement
@@ -90,7 +90,7 @@ The Eldritch Pantheon consists of six divine beings who embody the fundamental f
 **Worship and Trials**: Active worship through pantheon positioning; trials focus on creativity and change
 **God-Slayer Role**: Fourth confrontation (Level 99) within ever-changing shadow realms
 
-### Aurelius, the Radiant Sphere (Primal)
+### Aurelius, the Radiant Sphere (Sovereign)
 **Core Domain**: Healing Light, Protective Order, Truth Revelation
 **Cosmic Function**: Protects innocents and reveals truth for justice
 **Personality**: Compassionate, just, dedicated to protection and healing
@@ -106,7 +106,7 @@ The Eldritch Pantheon consists of six divine beings who embody the fundamental f
 **Worship and Trials**: Active worship through pantheon positioning; trials focus on truth and protection
 **God-Slayer Role**: Fifth confrontation (Level 99) within blazing halls of absolute truth
 
-### Korthak, the Dragon King (Primal)
+### Korthak, the Dragon King (Sovereign)
 **Core Domain**: Honorable Strength, Disciplined Might, Combat Mastery
 **Cosmic Function**: Develops strength and discipline for cosmic challenges
 **Personality**: Honorable, disciplined, dedicated to fair challenge and growth
@@ -164,7 +164,7 @@ The Eldritch Pantheon consists of six divine beings who embody the fundamental f
 - **Competing Visions**: Each god has different ideas about optimal mortal development
 
 ### Cross-Layer Conflicts
-**Fundamental vs. Primal Power Disputes**:
+**Primal vs. Sovereign Power Disputes**:
 - **Authority Questions**: Who has the right to determine universal direction
 - **Implementation Disagreements**: How foundational power should be utilized
 - **Mortal Interference**: Whether active divine rule helps or hinders growth
@@ -233,8 +233,8 @@ The player's journey represents:
 - **Transcendent Love**: Love so profound it acts beyond personal attachment and grief
 
 ## Cross-References
-- **[The Fundamental Trio](./fundamental-trio.md)**: Detailed exploration of foundational gods
-- **[The Primal Trio](./primal-trio.md)**: Comprehensive coverage of active divine rulers
+- **[The Primal Trio](./primal-trio.md)**: Detailed exploration of foundational gods
+- **[The Sovereign Trio](./sovereign-trio.md)**: Comprehensive coverage of active divine rulers
 - **[Myrielle the Hidden](./myrielle-the-hidden.md)**: The hidden goddess outside the pantheon
 - **[Pantheon Trial System](./pantheon-trials.md)**: How players interact with and align with gods
 - **[Divine Positioning](./divine-positioning.md)**: The relationship tracking and consequence system

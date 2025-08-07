@@ -4,14 +4,16 @@
   "category": "elemental",
   "type": "fire",
   "hexagonal_position": {
-    "vertex": 5,
-    "theme": "Primal Fire",
+    "vertex": 1,
+    "theme": "Primal Creation",
     "associated_god": "Pyrion, the First Flame",
-    "god_tier": "fundamental",
+    "god_tier": "primal",
     "primary_attribute": "strength",
     "defense_type": "fire_resistance",
-    "adjacent_synergies": ["physical", "radiance"],
-    "opposite_element": "chaos"
+    "thematic_color": "crimson_red",
+    "color_code": "red",
+    "adjacent_synergies": ["physical", "chaos"],
+    "opposite_element": "radiance"
   },
   "description": {
     "brief": "Destructive flame damage that burns enemies and can spread to nearby targets, dealing damage over time.",
@@ -110,12 +112,12 @@
   },
   "hexagonal_interactions": {
     "effectiveness_vs": {
-      "cold": 1.66,
-      "chaos": 1.99,
-      "lightning": 0.34,
-      "physical": 0.67,
       "fire": 1.0,
-      "radiance": 1.33
+      "physical": 1.33,
+      "lightning": 1.66,
+      "radiance": 0.34,
+      "cold": 0.67,
+      "chaos": 1.33
     },
     "calculation_parameters": {
       "base_effectiveness": 1.0,
@@ -123,23 +125,23 @@
       "calculation_formula": "base_effectiveness * (1 + position_modifier * effectiveness_step)"
     },
     "position_relationships": {
-      "next": "radiance",
-      "second_next": "cold",
-      "opposite": "chaos",
-      "second_previous": "lightning",
-      "previous": "physical"
+      "next": "physical",
+      "second_next": "lightning",
+      "opposite": "radiance",
+      "second_previous": "cold",
+      "previous": "chaos"
     },
     "divine_trio_reference": {
-      "trio_file": "fundamental-trio.json", 
-      "trio_type": "fundamental",
+      "trio_file": "primal-trio.json", 
+      "trio_type": "primal",
       "god_name": "Pyrion, the First Flame",
-      "position_in_trio": 5,
-      "domain": "Transformation"
+      "position_in_trio": 1,
+      "domain": "Creation"
     },
     "interaction_explanation": {
-      "strong_against": "Radiance and Cold - Fire's transformation burns away divine illusions and melts crystalline preservation",
-      "weak_against": "Physical and Lightning - Disciplined technique deflects raw heat, electrical energy conducts and redirects flame",
-      "neutral_with": "Fire (self-mastery) and Chaos - Perfect transformative control, balanced opposition with creative destruction"
+      "strong_against": "Physical and Lightning - Fire's creation burns through disciplined defense and overwhelms electrical connection",
+      "weak_against": "Radiance and Cold - Divine light purifies destructive flame, crystalline preservation contains creation energy",
+      "neutral_with": "Fire (self-mastery) and Chaos - Perfect creative control, synergistic with transformative change"
     }
   }
 }

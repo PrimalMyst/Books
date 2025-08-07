@@ -4,13 +4,16 @@
   "category": "primal", 
   "type": "chaos",
   "hexagonal_position": {
-    "vertex": 2,
+    "vertex": 6,
     "theme": "Creative Chaos",
     "associated_god": "Serafina, the Shadow Empress",
-    "god_tier": "primal",
+    "god_tier": "sovereign",
+    "primary_attribute": "charisma",
     "defense_type": "evasion",
-    "adjacent_synergies": ["cold", "lightning"],
-    "opposite_element": "fire"
+    "thematic_color": "vivid_magenta",
+    "color_code": "magenta",
+    "adjacent_synergies": ["cold", "fire"],
+    "opposite_element": "lightning"
   },
   "description": {
     "brief": "Unpredictable entropic force that ignores resistances and creates random effects, representing beneficial change and creative destruction.",

@@ -4,12 +4,14 @@
   "category": "elemental",
   "type": "cold",
   "hexagonal_position": {
-    "vertex": 1,
+    "vertex": 5,
     "theme": "Eternal Preservation",
     "associated_god": "Glacius, the Eternal Frost",
-    "god_tier": "fundamental",
+    "god_tier": "primal",
     "primary_attribute": "intelligence",
     "defense_type": "cold_resistance",
+    "thematic_color": "electric_blue",
+    "color_code": "blue",
     "adjacent_synergies": ["radiance", "chaos"],
     "opposite_element": "physical"
   },

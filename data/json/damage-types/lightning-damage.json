@@ -7,11 +7,13 @@
     "vertex": 3,
     "theme": "Divine Connection",
     "associated_god": "Voltharion, the Cosmic Spark",
-    "god_tier": "fundamental",
+    "god_tier": "primal",
     "primary_attribute": "dexterity",
     "defense_type": "lightning_resistance",
-    "adjacent_synergies": ["chaos", "physical"],
-    "opposite_element": "radiance"
+    "thematic_color": "emerald_green",
+    "color_code": "green",
+    "adjacent_synergies": ["physical", "radiance"],
+    "opposite_element": "chaos"
   },
   "description": {
     "brief": "Electrical damage that can chain between enemies and provides burst damage with stunning effects.",
