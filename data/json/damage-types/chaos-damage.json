@@ -117,37 +117,43 @@
     "canonical": true
   },
   "hexagonal_interactions": {
+    "core_system_reference": "damage-system-core.json",
+    "hexagon_reference": "../lore/core-thematic-hexagon.json",
+    "position_in_hexagon": 6,
     "effectiveness_vs": {
-      "cold": 0.67,
-      "chaos": 1.0,
-      "lightning": 1.33,
+      "fire": 1.33,
       "physical": 1.66,
-      "fire": 1.99,
-      "radiance": 0.34
+      "lightning": 1.99,
+      "radiance": 0.34,
+      "cold": 0.67,
+      "chaos": 1.0
     },
     "calculation_parameters": {
       "base_effectiveness": 1.0,
       "effectiveness_step": 0.33,
-      "calculation_formula": "base_effectiveness * (1 + position_modifier * effectiveness_step)"
+      "calculation_formula": "1 + hexagonal_distance_typemult * 0.33",
+      "formula_reference": "damage-system-core.json"
     },
     "position_relationships": {
-      "next": "lightning",
+      "next": "fire",
       "second_next": "physical",
-      "opposite": "fire", 
+      "opposite": "lightning", 
       "second_previous": "radiance",
       "previous": "cold"
     },
     "divine_trio_reference": {
-      "trio_file": "primal-trio.json",
-      "trio_type": "primal",
-      "god_name": "Vorthak, the Shadow Weaver", 
-      "position_in_trio": 2,
-      "domain": "Chaos"
+      "trio_file": "../lore/core-thematic-hexagon.json",
+      "trio_type": "sovereign",
+      "god_name": "Serafina, the Shadow Empress",
+      "position_in_hexagon": 6,
+      "color_code": "magenta",
+      "rgb_classification": "bridge",
+      "domain": "Creative Chaos"
     },
     "interaction_explanation": {
-      "strong_against": "Lightning and Physical - Chaos disrupts ordered energy flow and undermines disciplined martial techniques",
-      "weak_against": "Cold and Radiance - Preservation freezes chaotic change, divine order banishes corrupt shadows",
-      "neutral_with": "Chaos (self-mastery) and Fire - Creative destruction neither aids nor opposes transformative force"
+      "strong_against": "Physical and Lightning - Chaos disrupts disciplined techniques and scrambles electrical connection patterns",
+      "weak_against": "Radiance and Cold - Divine order banishes chaotic shadows, preservation crystallizes transformative change",
+      "neutral_with": "Chaos (self-mastery) and Fire - Perfect transformative control, synergistic with creative energy"
     }
   }
 }

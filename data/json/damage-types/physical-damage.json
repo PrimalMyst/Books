@@ -112,37 +112,43 @@
     "mastery_progression": "Advanced techniques require both physical capability and mental discipline"
   },
   "hexagonal_interactions": {
+    "core_system_reference": "damage-system-core.json",
+    "hexagon_reference": "../lore/core-thematic-hexagon.json",
+    "position_in_hexagon": 2,
     "effectiveness_vs": {
-      "cold": 1.99,
-      "chaos": 0.34,
-      "lightning": 0.67,
+      "fire": 0.67,
       "physical": 1.0,
-      "fire": 1.33,
-      "radiance": 1.66
+      "lightning": 1.33,
+      "radiance": 1.66,
+      "cold": 1.99,
+      "chaos": 0.34
     },
     "calculation_parameters": {
       "base_effectiveness": 1.0,
       "effectiveness_step": 0.33,
-      "calculation_formula": "base_effectiveness * (1 + position_modifier * effectiveness_step)"
+      "calculation_formula": "1 + hexagonal_distance_typemult * 0.33",
+      "formula_reference": "damage-system-core.json"
     },
     "position_relationships": {
-      "next": "fire",
+      "next": "lightning",
       "second_next": "radiance",
       "opposite": "cold",
       "second_previous": "chaos",
-      "previous": "lightning"
+      "previous": "fire"
     },
     "divine_trio_reference": {
-      "trio_file": "primal-trio.json",
-      "trio_type": "primal",
-      "god_name": "Titanus, the Iron Will",
-      "position_in_trio": 4, 
-      "domain": "Physical"
+      "trio_file": "../lore/core-thematic-hexagon.json",
+      "trio_type": "sovereign",
+      "god_name": "Korthak, the Dragon King",
+      "position_in_hexagon": 2,
+      "color_code": "yellow",
+      "rgb_classification": "bridge",
+      "domain": "Physical Mastery"
     },
     "interaction_explanation": {
-      "strong_against": "Fire and Radiance - Disciplined martial prowess channels raw transformative heat and focuses divine energy through trained will",
-      "weak_against": "Lightning and Chaos - Electrical speed bypasses physical positioning, chaotic energy disrupts disciplined techniques",
-      "neutral_with": "Physical (self-mastery) and Cold - Perfect martial discipline, balanced opposition with preservation's stillness"
+      "strong_against": "Radiance and Cold - Disciplined martial prowess focuses divine energy and breaks through preservation's stillness",
+      "weak_against": "Fire and Chaos - Transformative creation burns away discipline, chaotic energy disrupts ordered techniques",
+      "neutral_with": "Physical (self-mastery) and Lightning - Perfect martial discipline, synergistic with divine connection"
     }
   },
   "metadata": {

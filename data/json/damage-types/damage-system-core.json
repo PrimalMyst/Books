@@ -1,0 +1,207 @@
+{
+  "system_id": "damage-system-core",
+  "name": "PrimalMyst Core Damage System",
+  "description": "The fundamental damage calculation system based on the hexagonal positioning of damage types. This system defines the mathematical relationships between all damage types in PrimalMyst, using hexagonal distance calculations to determine effectiveness multipliers.",
+  "version": "1.0",
+  "canonical_reference": "data/json/lore/core-thematic-hexagon.json",
+  "system_overview": {
+    "principle": "Hexagonal Opposition System",
+    "foundation": "Damage effectiveness is determined by the hexagonal distance between damage types in the core thematic hexagon",
+    "balance_philosophy": "Creates strategic rock-paper-scissors relationships while maintaining smooth progression curves",
+    "lore_integration": "Reflects the cosmic structure of Yggdrasil and divine relationships between the Eldritch Pantheon"
+  },
+  "core_formula": {
+    "base_formula": "damagetype_mult = 1 + typemult * effectiveness_step",
+    "parameters": {
+      "effectiveness_step": 0.33,
+      "typemult_calculation": "hexagonal_distance_between_positions",
+      "position_reference": "core-thematic-hexagon.json positions 1-6"
+    },
+    "effectiveness_tiers": {
+      "maximum_advantage": {
+        "value": 1.99,
+        "typemult": 3,
+        "description": "Opposite damage types (3 positions apart)",
+        "examples": ["Fire→Radiance", "Lightning→Chaos", "Cold→Physical"]
+      },
+      "strong_advantage": {
+        "value": 1.66,
+        "typemult": 2,
+        "description": "Skip-one clockwise (2 positions apart)",
+        "examples": ["Fire→Lightning", "Physical→Cold", "Chaos→Physical"]
+      },
+      "moderate_advantage": {
+        "value": 1.33,
+        "typemult": 1,
+        "description": "Adjacent clockwise (1 position apart)",
+        "examples": ["Fire→Physical", "Lightning→Radiance", "Cold→Chaos"]
+      },
+      "neutral": {
+        "value": 1.0,
+        "typemult": 0,
+        "description": "Self-targeting (same damage type)",
+        "examples": ["Fire→Fire", "Lightning→Lightning", "Cold→Cold"]
+      },
+      "moderate_disadvantage": {
+        "value": 0.67,
+        "typemult": -1,
+        "description": "Adjacent counter-clockwise (1 position back)",
+        "examples": ["Fire→Chaos", "Physical→Fire", "Lightning→Physical"]
+      },
+      "strong_disadvantage": {
+        "value": 0.34,
+        "typemult": -2,
+        "description": "Skip-one counter-clockwise (2 positions back)",
+        "examples": ["Fire→Cold", "Physical→Chaos", "Lightning→Fire"]
+      }
+    }
+  },
+  "hexagonal_positioning": {
+    "damage_type_positions": {
+      "1": {
+        "damage_type": "fire",
+        "god": "Pyrion, the First Flame",
+        "god_tier": "primal",
+        "color_code": "red",
+        "rgb_classification": "anchor"
+      },
+      "2": {
+        "damage_type": "physical",
+        "god": "Korthak, the Dragon King",
+        "god_tier": "sovereign",
+        "color_code": "yellow",
+        "rgb_classification": "bridge"
+      },
+      "3": {
+        "damage_type": "lightning",
+        "god": "Voltharion, the Cosmic Spark",
+        "god_tier": "primal",
+        "color_code": "green",
+        "rgb_classification": "anchor"
+      },
+      "4": {
+        "damage_type": "radiance",
+        "god": "Aurelius, the Radiant Sphere",
+        "god_tier": "sovereign",
+        "color_code": "cyan",
+        "rgb_classification": "bridge"
+      },
+      "5": {
+        "damage_type": "cold",
+        "god": "Glacius, the Eternal Frost",
+        "god_tier": "primal",
+        "color_code": "blue",
+        "rgb_classification": "anchor"
+      },
+      "6": {
+        "damage_type": "chaos",
+        "god": "Serafina, the Shadow Empress",
+        "god_tier": "sovereign",
+        "color_code": "magenta",
+        "rgb_classification": "bridge"
+      }
+    },
+    "opposition_pairs": {
+      "primal_vs_sovereign": [
+        {"primal": "fire", "sovereign": "radiance", "lore": "Primal creation vs divine protection"},
+        {"primal": "lightning", "sovereign": "chaos", "lore": "Divine connection vs creative chaos"},
+        {"primal": "cold", "sovereign": "physical", "lore": "Eternal preservation vs physical mastery"}
+      ],
+      "adjacent_synergies": {
+        "fire": ["chaos", "physical"],
+        "physical": ["fire", "lightning"],
+        "lightning": ["physical", "radiance"],
+        "radiance": ["lightning", "cold"],
+        "cold": ["radiance", "chaos"],
+        "chaos": ["cold", "fire"]
+      }
+    }
+  },
+  "effectiveness_matrix": {
+    "fire": {
+      "fire": 1.0, "physical": 1.33, "lightning": 1.66, "radiance": 1.99, "cold": 0.34, "chaos": 0.67
+    },
+    "physical": {
+      "fire": 0.67, "physical": 1.0, "lightning": 1.33, "radiance": 1.66, "cold": 1.99, "chaos": 0.34
+    },
+    "lightning": {
+      "fire": 0.34, "physical": 0.67, "lightning": 1.0, "radiance": 1.33, "cold": 1.66, "chaos": 1.99
+    },
+    "radiance": {
+      "fire": 1.99, "physical": 0.34, "lightning": 0.67, "radiance": 1.0, "cold": 1.33, "chaos": 1.66
+    },
+    "cold": {
+      "fire": 1.66, "physical": 1.99, "lightning": 0.34, "radiance": 0.67, "cold": 1.0, "chaos": 1.33
+    },
+    "chaos": {
+      "fire": 1.33, "physical": 1.66, "lightning": 1.99, "radiance": 0.34, "cold": 0.67, "chaos": 1.0
+    }
+  },
+  "implementation_guidelines": {
+    "calculation_order": [
+      "1. Determine attacker damage type position (1-6)",
+      "2. Determine defender damage type resistance position (1-6)",
+      "3. Calculate hexagonal distance (clockwise, wrapping at 6)",
+      "4. Convert distance to typemult (-2, -1, 0, 1, 2, 3)",
+      "5. Apply formula: 1 + typemult * 0.33",
+      "6. Apply result as damage multiplier"
+    ],
+    "distance_calculation": {
+      "method": "Minimum path around hexagon",
+      "wrapping": "Position 6 wraps to position 1",
+      "direction_priority": "Clockwise positive, counter-clockwise negative",
+      "opposite_handling": "Distance 3 always results in maximum effectiveness (1.99x)"
+    },
+    "validation_checks": [
+      "All effectiveness values must be within 0.34x to 1.99x range",
+      "Matrix must be asymmetric (attacker vs defender matters)",
+      "Self-targeting must always equal 1.0x",
+      "Opposite pairs must always equal 1.99x",
+      "Adjacent pairs must follow 1.33x/0.67x pattern"
+    ]
+  },
+  "tuning_parameters": {
+    "effectiveness_step": {
+      "current": 0.33,
+      "alternatives": {
+        "subtle": 0.25,
+        "dramatic": 0.5
+      },
+      "impact": "Higher values create more extreme damage differences"
+    },
+    "future_expansions": {
+      "hybrid_types": "Weighted averages of base type effectiveness",
+      "environmental_modifiers": "Multiplicative stacking with base effectiveness",
+      "temporal_effects": "Dynamic modification of typemult values",
+      "equipment_bonuses": "Additive bonuses to final multiplier"
+    }
+  },
+  "lore_integration": {
+    "cosmic_foundation": "Based on the six-fold structure of Yggdrasil and the Eldritch Pantheon",
+    "divine_relationships": "RGB Anchors (Primal gods) vs Bridges (Sovereign gods) create maximum opposition",
+    "elemental_philosophy": "Damage types represent fundamental cosmic forces, not mere elemental effects",
+    "balance_narrative": "The World Tree maintains cosmic balance through these opposing forces"
+  },
+  "related_systems": {
+    "core_hexagon": "data/json/lore/core-thematic-hexagon.json",
+    "individual_damage_types": [
+      "data/json/damage-types/fire-damage.json",
+      "data/json/damage-types/physical-damage.json",
+      "data/json/damage-types/lightning-damage.json",
+      "data/json/damage-types/radiance-damage.json",
+      "data/json/damage-types/cold-damage.json",
+      "data/json/damage-types/chaos-damage.json"
+    ],
+    "calculator_reference": "codex/world-building/damage-calculator-reference.md",
+    "pantheon_lore": "codex/lore/eldritch-pantheon.md",
+    "cosmology": "codex/lore/six-realms-cosmology.md"
+  },
+  "metadata": {
+    "created": "2025-08-08",
+    "author": "PrimalMyst Development Team",
+    "canonical": true,
+    "schema_version": "1.0",
+    "last_updated": "2025-08-08",
+    "update_priority": "High - Core system affects all damage calculations"
+  }
+}

@@ -101,37 +101,43 @@
     "divine_communication": "Lightning practitioners sometimes receive brief flashes of divine insight during powerful castings"
   },
   "hexagonal_interactions": {
+    "core_system_reference": "damage-system-core.json",
+    "hexagon_reference": "../lore/core-thematic-hexagon.json",
+    "position_in_hexagon": 3,
     "effectiveness_vs": {
-      "cold": 0.34,
-      "chaos": 0.67,
+      "fire": 0.34,
+      "physical": 0.67,
       "lightning": 1.0,
-      "physical": 1.33,
-      "fire": 1.66,
-      "radiance": 1.99
+      "radiance": 1.33,
+      "cold": 1.66,
+      "chaos": 1.99
     },
     "calculation_parameters": {
       "base_effectiveness": 1.0,
       "effectiveness_step": 0.33,
-      "calculation_formula": "base_effectiveness * (1 + position_modifier * effectiveness_step)"
+      "calculation_formula": "1 + hexagonal_distance_typemult * 0.33",
+      "formula_reference": "damage-system-core.json"
     },
     "position_relationships": {
-      "next": "physical",
-      "second_next": "fire",
-      "opposite": "radiance",
-      "second_previous": "cold",
-      "previous": "chaos"
+      "next": "radiance",
+      "second_next": "cold",
+      "opposite": "chaos",
+      "second_previous": "fire",
+      "previous": "physical"
     },
     "divine_trio_reference": {
-      "trio_file": "fundamental-trio.json",
-      "trio_type": "fundamental", 
+      "trio_file": "../lore/core-thematic-hexagon.json",
+      "trio_type": "primal", 
       "god_name": "Voltharion, the Cosmic Spark",
-      "position_in_trio": 3,
-      "domain": "Connection"
+      "position_in_hexagon": 3,
+      "color_code": "green",
+      "rgb_classification": "anchor",
+      "domain": "Divine Connection"
     },
     "interaction_explanation": {
-      "strong_against": "Physical and Fire - Lightning overwhelms physical defenses with speed and energizes flame into plasma",
-      "weak_against": "Chaos and Cold - Chaotic energy disrupts electrical patterns, cold crystallization grounds and dissipates energy",
-      "neutral_with": "Lightning (self-mastery) and Radiance - Pure energy mastery, balanced opposition with divine illumination"
+      "strong_against": "Cold and Chaos - Lightning's connection grounds preservation energy and dispels chaotic unpredictability with precise electrical patterns",
+      "weak_against": "Fire and Physical - Creative energy overwhelms connection patterns, disciplined techniques channel and redirect electrical flow",
+      "neutral_with": "Lightning (self-mastery) and Radiance - Perfect electrical control, synergistic with divine illumination"
     }
   },
   "metadata": {

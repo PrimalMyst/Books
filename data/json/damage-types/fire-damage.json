@@ -111,18 +111,22 @@
     "canonical": true
   },
   "hexagonal_interactions": {
+    "core_system_reference": "damage-system-core.json",
+    "hexagon_reference": "../lore/core-thematic-hexagon.json",
+    "position_in_hexagon": 1,
     "effectiveness_vs": {
       "fire": 1.0,
       "physical": 1.33,
       "lightning": 1.66,
-      "radiance": 0.34,
-      "cold": 0.67,
-      "chaos": 1.33
+      "radiance": 1.99,
+      "cold": 0.34,
+      "chaos": 0.67
     },
     "calculation_parameters": {
       "base_effectiveness": 1.0,
       "effectiveness_step": 0.33,
-      "calculation_formula": "base_effectiveness * (1 + position_modifier * effectiveness_step)"
+      "calculation_formula": "1 + hexagonal_distance_typemult * 0.33",
+      "formula_reference": "damage-system-core.json"
     },
     "position_relationships": {
       "next": "physical",
@@ -132,16 +136,18 @@
       "previous": "chaos"
     },
     "divine_trio_reference": {
-      "trio_file": "primal-trio.json", 
+      "trio_file": "../lore/core-thematic-hexagon.json", 
       "trio_type": "primal",
       "god_name": "Pyrion, the First Flame",
-      "position_in_trio": 1,
-      "domain": "Creation"
+      "position_in_hexagon": 1,
+      "color_code": "red",
+      "rgb_classification": "anchor",
+      "domain": "Primal Creation"
     },
     "interaction_explanation": {
-      "strong_against": "Physical and Lightning - Fire's creation burns through disciplined defense and overwhelms electrical connection",
-      "weak_against": "Radiance and Cold - Divine light purifies destructive flame, crystalline preservation contains creation energy",
-      "neutral_with": "Fire (self-mastery) and Chaos - Perfect creative control, synergistic with transformative change"
+      "strong_against": "Lightning and Radiance - Fire's creation energy overwhelms electrical connection and burns through divine protection",
+      "weak_against": "Cold and Chaos - Preservation crystallizes creative energy, chaotic transformation disrupts ordered flame",
+      "neutral_with": "Fire (self-mastery) and Physical - Perfect creative control, synergistic with disciplined manifestation"
     }
   }
 }

@@ -111,37 +111,43 @@
     "canonical": true
   },
   "hexagonal_interactions": {
+    "core_system_reference": "damage-system-core.json",
+    "hexagon_reference": "../lore/core-thematic-hexagon.json",
+    "position_in_hexagon": 4,
     "effectiveness_vs": {
-      "cold": 1.33,
-      "chaos": 1.66,
-      "lightning": 1.99,
+      "fire": 1.99,
       "physical": 0.34,
-      "fire": 0.67,
-      "radiance": 1.0
+      "lightning": 0.67,
+      "radiance": 1.0,
+      "cold": 1.33,
+      "chaos": 1.66
     },
     "calculation_parameters": {
       "base_effectiveness": 1.0,
       "effectiveness_step": 0.33,
-      "calculation_formula": "base_effectiveness * (1 + position_modifier * effectiveness_step)"
+      "calculation_formula": "1 + hexagonal_distance_typemult * 0.33",
+      "formula_reference": "damage-system-core.json"
     },
     "position_relationships": {
       "next": "cold",
       "second_next": "chaos",
-      "opposite": "lightning",
+      "opposite": "fire",
       "second_previous": "physical",
-      "previous": "fire"
+      "previous": "lightning"
     },
     "divine_trio_reference": {
-      "trio_file": "primal-trio.json",
-      "trio_type": "primal",
-      "god_name": "Lumina, the Dawn Bringer",
-      "position_in_trio": 6,
-      "domain": "Radiance"
+      "trio_file": "../lore/core-thematic-hexagon.json",
+      "trio_type": "sovereign",
+      "god_name": "Aurelius, the Radiant Sphere",
+      "position_in_hexagon": 4,
+      "color_code": "cyan",
+      "rgb_classification": "bridge",
+      "domain": "Radiant Order"
     },
     "interaction_explanation": {
-      "strong_against": "Cold and Chaos - Divine light reveals what preservation would hide and banishes shadow corruption",
-      "weak_against": "Fire and Physical - Transformative heat burns away divine illusions, martial discipline focuses divine energy into practical action",
-      "neutral_with": "Radiance (self-mastery) and Lightning - Perfect divine illumination, balanced opposition with fundamental connection"
+      "strong_against": "Fire and Chaos - Divine light purifies destructive creation and banishes shadow corruption",
+      "weak_against": "Physical and Lightning - Martial discipline channels divine energy into action, electrical connection disrupts protective illumination",
+      "neutral_with": "Radiance (self-mastery) and Cold - Perfect divine illumination, synergistic with preservation's clarity"
     }
   }
 }
