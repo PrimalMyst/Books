@@ -1,15 +1,42 @@
 # PrimalMyst Hexagonal Systems - Complete Draft
 
-## Master Reference Table
+## Master| Position | Color/Theme | God | Ti### 2. **Damage Types Layer** (Established)
+| Positio### 5. **Defensive Layers** (Implemented)
+| Position | Defense | Color | Type | Description |
+|----------|---------|-------|------|-------------|
+| 1 | Fire Resistance| Position | Color | God | Bridge Function | Color Blend |
+|----------|-------|-----|-----------------|-------------|
+| 2 | **YELLOW** � | Marsalis | Red→Green Bridge | Red + Green = #FFFF00 |
+| 4 | **CYAN** 🔵 | Zeusara | Green→Blue Bridge | Green + Blue = #00FFFF |
+| 6 | **MAGENTA** 🟣 | Anubiseth | Blue→Red Bridge | Blue + Red = #FF00FF | | Elemental | Pure immunity to fire damage |
+| 2 | Armor | 🟡 | Active | Physical damage reduction through equipment |
+| 3 | Air Resistance | 🟢 | Elemental | Pure immunity to air damage |
+| 4 | Energy Shield | 🔵 | Active | Mystical barrier absorption |
+| 5 | Water Resistance | 🔵 | Elemental | Pure immunity to water damage |
+| 6 | Evasion | 🟣 | Active | Avoiding damage through movement and positioning || Color | Description | Source |
+|----------|------|-------|-------------|--------|
+| 1 | Fire | 🔴 | Creation-based thermal damage | Primal flame |
+| 2 | Metal | 🟡 | Solid force and crushing damage | Raw material strength |
+| 3 | Air | 🟢 | Movement-based pressure damage | Elemental flow |
+| 4 | Lightning | 🔵 | Electric energy and divine spark | Electrical-divine fusion |
+| 5 | Water | 🔵 | Fluid and crystalline damage | Elemental transformation |
+| 6 | Shadow | 🟣 | Darkness and reality-warping damage | Absence energy |ge Type | Attribute | Offensive | Defensive | Resource |
+|----------|-------------|-----|------|-------------|-----------|-----------|-----------|----------|
+| 1 | **RED** 🔴 | Surturon | Primal | Fire | Strength | Precision Strikes | Fire Resistance | Health Points |
+| 2 | **YELLOW** 🟡 | Marsalis | Sovereign | Metal | Constitution | Physical Overwhelm | Armor | *(None)* |
+| 3 | **GREEN** 🟢 | Fenrion | Primal | Air | Dexterity | Speed Dominance | Air Resistance | Stamina Points |
+| 4 | **CYAN** 🔵 | Zeusara | Sovereign | Lightning | Wisdom | Sustained Mastery | Energy Shield | *(None)* |
+| 5 | **BLUE** 🔵 | Jormunion | Primal | Water | Intelligence | Burst Devastation | Water Resistance | Mana Points |
+| 6 | **MAGENTA** 🟣 | Anubiseth | Sovereign | Shadow | Charisma | Unpredictable Assault | Evasion | *(None)* |ce Table
 
 | Position/Color | God | Damage Type | Attribute | Defensive | Resource |
 |----------------|-----|-------------|-----------|-----------|----------|
-| 1 RED 🔴 | Pyrion | Fire | Strength | Fire Resistance | Health Points |
-| 2 YELLOW 🟡 | Korthak | Physical | Constitution | Armor | *(None)* |
-| 3 GREEN 🟢 | Voltharion | Lightning | Dexterity | Lightning Resistance | Stamina Points |
-| 4 CYAN 🔵 | Aurelius | Radiance | Wisdom | Energy Shield | *(None)* |
-| 5 BLUE 🔵 | Glacius | Cold | Intelligence | Cold Resistance | Mana Points |
-| 6 MAGENTA 🟣 | Serafina | Chaos | Charisma | Evasion | *(None)* |
+| 1 RED 🔴 | Surturon | Fire | Strength | Fire Resistance | Health Points |
+| 2 YELLOW 🟡 | Marsalis | Metal | Constitution | Armor | *(None)* |
+| 3 GREEN 🟢 | Fenrion | Air | Dexterity | Air Resistance | Stamina Points |
+| 4 CYAN 🔵 | Zeusara | Lightning | Wisdom | Energy Shield | *(None)* |
+| 5 BLUE 🔵 | Jormunion | Water | Intelligence | Water Resistance | Mana Points |
+| 6 MAGENTA 🟣 | Anubiseth | Shadow | Charisma | Evasion | *(None)* |
 
 ## Purpose
 This document tracks all established hexagonal layers in PrimalMyst and their corner mappings to prepare for full refactoring. Each layer follows the same 6-position pattern aligned with our RGB color system and divine pantheon structure.
@@ -77,14 +104,34 @@ The hexagonal system is anchored by the three primary RGB colors at positions 1,
 ## Detailed Layer Breakdown
 
 ### 1. **Pantheon Layer** (Established)
-| Position | God | Full Name | Tier | Domain |
-|----------|-----|-----------|------|--------|
-| 1 | Pyrion | Pyrion, the First Flame | Primal | Creation, Transformation, Energy Generation |
-| 2 | Korthak | Korthak, the Dragon King | Sovereign | Honorable Strength, Disciplined Might |
-| 3 | Voltharion | Voltharion, the Cosmic Spark | Primal | Connection, Communication, Divine Revelation |
-| 4 | Aurelius | Aurelius, the Radiant Sphere | Sovereign | Healing Light, Protective Order |
-| 5 | Glacius | Glacius, the Eternal Frost | Primal | Preservation, Memory, Structural Stability |
-| 6 | Serafina | Serafina, the Shadow Empress | Sovereign | Beneficial Chaos, Creative Revolution |
+| Position | God | Full Name | Tier | Domain | Mythological Inspiration |
+|----------|-----|-----------|------|--------|-------------------------|
+| 1 | Surturon | Surturon, the World-Ending Flame | Primal | Apocalyptic Fire, World Destruction, Ragnarök | **Surtr** (Norse) - Fire giant who will burn all nine worlds at Ragnarök |
+| 2 | Marsalis | Marsalis, the Golden Dragon | Sovereign | Honorable Metal, Disciplined Might, Warrior's Way | **Mars** (Roman) - God of war and military strategy |
+| 3 | Fenrion | Fenrion, the Devouring Wind | Primal | Monstrous Hunger, Boundless Growth, Wind-Carried Howls | **Fenrir** (Norse) - Monstrous wolf destined to devour Odin at Ragnarök |
+| 4 | Zeusara | Zeusara, the Divine Thunder | Sovereign | Holy Lightning, Divine Authority, Celestial Justice | **Zeus** (Greek) - King of gods, ruler of sky and thunder |
+| 5 | Jormunion | Jormunion, the Frozen Depths | Primal | Icy Oceans, Crushing Depths, Frozen Memory | **Jörmungandr** (Norse) - World Serpent who encircles Midgard in the ocean |
+| 6 | Anubiseth | Anubiseth, the Shadow Judge | Sovereign | Afterlife Guidance, Shadow Wisdom, Underworld Order | **Anubis** (Egyptian) - Jackal-headed god of the afterlife and mummification |
+
+#### **Detailed God Descriptions**
+
+**Surturon, the World-Ending Flame (Position 1 - Red Fire)**
+The primordial god of apocalyptic destruction and world-ending transformation, Surturon embodies the essential fire that will consume all existence at the end of times. As the World-Ending Flame, he represents the inevitable conclusion of all cycles - the fire that burns away everything to make space for what comes next. Surturon's domain encompasses not just destructive fire, but the necessary apocalyptic force that cleanses reality for rebirth. He appears as a towering figure of living flame wielding a massive flaming sword, his form constantly crackling with world-consuming energy. Surturon teaches that all things must end so that new things can begin, and that destruction is not evil but necessary. His followers are revolutionaries, those who seek to tear down corrupt systems, and anyone who understands that sometimes everything must burn for truth to emerge. **Inspired by Surtr, the Norse fire giant destined to burn all nine worlds at Ragnarök.**
+
+**Marsalis, the Golden Dragon (Position 2 - Yellow Metal)**
+The sovereign god of honorable warfare and metallic perfection, Marsalis embodies the warrior's path through disciplined might and golden virtue. As the Golden Dragon, he represents the fusion of draconic power with Roman military discipline - strength tempered by honor and tactical excellence. Marsalis appears as a magnificent humanoid dragon wreathed in golden scales and radiant armor, wielding weapons of pure celestial metal. His domain covers not just physical combat, but the forging of character through discipline, the creation of perfect weapons and armor, and the warrior's code that turns mere fighting into noble art. He teaches that true strength comes from self-mastery and disciplined training, and that the greatest victories are won through honor, strategy, and unwavering dedication to the warrior's way. **Inspired by Mars, the Roman god of war and military strategy.**
+
+**Fenrion, the Devouring Wind (Position 3 - Green Air)**
+The primal god of monstrous hunger and unstoppable growth, Fenrion represents the terrible power of appetite that can never be satisfied. As the Devouring Wind, he embodies the howling gales that carry his endless hunger across all realms, growing larger and more powerful with everything he consumes. Fenrion appears as a massive spectral wolf whose form is made of swirling winds and storm clouds, his howls echoing across vast distances as tornadoes dance around his ethereal figure. His domain encompasses boundless appetite, the power that breaks all chains, the wind that carries terror, and the hunger that grows stronger the more it feeds. He teaches that all bonds are temporary, that growth requires consumption, and that even the gods cannot contain what is destined to be free. His followers are those who refuse to be bound, rebels against authority, and anyone who understands that sometimes appetite is stronger than law. **Inspired by Fenrir, the monstrous Norse wolf destined to break free and devour Odin at Ragnarök.**
+
+**Zeusara, the Divine Thunder (Position 4 - Cyan Lightning)**
+The sovereign goddess of divine authority and celestial justice, Zeusara wields the power of holy lightning to enforce cosmic law and divine will. As the Divine Thunder, she represents the awesome power of divine judgment made manifest through electrical storms and thunderous proclamations. Zeusara appears as a regal figure wreathed in cyan lightning, her voice carrying the authority of thunder itself, her eyes blazing with the light of divine justice. Her domain covers divine law, righteous judgment, the protection of the innocent, and the punishment of the wicked. She teaches that true authority comes from wisdom rather than force, and that justice must be swift, certain, and tempered with mercy. **Inspired by Zeus, the Greek king of gods and ruler of sky and thunder.**
+
+**Jormunion, the Frozen Depths (Position 5 - Blue Water)**
+The primal god of icy preservation and crushing depths, Jormunion embodies the power to freeze, preserve, and crush through the terrible pressure of the deepest waters. As the Frozen Depths, he represents the endless cycle of ice and water - from frozen memories locked in glacial ice to the crushing pressure of ocean depths that can destroy anything. Jormunion appears as a massive serpentine figure of flowing water and crystalline ice, his form constantly shifting between frozen glaciers, crushing ocean depths, and flowing streams, with memories and knowledge frozen within his icy coils. His domain encompasses memory preservation through ice, the crushing power of deep waters, magical energy channeled through frozen currents, and the understanding that some things must be kept frozen to be preserved. He teaches that memory can be frozen in time like ice, that the deepest waters hold the greatest pressure, and that true preservation requires the courage to embrace the cold depths. **Inspired by Jörmungandr, the Norse World Serpent who encircles Midgard in the ocean.**
+
+**Anubiseth, the Shadow Judge (Position 6 - Magenta Shadow)**
+The sovereign deity of afterlife guidance and shadow wisdom, Anubiseth serves as the divine judge who guides souls through the mysteries of death, transformation, and rebirth. As the Shadow Judge, she embodies the necessary darkness that balances light, the chaos that enables change, and the wisdom that can only be found by confronting the unknown. Anubiseth appears as a regal figure with the head of a jackal, wreathed in shifting shadows and purple flames, her eyes seeing through all deceptions to the truth beneath. Her domain covers death transitions, shadow magic, beneficial chaos, transformation through crisis, and the wisdom that comes from accepting the unknown. She teaches that shadows are not evil but necessary, that chaos is the engine of growth, and that true wisdom requires the courage to face what lies beyond the light. **Inspired by Anubis, the Egyptian jackal-headed god of the afterlife and mummification.**
 
 ### 2. **Damage Types Layer** (Established)
 | Position | Type | Color | Description | Source |
@@ -150,9 +197,9 @@ The hexagonal system is anchored by the three primary RGB colors at positions 1,
 | 5 | Mana Points | Blue 🔵 | Magical energy and divine connection | Intelligence, Wisdom |
 
 **Note:** Only RGB anchor positions (1, 3, 5) have core resources.
-- **Position 1 (Fire/Pyrion)**: Health represents the vital flame of life
-- **Position 3 (Lightning/Voltharion)**: Stamina channels electrical energy for endurance  
-- **Position 5 (Cold/Glacius)**: Mana preserves magical knowledge through crystalline memory
+- **Position 1 (Fire/Surturon)**: Health represents the vital flame that burns in all living things
+- **Position 3 (Air/Fenrion)**: Stamina channels wind energy for movement and the endless hunt  
+- **Position 5 (Water/Jormunion)**: Mana flows like frozen streams through crystalline memory
 
 ---
 
@@ -267,9 +314,9 @@ These three positions form the foundational triangle of the hexagonal system:
 
 | Position | Color | God | Role | Systems Anchored |
 |----------|-------|-----|------|------------------|
-| 1 | **RED** 🔴 | Pyrion | Strength & Creation | Health Points, Fire Damage, Fire Resistance |
-| 3 | **GREEN** 🟢 | Voltharion | Dexterity & Connection | Stamina Points, Lightning Damage, Lightning Resistance |
-| 5 | **BLUE** 🔵 | Glacius | Intelligence & Preservation | Mana Points, Cold Damage, Cold Resistance |
+| 1 | **RED** 🔴 | Surturon | Strength & Destruction | Health Points, Fire Damage, Fire Resistance |
+| 3 | **GREEN** 🟢 | Fenrion | Dexterity & Hunger | Stamina Points, Air Damage, Air Resistance |
+| 5 | **BLUE** 🔵 | Jormunion | Intelligence & Preservation | Mana Points, Water Damage, Water Resistance |
 
 ### Bridge Positions (Sovereign Gods)
 These three positions create smooth transitions between the RGB anchors:
