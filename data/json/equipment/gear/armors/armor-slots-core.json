@@ -186,7 +186,7 @@
   },
   "slot_indexes": {
     "helmet": {
-      "index_file": "armor-helmets-index.json",
+      "index_file": "helmets-index.json",
       "armor_type_indexes": {
         "armor": "armor-helmets-index.json",
         "energy_shield": "energy-shield-helmets-index.json",
@@ -197,7 +197,7 @@
       }
     },
     "body_armor": {
-      "index_file": "armor-body-armors-index.json",
+      "index_file": "body-armors-index.json",
       "armor_type_indexes": {
         "armor": "armor-body-armors-index.json",
         "energy_shield": "energy-shield-body-armors-index.json",
@@ -208,7 +208,7 @@
       }
     },
     "gloves": {
-      "index_file": "armor-gloves-index.json",
+      "index_file": "gloves-index.json",
       "armor_type_indexes": {
         "armor": "armor-gloves-index.json",
         "energy_shield": "energy-shield-gloves-index.json",
@@ -219,7 +219,7 @@
       }
     },
     "belt": {
-      "index_file": "armor-belts-index.json",
+      "index_file": "belts-index.json",
       "armor_type_indexes": {
         "armor": "armor-belts-index.json",
         "energy_shield": "energy-shield-belts-index.json",
@@ -230,7 +230,7 @@
       }
     },
     "pants": {
-      "index_file": "armor-pants-index.json",
+      "index_file": "pants-index.json",
       "armor_type_indexes": {
         "armor": "armor-pants-index.json",
         "energy_shield": "energy-shield-pants-index.json",
@@ -241,7 +241,7 @@
       }
     },
     "boots": {
-      "index_file": "armor-boots-index.json",
+      "index_file": "boots-index.json",
       "armor_type_indexes": {
         "armor": "armor-boots-index.json",
         "energy_shield": "energy-shield-boots-index.json",
