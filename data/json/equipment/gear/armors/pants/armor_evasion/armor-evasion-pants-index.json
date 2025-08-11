@@ -1,0 +1,23 @@
+{
+  "id": "armor-evasion-pants-index",
+  "name": "Armor-Evasion Hybrid Pants Index",
+  "description": "Index of hybrid armor-evasion pants combining protection with mobility",
+  "version": "1.0.0",
+  "armor_type": "armor_evasion",
+  "god_alignment": "Marsalis + Anubiseth (Sovereign)",
+  "hexagonal_positions": [2, 6],
+  "colors": "Yellow + Magenta",
+  "general_description": "Flexible chain leggings and reinforced leather pants that balance protection with mobility, featuring articulated knee joints and stride-friendly design.",
+  "existing_items": [
+    "flexible-chain-leggings.json"
+  ],
+  "metadata": {
+    "created": "2025-08-11T21:00:00Z",
+    "last_updated": "2025-08-11T21:00:00Z",
+    "author": "PrimalMyst Development Team",
+    "canonical": true,
+    "notes": "Simplified index focusing on categorization with existing items list",
+    "hexagonal_integration": "Complete",
+    "version": "1.0.0"
+  }
+}

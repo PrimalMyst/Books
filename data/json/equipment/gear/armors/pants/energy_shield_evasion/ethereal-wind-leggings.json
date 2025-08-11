@@ -1,0 +1,33 @@
+{
+  "id": "ethereal-wind-leggings",
+  "name": "Ethereal Wind Leggings",
+  "type": "pants",
+  "tier": "mortal",
+  "rarity": "rare",
+  "description": "Mystical leggings that seem to be woven from captured wind, constantly shifting and flowing around the legs. They provide magical protection while enhancing mobility through ethereal properties.",
+  "flavor_text": "Crafted from the essence of mountain breezes and morning mist, these leggings grant the wearer the grace of the wind and the protection of the eternal sky.",
+  "stats": {
+    "energy_shield": 25,
+    "evasion": 20,
+    "movement_speed": 12,
+    "requirements": {
+      "level": 16,
+      "intelligence": 18,
+      "dexterity": 18
+    }
+  },
+  "properties": {
+    "slot": "pants",
+    "armor_type": "energy_shield_evasion",
+    "material": "ethereal_wind",
+    "weight": "ethereal",
+    "durability": 75
+  },
+  "metadata": {
+    "created": "2025-08-11T21:05:00Z",
+    "last_updated": "2025-08-11T21:05:00Z",
+    "author": "PrimalMyst Development Team",
+    "canonical": true,
+    "version": "1.0.0"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "flexible-chain-leggings",
+  "name": "Flexible Chain Leggings",
+  "type": "pants",
+  "tier": "mortal",
+  "rarity": "uncommon",
+  "description": "Chain leggings with specially treated links that provide protection while maintaining exceptional leg flexibility. The articulated design allows for full range of motion without sacrificing defense.",
+  "flavor_text": "Each link was individually tested for both strength and flexibility, creating legwear that protects like armor yet moves like fabric.",
+  "stats": {
+    "armor": 23,
+    "evasion": 18,
+    "requirements": {
+      "level": 14,
+      "strength": 18,
+      "dexterity": 16
+    }
+  },
+  "properties": {
+    "slot": "pants",
+    "armor_type": "armor_evasion",
+    "material": "flexible_chain",
+    "weight": "medium",
+    "durability": 85
+  },
+  "metadata": {
+    "created": "2025-08-11T21:05:00Z",
+    "last_updated": "2025-08-11T21:05:00Z",
+    "author": "PrimalMyst Development Team",
+    "canonical": true,
+    "version": "1.0.0"
+  }
+}

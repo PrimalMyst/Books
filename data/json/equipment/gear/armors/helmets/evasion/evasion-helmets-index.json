@@ -1,0 +1,23 @@
+{
+  "id": "evasion-helmets-index",
+  "name": "Evasion Type Helmets Index",
+  "description": "Index of pure evasion type helmets focused on agility and dodge enhancement",
+  "version": "1.0.0",
+  "armor_type": "evasion",
+  "god_alignment": "Anubiseth (Sovereign)",
+  "hexagonal_position": 6,
+  "color": "Magenta",
+  "general_description": "Light hoods, agility masks, and movement-enhancing headgear designed for maximum mobility. These helmets prioritize visibility and unrestricted movement for agile combatants.",
+  "existing_items": [
+    "shadow-dancers-hood.json"
+  ],
+  "metadata": {
+    "created": "2025-08-11T20:35:00Z",
+    "last_updated": "2025-08-11T20:35:00Z",
+    "author": "PrimalMyst Development Team",
+    "canonical": true,
+    "notes": "Simplified index focusing on categorization with existing items list",
+    "hexagonal_integration": "Complete",
+    "version": "1.0.0"
+  }
+}

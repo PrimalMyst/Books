@@ -1,0 +1,23 @@
+{
+  "id": "energy-shield-evasion-gloves-index",
+  "name": "Energy Shield-Evasion Hybrid Gloves Index",
+  "description": "Index of hybrid energy shield-evasion gloves combining magical protection with dexterity",
+  "version": "1.0.0",
+  "armor_type": "energy_shield_evasion",
+  "god_alignment": "Zeusara + Anubiseth (Sovereign)",
+  "hexagonal_positions": [4, 6],
+  "colors": "Cyan + Magenta",
+  "general_description": "Mystical agility gloves and ethereal handwear that blend magical protection with enhanced dexterity through enchanted materials and precision-enhancing magic.",
+  "existing_items": [
+    "ethereal-wind-gloves.json"
+  ],
+  "metadata": {
+    "created": "2025-08-11T20:50:00Z",
+    "last_updated": "2025-08-11T20:50:00Z",
+    "author": "PrimalMyst Development Team",
+    "canonical": true,
+    "notes": "Simplified index focusing on categorization with existing items list",
+    "hexagonal_integration": "Complete",
+    "version": "1.0.0"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "flexible-chain-shirt",
+  "name": "Flexible Chain Shirt",
+  "type": "body_armor",
+  "tier": "mortal",
+  "rarity": "uncommon",
+  "description": "A carefully crafted chain shirt with specially treated links that maintain protective value while allowing exceptional flexibility. The design balances defense with unrestricted movement.",
+  "flavor_text": "Each link was individually tested for strength and flexibility, creating armor that moves like cloth yet protects like steel.",
+  "stats": {
+    "armor": 28,
+    "evasion": 22,
+    "requirements": {
+      "level": 14,
+      "strength": 18,
+      "dexterity": 16
+    }
+  },
+  "properties": {
+    "slot": "body_armor",
+    "armor_type": "armor_evasion",
+    "material": "flexible_chain",
+    "weight": "medium",
+    "durability": 85
+  },
+  "metadata": {
+    "created": "2025-08-11T20:45:00Z",
+    "last_updated": "2025-08-11T20:45:00Z",
+    "author": "PrimalMyst Development Team",
+    "canonical": true,
+    "version": "1.0.0"
+  }
+}

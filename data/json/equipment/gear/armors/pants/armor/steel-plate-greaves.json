@@ -1,0 +1,30 @@
+{
+  "id": "steel-plate-greaves",
+  "name": "Steel Plate Greaves",
+  "type": "pants",
+  "tier": "mortal",
+  "rarity": "common",
+  "description": "Heavy steel leg armor with articulated knee and hip joints that provide excellent protection for the legs and thighs. The plates are shaped to allow natural movement while maximizing coverage.",
+  "flavor_text": "Forged by veteran smiths who understand the importance of leg protection, these greaves have saved countless warriors from crippling wounds.",
+  "stats": {
+    "armor": 40,
+    "requirements": {
+      "level": 15,
+      "strength": 25
+    }
+  },
+  "properties": {
+    "slot": "pants",
+    "armor_type": "armor",
+    "material": "steel",
+    "weight": "heavy",
+    "durability": 95
+  },
+  "metadata": {
+    "created": "2025-08-11T21:05:00Z",
+    "last_updated": "2025-08-11T21:05:00Z",
+    "author": "PrimalMyst Development Team",
+    "canonical": true,
+    "version": "1.0.0"
+  }
+}

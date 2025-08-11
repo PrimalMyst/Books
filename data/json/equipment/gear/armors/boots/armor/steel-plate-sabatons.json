@@ -1,0 +1,30 @@
+{
+  "id": "steel-plate-sabatons",
+  "name": "Steel Plate Sabatons",
+  "type": "boots",
+  "tier": "mortal",
+  "rarity": "common",
+  "description": "Heavy steel footwear with articulated toe joints that provide excellent protection for feet and ankles. The plates are carefully shaped to allow natural walking while maximizing coverage.",
+  "flavor_text": "Forged by master smiths who understand that protecting one's feet is essential to surviving any battle, these sabatons have carried warriors safely through countless conflicts.",
+  "stats": {
+    "armor": 30,
+    "requirements": {
+      "level": 15,
+      "strength": 25
+    }
+  },
+  "properties": {
+    "slot": "boots",
+    "armor_type": "armor",
+    "material": "steel",
+    "weight": "heavy",
+    "durability": 95
+  },
+  "metadata": {
+    "created": "2025-08-11T21:15:00Z",
+    "last_updated": "2025-08-11T21:15:00Z",
+    "author": "PrimalMyst Development Team",
+    "canonical": true,
+    "version": "1.0.0"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "id": "silk-speed-boots",
+  "name": "Silk Speed Boots",
+  "type": "boots",
+  "tier": "mortal",
+  "rarity": "uncommon",
+  "description": "Ultra-lightweight silk boots that enhance natural speed and agility. The fabric moves like a second skin, improving running speed and providing exceptional grip for quick movements.",
+  "flavor_text": "Crafted for messengers and scouts, these boots allow their wearer to traverse great distances with the speed and silence of the wind.",
+  "stats": {
+    "evasion": 24,
+    "movement_speed": 15,
+    "requirements": {
+      "level": 10,
+      "dexterity": 18
+    }
+  },
+  "properties": {
+    "slot": "boots",
+    "armor_type": "evasion",
+    "material": "silk",
+    "weight": "very_light",
+    "durability": 70
+  },
+  "metadata": {
+    "created": "2025-08-11T21:15:00Z",
+    "last_updated": "2025-08-11T21:15:00Z",
+    "author": "PrimalMyst Development Team",
+    "canonical": true,
+    "version": "1.0.0"
+  }
+}

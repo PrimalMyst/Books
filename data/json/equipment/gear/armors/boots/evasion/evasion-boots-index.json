@@ -1,0 +1,23 @@
+{
+  "id": "evasion-boots-index",
+  "name": "Evasion Type Boots Index",
+  "description": "Index of pure evasion type boots focused on speed and agility",
+  "version": "1.0.0",
+  "armor_type": "evasion",
+  "god_alignment": "Anubiseth (Sovereign)",
+  "hexagonal_position": 6,
+  "color": "Magenta",
+  "general_description": "Light boots, agility shoes, and speed-focused footwear designed for maximum mobility and silent movement. These boots enhance running speed and stealth capabilities.",
+  "existing_items": [
+    "silk-speed-boots.json"
+  ],
+  "metadata": {
+    "created": "2025-08-11T21:10:00Z",
+    "last_updated": "2025-08-11T21:10:00Z",
+    "author": "PrimalMyst Development Team",
+    "canonical": true,
+    "notes": "Simplified index focusing on categorization with existing items list",
+    "hexagonal_integration": "Complete",
+    "version": "1.0.0"
+  }
+}

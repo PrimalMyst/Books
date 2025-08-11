@@ -1,0 +1,23 @@
+{
+  "id": "armor-helmets-index",
+  "name": "Armor Type Helmets Index",
+  "description": "Index of pure armor type helmets focused on physical damage reduction",
+  "version": "1.0.0",
+  "armor_type": "armor",
+  "god_alignment": "Marsalis (Sovereign)",
+  "hexagonal_position": 2,
+  "color": "Yellow",
+  "general_description": "Heavy helmets, metal crowns, and plate helms designed for maximum physical protection. These helmets combine robust construction with full head coverage for warriors who prioritize defense.",
+  "existing_items": [
+    "iron-great-helm.json"
+  ],
+  "metadata": {
+    "created": "2025-08-11T20:35:00Z",
+    "last_updated": "2025-08-11T20:35:00Z",
+    "author": "PrimalMyst Development Team",
+    "canonical": true,
+    "notes": "Simplified index focusing on categorization with existing items list",
+    "hexagonal_integration": "Complete",
+    "version": "1.0.0"
+  }
+}

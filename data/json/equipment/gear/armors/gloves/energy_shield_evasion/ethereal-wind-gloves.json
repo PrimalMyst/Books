@@ -1,0 +1,33 @@
+{
+  "id": "ethereal-wind-gloves",
+  "name": "Ethereal Wind Gloves",
+  "type": "gloves",
+  "tier": "mortal",
+  "rarity": "rare",
+  "description": "Mystical gloves that seem to be woven from captured wind, constantly shifting and flowing around the hands. They provide magical protection while enhancing manual dexterity through ethereal properties.",
+  "flavor_text": "Crafted from the essence of mountain breezes and morning mist, these gloves grant the wearer the grace of the wind and the protection of the eternal sky.",
+  "stats": {
+    "energy_shield": 20,
+    "evasion": 17,
+    "attack_speed": 8,
+    "requirements": {
+      "level": 16,
+      "intelligence": 18,
+      "dexterity": 18
+    }
+  },
+  "properties": {
+    "slot": "gloves",
+    "armor_type": "energy_shield_evasion",
+    "material": "ethereal_wind",
+    "weight": "ethereal",
+    "durability": 75
+  },
+  "metadata": {
+    "created": "2025-08-11T20:55:00Z",
+    "last_updated": "2025-08-11T20:55:00Z",
+    "author": "PrimalMyst Development Team",
+    "canonical": true,
+    "version": "1.0.0"
+  }
+}

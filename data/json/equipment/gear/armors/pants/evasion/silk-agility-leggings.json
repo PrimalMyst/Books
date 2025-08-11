@@ -1,0 +1,31 @@
+{
+  "id": "silk-agility-leggings",
+  "name": "Silk Agility Leggings",
+  "type": "pants",
+  "tier": "mortal",
+  "rarity": "uncommon",
+  "description": "Ultra-lightweight silk leggings that enhance natural agility and stride length. The fabric moves like a second skin, improving running speed and jumping ability.",
+  "flavor_text": "Favored by scouts and messengers, these leggings allow their wearer to move with the grace and speed of the wind itself.",
+  "stats": {
+    "evasion": 32,
+    "movement_speed": 8,
+    "requirements": {
+      "level": 10,
+      "dexterity": 18
+    }
+  },
+  "properties": {
+    "slot": "pants",
+    "armor_type": "evasion",
+    "material": "silk",
+    "weight": "very_light",
+    "durability": 70
+  },
+  "metadata": {
+    "created": "2025-08-11T21:05:00Z",
+    "last_updated": "2025-08-11T21:05:00Z",
+    "author": "PrimalMyst Development Team",
+    "canonical": true,
+    "version": "1.0.0"
+  }
+}

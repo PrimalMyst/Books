@@ -1,0 +1,37 @@
+{
+  "id": "blessed-steel-crown-helm",
+  "name": "Blessed Steel Crown Helm",
+  "description": "A majestic helm combining steel protection with divine enchantments, worn by paladin commanders",
+  "version": "1.0.0",
+  "item_type": "helmet",
+  "armor_type": "armor_energy_shield",
+  "rarity": "rare",
+  "level_requirement": 16,
+  "item_level": 20,
+  "base_stats": {
+    "armor_rating": 16,
+    "energy_shield": 22,
+    "weight": 3.2
+  },
+  "hexagonal_alignment": {
+    "gods": ["Marsalis (Sovereign)", "Zeusara (Sovereign)"],
+    "positions": [2, 4],
+    "colors": "Yellow + Cyan",
+    "elements": "Physical + Mystical Protection",
+    "domains": "Strength and Magic"
+  },
+  "special_properties": {
+    "divine_authority": "Commands respect, +3 to leadership rolls",
+    "blessed_protection": "Automatically cleanses minor curses and diseases",
+    "holy_sight": "Can see through illusions and detect undead"
+  },
+  "metadata": {
+    "created": "2025-08-11T20:35:00Z",
+    "last_updated": "2025-08-11T20:35:00Z",
+    "author": "PrimalMyst Development Team",
+    "canonical": true,
+    "notes": "Example armor-energy shield hybrid helmet",
+    "balance_tested": true,
+    "version": "1.0.0"
+  }
+}

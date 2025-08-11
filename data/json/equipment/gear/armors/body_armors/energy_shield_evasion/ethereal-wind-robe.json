@@ -1,0 +1,33 @@
+{
+  "id": "ethereal-wind-robe",
+  "name": "Ethereal Wind Robe",
+  "type": "body_armor",
+  "tier": "mortal",
+  "rarity": "rare",
+  "description": "A mystical robe that seems to be woven from wind itself, constantly shifting and flowing around the wearer. It provides both magical protection and enhanced agility through its ethereal properties.",
+  "flavor_text": "Spun from captured breezes and moonlight, this robe grants its wearer the grace of the wind and the protection of the eternal sky.",
+  "stats": {
+    "energy_shield": 30,
+    "evasion": 25,
+    "movement_speed": 8,
+    "requirements": {
+      "level": 16,
+      "intelligence": 18,
+      "dexterity": 18
+    }
+  },
+  "properties": {
+    "slot": "body_armor",
+    "armor_type": "energy_shield_evasion",
+    "material": "ethereal_wind",
+    "weight": "ethereal",
+    "durability": 75
+  },
+  "metadata": {
+    "created": "2025-08-11T20:45:00Z",
+    "last_updated": "2025-08-11T20:45:00Z",
+    "author": "PrimalMyst Development Team",
+    "canonical": true,
+    "version": "1.0.0"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "blessed-steel-plate-mail",
+  "name": "Blessed Steel Plate Mail",
+  "type": "body_armor",
+  "tier": "mortal",
+  "rarity": "rare",
+  "description": "Heavy plate mail blessed by temple priests and reinforced with protective enchantments. The divine blessing creates a shimmering aura that deflects both physical and magical attacks.",
+  "flavor_text": "Forged in sacred flames and blessed under divine stars, this armor stands as a testament to the harmony between martial prowess and divine protection.",
+  "stats": {
+    "armor": 35,
+    "energy_shield": 28,
+    "requirements": {
+      "level": 18,
+      "strength": 22,
+      "intelligence": 15
+    }
+  },
+  "properties": {
+    "slot": "body_armor",
+    "armor_type": "armor_energy_shield",
+    "material": "blessed_steel",
+    "weight": "heavy",
+    "durability": 90
+  },
+  "metadata": {
+    "created": "2025-08-11T20:45:00Z",
+    "last_updated": "2025-08-11T20:45:00Z",
+    "author": "PrimalMyst Development Team",
+    "canonical": true,
+    "version": "1.0.0"
+  }
+}

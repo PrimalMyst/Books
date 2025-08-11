@@ -1,0 +1,23 @@
+{
+  "id": "armor-boots-index",
+  "name": "Armor Type Boots Index",
+  "description": "Index of pure armor type boots focused on foot and ankle protection",
+  "version": "1.0.0",
+  "armor_type": "armor",
+  "god_alignment": "Marsalis (Sovereign)",
+  "hexagonal_position": 2,
+  "color": "Yellow",
+  "general_description": "Heavy steel boots, armored sabatons, and protective footwear designed for maximum foot and ankle protection. These boots prioritize defense and stability for warriors in combat.",
+  "existing_items": [
+    "steel-plate-sabatons.json"
+  ],
+  "metadata": {
+    "created": "2025-08-11T21:10:00Z",
+    "last_updated": "2025-08-11T21:10:00Z",
+    "author": "PrimalMyst Development Team",
+    "canonical": true,
+    "notes": "Simplified index focusing on categorization with existing items list",
+    "hexagonal_integration": "Complete",
+    "version": "1.0.0"
+  }
+}

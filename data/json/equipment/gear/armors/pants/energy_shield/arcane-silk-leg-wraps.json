@@ -1,0 +1,31 @@
+{
+  "id": "arcane-silk-leg-wraps",
+  "name": "Arcane Silk Leg Wraps",
+  "type": "pants",
+  "tier": "mortal",
+  "rarity": "uncommon",
+  "description": "Flowing silk wraps infused with magical energy that enhance spellcasting while providing mystical protection. The fabric moves gracefully with each step, maintaining comfort and flexibility.",
+  "flavor_text": "Worn by mystics and sages, these wraps channel the wearer's inner energy while protecting them from hostile magic.",
+  "stats": {
+    "energy_shield": 35,
+    "mana": 20,
+    "requirements": {
+      "level": 12,
+      "intelligence": 20
+    }
+  },
+  "properties": {
+    "slot": "pants",
+    "armor_type": "energy_shield",
+    "material": "arcane_silk",
+    "weight": "light",
+    "durability": 80
+  },
+  "metadata": {
+    "created": "2025-08-11T21:05:00Z",
+    "last_updated": "2025-08-11T21:05:00Z",
+    "author": "PrimalMyst Development Team",
+    "canonical": true,
+    "version": "1.0.0"
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "id": "blessed-steel-utility-belt",
+  "name": "Blessed Steel Utility Belt",
+  "description": "A masterwork steel belt blessed with divine wards, combining robust physical protection with mystical defenses",
+  "version": "1.0.0",
+  "item_type": "belt",
+  "armor_type": "armor_energy_shield",
+  "rarity": "rare",
+  "level_requirement": 18,
+  "item_level": 22,
+  "base_stats": {
+    "armor_rating": 18,
+    "energy_shield": 24,
+    "weight": 2.5
+  },
+  "hexagonal_alignment": {
+    "gods": ["Marsalis (Sovereign)", "Zeusara (Sovereign)"],
+    "positions": [2, 4],
+    "colors": "Yellow + Cyan",
+    "elements": "Physical + Mystical Protection",
+    "domains": "Strength and Magic"
+  },
+  "physical_properties": {
+    "material": "Blessed steel with enchanted leather backing",
+    "construction": "Dual-layer protection with ward inscriptions",
+    "buckle_type": "Runed steel buckle with energy channeling",
+    "utility_compartments": 3,
+    "energy_conduits": 2,
+    "length": "adjustable 28-42 inches",
+    "width": "3.5 inches"
+  },
+  "defensive_properties": {
+    "armor_rating": 18,
+    "energy_shield": 24,
+    "physical_damage_reduction": "8%",
+    "magical_damage_reduction": "10%",
+    "ward_stability": "+30%"
+  },
+  "utility_properties": {
+    "carrying_capacity": "+20%",
+    "blessed_storage": "Items stored are protected from corruption",
+    "divine_channeling": "Holy spells cost 8% less mana",
+    "ward_enhancement": "Protective spells last 25% longer"
+  },
+  "stat_modifiers": {
+    "strength": "+1",
+    "intelligence": "+1",
+    "constitution": "+1",
+    "divine_favor": "+10%"
+  },
+  "special_properties": {
+    "dual_protection": "Gains bonuses from both physical and magical defense skills",
+    "blessed_aegis": "Automatically casts minor ward when health drops below 30%",
+    "sacred_utility": "Blessed items stored here provide small bonuses when used"
+  },
+  "flavor_text": "Forged in the divine forges of the Temple Militant and blessed by high clerics of both war and magic, this belt represents the perfect fusion of martial prowess and mystical protection.",
+  "metadata": {
+    "created": "2025-08-11T20:25:00Z",
+    "last_updated": "2025-08-11T20:25:00Z",
+    "author": "PrimalMyst Development Team",
+    "canonical": true,
+    "notes": "Example armor-energy shield hybrid belt with dual god alignment",
+    "balance_tested": true,
+    "version": "1.0.0"
+  }
+}

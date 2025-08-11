@@ -1,0 +1,37 @@
+{
+  "id": "rangers-tactical-helm",
+  "name": "Ranger's Tactical Helm",
+  "description": "A lightweight yet protective helm designed for wilderness scouts who need both defense and mobility",
+  "version": "1.0.0",
+  "item_type": "helmet",
+  "armor_type": "armor_evasion",
+  "rarity": "uncommon",
+  "level_requirement": 14,
+  "item_level": 17,
+  "base_stats": {
+    "armor_rating": 12,
+    "evasion_rating": 14,
+    "weight": 2.1
+  },
+  "hexagonal_alignment": {
+    "gods": ["Marsalis (Sovereign)", "Anubiseth (Sovereign)"],
+    "positions": [2, 6],
+    "colors": "Yellow + Magenta",
+    "elements": "Protection + Agility",
+    "domains": "Strength and Speed"
+  },
+  "special_properties": {
+    "wilderness_awareness": "Enhanced perception in natural environments",
+    "adaptive_protection": "Armor rating increases when stationary",
+    "weather_resistance": "Protection from environmental effects"
+  },
+  "metadata": {
+    "created": "2025-08-11T20:35:00Z",
+    "last_updated": "2025-08-11T20:35:00Z",
+    "author": "PrimalMyst Development Team",
+    "canonical": true,
+    "notes": "Example armor-evasion hybrid helmet",
+    "balance_tested": true,
+    "version": "1.0.0"
+  }
+}

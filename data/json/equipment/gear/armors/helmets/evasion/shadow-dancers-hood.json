@@ -1,0 +1,37 @@
+{
+  "id": "shadow-dancers-hood",
+  "name": "Shadow Dancer's Hood",
+  "description": "A lightweight hood that seems to absorb light, enhancing stealth and agility",
+  "version": "1.0.0",
+  "item_type": "helmet",
+  "armor_type": "evasion",
+  "rarity": "uncommon",
+  "level_requirement": 12,
+  "item_level": 14,
+  "base_stats": {
+    "evasion_rating": 18,
+    "movement_speed": "+10%",
+    "weight": 0.8
+  },
+  "hexagonal_alignment": {
+    "god": "Anubiseth (Sovereign)",
+    "position": 6,
+    "color": "Magenta",
+    "element": "Agility and Stealth",
+    "domain": "Speed and Shadows"
+  },
+  "special_properties": {
+    "shadow_blend": "Increased stealth in low light conditions",
+    "peripheral_vision": "+25% detection range for hidden enemies",
+    "silent_movement": "Footsteps make 50% less noise"
+  },
+  "metadata": {
+    "created": "2025-08-11T20:35:00Z",
+    "last_updated": "2025-08-11T20:35:00Z",
+    "author": "PrimalMyst Development Team",
+    "canonical": true,
+    "notes": "Example evasion helmet with Anubiseth alignment",
+    "balance_tested": true,
+    "version": "1.0.0"
+  }
+}

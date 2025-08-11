@@ -1,0 +1,23 @@
+{
+  "id": "energy-shield-evasion-boots-index",
+  "name": "Energy Shield-Evasion Hybrid Boots Index",
+  "description": "Index of hybrid energy shield-evasion boots combining magical protection with speed",
+  "version": "1.0.0",
+  "armor_type": "energy_shield_evasion",
+  "god_alignment": "Zeusara + Anubiseth (Sovereign)",
+  "hexagonal_positions": [4, 6],
+  "colors": "Cyan + Magenta",
+  "general_description": "Mystical speed boots and ethereal footwear that blend magical protection with enhanced mobility through enchanted materials and movement-enhancing magic.",
+  "existing_items": [
+    "ethereal-wind-boots.json"
+  ],
+  "metadata": {
+    "created": "2025-08-11T21:10:00Z",
+    "last_updated": "2025-08-11T21:10:00Z",
+    "author": "PrimalMyst Development Team",
+    "canonical": true,
+    "notes": "Simplified index focusing on categorization with existing items list",
+    "hexagonal_integration": "Complete",
+    "version": "1.0.0"
+  }
+}

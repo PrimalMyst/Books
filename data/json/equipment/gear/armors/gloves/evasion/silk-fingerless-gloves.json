@@ -1,0 +1,31 @@
+{
+  "id": "silk-fingerless-gloves",
+  "name": "Silk Fingerless Gloves",
+  "type": "gloves",
+  "tier": "mortal",
+  "rarity": "uncommon",
+  "description": "Lightweight fingerless gloves that enhance dexterity and grip while providing minimal protection. The exposed fingertips allow for precise manipulation and superior weapon handling.",
+  "flavor_text": "Preferred by thieves and archers, these gloves provide just enough protection while preserving the tactile sensitivity needed for delicate work.",
+  "stats": {
+    "evasion": 25,
+    "attack_speed": 5,
+    "requirements": {
+      "level": 10,
+      "dexterity": 18
+    }
+  },
+  "properties": {
+    "slot": "gloves",
+    "armor_type": "evasion",
+    "material": "silk",
+    "weight": "very_light",
+    "durability": 70
+  },
+  "metadata": {
+    "created": "2025-08-11T20:55:00Z",
+    "last_updated": "2025-08-11T20:55:00Z",
+    "author": "PrimalMyst Development Team",
+    "canonical": true,
+    "version": "1.0.0"
+  }
+}

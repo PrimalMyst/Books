@@ -1,0 +1,30 @@
+{
+  "id": "steel-plate-gauntlets",
+  "name": "Steel Plate Gauntlets",
+  "type": "gloves",
+  "tier": "mortal",
+  "rarity": "common",
+  "description": "Heavy steel gauntlets with articulated finger joints that provide excellent protection for hands and forearms. Each finger is individually armored while maintaining grip strength.",
+  "flavor_text": "Forged by master smiths, these gauntlets have crushed many weapons and shields while protecting their wearer's hands from harm.",
+  "stats": {
+    "armor": 32,
+    "requirements": {
+      "level": 15,
+      "strength": 25
+    }
+  },
+  "properties": {
+    "slot": "gloves",
+    "armor_type": "armor",
+    "material": "steel",
+    "weight": "heavy",
+    "durability": 95
+  },
+  "metadata": {
+    "created": "2025-08-11T20:55:00Z",
+    "last_updated": "2025-08-11T20:55:00Z",
+    "author": "PrimalMyst Development Team",
+    "canonical": true,
+    "version": "1.0.0"
+  }
+}

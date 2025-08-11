@@ -1,0 +1,265 @@
+{
+  "id": "armor-slots-system",
+  "name": "Armor Slot Configuration",
+  "description": "Defines the 6 equipment slots for armor pieces in PrimalMyst",
+  "version": "1.0.0",
+  "armor_slots": [
+    {
+      "slot_id": "helmet",
+      "slot_name": "Helmet",
+      "slot_type": "head",
+      "description": "Head protection - helmets, crowns, circlets, and headgear",
+      "folder": "helmets",
+      "equipment_types": ["helmet", "crown", "circlet", "hat", "mask"],
+      "hexagonal_armor_types": {
+        "pure_types": {
+          "armor": "Heavy helmets, metal crowns, plate helms",
+          "energy_shield": "Magical circlets, divine crowns, enchanted headpieces", 
+          "evasion": "Light hoods, agility masks, movement-enhancing headgear"
+        },
+        "hybrid_types": {
+          "armor_energy_shield": "Reinforced magical crowns, blessed plate helms",
+          "armor_evasion": "Flexible metal helms, reinforced leather hoods",
+          "energy_shield_evasion": "Enchanted light circlets, mystical agility masks"
+        }
+      }
+    },
+    {
+      "slot_id": "body_armor",
+      "slot_name": "Body Armor", 
+      "slot_type": "chest",
+      "description": "Torso protection - chest plates, robes, shirts, and jackets",
+      "folder": "body_armors",
+      "equipment_types": ["chest_plate", "robe", "shirt", "jacket", "vest"],
+      "hexagonal_armor_types": {
+        "pure_types": {
+          "armor": "Heavy chest plates, metal vests, full plate armor",
+          "energy_shield": "Magical robes, divine vestments, arcane jackets",
+          "evasion": "Light shirts, agility vests, movement-focused clothing"
+        },
+        "hybrid_types": {
+          "armor_energy_shield": "Enchanted plate mail, blessed heavy robes",
+          "armor_evasion": "Flexible chain mail, reinforced leather armor",
+          "energy_shield_evasion": "Mystical light robes, enchanted agility wear"
+        }
+      }
+    },
+    {
+      "slot_id": "gloves",
+      "slot_name": "Gloves",
+      "slot_type": "hands", 
+      "description": "Hand protection - gloves, gauntlets, bracers, and hand wraps",
+      "folder": "gloves",
+      "equipment_types": ["gloves", "gauntlets", "bracers", "hand_wraps"],
+      "hexagonal_armor_types": {
+        "pure_types": {
+          "armor": "Heavy gauntlets, metal bracers, plate gloves",
+          "energy_shield": "Magical gloves, divine hand wraps, enchanted bracers",
+          "evasion": "Light gloves, agility wraps, dexterous hand gear"
+        },
+        "hybrid_types": {
+          "armor_energy_shield": "Reinforced magical gauntlets, blessed heavy gloves",
+          "armor_evasion": "Flexible metal gloves, reinforced leather bracers",
+          "energy_shield_evasion": "Enchanted light gloves, mystical agility wraps"
+        }
+      }
+    },
+    {
+      "slot_id": "belt",
+      "slot_name": "Belt",
+      "slot_type": "waist",
+      "description": "Waist equipment - belts, sashes, chains, and utility belts", 
+      "folder": "belts",
+      "equipment_types": ["belt", "sash", "chain", "utility_belt"],
+      "hexagonal_armor_types": {
+        "pure_types": {
+          "armor": "Heavy utility belts, metal chains, reinforced leather belts",
+          "energy_shield": "Magical sashes, divine cord belts, enchanted chains",
+          "evasion": "Light utility belts, agility sashes, movement-enhancing belts"
+        },
+        "hybrid_types": {
+          "armor_energy_shield": "Enchanted heavy belts, blessed utility chains",
+          "armor_evasion": "Flexible reinforced belts, adaptive utility gear",
+          "energy_shield_evasion": "Mystical light sashes, enchanted agility belts"
+        }
+      }
+    },
+    {
+      "slot_id": "pants",
+      "slot_name": "Pants",
+      "slot_type": "legs",
+      "description": "Leg protection - pants, leggings, leg armor, and leg wraps",
+      "folder": "pants", 
+      "equipment_types": ["pants", "leggings", "leg_armor", "leg_wraps"],
+      "hexagonal_armor_types": {
+        "pure_types": {
+          "armor": "Heavy leg armor, metal leggings, plate leg guards",
+          "energy_shield": "Magical pants, divine leg wraps, enchanted leggings",
+          "evasion": "Light pants, agility leggings, movement-focused leg wear"
+        },
+        "hybrid_types": {
+          "armor_energy_shield": "Reinforced magical leggings, blessed heavy pants",
+          "armor_evasion": "Flexible chain leggings, reinforced leather pants",
+          "energy_shield_evasion": "Mystical light pants, enchanted agility wear"
+        }
+      }
+    },
+    {
+      "slot_id": "boots",
+      "slot_name": "Boots",
+      "slot_type": "feet",
+      "description": "Foot protection - boots, shoes, sandals, and foot wraps",
+      "folder": "boots",
+      "equipment_types": ["boots", "shoes", "sandals", "foot_wraps"],
+      "hexagonal_armor_types": {
+        "pure_types": {
+          "armor": "Heavy boots, metal sabatons, reinforced shoes",
+          "energy_shield": "Magical shoes, divine sandals, enchanted foot wraps",
+          "evasion": "Light boots, agility shoes, movement-enhancing footwear"
+        },
+        "hybrid_types": {
+          "armor_energy_shield": "Enchanted heavy boots, blessed reinforced shoes",
+          "armor_evasion": "Flexible metal boots, reinforced agility shoes",
+          "energy_shield_evasion": "Mystical light sandals, enchanted swift boots"
+        }
+      }
+    }
+  ],
+  "slot_configuration": {
+    "total_slots": 6,
+    "mandatory_slots": ["helmet", "body_armor", "gloves", "belt", "pants", "boots"],
+    "optional_slots": [],
+    "slot_restrictions": {
+      "one_per_slot": true,
+      "no_duplicate_types": true
+    }
+  },
+  "hexagonal_armor_system": {
+    "armor_type_classification": {
+      "pure_types": {
+        "armor": {
+          "position": 2,
+          "god": "Marsalis (Sovereign)",
+          "color": "Yellow",
+          "description": "Physical damage reduction through equipment",
+          "mechanics": "Direct damage mitigation, high physical defense"
+        },
+        "energy_shield": {
+          "position": 4, 
+          "god": "Zeusara (Sovereign)",
+          "color": "Cyan",
+          "description": "Mystical barrier absorption",
+          "mechanics": "Energy-based protection, magical damage mitigation"
+        },
+        "evasion": {
+          "position": 6,
+          "god": "Anubiseth (Sovereign)", 
+          "color": "Magenta",
+          "description": "Avoiding damage through movement and positioning",
+          "mechanics": "Dodge chance, movement speed, agility-based defense"
+        }
+      },
+      "hybrid_types": {
+        "armor_energy_shield": {
+          "positions": [2, 4],
+          "description": "Combines physical protection with magical barriers",
+          "mechanics": "Balanced physical and magical defense"
+        },
+        "armor_evasion": {
+          "positions": [2, 6],
+          "description": "Flexible protection allowing movement",
+          "mechanics": "Moderate physical defense with mobility bonuses"
+        },
+        "energy_shield_evasion": {
+          "positions": [4, 6],
+          "description": "Mystical protection enhancing agility", 
+          "mechanics": "Magical barriers with enhanced dodge capabilities"
+        }
+      }
+    },
+    "design_principles": {
+      "any_slot_any_type": "Every armor slot can be pure (AR/ES/EV) or hybrid",
+      "sovereign_alignment": "All armor types align with Sovereign gods (positions 2, 4, 6)",
+      "build_flexibility": "Players can mix pure and hybrid pieces for customized defense",
+      "mechanical_balance": "Hybrids offer versatility, pures offer specialization"
+    }
+  },
+  "slot_indexes": {
+    "helmet": {
+      "index_file": "armor-helmets-index.json",
+      "armor_type_indexes": {
+        "armor": "armor-helmets-index.json",
+        "energy_shield": "energy-shield-helmets-index.json",
+        "evasion": "evasion-helmets-index.json",
+        "armor_energy_shield": "armor-energy-shield-helmets-index.json",
+        "armor_evasion": "armor-evasion-helmets-index.json",
+        "energy_shield_evasion": "energy-shield-evasion-helmets-index.json"
+      }
+    },
+    "body_armor": {
+      "index_file": "armor-body-armors-index.json",
+      "armor_type_indexes": {
+        "armor": "armor-body-armors-index.json",
+        "energy_shield": "energy-shield-body-armors-index.json",
+        "evasion": "evasion-body-armors-index.json",
+        "armor_energy_shield": "armor-energy-shield-body-armors-index.json",
+        "armor_evasion": "armor-evasion-body-armors-index.json",
+        "energy_shield_evasion": "energy-shield-evasion-body-armors-index.json"
+      }
+    },
+    "gloves": {
+      "index_file": "armor-gloves-index.json",
+      "armor_type_indexes": {
+        "armor": "armor-gloves-index.json",
+        "energy_shield": "energy-shield-gloves-index.json",
+        "evasion": "evasion-gloves-index.json",
+        "armor_energy_shield": "armor-energy-shield-gloves-index.json",
+        "armor_evasion": "armor-evasion-gloves-index.json",
+        "energy_shield_evasion": "energy-shield-evasion-gloves-index.json"
+      }
+    },
+    "belt": {
+      "index_file": "armor-belts-index.json",
+      "armor_type_indexes": {
+        "armor": "armor-belts-index.json",
+        "energy_shield": "energy-shield-belts-index.json",
+        "evasion": "evasion-belts-index.json",
+        "armor_energy_shield": "armor-energy-shield-belts-index.json",
+        "armor_evasion": "armor-evasion-belts-index.json",
+        "energy_shield_evasion": "energy-shield-evasion-belts-index.json"
+      }
+    },
+    "pants": {
+      "index_file": "armor-pants-index.json",
+      "armor_type_indexes": {
+        "armor": "armor-pants-index.json",
+        "energy_shield": "energy-shield-pants-index.json",
+        "evasion": "evasion-pants-index.json",
+        "armor_energy_shield": "armor-energy-shield-pants-index.json",
+        "armor_evasion": "armor-evasion-pants-index.json",
+        "energy_shield_evasion": "energy-shield-evasion-pants-index.json"
+      }
+    },
+    "boots": {
+      "index_file": "armor-boots-index.json",
+      "armor_type_indexes": {
+        "armor": "armor-boots-index.json",
+        "energy_shield": "energy-shield-boots-index.json",
+        "evasion": "evasion-boots-index.json",
+        "armor_energy_shield": "armor-energy-shield-boots-index.json",
+        "armor_evasion": "armor-evasion-boots-index.json",
+        "energy_shield_evasion": "energy-shield-evasion-boots-index.json"
+      }
+    }
+  },
+  "metadata": {
+    "created": "2025-08-11T19:45:00Z",
+    "last_updated": "2025-08-11T21:20:00Z", 
+    "author": "PrimalMyst Development Team",
+    "canonical": true,
+    "notes": "Complete armor slot configuration with hexagonal integration and all slot indexes",
+    "hexagonal_integration": "Complete",
+    "implementation_status": "Complete - All 6 slots with 6 armor types each implemented",
+    "version": "3.0.0"
+  }
+}

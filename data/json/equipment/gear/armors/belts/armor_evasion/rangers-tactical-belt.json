@@ -1,0 +1,37 @@
+{
+  "id": "rangers-tactical-belt",
+  "name": "Ranger's Tactical Belt",
+  "description": "A flexible yet durable belt designed for wilderness scouts who need protection without sacrificing mobility",
+  "version": "1.0.0",
+  "item_type": "belt",
+  "armor_type": "armor_evasion",
+  "rarity": "uncommon",
+  "level_requirement": 16,
+  "item_level": 19,
+  "base_stats": {
+    "armor_rating": 14,
+    "evasion_rating": 16,
+    "weight": 1.8
+  },
+  "hexagonal_alignment": {
+    "gods": ["Marsalis (Sovereign)", "Anubiseth (Sovereign)"],
+    "positions": [2, 6],
+    "colors": "Yellow + Magenta",
+    "elements": "Protection + Agility",
+    "domains": "Strength and Speed"
+  },
+  "special_properties": {
+    "adaptive_protection": "Armor rating increases when stationary, evasion rating increases when moving",
+    "wilderness_master": "Bonuses to survival and tracking skills",
+    "quick_deploy": "Can rapidly access and deploy ranger equipment"
+  },
+  "metadata": {
+    "created": "2025-08-11T20:25:00Z",
+    "last_updated": "2025-08-11T20:25:00Z",
+    "author": "PrimalMyst Development Team",
+    "canonical": true,
+    "notes": "Example armor-evasion hybrid belt",
+    "balance_tested": true,
+    "version": "1.0.0"
+  }
+}

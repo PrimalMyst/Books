@@ -1,0 +1,23 @@
+{
+  "id": "armor-evasion-gloves-index",
+  "name": "Armor-Evasion Hybrid Gloves Index",
+  "description": "Index of hybrid armor-evasion gloves combining protection with dexterity",
+  "version": "1.0.0",
+  "armor_type": "armor_evasion",
+  "god_alignment": "Marsalis + Anubiseth (Sovereign)",
+  "hexagonal_positions": [2, 6],
+  "colors": "Yellow + Magenta",
+  "general_description": "Flexible chain gloves and reinforced leather handwear that balance protection with dexterity, featuring articulated joints and precision-friendly design.",
+  "existing_items": [
+    "flexible-chain-gloves.json"
+  ],
+  "metadata": {
+    "created": "2025-08-11T20:50:00Z",
+    "last_updated": "2025-08-11T20:50:00Z",
+    "author": "PrimalMyst Development Team",
+    "canonical": true,
+    "notes": "Simplified index focusing on categorization with existing items list",
+    "hexagonal_integration": "Complete",
+    "version": "1.0.0"
+  }
+}

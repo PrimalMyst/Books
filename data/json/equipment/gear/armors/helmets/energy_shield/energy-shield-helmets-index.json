@@ -1,0 +1,23 @@
+{
+  "id": "energy-shield-helmets-index",
+  "name": "Energy Shield Type Helmets Index",
+  "description": "Index of pure energy shield type helmets focused on magical damage mitigation",
+  "version": "1.0.0",
+  "armor_type": "energy_shield",
+  "god_alignment": "Zeusara (Sovereign)",
+  "hexagonal_position": 4,
+  "color": "Cyan",
+  "general_description": "Magical circlets, divine crowns, and enchanted headpieces designed for mystical protection. These helmets channel magical energy for defense while maintaining comfort and visibility.",
+  "existing_items": [
+    "arcane-circlet-of-warding.json"
+  ],
+  "metadata": {
+    "created": "2025-08-11T20:35:00Z",
+    "last_updated": "2025-08-11T20:35:00Z",
+    "author": "PrimalMyst Development Team",
+    "canonical": true,
+    "notes": "Simplified index focusing on categorization with existing items list",
+    "hexagonal_integration": "Complete",
+    "version": "1.0.0"
+  }
+}

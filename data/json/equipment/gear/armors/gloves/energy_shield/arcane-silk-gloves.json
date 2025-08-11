@@ -1,0 +1,31 @@
+{
+  "id": "arcane-silk-gloves",
+  "name": "Arcane Silk Gloves",
+  "type": "gloves",
+  "tier": "mortal",
+  "rarity": "uncommon",
+  "description": "Exquisitely crafted gloves made from enchanted silk that enhances magical conductivity. The fabric tingles with arcane energy and improves spellcasting precision.",
+  "flavor_text": "Woven from silk touched by starlight, these gloves allow mages to channel their power with unprecedented clarity and control.",
+  "stats": {
+    "energy_shield": 28,
+    "spell_power": 8,
+    "requirements": {
+      "level": 12,
+      "intelligence": 20
+    }
+  },
+  "properties": {
+    "slot": "gloves",
+    "armor_type": "energy_shield",
+    "material": "arcane_silk",
+    "weight": "light",
+    "durability": 80
+  },
+  "metadata": {
+    "created": "2025-08-11T20:55:00Z",
+    "last_updated": "2025-08-11T20:55:00Z",
+    "author": "PrimalMyst Development Team",
+    "canonical": true,
+    "version": "1.0.0"
+  }
+}

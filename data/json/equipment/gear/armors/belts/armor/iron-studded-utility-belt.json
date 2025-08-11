@@ -1,0 +1,121 @@
+{
+  "id": "iron-studded-utility-belt",
+  "name": "Iron-Studded Utility Belt",
+  "description": "A heavy-duty leather belt reinforced with iron studs and multiple utility pouches for the practical warrior",
+  "version": "1.0.0",
+  "item_type": "belt",
+  "armor_type": "armor",
+  "rarity": "uncommon",
+  "level_requirement": 15,
+  "item_level": 18,
+  "base_stats": {
+    "armor_rating": 28,
+    "durability": 85,
+    "weight": 3.2
+  },
+  "hexagonal_alignment": {
+    "god": "Marsalis (Sovereign)",
+    "position": 2,
+    "color": "Yellow",
+    "element": "Physical Protection",
+    "domain": "Strength and Endurance"
+  },
+  "physical_properties": {
+    "material": "Reinforced leather with iron studs",
+    "construction": "Triple-layered leather with metal reinforcement",
+    "buckle_type": "Heavy iron buckle with double prong",
+    "pouch_count": 4,
+    "attachment_points": 6,
+    "width": "3 inches",
+    "adjustable_range": "28-42 inches"
+  },
+  "defensive_properties": {
+    "armor_rating": 28,
+    "physical_damage_reduction": "12%",
+    "impact_resistance": "High",
+    "durability_bonus": "+35%",
+    "repair_cost_reduction": "15%"
+  },
+  "utility_properties": {
+    "carrying_capacity_bonus": "+25%",
+    "pouch_organization": "4 specialized compartments",
+    "tool_attachment_points": 6,
+    "quick_access_slots": 2,
+    "weight_distribution": "Optimized for heavy loads"
+  },
+  "stat_modifiers": {
+    "strength": "+2",
+    "constitution": "+1",
+    "carrying_capacity": "+25%",
+    "equipment_durability": "+35%"
+  },
+  "special_properties": {
+    "utility_master": "Increases effectiveness of carried tools by 10%",
+    "sturdy_construction": "Cannot be destroyed by normal wear and tear",
+    "combat_ready": "Quick-draw bonus for belt-mounted weapons and tools"
+  },
+  "flavor_text": "Crafted by the renowned Smith's Guild of Ironhold, this belt has served countless warriors through siege and battle. The iron studs bear the marks of deflected blows, while the leather shows the patina of honest work and dedication.",
+  "lore": {
+    "origin": "Smith's Guild of Ironhold",
+    "historical_significance": "Standard issue for city guards and professional soldiers",
+    "cultural_impact": "Symbol of practical warrior philosophy",
+    "famous_bearers": ["Captain Marcus Ironhold", "Guard-Commander Sarah Steelhart"]
+  },
+  "acquisition": {
+    "crafting": {
+      "required_materials": [
+        "3x Reinforced Leather Strips",
+        "12x Iron Studs", 
+        "1x Heavy Iron Buckle",
+        "2x Leather Dye"
+      ],
+      "required_skills": {
+        "leatherworking": 45,
+        "metalworking": 25
+      },
+      "crafting_time": "4 hours",
+      "success_rate": "85%"
+    },
+    "vendors": [
+      "Ironhold Armory - 185 gold",
+      "Warrior's Supply - 195 gold",
+      "Guild Quartermaster - 170 gold (members only)"
+    ],
+    "drop_sources": [
+      "Elite City Guards",
+      "Veteran Soldiers", 
+      "Fortress Commanders"
+    ]
+  },
+  "visual_description": {
+    "appearance": "A wide, dark brown leather belt with gleaming iron studs arranged in protective patterns",
+    "details": "Four reinforced pouches hang at strategic positions, with metal loops for tool attachment",
+    "wear_patterns": "Shows honest use with slight scuffing on high-contact areas",
+    "distinctive_features": "The Ironhold smith's mark stamped into the buckle"
+  },
+  "game_mechanics": {
+    "slot_type": "belt",
+    "equipment_restrictions": "None",
+    "set_bonuses": {
+      "ironhold_guard_set": {
+        "2_pieces": "+5% physical damage resistance",
+        "4_pieces": "+10% carrying capacity, immunity to disarm",
+        "6_pieces": "+15% all resistances, 'Unbreakable' property"
+      }
+    },
+    "upgrade_paths": [
+      "Steel-Studded Utility Belt (+5 AR, +10% carrying capacity)",
+      "Masterwork Iron Belt (+8 AR, additional special properties)",
+      "Enchanted Utility Belt (magical enhancements available)"
+    ]
+  },
+  "metadata": {
+    "created": "2025-08-11T20:15:00Z",
+    "last_updated": "2025-08-11T20:15:00Z",
+    "author": "PrimalMyst Development Team",
+    "canonical": true,
+    "notes": "Example armor type belt with Marsalis alignment and utility focus",
+    "balance_tested": true,
+    "version": "1.0.0"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "energy-shield-boots-index",
+  "name": "Energy Shield Type Boots Index",
+  "description": "Index of pure energy shield type boots focused on magical foot protection",
+  "version": "1.0.0",
+  "armor_type": "energy_shield",
+  "god_alignment": "Zeusara (Sovereign)",
+  "hexagonal_position": 4,
+  "color": "Cyan",
+  "general_description": "Mystical slippers, arcane foot wraps, and spellcaster's footwear designed to enhance magical abilities while protecting the feet. These boots channel energy for both casting and defense.",
+  "existing_items": [
+    "arcane-silk-slippers.json"
+  ],
+  "metadata": {
+    "created": "2025-08-11T21:10:00Z",
+    "last_updated": "2025-08-11T21:10:00Z",
+    "author": "PrimalMyst Development Team",
+    "canonical": true,
+    "notes": "Simplified index focusing on categorization with existing items list",
+    "hexagonal_integration": "Complete",
+    "version": "1.0.0"
+  }
+}

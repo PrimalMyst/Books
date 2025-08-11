@@ -1,0 +1,23 @@
+{
+  "id": "evasion-body-armors-index",
+  "name": "Evasion Type Body Armors Index",
+  "description": "Index of pure evasion type body armors focused on agility and dodge enhancement",
+  "version": "1.0.0",
+  "armor_type": "evasion",
+  "god_alignment": "Anubiseth (Sovereign)",
+  "hexagonal_position": 6,
+  "color": "Magenta",
+  "general_description": "Light shirts, agility vests, and movement-focused clothing designed for maximum mobility. These garments prioritize unrestricted movement and flexibility for agile combatants.",
+  "existing_items": [
+    "silk-shirt-of-swift-movement.json"
+  ],
+  "metadata": {
+    "created": "2025-08-11T20:40:00Z",
+    "last_updated": "2025-08-11T20:40:00Z",
+    "author": "PrimalMyst Development Team",
+    "canonical": true,
+    "notes": "Simplified index focusing on categorization with existing items list",
+    "hexagonal_integration": "Complete",
+    "version": "1.0.0"
+  }
+}

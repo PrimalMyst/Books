@@ -1,0 +1,23 @@
+{
+  "id": "armor-evasion-helmets-index",
+  "name": "Armor-Evasion Hybrid Helmets Index", 
+  "description": "Index of hybrid armor-evasion helmets combining protection with mobility",
+  "version": "1.0.0",
+  "armor_type": "armor_evasion",
+  "god_alignment": "Marsalis + Anubiseth (Sovereign)",
+  "hexagonal_positions": [2, 6],
+  "colors": "Yellow + Magenta",
+  "general_description": "Flexible metal helms and reinforced leather hoods that balance protection with movement, featuring adaptive protection mechanisms and mobility-friendly design.",
+  "existing_items": [
+    "rangers-tactical-helm.json"
+  ],
+  "metadata": {
+    "created": "2025-08-11T20:35:00Z",
+    "last_updated": "2025-08-11T20:35:00Z",
+    "author": "PrimalMyst Development Team",
+    "canonical": true,
+    "notes": "Simplified index focusing on categorization with existing items list",
+    "hexagonal_integration": "Complete",
+    "version": "1.0.0"
+  }
+}

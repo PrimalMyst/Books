@@ -1,0 +1,37 @@
+{
+  "id": "ethereal-wind-circlet",
+  "name": "Ethereal Wind Circlet",
+  "description": "A translucent circlet that shimmers with mystical energy and enhances both magical defenses and movement speed",
+  "version": "1.0.0",
+  "item_type": "helmet",
+  "armor_type": "energy_shield_evasion",
+  "rarity": "rare",
+  "level_requirement": 18,
+  "item_level": 22,
+  "base_stats": {
+    "energy_shield": 18,
+    "evasion_rating": 16,
+    "weight": 0.2
+  },
+  "hexagonal_alignment": {
+    "gods": ["Zeusara (Sovereign)", "Anubiseth (Sovereign)"],
+    "positions": [4, 6],
+    "colors": "Cyan + Magenta",
+    "elements": "Magic + Agility",
+    "domains": "Energy and Speed"
+  },
+  "special_properties": {
+    "ethereal_form": "Brief phase-shifting when dodging magical attacks",
+    "wind_walker": "Movement speed increases based on mana remaining",
+    "mystical_clarity": "Spell casting speed increased by 15%"
+  },
+  "metadata": {
+    "created": "2025-08-11T20:35:00Z",
+    "last_updated": "2025-08-11T20:35:00Z",
+    "author": "PrimalMyst Development Team",
+    "canonical": true,
+    "notes": "Example energy shield-evasion hybrid helmet",
+    "balance_tested": true,
+    "version": "1.0.0"
+  }
+}
