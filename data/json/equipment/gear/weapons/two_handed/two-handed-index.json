@@ -1,0 +1,41 @@
+{
+  "id": "two-handed-index",
+  "name": "Two Handed Weapons Index",
+  "description": "Index for large weapons requiring both hands for maximum power",
+  "version": "1.0.0",
+  "weapon_categories": {
+    "melee": {
+      "description": "Large melee weapons that deliver devastating close-combat damage",
+      "index_file": "two-handed-melee-index.json",
+      "examples": ["greatswords", "battleaxes", "warhammers", "polearms", "great_clubs"],
+      "focus": "Maximum damage, crowd control, reach",
+      "status": "planned"
+    },
+    "ranged": {
+      "description": "Heavy ranged weapons with superior range and stopping power",
+      "index_file": "two-handed-ranged-index.json",
+      "examples": ["longbows", "heavy_crossbows", "ballistas", "siege_weapons"],
+      "focus": "Long range, high damage, piercing power",
+      "status": "planned"
+    },
+    "spell_caster": {
+      "description": "Powerful magical implements that channel immense magical energy",
+      "index_file": "two-handed-caster-index.json",
+      "examples": ["great_staves", "ritual_weapons", "channeling_rods", "spell_cannons"],
+      "focus": "Maximum spell power, area effects, ritual magic",
+      "status": "planned"
+    }
+  },
+  "two_handed_mechanics": {
+    "description": "Two-handed weapons provide maximum power at the cost of versatility",
+    "features": ["highest_damage", "special_techniques", "crowd_effects", "power_attacks"]
+  },
+  "metadata": {
+    "created": "2025-08-11T21:35:00Z",
+    "last_updated": "2025-08-11T21:35:00Z",
+    "author": "PrimalMyst Development Team",
+    "canonical": true,
+    "notes": "Two handed weapons index with power focus",
+    "version": "1.0.0"
+  }
+}

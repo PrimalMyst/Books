@@ -1,0 +1,39 @@
+{
+  "id": "rings-index",
+  "name": "Rings Index",
+  "description": "Index for finger-worn accessories that provide focused magical or physical bonuses",
+  "version": "1.0.0",
+  "ring_categories": {
+    "stat_enhancement": {
+      "description": "Rings that directly boost character attributes and capabilities",
+      "examples": ["strength_rings", "intelligence_rings", "dexterity_rings", "vitality_rings"],
+      "focus": "Primary stat bonuses",
+      "status": "planned"
+    },
+    "resistance": {
+      "description": "Rings that provide protection against specific damage types or effects",
+      "examples": ["fire_resistance", "cold_resistance", "poison_immunity", "magic_resistance"],
+      "focus": "Defensive specialization",
+      "status": "planned"
+    },
+    "utility": {
+      "description": "Rings that provide unique abilities and quality of life improvements",
+      "examples": ["movement_speed", "resource_regeneration", "detection_abilities", "communication"],
+      "focus": "Special abilities and conveniences",
+      "status": "planned"
+    }
+  },
+  "ring_mechanics": {
+    "description": "Rings provide passive bonuses and can be worn on both hands",
+    "features": ["passive_effects", "dual_ring_combinations", "set_bonuses", "enhancement_options"],
+    "slots": "2 maximum (one per hand)"
+  },
+  "metadata": {
+    "created": "2025-08-11T21:40:00Z",
+    "last_updated": "2025-08-11T21:40:00Z",
+    "author": "PrimalMyst Development Team",
+    "canonical": true,
+    "notes": "Rings accessory index with focused bonus system",
+    "version": "1.0.0"
+  }
+}

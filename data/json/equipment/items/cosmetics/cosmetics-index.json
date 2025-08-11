@@ -1,0 +1,44 @@
+{
+  "id": "cosmetics-index",
+  "name": "Cosmetics Index",
+  "description": "Index for appearance-only items that provide no gameplay advantage",
+  "version": "1.0.0",
+  "cosmetic_categories": {
+    "visual_effects": {
+      "description": "Items that add visual flair and special effects to equipment or characters",
+      "examples": ["aura_effects", "particle_trails", "glow_enhancements", "magical_displays"],
+      "focus": "Visual enhancement and special effects",
+      "status": "planned"
+    },
+    "color_variants": {
+      "description": "Items that modify the color schemes and appearance of existing equipment",
+      "examples": ["dye_kits", "color_crystals", "pigment_essences", "appearance_modifiers"],
+      "focus": "Color and texture customization",
+      "status": "planned"
+    },
+    "style_modifications": {
+      "description": "Items that change the style and aesthetic of equipment without affecting function",
+      "examples": ["style_templates", "appearance_overlays", "design_patterns", "cultural_aesthetics"],
+      "focus": "Style and design customization",
+      "status": "planned"
+    },
+    "vanity_items": {
+      "description": "Pure aesthetic items that serve no functional purpose beyond appearance",
+      "examples": ["decorative_accessories", "ceremonial_items", "display_pieces", "collectibles"],
+      "focus": "Pure aesthetic and collection value",
+      "status": "planned"
+    }
+  },
+  "cosmetic_mechanics": {
+    "description": "Cosmetics modify appearance without affecting gameplay mechanics",
+    "features": ["appearance_only", "no_stat_changes", "customization_options", "personal_expression"]
+  },
+  "metadata": {
+    "created": "2025-08-11T21:45:00Z",
+    "last_updated": "2025-08-11T21:45:00Z",
+    "author": "PrimalMyst Development Team",
+    "canonical": true,
+    "notes": "Cosmetics index for appearance customization",
+    "version": "1.0.0"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "id": "materials-index",
+  "name": "Materials Index",
+  "description": "Index for crafting components and upgrade materials for equipment enhancement",
+  "version": "1.0.0",
+  "material_categories": {
+    "ores": {
+      "description": "Raw metallic materials used for weapon and armor crafting",
+      "examples": ["iron_ore", "steel_ingots", "mythril_ore", "adamantine_deposits"],
+      "focus": "Base materials for metal equipment",
+      "status": "planned"
+    },
+    "gems": {
+      "description": "Precious stones used for enhancement and magical augmentation",
+      "examples": ["enhancement_gems", "socketing_stones", "magical_crystals", "power_gems"],
+      "focus": "Equipment enhancement and magical augmentation",
+      "status": "planned"
+    },
+    "essences": {
+      "description": "Magical materials extracted from creatures and environments",
+      "examples": ["elemental_essences", "creature_essences", "divine_fragments", "arcane_distillations"],
+      "focus": "Magical enhancement and special properties",
+      "status": "planned"
+    },
+    "components": {
+      "description": "Specialized parts and materials for advanced crafting",
+      "examples": ["mechanical_parts", "alchemical_reagents", "enchanting_components", "rare_materials"],
+      "focus": "Advanced crafting and specialized enhancement",
+      "status": "planned"
+    }
+  },
+  "material_mechanics": {
+    "description": "Materials are consumed to create, enhance, or modify equipment",
+    "features": ["crafting_components", "enhancement_materials", "upgrade_requirements", "quality_tiers"]
+  },
+  "metadata": {
+    "created": "2025-08-11T21:45:00Z",
+    "last_updated": "2025-08-11T21:45:00Z",
+    "author": "PrimalMyst Development Team",
+    "canonical": true,
+    "notes": "Materials index for crafting and enhancement",
+    "version": "1.0.0"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "id": "off-hand-index",
+  "name": "Off Hand Equipment Index",
+  "description": "Index for secondary weapons and defensive equipment for the off-hand",
+  "version": "1.0.0",
+  "equipment_categories": {
+    "defensive": {
+      "description": "Shields and protective gear that provide defense and block capabilities",
+      "index_file": "off-hand-defensive-index.json",
+      "examples": ["shields", "bucklers", "defensive_gauntlets", "protective_orbs"],
+      "focus": "Defense, blocking, damage mitigation",
+      "status": "planned"
+    },
+    "ranged": {
+      "description": "Secondary ranged weapons or ammunition enhancement",
+      "index_file": "off-hand-ranged-index.json",
+      "examples": ["quivers", "throwing_knives", "secondary_crossbows"],
+      "focus": "Ranged support, ammunition bonuses",
+      "status": "planned"
+    },
+    "spell_caster": {
+      "description": "Secondary magical implements that complement main hand casting",
+      "index_file": "off-hand-caster-index.json",
+      "examples": ["focus_orbs", "spell_books", "magical_shields", "catalyst_gems"],
+      "focus": "Spell support, mana efficiency, magical defense",
+      "status": "planned"
+    }
+  },
+  "off_hand_mechanics": {
+    "description": "Off-hand equipment provides support and defensive capabilities",
+    "features": ["secondary_abilities", "defensive_bonuses", "spell_support", "combo_attacks"]
+  },
+  "metadata": {
+    "created": "2025-08-11T21:35:00Z",
+    "last_updated": "2025-08-11T21:35:00Z",
+    "author": "PrimalMyst Development Team",
+    "canonical": true,
+    "notes": "Off hand equipment index with support and defense focus",
+    "version": "1.0.0"
+  }
+}

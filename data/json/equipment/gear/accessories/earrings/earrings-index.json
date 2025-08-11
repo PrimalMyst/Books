@@ -1,0 +1,39 @@
+{
+  "id": "earrings-index",
+  "name": "Earrings Index", 
+  "description": "Index for ear-worn accessories that enhance perception and mental abilities",
+  "version": "1.0.0",
+  "earring_categories": {
+    "awareness": {
+      "description": "Earrings that enhance sensory perception and environmental awareness",
+      "examples": ["danger_detection", "stealth_awareness", "magical_sensing", "enhanced_hearing"],
+      "focus": "Perception and detection",
+      "status": "planned"
+    },
+    "mental_enhancement": {
+      "description": "Earrings that boost cognitive abilities and mental processing",
+      "examples": ["focus_improvement", "memory_enhancement", "learning_acceleration", "mental_clarity"],
+      "focus": "Cognitive improvement",
+      "status": "planned"
+    },
+    "communication": {
+      "description": "Earrings that facilitate communication and social interaction",
+      "examples": ["language_comprehension", "telepathic_links", "divine_communication", "empathic_connection"],
+      "focus": "Communication and social abilities",
+      "status": "planned"
+    }
+  },
+  "earring_mechanics": {
+    "description": "Earrings provide mental and perceptual enhancements with paired bonuses",
+    "features": ["perception_bonuses", "mental_abilities", "paired_effects", "awareness_enhancement"],
+    "slots": "2 maximum (one per ear)"
+  },
+  "metadata": {
+    "created": "2025-08-11T21:40:00Z",
+    "last_updated": "2025-08-11T21:40:00Z",
+    "author": "PrimalMyst Development Team",
+    "canonical": true,
+    "notes": "Earrings accessory index with perception focus",
+    "version": "1.0.0"
+  }
+}

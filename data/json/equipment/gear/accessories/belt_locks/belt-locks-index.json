@@ -1,0 +1,39 @@
+{
+  "id": "belt-locks-index",
+  "name": "Belt Locks Index",
+  "description": "Index for special belt attachments that modify belt functionality and appearance",
+  "version": "1.0.0",
+  "belt_lock_categories": {
+    "utility": {
+      "description": "Functional attachments that add practical capabilities to belts",
+      "examples": ["tool_holders", "potion_clips", "weapon_loops", "storage_compartments"],
+      "focus": "Practical functionality",
+      "status": "planned"
+    },
+    "defensive": {
+      "description": "Protective attachments that enhance the belt's defensive properties",
+      "examples": ["armor_plates", "deflection_studs", "energy_barriers", "protective_charms"],
+      "focus": "Enhanced protection",
+      "status": "planned"
+    },
+    "aesthetic": {
+      "description": "Decorative attachments that customize belt appearance and style",
+      "examples": ["ornamental_buckles", "gemstone_inlays", "artistic_patterns", "cultural_symbols"],
+      "focus": "Appearance customization",
+      "status": "planned"
+    }
+  },
+  "belt_lock_mechanics": {
+    "description": "Belt locks modify and enhance existing belt equipment",
+    "features": ["belt_customization", "functional_additions", "aesthetic_options", "modular_design"],
+    "slots": "varies by belt type and design"
+  },
+  "metadata": {
+    "created": "2025-08-11T21:40:00Z",
+    "last_updated": "2025-08-11T21:40:00Z",
+    "author": "PrimalMyst Development Team",
+    "canonical": true,
+    "notes": "Belt locks accessory index with customization focus",
+    "version": "1.0.0"
+  }
+}

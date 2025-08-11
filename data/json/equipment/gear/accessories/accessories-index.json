@@ -1,0 +1,48 @@
+{
+  "id": "accessories-index",
+  "name": "Accessories Equipment Index",
+  "description": "Index for special equipment that provides unique bonuses and utility",
+  "version": "1.0.0",
+  "accessory_types": {
+    "rings": {
+      "description": "Finger-worn accessories that provide focused magical or physical bonuses",
+      "index_file": "rings-index.json",
+      "examples": ["stat_rings", "resistance_rings", "magical_effect_rings"],
+      "slots": "2 (one per hand)",
+      "status": "planned"
+    },
+    "amulets": {
+      "description": "Neck-worn accessories that provide significant passive abilities",
+      "index_file": "amulets-index.json", 
+      "examples": ["protection_amulets", "power_amulets", "utility_amulets"],
+      "slots": "1",
+      "status": "planned"
+    },
+    "earrings": {
+      "description": "Ear-worn accessories that enhance perception and mental abilities",
+      "index_file": "earrings-index.json",
+      "examples": ["awareness_earrings", "mental_enhancement", "magical_perception"],
+      "slots": "2 (one per ear)",
+      "status": "planned"
+    },
+    "belt_locks": {
+      "description": "Special belt attachments that modify belt functionality and appearance",
+      "index_file": "belt-locks-index.json",
+      "examples": ["utility_attachments", "defensive_modifications", "aesthetic_enhancements"],
+      "slots": "varies by belt",
+      "status": "planned"
+    }
+  },
+  "accessory_system": {
+    "description": "Accessories provide specialized bonuses without replacing core equipment",
+    "features": ["unique_effects", "passive_abilities", "set_bonuses", "customization_options"]
+  },
+  "metadata": {
+    "created": "2025-08-11T21:30:00Z",
+    "last_updated": "2025-08-11T21:30:00Z",
+    "author": "PrimalMyst Development Team",
+    "canonical": true,
+    "notes": "Accessories system index with specialty focus",
+    "version": "1.0.0"
+  }
+}

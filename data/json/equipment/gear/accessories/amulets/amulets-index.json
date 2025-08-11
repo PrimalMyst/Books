@@ -1,0 +1,39 @@
+{
+  "id": "amulets-index",
+  "name": "Amulets Index",
+  "description": "Index for neck-worn accessories that provide significant passive abilities",
+  "version": "1.0.0",
+  "amulet_categories": {
+    "protection": {
+      "description": "Amulets that provide broad defensive capabilities and life preservation",
+      "examples": ["life_protection", "damage_reduction", "barrier_generation", "healing_enhancement"],
+      "focus": "Survivability and protection",
+      "status": "planned"
+    },
+    "power": {
+      "description": "Amulets that enhance offensive capabilities and combat effectiveness",
+      "examples": ["damage_amplification", "critical_enhancement", "spell_power", "attack_speed"],
+      "focus": "Offensive enhancement",
+      "status": "planned"
+    },
+    "mystical": {
+      "description": "Amulets that provide unique magical abilities and supernatural effects",
+      "examples": ["magical_sight", "elemental_affinity", "divine_connection", "arcane_mastery"],
+      "focus": "Magical enhancement and abilities",
+      "status": "planned"
+    }
+  },
+  "amulet_mechanics": {
+    "description": "Amulets provide powerful passive abilities with single slot limitation",
+    "features": ["major_passive_effects", "unique_abilities", "magical_enhancement", "character_defining_bonuses"],
+    "slots": "1 maximum"
+  },
+  "metadata": {
+    "created": "2025-08-11T21:40:00Z",
+    "last_updated": "2025-08-11T21:40:00Z",
+    "author": "PrimalMyst Development Team",
+    "canonical": true,
+    "notes": "Amulets accessory index with powerful passive focus",
+    "version": "1.0.0"
+  }
+}

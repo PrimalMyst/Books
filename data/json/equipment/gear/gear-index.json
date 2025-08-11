@@ -1,0 +1,37 @@
+{
+  "id": "gear-index",
+  "name": "Gear Equipment Index",
+  "description": "Index for customizable gear equipment that can be enhanced and modified",
+  "version": "1.0.0",
+  "gear_categories": {
+    "armors": {
+      "description": "Protective equipment for all 6 body slots with hexagonal armor type system",
+      "index_file": "armor-slots-core.json",
+      "slots": ["helmets", "body_armors", "gloves", "belts", "pants", "boots"],
+      "armor_types": ["armor", "energy_shield", "evasion", "armor_energy_shield", "armor_evasion", "energy_shield_evasion"]
+    },
+    "weapons": {
+      "description": "Offensive equipment for combat with three hand configurations",
+      "index_file": "weapons-index.json",
+      "configurations": ["main_hand", "off_hand", "two_handed"],
+      "categories": ["melee", "ranged", "spell_caster", "defensive"]
+    },
+    "accessories": {
+      "description": "Special equipment that provides unique bonuses and utility",
+      "index_file": "accessories-index.json",
+      "types": ["rings", "amulets", "earrings", "belt_locks"]
+    }
+  },
+  "enhancement_system": {
+    "description": "All gear can be enhanced, upgraded, and customized",
+    "features": ["stat modification", "enchantments", "socketing", "upgrading"]
+  },
+  "metadata": {
+    "created": "2025-08-11T21:30:00Z",
+    "last_updated": "2025-08-11T21:30:00Z",
+    "author": "PrimalMyst Development Team",
+    "canonical": true,
+    "notes": "Gear equipment index with enhancement focus",
+    "version": "1.0.0"
+  }
+}
