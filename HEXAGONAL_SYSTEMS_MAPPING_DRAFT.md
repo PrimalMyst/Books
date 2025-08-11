@@ -1,41 +1,16 @@
 # PrimalMyst Hexagonal Systems - Complete Draft
 
-## Master| Position | Color/Theme | God | Ti### 2. **Damage Types Layer** (Established)
-| Positio### 5. **Defensive Layers** (Implemented)
-| Position | Defense | Color | Type | Description |
-|----------|---------|-------|------|-------------|
-| 1 | Fire Resistance| Position | Color | God | Bridge Function | Color Blend |
-|----------|-------|-----|-----------------|-------------|
-| 2 | **YELLOW** � | Marsalis | Red→Green Bridge | Red + Green = #FFFF00 |
-| 4 | **CYAN** 🔵 | Zeusara | Green→Blue Bridge | Green + Blue = #00FFFF |
-| 6 | **MAGENTA** 🟣 | Anubiseth | Blue→Red Bridge | Blue + Red = #FF00FF | | Elemental | Pure immunity to fire damage |
-| 2 | Armor | 🟡 | Active | Physical damage reduction through equipment |
-| 3 | Air Resistance | 🟢 | Elemental | Pure immunity to air damage |
-| 4 | Energy Shield | 🔵 | Active | Mystical barrier absorption |
-| 5 | Water Resistance | 🔵 | Elemental | Pure immunity to water damage |
-| 6 | Evasion | 🟣 | Active | Avoiding damage through movement and positioning || Color | Description | Source |
-|----------|------|-------|-------------|--------|
-| 1 | Fire | 🔴 | Creation-based thermal damage | Primal flame |
-| 2 | Metal | 🟡 | Solid force and crushing damage | Raw material strength |
-| 3 | Air | 🟢 | Movement-based pressure damage | Elemental flow |
-| 4 | Lightning | 🔵 | Electric energy and divine spark | Electrical-divine fusion |
-| 5 | Water | 🔵 | Fluid and crystalline damage | Elemental transformation |
-| 6 | Shadow | 🟣 | Darkness and reality-warping damage | Absence energy |ge Type | Attribute | Offensive | Defensive | Resource |
-|----------|-------------|-----|------|-------------|-----------|-----------|-----------|----------|
-| 1 | **RED** 🔴 | Surturon | Primal | Fire | Strength | Precision Strikes | Fire Resistance | Health Points |
-| 2 | **YELLOW** 🟡 | Marsalis | Sovereign | Metal | Constitution | Physical Overwhelm | Armor | *(None)* |
-| 3 | **GREEN** 🟢 | Fenrion | Primal | Air | Dexterity | Speed Dominance | Air Resistance | Stamina Points |
-| 4 | **CYAN** 🔵 | Zeusara | Sovereign | Lightning | Wisdom | Sustained Mastery | Energy Shield | *(None)* |
-| 5 | **BLUE** 🔵 | Jormunion | Primal | Water | Intelligence | Burst Devastation | Water Resistance | Mana Points |
-| 6 | **MAGENTA** 🟣 | Anubiseth | Sovereign | Shadow | Charisma | Unpredictable Assault | Evasion | *(None)* |ce Table
 
-| Position/Color | God | Damage Type | Attribute | Defensive | Resource |
-|----------------|-----|-------------|-----------|-----------|----------|
-| 1 RED 🔴 | Surturon | Fire | Strength | Fire Resistance | Health Points |
+
+## Quick Reference Table
+
+| Position/Color | God | Damage Type | Attribute | Armor Type | Resource |
+|----------------|-----|-------------|-----------|------------|----------|
+| 1 RED 🔴 | Surturon | Fire | Strength | *(None)* | Health Points |
 | 2 YELLOW 🟡 | Marsalis | Metal | Constitution | Armor | *(None)* |
-| 3 GREEN 🟢 | Fenrion | Air | Dexterity | Air Resistance | Stamina Points |
+| 3 GREEN 🟢 | Fenrion | Air | Dexterity | *(None)* | Stamina Points |
 | 4 CYAN 🔵 | Zeusara | Lightning | Wisdom | Energy Shield | *(None)* |
-| 5 BLUE 🔵 | Jormunion | Water | Intelligence | Water Resistance | Mana Points |
+| 5 BLUE 🔵 | Jormunion | Water | Intelligence | *(None)* | Mana Points |
 | 6 MAGENTA 🟣 | Anubiseth | Shadow | Charisma | Evasion | *(None)* |
 
 ## Purpose
@@ -48,34 +23,34 @@ The hexagonal system is anchored by the three primary RGB colors at positions 1,
 
 ```
                     (1) RED 🔴
-                   Pyrion (P)
+                   Surturon (P)
                    Strength
                       /\
                      /  \
          (6) MAGENTA     (2) YELLOW
-         Serafina (S)    Korthak (S)
+         Anubiseth (S)   Marsalis (S)
           Charisma       Constitution
         Evasion          Armor
                    \    /
                     \  /
          (5) BLUE 🔵 ---- ---- (3) GREEN 🟢
-         Glacius (P)         Voltharion (P)
+         Jormunion (P)        Fenrion (P)
          Intelligence        Dexterity
                     \  /
                      \/
                 (4) CYAN
-                Aurelius (S)
+                Zeusara (S)
                 Wisdom
                 Energy Shield
 ```
 
 ### RGB Color Anchor System
-- **Position 1 (RED)** 🔴 - Primary anchor - Pyrion (Primal) - Fire damage
-- **Position 2 (YELLOW)** � - Red→Green bridge - Serafina (Sovereign) - Red + Green = #FFFF00
-- **Position 3 (GREEN)** 🟢 - Primary anchor - Voltharion (Primal) - Lightning damage
-- **Position 4 (CYAN)** � - Green→Blue bridge - Korthak (Sovereign) - Green + Blue = #00FFFF
-- **Position 5 (BLUE)** 🔵 - Primary anchor - Glacius (Primal) - Cold damage
-- **Position 6 (MAGENTA)** � - Blue→Red bridge - Aurelius (Sovereign) - Blue + Red = #FF00FF
+- **Position 1 (RED)** 🔴 - Primary anchor - Surturon (Primal) - Fire damage
+- **Position 2 (YELLOW)** 🟡 - Red→Green bridge - Marsalis (Sovereign) - Red + Green = #FFFF00
+- **Position 3 (GREEN)** 🟢 - Primary anchor - Fenrion (Primal) - Air damage
+- **Position 4 (CYAN)** 🔵 - Green→Blue bridge - Zeusara (Sovereign) - Green + Blue = #00FFFF
+- **Position 5 (BLUE)** 🔵 - Primary anchor - Jormunion (Primal) - Water damage
+- **Position 6 (MAGENTA)** 🟣 - Blue→Red bridge - Anubiseth (Sovereign) - Blue + Red = #FF00FF
 
 **Legend:**
 - (P) = Primal God (RGB anchor positions)
@@ -85,19 +60,19 @@ The hexagonal system is anchored by the three primary RGB colors at positions 1,
 
 ## Complete Hexagonal Layer Mapping (RGB Anchor System)
 
-| Position | Color/Theme | God | Tier | Damage Type | Attribute | Offensive | Defensive | Resource |
-|----------|-------------|-----|------|-------------|-----------|-----------|-----------|----------|
-| 1 | **RED** 🔴 | Pyrion | Primal | Fire | Intelligence | Precision Strikes | Fire Resistance | Health Points |
-| 2 | **YELLOW** � | Serafina | Sovereign | Chaos | Adaptability | Unpredictable Assault | Evasion | *(None)* |
-| 3 | **GREEN** 🟢 | Voltharion | Primal | Lightning | Dexterity | Speed Dominance | Lightning Resistance | Mana Points |
-| 4 | **CYAN** � | Korthak | Sovereign | Physical | Strength | Physical Overwhelm | Armor | *(None)* |
-| 5 | **BLUE** 🔵 | Glacius | Primal | Cold | Vitality | Burst Devastation | Cold Resistance | Stamina Points |
-| 6 | **MAGENTA** � | Aurelius | Sovereign | Radiance | Wisdom | Sustained Mastery | Energy Shield | *(None)* |
+| Position | Color/Theme | God | Tier | Damage Type | Attribute | Armor Type | Resource |
+|----------|-------------|-----|------|-------------|-----------|------------|----------|
+| 1 | **RED** 🔴 | Surturon | Primal | Fire | Strength | *(None)* | Health Points |
+| 2 | **YELLOW** 🟡 | Marsalis | Sovereign | Metal | Constitution | Armor | *(None)* |
+| 3 | **GREEN** 🟢 | Fenrion | Primal | Air | Dexterity | *(None)* | Stamina Points |
+| 4 | **CYAN** 🔵 | Zeusara | Sovereign | Lightning | Wisdom | Energy Shield | *(None)* |
+| 5 | **BLUE** 🔵 | Jormunion | Primal | Water | Intelligence | *(None)* | Mana Points |
+| 6 | **MAGENTA** 🟣 | Anubiseth | Sovereign | Shadow | Charisma | Evasion | *(None)* |
 
 ### RGB Anchor Positions
-- **Position 1 (RED)**: Primary RGB anchor - Core survival and strength (Fire/Pyrion)
-- **Position 3 (GREEN)**: Primary RGB anchor - Core stamina and dexterity (Lightning/Voltharion)
-- **Position 5 (BLUE)**: Primary RGB anchor - Core mana and intelligence (Cold/Glacius)
+- **Position 1 (RED)**: Primary RGB anchor - Core survival and strength (Fire/Surturon)
+- **Position 3 (GREEN)**: Primary RGB anchor - Core stamina and dexterity (Air/Fenrion)
+- **Position 5 (BLUE)**: Primary RGB anchor - Core mana and intelligence (Water/Jormunion)
 
 ---
 
@@ -137,11 +112,11 @@ The sovereign deity of afterlife guidance and shadow wisdom, Anubiseth serves as
 | Position | Type | Color | Description | Source |
 |----------|------|-------|-------------|--------|
 | 1 | Fire | 🔴 | Creation-based thermal damage | Primal flame |
-| 2 | Physical | � | Direct force and impact damage | Raw might and strength |
-| 3 | Lightning | 🟢 | Connection-based electrical damage | Divine spark |
-| 4 | Radiance | � | Divine light and truth damage | Protective purification |
-| 5 | Cold | 🔵 | Preservation-based crystalline damage | Eternal frost |
-| 6 | Chaos | � | Unpredictable, reality-warping damage | Transformation energy |
+| 2 | Metal | 🟡 | Solid force and crushing damage | Raw material strength |
+| 3 | Air | 🟢 | Movement-based pressure damage | Elemental flow |
+| 4 | Lightning | 🔵 | Electric energy and divine spark | Electrical-divine fusion |
+| 5 | Water | 🔵 | Fluid and crystalline damage | Elemental transformation |
+| 6 | Shadow | 🟣 | Darkness and reality-warping damage | Absence energy |
 
 ### 3. **Attributes Layer** (Implemented)
 | Position | Attribute | Type | Description | Scaling |
@@ -165,57 +140,61 @@ The sovereign deity of afterlife guidance and shadow wisdom, Anubiseth serves as
 - **Charisma (Position 6)**: Bridges Intelligence→Strength through force of personality and social influence
 
 **God Alignment:**
-- **Constitution (Korthak)**: "Disciplined Might" - physical conditioning and martial endurance
-- **Wisdom (Aurelius)**: "Healing Light, Protective Order" - divine wisdom for healing and protection
-- **Charisma (Serafina)**: "Beneficial Chaos, Creative Revolution" - charismatic influence spreads change
+- **Constitution (Marsalis)**: "Disciplined Might" - physical conditioning and martial endurance
+- **Wisdom (Zeusara)**: "Divine Authority, Celestial Justice" - divine wisdom for healing and protection
+- **Charisma (Anubiseth)**: "Shadow Wisdom, Underworld Order" - charismatic influence spreads change
 
-### 4. **Offensive Layers** (Implemented)
-| Position | Style | Description | Focus |
-|----------|-------|-------------|-------|
-| 1 | Precision Strikes | Targeted attacks with perfect calculation | Critical hits, weakpoint exploitation |
-| 2 | Unpredictable Assault | Chaotic combat that confuses enemies | Adaptive tactics, chaos effects |
-| 3 | Speed Dominance | Overwhelming through superior speed | Multi-hit, movement-based attacks |
-| 4 | Sustained Mastery | Reliable consistent force | Sustained DPS, defensive offense |
-| 5 | Burst Devastation | Explosive decisive moments | Area damage, transformation effects |
-| 6 | Physical Overwhelm | Raw might crushing opposition | High damage, direct confrontation |
+### 4. **Armor Types Layer** (Implemented)
+| Position | Armor Type | Color | Type | Description |
+|----------|------------|-------|------|-------------|
+| 1 | *(None)* | 🔴 | Primal | Primal gods focus on raw resources, not armor |
+| 2 | Armor | 🟡 | Active | Physical damage reduction through equipment |
+| 3 | *(None)* | 🟢 | Primal | Primal gods focus on raw resources, not armor |
+| 4 | Energy Shield | 🔵 | Active | Mystical barrier absorption |
+| 5 | *(None)* | 🔵 | Primal | Primal gods focus on raw resources, not armor |
+| 6 | Evasion | 🟣 | Active | Avoiding damage through movement and positioning |
 
-### 5. **Defensive Layers** (Implemented)
-| Position | Defense | Color | Type | Description |
-|----------|---------|-------|------|-------------|
-| 1 | Fire Resistance | 🔴 | Elemental | Pure immunity to fire damage |
-| 2 | Armor | � | Active | Physical damage reduction through equipment |
-| 3 | Lightning Resistance | 🟢 | Elemental | Pure immunity to lightning damage |
-| 4 | Energy Shield | � | Active | Mystical barrier absorption |
-| 5 | Cold Resistance | 🔵 | Elemental | Pure immunity to cold damage |
-| 6 | Evasion | � | Active | Avoiding damage through movement and positioning |
-
-### 6. **Resources Layer** (Updated)
+### 5. **Resources Layer** (Updated)
 | Position | Resource | RGB Color | Primary Use | Attributes |
 |----------|----------|-----------|-------------|------------|
 | 1 | Health Points | Red 🔴 | Life force and survival | Strength, Constitution |
+| 2 | *(None)* | Yellow 🟡 | Sovereign gods focus on armor types, not resources | - |
 | 3 | Stamina Points | Green 🟢 | Physical energy and endurance | Dexterity, Constitution |
+| 4 | *(None)* | Cyan 🔵 | Sovereign gods focus on armor types, not resources | - |
 | 5 | Mana Points | Blue 🔵 | Magical energy and divine connection | Intelligence, Wisdom |
+| 6 | *(None)* | Magenta 🟣 | Sovereign gods focus on armor types, not resources | - |
 
-**Note:** Only RGB anchor positions (1, 3, 5) have core resources.
+**Note:** Only RGB anchor positions (1, 3, 5) have core resources - Primal god alignment.
 - **Position 1 (Fire/Surturon)**: Health represents the vital flame that burns in all living things
 - **Position 3 (Air/Fenrion)**: Stamina channels wind energy for movement and the endless hunt  
 - **Position 5 (Water/Jormunion)**: Mana flows like frozen streams through crystalline memory
+
+**Armor Type Alignment:** Only bridge positions (2, 4, 6) have armor types - Sovereign god alignment.
+- **Position 2 (Metal/Marsalis)**: Armor provides disciplined protection through metallic defense
+- **Position 4 (Lightning/Zeusara)**: Energy Shield channels divine authority into protective barriers
+- **Position 6 (Shadow/Anubiseth)**: Evasion uses shadow wisdom to avoid harm through movement
 
 ---
 
 ## Implementation Status
 
-### ✅ **Fully Implemented Systems**
-- **Pantheon Layer** - All 6 gods defined with complete lore
-- **Attributes Layer** - All 6 attributes with scaling and mechanics
-- **Offensive Layers** - All 6 combat styles defined
-- **Defensive Layers** - All 6 defense types implemented
-- **Resources Layer** - 3 core resources mapped to RGB positions
+### 🚧 **Systems Under Development**
+- **Pantheon Layer** - Gods defined, needs lore integration with new system
+- **Damage Types Layer** - Basic types established, needs full implementation
+- **Attributes Layer** - Core attributes mapped, needs scaling mechanics
+- **Armor Types Layer** - Sovereign god alignment established, needs mechanics
+- **Resources Layer** - Primal god alignment established, needs scaling formulas
+
+### 📋 **Systems Pending Design**
+- **Resistance System** - How damage types interact with defenses
+- **Equipment Integration** - How armor types affect gameplay
+- **Resource Mechanics** - Regeneration, scaling, and consumption rules
+- **Cross-System Interactions** - How layers work together
 
 ### 🔧 **Systems Requiring RGB Updates**
-- **Damage Types** - Need to update from elemental names to RGB colors
-- **Color Themes** - Update visual design to match RGB system
-- **Hexagonal Structure Diagrams** - Update all documentation
+- **Color Consistency** - Ensure all emojis and color references are standardized
+- **Visual Design** - Update UI elements to match RGB system
+- **Documentation** - Align all reference materials with new structure
 
 ### 📋 **Potential Future Layers**
 Based on the established pattern, additional hexagonal systems could include:
@@ -294,7 +273,7 @@ Based on the established pattern, additional hexagonal systems could include:
 ### Consistency Rules
 - **Position numbering**: Always 1-6, clockwise from top
 - **RGB anchor system**: 1=Red🔴, 3=Green🟢, 5=Blue🔵 are primary anchors
-- **Bridge positions**: 2=Yellow�, 4=Cyan�, 6=Magenta� bridge between RGB anchors
+- **Bridge positions**: 2=Yellow🟡, 4=Cyan🔵, 6=Magenta🟣 bridge between RGB anchors
 - **Primal/Sovereign alternation**: 1,3,5 = Primal (RGB anchors) | 2,4,6 = Sovereign (bridges)
 - **Adjacency benefits**: Neighboring positions synergize naturally
 - **Opposition challenge**: Opposite positions create meaningful tension
@@ -314,18 +293,18 @@ These three positions form the foundational triangle of the hexagonal system:
 
 | Position | Color | God | Role | Systems Anchored |
 |----------|-------|-----|------|------------------|
-| 1 | **RED** 🔴 | Surturon | Strength & Destruction | Health Points, Fire Damage, Fire Resistance |
-| 3 | **GREEN** 🟢 | Fenrion | Dexterity & Hunger | Stamina Points, Air Damage, Air Resistance |
-| 5 | **BLUE** 🔵 | Jormunion | Intelligence & Preservation | Mana Points, Water Damage, Water Resistance |
+| 1 | **RED** 🔴 | Surturon | Strength & Destruction | Health Points, Fire Damage |
+| 3 | **GREEN** 🟢 | Fenrion | Dexterity & Hunger | Stamina Points, Air Damage |
+| 5 | **BLUE** 🔵 | Jormunion | Intelligence & Preservation | Mana Points, Water Damage |
 
 ### Bridge Positions (Sovereign Gods)
 These three positions create smooth transitions between the RGB anchors:
 
-| Position | Color | God | Bridge Function | Color Blend |
-|----------|-------|-----|-----------------|-------------|
-| 2 | **YELLOW** � | Serafina | Red→Green Bridge | Red + Green = #FFFF00 |
-| 4 | **CYAN** � | Korthak | Green→Blue Bridge | Green + Blue = #00FFFF |
-| 6 | **MAGENTA** � | Aurelius | Blue→Red Bridge | Blue + Red = #FF00FF |
+| Position | Color | God | Bridge Function | Systems Anchored |
+|----------|-------|-----|-----------------|------------------|
+| 2 | **YELLOW** 🟡 | Marsalis | Red→Green Bridge | Armor, Metal Damage |
+| 4 | **CYAN** 🔵 | Zeusara | Green→Blue Bridge | Energy Shield, Lightning Damage |
+| 6 | **MAGENTA** 🟣 | Anubiseth | Blue→Red Bridge | Evasion, Shadow Damage |
 
 ### Color Wheel Logic
 The hexagonal positions follow natural color wheel progression:
