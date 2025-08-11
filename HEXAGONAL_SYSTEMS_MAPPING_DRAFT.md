@@ -1,5 +1,48 @@
 # PrimalMyst Hexagonal Systems - Complete Draft
 
+## Hexagonal Positioning System
+
+### Corner-Based Layout
+The PrimalMyst hexagonal system uses **corner positions** rather than edge or face positions. Each corner represents a distinct system element, with **Position 1 at the top** and positions numbered **clockwise** around the hexagon.
+
+### Positional Mapping with Cardinal Directions
+```
+                    (1) TOP 🔴
+                   NORTH CORNER
+                   Surturon (P)
+                      /\
+                     /  \
+    (6) TOP-LEFT 🟣     (2) TOP-RIGHT 🟡
+    NORTHWEST CORNER    NORTHEAST CORNER
+    Anubiseth (S)       Marsalis (S)
+                   \    /
+                    \  /
+    (5) BOTTOM-LEFT 🔵 ---- (3) BOTTOM-RIGHT 🟢
+    SOUTHWEST CORNER        SOUTHEAST CORNER
+    Jormunion (P)           Fenrion (P)
+                    \  /
+                     \/
+                (4) BOTTOM 🔵
+                SOUTH CORNER
+                Zeusara (S)
+```
+
+### Position Guidelines
+- **Starting Point**: Position 1 is always at the **TOP** (North corner)
+- **Direction**: Positions increase **CLOCKWISE** around the hexagon
+- **Corner System**: All positions are at **corners**, not edges or faces
+- **Cardinal Reference**: Each position has a cardinal/intercardinal direction for spatial clarity
+
+### Position-to-Direction Mapping
+| Position | Cardinal Direction | Relative Position | God Tier |
+|----------|-------------------|-------------------|----------|
+| 1 | North (N) | Top | Primal |
+| 2 | Northeast (NE) | Top-Right | Sovereign |
+| 3 | Southeast (SE) | Bottom-Right | Primal |
+| 4 | South (S) | Bottom | Sovereign |
+| 5 | Southwest (SW) | Bottom-Left | Primal |
+| 6 | Northwest (NW) | Top-Left | Sovereign |
+
 
 
 ## Quick Reference Table
@@ -14,31 +57,31 @@
 | 6 MAGENTA 🟣 | Anubiseth | Shadow | Charisma | Evasion | *(None)* |
 
 ## Purpose
-This document tracks all established hexagonal layers in PrimalMyst and their corner mappings to prepare for full refactoring. Each layer follows the same 6-position pattern aligned with our RGB color system and divine pantheon structure.
+This document tracks all established hexagonal layers in PrimalMyst and their corner mappings to prepare for full refactoring. Each layer follows the same 6-corner pattern aligned with our RGB color system and divine pantheon structure. All positions use the corner-based clockwise system starting from Position 1 (North/Top) as defined in the Hexagonal Positioning System above.
 
 ## Updated Hexagonal Foundation (RGB Anchor System)
 
 ### RGB Anchor Structure
-The hexagonal system is anchored by the three primary RGB colors at positions 1, 3, and 5, with intermediate positions bridging between them:
+The hexagonal system is anchored by the three primary RGB colors at corners 1, 3, and 5, with intermediate corners bridging between them:
 
 ```
-                    (1) RED 🔴
+                    (1) RED 🔴 NORTH
                    Surturon (P)
                    Strength
                       /\
                      /  \
-         (6) MAGENTA     (2) YELLOW
-         Anubiseth (S)   Marsalis (S)
-          Charisma       Constitution
-        Evasion          Armor
+(6) MAGENTA NW 🟣        (2) YELLOW NE 🟡
+Anubiseth (S)            Marsalis (S)
+ Charisma                Constitution
+ Evasion                 Armor
                    \    /
                     \  /
-         (5) BLUE 🔵 ---- ---- (3) GREEN 🟢
-         Jormunion (P)        Fenrion (P)
-         Intelligence        Dexterity
+(5) BLUE SW 🔵 ---- ---- (3) GREEN SE 🟢
+Jormunion (P)            Fenrion (P)
+Intelligence             Dexterity
                     \  /
                      \/
-                (4) CYAN
+                (4) CYAN SOUTH 🔵
                 Zeusara (S)
                 Wisdom
                 Energy Shield
@@ -271,12 +314,14 @@ Based on the established pattern, additional hexagonal systems could include:
 ## Design Principles Maintained
 
 ### Consistency Rules
-- **Position numbering**: Always 1-6, clockwise from top
+- **Corner positioning**: All positions are at hexagon corners, never edges or faces
+- **Position numbering**: Always 1-6, clockwise from top (North corner)
+- **Cardinal alignment**: Position 1=North, 2=Northeast, 3=Southeast, 4=South, 5=Southwest, 6=Northwest
 - **RGB anchor system**: 1=Red🔴, 3=Green🟢, 5=Blue🔵 are primary anchors
 - **Bridge positions**: 2=Yellow🟡, 4=Cyan🔵, 6=Magenta🟣 bridge between RGB anchors
 - **Primal/Sovereign alternation**: 1,3,5 = Primal (RGB anchors) | 2,4,6 = Sovereign (bridges)
-- **Adjacency benefits**: Neighboring positions synergize naturally
-- **Opposition challenge**: Opposite positions create meaningful tension
+- **Adjacency benefits**: Neighboring corner positions synergize naturally
+- **Opposition challenge**: Opposite corner positions create meaningful tension
 
 ### Thematic Coherence
 - **Divine alignment**: All systems reflect corresponding god's nature
