@@ -2,7 +2,7 @@
   "id": "weapons-index",
   "name": "Weapons Equipment Index",
   "description": "Three-level structure: school → hand-category → type. Element is per-item.",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "schools": {
     "martial": {
       "description": "Melee and defensive implements",
@@ -15,9 +15,9 @@
     "ballistic": {
       "description": "Projectile and ballistic implements",
       "categories": {
-        "two_handed": { "index_file": "marksmanship/two_handed/two_handed-index.json" },
-        "one_handed": { "index_file": "marksmanship/one_handed/one_handed-index.json" },
-        "addons":     { "index_file": "marksmanship/addons/addons-index.json" }
+        "two_handed": { "index_file": "ballistic/two_handed/two_handed-index.json" },
+        "one_handed": { "index_file": "ballistic/one_handed/one_handed-index.json" },
+        "addons":     { "index_file": "ballistic/addons/addons-index.json" }
       }
     },
     "arcane": {
@@ -37,10 +37,10 @@
   },
   "metadata": {
     "created": "2025-08-11T21:30:00Z",
-    "last_updated": "2025-08-13T00:15:00Z",
+    "last_updated": "2025-08-13T00:18:00Z",
     "author": "PrimalMyst Development Team",
     "canonical": true,
-    "notes": "Renamed 'marksmanship' school to 'ballistic' and removed legacy compatibility section.",
-    "version": "2.0.1"
+    "notes": "Renamed folder paths from 'marksmanship' to 'ballistic'.",
+    "version": "2.0.2"
   }
 }
