@@ -1,0 +1,150 @@
+{
+  "id": "weapons-core",
+  "name": "Weapons Core Definitions",
+  "description": "Canonical descriptions for schools, hand-usage rules, and logically grouped weapon types for the weapons taxonomy.",
+  "version": "1.0.0",
+  "schools": {
+    "martial": {
+      "summary": "Close-quarters melee and defensive implements.",
+      "typical_roles": ["frontline", "defender", "bruiser"],
+      "design_notes": "Focus on strength, control, blocking, and stagger."
+    },
+    "ballistic": {
+      "summary": "Ranged projectile and ballistic implements.",
+      "typical_roles": ["ranged-DPS", "skirmisher", "harrier"],
+      "design_notes": "Emphasizes positioning, ammo management, and precision."
+    },
+    "arcane": {
+      "summary": "Spellcasting and channeling implements.",
+      "typical_roles": ["caster", "support", "controller"],
+      "design_notes": "Channels elements and rituals; resource is often mana/essence."
+    }
+  },
+  "hand_usage": {
+    "categories": ["two_handed", "one_handed", "addons"],
+    "rules": {
+      "two_handed": "Occupies both hands; cannot be paired with any one_handed item or shield.",
+      "one_handed": "Occupies one hand; can be dual-wielded or paired with a shield/focus if compatible.",
+      "addons": "Do not occupy hands; provide support to their associated school or weapon type."
+    },
+    "pairing": {
+      "allowed": [
+        {"with": "one_handed + one_handed", "notes": "Dual-wield, if weapon types allow."},
+        {"with": "one_handed + shield", "notes": "Classic sword-and-board for defense."},
+        {"with": "one_handed + focus", "notes": "Caster can pair a wand with a focus."},
+        {"with": "two_handed", "notes": "No other hand item can be equipped."}
+      ],
+      "disallowed": [
+        "two_handed + shield",
+        "two_handed + one_handed"
+      ]
+    },
+    "addon_compatibility": {
+      "by_school": {
+        "martial": ["scabbards", "braces"],
+        "ballistic": ["quivers"],
+        "arcane": ["essence-pouches", "focus-housings"]
+      },
+      "notes": "Addons are school-aligned unless explicitly marked universal."
+    }
+  },
+  "type_groups": [
+    {
+      "group": "swords",
+      "includes": [
+        {"type": "longswords", "school": "martial", "category": "two_handed"},
+        {"type": "shortswords", "school": "martial", "category": "one_handed"}
+      ],
+      "notes": "Edged slashing weapons. Greatswords (two_handed) can be added later."
+    },
+    {
+      "group": "maces",
+      "includes": [
+        {"type": "heavy-maces", "school": "martial", "category": "two_handed"},
+        {"type": "maces", "school": "martial", "category": "one_handed"}
+      ],
+      "notes": "Impact weapons for stagger and armor crushing."
+    },
+    {
+      "group": "axes",
+      "includes": [
+        {"type": "axes", "school": "martial", "category": "two_handed"}
+      ],
+      "notes": "Hefty cleaving implements. One-handed hatchets could be added later."
+    },
+    {
+      "group": "reach-weapons",
+      "includes": [
+        {"type": "polearms", "school": "martial", "category": "two_handed"}
+      ],
+      "notes": "Control space with extended reach (halberds, glaives)."
+    },
+    {
+      "group": "protective",
+      "includes": [
+        {"type": "shields", "school": "martial", "category": "one_handed"},
+        {"type": "foci", "school": "arcane", "category": "one_handed"}
+      ],
+      "notes": "Defensive or warding implements (physical and magical)."
+    },
+    {
+      "group": "projectile",
+      "includes": [
+        {"type": "bows", "school": "ballistic", "category": "two_handed"},
+        {"type": "crossbows", "school": "ballistic", "category": "one_handed"}
+      ],
+      "notes": "Ammo-driven ranged weapons. Two-handed crossbows could be added later."
+    },
+    {
+      "group": "thrown",
+      "includes": [
+        {"type": "throwing-knives", "school": "ballistic", "category": "one_handed"},
+        {"type": "shuriken", "school": "ballistic", "category": "one_handed"}
+      ],
+      "notes": "Light, concealment-friendly ranged options."
+    },
+    {
+      "group": "spell-implements",
+      "includes": [
+        {"type": "staves", "school": "arcane", "category": "two_handed"},
+        {"type": "wands", "school": "arcane", "category": "one_handed"},
+        {"type": "grimoires", "school": "arcane", "category": "one_handed"}
+      ],
+      "notes": "Channel, shape, or store spells and rituals."
+    },
+    {
+      "group": "weapon-addons",
+      "includes": [
+        {"type": "scabbards", "school": "martial", "category": "addons"},
+        {"type": "braces", "school": "martial", "category": "addons"},
+        {"type": "quivers", "school": "ballistic", "category": "addons"},
+        {"type": "essence-pouches", "school": "arcane", "category": "addons"},
+        {"type": "focus-housings", "school": "arcane", "category": "addons"}
+      ],
+      "notes": "Non-hand occupying attachments and carriers that augment weapon handling or resources."
+    }
+  ],
+  "all_types_index": {
+    "martial": {
+      "two_handed": ["axes", "longswords", "heavy-maces", "polearms"],
+      "one_handed": ["shields", "shortswords", "maces"],
+      "addons": ["scabbards", "braces"]
+    },
+    "ballistic": {
+      "two_handed": ["bows"],
+      "one_handed": ["crossbows", "throwing-knives", "shuriken"],
+      "addons": ["quivers"]
+    },
+    "arcane": {
+      "two_handed": ["staves"],
+      "one_handed": ["wands", "grimoires", "foci"],
+      "addons": ["essence-pouches", "focus-housings"]
+    }
+  },
+  "element_rule": "Element is a per-item attribute: fire, metal, air, lightning, water, shadow.",
+  "metadata": {
+    "created": "2025-08-13T00:40:00Z",
+    "author": "PrimalMyst Development Team",
+    "notes": "Initial core definitions aligning with weapons-index v2.x structure."
+  }
+}
