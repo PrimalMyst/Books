@@ -1,0 +1,34 @@
+{
+  "hexagon_id": "elements-core",
+  "name": "PrimalMyst Elements Hexagon",
+  "description": "The elemental layer of the universal hexagon. This file provides a concise corner index and RGB/CMY trios split. Detailed per-element content lives in the referenced corner files.",
+  "hexagon_core_reference": "data/json/core-systems/layers/hexagon-core.json",
+  "corner_files": [
+    { "position": 1, "filename": "corner-1-fire.json",      "file_path": "corners/corner-1-fire.json" },
+    { "position": 2, "filename": "corner-2-metal.json",     "file_path": "corners/corner-2-metal.json" },
+    { "position": 3, "filename": "corner-3-air.json",       "file_path": "corners/corner-3-air.json" },
+    { "position": 4, "filename": "corner-4-lightning.json", "file_path": "corners/corner-4-lightning.json" },
+    { "position": 5, "filename": "corner-5-water.json",     "file_path": "corners/corner-5-water.json" },
+    { "position": 6, "filename": "corner-6-shadow.json",    "file_path": "corners/corner-6-shadow.json" }
+  ],
+  "element_trios": {
+    "primary_rgb": {
+      "name": "RGB Anchors",
+      "elements": ["fire", "air", "water"],
+      "positions": [1, 3, 5]
+    },
+    "secondary_cmy": {
+      "name": "CMY Bridges",
+      "elements": ["metal", "lightning", "shadow"],
+      "positions": [2, 4, 6]
+    }
+  },
+  "metadata": {
+    "version": "1.0.0",
+    "created": "2025-08-13T00:00:00Z",
+    "last_updated": "2025-08-13T00:00:00Z",
+    "author": "PrimalMyst Development Team",
+    "canonical": true,
+    "schema_reference": "hexagon-thematic.schema.json"
+  }
+}

@@ -5,7 +5,7 @@
   "color": "red",
   "direction": "north",
   "category": "core-attribute",
-  "hexagon_core_reference": "data/json/core-systems/hexagon-core.json",
+  "hexagon_core_reference": "data/json/core-systems/layers/hexagon-core.json",
   "hexagon_reference": "attributes-core",
   "description": {
     "brief": "Physical power, endurance, and forceful presence",

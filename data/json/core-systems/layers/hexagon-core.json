@@ -44,7 +44,7 @@
   "layer_registry": {
     "resources_layer": {
       "status": "integrated",
-      "reference": "data/json/core-systems/resources/resources-system-core.json",
+      "reference": "data/json/core-systems/layers/resources/resources-system-core.json",
       "triads_used": ["primary_triad"],
       "notes": "Health (1/red), Mana (3/green), Stamina (5/blue)."
     },
@@ -61,14 +61,16 @@
       "notes": "School color-coding: martial=red, ballistic=green, arcane=blue."
     },
     "elements_layer": {
-      "status": "planned",
+      "status": "integrated",
+      "reference": "data/json/core-systems/layers/elements/elements-core.json",
       "triads_used": ["primary_triad", "secondary_triad"],
       "notes": "Elements are per-item attributes and may occupy any of the six positions (e.g., fire, metal, air, lightning, water, shadow)."
     },
-    "eldritch_gods_layer": {
-      "status": "planned",
-      "policy": "Consistent positions across layers when represented.",
-      "notes": "Serves as both reference and example alignment."
+    "attributes_layer": {
+      "status": "integrated",
+      "reference": "data/json/core-systems/layers/attributes/attributes-core.json",
+      "triads_used": ["primary_triad", "secondary_triad"],
+      "notes": "Attributes mapped: 1 Strength, 2 Constitution, 3 Dexterity, 4 Wisdom, 5 Intelligence, 6 Charisma."
     }
   },
   "conventions": {
