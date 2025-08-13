@@ -1,8 +1,11 @@
 {
   "id": "intelligence-attribute",
   "name": "Intelligence",
-  "hexagon_position": 1,
+  "position": 1,
+  "color": "red",
+  "direction": "north",
   "category": "core-attribute",
+  "hexagon_core_reference": "data/json/core-systems/hexagon-core.json",
   "hexagon_reference": "attributes-core",
   "description": {
     "brief": "Mental acuity, magical understanding, and analytical thinking",

@@ -2,6 +2,7 @@
   "hexagon_id": "attributes-core",
   "name": "PrimalMyst Attributes Hexagon",
   "description": "The character development implementation of the universal hexagonal pattern, translating the cosmic principles embodied by the Eldritch Gods into personal growth pathways and capability enhancement.",
+  "hexagon_core_reference": "data/json/core-systems/hexagon-core.json",
   "foundational_pattern": {
     "source": "core-thematic-hexagon",
     "implementation_domain": "character-development-attributes",
@@ -15,6 +16,8 @@
   "corners": [
     {
       "position": 1,
+      "color": "red",
+      "direction": "north",
       "primary_concept": "Intelligence",
       "trinity": "fundamental",
       "index_reference": "corner-1-intelligence",
@@ -27,6 +30,8 @@
     },
     {
       "position": 2,
+      "color": "yellow",
+      "direction": "north_east",
       "primary_concept": "Constitution",
       "trinity": "transcendent",
       "index_reference": "corner-2-constitution",
@@ -39,6 +44,8 @@
     },
     {
       "position": 3,
+      "color": "green",
+      "direction": "south_east",
       "primary_concept": "Dexterity",
       "trinity": "fundamental",
       "index_reference": "corner-3-dexterity",
@@ -51,6 +58,8 @@
     },
     {
       "position": 4,
+      "color": "cyan",
+      "direction": "south",
       "primary_concept": "Wisdom",
       "trinity": "transcendent",
       "index_reference": "corner-4-wisdom",
@@ -63,6 +72,8 @@
     },
     {
       "position": 5,
+      "color": "blue",
+      "direction": "south_west",
       "primary_concept": "Strength", 
       "trinity": "fundamental",
       "index_reference": "corner-5-strength",
@@ -75,6 +86,8 @@
     },
     {
       "position": 6,
+      "color": "magenta",
+      "direction": "north_west",
       "primary_concept": "Charisma",
       "trinity": "transcendent",
       "index_reference": "corner-6-charisma",
@@ -225,7 +238,7 @@
       "cross_trinity_bridges": "Each fundamental attribute has a transcendent partner that elevates its expression to divine levels"
     },
     "adjacency_bonuses": "Adjacent attributes create natural character synergies - Strength+Constitution enables unstoppable endurance, Dexterity+Wisdom provides perfect awareness, Intelligence+Charisma creates persuasive genius.",
-    "opposition_tensions": "Opposite attributes represent different character focuses - Strength vs Wisdom (raw power vs applied knowledge), Constitution vs Intelligence (physical endurance vs mental agility), Dexterity vs Charisma (precise action vs social influence).",
+    "opposition_tensions": "Opposite attributes represent different character focuses - Intelligence vs Wisdom (1 vs 4, mind vs insight), Dexterity vs Charisma (3 vs 6, precise action vs social influence), Strength vs Constitution (5 vs 2, raw power vs disciplined endurance).",
     "full_cycle_effects": "Characters who develop all six attributes achieve 'Cosmic Balance' - the ability to respond to any challenge with their strongest aspect while maintaining harmony across all capabilities."
   },
   "character_progression": {
@@ -432,9 +445,10 @@
   "metadata": {
     "version": "1.0.0",
     "created": "2025-07-31T00:00:00Z",
+    "last_updated": "2025-08-13T01:20:00Z",
     "author": "PrimalMyst Development Team",
     "canonical": true,
-    "schema_reference": "hexagon-thematic.schema.json", 
+    "schema_reference": "hexagon-thematic.schema.json",
     "related_hexagons": [
       "core-thematic-hexagon.json",
       "offensive-layers-core.json",
