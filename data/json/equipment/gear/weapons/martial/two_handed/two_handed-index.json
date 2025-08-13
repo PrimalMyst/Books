@@ -1,0 +1,10 @@
+{
+  "id": "martial-two-handed",
+  "name": "Martial · Two-Handed",
+  "types": [
+    { "type": "axes", "index_file": "axes/axes-index.json" },
+    { "type": "longswords", "index_file": "longswords/longswords-index.json" },
+    { "type": "heavy-maces", "index_file": "heavy-maces/heavy-maces-index.json" },
+    { "type": "polearms", "index_file": "polearms/polearms-index.json" }
+  ]
+}

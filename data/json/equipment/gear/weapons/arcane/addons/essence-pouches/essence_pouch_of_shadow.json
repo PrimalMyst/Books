@@ -1,0 +1,10 @@
+{
+  "id": "essence-pouch-of-shadow",
+  "name": "Essence Pouch of Shadow",
+  "school": "arcane",
+  "category": "addons",
+  "type": "essence_pouch",
+  "element": "shadow",
+  "rarity": "common",
+  "stats": { "max_essence": 20, "channel_stability_percent": 6 }
+}

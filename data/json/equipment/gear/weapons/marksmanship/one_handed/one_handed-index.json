@@ -1,0 +1,9 @@
+{
+  "id": "marksmanship-one-handed",
+  "name": "Marksmanship · One-Handed",
+  "types": [
+    { "type": "crossbows", "index_file": "crossbows/crossbows-index.json" },
+    { "type": "throwing-knives", "index_file": "throwing-knives/throwing-knives-index.json" },
+    { "type": "shuriken", "index_file": "shuriken/shuriken-index.json" }
+  ]
+}

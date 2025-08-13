@@ -1,0 +1,9 @@
+{
+  "id": "martial-one-handed",
+  "name": "Martial · One-Handed",
+  "types": [
+    { "type": "shortswords", "index_file": "shortswords/shortswords-index.json" },
+    { "type": "maces", "index_file": "maces/maces-index.json" },
+    { "type": "shields", "index_file": "shields/shields-index.json" }
+  ]
+}

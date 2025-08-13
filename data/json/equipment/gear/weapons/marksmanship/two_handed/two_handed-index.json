@@ -1,0 +1,7 @@
+{
+  "id": "marksmanship-two-handed",
+  "name": "Marksmanship · Two-Handed",
+  "types": [
+    { "type": "bows", "index_file": "bows/bows-index.json" }
+  ]
+}

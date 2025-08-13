@@ -1,0 +1,6 @@
+{
+  "id": "staves-index",
+  "name": "Staves (Two-Handed · Arcane)",
+  "examples": ["channeling_staff_of_water.json"],
+  "notes": "Element is an item attribute."
+}

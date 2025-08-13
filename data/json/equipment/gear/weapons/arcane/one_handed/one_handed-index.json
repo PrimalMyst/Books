@@ -1,0 +1,9 @@
+{
+  "id": "arcane-one-handed",
+  "name": "Arcane · One-Handed",
+  "types": [
+    { "type": "wands", "index_file": "wands/wands-index.json" },
+    { "type": "grimoires", "index_file": "grimoires/grimoires-index.json" },
+    { "type": "foci", "index_file": "foci/foci-index.json" }
+  ]
+}

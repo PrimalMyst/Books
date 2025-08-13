@@ -1,38 +1,69 @@
 {
   "id": "weapons-index",
   "name": "Weapons Equipment Index",
-  "description": "Index for all weapon configurations and combat equipment",
-  "version": "1.0.0",
-  "weapon_configurations": {
-    "main_hand": {
-      "description": "Primary weapons wielded in the dominant hand",
-      "index_file": "main-hand-index.json",
-      "categories": ["melee", "ranged", "spell_caster"],
-      "focus": "Primary offensive capabilities"
+  "description": "Three-level structure: school → hand-category → type. Element is per-item.",
+  "version": "2.0.0",
+  "schools": {
+    "martial": {
+      "description": "Melee and defensive implements",
+      "categories": {
+        "two_handed": { "index_file": "martial/two_handed/two_handed-index.json" },
+        "one_handed": { "index_file": "martial/one_handed/one_handed-index.json" },
+        "addons":     { "index_file": "martial/addons/addons-index.json" }
+      }
     },
-    "off_hand": {
-      "description": "Secondary weapons or defensive equipment for the off-hand",
-      "index_file": "off-hand-index.json",
-      "categories": ["defensive", "ranged", "spell_caster"],
-      "focus": "Support and defensive capabilities"
+    "marksmanship": {
+      "description": "Projectile and ballistic implements",
+      "categories": {
+        "two_handed": { "index_file": "marksmanship/two_handed/two_handed-index.json" },
+        "one_handed": { "index_file": "marksmanship/one_handed/one_handed-index.json" },
+        "addons":     { "index_file": "marksmanship/addons/addons-index.json" }
+      }
     },
-    "two_handed": {
-      "description": "Large weapons requiring both hands for maximum power",
-      "index_file": "two-handed-index.json",
-      "categories": ["melee", "ranged", "spell_caster"],
-      "focus": "High damage and specialized techniques"
+    "arcane": {
+      "description": "Spellcasting and channeling implements",
+      "categories": {
+        "two_handed": { "index_file": "arcane/two_handed/two_handed-index.json" },
+        "one_handed": { "index_file": "arcane/one_handed/one_handed-index.json" },
+        "addons":     { "index_file": "arcane/addons/addons-index.json" }
+      }
     }
   },
-  "combat_system": {
-    "description": "Weapons integrate with hexagonal system and combat mechanics",
-    "features": ["damage_types", "attack_patterns", "special_abilities", "enhancement_options"]
+  "level_conventions": {
+    "level_1_school": ["martial", "marksmanship", "arcane"],
+    "level_2_category": ["two_handed", "one_handed", "addons"],
+    "level_3_type": "kebab-case type folders (e.g., axes, bows, staves)",
+    "element": "per-item attribute: fire, metal, air, lightning, water, shadow"
+  },
+  "compatibility": {
+    "notes": "Legacy configuration view retained below for reference",
+    "weapon_configurations": {
+      "main_hand": {
+        "description": "Primary weapons wielded in the dominant hand",
+        "index_file": "main-hand-index.json",
+        "categories": ["melee", "ranged", "spell_caster"],
+        "focus": "Primary offensive capabilities"
+      },
+      "off_hand": {
+        "description": "Secondary weapons or defensive equipment for the off-hand",
+        "index_file": "off-hand-index.json",
+        "categories": ["defensive", "ranged", "spell_caster"],
+        "focus": "Support and defensive capabilities"
+      },
+      "two_handed": {
+        "description": "Large weapons requiring both hands for maximum power",
+        "index_file": "two-handed-index.json",
+        "categories": ["melee", "ranged", "spell_caster"],
+        "focus": "High damage and specialized techniques"
+      }
+    }
   },
   "metadata": {
     "created": "2025-08-11T21:30:00Z",
-    "last_updated": "2025-08-11T21:30:00Z",
+    "last_updated": "2025-08-13T00:00:00Z",
     "author": "PrimalMyst Development Team",
     "canonical": true,
-    "notes": "Weapons system index with configuration focus",
-    "version": "1.0.0"
+    "notes": "Updated to schools/categories/types model; element moved to per-item attribute",
+    "version": "2.0.0"
   }
 }

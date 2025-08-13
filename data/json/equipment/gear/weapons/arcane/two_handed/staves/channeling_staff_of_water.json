@@ -1,0 +1,10 @@
+{
+  "id": "channeling-staff-of-water",
+  "name": "Channeling Staff of Water",
+  "school": "arcane",
+  "category": "two_handed",
+  "type": "staff",
+  "element": "water",
+  "rarity": "uncommon",
+  "stats": { "spell_power_percent": 14, "cast_speed_percent": 6 }
+}

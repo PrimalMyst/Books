@@ -1,0 +1,6 @@
+{
+  "id": "shields-index",
+  "name": "Shields (One-Handed · Martial)",
+  "examples": ["tower_shield_of_metal.json"],
+  "notes": "Element is an item attribute."
+}

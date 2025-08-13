@@ -1,0 +1,10 @@
+{
+  "id": "tower-shield-of-metal",
+  "name": "Tower Shield of Metal",
+  "school": "martial",
+  "category": "one_handed",
+  "type": "shield_tower",
+  "element": "metal",
+  "rarity": "rare",
+  "stats": { "block_chance_percent": 32, "block_amount": 85, "move_speed_percent": -6 }
+}
