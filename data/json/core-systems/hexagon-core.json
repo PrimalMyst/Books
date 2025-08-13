@@ -1,0 +1,89 @@
+{
+  "id": "hexagon-core",
+  "name": "Hexagonal Alignment Core",
+  "version": "1.0.0",
+  "description": "Canonical framework and addressing rules for hexagonal layers used across PrimalMyst systems",
+  "principles": {
+    "independence": "Layers are independent; any character/entity/item may occupy any position in any layer.",
+    "layer_purpose": "Layers are categorization frameworks, not hard constraints.",
+    "reference_layer": "Eldritch gods serve as a reference/example layer and should, where possible, occupy consistent positions across all layers.",
+    "addressing_equivalence": "Position, color, and direction are interchangeable keys referring to the same corner.",
+    "positions_definition": "Positions are the six corners of a hexagon.",
+    "triads": "Layers may define triads: a primary trio (e.g., primaries) and a secondary/fusion/hybrid trio.",
+    "partial_layers": "A layer may expose only one triad; missing corners may be hybrids/fusions or left empty."
+  },
+  "canonical_positions": [
+    { "position": 1, "color": "red",     "direction": "north" },
+    { "position": 2, "color": "yellow",  "direction": "north_east" },
+    { "position": 3, "color": "green",   "direction": "south_east" },
+    { "position": 4, "color": "cyan",    "direction": "south" },
+    { "position": 5, "color": "blue",    "direction": "south_west" },
+    { "position": 6, "color": "magenta", "direction": "north_west" }
+  ],
+  "triad_conventions": {
+    "primary_triad": {
+      "positions": [1, 3, 5],
+      "colors": ["red", "green", "blue"],
+      "notes": "Often used for core energies/resources."
+    },
+    "secondary_triad": {
+      "positions": [2, 4, 6],
+      "colors": ["yellow", "cyan", "magenta"],
+      "notes": "Often used for hybrid/defensive or fusion categories."
+    }
+  },
+  "addressing": {
+    "keys": ["position", "color", "direction"],
+    "equivalence_rule": "Any of the keys uniquely resolves to the same corner; systems should normalize to 'position' internally.",
+    "examples": [
+      { "input": { "color": "red" }, "resolves_to": { "position": 1 } },
+      { "input": { "direction": "south" }, "resolves_to": { "position": 4 } },
+      { "input": { "position": 6 }, "resolves_to": { "color": "magenta" } }
+    ]
+  },
+  "layer_registry": {
+    "resources_layer": {
+      "status": "integrated",
+      "reference": "data/json/core-systems/resources/resources-system-core.json",
+      "triads_used": ["primary_triad"],
+      "notes": "Health (1/red), Mana (3/green), Stamina (5/blue)."
+    },
+    "defenses_layer": {
+      "status": "integrated",
+      "reference": "data/json/equipment/gear/armors/armor-slots-core.json",
+      "triads_used": ["secondary_triad"],
+      "notes": "Armor (2/yellow), Energy Shield (4/cyan), Evasion (6/magenta)."
+    },
+    "weapon_schools_layer": {
+      "status": "integrated",
+      "reference": "data/json/equipment/gear/weapons/weapons-index.json",
+      "triads_used": ["primary_triad"],
+      "notes": "School color-coding: martial=red, ballistic=green, arcane=blue."
+    },
+    "elements_layer": {
+      "status": "planned",
+      "triads_used": ["primary_triad", "secondary_triad"],
+      "notes": "Elements are per-item attributes and may occupy any of the six positions (e.g., fire, metal, air, lightning, water, shadow)."
+    },
+    "eldritch_gods_layer": {
+      "status": "planned",
+      "policy": "Consistent positions across layers when represented.",
+      "notes": "Serves as both reference and example alignment."
+    }
+  },
+  "conventions": {
+    "naming": {
+      "colors": "lowercase tokens (red, yellow, green, cyan, blue, magenta)",
+      "directions": "snake_case (north, north_east, south_east, south, south_west, north_west)",
+      "position": "integers 1..6"
+    },
+    "normalization": "Systems should store 'position' as the canonical key and derive color/direction as needed.",
+    "element_palette": ["fire", "metal", "air", "lightning", "water", "shadow"]
+  },
+  "metadata": {
+    "created": "2025-08-13T01:05:00Z",
+    "last_updated": "2025-08-13T01:05:00Z",
+    "author": "PrimalMyst Development Team",
+    "canonical": true
+  }
+}
