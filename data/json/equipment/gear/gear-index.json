@@ -2,7 +2,7 @@
   "id": "gear-index",
   "name": "Gear Equipment Index",
   "description": "Index for customizable gear equipment that can be enhanced and modified",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "gear_categories": {
     "armors": {
       "description": "Protective equipment for all 6 body slots with hexagonal armor type system",
@@ -11,15 +11,35 @@
       "armor_types": ["armor", "energy_shield", "evasion", "armor_energy_shield", "armor_evasion", "energy_shield_evasion"]
     },
     "weapons": {
-      "description": "Offensive equipment for combat with three hand configurations",
+      "description": "Offensive equipment organized by school → hand-category → type",
       "index_file": "weapons-index.json",
-      "configurations": ["main_hand", "off_hand", "two_handed"],
-      "categories": ["melee", "ranged", "spell_caster", "defensive"]
+      "schools": ["martial", "ballistic", "arcane"],
+      "categories": ["two_handed", "one_handed", "addons"],
+      "school_colors": { "martial": "red", "ballistic": "green", "arcane": "blue" },
+      "element_per_item": true,
+      "elements": ["fire", "metal", "air", "lightning", "water", "shadow"]
     },
     "accessories": {
       "description": "Special equipment that provides unique bonuses and utility",
       "index_file": "accessories-index.json",
-      "types": ["rings", "amulets", "earrings", "belt_locks"]
+      "types": ["rings", "amulets", "earrings", "belt_locks"],
+      "resource_alignment": ["health", "mana", "stamina"]
+    }
+  },
+  "hexagon_alignment": {
+    "armors": {
+      "aligned_by": "armor_type",
+      "types": ["armor", "energy_shield", "evasion"],
+      "hybrids": ["armor_energy_shield", "armor_evasion", "energy_shield_evasion"]
+    },
+    "accessories": {
+      "aligned_by": "resources",
+      "resources": ["health", "mana", "stamina"]
+    },
+    "weapons": {
+      "aligned_by": "schools",
+      "school_colors": { "martial": "red", "ballistic": "green", "arcane": "blue" },
+      "element_layer": ["fire", "metal", "air", "lightning", "water", "shadow"]
     }
   },
   "enhancement_system": {
@@ -28,10 +48,10 @@
   },
   "metadata": {
     "created": "2025-08-11T21:30:00Z",
-    "last_updated": "2025-08-11T21:30:00Z",
+    "last_updated": "2025-08-13T00:55:00Z",
     "author": "PrimalMyst Development Team",
     "canonical": true,
-    "notes": "Gear equipment index with enhancement focus",
-    "version": "1.0.0"
+    "notes": "Updated weapons to schools structure with colors and noted hexagon alignment per folder.",
+    "version": "1.0.1"
   }
 }

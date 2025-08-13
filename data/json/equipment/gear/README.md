@@ -2,34 +2,46 @@
 
 High-end equipment that can be extensively modified, enhanced, and personalized through various systems.
 
+## Hexagon Alignment per Folder
+- armors/ — aligned by armor type: Armor (AR), Energy Shield (ES), Evasion (EV), plus their hybrids (AR+ES, AR+EV, ES+EV)
+- accessories/ — aligned by resources: Health, Mana, Stamina
+- weapons/ — aligned by schools with color mapping:
+  - martial = red
+  - ballistic = green
+  - arcane = blue
+  - Note: each weapon item also has an element layer (all 6 corners): fire, metal, air, lightning, water, shadow
+
 ## Categories
 
 ### `accessories/`
-- **Rings, Amulets, Trinkets, Jewelry** - Hexagonally-aligned wearables
-- **Features**: Enchantments, gem socketing, divine resonance tuning
-- **Variations**: Unique legendary versions with special lore and abilities
-- **Enhancement**: Upgradeable through divine trials, crafting, and achievements
+- Wearable bonuses: rings, amulets, earrings, belt locks
+- Alignment: Resource-based (Health, Mana, Stamina)
+- Features: Enchantments, gem socketing, divine resonance tuning
+- Variations: Unique legendary versions with special lore and abilities
+- Enhancement: Upgradeable through divine trials, crafting, and achievements
 
-### `armor/`
-- **Protective Equipment** - Aligned with 3 sovereign armor types
+### `armors/`
+- Protective equipment aligned to 3 sovereign armor types (and hybrids)
   - Armor (Physical protection)
-  - Energy Shield (Magical barriers) 
+  - Energy Shield (Magical barriers)
   - Evasion (Movement-based defense)
-- **Features**: Material upgrades, enchantments, appearance modifications
-- **Variations**: Set pieces, legendary variants, god-specific designs
-- **Enhancement**: Defense scaling, resistance improvements, visual effects
+  - Hybrids: AR+ES, AR+EV, ES+EV
+- Features: Material upgrades, enchantments, appearance modifications
+- Variations: Set pieces, legendary variants, god-specific designs
+- Enhancement: Defense scaling, resistance improvements, visual effects
 
 ### `weapons/`
-- **Combat Equipment** - Organized by 6-position hexagonal system
-  - Position 1: Staves/Wands (Fire/Strength)
-  - Position 2: Daggers/Orbs (Metal/Constitution)
-  - Position 3: Bows/Javelins (Air/Dexterity)
-  - Position 4: Swords/Axes (Lightning/Wisdom)
-  - Position 5: Hammers/Mauls (Water/Intelligence)
-  - Position 6: Shields/Maces (Shadow/Charisma)
-- **Features**: Damage type conversion, ability modifications, appearance customization
-- **Variations**: Legendary weapons with unique abilities and rich lore
-- **Enhancement**: Damage scaling, elemental infusions, combat style adaptation
+- Combat equipment organized by school → hand-category → type
+  - Schools (color-aligned): martial (red), ballistic (green), arcane (blue)
+  - Hand-categories: two_handed, one_handed, addons
+  - Types: e.g., swords (longswords, shortswords), maces (heavy-maces, maces), bows, staves, wands, shields, etc.
+  - Element: per-item attribute from the 6-corner set: fire, metal, air, lightning, water, shadow
+- Features: Damage type conversion, ability modifications, appearance customization
+- Variations: Legendary weapons with unique abilities and rich lore
+- Enhancement: Damage scaling, elemental infusions, combat style adaptation
 
 ## Design Philosophy
-All gear follows the hexagonal system for balanced progression and thematic consistency. These items grow with the player and support deep customization systems.
+All gear participates in the hexagonal design for balanced progression and thematic consistency:
+- Armors: AR/ES/EV (and hybrids) determine defensive identity
+- Accessories: Resource alignment (Health/Mana/Stamina) guides utility
+- Weapons: School color alignment defines style; element per-item adds the 6-corner layer for damage/affinity
