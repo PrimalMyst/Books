@@ -1,9 +1,9 @@
 {
   "id": "strength-attribute",
   "name": "Strength",
-  "position": 5,
-  "color": "blue",
-  "direction": "south_west",
+  "position": 1,
+  "color": "red",
+  "direction": "north",
   "category": "core-attribute",
   "hexagon_core_reference": "data/json/core-systems/hexagon-core.json",
   "hexagon_reference": "attributes-core",

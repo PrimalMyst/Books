@@ -18,15 +18,15 @@
       "position": 1,
       "color": "red",
       "direction": "north",
-      "primary_concept": "Intelligence",
+      "primary_concept": "Strength",
       "trinity": "fundamental",
-      "index_reference": "corner-1-intelligence",
-      "brief_description": "Mental acuity, magical understanding, and analytical thinking",
-      "eldritch_archetype": "Glacius, the Eternal Frost - Perfect knowledge and preservation of all understanding",
-      "divine_manifestation": "The way Glacius embodies absolute knowledge and perfect memory, understanding all things completely",
-      "damage_type_alignment": "cold",
-      "god_alignment": "glacius",
-      "core_philosophy": "Knowledge is the foundation of all power"
+      "index_reference": "corner-1-strength",
+      "brief_description": "Physical power, endurance, and forceful presence",
+      "eldritch_archetype": "Pyrion, the First Flame - Raw transformative power and forceful creation",
+      "divine_manifestation": "The way Pyrion embodies pure physical dominance and creative force, reshaping reality through strength of will",
+      "damage_type_alignment": "fire",
+      "god_alignment": "surturon",
+      "core_philosophy": "Strength enforces creation, power transforms reality"
     },
     {
       "position": 2,
@@ -52,8 +52,8 @@
       "brief_description": "Speed, agility, precision, and hand-eye coordination",
       "eldritch_archetype": "Voltharion, the Cosmic Spark - Lightning-fast precision and instant connection",
       "divine_manifestation": "The way Voltharion moves with perfect speed and precision across the cosmic web, never missing a connection",
-      "damage_type_alignment": "lightning",
-      "god_alignment": "voltharion",
+      "damage_type_alignment": "air",
+      "god_alignment": "fenrion",
       "core_philosophy": "Swift action shapes reality"
     },
     {
@@ -66,23 +66,23 @@
       "brief_description": "Applied knowledge, divine insight, and spiritual awareness",
       "eldritch_archetype": "Aurelius, the Radiant Sphere - Divine wisdom and protective understanding",
       "divine_manifestation": "The way Aurelius embodies perfect spiritual insight and healing knowledge",
-      "damage_type_alignment": "radiance",
-      "god_alignment": "aurelius",
+      "damage_type_alignment": "lightning",
+      "god_alignment": "zeusara",
       "core_philosophy": "Understanding transcends mere knowledge, wisdom guides protection"
     },
     {
       "position": 5,
       "color": "blue",
       "direction": "south_west",
-      "primary_concept": "Strength", 
+      "primary_concept": "Intelligence",
       "trinity": "fundamental",
-      "index_reference": "corner-5-strength",
-      "brief_description": "Physical power, endurance, and forceful presence",
-      "eldritch_archetype": "Pyrion, the First Flame - Raw transformative power and forceful creation",
-      "divine_manifestation": "The way Pyrion embodies pure physical dominance and creative force, reshaping reality through strength of will",
-      "damage_type_alignment": "fire",
-      "god_alignment": "pyrion",
-      "core_philosophy": "Strength enforces creation, power transforms reality"
+      "index_reference": "corner-5-intelligence",
+      "brief_description": "Mental acuity, magical understanding, and analytical thinking",
+      "eldritch_archetype": "Glacius, the Eternal Frost - Perfect knowledge and preservation of all understanding",
+      "divine_manifestation": "The way Glacius embodies absolute knowledge and perfect memory, understanding all things completely",
+      "damage_type_alignment": "water",
+      "god_alignment": "jormunion",
+      "core_philosophy": "Knowledge is the foundation of all power"
     },
     {
       "position": 6,
@@ -94,8 +94,8 @@
       "brief_description": "Social influence, force of personality, and chaotic persuasion",
       "eldritch_archetype": "Serafina, the Shadow Empress - Charismatic influence and beneficial chaos",
       "divine_manifestation": "The way Serafina spreads creative revolution through charismatic influence and social transformation",
-      "damage_type_alignment": "chaos",
-      "god_alignment": "serafina",
+      "damage_type_alignment": "shadow",
+      "god_alignment": "anubiseth",
       "core_philosophy": "Change spreads through influence, chaos creates through charm"
     }
   ],
@@ -366,8 +366,8 @@
   "corner_files": [
     {
       "position": 1,
-      "filename": "corner-1-intelligence.json",
-      "file_path": "corners/corner-1-intelligence.json"
+      "filename": "corner-1-strength.json",
+      "file_path": "corners/corner-1-strength.json"
     },
     {
       "position": 2,
@@ -376,7 +376,7 @@
     },
     {
       "position": 3,
-      "filename": "corner-3-dexterity.json", 
+      "filename": "corner-3-dexterity.json",
       "file_path": "corners/corner-3-dexterity.json"
     },
     {
@@ -386,8 +386,8 @@
     },
     {
       "position": 5,
-      "filename": "corner-5-strength.json",
-      "file_path": "corners/corner-5-strength.json"
+      "filename": "corner-5-intelligence.json",
+      "file_path": "corners/corner-5-intelligence.json"
     },
     {
       "position": 6,

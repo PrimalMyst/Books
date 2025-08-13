@@ -29,8 +29,8 @@
     "soft_caps": "Diminishing returns after major thresholds"
   },
   "damage_type_integration": {
-    "aligned_damage": "physical",
-    "damage_synergy": "Physical mitigation and bracing scale with Constitution"
+    "aligned_damage": "metal",
+    "damage_synergy": "Metal and fortification effects scale with Constitution"
   },
   "tags": ["resilience", "endurance", "discipline", "vitality"],
   "metadata": {

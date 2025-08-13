@@ -1,9 +1,9 @@
 {
   "id": "intelligence-attribute",
   "name": "Intelligence",
-  "position": 1,
-  "color": "red",
-  "direction": "north",
+  "position": 5,
+  "color": "blue",
+  "direction": "south_west",
   "category": "core-attribute",
   "hexagon_core_reference": "data/json/core-systems/hexagon-core.json",
   "hexagon_reference": "attributes-core",
@@ -112,12 +112,12 @@
     ]
   },
   "damage_type_integration": {
-    "aligned_damage": "cold",
-    "damage_synergy": "Cold damage scales with Intelligence, representing precise application of preserving force",
+    "aligned_damage": "water",
+    "damage_synergy": "Water and preservation techniques scale with Intelligence",
     "elemental_techniques": [
-      "Crystalline analysis that reveals optimal magical applications",
-      "Frost calculations that enable perfect spell timing",
-      "Preservation magic that maintains complex spell structures"
+      "Crystalline memory and preservation patterns",
+      "Flow-based knowledge weaving",
+      "Ice-bound archives and glacial focus"
     ]
   },
   "offensive_layer_connections": {

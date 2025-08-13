@@ -29,8 +29,8 @@
     "soft_caps": "None; thresholds define stepwise gains"
   },
   "damage_type_integration": {
-    "aligned_damage": "radiance",
-    "damage_synergy": "Radiant and insight-based techniques scale with Wisdom"
+    "aligned_damage": "lightning",
+    "damage_synergy": "Lightning and insight-based techniques scale with Wisdom"
   },
   "tags": ["insight", "healing", "protection", "perception"],
   "metadata": {

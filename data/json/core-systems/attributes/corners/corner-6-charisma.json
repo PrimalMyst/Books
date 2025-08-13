@@ -29,8 +29,8 @@
     "soft_caps": "None; transformation tiers define growth"
   },
   "damage_type_integration": {
-    "aligned_damage": "chaos",
-    "damage_synergy": "Chaos and probability-warp techniques scale with Charisma"
+    "aligned_damage": "shadow",
+    "damage_synergy": "Shadow and probability-warp techniques scale with Charisma"
   },
   "tags": ["influence", "leadership", "luck", "chaos"],
   "metadata": {

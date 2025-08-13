@@ -29,8 +29,8 @@
     "soft_caps": "Diminishing returns after 60 for speed-related modifiers"
   },
   "damage_type_integration": {
-    "aligned_damage": "lightning",
-    "damage_synergy": "Lightning and reaction-based techniques scale with Dexterity"
+    "aligned_damage": "air",
+    "damage_synergy": "Air and motion-based techniques scale with Dexterity"
   },
   "tags": ["speed", "precision", "accuracy", "mobility"],
   "metadata": {
