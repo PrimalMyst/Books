@@ -1,0 +1,10 @@
+{
+  "id": "focus-housing-of-metal",
+  "name": "Focus Housing of Metal",
+  "school": "arcane",
+  "category": "addons",
+  "type": "focus_housing",
+  "element": "metal",
+  "rarity": "common",
+  "stats": { "focus_slot_count": 1, "channel_stability_percent": 4 }
+}

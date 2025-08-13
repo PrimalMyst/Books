@@ -1,6 +1,6 @@
 {
   "id": "shortswords-index",
   "name": "Shortswords (One-Handed · Martial)",
-  "examples": [],
+  "examples": ["shortsword_of_fire.json"],
   "notes": "Element is an item attribute."
 }

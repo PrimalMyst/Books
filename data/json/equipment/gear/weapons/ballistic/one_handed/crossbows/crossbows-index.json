@@ -1,6 +1,6 @@
 {
   "id": "crossbows-index",
-  "name": "Crossbows (One-Handed · Marksmanship)",
-  "examples": [],
+  "name": "Crossbows (One-Handed · Ballistic)",
+  "examples": ["hand_crossbow_of_air.json"],
   "notes": "Element is an item attribute."
 }

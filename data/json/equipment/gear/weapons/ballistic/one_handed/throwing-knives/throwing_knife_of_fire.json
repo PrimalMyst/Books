@@ -1,0 +1,10 @@
+{
+  "id": "throwing-knife-of-fire",
+  "name": "Throwing Knife of Fire",
+  "school": "ballistic",
+  "category": "one_handed",
+  "type": "throwing_knife",
+  "element": "fire",
+  "rarity": "common",
+  "stats": { "base_damage": 12, "projectile_speed_percent": 18, "ignite_chance_percent": 8 }
+}

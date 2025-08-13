@@ -1,6 +1,6 @@
 {
   "id": "shuriken-index",
-  "name": "Shuriken (One-Handed · Marksmanship)",
-  "examples": [],
+  "name": "Shuriken (One-Handed · Ballistic)",
+  "examples": ["shuriken_of_shadow.json"],
   "notes": "Element is an item attribute."
 }

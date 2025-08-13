@@ -1,0 +1,10 @@
+{
+  "id": "shortsword-of-fire",
+  "name": "Shortsword of Fire",
+  "school": "martial",
+  "category": "one_handed",
+  "type": "shortsword",
+  "element": "fire",
+  "rarity": "common",
+  "stats": { "base_damage": 32, "attack_speed": 1.25, "burn_chance_percent": 10 }
+}

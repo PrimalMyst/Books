@@ -1,6 +1,6 @@
 {
   "id": "maces-index",
   "name": "Maces (One-Handed · Martial)",
-  "examples": [],
+  "examples": ["mace_of_metal.json"],
   "notes": "Element is an item attribute."
 }

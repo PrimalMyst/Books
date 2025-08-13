@@ -1,6 +1,6 @@
 {
   "id": "longswords-index",
   "name": "Longswords (Two-Handed · Martial)",
-  "examples": [],
+  "examples": ["longsword_of_metal.json"],
   "notes": "Element is an item attribute."
 }

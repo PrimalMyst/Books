@@ -1,6 +1,6 @@
 {
   "id": "foci-index",
   "name": "Foci (One-Handed · Arcane)",
-  "examples": [],
+  "examples": ["focus_of_lightning.json"],
   "notes": "Element is an item attribute."
 }

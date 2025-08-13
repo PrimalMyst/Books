@@ -1,6 +1,6 @@
 {
   "id": "focus-housings-index",
   "name": "Focus Housings (Addons · Arcane)",
-  "examples": [],
+  "examples": ["focus_housing_of_metal.json"],
   "notes": "Element is an item attribute."
 }

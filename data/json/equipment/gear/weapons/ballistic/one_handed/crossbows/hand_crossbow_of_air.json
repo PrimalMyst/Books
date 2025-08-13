@@ -1,0 +1,10 @@
+{
+  "id": "hand-crossbow-of-air",
+  "name": "Hand Crossbow of Air",
+  "school": "ballistic",
+  "category": "one_handed",
+  "type": "hand_crossbow",
+  "element": "air",
+  "rarity": "uncommon",
+  "stats": { "base_damage": 22, "reload_speed_percent": 12, "ranged_accuracy": 6 }
+}

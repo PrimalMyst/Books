@@ -1,6 +1,6 @@
 {
   "id": "braces-index",
   "name": "Braces (Addons · Martial)",
-  "examples": [],
+  "examples": ["wrist_brace_of_lightning.json"],
   "notes": "Element is an item attribute."
 }

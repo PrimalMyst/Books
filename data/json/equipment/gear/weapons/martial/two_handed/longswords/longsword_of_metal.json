@@ -1,0 +1,10 @@
+{
+  "id": "longsword-of-metal",
+  "name": "Longsword of Metal",
+  "school": "martial",
+  "category": "two_handed",
+  "type": "longsword",
+  "element": "metal",
+  "rarity": "uncommon",
+  "stats": { "base_damage": 58, "attack_speed": 1.0, "crit_chance_percent": 6 }
+}

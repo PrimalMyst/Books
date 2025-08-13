@@ -1,6 +1,6 @@
 {
   "id": "throwing-knives-index",
-  "name": "Throwing Knives (One-Handed · Marksmanship)",
-  "examples": [],
+  "name": "Throwing Knives (One-Handed · Ballistic)",
+  "examples": ["throwing_knife_of_fire.json"],
   "notes": "Element is an item attribute."
 }

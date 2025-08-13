@@ -1,6 +1,6 @@
 {
   "id": "grimoires-index",
   "name": "Grimoires (One-Handed · Arcane)",
-  "examples": [],
+  "examples": ["grimoire_of_air.json"],
   "notes": "Element is an item attribute."
 }

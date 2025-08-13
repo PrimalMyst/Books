@@ -1,0 +1,10 @@
+{
+  "id": "quiver-of-water",
+  "name": "Quiver of Water",
+  "school": "ballistic",
+  "category": "addons",
+  "type": "quiver",
+  "element": "water",
+  "rarity": "uncommon",
+  "stats": { "ammo_capacity": 40, "reload_speed_percent": 10 }
+}

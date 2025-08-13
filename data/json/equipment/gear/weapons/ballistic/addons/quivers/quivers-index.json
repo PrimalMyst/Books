@@ -1,6 +1,6 @@
 {
   "id": "quivers-index",
-  "name": "Quivers (Addons · Marksmanship)",
-  "examples": [],
+  "name": "Quivers (Addons · Ballistic)",
+  "examples": ["quiver_of_water.json"],
   "notes": "Element is an item attribute."
 }

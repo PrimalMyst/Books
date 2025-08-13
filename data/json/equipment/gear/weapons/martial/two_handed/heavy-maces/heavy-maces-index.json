@@ -1,6 +1,6 @@
 {
   "id": "heavy-maces-index",
   "name": "Heavy Maces (Two-Handed · Martial)",
-  "examples": [],
+  "examples": ["heavy_mace_of_water.json"],
   "notes": "Element is an item attribute."
 }
