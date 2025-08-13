@@ -23,6 +23,26 @@
       "status": "planned"
     }
   },
+  "resource_categories": {
+    "health": {
+      "description": "Vitality-focused rings that enhance maximum health and regeneration",
+      "index_file": "health/health-rings-index.json",
+      "example_items": ["health/ring-of-vitality.json"],
+      "status": "available"
+    },
+    "mana": {
+      "description": "Mana-focused rings that expand reserves and regeneration",
+      "index_file": "mana/mana-rings-index.json",
+      "example_items": ["mana/ring-of-clarity.json"],
+      "status": "available"
+    },
+    "stamina": {
+      "description": "Endurance-focused rings that improve stamina and recovery",
+      "index_file": "stamina/stamina-rings-index.json",
+      "example_items": ["stamina/ring-of-endurance.json"],
+      "status": "available"
+    }
+  },
   "ring_mechanics": {
     "description": "Rings provide passive bonuses and can be worn on both hands",
     "features": ["passive_effects", "dual_ring_combinations", "set_bonuses", "enhancement_options"],
@@ -30,7 +50,7 @@
   },
   "metadata": {
     "created": "2025-08-11T21:40:00Z",
-    "last_updated": "2025-08-11T21:40:00Z",
+    "last_updated": "2025-08-12T10:10:00Z",
     "author": "PrimalMyst Development Team",
     "canonical": true,
     "notes": "Rings accessory index with focused bonus system",

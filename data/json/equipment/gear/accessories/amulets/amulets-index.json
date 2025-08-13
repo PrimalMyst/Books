@@ -23,6 +23,26 @@
       "status": "planned"
     }
   },
+  "resource_categories": {
+    "health": {
+      "description": "Vitality-focused amulets that enhance maximum health and regeneration",
+      "index_file": "health/health-amulets-index.json",
+      "example_items": ["health/amulet-of-vigor.json"],
+      "status": "available"
+    },
+    "mana": {
+      "description": "Mana-focused amulets that expand reserves and regeneration",
+      "index_file": "mana/mana-amulets-index.json",
+      "example_items": ["mana/amulet-of-arcane-flow.json"],
+      "status": "available"
+    },
+    "stamina": {
+      "description": "Endurance-focused amulets that improve stamina and recovery",
+      "index_file": "stamina/stamina-amulets-index.json",
+      "example_items": ["stamina/amulet-of-stalwart-spirit.json"],
+      "status": "available"
+    }
+  },
   "amulet_mechanics": {
     "description": "Amulets provide powerful passive abilities with single slot limitation",
     "features": ["major_passive_effects", "unique_abilities", "magical_enhancement", "character_defining_bonuses"],
@@ -30,7 +50,7 @@
   },
   "metadata": {
     "created": "2025-08-11T21:40:00Z",
-    "last_updated": "2025-08-11T21:40:00Z",
+    "last_updated": "2025-08-12T10:10:00Z",
     "author": "PrimalMyst Development Team",
     "canonical": true,
     "notes": "Amulets accessory index with powerful passive focus",

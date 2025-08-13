@@ -1,0 +1,27 @@
+{
+  "id": "ring-of-endurance",
+  "name": "Ring of Endurance",
+  "type": "ring",
+  "tier": "mortal",
+  "rarity": "uncommon",
+  "description": "A tempered iron ring that fortifies the wielder's resolve and stamina.",
+  "flavor_text": "For journeys that last beyond the horizon.",
+  "stats": {
+    "max_stamina": 30,
+    "stamina_regen": 3,
+    "requirements": {
+      "level": 10
+    }
+  },
+  "properties": {
+    "slot": "ring",
+    "category": "stamina"
+  },
+  "metadata": {
+    "created": "2025-08-12T10:05:00Z",
+    "last_updated": "2025-08-12T10:05:00Z",
+    "author": "PrimalMyst Development Team",
+    "canonical": true,
+    "version": "1.0.0"
+  }
+}

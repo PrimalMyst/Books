@@ -1,0 +1,28 @@
+{
+  "id": "belt-lock-mana-reservoir",
+  "name": "Belt Lock: Mana Reservoir",
+  "type": "belt_lock",
+  "tier": "mortal",
+  "rarity": "uncommon",
+  "description": "An arcane capacitor cell that releases stored mana during casting droughts.",
+  "flavor_text": "For when the stream runs dry, carry a hidden well.",
+  "stats": {
+    "instant_mana": 80,
+    "mana_regen_boost": 2,
+    "duration_seconds": 10,
+    "requirements": {
+      "level": 12
+    }
+  },
+  "properties": {
+    "slot": "belt_lock",
+    "category": "mana"
+  },
+  "metadata": {
+    "created": "2025-08-12T10:05:00Z",
+    "last_updated": "2025-08-12T10:05:00Z",
+    "author": "PrimalMyst Development Team",
+    "canonical": true,
+    "version": "1.0.0"
+  }
+}

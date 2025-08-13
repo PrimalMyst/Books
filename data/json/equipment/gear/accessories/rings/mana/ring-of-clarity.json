@@ -1,0 +1,27 @@
+{
+  "id": "ring-of-clarity",
+  "name": "Ring of Clarity",
+  "type": "ring",
+  "tier": "mortal",
+  "rarity": "uncommon",
+  "description": "A crystalline ring that focuses ambient magic into a steady flow of mana.",
+  "flavor_text": "Like still water under moonlight, the mind becomes a vessel for power.",
+  "stats": {
+    "max_mana": 40,
+    "mana_regen": 2,
+    "requirements": {
+      "level": 10
+    }
+  },
+  "properties": {
+    "slot": "ring",
+    "category": "mana"
+  },
+  "metadata": {
+    "created": "2025-08-12T10:05:00Z",
+    "last_updated": "2025-08-12T10:05:00Z",
+    "author": "PrimalMyst Development Team",
+    "canonical": true,
+    "version": "1.0.0"
+  }
+}

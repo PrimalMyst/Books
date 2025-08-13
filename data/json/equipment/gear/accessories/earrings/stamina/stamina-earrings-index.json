@@ -1,0 +1,19 @@
+{
+  "id": "stamina-earrings-index",
+  "name": "Stamina Earrings Index",
+  "description": "Index of earrings themed around endurance, vigor, and stamina recovery",
+  "version": "1.0.0",
+  "parent_type": "earrings",
+  "resource": "stamina",
+  "general_description": "Earrings that improve stamina reserves, recovery rate, and reduce fatigue from movement and attacks.",
+  "existing_items": [
+    "earrings-of-fleet-resolve.json"
+  ],
+  "metadata": {
+    "created": "2025-08-12T10:05:00Z",
+    "last_updated": "2025-08-12T10:05:00Z",
+    "author": "PrimalMyst Development Team",
+    "canonical": true,
+    "version": "1.0.0"
+  }
+}

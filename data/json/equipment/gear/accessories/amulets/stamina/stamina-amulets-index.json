@@ -1,0 +1,19 @@
+{
+  "id": "stamina-amulets-index",
+  "name": "Stamina Amulets Index",
+  "description": "Index of amulets themed around endurance, vigor, and stamina recovery",
+  "version": "1.0.0",
+  "parent_type": "amulets",
+  "resource": "stamina",
+  "general_description": "Amulets that improve stamina reserves, recovery rate, and reduce fatigue from movement and attacks.",
+  "existing_items": [
+    "amulet-of-stalwart-spirit.json"
+  ],
+  "metadata": {
+    "created": "2025-08-12T10:05:00Z",
+    "last_updated": "2025-08-12T10:05:00Z",
+    "author": "PrimalMyst Development Team",
+    "canonical": true,
+    "version": "1.0.0"
+  }
+}

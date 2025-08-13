@@ -23,6 +23,26 @@
       "status": "planned"
     }
   },
+  "resource_categories": {
+    "health": {
+      "description": "Emergency healing and vitality-support belt locks",
+      "index_file": "health/health-belt-locks-index.json",
+      "example_items": ["health/belt-lock-emergency-infusion.json"],
+      "status": "available"
+    },
+    "mana": {
+      "description": "Mana storage and casting-support belt locks",
+      "index_file": "mana/mana-belt-locks-index.json",
+      "example_items": ["mana/belt-lock-mana-reservoir.json"],
+      "status": "available"
+    },
+    "stamina": {
+      "description": "Endurance-support and stamina recovery belt locks",
+      "index_file": "stamina/stamina-belt-locks-index.json",
+      "example_items": ["stamina/belt-lock-stamina-reserve.json"],
+      "status": "available"
+    }
+  },
   "belt_lock_mechanics": {
     "description": "Belt locks modify and enhance existing belt equipment",
     "features": ["belt_customization", "functional_additions", "aesthetic_options", "modular_design"],
@@ -30,7 +50,7 @@
   },
   "metadata": {
     "created": "2025-08-11T21:40:00Z",
-    "last_updated": "2025-08-11T21:40:00Z",
+    "last_updated": "2025-08-12T10:10:00Z",
     "author": "PrimalMyst Development Team",
     "canonical": true,
     "notes": "Belt locks accessory index with customization focus",

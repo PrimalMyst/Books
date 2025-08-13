@@ -1,0 +1,28 @@
+{
+  "id": "amulet-of-vigor",
+  "name": "Amulet of Vigor",
+  "type": "amulet",
+  "tier": "mortal",
+  "rarity": "rare",
+  "description": "A heavy pendant bearing a sigil of life that pulses with restorative force.",
+  "flavor_text": "Strength of body, calm of heart.",
+  "stats": {
+    "max_health": 80,
+    "health_regen": 4,
+    "healing_received": 10,
+    "requirements": {
+      "level": 14
+    }
+  },
+  "properties": {
+    "slot": "amulet",
+    "category": "health"
+  },
+  "metadata": {
+    "created": "2025-08-12T10:05:00Z",
+    "last_updated": "2025-08-12T10:05:00Z",
+    "author": "PrimalMyst Development Team",
+    "canonical": true,
+    "version": "1.0.0"
+  }
+}

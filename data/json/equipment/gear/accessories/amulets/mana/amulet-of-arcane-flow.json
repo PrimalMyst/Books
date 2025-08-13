@@ -1,0 +1,28 @@
+{
+  "id": "amulet-of-arcane-flow",
+  "name": "Amulet of Arcane Flow",
+  "type": "amulet",
+  "tier": "mortal",
+  "rarity": "rare",
+  "description": "A smooth gemstone wrapped in silver that channels ambient magic into the wearer.",
+  "flavor_text": "Wisdom is the riverbed; mana is the stream.",
+  "stats": {
+    "max_mana": 70,
+    "mana_regen": 3,
+    "spell_efficiency": 5,
+    "requirements": {
+      "level": 14
+    }
+  },
+  "properties": {
+    "slot": "amulet",
+    "category": "mana"
+  },
+  "metadata": {
+    "created": "2025-08-12T10:05:00Z",
+    "last_updated": "2025-08-12T10:05:00Z",
+    "author": "PrimalMyst Development Team",
+    "canonical": true,
+    "version": "1.0.0"
+  }
+}

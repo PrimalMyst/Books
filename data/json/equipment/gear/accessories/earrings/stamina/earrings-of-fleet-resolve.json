@@ -1,0 +1,27 @@
+{
+  "id": "earrings-of-fleet-resolve",
+  "name": "Earrings of Fleet Resolve",
+  "type": "earrings",
+  "tier": "mortal",
+  "rarity": "uncommon",
+  "description": "Angular bands designed to keep the body sharp and the spirit tireless.",
+  "flavor_text": "For the runner who never slows.",
+  "stats": {
+    "max_stamina": 24,
+    "stamina_regen": 3,
+    "requirements": {
+      "level": 8
+    }
+  },
+  "properties": {
+    "slot": "earrings",
+    "category": "stamina"
+  },
+  "metadata": {
+    "created": "2025-08-12T10:05:00Z",
+    "last_updated": "2025-08-12T10:05:00Z",
+    "author": "PrimalMyst Development Team",
+    "canonical": true,
+    "version": "1.0.0"
+  }
+}

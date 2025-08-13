@@ -1,0 +1,19 @@
+{
+  "id": "mana-rings-index",
+  "name": "Mana Rings Index",
+  "description": "Index of rings themed around magical reserves and energy recovery",
+  "version": "1.0.0",
+  "parent_type": "rings",
+  "resource": "mana",
+  "general_description": "Rings that expand the wearer's mana pool, improve regeneration, and enhance spell efficiency.",
+  "existing_items": [
+    "ring-of-clarity.json"
+  ],
+  "metadata": {
+    "created": "2025-08-12T10:05:00Z",
+    "last_updated": "2025-08-12T10:05:00Z",
+    "author": "PrimalMyst Development Team",
+    "canonical": true,
+    "version": "1.0.0"
+  }
+}

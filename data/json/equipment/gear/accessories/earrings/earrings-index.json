@@ -23,6 +23,26 @@
       "status": "planned"
     }
   },
+  "resource_categories": {
+    "health": {
+      "description": "Vitality-focused earrings that enhance maximum health and regeneration",
+      "index_file": "health/health-earrings-index.json",
+      "example_items": ["health/earrings-of-renewal.json"],
+      "status": "available"
+    },
+    "mana": {
+      "description": "Mana-focused earrings that expand reserves and regeneration",
+      "index_file": "mana/mana-earrings-index.json",
+      "example_items": ["mana/earrings-of-attunement.json"],
+      "status": "available"
+    },
+    "stamina": {
+      "description": "Endurance-focused earrings that improve stamina and recovery",
+      "index_file": "stamina/stamina-earrings-index.json",
+      "example_items": ["stamina/earrings-of-fleet-resolve.json"],
+      "status": "available"
+    }
+  },
   "earring_mechanics": {
     "description": "Earrings provide mental and perceptual enhancements with paired bonuses",
     "features": ["perception_bonuses", "mental_abilities", "paired_effects", "awareness_enhancement"],
@@ -30,7 +50,7 @@
   },
   "metadata": {
     "created": "2025-08-11T21:40:00Z",
-    "last_updated": "2025-08-11T21:40:00Z",
+    "last_updated": "2025-08-12T10:10:00Z",
     "author": "PrimalMyst Development Team",
     "canonical": true,
     "notes": "Earrings accessory index with perception focus",

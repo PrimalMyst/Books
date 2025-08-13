@@ -1,0 +1,27 @@
+{
+  "id": "belt-lock-emergency-infusion",
+  "name": "Belt Lock: Emergency Infusion",
+  "type": "belt_lock",
+  "tier": "mortal",
+  "rarity": "uncommon",
+  "description": "A quick-release vial harness that automatically injects a potent restorative at critical health.",
+  "flavor_text": "Better a bruise from the clasp than a wound that never closes.",
+  "stats": {
+    "on_critical_health_heal": 120,
+    "cooldown_seconds": 120,
+    "requirements": {
+      "level": 12
+    }
+  },
+  "properties": {
+    "slot": "belt_lock",
+    "category": "health"
+  },
+  "metadata": {
+    "created": "2025-08-12T10:05:00Z",
+    "last_updated": "2025-08-12T10:05:00Z",
+    "author": "PrimalMyst Development Team",
+    "canonical": true,
+    "version": "1.0.0"
+  }
+}
