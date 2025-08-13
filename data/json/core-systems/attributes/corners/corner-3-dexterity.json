@@ -1,0 +1,42 @@
+{
+  "id": "dexterity-attribute",
+  "name": "Dexterity",
+  "position": 3,
+  "color": "green",
+  "direction": "south_east",
+  "category": "core-attribute",
+  "hexagon_core_reference": "data/json/core-systems/hexagon-core.json",
+  "hexagon_reference": "attributes-core",
+  "description": {
+    "brief": "Speed, agility, precision, and hand-eye coordination",
+    "detailed": "Dexterity governs precision movement, timing, and technical execution. High Dexterity improves accuracy, evasion, and speed-based actions.",
+    "character_philosophy": "Speed shapes outcomes",
+    "visual_manifestation": "Arc flashes, rapid movements, green kinetic lines"
+  },
+  "core_mechanics": {
+    "primary_effects": [
+      "Increases action speed and animation cancel windows",
+      "Improves hit chance and critical timing",
+      "Enhances dodge rate and positional control",
+      "Boosts finesse and ranged weapon handling"
+    ],
+    "secondary_effects": [
+      "Reduces recovery frames",
+      "Improves tool precision and crafting quality",
+      "Enhances stealth and infiltration"
+    ],
+    "scaling_formula": "Linear with reflex breakpoints at 15, 25, 35, 45, 60",
+    "soft_caps": "Diminishing returns after 60 for speed-related modifiers"
+  },
+  "damage_type_integration": {
+    "aligned_damage": "lightning",
+    "damage_synergy": "Lightning and reaction-based techniques scale with Dexterity"
+  },
+  "tags": ["speed", "precision", "accuracy", "mobility"],
+  "metadata": {
+    "created": "2025-08-13T01:35:00Z",
+    "author": "PrimalMyst Development Team",
+    "version": "1.0.0",
+    "canonical": true
+  }
+}

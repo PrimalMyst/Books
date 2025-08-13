@@ -1,0 +1,42 @@
+{
+  "id": "strength-attribute",
+  "name": "Strength",
+  "position": 5,
+  "color": "blue",
+  "direction": "south_west",
+  "category": "core-attribute",
+  "hexagon_core_reference": "data/json/core-systems/hexagon-core.json",
+  "hexagon_reference": "attributes-core",
+  "description": {
+    "brief": "Physical power, endurance, and forceful presence",
+    "detailed": "Strength embodies raw physical power, structural integrity, and the capacity to exert force on reality. High Strength increases carry capacity, melee damage, and the ability to wield heavy gear.",
+    "character_philosophy": "Power reshapes the world",
+    "visual_manifestation": "Blue force lines, shockwave aura, grounded stance"
+  },
+  "core_mechanics": {
+    "primary_effects": [
+      "Increases physical damage and carrying capacity",
+      "Improves stagger and break potential",
+      "Enhances gear load and heavy equipment usage",
+      "Boosts sustained melee pressure"
+    ],
+    "secondary_effects": [
+      "Improves crafting force applications",
+      "Increases throwing force and lift thresholds",
+      "Stabilizes blocking and bracing"
+    ],
+    "scaling_formula": "Linear with power breakpoints at 20, 40, 60, 80",
+    "soft_caps": "Diminishing returns for carry capacity after 80"
+  },
+  "damage_type_integration": {
+    "aligned_damage": "fire",
+    "damage_synergy": "Fire and force-based techniques scale with Strength"
+  },
+  "tags": ["power", "force", "load", "melee"],
+  "metadata": {
+    "created": "2025-08-13T01:35:00Z",
+    "author": "PrimalMyst Development Team",
+    "version": "1.0.0",
+    "canonical": true
+  }
+}

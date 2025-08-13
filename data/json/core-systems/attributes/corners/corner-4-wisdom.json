@@ -1,0 +1,42 @@
+{
+  "id": "wisdom-attribute",
+  "name": "Wisdom",
+  "position": 4,
+  "color": "cyan",
+  "direction": "south",
+  "category": "core-attribute",
+  "hexagon_core_reference": "data/json/core-systems/hexagon-core.json",
+  "hexagon_reference": "attributes-core",
+  "description": {
+    "brief": "Applied knowledge, divine insight, and spiritual awareness",
+    "detailed": "Wisdom represents intuitive understanding, perception of patterns, and spiritual connection. High Wisdom enhances healing, protection, and insight-based abilities.",
+    "character_philosophy": "Insight guides action",
+    "visual_manifestation": "Radiant aura, calm focus, cyan halos"
+  },
+  "core_mechanics": {
+    "primary_effects": [
+      "Increases healing power and protective effect strength",
+      "Improves perception and detection of hidden patterns",
+      "Enhances resistance to illusions and mind effects",
+      "Boosts communion with divine and spiritual forces"
+    ],
+    "secondary_effects": [
+      "Improves resource efficiency for support skills",
+      "Enables early warning and predictive reads",
+      "Stabilizes channeling and rituals"
+    ],
+    "scaling_formula": "Threshold scaling at 20, 40, 60, 80, 100",
+    "soft_caps": "None; thresholds define stepwise gains"
+  },
+  "damage_type_integration": {
+    "aligned_damage": "radiance",
+    "damage_synergy": "Radiant and insight-based techniques scale with Wisdom"
+  },
+  "tags": ["insight", "healing", "protection", "perception"],
+  "metadata": {
+    "created": "2025-08-13T01:35:00Z",
+    "author": "PrimalMyst Development Team",
+    "version": "1.0.0",
+    "canonical": true
+  }
+}

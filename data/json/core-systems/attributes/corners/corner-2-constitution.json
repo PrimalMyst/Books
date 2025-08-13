@@ -1,0 +1,42 @@
+{
+  "id": "constitution-attribute",
+  "name": "Constitution",
+  "position": 2,
+  "color": "yellow",
+  "direction": "north_east",
+  "category": "core-attribute",
+  "hexagon_core_reference": "data/json/core-systems/hexagon-core.json",
+  "hexagon_reference": "attributes-core",
+  "description": {
+    "brief": "Physical resilience, endurance, and bodily conditioning",
+    "detailed": "Constitution represents disciplined conditioning of the body, resilience to harm, and sustained performance under pressure. High Constitution resists status effects, endures longer in combat, and supports heavier protection.",
+    "character_philosophy": "Discipline sustains power",
+    "visual_manifestation": "Tempered physique, steady breath, golden resilience aura"
+  },
+  "core_mechanics": {
+    "primary_effects": [
+      "Increases maximum Health Points (HP)",
+      "Improves status resistance and fortitude",
+      "Enhances stamina efficiency and recovery",
+      "Boosts effectiveness with heavy armor and guards"
+    ],
+    "secondary_effects": [
+      "Reduces exhaustion penalties",
+      "Improves environmental hazard resistance",
+      "Stabilizes regeneration effects"
+    ],
+    "scaling_formula": "Threshold-oriented: breakthroughs at 5, 10, 15, 20, 25",
+    "soft_caps": "Diminishing returns after major thresholds"
+  },
+  "damage_type_integration": {
+    "aligned_damage": "physical",
+    "damage_synergy": "Physical mitigation and bracing scale with Constitution"
+  },
+  "tags": ["resilience", "endurance", "discipline", "vitality"],
+  "metadata": {
+    "created": "2025-08-13T01:35:00Z",
+    "author": "PrimalMyst Development Team",
+    "version": "1.0.0",
+    "canonical": true
+  }
+}

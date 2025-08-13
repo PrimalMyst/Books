@@ -1,0 +1,42 @@
+{
+  "id": "charisma-attribute",
+  "name": "Charisma",
+  "position": 6,
+  "color": "magenta",
+  "direction": "north_west",
+  "category": "core-attribute",
+  "hexagon_core_reference": "data/json/core-systems/hexagon-core.json",
+  "hexagon_reference": "attributes-core",
+  "description": {
+    "brief": "Social influence, force of personality, and chaotic persuasion",
+    "detailed": "Charisma represents the capacity to influence others and subtly bend probabilities through presence and inspiration. High Charisma enhances social skills, leadership, and chaos effects.",
+    "character_philosophy": "Influence creates change",
+    "visual_manifestation": "Shifting shadows, magnetic aura, magenta highlights"
+  },
+  "core_mechanics": {
+    "primary_effects": [
+      "Increases persuasion, leadership, and morale effects",
+      "Improves chance-based outcomes and luck-skewing",
+      "Enhances ally buff potency and cohesion",
+      "Boosts chaos-aligned ability strength"
+    ],
+    "secondary_effects": [
+      "Improves crowd dynamics control",
+      "Enhances deception and disguise",
+      "Increases negotiation leverage"
+    ],
+    "scaling_formula": "Transformative scaling at 10, 20, 30, 40, 50",
+    "soft_caps": "None; transformation tiers define growth"
+  },
+  "damage_type_integration": {
+    "aligned_damage": "chaos",
+    "damage_synergy": "Chaos and probability-warp techniques scale with Charisma"
+  },
+  "tags": ["influence", "leadership", "luck", "chaos"],
+  "metadata": {
+    "created": "2025-08-13T01:35:00Z",
+    "author": "PrimalMyst Development Team",
+    "version": "1.0.0",
+    "canonical": true
+  }
+}
