@@ -22,7 +22,7 @@ The PrimalMyst hexagonal system uses **corner positions** rather than edge or fa
     Leviangandr (P)         Kitsunrir (P)
                     \  /
                      \/
-                (4) BOTTOM 🔵
+                (4) BOTTOM 🔷
                 SOUTH CORNER
                 Gryphozeus (S)
 ```
@@ -52,7 +52,7 @@ The PrimalMyst hexagonal system uses **corner positions** rather than edge or fa
 | 1 RED 🔴 | Surtrynix | Fire | Strength | *(None)* | Health Points |
 | 2 YELLOW 🟡 | Mavostrax | Metal | Constitution | Armor | *(None)* |
 | 3 GREEN 🟢 | Kitsunrir | Air | Dexterity | *(None)* | Stamina Points |
-| 4 CYAN 🔵 | Gryphozeus | Lightning | Wisdom | Energy Shield | *(None)* |
+| 4 CYAN 🔷 | Gryphozeus | Lightning | Wisdom | Energy Shield | *(None)* |
 | 5 BLUE 🔵 | Leviangandr | Water | Intelligence | *(None)* | Mana Points |
 | 6 MAGENTA 🟣 | Anubastet | Shadow | Charisma | Evasion | *(None)* |
 
@@ -81,7 +81,7 @@ Leviangandr (P)          Kitsunrir (P)
 Intelligence             Dexterity
                     \  /
                      \/
-                (4) CYAN SOUTH 🔵
+                (4) CYAN SOUTH 🔷
                 Gryphozeus (S)
                 Wisdom
                 Energy Shield
@@ -91,7 +91,7 @@ Intelligence             Dexterity
 - **Position 1 (RED)** 🔴 - Primary anchor - Surtrynix (Primal) - Fire damage
 - **Position 2 (YELLOW)** 🟡 - Red→Green bridge - Mavostrax (Sovereign) - Red + Green = #FFFF00
 - **Position 3 (GREEN)** 🟢 - Primary anchor - Kitsunrir (Primal) - Air damage
-- **Position 4 (CYAN)** 🔵 - Green→Blue bridge - Gryphozeus (Sovereign) - Green + Blue = #00FFFF
+- **Position 4 (CYAN)** 🔷 - Green→Blue bridge - Gryphozeus (Sovereign) - Green + Blue = #00FFFF
 - **Position 5 (BLUE)** 🔵 - Primary anchor - Leviangandr (Primal) - Water damage
 - **Position 6 (MAGENTA)** 🟣 - Blue→Red bridge - Anubastet (Sovereign) - Blue + Red = #FF00FF
 
@@ -108,7 +108,7 @@ Intelligence             Dexterity
 | 1 | **RED** 🔴 | Surtrynix | Primal | Fire | Strength | *(None)* | Health Points |
 | 2 | **YELLOW** 🟡 | Mavostrax | Sovereign | Metal | Constitution | Armor | *(None)* |
 | 3 | **GREEN** 🟢 | Kitsunrir | Primal | Air | Dexterity | *(None)* | Stamina Points |
-| 4 | **CYAN** 🔵 | Gryphozeus | Sovereign | Lightning | Wisdom | Energy Shield | *(None)* |
+| 4 | **CYAN** 🔷 | Gryphozeus | Sovereign | Lightning | Wisdom | Energy Shield | *(None)* |
 | 5 | **BLUE** 🔵 | Leviangandr | Primal | Water | Intelligence | *(None)* | Mana Points |
 | 6 | **MAGENTA** 🟣 | Anubastet | Sovereign | Shadow | Charisma | Evasion | *(None)* |
 
@@ -157,7 +157,7 @@ Sovereign guide through night and after. Anubastet bears the jackal’s judging 
 | 1 | Fire | 🔴 | Creation-based thermal damage | Primal flame |
 | 2 | Metal | 🟡 | Solid force and crushing damage | Raw material strength |
 | 3 | Air | 🟢 | Movement-based pressure damage | Elemental flow |
-| 4 | Lightning | 🔵 | Electric energy and divine spark | Electrical-divine fusion |
+| 4 | Lightning | 🔷 | Electric energy and divine spark | Electrical-divine fusion |
 | 5 | Water | 🔵 | Fluid and crystalline damage | Elemental transformation |
 | 6 | Shadow | 🟣 | Darkness and reality-warping damage | Absence energy |
 
@@ -193,7 +193,7 @@ Sovereign guide through night and after. Anubastet bears the jackal’s judging 
 | 1 | *(None)* | 🔴 | Primal | Primal gods focus on raw resources, not armor |
 | 2 | Armor | 🟡 | Active | Physical damage reduction through equipment |
 | 3 | *(None)* | 🟢 | Primal | Primal gods focus on raw resources, not armor |
-| 4 | Energy Shield | 🔵 | Active | Mystical barrier absorption |
+| 4 | Energy Shield | 🔷 | Active | Mystical barrier absorption |
 | 5 | *(None)* | 🔵 | Primal | Primal gods focus on raw resources, not armor |
 | 6 | Evasion | 🟣 | Active | Avoiding damage through movement and positioning |
 
@@ -203,7 +203,7 @@ Sovereign guide through night and after. Anubastet bears the jackal’s judging 
 | 1 | Health Points | Red 🔴 | Life force and survival | Strength, Constitution |
 | 2 | *(None)* | Yellow 🟡 | Sovereign gods focus on armor types, not resources | - |
 | 3 | Stamina Points | Green 🟢 | Physical energy and endurance | Dexterity, Constitution |
-| 4 | *(None)* | Cyan 🔵 | Sovereign gods focus on armor types, not resources | - |
+| 4 | *(None)* | Cyan 🔷 | Sovereign gods focus on armor types, not resources | - |
 | 5 | Mana Points | Blue 🔵 | Magical energy and divine connection | Intelligence, Wisdom |
 | 6 | *(None)* | Magenta 🟣 | Sovereign gods focus on armor types, not resources | - |
 
@@ -318,7 +318,7 @@ Based on the established pattern, additional hexagonal systems could include:
 - **Position numbering**: Always 1-6, clockwise from top (North corner)
 - **Cardinal alignment**: Position 1=North, 2=Northeast, 3=Southeast, 4=South, 5=Southwest, 6=Northwest
 - **RGB anchor system**: 1=Red🔴, 3=Green🟢, 5=Blue🔵 are primary anchors
-- **Bridge positions**: 2=Yellow🟡, 4=Cyan🔵, 6=Magenta🟣 bridge between RGB anchors
+- **Bridge positions**: 2=Yellow🟡, 4=Cyan🔷, 6=Magenta🟣 bridge between RGB anchors
 - **Primal/Sovereign alternation**: 1,3,5 = Primal (RGB anchors) | 2,4,6 = Sovereign (bridges)
 - **Adjacency benefits**: Neighboring corner positions synergize naturally
 - **Opposition challenge**: Opposite corner positions create meaningful tension
@@ -348,7 +348,7 @@ These three positions create smooth transitions between the RGB anchors:
 | Position | Color | God | Bridge Function | Systems Anchored |
 |----------|-------|-----|-----------------|------------------|
 | 2 | **YELLOW** 🟡 | Mavostrax | Red→Green Bridge | Armor, Metal Damage |
-| 4 | **CYAN** 🔵 | Gryphozeus | Green→Blue Bridge | Energy Shield, Lightning Damage |
+| 4 | **CYAN** 🔷 | Gryphozeus | Green→Blue Bridge | Energy Shield, Lightning Damage |
 | 6 | **MAGENTA** 🟣 | Anubastet | Blue→Red Bridge | Evasion, Shadow Damage |
 
 ### Color Wheel Logic

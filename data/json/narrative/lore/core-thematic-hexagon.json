@@ -1,365 +1,82 @@
 {
   "hexagon_id": "core-thematic-hexagon",
   "name": "PrimalMyst Core Thematic Hexagon",
-  "description": "The fundamental six-point structure that organizes all major game systems, with damage types, gods, realms, and character attributes arranged in a thematic hexagon starting from Cold at the top and proceeding clockwise. This system defines the available bonuses that players can choose to gain through divine trials.",
-  "center": {
-    "element": "Yggdrasil - The World Tree",
-    "description": "The cosmic World Tree that connects all six realms and channels all divine power. Yggdrasil's six great branches each anchor one realm, while the tree's structure itself embodies the perfect balance of the hexagonal cosmic order."
-  },
-  "corners": [
+  "description": "Minimal canonical mapping of the thematic hexagon. Elements, gods, and attributes are arranged by the hexagon-core: start at Position 1 (North) and proceed clockwise.",
+  "hexagon_core_reference": "data/json/core-systems/layers/hexagon-core.json",
+  "positions": [
     {
       "position": 1,
-      "primary_concept": "Primal Creation",
-      "core_identity": {
-        "damage_type": "fire",
-        "eldritch_god": "Pyrion, the First Flame",
-        "god_tier": "primal",
-        "realm": "Pyrion's Forge - The Flame Realm",
-        "yggdrasil_branch": "Western Crown Branch",
-        "thematic_color": "crimson_red",
-        "color_code": "red",
-        "elemental_association": "fire_and_creation"
-      },
-      "mechanical_layers": {
-        "attribute_layer": {
-          "primary_attribute": "strength",
-          "pattern": "pure_primal",
-          "per_level_gains": {
-            "strength": 5
-          },
-          "description": "Pure Primal Fire: +5 Strength per level"
-        },
-        "defensive_layer": {
-          "resistance_granted": "fire_resistance",
-          "defense_type": "elemental_resistance",
-          "description": "Primal Fire grants resistance to fire damage and elemental resistance affinity"
-        },
-        "offensive_layer": {
-          "damage_bonus": "fire_damage_bonus",
-          "special_effect": null,
-          "description": "Primal Fire grants increased fire damage effectiveness"
-        }
-      },
-      "relationships": {
-        "adjacent_corners": [6, 2],
-        "opposite_corner": 4,
-        "synergies": [
-          "Intelligence/Strength hybrid builds (cold+fire)",
-          "Energy Shield/Armor hybrid defenses (preservation+transformation)"
-        ],
-        "conflicts": [
-          "Pure physical builds oppose preservation magic",
-          "Energy Shield directly countered by physical armor penetration"
-        ]
-      }
+      "color": "red",
+      "direction": "north",
+      "element": "fire",
+      "god": "Surtrynix",
+      "tier": "primal",
+      "attribute": "strength",
+      "armor_type": null,
+      "resource": "health"
     },
     {
       "position": 2,
-      "primary_concept": "Physical Mastery", 
-      "core_identity": {
-        "damage_type": "physical",
-        "eldritch_god": "Korthak, the Dragon King",
-        "god_tier": "sovereign",
-        "realm": "Korthak's Arena - The Might Realm",
-        "yggdrasil_branch": "Southern Middle Branch",
-        "thematic_color": "golden_yellow",
-        "color_code": "yellow",
-        "elemental_association": "earth_and_strength"
-      },
-      "mechanical_layers": {
-        "attribute_layer": {
-          "primary_attribute": "constitution",
-          "pattern": "pure_primal",
-          "per_level_gains": {
-            "constitution": 5
-          },
-          "description": "Pure Primal Chaos: +5 Constitution per level"
-        },
-        "defensive_layer": {
-          "resistance_granted": "physical_resistance",
-          "defense_type": "armor",
-          "description": "Sovereign Physical grants resistance to physical damage and armor affinity"
-        },
-        "offensive_layer": {
-          "damage_bonus": "physical_damage_bonus",
-          "special_effect": "action_speed",
-          "description": "Sovereign Physical grants increased physical damage and action speed"
-        }
-      },
-      "relationships": {
-        "adjacent_corners": [1, 3],
-        "opposite_corner": 5,
-        "synergies": [
-          "Int/Dex builds for chaos magic with evasion",
-          "ES/Evasion hybrid for survivability through unpredictability"
-        ],
-        "conflicts": [
-          "Pure strength builds oppose chaotic transformation",
-          "Heavy armor reduces magical flexibility"
-        ]
-      }
+      "color": "yellow",
+      "direction": "north_east",
+      "element": "metal",
+      "god": "Mavostrax",
+      "tier": "sovereign",
+      "attribute": "constitution",
+      "armor_type": "armor",
+      "resource": null
     },
     {
       "position": 3,
-      "primary_concept": "Divine Connection",
-      "core_identity": {
-        "damage_type": "lightning",
-        "eldritch_god": "Voltharion, the Cosmic Spark",
-        "god_tier": "primal",
-        "realm": "Voltharion's Web - The Lightning Realm",
-        "yggdrasil_branch": "Northern Crown Branch",
-        "thematic_color": "emerald_green",
-        "color_code": "green",
-        "elemental_association": "lightning_and_connection"
-      },
-      "mechanical_layers": {
-        "attribute_layer": {
-          "primary_attribute": "dexterity",
-          "pattern": "pure_primal",
-          "per_level_gains": {
-            "dexterity": 5
-          },
-          "description": "Pure Primal Lightning: +5 Dexterity per level"
-        },
-        "defensive_layer": {
-          "resistance_granted": "lightning_resistance",
-          "defense_type": "elemental_resistance",
-          "description": "Primal Lightning grants resistance to lightning damage and elemental resistance affinity"
-        },
-        "offensive_layer": {
-          "damage_bonus": "lightning_damage_bonus",
-          "special_effect": null,
-          "description": "Primal Lightning grants increased lightning damage effectiveness"
-        }
-      },
-      "relationships": {
-        "adjacent_corners": [2, 4],
-        "opposite_corner": 6,
-        "synergies": [
-          "Dex/Int builds (lightning+chaos) for speed and unpredictability",
-          "Dex/Str builds (lightning+physical) for mobile warriors"
-        ],
-        "conflicts": [
-          "Intelligence-based energy shields oppose pure speed",
-          "Heavy armor prevents lightning-fast movement"
-        ]
-      }
+      "color": "green",
+      "direction": "south_east",
+      "element": "air",
+      "god": "Kitsunrir",
+      "tier": "primal",
+      "attribute": "dexterity",
+      "armor_type": null,
+      "resource": "stamina"
     },
     {
       "position": 4,
-      "primary_concept": "Physical Mastery",
-      "core_identity": {
-        "damage_type": "radiance",
-        "eldritch_god": "Aurelius, the Radiant Sphere",
-        "god_tier": "sovereign",
-        "realm": "Aurelius' Sanctuary - The Radiance Realm",
-        "yggdrasil_branch": "Western Middle Branch",
-        "thematic_color": "azure_cyan",
-        "color_code": "cyan",
-        "elemental_association": "light_and_protection"
-      },
-      "mechanical_layers": {
-        "attribute_layer": {
-          "primary_attribute": "wisdom",
-          "pattern": "pure_primal",
-          "per_level_gains": {
-            "wisdom": 5
-          },
-          "description": "Pure Primal Physical: +5 Wisdom per level"
-        },
-        "defensive_layer": {
-          "resistance_granted": "radiance_resistance",
-          "defense_type": "energy_shield",
-          "description": "Sovereign Radiance grants resistance to radiance damage and energy shield affinity"
-        },
-        "offensive_layer": {
-          "damage_bonus": "radiance_damage_bonus",
-          "special_effect": "spells",
-          "description": "Sovereign Radiance grants increased radiance damage and spell effectiveness"
-        }
-      },
-      "relationships": {
-        "adjacent_corners": [3, 5],
-        "opposite_corner": 1,
-        "synergies": [
-          "Dex/Str builds for mobile physical combat",
-          "Armor mastery for enhanced physical defense"
-        ],
-        "conflicts": [
-          "Intelligence-based magic opposes direct physical approach",
-          "Pure energy shields vulnerable to physical penetration"
-        ]
-      }
+      "color": "cyan",
+      "direction": "south",
+      "element": "lightning",
+      "god": "Gryphozeus",
+      "tier": "sovereign",
+      "attribute": "wisdom",
+      "armor_type": "energy_shield",
+      "resource": null
     },
     {
       "position": 5,
-      "primary_concept": "Eternal Preservation",
-      "core_identity": {
-        "damage_type": "cold",
-        "eldritch_god": "Glacius, the Eternal Frost",
-        "god_tier": "primal",
-        "realm": "Glacius' Archive - The Frost Realm",
-        "yggdrasil_branch": "Eastern Crown Branch",
-        "thematic_color": "electric_blue",
-        "color_code": "blue",
-        "elemental_association": "ice_and_preservation"
-      },
-      "mechanical_layers": {
-        "attribute_layer": {
-          "primary_attribute": "intelligence",
-          "pattern": "pure_primal",
-          "per_level_gains": {
-            "intelligence": 5
-          },
-          "description": "Pure Primal Cold: +5 Intelligence per level"
-        },
-        "defensive_layer": {
-          "resistance_granted": "cold_resistance",
-          "defense_type": "elemental_resistance",
-          "description": "Primal Cold grants resistance to cold damage and elemental resistance affinity"
-        },
-        "offensive_layer": {
-          "damage_bonus": "cold_damage_bonus",
-          "special_effect": null,
-          "description": "Primal Cold grants increased cold damage effectiveness"
-        }
-      },
-      "relationships": {
-        "adjacent_corners": [4, 6],
-        "opposite_corner": 2,
-        "synergies": [
-          "Str/Dex builds (fire+physical) for aggressive warriors",
-          "Str/Int builds (fire+cold) for fundamental force mastery"
-        ],
-        "conflicts": [
-          "Chaotic magic opposes fire's transformative order",
-          "Evasive techniques conflict with fire's direct approach"
-        ]
-      }
+      "color": "blue",
+      "direction": "south_west",
+      "element": "water",
+      "god": "Leviangandr",
+      "tier": "primal",
+      "attribute": "intelligence",
+      "armor_type": null,
+      "resource": "mana"
     },
     {
       "position": 6,
-      "primary_concept": "Creative Chaos",
-      "core_identity": {
-        "damage_type": "chaos",
-        "eldritch_god": "Serafina, the Shadow Empress",
-        "god_tier": "sovereign",
-        "realm": "Serafina's Court - The Shadow Realm",
-        "yggdrasil_branch": "Eastern Middle Branch",
-        "thematic_color": "vivid_magenta",
-        "color_code": "magenta",
-        "elemental_association": "shadow_and_transformation"
-      },
-      "mechanical_layers": {
-        "attribute_layer": {
-          "primary_attribute": "charisma",
-          "pattern": "pure_sovereign",
-          "per_level_gains": {
-            "charisma": 5
-          },
-          "description": "Pure Sovereign Chaos: +5 Charisma per level"
-        },
-        "defensive_layer": {
-          "resistance_granted": "chaos_resistance",
-          "defense_type": "evasion",
-          "description": "Sovereign Chaos grants resistance to chaos damage and evasion affinity"
-        },
-        "offensive_layer": {
-          "damage_bonus": "chaos_damage_bonus",
-          "special_effect": "damage_over_time",
-          "description": "Sovereign Chaos grants increased chaos damage and damage over time effects"
-        }
-      },
-      "relationships": {
-        "adjacent_corners": [5, 1],
-        "opposite_corner": 3,
-        "synergies": [
-          "Str/Int builds for paladin-like light warriors",
-          "Armor/ES hybrid for maximum protection and magical power"
-        ],
-        "conflicts": [
-          "Pure dexterity builds oppose radiance's protective stance",
-          "Evasive techniques conflict with energy shield's direct protection"
-        ]
-      }
+      "color": "magenta",
+      "direction": "north_west",
+      "element": "shadow",
+      "god": "Anubastet",
+      "tier": "sovereign",
+      "attribute": "charisma",
+      "armor_type": "evasion",
+      "resource": null
     }
   ],
-  "hexagon_dynamics": {
-    "adjacency_bonuses": "Adjacent elements provide natural synergies - combining their damage types, attributes, or defense styles creates powerful hybrid builds. Players specializing in adjacent corners gain bonus effectiveness when using both elements together.",
-    "opposition_tensions": "Opposite elements create meaningful choices and build diversity. While direct opposition doesn't prevent combination, it requires more investment and planning. Opposite builds excel in different situations, creating rock-paper-scissors dynamics.",
-    "full_cycle_effects": "Characters that successfully incorporate elements from all six corners gain access to 'World Tree Mastery' - special abilities that channel Yggdrasil's full power. These builds are extremely challenging but offer unique endgame possibilities."
+  "triads": {
+    "primary_rgb": [1, 3, 5],
+    "secondary_cmy": [2, 4, 6]
   },
-  "hexagon_overlays": {
-    "damage_progression": {
-      "description": "Damage types flow around the hexagon in elemental order",
-      "sequence": "Cold → Chaos → Lightning → Physical → Fire → Radiance → Cold",
-      "mechanical_note": "Adjacent damage types have natural combination bonuses"
-    },
-    "divine_hierarchy": {
-      "description": "Gods are arranged by their cosmic roles and power relationships",
-      "fundamental_gods": ["Glacius (Cold)", "Voltharion (Lightning)", "Pyrion (Fire)"],
-      "primal_gods": ["Serafina (Chaos)", "Korthak (Physical)", "Aurelius (Radiance)"],
-      "balance_note": "Fundamental and Primal gods alternate around the hexagon"
-    },
-    "attribute_flow": {
-      "description": "Core attributes transition smoothly around the hexagon",
-      "primary_sequence": "Int → Int → Dex → Dex → Str → Str → Int",
-      "hybrid_sequence": "None → Int/Dex → None → Dex/Str → None → Str/Int → None",
-      "build_note": "Pure attribute builds occupy positions 1, 3, 5; hybrid builds at 2, 4, 6"
-    },
-    "defense_progression": {
-      "description": "Defense types flow to create natural build paths",
-      "sequence": "Elemental Resistance → Evasion → Elemental Resistance → Armor → Elemental Resistance → Energy Shield → Elemental Resistance",
-      "strategic_note": "Fundamental gods grant elemental resistance; Primal gods grant specialized defenses (evasion, armor, energy shield)"
-    }
-  },
-  "yggdrasil_mapping": {
-    "tree_structure": {
-      "crown_branches": ["Western Crown (Glacius)", "Northern Crown (Voltharion)", "Eastern Crown (Pyrion)"],
-      "middle_branches": ["Southern Middle (Serafina)", "Western Middle (Korthak)", "Eastern Middle (Aurelius)"],
-      "cosmic_balance": "Three Fundamental gods in the crown provide foundation; three Primal gods in middle branches provide active influence"
-    },
-    "branch_connections": {
-      "description": "Each branch connects to its adjacent branches through mystical pathways",
-      "travel_mechanics": "Easier to travel between adjacent realms; opposite realms require special preparation",
-      "power_flow": "Divine power flows most easily between adjacent branches"
-    }
-  },
-  "gameplay_implications": {
-    "character_builds": {
-      "pure_builds": "Focus on one corner for maximum specialization in that element",
-      "adjacent_builds": "Combine two adjacent corners for powerful synergy builds",
-      "opposite_builds": "Combine opposite corners for unique challenge builds with special benefits",
-      "full_spectrum": "Attempt to incorporate all six corners for ultimate mastery builds"
-    },
-    "equipment_design": {
-      "single_focus": "Equipment that strongly enhances one corner",
-      "dual_synergy": "Equipment that bridges adjacent corners",
-      "opposition_resolution": "Rare equipment that helps resolve opposite corner conflicts",
-      "world_tree_items": "Legendary equipment that draws from multiple corners"
-    },
-    "content_organization": {
-      "realm_content": "Each of the six realms provides content themed around its corner",
-      "cross_realm": "Special content that requires understanding of multiple corners",
-      "cosmic_events": "Events that rotate around the hexagon, emphasizing different corners"
-    }
-  },
-  "lore_integration": {
-    "mythological_basis": "The hexagon reflects the cosmic structure of Yggdrasil and the divine hierarchy of the Eldritch Pantheon. Each corner represents both a fundamental force of reality and an active divine influence.",
-    "cosmic_significance": "This six-fold structure is the fundamental organizing principle of the PrimalMyst universe. Understanding the hexagon allows Myst-Walkers to comprehend the true nature of reality and divine power.",
-    "divine_connections": "The alternating pattern of Fundamental and Primal gods around the hexagon represents the flow of cosmic power from ancient, foundational forces through active divine influence to mortal practitioners."
-  },
-  "metadata": {
-    "version": "1.0",
-    "created": "2025-07-23",
-    "author": "PrimalMyst Development Team",
-    "canonical": true,
-    "schema_reference": "hexagon-thematic.schema.json",
-    "related_files": [
-      "eldritch-pantheon.json",
-      "six-realms-cosmology.json",
-      "damage-type schemas",
-      "character.schema.json"
-    ]
-  }
+  "references": [
+    "data/json/core-systems/layers/hexagon-core.json",
+    "HEXAGONAL_SYSTEMS_MAPPING_DRAFT.md"
+  ]
 }
