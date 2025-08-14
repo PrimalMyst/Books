@@ -9,22 +9,22 @@ The PrimalMyst hexagonal system uses **corner positions** rather than edge or fa
 ```
                     (1) TOP 🔴
                    NORTH CORNER
-                   Surturon (P)
+                   Surtrynix (P)
                       /\
                      /  \
     (6) TOP-LEFT 🟣     (2) TOP-RIGHT 🟡
     NORTHWEST CORNER    NORTHEAST CORNER
-    Anubiseth (S)       Marsalis (S)
+    Anubastet (S)       Mavostrax (S)
                    \    /
                     \  /
     (5) BOTTOM-LEFT 🔵 ---- (3) BOTTOM-RIGHT 🟢
     SOUTHWEST CORNER        SOUTHEAST CORNER
-    Jormunion (P)           Fenrion (P)
+    Leviangandr (P)         Kitsunrir (P)
                     \  /
                      \/
                 (4) BOTTOM 🔵
                 SOUTH CORNER
-                Zeusara (S)
+                Gryphozeus (S)
 ```
 
 ### Position Guidelines
@@ -49,12 +49,12 @@ The PrimalMyst hexagonal system uses **corner positions** rather than edge or fa
 
 | Position/Color | God | Damage Type | Attribute | Armor Type | Resource |
 |----------------|-----|-------------|-----------|------------|----------|
-| 1 RED 🔴 | Surturon | Fire | Strength | *(None)* | Health Points |
-| 2 YELLOW 🟡 | Marsalis | Metal | Constitution | Armor | *(None)* |
-| 3 GREEN 🟢 | Fenrion | Air | Dexterity | *(None)* | Stamina Points |
-| 4 CYAN 🔵 | Zeusara | Lightning | Wisdom | Energy Shield | *(None)* |
-| 5 BLUE 🔵 | Jormunion | Water | Intelligence | *(None)* | Mana Points |
-| 6 MAGENTA 🟣 | Anubiseth | Shadow | Charisma | Evasion | *(None)* |
+| 1 RED 🔴 | Surtrynix | Fire | Strength | *(None)* | Health Points |
+| 2 YELLOW 🟡 | Mavostrax | Metal | Constitution | Armor | *(None)* |
+| 3 GREEN 🟢 | Kitsunrir | Air | Dexterity | *(None)* | Stamina Points |
+| 4 CYAN 🔵 | Gryphozeus | Lightning | Wisdom | Energy Shield | *(None)* |
+| 5 BLUE 🔵 | Leviangandr | Water | Intelligence | *(None)* | Mana Points |
+| 6 MAGENTA 🟣 | Anubastet | Shadow | Charisma | Evasion | *(None)* |
 
 ## Purpose
 This document tracks all established hexagonal layers in PrimalMyst and their corner mappings to prepare for full refactoring. Each layer follows the same 6-corner pattern aligned with our RGB color system and divine pantheon structure. All positions use the corner-based clockwise system starting from Position 1 (North/Top) as defined in the Hexagonal Positioning System above.
@@ -66,34 +66,34 @@ The hexagonal system is anchored by the three primary RGB colors at corners 1, 3
 
 ```
                     (1) RED 🔴 NORTH
-                   Surturon (P)
+                   Surtrynix (P)
                    Strength
                       /\
                      /  \
 (6) MAGENTA NW 🟣        (2) YELLOW NE 🟡
-Anubiseth (S)            Marsalis (S)
+Anubastet (S)            Mavostrax (S)
  Charisma                Constitution
  Evasion                 Armor
                    \    /
                     \  /
 (5) BLUE SW 🔵 ---- ---- (3) GREEN SE 🟢
-Jormunion (P)            Fenrion (P)
+Leviangandr (P)          Kitsunrir (P)
 Intelligence             Dexterity
                     \  /
                      \/
                 (4) CYAN SOUTH 🔵
-                Zeusara (S)
+                Gryphozeus (S)
                 Wisdom
                 Energy Shield
 ```
 
 ### RGB Color Anchor System
-- **Position 1 (RED)** 🔴 - Primary anchor - Surturon (Primal) - Fire damage
-- **Position 2 (YELLOW)** 🟡 - Red→Green bridge - Marsalis (Sovereign) - Red + Green = #FFFF00
-- **Position 3 (GREEN)** 🟢 - Primary anchor - Fenrion (Primal) - Air damage
-- **Position 4 (CYAN)** 🔵 - Green→Blue bridge - Zeusara (Sovereign) - Green + Blue = #00FFFF
-- **Position 5 (BLUE)** 🔵 - Primary anchor - Jormunion (Primal) - Water damage
-- **Position 6 (MAGENTA)** 🟣 - Blue→Red bridge - Anubiseth (Sovereign) - Blue + Red = #FF00FF
+- **Position 1 (RED)** 🔴 - Primary anchor - Surtrynix (Primal) - Fire damage
+- **Position 2 (YELLOW)** 🟡 - Red→Green bridge - Mavostrax (Sovereign) - Red + Green = #FFFF00
+- **Position 3 (GREEN)** 🟢 - Primary anchor - Kitsunrir (Primal) - Air damage
+- **Position 4 (CYAN)** 🔵 - Green→Blue bridge - Gryphozeus (Sovereign) - Green + Blue = #00FFFF
+- **Position 5 (BLUE)** 🔵 - Primary anchor - Leviangandr (Primal) - Water damage
+- **Position 6 (MAGENTA)** 🟣 - Blue→Red bridge - Anubastet (Sovereign) - Blue + Red = #FF00FF
 
 **Legend:**
 - (P) = Primal God (RGB anchor positions)
@@ -105,17 +105,17 @@ Intelligence             Dexterity
 
 | Position | Color/Theme | God | Tier | Damage Type | Attribute | Armor Type | Resource |
 |----------|-------------|-----|------|-------------|-----------|------------|----------|
-| 1 | **RED** 🔴 | Surturon | Primal | Fire | Strength | *(None)* | Health Points |
-| 2 | **YELLOW** 🟡 | Marsalis | Sovereign | Metal | Constitution | Armor | *(None)* |
-| 3 | **GREEN** 🟢 | Fenrion | Primal | Air | Dexterity | *(None)* | Stamina Points |
-| 4 | **CYAN** 🔵 | Zeusara | Sovereign | Lightning | Wisdom | Energy Shield | *(None)* |
-| 5 | **BLUE** 🔵 | Jormunion | Primal | Water | Intelligence | *(None)* | Mana Points |
-| 6 | **MAGENTA** 🟣 | Anubiseth | Sovereign | Shadow | Charisma | Evasion | *(None)* |
+| 1 | **RED** 🔴 | Surtrynix | Primal | Fire | Strength | *(None)* | Health Points |
+| 2 | **YELLOW** 🟡 | Mavostrax | Sovereign | Metal | Constitution | Armor | *(None)* |
+| 3 | **GREEN** 🟢 | Kitsunrir | Primal | Air | Dexterity | *(None)* | Stamina Points |
+| 4 | **CYAN** 🔵 | Gryphozeus | Sovereign | Lightning | Wisdom | Energy Shield | *(None)* |
+| 5 | **BLUE** 🔵 | Leviangandr | Primal | Water | Intelligence | *(None)* | Mana Points |
+| 6 | **MAGENTA** 🟣 | Anubastet | Sovereign | Shadow | Charisma | Evasion | *(None)* |
 
 ### RGB Anchor Positions
-- **Position 1 (RED)**: Primary RGB anchor - Core survival and strength (Fire/Surturon)
-- **Position 3 (GREEN)**: Primary RGB anchor - Core stamina and dexterity (Air/Fenrion)
-- **Position 5 (BLUE)**: Primary RGB anchor - Core mana and intelligence (Water/Jormunion)
+- **Position 1 (RED)**: Primary RGB anchor - Core survival and strength (Fire/Surtrynix)
+- **Position 3 (GREEN)**: Primary RGB anchor - Core stamina and dexterity (Air/Kitsunrir)
+- **Position 5 (BLUE)**: Primary RGB anchor - Core mana and intelligence (Water/Leviangandr)
 
 ---
 
@@ -124,32 +124,32 @@ Intelligence             Dexterity
 ### 1. **Pantheon Layer** (Established)
 | Position | God | Full Name | Tier | Domain | Mythological Inspiration |
 |----------|-----|-----------|------|--------|-------------------------|
-| 1 | Surturon | Surturon, the World-Ending Flame | Primal | Apocalyptic Fire, World Destruction, Ragnarök | **Surtr** (Norse) - Fire giant who will burn all nine worlds at Ragnarök |
-| 2 | Marsalis | Marsalis, the Golden Dragon | Sovereign | Honorable Metal, Disciplined Might, Warrior's Way | **Mars** (Roman) - God of war and military strategy |
-| 3 | Fenrion | Fenrion, the Devouring Wind | Primal | Monstrous Hunger, Boundless Growth, Wind-Carried Howls | **Fenrir** (Norse) - Monstrous wolf destined to devour Odin at Ragnarök |
-| 4 | Zeusara | Zeusara, the Divine Thunder | Sovereign | Holy Lightning, Divine Authority, Celestial Justice | **Zeus** (Greek) - King of gods, ruler of sky and thunder |
-| 5 | Jormunion | Jormunion, the Frozen Depths | Primal | Icy Oceans, Crushing Depths, Frozen Memory | **Jörmungandr** (Norse) - World Serpent who encircles Midgard in the ocean |
-| 6 | Anubiseth | Anubiseth, the Shadow Judge | Sovereign | Afterlife Guidance, Shadow Wisdom, Underworld Order | **Anubis** (Egyptian) - Jackal-headed god of the afterlife and mummification |
+| 1 | Surtrynix | Surtrynix, the Ash Phoenix | Primal | Apocalyptic Fire, Cyclical Rebirth, World-Ending Flame | **Surtr + Phoenix** (Norse/Classical) |
+| 2 | Mavostrax | Mavostrax, the Auric Dragon King | Sovereign | Honorable Metal, Disciplined Might, Warrior's Code | **Mars + Dragon King** (Roman/Chinese) |
+| 3 | Kitsunrir | Kitsunrir, the Storm-Tailed Hunter | Primal | Monstrous Hunger, Illusory Winds, Oath-Binding Tails | **Fenrir + Nine-Tailed Kitsune** (Norse/Japanese) |
+| 4 | Gryphozeus | Gryphozeus, the Thunder Griffin | Sovereign | Divine Authority, Celestial Justice, Holy Lightning | **Zeus + Griffin** (Greek/Classical) |
+| 5 | Leviangandr | Leviangandr, the Frozen Coil | Primal | Icy Oceans, Abyssal Pressure, Crystalline Memory | **Leviathan + Jörmungandr** (Hebrew/Norse) |
+| 6 | Anubastet | Anubastet, the Veil Sphinx | Sovereign | Afterlife Guidance, Shadow Wisdom, Protective Guardianship | **Anubis + Bastet** (Egyptian) |
 
 #### **Detailed God Descriptions**
 
-**Surturon, the World-Ending Flame (Position 1 - Red Fire)**
-The primordial god of apocalyptic destruction and world-ending transformation, Surturon embodies the essential fire that will consume all existence at the end of times. As the World-Ending Flame, he represents the inevitable conclusion of all cycles - the fire that burns away everything to make space for what comes next. Surturon's domain encompasses not just destructive fire, but the necessary apocalyptic force that cleanses reality for rebirth. He appears as a towering figure of living flame wielding a massive flaming sword, his form constantly crackling with world-consuming energy. Surturon teaches that all things must end so that new things can begin, and that destruction is not evil but necessary. His followers are revolutionaries, those who seek to tear down corrupt systems, and anyone who understands that sometimes everything must burn for truth to emerge. **Inspired by Surtr, the Norse fire giant destined to burn all nine worlds at Ragnarök.**
+**Surtrynix, the Ash Phoenix (Position 1 - Red Fire)**
+The primordial fire that ends worlds and begins them anew. Surtrynix fuses the apocalyptic might of the fire-giant with the cyclical rebirth of the phoenix—flame as both ending and promise. A towering titan wreathed in living embers and ash-feathers, Surtrynix swings a blade of starfire while molten wings shed incandescent cinders. Domains: world-ending transformation, purifying destruction, renewal through burning. Surtrynix teaches that endings are sacred, and only in ash can truth be reborn.
 
-**Marsalis, the Golden Dragon (Position 2 - Yellow Metal)**
-The sovereign god of honorable warfare and metallic perfection, Marsalis embodies the warrior's path through disciplined might and golden virtue. As the Golden Dragon, he represents the fusion of draconic power with Roman military discipline - strength tempered by honor and tactical excellence. Marsalis appears as a magnificent humanoid dragon wreathed in golden scales and radiant armor, wielding weapons of pure celestial metal. His domain covers not just physical combat, but the forging of character through discipline, the creation of perfect weapons and armor, and the warrior's code that turns mere fighting into noble art. He teaches that true strength comes from self-mastery and disciplined training, and that the greatest victories are won through honor, strategy, and unwavering dedication to the warrior's way. **Inspired by Mars, the Roman god of war and military strategy.**
+**Mavostrax, the Auric Dragon King (Position 2 - Yellow Metal)**
+Sovereign of disciplined might and golden law. Mavostrax marries the war-god’s code with the authority of a dragon king—scales like hammered aurum, voice like a legion’s march. He is crowned in lamellar gold and bears a phalanx spearblade. Domains: honorable warfare, metallic perfection, oaths of discipline. Mavostrax teaches that strength without order is waste, and that victory belongs to those who train, endure, and uphold the oath.
 
-**Fenrion, the Devouring Wind (Position 3 - Green Air)**
-The primal god of monstrous hunger and unstoppable growth, Fenrion represents the terrible power of appetite that can never be satisfied. As the Devouring Wind, he embodies the howling gales that carry his endless hunger across all realms, growing larger and more powerful with everything he consumes. Fenrion appears as a massive spectral wolf whose form is made of swirling winds and storm clouds, his howls echoing across vast distances as tornadoes dance around his ethereal figure. His domain encompasses boundless appetite, the power that breaks all chains, the wind that carries terror, and the hunger that grows stronger the more it feeds. He teaches that all bonds are temporary, that growth requires consumption, and that even the gods cannot contain what is destined to be free. His followers are those who refuse to be bound, rebels against authority, and anyone who understands that sometimes appetite is stronger than law. **Inspired by Fenrir, the monstrous Norse wolf destined to break free and devour Odin at Ragnarök.**
+**Kitsunrir, the Storm-Tailed Hunter (Position 3 - Green Air)**
+The primal gale that hunts with guile. Kitsunrir is a colossal wolf crowned with nine living storm-tails; each tail weaves wind, illusion, and binding oaths. Tornado-song and fox-fire laughter herald the hunt. Domains: boundless appetite, freedom from fetters, trickster winds, oath-scent. Kitsunrir teaches that chains are stories mortals agree to, and that the wild chooses its own path through the storm.
 
-**Zeusara, the Divine Thunder (Position 4 - Cyan Lightning)**
-The sovereign goddess of divine authority and celestial justice, Zeusara wields the power of holy lightning to enforce cosmic law and divine will. As the Divine Thunder, she represents the awesome power of divine judgment made manifest through electrical storms and thunderous proclamations. Zeusara appears as a regal figure wreathed in cyan lightning, her voice carrying the authority of thunder itself, her eyes blazing with the light of divine justice. Her domain covers divine law, righteous judgment, the protection of the innocent, and the punishment of the wicked. She teaches that true authority comes from wisdom rather than force, and that justice must be swift, certain, and tempered with mercy. **Inspired by Zeus, the Greek king of gods and ruler of sky and thunder.**
+**Gryphozeus, the Thunder Griffin (Position 4 - Cyan Lightning)**
+Sovereign arbiter of divine law and sky-borne judgment. Gryphozeus descends as a regal griffin crowned in cyan stormlight, eyes like burning verdicts, voice like thunder over marble courts. Talons sever false bonds; wings cast shields of radiant storm. Domains: divine authority, righteous judgment, protection of the innocent. Gryphozeus teaches that true authority flows from wisdom, and justice must be swift, certain, and tempered with mercy.
 
-**Jormunion, the Frozen Depths (Position 5 - Blue Water)**
-The primal god of icy preservation and crushing depths, Jormunion embodies the power to freeze, preserve, and crush through the terrible pressure of the deepest waters. As the Frozen Depths, he represents the endless cycle of ice and water - from frozen memories locked in glacial ice to the crushing pressure of ocean depths that can destroy anything. Jormunion appears as a massive serpentine figure of flowing water and crystalline ice, his form constantly shifting between frozen glaciers, crushing ocean depths, and flowing streams, with memories and knowledge frozen within his icy coils. His domain encompasses memory preservation through ice, the crushing power of deep waters, magical energy channeled through frozen currents, and the understanding that some things must be kept frozen to be preserved. He teaches that memory can be frozen in time like ice, that the deepest waters hold the greatest pressure, and that true preservation requires the courage to embrace the cold depths. **Inspired by Jörmungandr, the Norse World Serpent who encircles Midgard in the ocean.**
+**Leviangandr, the Frozen Coil (Position 5 - Blue Water)**
+The abyssal serpent whose coils are glaciers and trenches. Leviangandr binds oceans and memories alike—pressure that crushes, ice that preserves, currents that carry knowledge through time. A world-encircling serpent of black water and blue crystal, within whose ice lie trapped songs and histories. Domains: preservation, deep-water might, crystalline memory, tidal magic. Leviangandr teaches that what endures is what is kept, and that depth demands patience.
 
-**Anubiseth, the Shadow Judge (Position 6 - Magenta Shadow)**
-The sovereign deity of afterlife guidance and shadow wisdom, Anubiseth serves as the divine judge who guides souls through the mysteries of death, transformation, and rebirth. As the Shadow Judge, she embodies the necessary darkness that balances light, the chaos that enables change, and the wisdom that can only be found by confronting the unknown. Anubiseth appears as a regal figure with the head of a jackal, wreathed in shifting shadows and purple flames, her eyes seeing through all deceptions to the truth beneath. Her domain covers death transitions, shadow magic, beneficial chaos, transformation through crisis, and the wisdom that comes from accepting the unknown. She teaches that shadows are not evil but necessary, that chaos is the engine of growth, and that true wisdom requires the courage to face what lies beyond the light. **Inspired by Anubis, the Egyptian jackal-headed god of the afterlife and mummification.**
+**Anubastet, the Veil Sphinx (Position 6 - Magenta Shadow)**
+Sovereign guide through night and after. Anubastet bears the jackal’s judging gaze and the lioness’s protective grace, crowned in a veil of purple flame. Shadows answer riddles; souls are weighed with kindness and certainty. Domains: death’s thresholds, shadow wisdom, transformative chaos, sanctuary. Anubastet teaches that darkness is not malice but passage, and that change is the mercy by which life continues.
 
 ### 2. **Damage Types Layer** (Established)
 | Position | Type | Color | Description | Source |
@@ -183,9 +183,9 @@ The sovereign deity of afterlife guidance and shadow wisdom, Anubiseth serves as
 - **Charisma (Position 6)**: Bridges Intelligence→Strength through force of personality and social influence
 
 **God Alignment:**
-- **Constitution (Marsalis)**: "Disciplined Might" - physical conditioning and martial endurance
-- **Wisdom (Zeusara)**: "Divine Authority, Celestial Justice" - divine wisdom for healing and protection
-- **Charisma (Anubiseth)**: "Shadow Wisdom, Underworld Order" - charismatic influence spreads change
+- **Constitution (Mavostrax)**: "Disciplined Might" - physical conditioning and martial endurance
+- **Wisdom (Gryphozeus)**: "Divine Authority, Celestial Justice" - divine wisdom for healing and protection
+- **Charisma (Anubastet)**: "Shadow Wisdom, Underworld Order" - charismatic influence spreads change
 
 ### 4. **Armor Types Layer** (Implemented)
 | Position | Armor Type | Color | Type | Description |
@@ -208,14 +208,14 @@ The sovereign deity of afterlife guidance and shadow wisdom, Anubiseth serves as
 | 6 | *(None)* | Magenta 🟣 | Sovereign gods focus on armor types, not resources | - |
 
 **Note:** Only RGB anchor positions (1, 3, 5) have core resources - Primal god alignment.
-- **Position 1 (Fire/Surturon)**: Health represents the vital flame that burns in all living things
-- **Position 3 (Air/Fenrion)**: Stamina channels wind energy for movement and the endless hunt  
-- **Position 5 (Water/Jormunion)**: Mana flows like frozen streams through crystalline memory
+- **Position 1 (Fire/Surtrynix)**: Health represents the vital flame that burns in all living things
+- **Position 3 (Air/Kitsunrir)**: Stamina channels wind energy for movement and the endless hunt  
+- **Position 5 (Water/Leviangandr)**: Mana flows like frozen streams through crystalline memory
 
 **Armor Type Alignment:** Only bridge positions (2, 4, 6) have armor types - Sovereign god alignment.
-- **Position 2 (Metal/Marsalis)**: Armor provides disciplined protection through metallic defense
-- **Position 4 (Lightning/Zeusara)**: Energy Shield channels divine authority into protective barriers
-- **Position 6 (Shadow/Anubiseth)**: Evasion uses shadow wisdom to avoid harm through movement
+- **Position 2 (Metal/Mavostrax)**: Armor provides disciplined protection through metallic defense
+- **Position 4 (Lightning/Gryphozeus)**: Energy Shield channels divine authority into protective barriers
+- **Position 6 (Shadow/Anubastet)**: Evasion uses shadow wisdom to avoid harm through movement
 
 ---
 
@@ -338,18 +338,18 @@ These three positions form the foundational triangle of the hexagonal system:
 
 | Position | Color | God | Role | Systems Anchored |
 |----------|-------|-----|------|------------------|
-| 1 | **RED** 🔴 | Surturon | Strength & Destruction | Health Points, Fire Damage |
-| 3 | **GREEN** 🟢 | Fenrion | Dexterity & Hunger | Stamina Points, Air Damage |
-| 5 | **BLUE** 🔵 | Jormunion | Intelligence & Preservation | Mana Points, Water Damage |
+| 1 | **RED** 🔴 | Surtrynix | Strength & Destruction | Health Points, Fire Damage |
+| 3 | **GREEN** 🟢 | Kitsunrir | Dexterity & Gale-Hunt | Stamina Points, Air Damage |
+| 5 | **BLUE** 🔵 | Leviangandr | Intelligence & Preservation | Mana Points, Water Damage |
 
 ### Bridge Positions (Sovereign Gods)
 These three positions create smooth transitions between the RGB anchors:
 
 | Position | Color | God | Bridge Function | Systems Anchored |
 |----------|-------|-----|-----------------|------------------|
-| 2 | **YELLOW** 🟡 | Marsalis | Red→Green Bridge | Armor, Metal Damage |
-| 4 | **CYAN** 🔵 | Zeusara | Green→Blue Bridge | Energy Shield, Lightning Damage |
-| 6 | **MAGENTA** 🟣 | Anubiseth | Blue→Red Bridge | Evasion, Shadow Damage |
+| 2 | **YELLOW** 🟡 | Mavostrax | Red→Green Bridge | Armor, Metal Damage |
+| 4 | **CYAN** 🔵 | Gryphozeus | Green→Blue Bridge | Energy Shield, Lightning Damage |
+| 6 | **MAGENTA** 🟣 | Anubastet | Blue→Red Bridge | Evasion, Shadow Damage |
 
 ### Color Wheel Logic
 The hexagonal positions follow natural color wheel progression:
