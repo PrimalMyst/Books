@@ -1,6 +1,8 @@
 # PrimalMyst Books
 
-![Logo](assets/logo.png) <!-- Add your game logo here -->
+<p align="center">
+  <img src="assets/logo/pm-hex-logo.svg" alt="PrimalMyst Hex Logo" width="160" height="160" />
+</p>
 
 #### **Key Features**
 - **⚔️ Skill-Based Combat**: Tactical action combat emphasizing timing, positioning, and ability synergy over reflexes
