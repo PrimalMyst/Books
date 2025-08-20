@@ -18,7 +18,8 @@
       "seed": "center_cell_edges",
       "allow_perimeter_as_seed": false,
       "adjacent_to_filled_unlocks": true,
-      "require_path_to_center": true
+  "require_path_to_center": true,
+  "eligibility_requires_adjacent_active": true
     }
   },
   "metadata": {

@@ -47,8 +47,9 @@
             "allow_perimeter_as_seed": {"type": "boolean", "const": false, "description": "Perimeter cannot be used as a starting point"},
             "adjacent_to_filled_unlocks": {"type": "boolean", "description": "Cells adjacent to an Active (filled) cell have their edges eligible for selection"},
             "require_path_to_center": {"type": "boolean", "description": "Only edges connected by a path to the center can be selected"}
+            ,"eligibility_requires_adjacent_active": {"type": "boolean", "description": "Only edges from cells adjacent to an Active cell are eligible for selection"}
           },
-          "required": ["seed", "allow_perimeter_as_seed", "adjacent_to_filled_unlocks", "require_path_to_center"]
+          "required": ["seed", "allow_perimeter_as_seed", "adjacent_to_filled_unlocks", "require_path_to_center", "eligibility_requires_adjacent_active"]
         }
       },
       "required": [

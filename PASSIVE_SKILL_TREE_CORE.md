@@ -10,9 +10,10 @@ This document defines the core, system-level shape and rules for the Passive Ski
 - Cell activation: Selecting all 6 edges of a cell marks that cell Active.
 - Perimeter rule: All outer perimeter edges of the big hexagon are always Active (do not cost points and cannot be unselected).
 - Center rule: The central cell starts Active with all of its edges selected (do not cost points and cannot be unselected).
- - Connectivity rule: Players may only select edges that are connected to the central cell’s edges. Expansion proceeds outward; edges in cells not connected to the center are not selectable.
- - Adjacent-to-filled rule: A cell adjacent (edge-sharing) to a filled (Active) cell unlocks its edges for selection, allowing gradual completion of edge cells without requiring a new start point at the perimeter.
- - Perimeter connectivity: Perimeter edges are locked-active but do not provide connectivity for expansion (they cannot be used as starting points).
+ - Connectivity rule: Selection is center-seeded AND eligibility-restricted.
+	 - Center-seeded: Only the component connected to the center is considered.
+	 - Eligibility: You may only select edges that belong to a cell adjacent (edge-sharing) to an Active cell.
+ - Perimeter connectivity: Perimeter edges are locked-active but do not act as connectivity seeds and do not grant eligibility on their own.
 
 ## Geometry
 
@@ -24,11 +25,11 @@ We’ll store the tree procedurally with radius + rules. Explicit cells/edges ca
 
 ### Radius variants (for comparison)
 
-We treat radius as a variable so we can compare alternatives:
+We treat radius as a variable so we can compare alternatives. Under adjacency eligibility, the minimum achievable actives with any meaningful expansion is at least 2 (center + one neighbor):
 
-- r = 5 → total cells N = 91 → min active cells = 1 (center only) → max active cells = 91
-- r = 6 → total cells N = 127 → min active cells = 1 → max active cells = 127
-- r = 7 → total cells N = 169 → min active cells = 1 → max active cells = 169
+- r = 5 → total cells N = 91 → min active cells ≥ 2
+- r = 6 → total cells N = 127 → min active cells ≥ 2
+- r = 7 → total cells N = 169 → min active cells ≥ 2
 
 Notes:
 - Perimeter edges are locked-active but don’t automatically fully activate perimeter cells.
@@ -70,5 +71,5 @@ These are achievable upper bounds by favoring compact, high-sharing paths from t
 ## Selection flow (summary)
 
 1) Start state: Center cell’s 6 edges are locked active and count as the connectivity origin.
-2) Expansion: You can allocate an edge if it belongs to a cell that is connected via cells/edges to the center OR the cell is adjacent to any Active (filled) cell.
+2) Expansion: You can allocate an edge only if its cell is adjacent to an Active cell (eligibility), and it lies in the center-connected component.
 3) Perimeter: Perimeter edges remain locked-active but do not serve as connectivity seeds; reaching outer cells still requires a connected path from the center.
