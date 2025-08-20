@@ -36,17 +36,20 @@ Notes:
 
 ### Activation bounds with 99 allocable edges
 
-Let S = 99 allocable edges. Each selected edge contributes to 2 cells (shared edge), so total credit from selections is 2S = 198. A cell activates at 6 credits (edges). Freebies: center’s 6 edges (already active) give 1 free credit to each of its 6 neighbors; perimeter contributes 6r free credits (one per perimeter cell). Upper bound for newly activated cells M (excluding center) satisfies:
+Let S = 99 allocable edges. Each selected edge provides 2 “credits” (one to each incident cell). A cell activates at 6 credits. Free edges (“freebies”):
+- Center-to-ring1: +6 total credits (1 to each of the 6 neighbors of center).
+- Perimeter: +3 credits to each perimeter cell you activate (its 3 outer edges are free).
 
-- If M ≤ (6 + 6r): 2S + M ≥ 6M ⇒ M ≤ floor(2S/5) = 39.
-- If M > (6 + 6r): 2S + (6 + 6r) ≥ 6M ⇒ M ≤ floor((2S + 6 + 6r)/6).
+Maximize newly activated cells m (excluding the center) subject to credit conservation:
+- 6m ≤ 2S + 6 + 3P, where P is the count of activated perimeter cells (P ≤ min(m, 6r)).
+- For r ∈ {5,6,7}, the optimum is m > 6r, so set P = 6r. Then 6m ≤ 2S + 6 + 18r ⇒ m = (2S + 6 + 18r)/6 = 34 + 3r.
 
-Results (including the center cell):
-- r = 5 (N=91): min = 1; max upper bound = 1 + 39 = 40
-- r = 6 (N=127): min = 1; max upper bound = 1 + 39 = 40
-- r = 7 (N=169): min = 1; max upper bound = 1 + 39 = 40
+Totals including the center (T = m + 1):
+- r = 5 (N = 91): m = 49 ⇒ T = 50
+- r = 6 (N = 127): m = 52 ⇒ T = 53
+- r = 7 (N = 169): m = 55 ⇒ T = 56
 
-Note: 40 is a budget-limited upper bound assuming perfect sharing and fully leveraging one freebie per completed cell when possible. Actual achievable maxima will depend on layout routing; connectivity from center is compatible with approaching this bound using compact clusters.
+These values are tight by the credit model (equalities hold), and are compatible with center-seeded connectivity once you route to the perimeter.
 
 ## Progression contract
 

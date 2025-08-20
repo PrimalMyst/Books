@@ -7,8 +7,8 @@
       "unique_edges_unified": 288,
       "perimeter_edges": 30,
       "expected_active_cells_min": 1,
-      "expected_active_cells_max_practical": 35,
-      "expected_active_cells_max_theoretical": 40
+  "expected_active_cells_max_practical": 35,
+  "expected_active_cells_max_theoretical": 50
     },
     {
       "radius": 6,
@@ -17,8 +17,8 @@
       "unique_edges_unified": 399,
       "perimeter_edges": 36,
       "expected_active_cells_min": 1,
-      "expected_active_cells_max_practical": 35,
-      "expected_active_cells_max_theoretical": 41
+  "expected_active_cells_max_practical": 35,
+  "expected_active_cells_max_theoretical": 53
     },
     {
       "radius": 7,
@@ -27,9 +27,9 @@
       "unique_edges_unified": 528,
       "perimeter_edges": 42,
       "expected_active_cells_min": 1,
-      "expected_active_cells_max_practical": 35,
-      "expected_active_cells_max_theoretical": 42
+    "expected_active_cells_max_practical": 35,
+    "expected_active_cells_max_theoretical": 56
     }
   ],
-  "notes": "unique_edges_unified = (6*N + 6*r)/2 where N = 1 + 3*r*(r+1). Expected max (practical) assumes a compact cluster near center: floor((2*99 + 6)/6)+1 = 35. Expected max (theoretical) counts center+perimeter freebies: floor((2*99 + 6 + 6*r)/6)+1."
+  "notes": "unique_edges_unified = (6*N + 6*r)/2 where N = 1 + 3*r*(r+1). Practical max uses compact cluster sharing; theoretical total (including center) uses T = 35 + 3r from 6m = 2S + 6 + 18r with S = 99 and P = 6r."
 }
