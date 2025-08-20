@@ -1,0 +1,32 @@
+# Passive Skill Tree — Core Spec (v0.1)
+
+This document defines the core, system-level shape and rules for the Passive Skill Tree. It’s intentionally iterative so we can extend it with mechanics, visuals, and content later.
+
+## Core requirements
+
+- Points per level: 1 per level from 2 → 100 (total 99 points for levels 1–100).
+- Tree layout: Hexagonal honeycomb of radius 6 (total cells = 127).
+- Selection unit: Edges. Every hex cell has 6 edges; each edge is one selectable passive point.
+- Cell activation: Selecting all 6 edges of a cell marks that cell Active.
+- Perimeter rule: All outer perimeter edges of the big hexagon are always Active (do not cost points and cannot be unselected).
+- Center rule: The central cell starts Active with all of its edges selected (do not cost points and cannot be unselected).
+
+## Geometry
+
+- Grid: Hex axial coordinates (q, r); cube s is implied by s = −q − r.
+- Radius r = 6; total cells N = 1 + 3·r·(r+1) = 127.
+- Unique edges: E = (6·N + 6·r)/2 = 399. Of these, perimeter edges = 6·r = 36.
+
+We’ll store the tree procedurally with radius + rules. Explicit cells/edges can be added later if needed (for authored clusters, art alignment, or special routing).
+
+## Progression contract
+
+- Input: character level L in [1, 100].
+- Output: total allocable passive points = max(0, min(L, 100) − 1).
+- Notes: Perimeter edges and central cell edges are granted by system rules and do not consume points.
+
+## Next iterations
+
+- Named passive clusters and notables mapped to edge sets.
+- Attribute scaling, synergies, and keystones that require patterns (rings, spokes, etc.).
+- Character save schema for allocations and validation.

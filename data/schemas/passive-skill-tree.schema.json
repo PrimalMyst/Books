@@ -1,0 +1,64 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "PrimalMyst Passive Skill Tree Schema",
+  "description": "Defines the geometry and immutable rules for the passive skill tree",
+  "type": "object",
+  "properties": {
+    "tree_id": {"type": "string", "description": "Unique id for this tree"},
+    "version": {"type": "string"},
+    "geometry": {
+      "type": "object",
+      "properties": {
+        "layout": {"type": "string", "enum": ["hex_honeycomb"], "default": "hex_honeycomb"},
+        "coordinate_system": {"type": "string", "enum": ["axial"], "default": "axial"},
+        "radius": {"type": "integer", "minimum": 1, "maximum": 8, "description": "Hex radius; 6 yields 127 cells"},
+        "cells": {
+          "type": "object",
+          "description": "Optional explicit cell metadata indexed by axial key 'q,r'",
+          "additionalProperties": {
+            "type": "object",
+            "properties": {
+              "q": {"type": "integer"},
+              "r": {"type": "integer"},
+              "tags": {"type": "array", "items": {"type": "string"}},
+              "notes": {"type": "string"}
+            },
+            "required": ["q", "r"]
+          }
+        }
+      },
+      "required": ["layout", "coordinate_system", "radius"]
+    },
+    "rules": {
+      "type": "object",
+      "properties": {
+        "points_per_level": {"type": "number", "const": 1},
+        "max_level": {"type": "integer", "minimum": 1, "maximum": 200, "default": 100},
+        "grant_at_level": {"type": "integer", "minimum": 1, "maximum": 10, "default": 2, "description": "First level that grants a point"},
+        "selection_unit": {"type": "string", "enum": ["edge"]},
+        "cell_activation_rule": {"type": "string", "enum": ["all_6_edges_selected"]},
+        "perimeter_edges_always_active": {"type": "boolean"},
+        "center_cell_always_active": {"type": "boolean"}
+      },
+      "required": [
+        "points_per_level",
+        "max_level",
+        "grant_at_level",
+        "selection_unit",
+        "cell_activation_rule",
+        "perimeter_edges_always_active",
+        "center_cell_always_active"
+      ]
+    },
+    "metadata": {
+      "type": "object",
+      "properties": {
+        "created": {"type": "string"},
+        "last_updated": {"type": "string"},
+        "canonical": {"type": "boolean"},
+        "author": {"type": "string"}
+      }
+    }
+  },
+  "required": ["tree_id", "version", "geometry", "rules"]
+}

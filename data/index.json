@@ -1,7 +1,7 @@
 {
   "project": "PrimalMyst Books Data Index",
   "version": "1.0.0",
-  "last_updated": "2025-07-24T20:30:00Z",
+  "last_updated": "2025-08-20T00:00:00Z",
   "description": "Master index of all structured data in the PrimalMyst Books",
   
   "schemas": {
@@ -148,6 +148,21 @@
       "description": "Individual island definitions with detailed geography, culture, trial integration, and hexagonal relationships - now merged into location files",
       "required_fields": ["island_id", "position", "geography", "cultural_expressions", "divine_trial", "hexagon_relationships", "environmental_mechanics", "travel_connections"],
       "example": "data/json/locations/aurelius-isle-kingdom.json"
+    },
+    "passive-skill-tree": {
+      "file": "data/schemas/passive-skill-tree.schema.json",
+      "description": "Geometry and core rules for the passive skill tree",
+      "required_fields": ["tree_id", "version", "geometry", "rules"],
+      "example": "data/json/passive-skill-tree/passive-skill-tree-core.json"
+    }
+  },
+  
+  "schemas_extra": {
+    "passive-skill-tree": {
+      "file": "data/schemas/passive-skill-tree.schema.json",
+      "description": "Geometry and core rules for the passive skill tree",
+      "required_fields": ["tree_id", "version", "geometry", "rules"],
+      "example": "data/json/passive-skill-tree/passive-skill-tree-core.json"
     }
   },
 
@@ -417,6 +432,14 @@
         "classes/class-4-warrior.json",
         "classes/class-5-chieftain.json",
         "classes/class-6-priestess.json"
+      ]
+    },
+    "passive-skill-tree": {
+      "path": "data/json/passive-skill-tree/",
+      "schema": "passive-skill-tree",
+      "count": 1,
+      "examples": [
+        "passive-skill-tree-core.json"
       ]
     }
   },
