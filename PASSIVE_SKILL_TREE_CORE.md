@@ -34,6 +34,20 @@ Notes:
 - Perimeter edges are locked-active but don’t automatically fully activate perimeter cells.
 - Max active cells assumes all selectable edges are taken under the rules (center-seeded connectivity, no perimeter starts).
 
+### Activation bounds with 99 allocable edges
+
+Let S = 99 allocable edges. Each selected edge contributes to 2 cells (shared edge), so total credit from selections is 2S = 198. A cell activates at 6 credits (edges). Freebies: center’s 6 edges (already active) give 1 free credit to each of its 6 neighbors; perimeter contributes 6r free credits (one per perimeter cell). Upper bound for newly activated cells M (excluding center) satisfies:
+
+- If M ≤ (6 + 6r): 2S + M ≥ 6M ⇒ M ≤ floor(2S/5) = 39.
+- If M > (6 + 6r): 2S + (6 + 6r) ≥ 6M ⇒ M ≤ floor((2S + 6 + 6r)/6).
+
+Results (including the center cell):
+- r = 5 (N=91): min = 1; max upper bound = 1 + 39 = 40
+- r = 6 (N=127): min = 1; max upper bound = 1 + 39 = 40
+- r = 7 (N=169): min = 1; max upper bound = 1 + 39 = 40
+
+Note: 40 is a budget-limited upper bound assuming perfect sharing and fully leveraging one freebie per completed cell when possible. Actual achievable maxima will depend on layout routing; connectivity from center is compatible with approaching this bound using compact clusters.
+
 ## Progression contract
 
 - Input: character level L in [1, 100].
