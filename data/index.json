@@ -1,7 +1,7 @@
 {
   "project": "PrimalMyst Books Data Index",
   "version": "1.0.0",
-  "last_updated": "2025-08-20T00:00:00Z",
+  "last_updated": "2025-08-20T00:05:00Z",
   "description": "Master index of all structured data in the PrimalMyst Books",
   
   "schemas": {
@@ -439,7 +439,8 @@
       "schema": "passive-skill-tree",
       "count": 1,
       "examples": [
-        "passive-skill-tree-core.json"
+        "passive-skill-tree-core.json",
+        "radius-variants-comparison.json"
       ]
     }
   },

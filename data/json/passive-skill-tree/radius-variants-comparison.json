@@ -1,0 +1,32 @@
+{
+  "variants": [
+    {
+      "radius": 5,
+      "total_cells": 91,
+      "unique_edges": "(6*N + 6*r)/2",
+      "unique_edges_unified": 306,
+      "perimeter_edges": 30,
+      "min_active_cells": 1,
+      "max_active_cells": 91
+    },
+    {
+      "radius": 6,
+      "total_cells": 127,
+      "unique_edges": "(6*N + 6*r)/2",
+      "unique_edges_unified": 399,
+      "perimeter_edges": 36,
+      "min_active_cells": 1,
+      "max_active_cells": 127
+    },
+    {
+      "radius": 7,
+      "total_cells": 169,
+      "unique_edges": "(6*N + 6*r)/2",
+      "unique_edges_unified": 501,
+      "perimeter_edges": 42,
+      "min_active_cells": 1,
+      "max_active_cells": 169
+    }
+  ],
+  "notes": "unique_edges_unified = (6*N + 6*r)/2 where N = 1 + 3*r*(r+1). "
+}

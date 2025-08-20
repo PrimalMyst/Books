@@ -22,6 +22,18 @@ This document defines the core, system-level shape and rules for the Passive Ski
 
 We’ll store the tree procedurally with radius + rules. Explicit cells/edges can be added later if needed (for authored clusters, art alignment, or special routing).
 
+### Radius variants (for comparison)
+
+We treat radius as a variable so we can compare alternatives:
+
+- r = 5 → total cells N = 91 → min active cells = 1 (center only) → max active cells = 91
+- r = 6 → total cells N = 127 → min active cells = 1 → max active cells = 127
+- r = 7 → total cells N = 169 → min active cells = 1 → max active cells = 169
+
+Notes:
+- Perimeter edges are locked-active but don’t automatically fully activate perimeter cells.
+- Max active cells assumes all selectable edges are taken under the rules (center-seeded connectivity, no perimeter starts).
+
 ## Progression contract
 
 - Input: character level L in [1, 100].
