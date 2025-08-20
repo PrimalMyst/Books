@@ -38,7 +38,18 @@
         "selection_unit": {"type": "string", "enum": ["edge"]},
         "cell_activation_rule": {"type": "string", "enum": ["all_6_edges_selected"]},
         "perimeter_edges_always_active": {"type": "boolean"},
-        "center_cell_always_active": {"type": "boolean"}
+        "center_cell_always_active": {"type": "boolean"},
+        "connectivity": {
+          "type": "object",
+          "description": "Connectivity constraints governing which edges can be selected",
+          "properties": {
+            "seed": {"type": "string", "enum": ["center_cell_edges"], "description": "Where selection connectivity seeds from"},
+            "allow_perimeter_as_seed": {"type": "boolean", "const": false, "description": "Perimeter cannot be used as a starting point"},
+            "adjacent_to_filled_unlocks": {"type": "boolean", "description": "Cells adjacent to an Active (filled) cell have their edges eligible for selection"},
+            "require_path_to_center": {"type": "boolean", "description": "Only edges connected by a path to the center can be selected"}
+          },
+          "required": ["seed", "allow_perimeter_as_seed", "adjacent_to_filled_unlocks", "require_path_to_center"]
+        }
       },
       "required": [
         "points_per_level",
@@ -47,7 +58,8 @@
         "selection_unit",
         "cell_activation_rule",
         "perimeter_edges_always_active",
-        "center_cell_always_active"
+        "center_cell_always_active",
+        "connectivity"
       ]
     },
     "metadata": {

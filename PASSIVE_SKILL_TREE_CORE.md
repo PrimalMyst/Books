@@ -10,6 +10,9 @@ This document defines the core, system-level shape and rules for the Passive Ski
 - Cell activation: Selecting all 6 edges of a cell marks that cell Active.
 - Perimeter rule: All outer perimeter edges of the big hexagon are always Active (do not cost points and cannot be unselected).
 - Center rule: The central cell starts Active with all of its edges selected (do not cost points and cannot be unselected).
+ - Connectivity rule: Players may only select edges that are connected to the central cell’s edges. Expansion proceeds outward; edges in cells not connected to the center are not selectable.
+ - Adjacent-to-filled rule: A cell adjacent (edge-sharing) to a filled (Active) cell unlocks its edges for selection, allowing gradual completion of edge cells without requiring a new start point at the perimeter.
+ - Perimeter connectivity: Perimeter edges are locked-active but do not provide connectivity for expansion (they cannot be used as starting points).
 
 ## Geometry
 
@@ -30,3 +33,9 @@ We’ll store the tree procedurally with radius + rules. Explicit cells/edges ca
 - Named passive clusters and notables mapped to edge sets.
 - Attribute scaling, synergies, and keystones that require patterns (rings, spokes, etc.).
 - Character save schema for allocations and validation.
+
+## Selection flow (summary)
+
+1) Start state: Center cell’s 6 edges are locked active and count as the connectivity origin.
+2) Expansion: You can allocate an edge if it belongs to a cell that is connected via cells/edges to the center OR the cell is adjacent to any Active (filled) cell.
+3) Perimeter: Perimeter edges remain locked-active but do not serve as connectivity seeds; reaching outer cells still requires a connected path from the center.

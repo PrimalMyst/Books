@@ -13,7 +13,13 @@
     "selection_unit": "edge",
     "cell_activation_rule": "all_6_edges_selected",
     "perimeter_edges_always_active": true,
-    "center_cell_always_active": true
+    "center_cell_always_active": true,
+    "connectivity": {
+      "seed": "center_cell_edges",
+      "allow_perimeter_as_seed": false,
+      "adjacent_to_filled_unlocks": true,
+      "require_path_to_center": true
+    }
   },
   "metadata": {
     "created": "2025-08-20T00:00:00Z",
