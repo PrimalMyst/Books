@@ -14,7 +14,7 @@ The PrimalMyst hexagonal system uses **corner positions** rather than edge or fa
                      /  \
     (6) TOP-LEFT 🟣     (2) TOP-RIGHT 🟡
     NORTHWEST CORNER    NORTHEAST CORNER
-    Anubastet (S)       Mavostrax (S)
+    Bastenyx (S)        Mavostrax (S)
                    \    /
                     \  /
     (5) BOTTOM-LEFT 🔵 ---- (3) BOTTOM-RIGHT 🟢
@@ -54,7 +54,7 @@ The PrimalMyst hexagonal system uses **corner positions** rather than edge or fa
 | 3 GREEN 🟢 | Kitsunrir | Air | Dexterity | *(None)* | Stamina Points |
 | 4 CYAN 🔷 | Gryphozeus | Lightning | Wisdom | Energy Shield | *(None)* |
 | 5 BLUE 🔵 | Leviangandr | Water | Intelligence | *(None)* | Mana Points |
-| 6 MAGENTA 🟣 | Anubastet | Shadow | Charisma | Evasion | *(None)* |
+| 6 MAGENTA 🟣 | Bastenyx | Shadow | Charisma | Evasion | *(None)* |
 
 ## Purpose
 This document tracks all established hexagonal layers in PrimalMyst and their corner mappings to prepare for full refactoring. Each layer follows the same 6-corner pattern aligned with our RGB color system and divine pantheon structure. All positions use the corner-based clockwise system starting from Position 1 (North/Top) as defined in the Hexagonal Positioning System above.
@@ -71,7 +71,7 @@ The hexagonal system is anchored by the three primary RGB colors at corners 1, 3
                       /\
                      /  \
 (6) MAGENTA NW 🟣        (2) YELLOW NE 🟡
-Anubastet (S)            Mavostrax (S)
+Bastenyx (S)            Mavostrax (S)
  Charisma                Constitution
  Evasion                 Armor
                    \    /
@@ -93,7 +93,7 @@ Intelligence             Dexterity
 - **Position 3 (GREEN)** 🟢 - Primary anchor - Kitsunrir (Primal) - Air damage
 - **Position 4 (CYAN)** 🔷 - Green→Blue bridge - Gryphozeus (Sovereign) - Green + Blue = #00FFFF
 - **Position 5 (BLUE)** 🔵 - Primary anchor - Leviangandr (Primal) - Water damage
-- **Position 6 (MAGENTA)** 🟣 - Blue→Red bridge - Anubastet (Sovereign) - Blue + Red = #FF00FF
+- **Position 6 (MAGENTA)** 🟣 - Blue→Red bridge - Bastenyx (Sovereign) - Blue + Red = #FF00FF
 
 **Legend:**
 - (P) = Primal God (RGB anchor positions)
@@ -110,7 +110,7 @@ Intelligence             Dexterity
 | 3 | **GREEN** 🟢 | Kitsunrir | Primal | Air | Dexterity | *(None)* | Stamina Points |
 | 4 | **CYAN** 🔷 | Gryphozeus | Sovereign | Lightning | Wisdom | Energy Shield | *(None)* |
 | 5 | **BLUE** 🔵 | Leviangandr | Primal | Water | Intelligence | *(None)* | Mana Points |
-| 6 | **MAGENTA** 🟣 | Anubastet | Sovereign | Shadow | Charisma | Evasion | *(None)* |
+| 6 | **MAGENTA** 🟣 | Bastenyx | Sovereign | Shadow | Charisma | Evasion | *(None)* |
 
 ### RGB Anchor Positions
 - **Position 1 (RED)**: Primary RGB anchor - Core survival and strength (Fire/Surtrynix)
@@ -122,14 +122,14 @@ Intelligence             Dexterity
 ## Detailed Layer Breakdown
 
 ### 1. **Pantheon Layer** (Established)
-| Position | God | Full Name | Tier | Domain | Mythological Inspiration |
-|----------|-----|-----------|------|--------|-------------------------|
-| 1 | Surtrynix | Surtrynix, the Ash Phoenix | Primal | Apocalyptic Fire, Cyclical Rebirth, World-Ending Flame | **Surtr + Phoenix** (Norse/Classical) |
-| 2 | Mavostrax | Mavostrax, the Auric Dragon King | Sovereign | Honorable Metal, Disciplined Might, Warrior's Code | **Mars + Dragon King** (Roman/Chinese) |
-| 3 | Kitsunrir | Kitsunrir, the Storm-Tailed Hunter | Primal | Monstrous Hunger, Illusory Winds, Oath-Binding Tails | **Fenrir + Nine-Tailed Kitsune** (Norse/Japanese) |
-| 4 | Gryphozeus | Gryphozeus, the Thunder Griffin | Sovereign | Divine Authority, Celestial Justice, Holy Lightning | **Zeus + Griffin** (Greek/Classical) |
-| 5 | Leviangandr | Leviangandr, the Frozen Coil | Primal | Icy Oceans, Abyssal Pressure, Crystalline Memory | **Leviathan + Jörmungandr** (Hebrew/Norse) |
-| 6 | Anubastet | Anubastet, the Veil Sphinx | Sovereign | Afterlife Guidance, Shadow Wisdom, Protective Guardianship | **Anubis + Bastet** (Egyptian) |
+| Position | God | Combat Form | Beast Form | Humanoid Form | Tier | Domain | Mythological Inspiration |
+|----------|-----|-------------|------------|---------------|------|--------|-------------------------|
+| 1 | Surtrynix | Surtrynix, the Ash Phoenix | Ash raven | Stoic blacksmith with ember eyes | Primal | Apocalyptic Fire, Cyclical Rebirth, World-Ending Flame | **Surtr + Phoenix** (Norse/Classical) |
+| 2 | Mavostrax | Mavostrax, the Auric Dragon King | Golden lion | Disciplined warlord clad in golden armor | Sovereign | Honorable Metal, Disciplined Might, Warrior's Code | **Mars + Dragon King** (Roman/Chinese) |
+| 3 | Kitsunrir | Kitsunrir, the Storm-Tailed Hunter | Forest fox on the wind | Beautiful young lady with sly smile | Primal | Monstrous Hunger, Illusory Winds, Oath-Binding Tails | **Fenrir + Nine-Tailed Kitsune** (Norse/Japanese) |
+| 4 | Gryphozeus | Gryphozeus, the Thunder Griffin | Eagle | Stern magistrate in cyan regalia | Sovereign | Divine Authority, Celestial Justice, Holy Lightning | **Zeus + Griffin** (Greek/Classical) |
+| 5 | Leviangandr | Leviangandr, the Frozen Coil | Serpent | Blue‑eyed scholar with crystalline jewelry | Primal | Icy Oceans, Abyssal Pressure, Crystalline Memory | **Leviathan + Jörmungandr** (Hebrew/Norse) |
+| 6 | Bastenyx | Bastenyx, the Nightclaw Sphinx | Night lioness (shadow panther) | Veiled night priestess with feline grace | Sovereign | Afterlife Guidance, Shadow Wisdom, Protective Guardianship | **Bastet + Nyx** (Egyptian/Greek) |
 
 #### **Detailed God Descriptions**
 
@@ -148,8 +148,8 @@ Sovereign arbiter of divine law and sky-borne judgment. Gryphozeus descends as a
 **Leviangandr, the Frozen Coil (Position 5 - Blue Water)**
 The abyssal serpent whose coils are glaciers and trenches. Leviangandr binds oceans and memories alike—pressure that crushes, ice that preserves, currents that carry knowledge through time. A world-encircling serpent of black water and blue crystal, within whose ice lie trapped songs and histories. Domains: preservation, deep-water might, crystalline memory, tidal magic. Leviangandr teaches that what endures is what is kept, and that depth demands patience.
 
-**Anubastet, the Veil Sphinx (Position 6 - Magenta Shadow)**
-Sovereign guide through night and after. Anubastet bears the jackal’s judging gaze and the lioness’s protective grace, crowned in a veil of purple flame. Shadows answer riddles; souls are weighed with kindness and certainty. Domains: death’s thresholds, shadow wisdom, transformative chaos, sanctuary. Anubastet teaches that darkness is not malice but passage, and that change is the mercy by which life continues.
+**Bastenyx, the Nightclaw Sphinx (Position 6 - Magenta Shadow)**
+Sovereign huntress of thresholds and night wars. Rooted in Bastet’s protective feline ferocity and veiled by Nyx’s star‑woven darkness, Bastenyx stalks the liminal paths with silent paws and moonlit claws. Stars gather in her shadowed mane; her purr is a lullaby for the grieving and a warning to the cruel. Domains: death’s thresholds, shadow wisdom, nocturnal wardenship, righteous predation. Bastenyx teaches that the night is a shield—and in it, predators keep the peace.
 
 ### 2. **Damage Types Layer** (Established)
 | Position | Type | Color | Description | Source |
@@ -185,7 +185,7 @@ Sovereign guide through night and after. Anubastet bears the jackal’s judging 
 **God Alignment:**
 - **Constitution (Mavostrax)**: "Disciplined Might" - physical conditioning and martial endurance
 - **Wisdom (Gryphozeus)**: "Divine Authority, Celestial Justice" - divine wisdom for healing and protection
-- **Charisma (Anubastet)**: "Shadow Wisdom, Underworld Order" - charismatic influence spreads change
+- **Charisma (Bastenyx)**: "Shadow Wisdom, Underworld Order" - charismatic influence spreads change
 
 ### 4. **Armor Types Layer** (Implemented)
 | Position | Armor Type | Color | Type | Description |
@@ -215,7 +215,7 @@ Sovereign guide through night and after. Anubastet bears the jackal’s judging 
 **Armor Type Alignment:** Only bridge positions (2, 4, 6) have armor types - Sovereign god alignment.
 - **Position 2 (Metal/Mavostrax)**: Armor provides disciplined protection through metallic defense
 - **Position 4 (Lightning/Gryphozeus)**: Energy Shield channels divine authority into protective barriers
-- **Position 6 (Shadow/Anubastet)**: Evasion uses shadow wisdom to avoid harm through movement
+- **Position 6 (Shadow/Bastenyx)**: Evasion uses shadow wisdom to avoid harm through movement
 
 ---
 
@@ -349,7 +349,7 @@ These three positions create smooth transitions between the RGB anchors:
 |----------|-------|-----|-----------------|------------------|
 | 2 | **YELLOW** 🟡 | Mavostrax | Red→Green Bridge | Armor, Metal Damage |
 | 4 | **CYAN** 🔷 | Gryphozeus | Green→Blue Bridge | Energy Shield, Lightning Damage |
-| 6 | **MAGENTA** 🟣 | Anubastet | Blue→Red Bridge | Evasion, Shadow Damage |
+| 6 | **MAGENTA** 🟣 | Bastenyx | Blue→Red Bridge | Evasion, Shadow Damage |
 
 ### Color Wheel Logic
 The hexagonal positions follow natural color wheel progression:
