@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="720" height="720" viewBox="0 0 720 720">
   <style>
-    .cell { fill: none; stroke: #888; stroke-width: 2; stroke-dasharray: 6 6; }
-    .active { fill: #ff4d4d; stroke: #b30000; stroke-width: 3; stroke-dasharray: none; }
-    .edge-selected { stroke: #222; stroke-width: 4; stroke-dasharray: none; }
+  .cell { fill: none; stroke: #888; stroke-width: 2; stroke-dasharray: 6 6; }
+  .eligible { fill: #ffe066; stroke: #c8a600; stroke-width: 2; stroke-dasharray: 6 6; }
+  .active { fill: #ff4d4d; stroke: #b30000; stroke-width: 3; stroke-dasharray: none; }
+  .edge-selected { stroke: #222; stroke-width: 4; stroke-dasharray: none; }
     .label { font-family: Arial, sans-serif; font-size: 13px; fill: #333; }
   </style>
 
@@ -22,11 +23,11 @@
   <g transform="translate(80,194.1155)"><use href="#hex-a30" class="cell"/></g>
   <g transform="translate(80,246.077)"><use href="#hex-a30" class="cell"/></g>
   <g transform="translate(80,298.0385)"><use href="#hex-a30" class="cell"/></g>
-  <g transform="translate(80,350)"><use href="#hex-a30" class="cell"/></g>
+    <g transform="translate(350,401.9615)"><use href="#hex-a30" class="eligible"/></g>
   <g transform="translate(80,401.9615)"><use href="#hex-a30" class="cell"/></g>
-  <g transform="translate(80,453.923)"><use href="#hex-a30" class="cell"/></g>
+    <g transform="translate(395,375.98075)"><use href="#hex-a30" class="eligible"/></g>
   <g transform="translate(80,505.8845)"><use href="#hex-a30" class="cell"/></g>
-
+    <g transform="translate(305,375.98075)"><use href="#hex-a30" class="eligible"/></g>
   <!-- q = -5 -->
   <g transform="translate(125,168.13475)"><use href="#hex-a30" class="cell"/></g>
   <g transform="translate(125,220.09625)"><use href="#hex-a30" class="cell"/></g>
@@ -93,7 +94,7 @@
   <g transform="translate(350,142.154)"><use href="#hex-a30" class="cell"/></g>
   <g transform="translate(350,194.1155)"><use href="#hex-a30" class="cell"/></g>
   <g transform="translate(350,246.077)"><use href="#hex-a30" class="cell"/></g>
-  <g transform="translate(350,298.0385)"><use href="#hex-a30" class="cell"/></g>
+  <g transform="translate(350,298.0385)"><use href="#hex-a30" class="eligible"/></g>
   <g transform="translate(350,350)"><use href="#hex-a30" class="active"/></g>
   <g transform="translate(350,401.9615)"><use href="#hex-a30" class="cell"/></g>
   <g transform="translate(350,453.923)"><use href="#hex-a30" class="cell"/></g>
@@ -108,7 +109,7 @@
   <g transform="translate(395,168.13475)"><use href="#hex-a30" class="cell"/></g>
   <g transform="translate(395,220.09625)"><use href="#hex-a30" class="cell"/></g>
   <g transform="translate(395,272.05775)"><use href="#hex-a30" class="cell"/></g>
-  <g transform="translate(395,324.01925)"><use href="#hex-a30" class="cell"/></g>
+  <g transform="translate(395,324.01925)"><use href="#hex-a30" class="eligible"/></g>
   <g transform="translate(395,375.98075)"><use href="#hex-a30" class="cell"/></g>
   <g transform="translate(395,427.94225)"><use href="#hex-a30" class="cell"/></g>
   <g transform="translate(395,479.90375)"><use href="#hex-a30" class="cell"/></g>
