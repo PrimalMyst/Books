@@ -92,7 +92,7 @@ world-building/
 - Update both narrative and JSON when making changes
 
 ### Lore Consistency Rules
-- **Divine Influences**: Only reference the Eldritch Pantheon (Pyrion, Glacius, Voltharion, Serafina, Aurelius, Korthak, Myrielle)
+- **Divine Influences**: Only reference the Eldritch Pantheon (Ifrisurtr, Longares, Kitsunrir, Gryphozeus, Tiamangandr, Bastenyx, Myrielle)
 - **Humanoid Heritage**: Always immutable, determined at birth, cannot be gained or lost
 - **Monster Limitations**: Maximum two divine influences, cannot overcome this barrier
 - **Playable Races**: Limited to Beast Folk (Canine/Feline), Elfs, and Druids

@@ -27,7 +27,7 @@
 
 ### **🔥 Divine Trial System**
 - **3 Elemental Trial Choices Maximum** (any distribution: 3+0+0, 2+1+0, or 1+1+1)
-- **Universal Elemental Choice** - All fundamental trials (Pyrion, Glacius, Voltharion) offer fire, cold, or lightning
+- **Universal Elemental Choice** - All Primal trials (Ifrisurtr, Kitsunrir, Tiamangandr) offer fire, air, or water
 - **Optional Primal Opposition** (Heathen/Nemesis/Priest outcomes enhance character development)
 - **Player-driven discovery** - trials found through exploration, not story requirements
 - **Trial repetition allowed** - change choices without additional bonuses
@@ -45,12 +45,12 @@
 - **Milestone:** Achieve **visible E rank** to leave tutorial
 
 **Available Starting Islands:**
-- **Pyrion's Isle** (Fire-focused starting area)
-- **Glacius' Isle** (Cold-focused starting area)  
-- **Voltharion's Isle** (Lightning-focused starting area)
-- **Serafina's Isle** (Chaos-focused starting area)
-- **Aurelius's Isle** (Radiance-focused starting area)
-- **Korthak's Isle** (Might-focused starting area)
+- **Ifrisurtr's Isle** (Fire-focused starting area)
+- **Longares' Isle** (Metal/Discipline-focused starting area)
+- **Kitsunrir's Isle** (Air/Speed-focused starting area)
+- **Gryphozeus's Isle** (Lightning/Authority-focused starting area)
+- **Tiamangandr's Isle** (Water/Knowledge-focused starting area)
+- **Bastenyx's Isle** (Shadow/Stealth-focused starting area)
 
 ---
 
@@ -65,15 +65,15 @@
 - **Discovery Opportunities:** Rumors and exploration lead to trial locations
 
 **Level 20-30: Optional Fundamental Trials (Discoverable)**
-- **Discovery-based Access:** Find any three Fundamental trials through exploration
-- **Universal Choice:** Each trial (Pyrion/Glacius/Voltharion) offers fire, cold, or lightning
-- **Example Distribution:** Lightning/Wrath (Level 2), Fire/Anger (Level 1), Cold/Hatred (Level 0)
+- **Discovery-based Access:** Find any three Primal trials through exploration
+- **Universal Choice:** Each trial (Ifrisurtr/Kitsunrir/Tiamangandr) offers fire, air, or water
+- **Example Distribution:** Fire/Wrath (Level 2), Air/Anger (Level 1), Water/Hatred (Level 0)
 - **Player Choice:** Can choose same element multiple times OR spread across elements
 - **No God Interaction:** Trials are discovered locations with automated challenge systems
 
 **Level 30-39: Optional Primal Opposition (Player-Driven Discovery)**
-- **Exploration Access:** Discover any Primal sanctuaries through investigation
-- **Example:** Oppose Serafina, Oppose Aurelius, Accept Korthak = **Korthak's Priest**
+- **Exploration Access:** Discover any Sovereign sanctuaries through investigation
+- **Example:** Oppose Bastenyx, Oppose Gryphozeus, Accept Longares = **Longares' Priest**
 - **Player Choice Only:** Gods respond to player decisions, never initiate contact
 - **Character Enhancement:** Divine positioning enhances abilities and unlocks content
 - **Mainland Access:** Available regardless of trial completion
@@ -192,17 +192,17 @@
 
 ## **Build Example: "Lightning-Fire Warrior-Priest"**
 
-**Elemental Distribution:** Lightning/Wrath (Level 2), Fire/Anger (Level 1)  
-**Primal Status:** Korthak's Priest (opposed Serafina + Aurelius)  
-**Strategic Advantages:** Enhanced lightning + physical combat, resistance to chaos/light  
-**God-Slayer Approach:** Lead with Korthak alliance, use elemental balance for others
+**Elemental Distribution:** Fire/Wrath (Level 2), Air/Anger (Level 1)  
+**Primal Status:** Longares' Priest (opposed Bastenyx + Gryphozeus)  
+**Strategic Advantages:** Enhanced fire + air combat, endurance from metal discipline  
+**God-Slayer Approach:** Lead with Longares alliance, use elemental balance for others
 
 **Progression Path:**
-- **Prologue → Voltharion's Isle** (lightning focus start)
-- **Act 1:** Optional trial discovery: Lightning choice × 2, Fire choice × 1, Korthak priest path
-- **Act 2:** Master combined lightning-fire abilities, enhanced realm exploration
-- **Act 3:** God-slayer equipment suited to elemental-physical hybrid, divine champion status
-- **Epilogue:** Yggdrasil ascension with Korthak advantage, consciousness preservation role
+- **Prologue → Kitsunrir's Isle** (air focus start)
+- **Act 1:** Optional trial discovery: Fire choice × 2, Air choice × 1, Longares priest path
+- **Act 2:** Master combined fire-air abilities, enhanced realm exploration
+- **Act 3:** God-slayer equipment suited to fire-metal hybrid, divine champion status
+- **Epilogue:** Yggdrasil ascension with Longares advantage, consciousness preservation role
 
 ---
 

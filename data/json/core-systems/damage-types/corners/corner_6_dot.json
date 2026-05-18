@@ -1,0 +1,10 @@
+{
+  "id": "corner_6_dot",
+  "label": "Damage over Time",
+  "hexagonal_position": 6,
+  "hexagon_corner": "magenta",
+  "delivery_profile": "Persistent ticks that pulse damage across multiple intervals.",
+  "typical_sources": ["poisons", "burning_runes", "curses"],
+  "resource_consumption": "Consumes 1 HP/MP/SP on initial application and each tick before mitigation.",
+  "scaling_focus": "duration_and_tick_power"
+}

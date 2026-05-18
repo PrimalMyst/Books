@@ -101,9 +101,9 @@ Peaceful Zones are special areas where Myrielle's essence creates safe havens th
 
 ### Enhanced Benefits for Divine Favor
 **Aligned Positioning Bonuses**:
-- **Serafina Alignment**: Enhanced creativity, innovation inspiration, beneficial change acceleration
-- **Aurelius Alignment**: Improved healing effects, truth revelation, enhanced protection
-- **Korthak Alignment**: Better training facilities, discipline enhancement, honor recognition
+- **Bastenyx Alignment**: Enhanced creativity, shadow-wisdom inspiration, threshold navigation
+- **Gryphozeus Alignment**: Improved truth revelation, celestial protection, enhanced judgment clarity
+- **Longares Alignment**: Better training facilities, discipline enhancement, honor recognition
 
 **Multi-Alignment Synthesis**:
 - **Dual Alignment**: Combined effects create unique synthesis benefits

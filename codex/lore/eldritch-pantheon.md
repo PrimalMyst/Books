@@ -1,126 +1,134 @@
 # The Eldritch Pantheon - Complete Divine Overview
 
+> **LORE NOTE:** Names, personalities, and narrative descriptions below are current lore and subject to change with design planning. Stable foundations: RGB positions (1=Red, 3=Green, 5=Blue), elements (Fire, Metal, Air, Lightning, Water, Shadow), mythological inspiration pairs, and Primal/Sovereign alternation.
+
 ## Summary
-The Eldritch Pantheon consists of six divine beings who embody the fundamental forces of existence within PrimalMyst reality instances. These gods are divided into the Primal Trio (who power existence itself) and the Sovereign Trio (who actively rule and interact with mortals), creating a balanced divine hierarchy that enables life, growth, and meaning within the universe container until their inevitable conflicts destroy everything.
+The Eldritch Pantheon consists of six divine beings who embody the fundamental forces of existence within PrimalMyst reality instances. These gods are divided into the Primal Trio (who power existence itself at RGB anchor positions) and the Sovereign Trio (who actively rule and interact with mortals at bridge positions), creating a balanced divine hierarchy that enables life, growth, and meaning within the universe container until their inevitable conflicts destroy everything.
 
 ## Pantheon Structure
 
 ### Divine Hierarchy
-**The Primal Trio (Cosmic Foundation)**:
-- **Pyrion, the First Flame**: Energy generation, transformation, creative force
-- **Glacius, the Eternal Frost**: Preservation, memory, structural stability  
-- **Voltharion, the Cosmic Spark**: Connection, communication, divine revelation
+**The Primal Trio (RGB Anchor Positions — Cosmic Foundation)**:
+- **Ifrisurtr, the Ash Phoenix** (Pos 1 🔴): Apocalyptic fire, cyclical rebirth, Strength
+- **Kitsunrir, the Storm-Tailed Hunter** (Pos 3 🟢): Boundless air hunts, illusory winds, Dexterity
+- **Tiamangandr, the Frozen Coil** (Pos 5 🔵): Icy oceans, crystalline memory, Intelligence
 
-**The Sovereign Trio (Active Governance)**:
-- **Serafina, the Shadow Empress**: Beneficial chaos, creative revolution, change enforcement
-- **Aurelius, the Radiant Sphere**: Healing light, protective order, truth revelation
-- **Korthak, the Dragon King**: Honorable strength, disciplined might, combat mastery
+**The Sovereign Trio (Bridge Positions — Active Governance)**:
+- **Longares, the Auric Dragon King** (Pos 2 🟡): Honorable metal, disciplined might, Constitution
+- **Gryphozeus, the Thunder Griffin** (Pos 4 🔷): Divine authority, celestial justice, Wisdom
+- **Bastenyx, the Nightclaw Sphinx** (Pos 6 🟣): Afterlife guidance, shadow wisdom, Charisma
 
 **The Hidden Seventh (Outside the System)**:
 - **Myrielle, the Hidden One**: Consciousness preservation, memory transfer, ultimate sacrifice
 
 ### Power Distribution
-**Foundational Layer**: Primal Trio provides the energy, structure, and connectivity that makes existence possible
-**Active Layer**: Sovereign Trio uses foundational power to create meaningful experiences and moral growth
+**Foundational Layer**: Primal Trio (Ifrisurtr, Kitsunrir, Tiamangandr) provides the fire-energy, wind-movement, and water-preservation that makes existence possible
+**Active Layer**: Sovereign Trio (Longares, Gryphozeus, Bastenyx) uses foundational power to create meaningful experiences and moral growth
 **Preservation Layer**: Myrielle exists outside both layers to ensure continuity across reality instances
 
 ## Individual Divine Profiles
 
-### Pyrion, the First Flame (Primal)
-**Core Domain**: Creation, Transformation, Energy Generation
-**Cosmic Function**: Powers all existence through eternal fire energy
-**Personality**: Passionate, transformative, endlessly creative
-**Manifestation**: Fire, heat, transformation, forges, renewal
+### Ifrisurtr, the Ash Phoenix (Primal - Position 1 🔴 Fire/Strength)
+**Core Domain**: Apocalyptic Fire, Cyclical Rebirth, World-Ending Flame
+**Cosmic Function**: Powers all existence through destructive-renewal fire energy
+**Personality**: Stoic, relentlessly transformative, sovereign of endings and beginnings
+**Manifestation**: Apocalyptic fire, ash-feathers, ember blades, volcanic forges
+**Mythological Inspiration**: **Ifrit + Surtr** (Arabian/Norse)
 
 **Relationships**:
-- **Glacius**: Eternal opposition (change vs. preservation) that creates tension
-- **Voltharion**: Cooperative partnership (energy + connection = manifestation)
-- **Serafina**: Supportive alignment (transformation + chaos = beneficial change)
-- **Aurelius**: Neutral relationship (creation serves both order and disorder)
-- **Korthak**: Supportive alignment (forge-discipline creates true strength)
+- **Tiamangandr**: Deep opposition (fire vs. water/preservation) that creates cyclical tension
+- **Kitsunrir**: Cooperative partnership (fire-energy + wind-hunt = storm of destruction)
+- **Longares**: Supportive alignment (forge-fire + metal discipline = true martial strength)
+- **Gryphozeus**: Neutral relationship (fire destruction vs. lightning justice)
+- **Bastenyx**: Tension relationship (rebirth light vs. shadow protection)
 
-**Worship and Trials**: No direct worship; influence felt through environmental challenges
+**Worship and Trials**: No direct worship; influence felt through volcanic forge environments
 **God-Slayer Role**: First confrontation (Level 96) at Yggdrasil's heartwood core
 
-### Glacius, the Eternal Frost (Primal)
-**Core Domain**: Preservation, Memory, Structural Stability
-**Cosmic Function**: Maintains existence through crystalline memory storage
-**Personality**: Wise, conservative, eternally patient
-**Manifestation**: Ice, crystal, memory storage, preserved knowledge, stability
+### Kitsunrir, the Storm-Tailed Hunter (Primal - Position 3 🟢 Air/Dexterity)
+**Core Domain**: Monstrous Hunger, Illusory Winds, Oath-Binding Tails
+**Cosmic Function**: Powers all movement and evasion through boundless storm-hunt energy
+**Personality**: Wild, trickster-swift, oath-keeper of the winds
+**Manifestation**: Gale storms, nine tails of fox-fire, wolf-hunt winds, oath-binding wind currents
+**Mythological Inspiration**: **Fenrir + Nine-Tailed Kitsune** (Norse/Japanese)
 
 **Relationships**:
-- **Pyrion**: Eternal opposition (preservation vs. change) that creates balance
-- **Voltharion**: Cooperative partnership (memory + connection = wisdom)
-- **Serafina**: Tension relationship (preservation vs. revolution creates conflict)
-- **Aurelius**: Strong alignment (preservation + truth = eternal justice)
-- **Korthak**: Supportive alignment (memory + discipline = honorable tradition)
+- **Longares**: Creative tension (wild freedom vs. martial discipline requires balance)
+- **Ifrisurtr**: Cooperative partnership (wind-hunt + fire-destruction = storm of devastation)
+- **Tiamangandr**: Cooperative partnership (gale + depth = shifting ocean storms)
+- **Gryphozeus**: Tension relationship (trickster winds vs. ordered divine justice)
+- **Bastenyx**: Supportive alignment (storm hunter + shadow guardian = night predators)
 
-**Worship and Trials**: No direct worship; influence felt through memory and knowledge challenges
-**God-Slayer Role**: Second confrontation (Level 97) within crystalline memory archives
+**Worship and Trials**: No direct worship; influence felt through storm hunting grounds
+**God-Slayer Role**: Third confrontation (Level 98) within infinite storm-hunting grounds
 
-### Voltharion, the Cosmic Spark (Primal)
-**Core Domain**: Connection, Communication, Divine Revelation
-**Cosmic Function**: Enables interaction and understanding between all elements
-**Personality**: Enlightened, connecting, revelatory
-**Manifestation**: Lightning, electricity, instant communication, divine revelation
-
-**Relationships**:
-- **Pyrion**: Cooperative partnership (connection + energy = divine manifestation)
-- **Glacius**: Cooperative partnership (connection + memory = preserved wisdom)
-- **Serafina**: Supportive alignment (revelation + change = enlightened revolution)
-- **Aurelius**: Strong alignment (revelation + truth = perfect understanding)
-- **Korthak**: Supportive alignment (connection + discipline = honorable communication)
-
-**Worship and Trials**: No direct worship; influence felt through revelation and communication challenges
-**God-Slayer Role**: Third confrontation (Level 98) within infinite electrical networks
-
-### Serafina, the Shadow Empress (Sovereign)
-**Core Domain**: Beneficial Chaos, Creative Revolution, Change Enforcement
-**Cosmic Function**: Prevents stagnation and promotes beneficial transformation
-**Personality**: Revolutionary, creative, passionately dedicated to improvement
-**Manifestation**: Shadows, chaos, revolution, creative destruction, artistic inspiration
+### Tiamangandr, the Frozen Coil (Primal - Position 5 🔵 Water/Intelligence)
+**Core Domain**: Icy Oceans, Abyssal Pressure, Crystalline Memory
+**Cosmic Function**: Maintains existence through abyssal-depth memory preservation
+**Personality**: Eternally patient, deep as the ocean, keeper of crystalline knowledge
+**Manifestation**: World-encircling serpent of black water and blue crystal, glacial tides, abyssal coils
+**Mythological Inspiration**: **Tiamat + Jörmungandr** (Babylonian/Norse)
 
 **Relationships**:
-- **Pyrion**: Strong alignment (chaos + transformation = beneficial change)
-- **Glacius**: Creative tension (revolution vs. preservation creates growth)
-- **Voltharion**: Supportive alignment (chaos + revelation = enlightened change)
-- **Aurelius**: Philosophical opposition (chaos vs. order creates moral complexity)
-- **Korthak**: Moderate tension (revolution vs. tradition requires balance)
+- **Ifrisurtr**: Deep opposition (icy preservation vs. world-ending fire) that creates cyclical tension
+- **Kitsunrir**: Cooperative partnership (gale + depth = shifting ocean storms)
+- **Longares**: Supportive alignment (discipline + deep memory = honored tradition)
+- **Gryphozeus**: Strong alignment (divine protection + crystalline preservation = eternal sanctuary)
+- **Bastenyx**: Strong alignment (twilight thresholds + abyssal depth = hidden preservation)
 
-**Worship and Trials**: Active worship through pantheon positioning; trials focus on creativity and change
-**God-Slayer Role**: Fourth confrontation (Level 99) within ever-changing shadow realms
+**Worship and Trials**: No direct worship; influence felt through abyssal memory and depth challenges
+**God-Slayer Role**: Fifth confrontation (Level 100) within crystalline abyssal memory archives
 
-### Aurelius, the Radiant Sphere (Sovereign)
-**Core Domain**: Healing Light, Protective Order, Truth Revelation
-**Cosmic Function**: Protects innocents and reveals truth for justice
-**Personality**: Compassionate, just, dedicated to protection and healing
-**Manifestation**: Radiant light, healing energy, truth revelation, protective barriers
-
-**Relationships**:
-- **Pyrion**: Neutral cooperation (healing + energy = restoration)
-- **Glacius**: Strong alignment (protection + preservation = eternal sanctuary)
-- **Voltharion**: Perfect alignment (truth + revelation = absolute understanding)
-- **Serafina**: Philosophical opposition (order vs. chaos creates moral depth)
-- **Korthak**: Supportive alignment (protection + strength = honorable defense)
-
-**Worship and Trials**: Active worship through pantheon positioning; trials focus on truth and protection
-**God-Slayer Role**: Fifth confrontation (Level 99) within blazing halls of absolute truth
-
-### Korthak, the Dragon King (Sovereign)
-**Core Domain**: Honorable Strength, Disciplined Might, Combat Mastery
-**Cosmic Function**: Develops strength and discipline for cosmic challenges
-**Personality**: Honorable, disciplined, dedicated to fair challenge and growth
-**Manifestation**: Physical might, combat mastery, honorable challenge, disciplined training
+### Longares, the Auric Dragon King (Sovereign - Position 2 🟡 Metal/Constitution)
+**Core Domain**: Honorable Metal, Disciplined Might, Warrior's Code
+**Cosmic Function**: Develops disciplined endurance and martial honor for cosmic challenges
+**Personality**: Honorable, disciplined, dedicated to fair challenge and martial growth
+**Manifestation**: Gold-scaled dragon, golden lamellar armor, auric spearblade, phalanx formations
+**Mythological Inspiration**: **Dragon + Ares** (Classical/Greek)
 
 **Relationships**:
-- **Pyrion**: Strong alignment (strength + transformation = forged mastery)
-- **Glacius**: Supportive alignment (discipline + memory = honored tradition)
-- **Voltharion**: Cooperative partnership (strength + connection = honorable communication)
-- **Serafina**: Creative tension (discipline vs. revolution requires wisdom)
-- **Aurelius**: Strong alignment (strength + protection = honorable defense)
+- **Ifrisurtr**: Strong alignment (forge-fire + metal discipline = forged mastery)
+- **Tiamangandr**: Supportive alignment (discipline + deep memory = honored tradition)
+- **Kitsunrir**: Creative tension (discipline vs. wild freedom requires wisdom)
+- **Gryphozeus**: Strong alignment (martial strength + divine justice = honorable defense)
+- **Bastenyx**: Moderate tension (martial order vs. shadow cunning requires balance)
 
-**Worship and Trials**: Active worship through pantheon positioning; trials focus on honor and strength
-**God-Slayer Role**: Sixth confrontation (Level 99) within the ultimate arena of honorable combat
+**Worship and Trials**: Active worship through pantheon positioning; trials focus on honor and martial discipline
+**God-Slayer Role**: Second confrontation (Level 97) within the gilded arena of honorable combat
+
+### Gryphozeus, the Thunder Griffin (Sovereign - Position 4 🔷 Lightning/Wisdom)
+**Core Domain**: Divine Authority, Celestial Justice, Holy Lightning
+**Cosmic Function**: Enforces righteous judgment and protects the innocent through divine storm power
+**Personality**: Stern, compassionate in justice, dedicated to truth and swift mercy
+**Manifestation**: Regal griffin crowned in cyan stormlight, eyes like burning verdicts, thunder-marble voice
+**Mythological Inspiration**: **Zeus + Griffin** (Greek/Classical)
+
+**Relationships**:
+- **Ifrisurtr**: Neutral cooperation (fire destruction vs. lightning justice create cosmic balance)
+- **Tiamangandr**: Strong alignment (divine protection + crystalline preservation = eternal sanctuary)
+- **Kitsunrir**: Philosophical tension (trickster winds vs. absolute divine law)
+- **Longares**: Strong alignment (martial honor + divine justice = perfect righteous force)
+- **Bastenyx**: Supportive alignment (celestial judgment + shadow wardenship = full spectrum protection)
+
+**Worship and Trials**: Active worship through pantheon positioning; trials focus on truth and divine justice
+**God-Slayer Role**: Fourth confrontation (Level 99) within the blazing sky tribunal of absolute law
+
+### Bastenyx, the Nightclaw Sphinx (Sovereign - Position 6 🟣 Shadow/Charisma)
+**Core Domain**: Afterlife Guidance, Shadow Wisdom, Protective Guardianship
+**Cosmic Function**: Guards all thresholds and twilight paths to ensure the worthy pass safely
+**Personality**: Protective, silently ferocious, sovereign of liminal spaces and night
+**Manifestation**: Night lioness, shadow panther, star-maned sphinx, moonlit claws
+**Mythological Inspiration**: **Bastet + Nyx** (Egyptian/Greek)
+
+**Relationships**:
+- **Ifrisurtr**: Tension relationship (shadow protection vs. world-ending fire)
+- **Tiamangandr**: Strong alignment (twilight thresholds + abyssal depth = hidden preservation)
+- **Kitsunrir**: Supportive alignment (shadow guardian + storm hunter = night predator duo)
+- **Longares**: Moderate tension (shadow cunning vs. martial directness requires balance)
+- **Gryphozeus**: Supportive alignment (celestial judgment + shadow wardenship = full spectrum protection)
+
+**Worship and Trials**: Active worship through pantheon positioning; trials focus on shadow wisdom and threshold crossing
+**God-Slayer Role**: Sixth confrontation (Level 101) at the great twilight threshold beyond all realms
 
 ### Myrielle, the Hidden One (Outside System)
 **Core Domain**: Consciousness Preservation, Memory Transfer, Ultimate Sacrifice
@@ -139,27 +147,27 @@ The Eldritch Pantheon consists of six divine beings who embody the fundamental f
 
 ## Divine Conflict Dynamics
 
-### Fundamental Internal Tensions
-**Pyrion vs. Glacius (Change vs. Preservation)**:
-- **Creative Tension**: Necessary opposition that drives growth and stability
+### Core Primal Tensions
+**Ifrisurtr vs. Tiamangandr (Fire vs. Water / Destruction vs. Preservation)**:
+- **Creative Tension**: Necessary opposition that drives cyclical renewal and stable memory
 - **Balanced Conflict**: Neither can fully dominate without destroying existence
 - **Reality Strain**: When imbalance occurs, reality instance becomes unstable
 - **Resolution Impossibility**: This tension can never be permanently resolved
 
 **Foundational Cooperation**:
-- **Voltharion's Mediation**: Connection helps balance change and preservation
-- **Shared Purpose**: All three recognize need for stable existence foundation
+- **Kitsunrir's Mediation**: Boundless air/movement helps carry energy between fire and water
+- **Shared Purpose**: All three Primal gods recognize the need for stable existence foundation
 - **Power Sharing**: Complementary abilities that enhance rather than compete
 
-### Primal Interactive Conflicts
-**Serafina vs. Aurelius (Chaos vs. Order)**:
-- **Philosophical Opposition**: Fundamental disagreement about optimal existence structure
-- **Moral Complexity**: Both serve beneficial purposes that sometimes conflict
-- **Dynamic Balance**: Need both change and stability for healthy growth
+### Sovereign Interactive Conflicts
+**Longares vs. Bastenyx (Martial Order vs. Shadow Cunning)**:
+- **Philosophical Opposition**: Direct force vs. subtle guardianship creates strategic complexity
+- **Moral Complexity**: Both serve protective purposes that sometimes conflict
+- **Dynamic Balance**: Need both discipline and shadow wisdom for healthy mortal growth
 - **Escalating Tension**: Conflicts become more severe over time
 
 **Multi-Way Interactions**:
-- **Korthak as Balance**: Honorable strength provides stability between chaos and order
+- **Gryphozeus as Balance**: Divine justice provides authority between martial order and shadow cunning
 - **Shifting Alliances**: Divine relationships change based on cosmic circumstances
 - **Competing Visions**: Each god has different ideas about optimal mortal development
 
@@ -187,14 +195,14 @@ The Eldritch Pantheon consists of six divine beings who embody the fundamental f
 
 ### Divine Favor Combinations
 **Complementary Alignments**:
-- **Aurelius + Korthak**: Protective strength and honorable healing
-- **Serafina + Aurelius**: Compassionate revolution and protective change
-- **Serafina + Korthak**: Honorable revolution and disciplined change
+- **Gryphozeus + Longares**: Divine justice + martial honor = righteous unbreakable force
+- **Bastenyx + Gryphozeus**: Shadow wisdom + celestial judgment = full-spectrum protection
+- **Longares + Bastenyx**: Martial discipline + shadow cunning = strategic layered defense
 
 **Challenging Alignments**:
-- **Serafina + Aurelius**: Requires balancing chaos and order principles
-- **All Three Primal**: Extremely difficult but provides ultimate perspective
-- **Opposition Pairs**: Positive with one god while negative with their philosophical opposite
+- **Longares + Bastenyx**: Requires balancing directness and cunning principles
+- **All Three Primal**: Extremely difficult but provides ultimate elemental perspective
+- **Opposition Pairs**: Positive with one god while negative with their hexagonal opposite
 
 ### Positioning Consequences in God-Slayer Path
 **High Positive Positioning**: Emotional devastation when forced to destroy beloved mentors

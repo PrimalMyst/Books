@@ -1,7 +1,7 @@
 # Divine Positioning - Alignment and Relationship System
 
 ## Summary
-Divine Positioning is the comprehensive alignment system that tracks player relationships with the Primal Trio (Serafina, Aurelius, Korthak), affects access to divine content, and ultimately influences the emotional weight and mechanical difficulty of the God-Slayer path. This system allows players to define their character's spiritual philosophy while creating meaningful consequences for their choices.
+Divine Positioning is the comprehensive alignment system that tracks player relationships with the Sovereign Trio (Longares, Gryphozeus, Bastenyx), affects access to divine content, and ultimately influences the emotional weight and mechanical difficulty of the God-Slayer path. This system allows players to define their character's spiritual philosophy while creating meaningful consequences for their choices.
 
 ## Core Mechanics
 
@@ -27,23 +27,23 @@ Each god relationship is tracked on a scale from -100 to +100:
 **Action-Based Changes**:
 Every significant player action affects divine positioning based on how well it aligns with each god's principles:
 
-**Serafina (Shadow Empress) - Beneficial Chaos**:
-- **Positive**: Creative solutions, challenging corruption, promoting beneficial change, preventing stagnation
-- **Negative**: Enforcing rigid structures, suppressing innovation, maintaining harmful status quo
-- **Major Positive**: Revolutionary leadership, transforming broken systems, inspiring beneficial chaos
-- **Major Negative**: Oppressing creativity, enforcing harmful traditions, promoting stagnation
-
-**Aurelius (Radiant Sphere) - Protective Truth**:
-- **Positive**: Protecting innocents, healing others, revealing truth, honest communication
-- **Negative**: Harming innocents, deception, hiding important truth, selfish behavior
-- **Major Positive**: Sacrificing for others' protection, revealing dangerous truth, healing enemies
-- **Major Negative**: Betraying innocents, major deception, causing unnecessary suffering
-
-**Korthak (Dragon King) - Honorable Strength**:
-- **Positive**: Fair combat, disciplined training, respecting opponents, honorable behavior
-- **Negative**: Unfair tactics, avoiding challenge, disrespecting opponents, dishonorable conduct
-- **Major Positive**: Showing mercy to defeated enemies, training others, protecting through strength
+**Longares (Auric Dragon King) - Honorable Metal Discipline**:
+- **Positive**: Fair combat, disciplined training, respecting opponents, upholding martial oaths
+- **Negative**: Unfair tactics, avoiding challenge, disrespecting opponents, breaking oaths
+- **Major Positive**: Showing mercy to defeated enemies, training others, protecting through disciplined strength
 - **Major Negative**: Cowardice in important moments, cheating in combat, bullying the weak
+
+**Gryphozeus (Thunder Griffin) - Divine Authority and Justice**:
+- **Positive**: Protecting innocents, delivering righteous judgment, revealing truth, honorable authority
+- **Negative**: Harming innocents, unjust judgment, hiding important truth, abusing authority
+- **Major Positive**: Sacrificing for others' protection, exposing dangerous injustice, healing enemies
+- **Major Negative**: Betraying innocents, major injustice, causing unnecessary suffering
+
+**Bastenyx (Nightclaw Sphinx) - Shadow Wisdom and Guardianship**:
+- **Positive**: Protecting through stealth, threshold crossing, shadow wisdom, liminal guidance
+- **Negative**: Using shadows for selfish harm, abandoning those under protection, revealing hidden secrets carelessly
+- **Major Positive**: Guarding the vulnerable through night-vigils, guiding the lost through thresholds
+- **Major Negative**: Betraying those under guardianship, using shadow to terrorize the innocent
 
 ### Contextual Modifiers
 **Situation Importance**: Minor daily actions have small effects (+/-1 to 3), while major story decisions can shift positioning significantly (+/-10 to 25)
@@ -59,20 +59,20 @@ Every significant player action affects divine positioning based on how well it 
 ### Philosophical Tensions
 Some divine principles naturally conflict, creating complex decision scenarios:
 
-**Serafina vs. Aurelius (Chaos vs. Order)**:
-- **Conflict Example**: Revolutionary change that will help many but temporarily harm innocents
-- **Resolution Strategies**: Finding ways to promote change while protecting those at risk
-- **Positioning Impact**: Actions that serve both gods require creative solutions and careful execution
+**Longares vs. Bastenyx (Martial Order vs. Shadow Cunning)**:
+- **Conflict Example**: Using stealth vs. direct challenge to solve a crisis
+- **Resolution Strategies**: Finding when discipline and cunning serve the same noble end
+- **Positioning Impact**: Actions that serve both gods require creative approaches
 
-**Serafina vs. Korthak (Revolution vs. Tradition)**:
-- **Conflict Example**: Challenging traditional combat forms or military structures
-- **Resolution Strategies**: Promoting beneficial change while maintaining honor and respect
-- **Positioning Impact**: Requires balancing innovation with respect for proven methods
+**Longares vs. Gryphozeus (Martial Tradition vs. Divine Authority)**:
+- **Conflict Example**: Following warrior code vs. submitting to divine judgment
+- **Resolution Strategies**: Aligning martial honor with cosmic justice
+- **Positioning Impact**: Requires balancing personal code with greater law
 
-**Aurelius vs. Korthak (Protection vs. Challenge)**:
-- **Conflict Example**: Whether to shield someone from necessary but difficult growth
-- **Resolution Strategies**: Providing supportive challenge or protective strength as needed
-- **Positioning Impact**: Understanding when each approach serves the person's true benefit
+**Gryphozeus vs. Bastenyx (Celestial Justice vs. Shadow Protection)**:
+- **Conflict Example**: Exposing truth that might endanger those under shadow protection
+- **Resolution Strategies**: Delivering justice while preserving sanctuary for the vulnerable
+- **Positioning Impact**: Understanding when each approach serves the greater good
 
 ### Balancing Strategies
 
@@ -84,9 +84,9 @@ Some divine principles naturally conflict, creating complex decision scenarios:
 
 **Dual Alignment** (Uncommon but Achievable):
 - **Common Pairs**: 
-  - Aurelius + Korthak (Protective Strength)
-  - Serafina + Aurelius (Compassionate Revolution)
-  - Serafina + Korthak (Honorable Change)
+  - Gryphozeus + Longares (Righteous Martial Force)
+  - Bastenyx + Gryphozeus (Full-Spectrum Protection)
+  - Longares + Bastenyx (Strategic Layered Defense)
 - **Benefits**: Access to synthesis content and philosophical depth
 - **Challenges**: Managing occasional conflicts between aligned gods
 
@@ -117,9 +117,9 @@ Some divine principles naturally conflict, creating complex decision scenarios:
 
 ### Skill and Ability Access
 **Divine Favor Skills**:
-- **Chaos Magic** (Serafina): Transformation abilities, creative solutions, anti-stagnation effects
-- **Radiance Magic** (Aurelius): Healing abilities, truth detection, protection effects
-- **Might Magic** (Korthak): Combat enhancement, discipline effects, honor manifestation
+- **Metal Magic** (Longares): Combat enhancement, discipline effects, honor manifestation, Constitution buffs
+- **Lightning Magic** (Gryphozeus): Healing abilities, truth detection, protection effects, Wisdom buffs
+- **Shadow Magic** (Bastenyx): Evasion abilities, manipulation effects, stealth enhancements, Charisma buffs
 
 **Opposed Magic Penalties**:
 - **Negative positioning** with a god reduces effectiveness of their associated magic types

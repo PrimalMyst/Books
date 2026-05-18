@@ -6,25 +6,23 @@ The PrimalMyst universe is organized around a fundamental hexagonal structure th
 
 ```
                     (1) RED
-                   Glacius (P)
-                Intelligence
+                   Ifrisurtr (P)
+                   Strength
                       /\
                      /  \
-         (6) RADIANCE    (2) CHAOS
-         Aurelius (S)    Serafina (S)
-          Str + Int      Int + Dex
-        Energy Shield    Evasion
+         (6) MAGENTA    (2) YELLOW
+         Bastenyx (S)  Longares (S)
+          Cha/Eva       Con/Armor
                    \    /
                     \  /
          (5) BLUE ---- ---- (3) GREEN
-         Pyrion (P)         Voltharion (P)
-         Strength           Dexterity
+         Tiamangandr (P)    Kitsunrir (P)
+         Intelligence       Dexterity
                     \  /
                      \/
-                (4) PHYSICAL
-                Korthak (S)
-                Dex + Str
-                Armor
+                (4) CYAN
+                Gryphozeus (S)
+                Wis/Energy Shield
 ```
 
 **Legend:**
@@ -34,86 +32,86 @@ The PrimalMyst universe is organized around a fundamental hexagonal structure th
 ## Corner Mappings
 
 ### Corner 1: RED (Top)
-- **Damage Type:** Red
-- **God:** Glacius, the Eternal Frost (Primal)
-- **Realm:** Glacius' Archive - The Frost Realm
-- **Branch:** Western Crown Branch
-- **Attributes:** Intelligence (pure)
-- **Defense:** Red Resistance (pure)
-- **Theme:** Eternal Preservation, Memory, Crystalline Perfection
-
-### Corner 2: CHAOS (Top-Right)
-- **Damage Type:** Chaos
-- **God:** Serafina, the Shadow Empress (Sovereign)
-- **Realm:** Serafina's Court - The Shadow Realm
-- **Branch:** Southern Middle Branch
-- **Attributes:** Intelligence + Dexterity
-- **Defense:** Evasion (pure)
-- **Theme:** Creative Chaos, Beneficial Change, Shadow Arts
-
-### Corner 3: GREEN (Bottom-Right)
-- **Damage Type:** Green
-- **God:** Voltharion, the Cosmic Spark (Primal)
-- **Realm:** Voltharion's Web - The Lightning Realm
-- **Branch:** Northern Crown Branch
-- **Attributes:** Dexterity (pure)
-- **Defense:** Green Resistance (pure)
-- **Theme:** Divine Connection, Speed, Communication
-
-### Corner 4: PHYSICAL (Bottom)
-- **Damage Type:** Physical
-- **God:** Korthak, the Dragon King (Sovereign)
-- **Realm:** Korthak's Arena - The Might Realm
-- **Branch:** Western Middle Branch
-- **Attributes:** Dexterity + Strength
-- **Defense:** Armor (pure)
-- **Theme:** Physical Mastery, Honor, Direct Combat
-
-### Corner 5: BLUE (Bottom-Left)
-- **Damage Type:** Blue
-- **God:** Pyrion, the First Flame (Primal)
-- **Realm:** Pyrion's Forge - The Flame Realm
+- **Damage Type:** Fire
+- **God:** Ifrisurtr, the Ash Phoenix (Primal) — *Ifrit + Surtr (Arabian/Norse)*
+- **Realm:** Ifrisurtr's Volcanic Forge - The Flame Realm
 - **Branch:** Eastern Crown Branch
 - **Attributes:** Strength (pure)
-- **Defense:** Blue Resistance (pure)
-- **Theme:** Primal Fire, Creation, Transformation
+- **Defense:** Health Points (Primal resource)
+- **Theme:** Apocalyptic Fire, Cyclical Rebirth, World-Ending Flame
 
-### Corner 6: RADIANCE (Top-Left)
-- **Damage Type:** Radiance (Light)
-- **God:** Aurelius, the Radiant Sphere (Sovereign)
-- **Realm:** Aurelius's Sanctuary - The Radiance Realm
+### Corner 2: YELLOW (Top-Right)
+- **Damage Type:** Metal
+- **God:** Longares, the Auric Dragon King (Sovereign) — *Dragon + Ares (Classical/Greek)*
+- **Realm:** Longares' Gilded Battlefield - The Metal Realm
+- **Branch:** Northeastern Middle Branch
+- **Attributes:** Constitution (hybrid: Strength + Dexterity)
+- **Defense:** Armor (Sovereign defense)
+- **Theme:** Honorable Metal, Disciplined Might, Warrior's Code
+
+### Corner 3: GREEN (Bottom-Right)
+- **Damage Type:** Air
+- **God:** Kitsunrir, the Storm-Tailed Hunter (Primal) — *Fenrir + Nine-Tailed Kitsune (Norse/Japanese)*
+- **Realm:** Kitsunrir's Storm Hunting Grounds - The Air Realm
+- **Branch:** Southern Crown Branch
+- **Attributes:** Dexterity (pure)
+- **Defense:** Stamina Points (Primal resource)
+- **Theme:** Monstrous Hunger, Illusory Winds, Oath-Binding Tails
+
+### Corner 4: CYAN (Bottom)
+- **Damage Type:** Lightning
+- **God:** Gryphozeus, the Thunder Griffin (Sovereign) — *Zeus + Griffin (Greek/Classical)*
+- **Realm:** Gryphozeus's Sky Tribunal - The Lightning Realm
 - **Branch:** Eastern Middle Branch
-- **Attributes:** Strength + Intelligence
-- **Defense:** Energy Shield (pure)
-- **Theme:** Radiant Order, Protection, Truth
+- **Attributes:** Wisdom (hybrid: Dexterity + Intelligence)
+- **Defense:** Energy Shield (Sovereign defense)
+- **Theme:** Divine Authority, Celestial Justice, Holy Lightning
+
+### Corner 5: BLUE (Bottom-Left)
+- **Damage Type:** Water
+- **God:** Tiamangandr, the Frozen Coil (Primal) — *Tiamat + Jörmungandr (Babylonian/Norse)*
+- **Realm:** Tiamangandr's Abyssal Archive - The Water Realm
+- **Branch:** Western Crown Branch
+- **Attributes:** Intelligence (pure)
+- **Defense:** Mana Points (Primal resource)
+- **Theme:** Icy Oceans, Abyssal Pressure, Crystalline Memory
+
+### Corner 6: MAGENTA (Top-Left)
+- **Damage Type:** Shadow
+- **God:** Bastenyx, the Nightclaw Sphinx (Sovereign) — *Bastet + Nyx (Egyptian/Greek)*
+- **Realm:** Bastenyx's Twilight Threshold - The Shadow Realm
+- **Branch:** Northwestern Middle Branch
+- **Attributes:** Charisma (hybrid: Intelligence + Strength)
+- **Defense:** Evasion (Sovereign defense)
+- **Theme:** Afterlife Guidance, Shadow Wisdom, Protective Guardianship
 
 ## Divine Hierarchy Pattern
 
 The hexagon alternates between Primal and Sovereign gods:
-- **Primal Gods** (Ancient Powers): Glacius, Voltharion, Pyrion
-- **Sovereign Gods** (Active Deities): Serafina, Korthak, Aurelius
+- **Primal Gods** (RGB Anchor Positions 1,3,5): Ifrisurtr, Kitsunrir, Tiamangandr
+- **Sovereign Gods** (Bridge Positions 2,4,6): Longares, Gryphozeus, Bastenyx
 
-This creates a balanced cosmic structure where ancient foundational forces support active divine influence.
+This creates a balanced cosmic structure where pure elemental forces support active divine influence.
 
 ## Attribute Flow
 
 The attributes flow naturally around the hexagon:
-- **Pure Attributes:** Intelligence (1), Dexterity (3), Strength (5)
-- **Hybrid Attributes:** Int+Dex (2), Dex+Str (4), Str+Int (6)
+- **Pure Attributes:** Strength (1), Dexterity (3), Intelligence (5)
+- **Hybrid Attributes:** Constitution/Con=Str+Dex (2), Wisdom/Wis=Dex+Int (4), Charisma/Cha=Int+Str (6)
 
 This creates natural build progression paths and hybrid opportunities.
 
-## Defense Synergies
+## Defense/Resource Synergies
 
-Defense types are organized by divine tier and nature:
-- **Primal Defenses (Pure Resistance):** Red Resistance (1), Green Resistance (3), Blue Resistance (5)
-- **Sovereign Defenses (Active Mitigation):** Evasion (2), Armor (4), Energy Shield (6)
+Defense types and resources are organized by divine tier:
+- **Primal Resources (Core pools):** Health Points (1), Stamina Points (3), Mana Points (5)
+- **Sovereign Defenses (Active mitigation):** Armor (2), Energy Shield (4), Evasion (6)
 
 ## Yggdrasil Branch Structure
 
 The World Tree's six great branches map to the hexagon:
-- **Crown Branches:** Western (Red), Northern (Green), Eastern (Blue)
-- **Middle Branches:** Southern (Chaos), Western (Physical), Eastern (Radiance)
+- **Crown Branches:** Eastern (Fire/Ifrisurtr), Southern (Air/Kitsunrir), Western (Water/Tiamangandr)
+- **Middle Branches:** Northeastern (Metal/Longares), Eastern (Lightning/Gryphozeus), Northwestern (Shadow/Bastenyx)
 
 ## Gameplay Applications
 

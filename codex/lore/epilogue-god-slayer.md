@@ -26,12 +26,12 @@ The God-Slayer path requires defeating all six Eldritch Gods multiple times as t
 #### Multi-Round Battle Structure
 
 **First Round - Level 96 Gods (Base Divine Power)**:
-- **Pyrion, the First Flame**: Eternal Forge battles with base transformative fire power
-- **Glacius, the Eternal Frost**: Crystalline archive battles with base preservation power
-- **Voltharion, the Cosmic Spark**: Network web battles with base connection power
-- **Serafina, the Shadow Empress**: Shadow court battles with base chaos power
-- **Aurelius, the Radiant Sphere**: Truth hall battles with base radiance power
-- **Korthak, the Dragon King**: Honor arena battles with base might power
+- **Ifrisurtr, the Ash Phoenix**: Volcanic forge battles with base fire destruction power
+- **Longares, the Auric Dragon King**: Gilded arena battles with base metal discipline power
+- **Kitsunrir, the Storm-Tailed Hunter**: Storm-hunt grounds battles with base air evasion power
+- **Gryphozeus, the Thunder Griffin**: Sky tribunal battles with base lightning judgment power
+- **Tiamangandr, the Frozen Coil**: Abyssal archive battles with base water preservation power
+- **Bastenyx, the Nightclaw Sphinx**: Twilight threshold battles with base shadow protection power
 
 **Round Completion Trigger**: After defeating ALL six gods in Round 1, they are enhanced
 
@@ -157,47 +157,47 @@ Valhalla access comes not from conquest but from proving worthy of cosmic respon
 
 #### Individual God Encounters (Any Order)
 
-**Pyrion, the First Flame (Fundamental)**:
-- **Realm Access**: Forge-Flame Blossom portal at Eastern Crown position
-- **Battle Environment**: Eternal forges, rivers of creation fire, transformative flame storms
-- **Combat Style**: High mobility fire attacks, environment manipulation, forge-based weaponry
-- **Enhancement Effects**: Earlier defeats make flames hotter, forges more complex, creation more chaotic
-- **Divine Positioning Impact**: Positive alignment may cause hesitation; negative increases aggression
+**Ifrisurtr, the Ash Phoenix (Primal)**:
+- **Realm Access**: Ember-Forge Blossom portal at Eastern Crown position (Position 1)
+- **Battle Environment**: Volcanic forge wastes, rivers of apocalyptic fire, cyclical flame storms
+- **Combat Style**: High-power fire attacks, environment incineration, forge-ash weaponry
+- **Enhancement Effects**: Earlier defeats make flames more destructive yet rebirth-charged
+- **Divine Positioning Impact**: Positive alignment may cause hesitation; negative increases raw fire fury
 
-**Glacius, the Eternal Frost (Fundamental)**:
-- **Realm Access**: Crystal-Memory Blossom portal at Western Crown position  
-- **Battle Environment**: Crystalline memory palaces, frozen knowledge libraries, ice formations
-- **Combat Style**: Control-based ice attacks, memory manipulation, crystalline barriers
-- **Enhancement Effects**: Earlier defeats create more complex ice patterns, memory-based attacks
-- **Divine Positioning Impact**: Aligned players face preserved memories of their relationship
+**Longares, the Auric Dragon King (Sovereign)**:
+- **Realm Access**: Auric-Drake Blossom portal at Northeastern position (Position 2)
+- **Battle Environment**: Gilded battlefields, golden lamellar training grounds, honor arenas
+- **Combat Style**: Disciplined direct combat, constitution-based endurance attacks, martial oath techniques
+- **Enhancement Effects**: Earlier defeats increase disciplined power while maintaining perfect honor
+- **Divine Positioning Impact**: Aligned players face reluctant but honorable combat; opposition gets full power
 
-**Voltharion, the Cosmic Spark (Fundamental)**:
-- **Realm Access**: Lightning-Network Blossom portal at Northern Crown position
-- **Battle Environment**: Infinite electrical networks, crackling communication webs, energy storms
-- **Combat Style**: Speed-based lightning attacks, teleportation, electrical field manipulation
-- **Enhancement Effects**: Earlier defeats create faster attacks, more complex electrical patterns
-- **Divine Positioning Impact**: Communication attempts may occur during combat based on alignment
+**Kitsunrir, the Storm-Tailed Hunter (Primal)**:
+- **Realm Access**: Storm-Gale Spiral portal at Southern Crown position (Position 3)
+- **Battle Environment**: Boundless storm hunting grounds, fox-fire illusion fields, oath-binding wind currents
+- **Combat Style**: Speed-based air attacks, illusion environment shifting, tail-storm sweeps
+- **Enhancement Effects**: Earlier defeats create faster attacks, more complex illusion mazes
+- **Divine Positioning Impact**: Trickster attempts to test the player; high alignment may trigger oath challenges
 
-**Serafina, the Shadow Empress (Primal)**:
-- **Realm Access**: Chaos-Shadow Blossom portal at Southern Middle position
-- **Battle Environment**: Ever-changing shadow mazes, revolutionary art installations, chaotic beauty
-- **Combat Style**: Unpredictable chaos attacks, reality-shifting environment, creative destruction
-- **Enhancement Effects**: Earlier defeats make chaos more beneficial yet more challenging to predict
-- **Divine Positioning Impact**: High alignment may trigger emotional appeals; opposition increases chaos
-
-**Aurelius, the Radiant Sphere (Primal)**:
-- **Realm Access**: Truth-Light Blossom portal at Eastern Middle position
-- **Battle Environment**: Blazing halls of truth, radiant healing chambers, protective light barriers
-- **Combat Style**: Truth-revealing light attacks, healing disruption, protective barriers used offensively
-- **Enhancement Effects**: Earlier defeats intensify truth revelation, making deception impossible
+**Gryphozeus, the Thunder Griffin (Sovereign)**:
+- **Realm Access**: Thunder-Griffin Radiance portal at Eastern Middle position (Position 4)
+- **Battle Environment**: Sky tribunal courts, blazing halls of divine law, celestial storm barriers
+- **Combat Style**: Lightning judgment attacks, truth-revealing light, protective barriers used offensively
+- **Enhancement Effects**: Earlier defeats intensify celestial authority and make deception impossible
 - **Divine Positioning Impact**: Truth about necessity of defeat becomes central to aligned encounters
 
-**Korthak, the Dragon King (Primal)**:
-- **Realm Access**: Honor-Might Blossom portal at Western Middle position
-- **Battle Environment**: Ultimate arena of honorable combat, strength-testing obstacles, fair battlegrounds
-- **Combat Style**: Honorable direct combat, strength-based attacks, disciplined fighting techniques
-- **Enhancement Effects**: Earlier defeats increase physical power while maintaining perfect honor
-- **Divine Positioning Impact**: Aligned players face reluctant but honorable combat; opposition gets full power
+**Tiamangandr, the Frozen Coil (Primal)**:
+- **Realm Access**: Frozen-Coil Bloom portal at Western Crown position (Position 5)
+- **Battle Environment**: Abyssal memory archives, crystalline ice-coil mazes, deep-water pressure zones
+- **Combat Style**: Control-based water/ice attacks, memory manipulation, coil barriers
+- **Enhancement Effects**: Earlier defeats create more complex crystalline patterns and memory-based attacks
+- **Divine Positioning Impact**: Aligned players face preserved memories of their relationship
+
+**Bastenyx, the Nightclaw Sphinx (Sovereign)**:
+- **Realm Access**: Nightclaw-Shadow Void portal at Northwestern position (Position 6)
+- **Battle Environment**: Twilight threshold zones, star-shadow shifting terrain, moonlit claw arenas
+- **Combat Style**: Unpredictable shadow attacks, liminal environment shifting, sphinx riddle traps
+- **Enhancement Effects**: Earlier defeats make shadows more complex, thresholds more dangerous
+- **Divine Positioning Impact**: High alignment may trigger emotional threshold invitations; opposition maximizes shadow assault
 
 #### Player Choice Considerations
 

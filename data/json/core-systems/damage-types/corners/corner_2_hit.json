@@ -1,0 +1,10 @@
+{
+  "id": "corner_2_hit",
+  "label": "Hit",
+  "hexagonal_position": 2,
+  "hexagon_corner": "yellow",
+  "delivery_profile": "Instant single-target damage resolved on contact.",
+  "typical_sources": ["melee_swings", "precision_shots", "quick_casts"],
+  "resource_consumption": "Consumes 1 HP/MP/SP upon impact before mitigation.",
+  "scaling_focus": "weapon_and_skill_power"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "health_points",
+  "short_name": "HP",
+  "description": "Tracks damage tolerance; zero triggers unconscious/death checks",
+  "hexagonal_position": 1,
+  "hexagon_corner": "red",
+  "default_value": 300,
+  "scaling": "attributes_and_gear",
+  "default_regeneration_percent": 10
+}

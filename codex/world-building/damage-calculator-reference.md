@@ -8,14 +8,14 @@ The system reflects the cosmic structure of Yggdrasil and the divine relationshi
 
 ## Quick Reference Table
 
-| Attacker ↓ / Defender → | Fire | Physical | Lightning | Radiance | Cold | Chaos |
-|-------------------------|------|----------|-----------|----------|------|-------|
-| **Fire**               | 1.0x | 1.33x    | 1.66x     | 1.99x    | 0.34x| 0.67x |
-| **Physical**           | 0.67x| 1.0x     | 1.33x     | 1.66x    | 1.99x| 0.34x |
-| **Lightning**          | 0.34x| 0.67x    | 1.0x      | 1.33x    | 1.66x| 1.99x |
-| **Radiance**           | 1.99x| 0.34x    | 0.67x     | 1.0x     | 1.33x| 1.66x |
-| **Cold**               | 1.66x| 1.99x    | 0.34x     | 0.67x    | 1.0x | 1.33x |
-| **Chaos**              | 1.33x| 1.66x    | 1.99x     | 0.34x    | 0.67x| 1.0x  |
+| Attacker ↓ / Defender → | Fire | Metal | Air | Lightning | Water | Shadow |
+|-------------------------|------|-------|-----|-----------|-------|--------|
+| **Fire**               | 1.0x | 1.33x | 1.66x | 1.99x | 0.34x | 0.67x |
+| **Metal**              | 0.67x| 1.0x  | 1.33x | 1.66x | 1.99x | 0.34x |
+| **Air**                | 0.34x| 0.67x | 1.0x  | 1.33x | 1.66x | 1.99x |
+| **Lightning**          | 1.99x| 0.34x | 0.67x | 1.0x  | 1.33x | 1.66x |
+| **Water**              | 1.66x| 1.99x | 0.34x | 0.67x | 1.0x  | 1.33x |
+| **Shadow**             | 1.33x| 1.66x | 1.99x | 0.34x | 0.67x | 1.0x  |
 
 ## Calculation System
 
@@ -44,36 +44,36 @@ Adjusting `effectiveness_step` changes interaction strength:
 ## Hexagonal Position System
 
 ### Positioning Reference (from core-thematic-hexagon.json)
-1. **Fire** (Pyrion, the First Flame) - Red - Primal Anchor
-2. **Physical** (Korthak, the Dragon King) - Yellow - Sovereign Bridge  
-3. **Lightning** (Voltharion, the Cosmic Spark) - Green - Primal Anchor
-4. **Radiance** (Aurelius, the Radiant Sphere) - Cyan - Sovereign Bridge
-5. **Cold** (Glacius, the Eternal Frost) - Blue - Primal Anchor
-6. **Chaos** (Serafina, the Shadow Empress) - Magenta - Sovereign Bridge
+1. **Fire** (Ifrisurtr, the Ash Phoenix) - Red 🔴 - Primal Anchor
+2. **Metal** (Longares, the Auric Dragon King) - Yellow 🟡 - Sovereign Bridge
+3. **Air** (Kitsunrir, the Storm-Tailed Hunter) - Green 🟢 - Primal Anchor
+4. **Lightning** (Gryphozeus, the Thunder Griffin) - Cyan 🔷 - Sovereign Bridge
+5. **Water** (Tiamangandr, the Frozen Coil) - Blue 🔵 - Primal Anchor
+6. **Shadow** (Bastenyx, the Nightclaw Sphinx) - Magenta 🟣 - Sovereign Bridge
 
 ### Clockwise Order
-1. Fire → 2. Physical → 3. Lightning → 4. Radiance → 5. Cold → 6. Chaos → 1. Fire
+1. Fire → 2. Metal → 3. Air → 4. Lightning → 5. Water → 6. Shadow → 1. Fire
 
 ### TypeMult Pattern (0 → 1 → 2 → 3 → -2 → -1)
 ```
                     FIRE (0) 🔴
                       /\
                      /  \
-         CHAOS (-1) 💜   PHYSICAL (1) 💛
+       SHADOW (-1) 🟣   METAL (1) 🟡
                    \    /
                     \  /
-         COLD (-2) 🔵 ---- ---- LIGHTNING (2) 🟢
+       WATER (-2) 🔵 ---- ---- AIR (2) 🟢
                     \  /
                      \/
-                RADIANCE (3) 🌊
+                LIGHTNING (3) 🔷
 ```
 
 ## RGB Anchor vs Bridge Opposition
 
 ### RGB Anchors vs Sovereign Bridges (Opposite effectiveness)
-- **Fire → Radiance:** Primal creation overwhelms divine order with raw transformative energy
-- **Lightning → Chaos:** Primal connection grounds chaotic unpredictability with precise electrical patterns  
-- **Cold → Physical:** Primal preservation freezes disciplined action with absolute crystalline stasis
+- **Fire → Lightning:** Ifrisurtr's apocalyptic flame overwhelms Gryphozeus's divine authority with raw destructive heat
+- **Air → Shadow:** Kitsunrir's boundless gale disperses Bastenyx's protective darkness with relentless wind
+- **Water → Metal:** Tiamangandr's crystalline depths corrode Longares's forged discipline through patient pressure
 
 ### Divine Warfare Philosophy
 The **RGB Anchor Gods** (Primal) and **Bridge Gods** (Sovereign) represent different approaches to cosmic power. RGB anchors provide foundational forces, while bridges create transitions and balance. Opposites create the most dramatic conflicts where pure elemental force meets refined divine technique.
@@ -81,19 +81,19 @@ The **RGB Anchor Gods** (Primal) and **Bridge Gods** (Sovereign) represent diffe
 ## Calculation Examples
 
 ### Example 1: RGB vs Bridge Opposition (1.99x)
-- **Fire attacking Radiance:** typemult = 3 → 1 + 3 * 0.33 = 1.99x
-- **Lightning attacking Chaos:** typemult = 3 → 1 + 3 * 0.33 = 1.99x  
-- **Cold attacking Physical:** typemult = 3 → 1 + 3 * 0.33 = 1.99x
+- **Fire attacking Lightning:** typemult = 3 → 1 + 3 * 0.33 = 1.99x
+- **Air attacking Shadow:** typemult = 3 → 1 + 3 * 0.33 = 1.99x
+- **Water attacking Metal:** typemult = 3 → 1 + 3 * 0.33 = 1.99x
 
 ### Example 2: Strong Advantages (1.66x)
-- **Fire attacking Lightning:** typemult = 2 → 1 + 2 * 0.33 = 1.66x
-- **Physical attacking Radiance:** typemult = 2 → 1 + 2 * 0.33 = 1.66x
-- **Lightning attacking Cold:** typemult = 2 → 1 + 2 * 0.33 = 1.66x
+- **Fire attacking Air:** typemult = 2 → 1 + 2 * 0.33 = 1.66x
+- **Metal attacking Lightning:** typemult = 2 → 1 + 2 * 0.33 = 1.66x
+- **Air attacking Water:** typemult = 2 → 1 + 2 * 0.33 = 1.66x
 
 ### Example 3: Adjacent Advantages (1.33x)
-- **Fire attacking Physical:** typemult = 1 → 1 + 1 * 0.33 = 1.33x
-- **Lightning attacking Radiance:** typemult = 1 → 1 + 1 * 0.33 = 1.33x
-- **Cold attacking Chaos:** typemult = 1 → 1 + 1 * 0.33 = 1.33x
+- **Fire attacking Metal:** typemult = 1 → 1 + 1 * 0.33 = 1.33x
+- **Air attacking Lightning:** typemult = 1 → 1 + 1 * 0.33 = 1.33x
+- **Water attacking Shadow:** typemult = 1 → 1 + 1 * 0.33 = 1.33x
 
 ### Example 4: Self-Mastery (1.0x)
 - **Any type vs Self:** typemult = 0 → 1 + 0 * 0.33 = 1.0x

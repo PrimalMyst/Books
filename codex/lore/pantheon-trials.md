@@ -1,7 +1,7 @@
 # Pantheon Trial System - Divine Positioning Mechanics
 
 ## Summary
-The Pantheon Trial System is the formal framework through which players can align with the Primal Trio (Serafina, Aurelius, Korthak), participate in divine trials, and build relationships that affect progression, abilities, and story outcomes. This system gates access to divine content while allowing players to define their character's spiritual and philosophical approach.
+The Pantheon Trial System is the formal framework through which players can align with the Sovereign Trio (Longares, Gryphozeus, Bastenyx), participate in divine trials, and build relationships that affect progression, abilities, and story outcomes. This system gates access to divine content while allowing players to define their character's spiritual and philosophical approach.
 
 ## Core Mechanics
 
@@ -19,18 +19,18 @@ Each god relationship is tracked on a scale from -100 to +100:
 ### Alignment Actions
 Player actions throughout the world affect divine positioning:
 
-**Serafina (Shadow Empress) - Beneficial Chaos**:
-- **Positive Actions**: Creative problem-solving, challenging corrupt authority, promoting change, preventing stagnation, revolutionary thinking
-- **Negative Actions**: Enforcing rigid structures, suppressing creativity, maintaining harmful status quo, fear of change
-- **Neutral Actions**: Balanced approaches that neither promote nor prevent change
+**Bastenyx (Nightclaw Sphinx) - Shadow Wisdom**:
+- **Positive Actions**: Creative problem-solving, navigating thresholds/liminal spaces, protecting those in transition, moonlit vigilance, sphinx-riddle wisdom
+- **Negative Actions**: Cruelty during transitions, exploiting vulnerable states, destroying liminal balance, unwise use of shadow arts
+- **Neutral Actions**: Balanced approaches that neither honor nor disrespect thresholds
 
-**Aurelius (Radiant Sphere) - Protective Truth**:
-- **Positive Actions**: Protecting innocents, healing others, revealing truth, honest communication, selfless service
-- **Negative Actions**: Harming innocents, deception, hiding truth, selfish behavior, causing unnecessary suffering
+**Gryphozeus (Thunder Griffin) - Celestial Justice**:
+- **Positive Actions**: Upholding divine law, seeking truth, protecting the innocent through authority, delivering righteous judgment, honest communication
+- **Negative Actions**: Abuse of authority, deception, hiding truth, unjust verdicts, causing suffering through misuse of power
 - **Neutral Actions**: Personal advancement without harming or helping others
 
-**Korthak (Dragon King) - Honorable Strength**:
-- **Positive Actions**: Fair combat, training/discipline, showing respect to opponents, honorable behavior, protecting the weak through strength
+**Longares (Auric Dragon King) - Disciplined Honor**:
+- **Positive Actions**: Fair combat, rigorous training, showing respect to opponents, honorable behavior, upholding the warrior's code
 - **Negative Actions**: Unfair combat tactics, laziness/lack of discipline, disrespecting opponents, dishonorable behavior, bullying
 - **Neutral Actions**: Avoiding combat entirely, civilian pursuits unrelated to strength or honor
 
@@ -91,9 +91,9 @@ Player actions throughout the world affect divine positioning:
 
 ### Philosophical Tensions
 Some divine principles create natural conflicts:
-- **Serafina vs. Aurelius**: Chaos/change vs. order/stability
-- **Serafina vs. Korthak**: Revolution vs. traditional discipline
-- **Aurelius vs. Korthak**: Protection/healing vs. combat/strength
+- **Bastenyx vs. Gryphozeus**: Shadow ambiguity vs. celestial clarity
+- **Bastenyx vs. Longares**: Liminal transition vs. disciplined structure
+- **Gryphozeus vs. Longares**: Divine authority vs. personal honor
 
 ### Balancing Strategies
 **Moderate Approach**: Maintain +25 to +50 with all gods

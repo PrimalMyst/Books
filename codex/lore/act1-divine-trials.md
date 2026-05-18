@@ -8,15 +8,15 @@ Act 1 focuses on the player's journey to prove their worthiness to the six funda
 ### Divine Trial System
 The player must face six divine trials, one for each fundamental and primal god:
 
-#### Fundamental Gods
-- **Pyrion (Creation/Forge-Fire)**: Trial of creation and artistic mastery
-- **Glacius (Depths/Flow)**: Trial of adaptation and fluid wisdom
-- **Voltharion (Spark/Connection)**: Trial of communication and unity
-
 #### Primal Gods
-- **Serafina (Shadows/Chaos)**: Trial of beneficial destruction and change
-- **Aurelius (Light/Truth)**: Trial of illumination and protection
-- **Korthak (Might/Honor)**: Trial of discipline and righteous strength
+- **Ifrisurtr (Fire/Rebirth)**: Trial of apocalyptic endurance and cyclical renewal
+- **Kitsunrir (Air/Hunt)**: Trial of boundless movement and oath-binding instinct
+- **Tiamangandr (Water/Memory)**: Trial of depth and crystalline preservation
+
+#### Sovereign Gods
+- **Longares (Metal/Discipline)**: Trial of martial honor and forged might
+- **Gryphozeus (Lightning/Justice)**: Trial of divine authority and righteous judgment
+- **Bastenyx (Shadow/Guardianship)**: Trial of threshold wisdom and nocturnal protection
 
 ### Progressive Difficulty
 - **Divine Acknowledgment Tremor**: Global event after each trial completion

@@ -25,15 +25,15 @@ The cosmic rhythms operate on multiple timescales:
 ### Divine Resonance Patterns
 Each of the six Eldritch Gods contributes to the cosmic rhythms:
 
-**Fundamental God Rhythms** (Structural Patterns):
-- **Pyrion's Pulse**: Energy cycles that drive creation and transformation
-- **Glacius' Preservation Wave**: Memory consolidation and structural maintenance cycles
-- **Voltharion's Network Sync**: Communication and connection harmonization periods
+**Primal God Rhythms** (Structural Patterns):
+- **Ifrisurtr's Ember Pulse**: Destructive-renewal cycles that drive transformation and rebirth
+- **Kitsunrir's Storm Surge**: Wild hunt cycles of boundless movement and illusory shifts
+- **Tiamangandr's Preservation Wave**: Memory consolidation and abyssal depth maintenance cycles
 
-**Primal God Rhythms** (Active Patterns):
-- **Serafina's Chaos Tide**: Revolutionary cycles that prevent stagnation
-- **Aurelius' Radiance Cycle**: Truth revelation and protection enhancement periods
-- **Korthak's Discipline Wave**: Training and strength-building optimal periods
+**Sovereign God Rhythms** (Active Patterns):
+- **Longares' Discipline Tide**: Training and martial order cycles that forge endurance
+- **Gryphozeus' Judgment Cycle**: Divine authority revelation and righteous storm enhancement periods
+- **Bastenyx's Shadow Warden Wave**: Protective twilight cycles and threshold guardian periods
 
 ### Rhythm Interference
 When the six divine rhythms fall into specific patterns:

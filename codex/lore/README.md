@@ -30,10 +30,10 @@ The stranded crew of *The Wandering Hope* who rescue the player and serve as the
 ## Divine Entities
 
 ### **[The Primal Trio](./primal-trio.md)**
-Pyrion (First Flame), Glacius (Eternal Frost), and Voltharion (Cosmic Spark) - the foundational gods who power Yggdrasil.
+Ifrisurtr (Ash Phoenix), Kitsunrir (Storm-Tailed Hunter), and Tiamangandr (Frozen Coil) - the Primal gods anchoring the RGB positions of Yggdrasil.
 
 ### **[The Sovereign Trio](./sovereign-trio.md)**
-Serafina (Shadow Empress), Aurelius (Radiant Sphere), and Korthak (Dragon King) - the active gods who rule realms and interact with mortals.
+Longares (Auric Dragon King), Gryphozeus (Thunder Griffin), and Bastenyx (Nightclaw Sphinx) - the Sovereign gods who rule realms and interact with mortals.
 
 ### **[The Eldritch Pantheon](./eldritch-pantheon.md)**
 Complete overview of all six gods, their relationships, and their roles in the God-Slayer narrative.

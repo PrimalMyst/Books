@@ -1,0 +1,10 @@
+{
+  "id": "corner_1_armor",
+  "label": "Armor",
+  "short_name": "AR",
+  "hexagonal_position": 1,
+  "hexagon_corner": "red",
+  "primary_effect": "Reduces incoming physical damage through flat mitigation.",
+  "default_rating": 100,
+  "scaling": "strength_and_plate"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "mana_points",
+  "short_name": "MP",
+  "description": "Tracks spellcasting capacity; zero imposes magical lockout",
+  "hexagonal_position": 5,
+  "hexagon_corner": "blue",
+  "default_value": 200,
+  "scaling": "attributes_and_gear",
+  "default_regeneration_percent": 20
+}

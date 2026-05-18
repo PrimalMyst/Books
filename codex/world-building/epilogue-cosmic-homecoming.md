@@ -8,22 +8,22 @@ The epilogue of PrimalMyst transforms the player into the God-Slayer who must as
 ### Yggdrasil and the Divine Summit
 The epilogue centers around the massive world-tree Yggdrasil, whose summit features a honeycomb structure with divine flowers at each major corner. These flowers grant access to the strengthened god realms:
 
-- **Pyrion's Forge-Flame Blossom**: Access to the enhanced realm of creation and forge-fire
-- **Aquarix's Deep-Current Bloom**: Portal to the depths of enhanced water mastery  
-- **Verdania's Life-Bloom Spiral**: Gateway to overwhelming life force and growth
-- **Umbros's Shadow-Petal Void**: Entry to hidden truths and shadow mastery
-- **Luxara's Light-Blossom Radiance**: Path to blinding revelation and illumination
-- **Zephyros's Wind-Spiral Crown**: Route to the forces of change and transformation
+- **Ifrisurtr's Ember-Forge Blossom**: Access to the enhanced realm of apocalyptic fire and cyclical rebirth
+- **Longares' Auric-Drake Blossom**: Portal to the gilded battlefields of disciplined might
+- **Kitsunrir's Storm-Gale Spiral**: Gateway to the boundless hunting winds and illusory skies
+- **Gryphozeus's Thunder-Griffin Radiance**: Entry to divine judgment courts and celestial authority
+- **Tiamangandr's Frozen-Coil Bloom**: Path to the abyssal depths of crystalline memory and preservation
+- **Bastenyx's Nightclaw-Shadow Void**: Route to the twilight thresholds of shadow wisdom and protection
 
 ### The God-Slayer Progression (Levels 96-100)
 Each god starts at level 96 and becomes stronger through Myrielle's essence:
 
-1. **Pyrion** (Level 96→97): Enhanced by Myrielle's creative force
-2. **Aquarix** (Level 97→98): Deepened by Myrielle's adaptive wisdom
-3. **Verdania** (Level 98→99): Amplified by Myrielle's nurturing essence
-4. **Umbros** (Level 99→100): Merged with Myrielle's hidden nature
-5. **Luxara** (Level 100→100+): Enhanced by Myrielle's truth-seeking
-6. **Zephyros** (Level 100+→Maximum): Amplified by Myrielle's transformative power
+1. **Ifrisurtr** (Level 96→97): Enhanced by Myrielle's creative force
+2. **Longares** (Level 97→98): Tempered by Myrielle's disciplined wisdom
+3. **Kitsunrir** (Level 98→99): Amplified by Myrielle's boundless spirit
+4. **Gryphozeus** (Level 99→100): Empowered by Myrielle's sense of divine justice
+5. **Tiamangandr** (Level 100→100+): Deepened by Myrielle's memory preservation
+6. **Bastenyx** (Level 100+→Maximum): Merged with Myrielle's liminal and protective nature
 
 ### Myrielle's Ultimate Sacrifice
 After defeating all six gods, Myrielle appears to absorb their power for the final level 100 confrontation. Upon her defeat, the heartwarming truth is revealed:

@@ -1,0 +1,10 @@
+{
+  "id": "stamina_points",
+  "short_name": "SP",
+  "description": "Tracks physical action budget; zero applies exhaustion penalties",
+  "hexagonal_position": 3,
+  "hexagon_corner": "green",
+  "default_value": 100,
+  "scaling": "static",
+  "default_regeneration_percent": 30
+}

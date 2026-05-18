@@ -23,9 +23,9 @@ Myrielle exists outside reality instances specifically to address this crisis:
 
 ### Natural Memory Storage
 **Yggdrasil Integration**:
-- **Glacius' Archive**: The World Tree's crystalline bark naturally stores experiences
-- **Heartwood Resonance**: Pyrion's energy preserves emotional and transformative memories
-- **Branch Networks**: Voltharion's connections maintain relationship and communication memories
+- **Tiamangandr's Archive**: The World Tree's crystalline root-depths naturally store experiences
+- **Heartwood Resonance**: Ifrisurtr's fire-energy preserves emotional and transformative memories
+- **Branch Winds**: Kitsunrir's storm-currents carry relationship and communication memories across realms
 - **Realm Echoes**: Each divine realm automatically preserves relevant experiences
 
 **Cosmic Rhythm Recording**:

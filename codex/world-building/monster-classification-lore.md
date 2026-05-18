@@ -38,15 +38,15 @@ All monsters, regardless of race, breed, intelligence, or power, are bound by a 
 
 Monster influences come from the three tiers of the Eldritch Pantheon:
 
-#### **Fundamental Gods (Ancient Powers)**
-- **Pyrion, the First Flame**: Fire, creation, transformation
-- **Glacius, the Eternal Frost**: Cold, preservation, memory
-- **Voltharion, the Cosmic Spark**: Lightning, communication, connection
+#### **Primal Gods (RGB Anchor Positions)**
+- **Ifrisurtr, the Ash Phoenix**: Fire, apocalyptic destruction, cyclical rebirth
+- **Kitsunrir, the Storm-Tailed Hunter**: Air, boundless movement, illusory winds
+- **Tiamangandr, the Frozen Coil**: Water, preservation, crystalline memory
 
-#### **Primal Gods (Active Deities)**
-- **Serafina, the Shadow Empress**: Chaos, shadow, dark transformation
-- **Aurelius, the Radiant Sphere**: Radiance, protection, guidance
-- **Korthak, the Dragon King**: Might, physical strength, honor
+#### **Sovereign Gods (Bridge Positions)**
+- **Longares, the Auric Dragon King**: Metal, disciplined might, warrior's honor
+- **Gryphozeus, the Thunder Griffin**: Lightning, divine authority, celestial justice
+- **Bastenyx, the Nightclaw Sphinx**: Shadow, threshold wisdom, protective guardianship
 
 #### **Veiled Ones (Mysterious Guides)**
 - **Myrielle, the Hidden**: Cycles, rebirth, transition
@@ -57,56 +57,56 @@ Monster influences come from the three tiers of the Eldritch Pantheon:
 
 #### **Aberration**
 - **Divine Influences**: Often touched by forces from beyond normal divine realms
-- **Examples**: Grimjaw Mimics with Serafina's deception and Korthak's survival
+- **Examples**: Grimjaw Mimics with Bastenyx's deception and Longares' survival
 - **Characteristics**: Alien thought patterns, reality-warping abilities
 
 #### **Beast**
 - **Divine Influences**: Natural creatures enhanced by various divine aspects
-- **Examples**: Shadowmane Stalkers (Serafina's shadow + Korthak's hunt), Stormwing Eagles (Aurelius's protection + Voltharion's storm)
+- **Examples**: Shadowmane Stalkers (Bastenyx's shadow + Longares' hunt), Stormwing Eagles (Gryphozeus's protection + Kitsunrir's storm)
 - **Characteristics**: Enhanced natural abilities, mystical variants of normal animals
 
 #### **Construct**
-- **Divine Influences**: Typically animated by Voltharion's spark plus another influence
+- **Divine Influences**: Typically animated by Gryphozeus's lightning spark plus another influence
 - **Characteristics**: Artificial beings with magical animation, often serving specific purposes
 
 #### **Demon/Fiend**
-- **Divine Influences**: Often bear corrupted aspects of Serafina's chaos
+- **Divine Influences**: Often bear corrupted aspects of Bastenyx's shadow
 - **Characteristics**: Malevolent entities dedicated to corruption and destruction
 
 #### **Dragon**
-- **Divine Influences**: Mighty beings often carrying aspects of Fundamental Gods or Korthak's might
+- **Divine Influences**: Mighty beings often carrying aspects of Primal Gods or Longares' might
 - **Characteristics**: Immense power, elemental affinities, but still bound by two-influence limit
 
 #### **Elemental**
-- **Divine Influences**: Pure manifestations of Pyrion's fire, Glacius's cold, or Voltharion's lightning
-- **Examples**: Silverlight Wisps (Myrielle fragment + Aurelius's light)
+- **Divine Influences**: Pure manifestations of Ifrisurtr's fire, Tiamangandr's water, or Kitsunrir's air
+- **Examples**: Silverlight Wisps (Myrielle fragment + Gryphozeus's light)
 - **Characteristics**: Embodiments of primal forces
 
 #### **Fey**
-- **Divine Influences**: Connected to Aurelius's light and Myrielle's transitions
-- **Examples**: Whisperwind Foxes (Myrielle fragment + Aurelius's wisdom)
+- **Divine Influences**: Connected to Gryphozeus's light and Myrielle's transitions
+- **Examples**: Whisperwind Foxes (Myrielle fragment + Gryphozeus's wisdom)
 - **Characteristics**: Magical beings from ethereal realms
 
 #### **Giant**
-- **Divine Influences**: Massive beings with Korthak's might or Fundamental God connections
+- **Divine Influences**: Massive beings often carrying aspects of Primal Gods or Longares' disciplined might
 - **Characteristics**: Enormous humanoid-shaped creatures with elemental affinities
 
 #### **Insect**
-- **Divine Influences**: Often touched by Pyrion's transformation or Voltharion's connection
-- **Examples**: Memory Butterflies (Myrielle fragment + Voltharion's memory)
+- **Divine Influences**: Often touched by Ifrisurtr's transformation or Kitsunrir's swift connection
+- **Examples**: Memory Butterflies (Myrielle fragment + Kitsunrir's wind-memory)
 - **Characteristics**: Chitinous creatures ranging from individuals to hive minds
 
 #### **Plant**
-- **Divine Influences**: Typically influenced by Aurelius's growth and earth aspects
-- **Examples**: Ironbark Treants (Korthak's strength + Aurelius's growth)
+- **Divine Influences**: Typically influenced by Longares' earth-metal and Gryphozeus's growth aspects
+- **Examples**: Ironbark Treants (Longares' strength + Gryphozeus's protective radiance)
 - **Characteristics**: Living vegetation given consciousness and mobility
 
 #### **Undead**
-- **Divine Influences**: Bound by Serafina's necromancy and Glacius's preservation
+- **Divine Influences**: Bound by Bastenyx's shadow necromancy and Tiamangandr's icy preservation
 - **Characteristics**: Creatures animated by death magic and preservation forces
 
 #### **Werewolf**
-- **Divine Influences**: Shapeshifting curses often combining Serafina's transformation with Korthak's primal might
+- **Divine Influences**: Shapeshifting curses often combining Bastenyx's shadow transformation with Kitsunrir's primal beast-nature
 - **Characteristics**: Dual-natured beings torn between forms
 
 ## Monster Categories by Function

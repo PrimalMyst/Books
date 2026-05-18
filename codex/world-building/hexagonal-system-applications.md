@@ -7,24 +7,24 @@ The core hexagonal structure provides a universal framework for organizing Prima
 ## Core Hexagon Reference
 
 ```
-                    (1) COLD
-                   Intelligence
-                 Cold Resistance
+                    (1) FIRE 🔴
+                   Strength
+                 Fire Resistance
                       /\
                      /  \
-         (6) RADIANCE    (2) CHAOS
-          Str + Int      Int + Dex
-        Energy Shield     Evasion
+      (6) SHADOW 🟣    (2) METAL 🟡
+        Charisma       Constitution
+         Evasion           Armor
                    \    /
                     \  /
-         (5) FIRE ---- ---- (3) LIGHTNING
-         Strength           Dexterity  
-         Fire Resist    Lightning Resist
+      (5) WATER 🔵 ---- (3) AIR 🟢
+        Intelligence    Dexterity
+       Water Resist   Air Resistance
                     \  /
                      \/
-                (4) PHYSICAL
-                Dex + Str
-                Armor
+                (4) LIGHTNING 🔷
+                    Wisdom
+                 Energy Shield
 ```
 
 ## System Applications
@@ -33,12 +33,12 @@ The core hexagonal structure provides a universal framework for organizing Prima
 
 **Structure:** Each corner anchors a major branch of the passive skill tree
 
-- **Position 1 (Cold/Int/CR):** Spell power, mana, cold immunity, preservation magic
-- **Position 2 (Chaos/Int+Dex/Eva):** Chaos magic, hybrid casting, evasive transformation
-- **Position 3 (Lightning/Dex/LR):** Speed, accuracy, lightning immunity, chain effects, mobility
-- **Position 4 (Physical/Dex+Str/Arm):** Weapon mastery, martial arts, physical mitigation
-- **Position 5 (Fire/Str/FR):** Raw damage, fire immunity, physical enhancement
-- **Position 6 (Radiance/Str+Int/ES):** Protection, healing, energy shield mastery
+- **Position 1 (Fire/Str/FR):** Raw damage, fire mastery, physical enhancement, forge arts
+- **Position 2 (Metal/Con/Arm):** Weapon mastery, endurance, physical mitigation, martial discipline
+- **Position 3 (Air/Dex/AR):** Speed, accuracy, evasion, chain effects, mobility
+- **Position 4 (Lightning/Wis/ES):** Divine authority, storm power, spell resistance, healing
+- **Position 5 (Water/Int/WR):** Spell power, preservation magic, knowledge, cold immunity
+- **Position 6 (Shadow/Cha/Eva):** Stealth, chaos effects, evasion, manipulation
 
 **Connections:** 
 - Adjacent corners have direct connection paths (easier to hybrid)
@@ -48,32 +48,32 @@ The core hexagonal structure provides a universal framework for organizing Prima
 ### 2. Equipment Categories
 
 **Weapons by Corner:**
-1. **Cold:** Staves, Wands, Crystal Focuses
-2. **Chaos:** Ritual Daggers, Transformation Orbs, Entropy Weapons  
-3. **Lightning:** Javelins, Crossbows, Speed Weapons
-4. **Physical:** Swords, Axes, Martial Arts Weapons
-5. **Fire:** Two-handed weapons, Hammers, Forge Weapons
-6. **Radiance:** Shields, Maces, Protective Weapons
+1. **Fire:** Great swords, War hammers, Two-handed forge weapons
+2. **Metal:** Spears, Polearms, Disciplined martial weapons
+3. **Air:** Bows, Javelins, Speed weapons
+4. **Lightning:** Staves, Divine focuses, Storm implements
+5. **Water:** Wands, Crystal tomes, Orbs of knowledge
+6. **Shadow:** Daggers, Shadow orbs, Stealth blades
 
 **Armor by Vertex:**
-1. **Cold:** Robes, Cloth armor with ES bonuses
-2. **Chaos:** Light armor with ES/Evasion hybrid
-3. **Lightning:** Light armor focused on evasion and mobility
-4. **Physical:** Medium armor with evasion/armor hybrid
-5. **Fire:** Heavy armor with maximum protection
-6. **Radiance:** Heavy armor with armor/ES hybrid
+1. **Fire:** Heavy plate with fire resistance bonuses
+2. **Metal:** Forged lamellar with armor/endurance hybrid
+3. **Air:** Light leather focused on evasion and mobility
+4. **Lightning:** Energy-threaded chain with ES/Armor hybrid
+5. **Water:** Flowing robes with mana and spell bonuses
+6. **Shadow:** Evasion leathers with ES/Evasion hybrid
 
 ### 3. Character Classes/Archetypes
 
 **Origin Island Heritage System:**
 Character classes inherit their attribute growth patterns from their starting island's hexagonal position:
 
-1. **Necromancer (Glacius Isle/Position 1):** Intelligence focus from cold/preservation heritage
-2. **Succubus (Serafina Isle/Position 2):** Intelligence+Dexterity hybrid from chaos/transformation heritage  
-3. **Hunter (Voltharion Isle/Position 3):** Dexterity focus from lightning/connection heritage
-4. **Warrior (Pyrion's Forge/Position 4):** Vitality focus from fire/creation heritage
-5. **Chieftain (Korthak Isle/Position 5):** Strength focus from physical/might heritage
-6. **Priestess (Aurelius Isle/Position 6):** Wisdom focus from radiance/protection heritage
+1. **Warrior (Ifrisurtr's Isle/Position 1):** Strength focus from fire/destruction heritage
+2. **Knight (Longares' Isle/Position 2):** Constitution focus from metal/discipline heritage
+3. **Hunter (Kitsunrir's Isle/Position 3):** Dexterity focus from air/speed heritage
+4. **Sage (Gryphozeus' Isle/Position 4):** Wisdom focus from lightning/authority heritage
+5. **Scholar (Tiamangandr's Isle/Position 5):** Intelligence focus from water/preservation heritage
+6. **Rogue (Bastenyx's Isle/Position 6):** Charisma focus from shadow/guile heritage
 
 **Class Role - Ascendancy Anchors:**
 - Classes provide access to specific ascendancy trees (similar to Path of Exile)
@@ -91,12 +91,12 @@ Character classes inherit their attribute growth patterns from their starting is
 
 **Seasonal Focus:** Each league could emphasize different corners or corner combinations:
 
-- **Glacial League:** Focus on cold/preservation mechanics
-- **Storm League:** Lightning/speed emphasis with chain reactions
-- **Forge League:** Fire/creation with enhanced crafting
-- **Shadow League:** Chaos/transformation with shifting mechanics
-- **Arena League:** Physical/honor with combat tournaments
-- **Sanctuary League:** Radiance/protection with safe zone mechanics
+- **Ember League:** Focus on fire/destruction and forge crafting mechanics
+- **Storm League:** Air/speed emphasis with hunt and evasion mechanics
+- **Tidal League:** Water/preservation with enhanced memory and knowledge access
+- **Shadow League:** Shadow/stealth with shifting and manipulation mechanics
+- **Forge League:** Metal/discipline with combat tournaments and endurance
+- **Tribunal League:** Lightning/authority with divine judgment events
 
 **Cross-Vertex Leagues:**
 - **Eclipse League:** Opposition pairs (Cold vs Physical, etc.)
@@ -106,12 +106,12 @@ Character classes inherit their attribute growth patterns from their starting is
 ### 5. Crafting Materials
 
 **By Vertex Position:**
-1. **Cold:** Eternal Ice, Memory Crystals, Preservation Essences
-2. **Chaos:** Shadow Silk, Transformation Catalysts, Entropy Shards
-3. **Lightning:** Storm Cores, Speed Crystals, Connection Wires
-4. **Physical:** Dragon Scales, Honor Steel, Discipline Stones
-5. **Fire:** Flame Hearts, Creation Embers, Forge Coals
-6. **Radiance:** Light Gems, Protection Wards, Truth Crystals
+1. **Fire:** Volcanic Cores, Phoenix Ash, Forge Embers
+2. **Metal:** Dragon Scales, Honor Steel, Tempered Alloys
+3. **Air:** Storm Feathers, Gale Crystals, Fox-Tail Silk
+4. **Lightning:** Thunder Stones, Griffin Talons, Storm Cores
+5. **Water:** Abyssal Ice, Memory Crystals, Deep Currents
+6. **Shadow:** Moonlit Silk, Sphinx Dust, Twilight Shards
 
 **Combination Materials:**
 - Adjacent combinations create enhanced materials

@@ -1,0 +1,10 @@
+{
+  "id": "corner_4_overwhelm",
+  "label": "Overwhelm",
+  "hexagonal_position": 4,
+  "hexagon_corner": "cyan",
+  "delivery_profile": "High-magnitude impacts, slams, or wide AoE spell bursts.",
+  "typical_sources": ["ground_slams", "meteor_sequences", "concussive_pulses"],
+  "resource_consumption": "Consumes 1 HP/MP/SP per strike before mitigation.",
+  "scaling_focus": "impact_and_area_power"
+}

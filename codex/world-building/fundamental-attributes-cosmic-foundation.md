@@ -65,12 +65,12 @@ All learnable abilities ultimately trace back to fundamental attributes because 
 
 ## Divine Embodiment
 
-### The Fundamental Gods
-Glacius (Intelligence), Voltharion (Dexterity), and Korthak (Strength) are not merely powerful beings - they are the living embodiments of reality's foundation:
+### The Primal Attribute Gods
+Tiamangandr (Intelligence), Kitsunrir (Dexterity), and Ifrisurtr (Strength) are not merely powerful beings - they are the living embodiments of reality's foundation:
 
-- **Glacius**: The conscious principle of existence itself, without which nothing could be understood or learned
-- **Voltharion**: The active principle of change and movement, without which nothing could be shaped or modified  
-- **Korthak**: The stable principle of force and endurance, without which nothing could maintain its form or resist entropy
+- **Tiamangandr**: The conscious principle of existence itself, without which nothing could be understood or learned
+- **Kitsunrir**: The active principle of change and movement, without which nothing could be shaped or modified
+- **Ifrisurtr**: The stable principle of force and endurance, without which nothing could maintain its form or resist entropy
 
 ### Fundamental vs. Transcendent
 While transcendent attributes (Adaptability, Vitality, Wisdom) allow beings to grow beyond their basic nature, the fundamental attributes define the minimum requirements for existing in material reality at all.
