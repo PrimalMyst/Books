@@ -146,6 +146,6 @@ Each trial provides the same elemental choices but teaches them through the god'
 - **[Yggdrasil](./yggdrasil.md)**: The World Tree they power and structure
 - **[The Six Realms](./six-realms-cosmology.md)**: The realms they enable through their combined essence
 - **[The Primal Trio](./primal-trio.md)**: The active gods who rule realms using foundational power
-- **[Epilogue: God-Slayer](./epilogue-god-slayer.md)**: Their role in the final confrontations (levels 96-98)
+- **[Epilogue: God-Slayer](./story-arc/epilogue-god-slayer.md)**: Their role in the final confrontations (levels 96-98)
 - **[Reality Instances](./reality-instances.md)**: The universe containers they make possible
 - **[Cosmic Rhythms](./cosmic-rhythms.md)**: The cycles they power and maintain

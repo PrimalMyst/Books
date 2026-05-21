@@ -202,9 +202,9 @@ Act 2 represents the player's transition from basic divine understanding to deep
 ## Cross-References
 - **[Act 1: Divine Trials](./act1-divine-trials.md)**: Foundation establishment for advanced challenges
 - **[Act 3: Cosmic Ascendant](./act3-cosmic-ascendant.md)**: Continuation toward ultimate mastery
-- **[Myrielle the Hidden](./myrielle-the-hidden.md)**: The hidden goddess's growing influence
-- **[Pantheon Trial System](./pantheon-trials.md)**: Advanced trial access and completion
-- **[The Six Realms](./six-realms-cosmology.md)**: Divine realm exploration and mastery
-- **[Cosmic Rhythms](./cosmic-rhythms.md)**: Growing awareness of universal patterns
-- **[Memory Preservation](./memory-preservation.md)**: Understanding preservation importance
-- **[Reality Instances](./reality-instances.md)**: Learning about universe container mechanics
+- **[Myrielle the Hidden](../myrielle-the-hidden.md)**: The hidden goddess's growing influence
+- **[Pantheon Trial System](../pantheon-trials.md)**: Advanced trial access and completion
+- **[The Six Realms](../six-realms-cosmology.md)**: Divine realm exploration and mastery
+- **[Cosmic Rhythms](../cosmic-rhythms.md)**: Growing awareness of universal patterns
+- **[Memory Preservation](../memory-preservation.md)**: Understanding preservation importance
+- **[Reality Instances](../reality-instances.md)**: Learning about universe container mechanics

@@ -189,7 +189,7 @@ Myrielle exists outside reality instances specifically to address this crisis:
 - **[Valhalla](./valhalla.md)**: The eternal sanctuary where preserved consciousness exists
 - **[Reality Instances](./reality-instances.md)**: The universe containers that face inevitable destruction
 - **[Cosmic Rhythms](./cosmic-rhythms.md)**: The patterns that drive reality instance collapse
-- **[Epilogue: God-Slayer](./epilogue-god-slayer.md)**: The path to perfect memory preservation
+- **[Epilogue: God-Slayer](./story-arc/epilogue-god-slayer.md)**: The path to perfect memory preservation
 - **[Yggdrasil](./yggdrasil.md)**: The natural memory storage system within reality instances
 - **[The Fundamental Trio](./fundamental-trio.md)**: Gods whose essence enables natural preservation
 - **[Adventurer Guilds](./adventurer-guilds.md)**: Organizations that provide preservation infrastructure

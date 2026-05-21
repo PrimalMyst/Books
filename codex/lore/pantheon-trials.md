@@ -167,7 +167,7 @@ When divine principles directly conflict, players must choose:
 - **[The Primal Trio](./primal-trio.md)**: The three gods who offer trials and positioning
 - **[Divine Positioning](./divine-positioning.md)**: The broader alignment system mechanics
 - **[Adventurer Guilds](./adventurer-guilds.md)**: Organizations that control trial access
-- **[Act 1: Divine Trials](./act1-divine-trials.md)**: Introduction and early trial experiences
+- **[Act 1: Divine Trials](./story-arc/act1-divine-trials.md)**: Introduction and early trial experiences
 - **[The Six Realms](./six-realms-cosmology.md)**: Divine realm trial locations
-- **[Epilogue: God-Slayer](./epilogue-god-slayer.md)**: How positioning affects final confrontations
+- **[Epilogue: God-Slayer](./story-arc/epilogue-god-slayer.md)**: How positioning affects final confrontations
 - **[Peaceful Zones](./peaceful-zones.md)**: Areas where divine favor provides benefits

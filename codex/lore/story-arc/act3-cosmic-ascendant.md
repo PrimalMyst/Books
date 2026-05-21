@@ -208,9 +208,9 @@ As Act 3 concludes, the player stands at the threshold of the ultimate choice. A
 ## Cross-References
 - **[Act 2: Eldritch Ascension](./act2-eldritch-ascension.md)**: Previous development leading to cosmic mastery
 - **[Epilogue: God-Slayer](./epilogue-god-slayer.md)**: The ultimate confrontation and cosmic responsibility
-- **[Myrielle the Hidden](./myrielle-the-hidden.md)**: The hidden goddess's complete plan revelation
-- **[Pantheon Trial System](./pantheon-trials.md)**: Master trial completion and divine champion status
-- **[The Six Realms](./six-realms-cosmology.md)**: Divine realm mastery and war zone navigation
-- **[Reality Instances](./reality-instances.md)**: Understanding universe container failure and preservation
-- **[Memory Preservation](./memory-preservation.md)**: Mastery of consciousness transfer and eternal storage
-- **[Yggdrasil](./yggdrasil.md)**: The World Tree ascension and divine confrontation staging
+- **[Myrielle the Hidden](../myrielle-the-hidden.md)**: The hidden goddess's complete plan revelation
+- **[Pantheon Trial System](../pantheon-trials.md)**: Master trial completion and divine champion status
+- **[The Six Realms](../six-realms-cosmology.md)**: Divine realm mastery and war zone navigation
+- **[Reality Instances](../reality-instances.md)**: Understanding universe container failure and preservation
+- **[Memory Preservation](../memory-preservation.md)**: Mastery of consciousness transfer and eternal storage
+- **[Yggdrasil](../yggdrasil.md)**: The World Tree ascension and divine confrontation staging

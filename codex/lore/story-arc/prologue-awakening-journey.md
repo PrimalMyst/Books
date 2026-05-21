@@ -145,10 +145,10 @@ The Mist Seekers embody the touching combination of hope and desperation that dr
 - **Cosmic Preparation**: Unknowing preparation for ultimate God-Slayer path
 
 ## Related Content
-- [Myrielle the Hidden](myrielle-the-hidden.md) - The mysterious guide
-- [The Mist Seekers](mist-seekers.md) - The crew with desperate hope
-- [Whisper](whisper.md) - The loyal first companion
-- [Divine Manifestation](divine-manifestation.md) - The transformation process
+- [Myrielle the Hidden](../myrielle-the-hidden.md) - The mysterious guide
+- [The Mist Seekers](../mist-seekers.md) - The crew with desperate hope
+- [Whisper](../whisper.md) - The loyal first companion
+- [Divine Manifestation](../divine-manifestation.md) - The transformation process
 - [Act 1: Divine Trials](act1-divine-trials.md) - The next stage of the journey
 
 ---

@@ -140,10 +140,10 @@ The player must face six divine trials, one for each fundamental and primal god:
 - **Ultimate Readiness**: Unknown preparation for God-Slayer destiny and cosmic responsibility
 
 ## Related Content
-- [Divine Trials System](pantheon-trials.md) - Detailed trial mechanics
-- [Divine Acknowledgment Tremor](divine-acknowledgment.md) - Global scaling event
-- [Myrielle's Peaceful Zones](peaceful-zones.md) - Sanctuary mechanics
-- [Adventurer Guilds](adventurer-guilds.md) - Secret churches and trial gating
+- [Divine Trials System](../pantheon-trials.md) - Detailed trial mechanics
+- [Divine Acknowledgment Tremor](../divine-acknowledgment.md) - Global scaling event
+- [Myrielle's Peaceful Zones](../peaceful-zones.md) - Sanctuary mechanics
+- [Adventurer Guilds](../adventurer-guilds.md) - Secret churches and trial gating
 - [Act 2: Eldritch Ascension](act2-eldritch-ascension.md) - The next phase
 
 ---

@@ -146,10 +146,10 @@ Valhalla access comes not from conquest but from proving worthy of cosmic respon
 - **Infinite Adventures**: Access to multiple reality instances for continued growth
 
 ## Related Content
-- [Myrielle the Hidden](myrielle-the-hidden.md) - The sacrificial goddess revealed
-- [Yggdrasil Divine Summit](yggdrasil.md) - The honeycomb god realm structure
-- [Valhalla](valhalla.md) - The memory preservation sanctuary
-- [The Mist Seekers](mist-seekers.md) - Those who desperately hoped for preservation
+- [Myrielle the Hidden](../myrielle-the-hidden.md) - The sacrificial goddess revealed
+- [Yggdrasil Divine Summit](../yggdrasil.md) - The honeycomb god realm structure
+- [Valhalla](../valhalla.md) - The memory preservation sanctuary
+- [The Mist Seekers](../mist-seekers.md) - Those who desperately hoped for preservation
 - [God Enhancement System](god-enhancement.md) - How Myrielle strengthens opponents
 
 ---

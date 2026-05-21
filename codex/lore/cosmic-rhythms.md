@@ -157,6 +157,6 @@ The God-Slayer path represents the ultimate rhythm manipulation:
 - **[Yggdrasil](./yggdrasil.md)**: The source and conductor of all cosmic rhythms
 - **[The Fundamental Trio](./fundamental-trio.md)**: Gods whose essence powers the rhythmic foundation
 - **[The Primal Trio](./primal-trio.md)**: Gods whose activities create rhythmic variations
-- **[Epilogue: God-Slayer](./epilogue-god-slayer.md)**: The final disruption of cosmic rhythms
+- **[Epilogue: God-Slayer](./story-arc/epilogue-god-slayer.md)**: The final disruption of cosmic rhythms
 - **[Valhalla](./valhalla.md)**: The sanctuary that exists beyond all rhythmic patterns
 - **[Memory Preservation](./memory-preservation.md)**: Systems that use rhythms to preserve consciousness
