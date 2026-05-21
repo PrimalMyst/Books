@@ -6,7 +6,7 @@
 
 #### **Key Features**
 - **⚔️ Skill-Based Combat**: Tactical action combat emphasizing timing, positioning, and ability synergy over reflexes
-- **🔄 Cycle System**: Seasonal content with unique mysteries emerging from the cosmic mists  
+- **🔄 League/Season System**: Real-world timeboxed seasons with fresh progression and event arcs  
 - **🤝 Cooperative Expeditions**: Small-group missions into dangerous branches of the World Tree
 - **🌌 Norse-Inspired Exploration**: Nine realms connected by Yggdrasil's branches, each with distinct challenges
 - **📈 Deep Character Building**: PoE-style passive skill trees with mystical ability specializations
@@ -66,29 +66,33 @@ PrimalMyst is built around a **hexagonal thematic structure** that organizes all
 
 ```
                     RED (1)
-                   Intelligence
+                     Fire
+                   Strength
                       /\
                      /  \
-         RADIANCE (6)    CHAOS (2)
-         Str+Int        Int+Dex  
-        Energy Shield   Evasion
+         MAGENTA (6)      YELLOW (2)
+           Shadow           Metal
+          Charisma       Constitution
+           Evasion          Armor
                    \    /
                     \  /
          BLUE (5) ---- ---- GREEN (3)
-         Strength       Dexterity
+          Water              Air
+       Intelligence       Dexterity
                     \  /
                      \/
-                PHYSICAL (4)
-                Dex+Str
-                Armor
+                CYAN (4)
+               Lightning
+                 Wisdom
+             Energy Shield
 ```
 
 This hexagon aligns:
-- **Six Damage Types**: Red → Chaos → Green → Physical → Blue → Radiance
-- **Six Eldritch Gods**: Primal (Glacius, Voltharion, Pyrion) and Sovereign (Serafina, Korthak, Aurelius)  
+- **Six Damage Types**: Fire → Metal → Air → Lightning → Water → Shadow
+- **Six Eldritch Gods**: Primal (Ifrisurtr, Kitsunrir, Tiamangandr) and Sovereign (Longares, Gryphozeus, Bastenyx)
 - **Six Realms**: Each anchored by a branch of Yggdrasil
-- **Character Attributes**: Intelligence, Dexterity, Strength and their hybrids
-- **Defense Types**: Elemental Resistances (Primal) and Active Mitigation (Sovereign)
+- **Character Attributes**: Strength, Constitution, Dexterity, Wisdom, Intelligence, Charisma
+- **Resource/Defense Pattern**: Primal resources (HP/Stamina/Mana) and Sovereign defenses (Armor/Energy Shield/Evasion)
 
 Adjacent elements synergize naturally, while opposite elements create meaningful build challenges and strategic depth.
 
@@ -102,6 +106,13 @@ Players create mist-walkers with distinct **mystical specializations** and **run
 
 ## 🌟 Completed Lore Framework
 
+### **League Reality Model (Core Canon)**
+Leagues and seasons are real-world timeboxed progression cycles similar to modern ARPG seasonal formats.
+
+- **Active Season**: Main story events and seasonal mechanics occur here
+- **Myrielle and Valhalla/Eternal Realm**: Exist permanently across seasons
+- **Valhalla/Eternal Realm Design**: Long-term structure exists, but implementation details remain intentionally undefined for now
+
 ### **Humanoid Heritage System**
 PrimalMyst features a comprehensive lore system that distinguishes between playable humanoid races and monsters based on cosmic law rather than arbitrary prejudice:
 
@@ -111,17 +122,17 @@ PrimalMyst features a comprehensive lore system that distinguishes between playa
 - **The Lost Human Race**: Original transcendent race whose legacy lives on in current humanoids
 
 ### **Playable Races**
-Four confirmed humanoid races with unique divine affinities:
-- **Beast Folk (Canine)**: Pack loyalty with Korthak, Aurelius, and Voltharion influences
-- **Beast Folk (Feline)**: Independent nature with Serafina, Korthak, and Myrielle influences  
-- **Elfs**: Ancient wisdom with Aurelius, Voltharion, and Myrielle influences
-- **Druids**: Primal connection with Aurelius, Korthak, and Pyrion influences
+Four confirmed humanoid races with distinct cultural identities and flexible divine pathways:
+- **Beast Folk (Canine)**
+- **Beast Folk (Feline)**
+- **Elfs**
+- **Druids**
 
 ### **Eldritch Pantheon**
 Seven canonical gods across three divine tiers:
-- **Primal Gods**: Pyrion (Fire), Glacius (Cold), Voltharion (Lightning)
-- **Sovereign Gods**: Serafina (Chaos), Aurelius (Radiance), Korthak (Physical)
-- **Veiled Ones**: Myrielle (Cycles/Guidance)
+- **Primal Gods**: Ifrisurtr (Fire), Kitsunrir (Air), Tiamangandr (Water)
+- **Sovereign Gods**: Longares (Metal), Gryphozeus (Lightning), Bastenyx (Shadow)
+- **Hidden Seventh**: Myrielle (Cycles/Guidance), outside the six-corner system
 
 ### **Monster Classification**
 Comprehensive system with divine limitations and exceptional categories:
