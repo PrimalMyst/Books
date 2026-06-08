@@ -239,9 +239,9 @@ Myrielle's final revelation hits differently based on positioning history:
 ## Cross-References
 - **[Pantheon Trial System](./pantheon-trials.md)**: The formal trial system that positioning affects
 - **[The Primal Trio](./primal-trio.md)**: The three gods whose positioning is tracked
-- **[Epilogue: God-Slayer](./story-arc/epilogue-god-slayer.md)**: How positioning affects final confrontations
-- **[Act 1: Divine Trials](./story-arc/act1-divine-trials.md)**: Introduction and establishment of positioning
-- **[Act 2: Eldritch Ascension](./story-arc/act2-eldritch-ascension.md)**: Deepening divine relationships
-- **[Act 3: Cosmic Ascendant](./story-arc/act3-cosmic-ascendant.md)**: Final positioning and preparation
+- **[Epilogue: God-Slayer](./story-arc/4-epilogue-god-slayer.md)**: How positioning affects final confrontations
+- **[Act 1: Divine Trials](./story-arc/1-act1-divine-trials.md)**: Introduction and establishment of positioning
+- **[Act 2: Eldritch Ascension](./story-arc/2-act2-eldritch-ascension.md)**: Deepening divine relationships
+- **[Act 3: Cosmic Ascendant](./story-arc/3-act3-cosmic-ascendant.md)**: Final positioning and preparation
 - **[Adventurer Guilds](./adventurer-guilds.md)**: Organizations that respond to divine positioning
 - **[Peaceful Zones](./peaceful-zones.md)**: Areas where positioning affects benefits and access

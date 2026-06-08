@@ -247,5 +247,5 @@ The player's journey represents:
 - **[Pantheon Trial System](./pantheon-trials.md)**: How players interact with and align with gods
 - **[Divine Positioning](./divine-positioning.md)**: The relationship tracking and consequence system
 - **[The Six Realms](./six-realms-cosmology.md)**: The divine domains where gods rule and manifest
-- **[Epilogue: God-Slayer](./story-arc/epilogue-god-slayer.md)**: The final confrontation with all pantheon members
+- **[Epilogue: God-Slayer](./story-arc/4-epilogue-god-slayer.md)**: The final confrontation with all pantheon members
 - **[Cosmic Rhythms](./cosmic-rhythms.md)**: The universal patterns the gods create and are subject to

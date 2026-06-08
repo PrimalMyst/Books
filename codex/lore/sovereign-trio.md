@@ -176,6 +176,6 @@ The player's pantheon positioning throughout Acts 1-3 affects:
 - **[Divine Positioning](./divine-positioning.md)**: How player alignment affects progression and story
 - **[The Six Realms](./six-realms-cosmology.md)**: The realms they directly rule
 - **[The Fundamental Trio](./fundamental-trio.md)**: The foundational gods whose power they utilize
-- **[Act 1: Divine Trials](./story-arc/act1-divine-trials.md)**: Introduction to divine trial system
-- **[Epilogue: God-Slayer](./story-arc/epilogue-god-slayer.md)**: Their role in the final confrontations (level 99)
+- **[Act 1: Divine Trials](./story-arc/1-act1-divine-trials.md)**: Introduction to divine trial system
+- **[Epilogue: God-Slayer](./story-arc/4-epilogue-god-slayer.md)**: Their role in the final confrontations (level 99)
 - **[Peaceful Zones](./peaceful-zones.md)**: Areas influenced by their combined divine presence

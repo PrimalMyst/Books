@@ -285,6 +285,6 @@ After Myrielle's absorption of defeated gods:
 - **[The Primal Trio](./primal-trio.md)**: Gods who actively rule the Middle realms
 - **[Pantheon Trial System](./pantheon-trials.md)**: The system for accessing realm trials
 - **[Cosmic Rhythms](./cosmic-rhythms.md)**: The patterns that affect inter-realm relationships
-- **[Epilogue: God-Slayer](./story-arc/epilogue-god-slayer.md)**: The final confrontations within each realm's essence
+- **[Epilogue: God-Slayer](./story-arc/4-epilogue-god-slayer.md)**: The final confrontations within each realm's essence
 - **[Divine Positioning](./divine-positioning.md)**: The alignment system that affects realm access
 - **[Myrielle the Hidden](./myrielle-the-hidden.md)**: The goddess who exists in the spaces between realms

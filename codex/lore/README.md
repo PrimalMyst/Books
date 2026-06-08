@@ -40,19 +40,19 @@ Complete overview of all six gods, their relationships, and their roles in the G
 
 ## Story Structure
 
-### **[Prologue: Awakening Journey](./story-arc/prologue-awakening-journey.md)**
+### **[Prologue: Awakening Journey](./story-arc/0-prologue-awakening-journey.md)**
 The player's transformation from formless spirit to physical being, guided by Myrielle and rescued by the Mist Seekers.
 
-### **[Act 1: Divine Trials](./story-arc/act1-divine-trials.md)**
+### **[Act 1: Divine Trials](./story-arc/1-act1-divine-trials.md)**
 The pantheon positioning system, divine trials, and establishment of the player's relationship with the gods.
 
-### **[Act 2: Eldritch Ascension](./story-arc/act2-eldritch-ascension.md)**
+### **[Act 2: Eldritch Ascension](./story-arc/2-act2-eldritch-ascension.md)**
 Mid-game progression through deeper divine mysteries and Myrielle's hidden trials.
 
-### **[Act 3: Cosmic Ascendant](./story-arc/act3-cosmic-ascendant.md)**
+### **[Act 3: Cosmic Ascendant](./story-arc/3-act3-cosmic-ascendant.md)**
 Late-game mastery of divine forces and preparation for the God-Slayer path.
 
-### **[Epilogue: God-Slayer](./story-arc/epilogue-god-slayer.md)**
+### **[Epilogue: God-Slayer](./story-arc/4-epilogue-god-slayer.md)**
 The final ascent of Yggdrasil, confrontation with the gods, and Myrielle's ultimate sacrifice.
 
 ## Systems & Organizations
