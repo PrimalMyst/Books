@@ -13,8 +13,8 @@ The World Tree at the center of existence, whose six branches support the divine
 ### **[The Six Realms](./six-realms-cosmology.md)**
 The six divine realms connected by Yggdrasil's branches, each ruled by one of the Eldritch Gods.
 
-### **[Cosmic Rhythms](./cosmic-rhythms.md)**
-The natural cycles that drive reality instance transitions and cosmic events.
+### **[Seasonal World Reset (Diegetic Framing)](../diegetic-framing/seasonal-world-reset.md)**
+In-world explanation for why reality instances end and how continuity survives through transitions.
 
 ## Central Figures
 

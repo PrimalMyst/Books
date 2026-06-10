@@ -13,6 +13,9 @@ Use it to prevent non-canon concepts from spreading across the project.
 - Use "diegetic framing" as the umbrella term for explaining game systems through in-world fiction.
 - Use "diegetic UI" only for UI-specific in-world presentation (HUD, menus, indicators).
 - Treat immersion as an outcome, not a replacement term for diegetic framing.
+- Use "season" as the standard term for the timeboxed ARPG cycle.
+- Use "character" as the standard term for player-controlled avatars in mechanics and general documentation.
+- Reserve "league" and "vessel" for legacy references or diegetic-framing context only when needed.
 
 ## Codex Hierarchy and Ownership (locked)
 - canon-core: immutable canon mappings, non-negotiable system truths, and rule authority.
@@ -73,11 +76,18 @@ Use it to prevent non-canon concepts from spreading across the project.
 - Myrielle is outside the six-corner system.
 - Myrielle is never assigned to positions 1-6.
 
-### League and Eternal Realm Model (locked)
-- Leagues/seasons are real-world timeboxed cycles (ARPG seasonal model).
-- Active season is where current story beats and live events happen.
-- Myrielle and Valhalla/Eternal Realm exist permanently across all seasons.
-- Valhalla/Eternal Realm long-term design exists but detailed implementation is intentionally undefined for now.
+### Season and Realm Model (locked)
+- Seasons are real-world timeboxed cycles (ARPG seasonal model).
+- The current season is partitioned by two difficulty flags, creating four concurrent realities:
+	- default
+	- hardcore
+	- solo self found
+	- hardcore solo self found
+- Hardcore flag: characters that die are permanently lost.
+- Solo self found flag: players cannot trade with other players.
+- The current season is where current story beats and live events happen.
+- The permanent realm is Valhalla and contains characters that successfully migrated from previous seasons.
+- Myrielle and Valhalla exist permanently across all seasons.
 
 ## Deprecated and Forbidden Legacy Terms
 Do not reintroduce these names in canon files:

@@ -248,4 +248,4 @@ The player's journey represents:
 - **[Divine Positioning](./divine-positioning.md)**: The relationship tracking and consequence system
 - **[The Six Realms](./six-realms-cosmology.md)**: The divine domains where gods rule and manifest
 - **[Epilogue: God-Slayer](./story-arc/4-epilogue-god-slayer.md)**: The final confrontation with all pantheon members
-- **[Cosmic Rhythms](./cosmic-rhythms.md)**: The universal patterns the gods create and are subject to
+- **[Seasonal World Reset (Diegetic Framing)](../diegetic-framing/seasonal-world-reset.md)**: The in-world pattern for instance endings and continuity

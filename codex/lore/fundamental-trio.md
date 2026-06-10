@@ -148,4 +148,4 @@ Each trial provides the same elemental choices but teaches them through the god'
 - **[The Primal Trio](./primal-trio.md)**: The active gods who rule realms using foundational power
 - **[Epilogue: God-Slayer](./story-arc/4-epilogue-god-slayer.md)**: Their role in the final confrontations (levels 96-98)
 - **[Reality Instances](./reality-instances.md)**: The universe containers they make possible
-- **[Cosmic Rhythms](./cosmic-rhythms.md)**: The cycles they power and maintain
+- **[Seasonal World Reset (Diegetic Framing)](../diegetic-framing/seasonal-world-reset.md)**: The in-world cycle of instance endings and transitions

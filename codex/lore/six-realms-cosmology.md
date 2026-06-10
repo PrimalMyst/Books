@@ -284,7 +284,7 @@ After Myrielle's absorption of defeated gods:
 - **[The Fundamental Trio](./fundamental-trio.md)**: Gods whose power flows through the Crown realms
 - **[The Primal Trio](./primal-trio.md)**: Gods who actively rule the Middle realms
 - **[Pantheon Trial System](./pantheon-trials.md)**: The system for accessing realm trials
-- **[Cosmic Rhythms](./cosmic-rhythms.md)**: The patterns that affect inter-realm relationships
+- **[Seasonal World Reset (Diegetic Framing)](../diegetic-framing/seasonal-world-reset.md)**: The in-world pattern that affects inter-realm transitions
 - **[Epilogue: God-Slayer](./story-arc/4-epilogue-god-slayer.md)**: The final confrontations within each realm's essence
 - **[Divine Positioning](./divine-positioning.md)**: The alignment system that affects realm access
 - **[Myrielle the Hidden](./myrielle-the-hidden.md)**: The goddess who exists in the spaces between realms

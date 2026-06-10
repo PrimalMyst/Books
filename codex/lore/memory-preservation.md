@@ -188,7 +188,7 @@ Myrielle exists outside reality instances specifically to address this crisis:
 - **[Myrielle the Hidden](./myrielle-the-hidden.md)**: The goddess who orchestrates memory preservation
 - **[Valhalla](./valhalla.md)**: The eternal sanctuary where preserved consciousness exists
 - **[Reality Instances](./reality-instances.md)**: The universe containers that face inevitable destruction
-- **[Cosmic Rhythms](./cosmic-rhythms.md)**: The patterns that drive reality instance collapse
+- **[Seasonal World Reset (Diegetic Framing)](../diegetic-framing/seasonal-world-reset.md)**: The in-world pattern that explains instance collapse and transition
 - **[Epilogue: God-Slayer](./story-arc/4-epilogue-god-slayer.md)**: The path to perfect memory preservation
 - **[Yggdrasil](./yggdrasil.md)**: The natural memory storage system within reality instances
 - **[The Fundamental Trio](./fundamental-trio.md)**: Gods whose essence enables natural preservation

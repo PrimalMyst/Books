@@ -52,7 +52,7 @@ world-building/
 - **damage-type-interactions.md** - Elemental damage relationships
 - **hexagonal-system-applications.md** - Thematic structure applications
 - **hexagonal-thematic-structure.md** - Core thematic framework
-- **league-system.md** - Game progression and league mechanics
+- **../mechanics/league-system.md** - Game progression and league mechanics
 
 ### Key Lore Concepts Documented
 
@@ -209,7 +209,7 @@ Searchable keywords for categorization.
 - [Damage Calculator Reference](./damage-calculator-reference.md) - Mathematical foundations for damage calculation
 - [Hexagonal System Applications](./hexagonal-system-applications.md) - Six-element system applications
 - [Hexagonal Thematic Structure](./hexagonal-thematic-structure.md) - Thematic foundations of the six-element system
-- [League System](./league-system.md) - Player progression and competitive structures
+- [League System](../mechanics/league-system.md) - Player progression and competitive structures
 
 ### Racial and Cultural Systems
 - [Playable Races](./playable-races.md) - The mystery of the lost Humans and their humanoid descendants
