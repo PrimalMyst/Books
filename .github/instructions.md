@@ -9,6 +9,43 @@ Use it to prevent non-canon concepts from spreading across the project.
 - Mutable lore: god descriptions, tone, personality, realm flavor text, narrative examples.
 - Rule: if foundation conflicts with lore, foundation always wins.
 
+## Terminology Standard (locked)
+- Use "diegetic framing" as the umbrella term for explaining game systems through in-world fiction.
+- Use "diegetic UI" only for UI-specific in-world presentation (HUD, menus, indicators).
+- Treat immersion as an outcome, not a replacement term for diegetic framing.
+
+## Codex Hierarchy and Ownership (locked)
+- canon-core: immutable canon mappings, non-negotiable system truths, and rule authority.
+- mechanics: gameplay rules, formulas, triggers, constraints, and edge cases.
+- diegetic-framing: in-world fiction that explains how mechanics manifest in the setting.
+- entities: gods, factions, races, monster families, and actor-focused references.
+- lore: stable world context, cosmology, cultures, and setting truths outside timeline sequencing.
+- story: timeline progression, acts, arcs, quests, and event sequencing.
+- indexes: navigation files only (tables of contents, link maps, relationship indexes).
+
+## Overlap Minimization Rules (required)
+1. One concept has one primary owner layer.
+2. Other layers may reference the concept, but must not redefine the owner's source of truth.
+3. Mechanics files must not contain balancing-by-prose lore explanations.
+4. Diegetic-framing files must not contain formulas, numeric tuning, or implementation constraints.
+5. Story files describe when events happen, not canon remapping.
+6. Index files link and summarize only; they never introduce new canon.
+
+## Cross-Layer Pairing Pattern (required)
+- For any gameplay concept with narrative framing, keep a paired set:
+	- mechanics file: explains system behavior.
+	- diegetic-framing file: explains in-world meaning.
+- Example: world reset requires one mechanics document and one diegetic-framing document.
+
+## Reference Preservation Standard (required)
+- Use a shared Concept ID across all related files, format: CONCEPT-<TOPIC>-<NAME>.
+- Each related file should include:
+	- Concept ID
+	- Owner Layer
+	- Related Files
+	- Status (draft or locked)
+- Always keep explicit markdown links between paired mechanics and diegetic-framing files.
+
 ## Locked Core Concepts
 
 ### Hex Position System (locked)
