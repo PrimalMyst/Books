@@ -1,0 +1,8 @@
+{
+  "id": "martial-addons",
+  "name": "Martial · Addons",
+  "types": [
+    { "type": "scabbards", "index_file": "scabbards/scabbards-index.json" },
+    { "type": "braces", "index_file": "braces/braces-index.json" }
+  ]
+}

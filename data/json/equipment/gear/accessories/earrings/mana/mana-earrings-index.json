@@ -1,0 +1,19 @@
+{
+  "id": "mana-earrings-index",
+  "name": "Mana Earrings Index",
+  "description": "Index of earrings themed around magical reserves and energy recovery",
+  "version": "1.0.0",
+  "parent_type": "earrings",
+  "resource": "mana",
+  "general_description": "Earrings that expand the wearer's mana pool, improve regeneration, and enhance spell efficiency.",
+  "existing_items": [
+    "earrings-of-attunement.json"
+  ],
+  "metadata": {
+    "created": "2025-08-12T10:05:00Z",
+    "last_updated": "2025-08-12T10:05:00Z",
+    "author": "PrimalMyst Development Team",
+    "canonical": true,
+    "version": "1.0.0"
+  }
+}

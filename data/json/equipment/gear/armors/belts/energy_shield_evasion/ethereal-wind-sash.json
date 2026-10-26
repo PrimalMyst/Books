@@ -1,0 +1,37 @@
+{
+  "id": "ethereal-wind-sash",
+  "name": "Ethereal Wind Sash",
+  "description": "A translucent sash that shimmers with mystical energy and enhances the wearer's speed and magical defenses",
+  "version": "1.0.0",
+  "item_type": "belt",
+  "armor_type": "energy_shield_evasion",
+  "rarity": "rare",
+  "level_requirement": 20,
+  "item_level": 24,
+  "base_stats": {
+    "energy_shield": 20,
+    "evasion_rating": 18,
+    "weight": 0.5
+  },
+  "hexagonal_alignment": {
+    "gods": ["Zeusara (Sovereign)", "Anubiseth (Sovereign)"],
+    "positions": [4, 6],
+    "colors": "Cyan + Magenta",
+    "elements": "Magic + Agility",
+    "domains": "Energy and Speed"
+  },
+  "special_properties": {
+    "ethereal_form": "Brief phase-shifting when dodging magical attacks",
+    "wind_walker": "Movement speed increases based on mana remaining",
+    "mystical_agility": "Dodge chance increases when casting spells"
+  },
+  "metadata": {
+    "created": "2025-08-11T20:25:00Z",
+    "last_updated": "2025-08-11T20:25:00Z",
+    "author": "PrimalMyst Development Team",
+    "canonical": true,
+    "notes": "Example energy shield-evasion hybrid belt",
+    "balance_tested": true,
+    "version": "1.0.0"
+  }
+}

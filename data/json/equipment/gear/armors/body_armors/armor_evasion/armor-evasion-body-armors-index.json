@@ -1,0 +1,23 @@
+{
+  "id": "armor-evasion-body-armors-index",
+  "name": "Armor-Evasion Hybrid Body Armors Index",
+  "description": "Index of hybrid armor-evasion body armors combining protection with mobility",
+  "version": "1.0.0",
+  "armor_type": "armor_evasion",
+  "god_alignment": "Marsalis + Anubiseth (Sovereign)",
+  "hexagonal_positions": [2, 6],
+  "colors": "Yellow + Magenta",
+  "general_description": "Flexible chain mail and reinforced leather armor that balance protection with movement, featuring adaptive construction and mobility-friendly design for versatile combat.",
+  "existing_items": [
+    "flexible-chain-shirt.json"
+  ],
+  "metadata": {
+    "created": "2025-08-11T20:40:00Z",
+    "last_updated": "2025-08-11T20:40:00Z",
+    "author": "PrimalMyst Development Team",
+    "canonical": true,
+    "notes": "Simplified index focusing on categorization with existing items list",
+    "hexagonal_integration": "Complete",
+    "version": "1.0.0"
+  }
+}

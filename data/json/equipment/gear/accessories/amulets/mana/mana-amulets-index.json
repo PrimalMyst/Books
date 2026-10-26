@@ -1,0 +1,19 @@
+{
+  "id": "mana-amulets-index",
+  "name": "Mana Amulets Index",
+  "description": "Index of amulets themed around magical reserves and energy recovery",
+  "version": "1.0.0",
+  "parent_type": "amulets",
+  "resource": "mana",
+  "general_description": "Amulets that expand the wearer's mana pool, improve regeneration, and enhance spell efficiency.",
+  "existing_items": [
+    "amulet-of-arcane-flow.json"
+  ],
+  "metadata": {
+    "created": "2025-08-12T10:05:00Z",
+    "last_updated": "2025-08-12T10:05:00Z",
+    "author": "PrimalMyst Development Team",
+    "canonical": true,
+    "version": "1.0.0"
+  }
+}

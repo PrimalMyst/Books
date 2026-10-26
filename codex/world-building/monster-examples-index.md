@@ -7,7 +7,7 @@ This document provides a comprehensive index of all documented monster examples 
 ### Shadowmane Stalker
 - **File**: `data/json/monsters/shadowmane-stalker.json`
 - **Race**: Beast/Shadowmane
-- **Divine Influences**: Serafina (chaos/shadow), Korthak (hunt/might)
+- **Divine Influences**: Bastenyx (shadow/hunt), Longares (disciplined might)
 - **Type**: Predatory hunter with shadow manipulation abilities
 - **Threat Level**: High
 - **Habitat**: Dark forests and shadow-touched regions
@@ -15,7 +15,7 @@ This document provides a comprehensive index of all documented monster examples 
 ### Grimjaw Mimic
 - **File**: `data/json/monsters/grimjaw-mimic.json`
 - **Race**: Aberration/Grimjaw
-- **Divine Influences**: Serafina (deception/transformation), Korthak (survival/cunning)
+- **Divine Influences**: Bastenyx (deception/transformation), Kitsunrir (survival/cunning)
 - **Type**: Shapeshifting ambush predator
 - **Threat Level**: Very High
 - **Special Ability**: Perfect mimicry of humanoid appearance and behavior
@@ -23,7 +23,7 @@ This document provides a comprehensive index of all documented monster examples 
 ### Ironbark Treant
 - **File**: `data/json/monsters/ironbark-treant.json`
 - **Race**: Plant/Ironbark
-- **Divine Influences**: Korthak (strength/earth), Aurelius (growth/protection)
+- **Divine Influences**: Longares (strength/earth), Gryphozeus (growth/protection)
 - **Type**: Ancient forest guardian with metallic bark
 - **Threat Level**: Legendary
 - **Habitat**: Ancient forests with strong earth magic
@@ -33,7 +33,7 @@ This document provides a comprehensive index of all documented monster examples 
 ### Stormwing Eagle
 - **File**: `data/json/monsters/stormwing-eagle.json`
 - **Race**: Beast/Stormwing
-- **Divine Influences**: Aurelius (protection/guidance), Voltharion (storm/lightning)
+- **Divine Influences**: Gryphozeus (protection/guidance), Kitsunrir (storm/lightning)
 - **Movement Type**: Fly
 - **Mount Traits**: Storm-calling abilities, aerial supremacy, weather navigation
 - **Taming Difficulty**: Legendary - requires storm-touched offerings and aerial prowess demonstration
@@ -42,7 +42,7 @@ This document provides a comprehensive index of all documented monster examples 
 ### Nightmane Stallion
 - **File**: `data/json/monsters/nightmane-stallion.json`
 - **Race**: Beast/Nightmane
-- **Divine Influences**: Serafina (shadow/night), Aurelius (moonlight/guidance)
+- **Divine Influences**: Bastenyx (shadow/night), Gryphozeus (moonlight/guidance)
 - **Movement Type**: Gallop
 - **Mount Traits**: Moonlight powers, shadow travel, enhanced night vision
 - **Taming Difficulty**: Extremely Hard - requires midnight bonding rituals
@@ -53,7 +53,7 @@ This document provides a comprehensive index of all documented monster examples 
 ### Silverlight Wisp
 - **File**: `data/json/monsters/silverlight-wisp.json`
 - **Race**: Elemental/Silverlight
-- **Divine Influences**: Myrielle fragment (guidance/transition), Aurelius (light/navigation)
+- **Divine Influences**: Myrielle fragment (guidance/transition), Gryphozeus (light/navigation)
 - **Size**: Tiny
 - **Flight**: Hovering light orb
 - **Guidance Type**: Navigation through light patterns, illumination of hidden paths
@@ -63,7 +63,7 @@ This document provides a comprehensive index of all documented monster examples 
 ### Memory Butterfly
 - **File**: `data/json/monsters/memory-butterfly.json`
 - **Race**: Insect/Memory-wing
-- **Divine Influences**: Myrielle fragment (memory/cycles), Voltharion (knowledge/connection)
+- **Divine Influences**: Myrielle fragment (memory/cycles), Kitsunrir (knowledge/wind-connection)
 - **Size**: Small
 - **Flight**: Delicate winged flight
 - **Guidance Type**: Living archive with wing-pattern displays, perfect memory recall
@@ -73,7 +73,7 @@ This document provides a comprehensive index of all documented monster examples 
 ### Whisperwind Fox
 - **File**: `data/json/monsters/whisperwind-fox.json`
 - **Race**: Fey/Whisperwind
-- **Divine Influences**: Myrielle fragment (wisdom/transition), Aurelius (moral guidance)
+- **Divine Influences**: Myrielle fragment (wisdom/transition), Gryphozeus (moral guidance)
 - **Size**: Small
 - **Flight**: Magical hovering and floating
 - **Guidance Type**: Telepathic wisdom and moral guidance, emotional support
@@ -85,15 +85,15 @@ This document provides a comprehensive index of all documented monster examples 
 ### Eldritch Pantheon Distribution
 Our monster examples demonstrate proper divine influence distribution according to lore:
 
-#### **Fundamental Gods (Ancient Powers)**
-- **Pyrion**: Not featured in current examples (Fire/Creation/Transformation)
-- **Glacius**: Not featured in current examples (Cold/Preservation/Memory)
-- **Voltharion**: Featured in Memory Butterfly, Stormwing Eagle (Lightning/Communication/Connection)
+#### **Primal Gods (RGB Anchors — Positions 1,3,5)**
+- **Ifrisurtr**: Not featured in current examples (Fire/Rebirth/Apocalyptic Flame)
+- **Kitsunrir**: Featured in Memory Butterfly, Stormwing Eagle (Air/Storm/Illusory Movement)
+- **Tiamangandr**: Not featured in current examples (Water/Preservation/Crystalline Memory)
 
-#### **Primal Gods (Active Deities)**
-- **Serafina**: Featured in Shadowmane Stalker, Grimjaw Mimic, Nightmane Stallion (Chaos/Shadow/Dark Transformation)
-- **Aurelius**: Featured in Ironbark Treant, Stormwing Eagle, Nightmane Stallion, Silverlight Wisp, Whisperwind Fox (Radiance/Protection/Guidance)
-- **Korthak**: Featured in Shadowmane Stalker, Grimjaw Mimic, Ironbark Treant (Might/Physical Strength/Honor)
+#### **Sovereign Gods (Bridge Positions 2,4,6)**
+- **Bastenyx**: Featured in Shadowmane Stalker, Grimjaw Mimic, Nightmane Stallion (Shadow/Threshold/Protective Darkness)
+- **Gryphozeus**: Featured in Ironbark Treant, Stormwing Eagle, Nightmane Stallion, Silverlight Wisp, Whisperwind Fox (Lightning/Authority/Celestial Truth)
+- **Longares**: Featured in Shadowmane Stalker, Grimjaw Mimic, Ironbark Treant (Metal/Honor/Disciplined Might)
 
 #### **Veiled Ones (Mysterious Guides)**
 - **Myrielle**: Featured as fragments in all companions - Silverlight Wisp, Memory Butterfly, Whisperwind Fox (Cycles/Rebirth/Transition)
@@ -124,8 +124,8 @@ All monster examples properly respect the cosmic law limiting monsters to maximu
 ## Future Monster Development
 
 ### Recommended Additions
-- **Pyrion-influenced creatures**: Fire elementals, phoenix-like beings
-- **Glacius-influenced creatures**: Ice constructs, frozen undead
+- **Ifrisurtr-influenced creatures**: Fire elementals, phoenix-like beings
+- **Tiamangandr-influenced creatures**: Ice constructs, frozen undead, sea serpents
 - **Swim-capable mounts**: Deep-sea leviathans, mystical sea horses
 - **Burrow-capable mounts**: Underground drakes, earth-swimming creatures
 

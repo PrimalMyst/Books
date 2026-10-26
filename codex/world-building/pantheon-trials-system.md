@@ -11,7 +11,7 @@ The system operates on the principle that **every practitioner may forge their o
 ## Trial Structure
 
 ### Fundamental God Islands: Elemental Choice Through Trials
-On islands ruled by **Fundamental Gods** (Pyrion, Glacius, Voltharion), players can discover divine trials that offer elemental mastery:
+On islands ruled by **Primal Gods** (Ifrisurtr, Kitsunrir, Tiamangandr), players can discover divine trials that offer elemental mastery:
 
 #### Trial Mechanics
 - **Divine Trial Locations**: Sacred sites that can be discovered through exploration and investigation
@@ -21,14 +21,14 @@ On islands ruled by **Fundamental Gods** (Pyrion, Glacius, Voltharion), players 
 - **Optional Enhancement**: Provides character enhancement but not required for progression
 
 #### Available Elements (Universal Choice)
-- **Fire**: Creative and destructive force, passion and transformation
-- **Cold**: Preservation and protection, stillness and endurance  
-- **Lightning**: Connection and bridging, speed and communication
+- **Fire**: Apocalyptic flame and cyclical rebirth — Ifrisurtr's domain
+- **Air**: Storm winds and illusory movement — Kitsunrir's domain
+- **Water**: Crystalline preservation and memory — Tiamangandr's domain
 
-*Note: All three fundamental trials offer the same elemental choices, taught through different divine perspectives*
+*Note: All three Primal trials offer their own unique elemental path, taught through each god's perspective*
 
-### Primal God Islands: Divine Relationship Choice
-On islands ruled by **Primal Gods** (Serafina, Aurelius, Korthak), players can discover divine trials that determine their relationship:
+### Sovereign God Islands: Divine Relationship Choice
+On islands ruled by **Sovereign Gods** (Longares, Gryphozeus, Bastenyx), players can discover divine trials that determine their relationship:
 
 #### Trial Mechanics
 - **Divine Trial Discovery**: Sacred locations found through exploration and optional questlines
@@ -38,9 +38,9 @@ On islands ruled by **Primal Gods** (Serafina, Aurelius, Korthak), players can d
 - **Trial Repetition**: Trials can be repeated to change follow/oppose choices
 
 #### Available Relationships
-- **Serafina (Revolutionary Change)**: Follow transformative change OR oppose chaotic disruption
-- **Aurelius (Sacred Protection)**: Follow protective order OR oppose overprotective stagnation
-- **Korthak (Traditional Honor)**: Follow traditional strength OR oppose rigid traditionalism
+- **Longares (Disciplined Honor)**: Follow the warrior's code OR oppose rigid traditionalism
+- **Gryphozeus (Celestial Justice)**: Follow divine authority and truth OR oppose heavenly tyranny
+- **Bastenyx (Shadow Wisdom)**: Follow liminal guardianship OR oppose shadow deception
 
 ## System Requirements
 

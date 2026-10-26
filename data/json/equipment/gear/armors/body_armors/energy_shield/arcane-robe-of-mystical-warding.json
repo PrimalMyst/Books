@@ -1,0 +1,31 @@
+{
+  "id": "arcane-robe-of-mystical-warding",
+  "name": "Arcane Robe of Mystical Warding",
+  "type": "body_armor",
+  "tier": "mortal",
+  "rarity": "uncommon",
+  "description": "A flowing robe woven with mystical threads that shimmer with protective energy. The fabric deflects magical attacks while allowing complete freedom of movement for spellcasting.",
+  "flavor_text": "Worn by scholars of the mystical arts, this robe bears the wisdom of ancient protective enchantments woven into its very fibers.",
+  "stats": {
+    "energy_shield": 42,
+    "mana": 15,
+    "requirements": {
+      "level": 12,
+      "intelligence": 20
+    }
+  },
+  "properties": {
+    "slot": "body_armor",
+    "armor_type": "energy_shield",
+    "material": "mystical_fabric",
+    "weight": "light",
+    "durability": 80
+  },
+  "metadata": {
+    "created": "2025-08-11T20:45:00Z",
+    "last_updated": "2025-08-11T20:45:00Z",
+    "author": "PrimalMyst Development Team",
+    "canonical": true,
+    "version": "1.0.0"
+  }
+}

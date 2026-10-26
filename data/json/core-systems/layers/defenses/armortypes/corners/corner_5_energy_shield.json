@@ -1,0 +1,11 @@
+{
+  "id": "corner_5_energy_shield",
+  "label": "Energy Shield",
+  "short_name": "ES",
+  "hexagonal_position": 5,
+  "hexagon_corner": "blue",
+  "primary_effect": "Provides a regenerating barrier that absorbs all damage types before health.",
+  "default_rating": 120,
+  "scaling": "intelligence_and_focus",
+  "regeneration_percent": 15
+}

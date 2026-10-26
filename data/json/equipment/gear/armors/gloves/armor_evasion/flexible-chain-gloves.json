@@ -1,0 +1,32 @@
+{
+  "id": "flexible-chain-gloves",
+  "name": "Flexible Chain Gloves",
+  "type": "gloves",
+  "tier": "mortal",
+  "rarity": "uncommon",
+  "description": "Chain gloves with specially treated links that provide protection while maintaining exceptional finger flexibility. The articulated design allows for precise movements without sacrificing defense.",
+  "flavor_text": "Each link was individually tested for both strength and flexibility, creating handwear that protects like armor yet moves like skin.",
+  "stats": {
+    "armor": 18,
+    "evasion": 15,
+    "requirements": {
+      "level": 14,
+      "strength": 18,
+      "dexterity": 16
+    }
+  },
+  "properties": {
+    "slot": "gloves",
+    "armor_type": "armor_evasion",
+    "material": "flexible_chain",
+    "weight": "medium",
+    "durability": 85
+  },
+  "metadata": {
+    "created": "2025-08-11T20:55:00Z",
+    "last_updated": "2025-08-11T20:55:00Z",
+    "author": "PrimalMyst Development Team",
+    "canonical": true,
+    "version": "1.0.0"
+  }
+}

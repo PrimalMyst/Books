@@ -1,0 +1,38 @@
+{
+  "id": "items-index",
+  "name": "Items Equipment Index", 
+  "description": "Index for fixed utility items with predetermined properties",
+  "version": "1.0.0",
+  "item_categories": {
+    "consumables": {
+      "description": "Single-use items that provide temporary effects or restore resources",
+      "index_file": "consumables-index.json",
+      "examples": ["potions", "food", "scrolls", "temporary_buffs"],
+      "status": "planned"
+    },
+    "materials": {
+      "description": "Crafting components and upgrade materials for equipment enhancement",
+      "index_file": "materials-index.json",
+      "examples": ["ores", "gems", "essences", "crafting_components"],
+      "status": "planned"
+    },
+    "cosmetics": {
+      "description": "Appearance-only items that provide no gameplay advantage",
+      "index_file": "cosmetics-index.json",
+      "examples": ["visual_effects", "color_variants", "appearance_modifications"],
+      "status": "planned"
+    }
+  },
+  "utility_focus": {
+    "description": "Items serve specific utility purposes without customization",
+    "features": ["fixed_properties", "predetermined_effects", "resource_management"]
+  },
+  "metadata": {
+    "created": "2025-08-11T21:30:00Z",
+    "last_updated": "2025-08-11T21:30:00Z",
+    "author": "PrimalMyst Development Team",
+    "canonical": true,
+    "notes": "Items equipment index with utility focus",
+    "version": "1.0.0"
+  }
+}

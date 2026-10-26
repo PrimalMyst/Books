@@ -1,0 +1,10 @@
+{
+  "id": "longbow-of-lightning",
+  "name": "Longbow of Lightning",
+  "school": "marksmanship",
+  "category": "two_handed",
+  "type": "longbow",
+  "element": "lightning",
+  "rarity": "uncommon",
+  "stats": { "base_damage": 46, "ranged_accuracy": 12, "projectile_speed_percent": 15 }
+}

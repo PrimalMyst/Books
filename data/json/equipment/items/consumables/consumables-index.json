@@ -1,0 +1,44 @@
+{
+  "id": "consumables-index",
+  "name": "Consumables Index",
+  "description": "Index for single-use items that provide temporary effects or restore resources",
+  "version": "1.0.0",
+  "consumable_categories": {
+    "potions": {
+      "description": "Liquid remedies that provide instant or temporary effects",
+      "examples": ["healing_potions", "mana_potions", "buff_potions", "antidotes"],
+      "focus": "Resource restoration and temporary enhancement",
+      "status": "planned"
+    },
+    "food": {
+      "description": "Nourishment that provides sustained benefits and resource recovery",
+      "examples": ["travel_rations", "magical_fruits", "prepared_meals", "enhanced_provisions"],
+      "focus": "Sustained benefits and long-term effects",
+      "status": "planned"
+    },
+    "scrolls": {
+      "description": "Single-use magical items that cast spells or provide knowledge",
+      "examples": ["spell_scrolls", "identification_scrolls", "teleportation_scrolls", "information_scrolls"],
+      "focus": "Magical effects and knowledge access",
+      "status": "planned"
+    },
+    "temporary_items": {
+      "description": "Short-duration items that provide specific utility or combat advantages",
+      "examples": ["throwing_items", "alchemical_devices", "magical_charges", "utility_tools"],
+      "focus": "Tactical advantages and utility solutions",
+      "status": "planned"
+    }
+  },
+  "consumable_mechanics": {
+    "description": "Consumables provide immediate effects and are consumed upon use",
+    "features": ["single_use", "immediate_effects", "resource_management", "tactical_timing"]
+  },
+  "metadata": {
+    "created": "2025-08-11T21:45:00Z",
+    "last_updated": "2025-08-11T21:45:00Z",
+    "author": "PrimalMyst Development Team",
+    "canonical": true,
+    "notes": "Consumables index for temporary effect items",
+    "version": "1.0.0"
+  }
+}

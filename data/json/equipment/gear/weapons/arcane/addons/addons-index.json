@@ -1,0 +1,7 @@
+{
+  "id": "arcane-addons",
+  "name": "Arcane · Addons",
+  "types": [
+    { "type": "essence-pouches", "index_file": "essence-pouches/essence-pouches-index.json" }
+  ]
+}

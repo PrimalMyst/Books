@@ -1,0 +1,19 @@
+{
+	"id": "armortypes-core",
+	"name": "PrimalMyst Armor Type Reference",
+	"description": "Standard armor, evasion, and energy shield assignments keep familiar RPG defenses while aligning with our hexagonal structure.",
+	"version": "1.0.0",
+	"interaction_notes": "Armor types do not interact with elemental or raw physical categories; they will interface with explicit damage types defined later.",
+	"source_rules": "All armor ratings originate from equipped gear; no base stats or passives provide these values.",
+	"rating_rules": {
+		"units": "percent",
+		"standard_range": "0-75",
+		"absolute_ceiling": 90,
+		"notes": "Paths to exceed 75% up to 90% will be defined separately"
+	},
+	"armor_files": {
+		"corner_1": "corners/corner_1_armor.json",
+		"corner_3": "corners/corner_3_evasion.json",
+		"corner_5": "corners/corner_5_energy_shield.json"
+	}
+}

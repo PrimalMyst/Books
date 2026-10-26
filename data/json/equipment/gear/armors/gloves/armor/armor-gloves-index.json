@@ -1,0 +1,23 @@
+{
+  "id": "armor-gloves-index",
+  "name": "Armor Type Gloves Index",
+  "description": "Index of pure armor type gloves focused on hand and forearm protection",
+  "version": "1.0.0",
+  "armor_type": "armor",
+  "god_alignment": "Marsalis (Sovereign)",
+  "hexagonal_position": 2,
+  "color": "Yellow",
+  "general_description": "Heavy gauntlets, steel gloves, and protective handwear designed for maximum hand and forearm protection. These gloves prioritize defense for warriors engaged in close combat.",
+  "existing_items": [
+    "steel-plate-gauntlets.json"
+  ],
+  "metadata": {
+    "created": "2025-08-11T20:50:00Z",
+    "last_updated": "2025-08-11T20:50:00Z",
+    "author": "PrimalMyst Development Team",
+    "canonical": true,
+    "notes": "Simplified index focusing on categorization with existing items list",
+    "hexagonal_integration": "Complete",
+    "version": "1.0.0"
+  }
+}

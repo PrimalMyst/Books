@@ -1,0 +1,28 @@
+{
+  "id": "belt-lock-stamina-reserve",
+  "name": "Belt Lock: Stamina Reserve",
+  "type": "belt_lock",
+  "tier": "mortal",
+  "rarity": "uncommon",
+  "description": "A compact kinetic cell that reduces fatigue and releases energy during exertion.",
+  "flavor_text": "Endurance is preparation worn close to the body.",
+  "stats": {
+    "stamina_regen_boost": 3,
+    "stamina_drain_reduction": 8,
+    "duration_seconds": 12,
+    "requirements": {
+      "level": 12
+    }
+  },
+  "properties": {
+    "slot": "belt_lock",
+    "category": "stamina"
+  },
+  "metadata": {
+    "created": "2025-08-12T10:05:00Z",
+    "last_updated": "2025-08-12T10:05:00Z",
+    "author": "PrimalMyst Development Team",
+    "canonical": true,
+    "version": "1.0.0"
+  }
+}

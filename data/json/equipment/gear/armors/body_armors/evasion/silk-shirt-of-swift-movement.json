@@ -1,0 +1,31 @@
+{
+  "id": "silk-shirt-of-swift-movement",
+  "name": "Silk Shirt of Swift Movement",
+  "type": "body_armor",
+  "tier": "mortal",
+  "rarity": "uncommon",
+  "description": "An exceptionally fine silk shirt that enhances the wearer's natural agility. The lightweight fabric moves like a second skin, improving dodge reflexes and movement speed.",
+  "flavor_text": "Favored by scouts and rogues, this shirt's silk was harvested from spiders blessed by the wind spirits themselves.",
+  "stats": {
+    "evasion": 38,
+    "movement_speed": 5,
+    "requirements": {
+      "level": 10,
+      "dexterity": 18
+    }
+  },
+  "properties": {
+    "slot": "body_armor",
+    "armor_type": "evasion",
+    "material": "silk",
+    "weight": "very_light",
+    "durability": 70
+  },
+  "metadata": {
+    "created": "2025-08-11T20:45:00Z",
+    "last_updated": "2025-08-11T20:45:00Z",
+    "author": "PrimalMyst Development Team",
+    "canonical": true,
+    "version": "1.0.0"
+  }
+}

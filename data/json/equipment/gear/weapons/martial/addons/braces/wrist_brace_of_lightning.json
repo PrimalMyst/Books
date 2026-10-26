@@ -1,0 +1,10 @@
+{
+  "id": "wrist-brace-of-lightning",
+  "name": "Wrist Brace of Lightning",
+  "school": "martial",
+  "category": "addons",
+  "type": "brace",
+  "element": "lightning",
+  "rarity": "common",
+  "stats": { "attack_speed_percent": 4, "weapon_swap_speed_percent": 8 }
+}

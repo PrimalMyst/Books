@@ -1,0 +1,11 @@
+{
+  "id": "resources-system-core",
+  "name": "PrimalMyst Refreshable Resources System",
+  "description": "Mechanical reference for the familiar HP/MP/SP trio used across RPGs; keeping this naming convention preserves player recognition while documenting our hexagonal assignments.",
+  "version": "1.0.0",
+  "resource_files": {
+    "health_points": "corners/corner_1_HP.json",
+    "stamina_points": "corners/corner_3_SP.json",
+    "mana_points": "corners/corner_5_MP.json"
+  }
+}

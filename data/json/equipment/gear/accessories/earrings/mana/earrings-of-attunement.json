@@ -1,0 +1,27 @@
+{
+  "id": "earrings-of-attunement",
+  "name": "Earrings of Attunement",
+  "type": "earrings",
+  "tier": "mortal",
+  "rarity": "uncommon",
+  "description": "Slender silver arcs that improve the wearer's resonance with ambient mana.",
+  "flavor_text": "Hear the hum of the unseen currents.",
+  "stats": {
+    "max_mana": 28,
+    "mana_regen": 2,
+    "requirements": {
+      "level": 8
+    }
+  },
+  "properties": {
+    "slot": "earrings",
+    "category": "mana"
+  },
+  "metadata": {
+    "created": "2025-08-12T10:05:00Z",
+    "last_updated": "2025-08-12T10:05:00Z",
+    "author": "PrimalMyst Development Team",
+    "canonical": true,
+    "version": "1.0.0"
+  }
+}

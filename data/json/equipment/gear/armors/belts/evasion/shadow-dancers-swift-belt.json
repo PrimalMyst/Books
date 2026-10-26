@@ -1,0 +1,66 @@
+{
+  "id": "shadow-dancers-swift-belt",
+  "name": "Shadow Dancer's Swift Belt",
+  "description": "A lightweight leather belt with quicksilver buckles designed for maximum agility and stealth",
+  "version": "1.0.0",
+  "item_type": "belt",
+  "armor_type": "evasion",
+  "rarity": "uncommon",
+  "level_requirement": 14,
+  "item_level": 16,
+  "base_stats": {
+    "evasion_rating": 22,
+    "movement_speed": "+15%",
+    "weight": 1.2
+  },
+  "hexagonal_alignment": {
+    "god": "Anubiseth (Sovereign)",
+    "position": 6,
+    "color": "Magenta",
+    "element": "Agility and Movement",
+    "domain": "Speed and Stealth"
+  },
+  "physical_properties": {
+    "material": "Supple shadow-touched leather",
+    "construction": "Streamlined design with minimal bulk",
+    "buckle_type": "Quicksilver release mechanism",
+    "utility_loops": 3,
+    "quick_access_pouches": 2,
+    "length": "adjustable 26-40 inches",
+    "width": "2 inches"
+  },
+  "defensive_properties": {
+    "evasion_rating": 22,
+    "dodge_chance": "+8%",
+    "movement_penalty_reduction": "50%",
+    "stealth_bonus": "+15%",
+    "noise_reduction": "High"
+  },
+  "utility_properties": {
+    "movement_speed": "+15%",
+    "quick_draw_bonus": "+25% draw speed",
+    "weight_reduction": "Items feel 20% lighter",
+    "silent_movement": "Reduces movement noise by 60%"
+  },
+  "stat_modifiers": {
+    "dexterity": "+2",
+    "agility": "+1",
+    "movement_speed": "+15%",
+    "stealth": "+15%"
+  },
+  "special_properties": {
+    "shadow_step": "Brief invisibility when dodging (1 second)",
+    "swift_reflexes": "First dodge each combat is automatic success",
+    "featherweight": "Jumping height and distance increased by 30%"
+  },
+  "flavor_text": "Crafted by the secretive Shadow Dancer guild, this belt seems to absorb light around its edges. The quicksilver buckle responds to the wearer's movements, never hindering their fluid grace or silent steps.",
+  "metadata": {
+    "created": "2025-08-11T20:25:00Z",
+    "last_updated": "2025-08-11T20:25:00Z",
+    "author": "PrimalMyst Development Team",
+    "canonical": true,
+    "notes": "Example evasion type belt with Anubiseth alignment",
+    "balance_tested": true,
+    "version": "1.0.0"
+  }
+}

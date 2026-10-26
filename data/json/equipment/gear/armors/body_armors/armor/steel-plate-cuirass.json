@@ -1,0 +1,30 @@
+{
+  "id": "steel-plate-cuirass",
+  "name": "Steel Plate Cuirass",
+  "type": "body_armor",
+  "tier": "mortal",
+  "rarity": "common",
+  "description": "A masterfully crafted steel cuirass providing excellent protection for the vital torso area. The overlapping plates are precisely fitted to allow essential movement while maximizing coverage.",
+  "flavor_text": "The hallmark of professional soldiers, this cuirass has protected countless warriors from the deadly strikes that would otherwise end their adventures.",
+  "stats": {
+    "armor": 48,
+    "requirements": {
+      "level": 15,
+      "strength": 25
+    }
+  },
+  "properties": {
+    "slot": "body_armor",
+    "armor_type": "armor",
+    "material": "steel",
+    "weight": "heavy",
+    "durability": 95
+  },
+  "metadata": {
+    "created": "2025-08-11T20:45:00Z",
+    "last_updated": "2025-08-11T20:45:00Z",
+    "author": "PrimalMyst Development Team",
+    "canonical": true,
+    "version": "1.0.0"
+  }
+}

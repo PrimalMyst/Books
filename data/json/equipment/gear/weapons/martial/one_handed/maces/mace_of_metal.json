@@ -1,0 +1,10 @@
+{
+  "id": "mace-of-metal",
+  "name": "Mace of Metal",
+  "school": "martial",
+  "category": "one_handed",
+  "type": "mace",
+  "element": "metal",
+  "rarity": "common",
+  "stats": { "base_damage": 35, "attack_speed": 1.1, "stagger_power": 6 }
+}

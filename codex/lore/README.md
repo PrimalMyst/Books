@@ -13,8 +13,8 @@ The World Tree at the center of existence, whose six branches support the divine
 ### **[The Six Realms](./six-realms-cosmology.md)**
 The six divine realms connected by Yggdrasil's branches, each ruled by one of the Eldritch Gods.
 
-### **[Cosmic Rhythms](./cosmic-rhythms.md)**
-The natural cycles that drive reality instance transitions and cosmic events.
+### **[Seasonal World Reset (Diegetic Framing)](../diegetic-framing/seasonal-world-reset.md)**
+In-world explanation for why reality instances end and how continuity survives through transitions.
 
 ## Central Figures
 
@@ -29,30 +29,30 @@ The stranded crew of *The Wandering Hope* who rescue the player and serve as the
 
 ## Divine Entities
 
-### **[The Fundamental Trio](./fundamental-trio.md)**
-Pyrion (First Flame), Glacius (Eternal Frost), and Voltharion (Cosmic Spark) - the foundational gods who power Yggdrasil.
-
 ### **[The Primal Trio](./primal-trio.md)**
-Serafina (Shadow Empress), Aurelius (Radiant Sphere), and Korthak (Dragon King) - the active gods who rule realms and interact with mortals.
+Ifrisurtr (Ash Phoenix), Kitsunrir (Storm-Tailed Hunter), and Tiamangandr (Frozen Coil) - the Primal gods anchoring the RGB positions of Yggdrasil.
+
+### **[The Sovereign Trio](./sovereign-trio.md)**
+Longares (Auric Dragon King), Gryphozeus (Thunder Griffin), and Bastenyx (Nightclaw Sphinx) - the Sovereign gods who rule realms and interact with mortals.
 
 ### **[The Eldritch Pantheon](./eldritch-pantheon.md)**
 Complete overview of all six gods, their relationships, and their roles in the God-Slayer narrative.
 
 ## Story Structure
 
-### **[Prologue: Awakening Journey](./prologue-awakening-journey.md)**
+### **[Prologue: Awakening Journey](./story-arc/0-prologue-awakening-journey.md)**
 The player's transformation from formless spirit to physical being, guided by Myrielle and rescued by the Mist Seekers.
 
-### **[Act 1: Divine Trials](./act1-divine-trials.md)**
+### **[Act 1: Divine Trials](./story-arc/1-act1-divine-trials.md)**
 The pantheon positioning system, divine trials, and establishment of the player's relationship with the gods.
 
-### **[Act 2: Eldritch Ascension](./act2-eldritch-ascension.md)**
+### **[Act 2: Eldritch Ascension](./story-arc/2-act2-eldritch-ascension.md)**
 Mid-game progression through deeper divine mysteries and Myrielle's hidden trials.
 
-### **[Act 3: Cosmic Ascendant](./act3-cosmic-ascendant.md)**
+### **[Act 3: Cosmic Ascendant](./story-arc/3-act3-cosmic-ascendant.md)**
 Late-game mastery of divine forces and preparation for the God-Slayer path.
 
-### **[Epilogue: God-Slayer](./epilogue-god-slayer.md)**
+### **[Epilogue: God-Slayer](./story-arc/4-epilogue-god-slayer.md)**
 The final ascent of Yggdrasil, confrontation with the gods, and Myrielle's ultimate sacrifice.
 
 ## Systems & Organizations

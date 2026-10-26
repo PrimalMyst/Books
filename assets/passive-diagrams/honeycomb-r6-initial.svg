@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="720" viewBox="0 0 720 720">
+  <style>
+  .cell { fill: none; stroke: #888; stroke-width: 2; stroke-dasharray: 6 6; }
+  .eligible { fill: #ffe066; stroke: #c8a600; stroke-width: 2; stroke-dasharray: 6 6; }
+  .active { fill: #ff4d4d; stroke: #b30000; stroke-width: 3; stroke-dasharray: none; }
+  .edge-selected { stroke: #222; stroke-width: 4; stroke-dasharray: none; }
+    .label { font-family: Arial, sans-serif; font-size: 13px; fill: #333; }
+  </style>
+
+  <defs>
+    <!-- Flat-top hexagon with side a=30 -->
+    <!-- Vertices: (a,0) (a/2,h/2) (-a/2,h/2) (-a,0) (-a/2,-h/2) (a/2,-h/2), h = sqrt(3)*a -->
+    <g id="hex-a30">
+      <polygon points="30,0 15,25.9808 -15,25.9808 -30,0 -15,-25.9808 15,-25.9808" />
+    </g>
+  </defs>
+
+  <!-- Center at (350,350); axial to pixel: x = 45*q, y = 51.9615*(r + q/2) -->
+  <!-- Radius r = 6; total cells = 127 -->
+
+  <!-- q = -6 -->
+  <g transform="translate(80,194.1155)"><use href="#hex-a30" class="cell"/></g>
+  <g transform="translate(80,246.077)"><use href="#hex-a30" class="cell"/></g>
+  <g transform="translate(80,298.0385)"><use href="#hex-a30" class="cell"/></g>
+    <g transform="translate(350,401.9615)"><use href="#hex-a30" class="eligible"/></g>
+  <g transform="translate(80,401.9615)"><use href="#hex-a30" class="cell"/></g>
+    <g transform="translate(395,375.98075)"><use href="#hex-a30" class="eligible"/></g>
+  <g transform="translate(80,505.8845)"><use href="#hex-a30" class="cell"/></g>
+    <g transform="translate(305,375.98075)"><use href="#hex-a30" class="eligible"/></g>
+  <!-- q = -5 -->
+  <g transform="translate(125,168.13475)"><use href="#hex-a30" class="cell"/></g>
+  <g transform="translate(125,220.09625)"><use href="#hex-a30" class="cell"/></g>
+  <g transform="translate(125,272.05775)"><use href="#hex-a30" class="cell"/></g>
+  <g transform="translate(125,324.01925)"><use href="#hex-a30" class="cell"/></g>
+  <g transform="translate(125,375.98075)"><use href="#hex-a30" class="cell"/></g>
+  <g transform="translate(125,427.94225)"><use href="#hex-a30" class="cell"/></g>
+  <g transform="translate(125,479.90375)"><use href="#hex-a30" class="cell"/></g>
+  <g transform="translate(125,531.86525)"><use href="#hex-a30" class="cell"/></g>
+
+  <!-- q = -4 -->
+  <g transform="translate(170,142.154)"><use href="#hex-a30" class="cell"/></g>
+  <g transform="translate(170,194.1155)"><use href="#hex-a30" class="cell"/></g>
+  <g transform="translate(170,246.077)"><use href="#hex-a30" class="cell"/></g>
+  <g transform="translate(170,298.0385)"><use href="#hex-a30" class="cell"/></g>
+  <g transform="translate(170,350)"><use href="#hex-a30" class="cell"/></g>
+  <g transform="translate(170,401.9615)"><use href="#hex-a30" class="cell"/></g>
+  <g transform="translate(170,453.923)"><use href="#hex-a30" class="cell"/></g>
+  <g transform="translate(170,505.8845)"><use href="#hex-a30" class="cell"/></g>
+  <g transform="translate(170,557.846)"><use href="#hex-a30" class="cell"/></g>
+
+  <!-- q = -3 -->
+  <g transform="translate(215,116.17325)"><use href="#hex-a30" class="cell"/></g>
+  <g transform="translate(215,168.13475)"><use href="#hex-a30" class="cell"/></g>
+  <g transform="translate(215,220.09625)"><use href="#hex-a30" class="cell"/></g>
+  <g transform="translate(215,272.05775)"><use href="#hex-a30" class="cell"/></g>
+  <g transform="translate(215,324.01925)"><use href="#hex-a30" class="cell"/></g>
+  <g transform="translate(215,375.98075)"><use href="#hex-a30" class="cell"/></g>
+  <g transform="translate(215,427.94225)"><use href="#hex-a30" class="cell"/></g>
+  <g transform="translate(215,479.90375)"><use href="#hex-a30" class="cell"/></g>
+  <g transform="translate(215,531.86525)"><use href="#hex-a30" class="cell"/></g>
+  <g transform="translate(215,583.82675)"><use href="#hex-a30" class="cell"/></g>
+
+  <!-- q = -2 -->
+  <g transform="translate(260,90.1925)"><use href="#hex-a30" class="cell"/></g>
+  <g transform="translate(260,142.154)"><use href="#hex-a30" class="cell"/></g>
+  <g transform="translate(260,194.1155)"><use href="#hex-a30" class="cell"/></g>
+  <g transform="translate(260,246.077)"><use href="#hex-a30" class="cell"/></g>
+  <g transform="translate(260,298.0385)"><use href="#hex-a30" class="cell"/></g>
+  <g transform="translate(260,350)"><use href="#hex-a30" class="cell"/></g>
+  <g transform="translate(260,401.9615)"><use href="#hex-a30" class="cell"/></g>
+  <g transform="translate(260,453.923)"><use href="#hex-a30" class="cell"/></g>
+  <g transform="translate(260,505.8845)"><use href="#hex-a30" class="cell"/></g>
+  <g transform="translate(260,557.846)"><use href="#hex-a30" class="cell"/></g>
+  <g transform="translate(260,609.8075)"><use href="#hex-a30" class="cell"/></g>
+
+  <!-- q = -1 -->
+  <g transform="translate(305,64.21175)"><use href="#hex-a30" class="cell"/></g>
+  <g transform="translate(305,116.17325)"><use href="#hex-a30" class="cell"/></g>
+  <g transform="translate(305,168.13475)"><use href="#hex-a30" class="cell"/></g>
+  <g transform="translate(305,220.09625)"><use href="#hex-a30" class="cell"/></g>
+  <g transform="translate(305,272.05775)"><use href="#hex-a30" class="cell"/></g>
+  <g transform="translate(305,324.01925)"><use href="#hex-a30" class="cell"/></g>
+  <g transform="translate(305,375.98075)"><use href="#hex-a30" class="cell"/></g>
+  <g transform="translate(305,427.94225)"><use href="#hex-a30" class="cell"/></g>
+  <g transform="translate(305,479.90375)"><use href="#hex-a30" class="cell"/></g>
+  <g transform="translate(305,531.86525)"><use href="#hex-a30" class="cell"/></g>
+  <g transform="translate(305,583.82675)"><use href="#hex-a30" class="cell"/></g>
+  <g transform="translate(305,635.78825)"><use href="#hex-a30" class="cell"/></g>
+
+  <!-- q = 0 -->
+  <g transform="translate(350,38.231)"><use href="#hex-a30" class="cell"/></g>
+  <g transform="translate(350,90.1925)"><use href="#hex-a30" class="cell"/></g>
+  <g transform="translate(350,142.154)"><use href="#hex-a30" class="cell"/></g>
+  <g transform="translate(350,194.1155)"><use href="#hex-a30" class="cell"/></g>
+  <g transform="translate(350,246.077)"><use href="#hex-a30" class="cell"/></g>
+  <g transform="translate(350,298.0385)"><use href="#hex-a30" class="eligible"/></g>
+  <g transform="translate(350,350)"><use href="#hex-a30" class="active"/></g>
+  <g transform="translate(350,401.9615)"><use href="#hex-a30" class="cell"/></g>
+  <g transform="translate(350,453.923)"><use href="#hex-a30" class="cell"/></g>
+  <g transform="translate(350,505.8845)"><use href="#hex-a30" class="cell"/></g>
+  <g transform="translate(350,557.846)"><use href="#hex-a30" class="cell"/></g>
+  <g transform="translate(350,609.8075)"><use href="#hex-a30" class="cell"/></g>
+  <g transform="translate(350,661.769)"><use href="#hex-a30" class="cell"/></g>
+
+  <!-- q = 1 -->
+  <g transform="translate(395,64.21175)"><use href="#hex-a30" class="cell"/></g>
+  <g transform="translate(395,116.17325)"><use href="#hex-a30" class="cell"/></g>
+  <g transform="translate(395,168.13475)"><use href="#hex-a30" class="cell"/></g>
+  <g transform="translate(395,220.09625)"><use href="#hex-a30" class="cell"/></g>
+  <g transform="translate(395,272.05775)"><use href="#hex-a30" class="cell"/></g>
+  <g transform="translate(395,324.01925)"><use href="#hex-a30" class="eligible"/></g>
+  <g transform="translate(395,375.98075)"><use href="#hex-a30" class="cell"/></g>
+  <g transform="translate(395,427.94225)"><use href="#hex-a30" class="cell"/></g>
+  <g transform="translate(395,479.90375)"><use href="#hex-a30" class="cell"/></g>
+  <g transform="translate(395,531.86525)"><use href="#hex-a30" class="cell"/></g>
+  <g transform="translate(395,583.82675)"><use href="#hex-a30" class="cell"/></g>
+  <g transform="translate(395,635.78825)"><use href="#hex-a30" class="cell"/></g>
+
+  <!-- q = 2 -->
+  <g transform="translate(440,90.1925)"><use href="#hex-a30" class="cell"/></g>
+  <g transform="translate(440,142.154)"><use href="#hex-a30" class="cell"/></g>
+  <g transform="translate(440,194.1155)"><use href="#hex-a30" class="cell"/></g>
+  <g transform="translate(440,246.077)"><use href="#hex-a30" class="cell"/></g>
+  <g transform="translate(440,298.0385)"><use href="#hex-a30" class="cell"/></g>
+  <g transform="translate(440,350)"><use href="#hex-a30" class="cell"/></g>
+  <g transform="translate(440,401.9615)"><use href="#hex-a30" class="cell"/></g>
+  <g transform="translate(440,453.923)"><use href="#hex-a30" class="cell"/></g>
+  <g transform="translate(440,505.8845)"><use href="#hex-a30" class="cell"/></g>
+  <g transform="translate(440,557.846)"><use href="#hex-a30" class="cell"/></g>
+  <g transform="translate(440,609.8075)"><use href="#hex-a30" class="cell"/></g>
+
+  <!-- q = 3 -->
+  <g transform="translate(485,116.17325)"><use href="#hex-a30" class="cell"/></g>
+  <g transform="translate(485,168.13475)"><use href="#hex-a30" class="cell"/></g>
+  <g transform="translate(485,220.09625)"><use href="#hex-a30" class="cell"/></g>
+  <g transform="translate(485,272.05775)"><use href="#hex-a30" class="cell"/></g>
+  <g transform="translate(485,324.01925)"><use href="#hex-a30" class="cell"/></g>
+  <g transform="translate(485,375.98075)"><use href="#hex-a30" class="cell"/></g>
+  <g transform="translate(485,427.94225)"><use href="#hex-a30" class="cell"/></g>
+  <g transform="translate(485,479.90375)"><use href="#hex-a30" class="cell"/></g>
+  <g transform="translate(485,531.86525)"><use href="#hex-a30" class="cell"/></g>
+  <g transform="translate(485,583.82675)"><use href="#hex-a30" class="cell"/></g>
+
+  <!-- q = 4 -->
+  <g transform="translate(530,142.154)"><use href="#hex-a30" class="cell"/></g>
+  <g transform="translate(530,194.1155)"><use href="#hex-a30" class="cell"/></g>
+  <g transform="translate(530,246.077)"><use href="#hex-a30" class="cell"/></g>
+  <g transform="translate(530,298.0385)"><use href="#hex-a30" class="cell"/></g>
+  <g transform="translate(530,350)"><use href="#hex-a30" class="cell"/></g>
+  <g transform="translate(530,401.9615)"><use href="#hex-a30" class="cell"/></g>
+  <g transform="translate(530,453.923)"><use href="#hex-a30" class="cell"/></g>
+  <g transform="translate(530,505.8845)"><use href="#hex-a30" class="cell"/></g>
+  <g transform="translate(530,557.846)"><use href="#hex-a30" class="cell"/></g>
+
+  <!-- q = 5 -->
+  <g transform="translate(575,168.13475)"><use href="#hex-a30" class="cell"/></g>
+  <g transform="translate(575,220.09625)"><use href="#hex-a30" class="cell"/></g>
+  <g transform="translate(575,272.05775)"><use href="#hex-a30" class="cell"/></g>
+  <g transform="translate(575,324.01925)"><use href="#hex-a30" class="cell"/></g>
+  <g transform="translate(575,375.98075)"><use href="#hex-a30" class="cell"/></g>
+  <g transform="translate(575,427.94225)"><use href="#hex-a30" class="cell"/></g>
+  <g transform="translate(575,479.90375)"><use href="#hex-a30" class="cell"/></g>
+  <g transform="translate(575,531.86525)"><use href="#hex-a30" class="cell"/></g>
+
+  <!-- q = 6 -->
+  <g transform="translate(620,194.1155)"><use href="#hex-a30" class="cell"/></g>
+  <g transform="translate(620,246.077)"><use href="#hex-a30" class="cell"/></g>
+  <g transform="translate(620,298.0385)"><use href="#hex-a30" class="cell"/></g>
+  <g transform="translate(620,350)"><use href="#hex-a30" class="cell"/></g>
+  <g transform="translate(620,401.9615)"><use href="#hex-a30" class="cell"/></g>
+  <g transform="translate(620,453.923)"><use href="#hex-a30" class="cell"/></g>
+  <g transform="translate(620,505.8845)"><use href="#hex-a30" class="cell"/></g>
+
+  <text x="360" y="30" text-anchor="middle" class="label">Hex honeycomb (radius 6) — 127 cells — initial state (no allocations)</text>
+</svg>

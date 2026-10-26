@@ -1,0 +1,31 @@
+{
+	"id": "damage-system-core",
+	"name": "PrimalMyst Damage Taxonomy",
+	"description": "Defines the three mechanical damage delivery modes used across combat systems.",
+	"damage_types": {
+		"hit": {
+			"label": "Hit",
+			"summary": "Single-target strikes resolved instantly.",
+			"examples": ["weapon_swings", "projectile_shots", "quick_spells"]
+		},
+		"burst": {
+			"label": "Burst",
+			"summary": "High-magnitude damage from impacts, slams, shockwaves, or wide-area spells.",
+			"examples": ["ground_slams", "meteor_impacts", "massive_chain_spells"]
+		},
+		"dot": {
+			"label": "Damage over Time",
+			"summary": "Effects that apply smaller pulses across multiple ticks.",
+			"examples": ["bleeds", "burns", "curses"]
+		}
+	},
+	"damage_files": {
+		"hit": "corners/corner_2_hit.json",
+		"burst": "corners/corner_4_burst.json",
+		"dot": "corners/corner_6_dot.json"
+	},
+	"universal_rules": {
+		"resource_floor": "Every individual damage instance consumes 1 HP, 1 MP, and 1 SP before mitigation, ensuring a non-zero cost when damage connects.",
+		"stacking_note": "Multiple types can coexist in a single ability but are resolved separately."
+	}
+}

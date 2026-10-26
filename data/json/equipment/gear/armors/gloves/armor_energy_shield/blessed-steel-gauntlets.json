@@ -1,0 +1,32 @@
+{
+  "id": "blessed-steel-gauntlets",
+  "name": "Blessed Steel Gauntlets",
+  "type": "gloves",
+  "tier": "mortal",
+  "rarity": "rare",
+  "description": "Heavy gauntlets blessed by divine priests and enhanced with protective enchantments. The holy blessing creates a protective aura around the hands that deflects both physical and magical attacks.",
+  "flavor_text": "Forged in sacred flame and blessed by divine light, these gauntlets represent the perfect union of martial protection and holy power.",
+  "stats": {
+    "armor": 24,
+    "energy_shield": 18,
+    "requirements": {
+      "level": 18,
+      "strength": 22,
+      "intelligence": 15
+    }
+  },
+  "properties": {
+    "slot": "gloves",
+    "armor_type": "armor_energy_shield",
+    "material": "blessed_steel",
+    "weight": "heavy",
+    "durability": 90
+  },
+  "metadata": {
+    "created": "2025-08-11T20:55:00Z",
+    "last_updated": "2025-08-11T20:55:00Z",
+    "author": "PrimalMyst Development Team",
+    "canonical": true,
+    "version": "1.0.0"
+  }
+}

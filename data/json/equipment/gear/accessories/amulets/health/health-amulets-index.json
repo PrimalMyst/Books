@@ -1,0 +1,19 @@
+{
+  "id": "health-amulets-index",
+  "name": "Health Amulets Index",
+  "description": "Index of amulets themed around vitality, recovery, and maximum health",
+  "version": "1.0.0",
+  "parent_type": "amulets",
+  "resource": "health",
+  "general_description": "Amulets that enhance life force through increased maximum health, regeneration, and healing efficiency.",
+  "existing_items": [
+    "amulet-of-vigor.json"
+  ],
+  "metadata": {
+    "created": "2025-08-12T10:05:00Z",
+    "last_updated": "2025-08-12T10:05:00Z",
+    "author": "PrimalMyst Development Team",
+    "canonical": true,
+    "version": "1.0.0"
+  }
+}

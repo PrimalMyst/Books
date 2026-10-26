@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256" role="img" aria-labelledby="title desc">
+  <title id="title">PrimalMyst Hex Logo</title>
+  <desc id="desc">Six touching hexagons arranged around an empty central hex. Colors clockwise from top: Red, Yellow, Green, Cyan, Blue, Magenta.</desc>
+  <defs>
+    <!-- Flat-top hex centered at (0,0); side length (radius) s=24 -->
+    <symbol id="hex" overflow="visible">
+      <polygon points="24,0 12,-20.784 -12,-20.784 -24,0 -12,20.784 12,20.784"/>
+    </symbol>
+  </defs>
+
+  <!-- Six neighbors of a central hex (center at 128,128), using s=24 -->
+  <!-- Neighbor center offsets for flat-top: (0,±√3*s), (±36,±20.784), (±36,∓20.784) -->
+  <g stroke="#111" stroke-width="2" stroke-linejoin="round">
+    <!-- 1: North (Top) - RED -->
+    <use href="#hex" transform="translate(128,86.431)" fill="#FF0000"/>
+
+    <!-- 2: Northeast (Top-Right) - YELLOW -->
+    <use href="#hex" transform="translate(164,107.216)" fill="#FFFF00"/>
+
+    <!-- 3: Southeast (Bottom-Right) - GREEN -->
+    <use href="#hex" transform="translate(164,148.784)" fill="#00C853"/>
+
+    <!-- 4: South (Bottom) - CYAN -->
+    <use href="#hex" transform="translate(128,169.569)" fill="#00FFFF"/>
+
+    <!-- 5: Southwest (Bottom-Left) - BLUE -->
+    <use href="#hex" transform="translate(92,148.784)" fill="#2962FF"/>
+
+    <!-- 6: Northwest (Top-Left) - MAGENTA -->
+    <use href="#hex" transform="translate(92,107.216)" fill="#FF00FF"/>
+  </g>
+</svg>

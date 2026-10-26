@@ -1,0 +1,34 @@
+{
+  "hexagon_id": "attributes-core",
+  "name": "PrimalMyst Attributes Hexagon",
+  "description": "The character development implementation of the universal hexagonal pattern for attributes. This file provides a concise index and trios split; detailed per-corner content lives in the referenced corner files.",
+  "hexagon_core_reference": "data/json/core-systems/layers/hexagon-core.json",
+  "corner_files": [
+    { "position": 1, "filename": "corner-1-strength.json",     "file_path": "corners/corner-1-strength.json" },
+    { "position": 2, "filename": "corner-2-constitution.json", "file_path": "corners/corner-2-constitution.json" },
+    { "position": 3, "filename": "corner-3-dexterity.json",    "file_path": "corners/corner-3-dexterity.json" },
+    { "position": 4, "filename": "corner-4-wisdom.json",       "file_path": "corners/corner-4-wisdom.json" },
+    { "position": 5, "filename": "corner-5-intelligence.json", "file_path": "corners/corner-5-intelligence.json" },
+    { "position": 6, "filename": "corner-6-charisma.json",     "file_path": "corners/corner-6-charisma.json" }
+  ],
+  "attribute_trios": {
+    "fundamental_trinity": {
+      "name": "The Fundamental Trinity",
+      "attributes": ["intelligence", "dexterity", "strength"],
+      "positions": [5, 3, 1]
+    },
+    "transcendent_trinity": {
+      "name": "The Transcendent Trinity",
+      "attributes": ["constitution", "wisdom", "charisma"],
+      "positions": [2, 4, 6]
+    }
+  },
+  "metadata": {
+    "version": "1.1.0",
+    "created": "2025-07-31T00:00:00Z",
+    "last_updated": "2025-08-13T01:45:00Z",
+    "author": "PrimalMyst Development Team",
+    "canonical": true,
+    "schema_reference": "hexagon-thematic.schema.json"
+  }
+}

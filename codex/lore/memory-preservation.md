@@ -23,9 +23,9 @@ Myrielle exists outside reality instances specifically to address this crisis:
 
 ### Natural Memory Storage
 **Yggdrasil Integration**:
-- **Glacius' Archive**: The World Tree's crystalline bark naturally stores experiences
-- **Heartwood Resonance**: Pyrion's energy preserves emotional and transformative memories
-- **Branch Networks**: Voltharion's connections maintain relationship and communication memories
+- **Tiamangandr's Archive**: The World Tree's crystalline root-depths naturally store experiences
+- **Heartwood Resonance**: Ifrisurtr's fire-energy preserves emotional and transformative memories
+- **Branch Winds**: Kitsunrir's storm-currents carry relationship and communication memories across realms
 - **Realm Echoes**: Each divine realm automatically preserves relevant experiences
 
 **Cosmic Rhythm Recording**:
@@ -188,8 +188,8 @@ Myrielle exists outside reality instances specifically to address this crisis:
 - **[Myrielle the Hidden](./myrielle-the-hidden.md)**: The goddess who orchestrates memory preservation
 - **[Valhalla](./valhalla.md)**: The eternal sanctuary where preserved consciousness exists
 - **[Reality Instances](./reality-instances.md)**: The universe containers that face inevitable destruction
-- **[Cosmic Rhythms](./cosmic-rhythms.md)**: The patterns that drive reality instance collapse
-- **[Epilogue: God-Slayer](./epilogue-god-slayer.md)**: The path to perfect memory preservation
+- **[Seasonal World Reset (Diegetic Framing)](../diegetic-framing/seasonal-world-reset.md)**: The in-world pattern that explains instance collapse and transition
+- **[Epilogue: God-Slayer](./story-arc/4-epilogue-god-slayer.md)**: The path to perfect memory preservation
 - **[Yggdrasil](./yggdrasil.md)**: The natural memory storage system within reality instances
 - **[The Fundamental Trio](./fundamental-trio.md)**: Gods whose essence enables natural preservation
 - **[Adventurer Guilds](./adventurer-guilds.md)**: Organizations that provide preservation infrastructure

@@ -1,0 +1,6 @@
+{
+  "id": "bows-index",
+  "name": "Bows (Two-Handed · Marksmanship)",
+  "examples": ["longbow_of_lightning.json"],
+  "notes": "Element is an item attribute."
+}

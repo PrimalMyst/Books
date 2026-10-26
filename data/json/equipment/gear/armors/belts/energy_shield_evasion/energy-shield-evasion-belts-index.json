@@ -1,0 +1,23 @@
+{
+  "id": "energy-shield-evasion-belts-index",
+  "name": "Energy Shield-Evasion Hybrid Belts Index",
+  "description": "Index of hybrid energy shield-evasion belts combining magical protection with agility",
+  "version": "1.0.0",
+  "armor_type": "energy_shield_evasion",
+  "god_alignment": "Zeusara + Anubiseth (Sovereign)",
+  "hexagonal_positions": [4, 6],
+  "colors": "Cyan + Magenta",
+  "general_description": "Mystical light sashes and enchanted agility belts that blend magical protection with enhanced mobility. These belts feature ethereal protection layers and energy-based mobility boosts.",
+  "existing_items": [
+    "ethereal-wind-sash.json"
+  ],
+  "metadata": {
+    "created": "2025-08-11T20:25:00Z",
+    "last_updated": "2025-08-11T20:25:00Z",
+    "author": "PrimalMyst Development Team",
+    "canonical": true,
+    "notes": "Simplified index focusing on categorization with existing items list",
+    "hexagonal_integration": "Complete",
+    "version": "1.0.0"
+  }
+}

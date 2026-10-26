@@ -1,0 +1,31 @@
+{
+  "id": "arcane-silk-slippers",
+  "name": "Arcane Silk Slippers",
+  "type": "boots",
+  "tier": "mortal",
+  "rarity": "uncommon",
+  "description": "Delicate slippers woven from enchanted silk that enhance magical conductivity while providing mystical protection. The soft fabric allows silent movement perfect for spellcasting.",
+  "flavor_text": "Worn by court wizards and scholarly mages, these slippers allow their wearer to move with grace while channeling the deepest magical energies.",
+  "stats": {
+    "energy_shield": 26,
+    "spell_power": 6,
+    "requirements": {
+      "level": 12,
+      "intelligence": 20
+    }
+  },
+  "properties": {
+    "slot": "boots",
+    "armor_type": "energy_shield",
+    "material": "arcane_silk",
+    "weight": "light",
+    "durability": 80
+  },
+  "metadata": {
+    "created": "2025-08-11T21:15:00Z",
+    "last_updated": "2025-08-11T21:15:00Z",
+    "author": "PrimalMyst Development Team",
+    "canonical": true,
+    "version": "1.0.0"
+  }
+}

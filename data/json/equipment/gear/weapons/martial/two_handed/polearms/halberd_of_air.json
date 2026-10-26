@@ -1,0 +1,10 @@
+{
+  "id": "halberd-of-air",
+  "name": "Halberd of Air",
+  "school": "martial",
+  "category": "two_handed",
+  "type": "halberd",
+  "element": "air",
+  "rarity": "uncommon",
+  "stats": { "base_damage": 60, "attack_speed": 0.95, "reach_bonus": 10 }
+}

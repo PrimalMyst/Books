@@ -3,9 +3,8 @@
 ## Overview
 
 The concept of "playa**Minimum for Significance:** To achieve heroic status, leadership roles, or world-changing impact, humanoids must possess at least one influence from each divine trio:
-- **One Fundamental God**: Pyrion, Glacius, or Voltharion (Ancient Powers)
-- **One Primal God**: Serafina, Aurelius, or Korthak (Active Deities)
-- **Myrielle's Indirect Influence**: The Veiled One cannot directly influence humanoids but works through them by guiding their monster companions and mounts
+- **One Primal God**: Ifrisurtr, Kitsunrir, or Tiamangandr (RGB Anchors)
+- **One Sovereign God**: Longares, Gryphozeus, or Bastenyx (Bridge Positions)
 
 **Beyond the Minimum:** Truly transcendent humanoids may channel multiple influences from each tier, creating complex divine harmonies impossible for monsters.
 
@@ -64,8 +63,8 @@ The possession of five-fingered hands is a necessary but not sufficient conditio
 ### Divine Influence Requirements for Humanoids
 
 **Minimum for Significance:** To achieve heroic status, leadership roles, or world-changing impact, humanoids must possess at least one influence from each divine trio:
-- **One Fundamental God**: Pyrion, Glacius, or Voltharion (Ancient Powers)
-- **One Primal God**: Serafina, Aurelius, or Korthak (Active Deities)
+- **One Primal God**: Ifrisurtr, Kitsunrir, or Tiamangandr (RGB Anchors)
+- **One Sovereign God**: Longares, Gryphozeus, or Bastenyx (Bridge Positions)
 - **One Veiled One**: Myrielle (Mysterious Guide)
 
 **Beyond the Minimum:** Truly transcendent humanoids may channel multiple influences from each tier, creating complex divine harmonies impossible for monsters.
@@ -174,14 +173,14 @@ Some monster species appear nearly identical to humanoid races, possessing intel
 
 ### Monster Race Categories
 All monsters fall into standard fantasy categories, each influenced by specific aspects of the Eldritch Pantheon:
-- **Demons, Fiends**: Often touched by corrupted aspects of Serafina's chaos
-- **Dragons, Giants**: May carry influences from the Fundamental Gods or Korthak's might  
-- **Undead**: Bound by Serafina's necromancy and Glacius's preservation
-- **Elementals**: Pure manifestations of Pyrion, Glacius, or Voltharion
-- **Fey, Sprites**: Connected to Aurelius's light and Myrielle's transitions
+- **Demons, Fiends**: Often touched by corrupted aspects of Bastenyx's shadow
+- **Dragons, Giants**: May carry influences from the Primal Gods or Longares' might  
+- **Undead**: Bound by Bastenyx's shadow necromancy and Tiamangandr's icy preservation
+- **Elementals**: Pure manifestations of Ifrisurtr, Tiamangandr, or Kitsunrir
+- **Fey, Sprites**: Connected to Gryphozeus's light and Myrielle's transitions
 - **Beasts, Insects**: Natural creatures enhanced by various divine influences
-- **Plants, Treants**: Typically influenced by Aurelius's growth and earth aspects
-- **Constructs**: Animated by Voltharion's spark and divine will
+- **Plants, Treants**: Typically influenced by Longares' earth-metal and Gryphozeus's growth aspects
+- **Constructs**: Animated by Gryphozeus's lightning spark and divine will
 
 ### Exceptional Cases
 **Mount-Capable Monsters**: Extremely rare monsters that can serve as transportation partners with mystical burden-sharing abilities, valued for their service but not considered equals.
@@ -202,15 +201,15 @@ The path of the humanoid is one of great power and greater responsibility, carry
 
 All creatures in the Myst World are influenced by the **Eldritch Pantheon**, which consists of three divine tiers:
 
-#### **Fundamental Gods (Ancient Powers)**
-- **Pyrion, the First Flame**: Fire, creation, transformation
-- **Glacius, the Eternal Frost**: Cold, preservation, memory  
-- **Voltharion, the Cosmic Spark**: Lightning, communication, connection
+#### **Primal Gods (RGB Anchors)**
+- **Ifrisurtr, the Ash Phoenix**: Fire, apocalyptic rebirth, transformative flame
+- **Kitsunrir, the Storm-Tailed Hunter**: Air, boundless movement, illusory winds  
+- **Tiamangandr, the Frozen Coil**: Water, crystalline preservation, abyssal memory
 
-#### **Primal Gods (Active Deities)**
-- **Serafina, the Shadow Empress**: Chaos, shadow, dark transformation
-- **Aurelius, the Radiant Sphere**: Radiance, protection, guidance
-- **Korthak, the Dragon King**: Might, physical strength, honor
+#### **Sovereign Gods (Bridge Positions)**
+- **Longares, the Auric Dragon King**: Metal, disciplined might, warrior's honor
+- **Gryphozeus, the Thunder Griffin**: Lightning, divine authority, celestial justice
+- **Bastenyx, the Nightclaw Sphinx**: Shadow, threshold wisdom, protective guardianship
 
 #### **Veiled Ones (Mysterious Guides)**
 - **Myrielle, the Hidden**: Cycles, rebirth, transition

@@ -1,0 +1,23 @@
+{
+  "id": "armor-belts-index",
+  "name": "Armor Type Belts Index",
+  "description": "Index of pure armor type belts focused on physical damage reduction and utility",
+  "version": "1.0.0",
+  "armor_type": "armor",
+  "god_alignment": "Marsalis (Sovereign)",
+  "hexagonal_position": 2,
+  "color": "Yellow",
+  "general_description": "Heavy utility belts, metal chains, and reinforced leather belts designed for maximum physical protection. These belts combine robust construction with practical utility features, offering enhanced carrying capacity and durability alongside armor rating bonuses.",
+  "existing_items": [
+    "iron-studded-utility-belt.json"
+  ],
+  "metadata": {
+    "created": "2025-08-11T20:15:00Z",
+    "last_updated": "2025-08-11T20:20:00Z",
+    "author": "PrimalMyst Development Team",
+    "canonical": true,
+    "notes": "Simplified index focusing on categorization with existing items list",
+    "hexagonal_integration": "Complete",
+    "version": "1.0.0"
+  }
+}

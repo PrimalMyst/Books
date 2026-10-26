@@ -1,0 +1,19 @@
+{
+  "id": "stamina-rings-index",
+  "name": "Stamina Rings Index",
+  "description": "Index of rings themed around endurance, vigor, and stamina recovery",
+  "version": "1.0.0",
+  "parent_type": "rings",
+  "resource": "stamina",
+  "general_description": "Rings that improve stamina reserves, recovery rate, and reduce fatigue from movement and attacks.",
+  "existing_items": [
+    "ring-of-endurance.json"
+  ],
+  "metadata": {
+    "created": "2025-08-12T10:05:00Z",
+    "last_updated": "2025-08-12T10:05:00Z",
+    "author": "PrimalMyst Development Team",
+    "canonical": true,
+    "version": "1.0.0"
+  }
+}

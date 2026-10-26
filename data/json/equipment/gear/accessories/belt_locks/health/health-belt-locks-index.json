@@ -1,0 +1,19 @@
+{
+  "id": "health-belt-locks-index",
+  "name": "Health Belt Locks Index",
+  "description": "Index of belt locks themed around emergency healing and vitality support",
+  "version": "1.0.0",
+  "parent_type": "belt_locks",
+  "resource": "health",
+  "general_description": "Belt lock attachments that store curatives, deploy barriers, or trigger regeneration boosts.",
+  "existing_items": [
+    "belt-lock-emergency-infusion.json"
+  ],
+  "metadata": {
+    "created": "2025-08-12T10:05:00Z",
+    "last_updated": "2025-08-12T10:05:00Z",
+    "author": "PrimalMyst Development Team",
+    "canonical": true,
+    "version": "1.0.0"
+  }
+}

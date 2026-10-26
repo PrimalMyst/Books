@@ -1,0 +1,10 @@
+{
+  "id": "corner_3_evasion",
+  "label": "Evasion",
+  "short_name": "EV",
+  "hexagonal_position": 3,
+  "hexagon_corner": "green",
+  "primary_effect": "Raises dodge chance and reduces accuracy of incoming attacks.",
+  "default_rating": 25,
+  "scaling": "dexterity_and_leather"
+}

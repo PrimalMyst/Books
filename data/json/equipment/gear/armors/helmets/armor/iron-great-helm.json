@@ -1,0 +1,56 @@
+{
+  "id": "iron-great-helm",
+  "name": "Iron Great Helm",
+  "description": "A heavy iron helmet with full face protection, designed for warriors who value maximum head defense",
+  "version": "1.0.0",
+  "item_type": "helmet",
+  "armor_type": "armor",
+  "rarity": "common",
+  "level_requirement": 8,
+  "item_level": 10,
+  "base_stats": {
+    "armor_rating": 24,
+    "durability": 75,
+    "weight": 4.5
+  },
+  "hexagonal_alignment": {
+    "god": "Marsalis (Sovereign)",
+    "position": 2,
+    "color": "Yellow",
+    "element": "Physical Protection",
+    "domain": "Strength and Defense"
+  },
+  "physical_properties": {
+    "material": "Iron with leather padding",
+    "construction": "Full coverage with hinged visor",
+    "protection_level": "Complete head and face coverage",
+    "visibility": "Limited but adequate vision slits",
+    "ventilation": "Minimal breathing holes"
+  },
+  "defensive_properties": {
+    "armor_rating": 24,
+    "physical_damage_reduction": "15%",
+    "impact_resistance": "Very High",
+    "durability_bonus": "+25%"
+  },
+  "stat_modifiers": {
+    "constitution": "+1",
+    "intimidation": "+2",
+    "armor_rating": "+24"
+  },
+  "special_properties": {
+    "full_protection": "Immune to headshot critical hits",
+    "intimidating_presence": "Enemies have -5% accuracy when facing wearer",
+    "battle_hardened": "Reduces fear effects by 50%"
+  },
+  "flavor_text": "A practical warrior's helm that has seen many battles. The iron shows scratches and dents from deflected blows, testament to its protective capabilities.",
+  "metadata": {
+    "created": "2025-08-11T20:35:00Z",
+    "last_updated": "2025-08-11T20:35:00Z",
+    "author": "PrimalMyst Development Team",
+    "canonical": true,
+    "notes": "Example armor type helmet with Marsalis alignment",
+    "balance_tested": true,
+    "version": "1.0.0"
+  }
+}

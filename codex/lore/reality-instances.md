@@ -20,7 +20,7 @@ A reality instance is a self-contained universe with its own:
 - **Finite Lifespan**: All instances eventually end due to internal conflicts or cosmic rhythms
 - **Memory Preservation**: Consciousness and experiences can be preserved across instance transitions
 
-## The Standard League Reality Instance
+## The Eternal Realm Reality Instance
 
 ### Characteristics
 - **Stability**: A well-established instance with stable cosmic rhythms
@@ -30,7 +30,7 @@ A reality instance is a self-contained universe with its own:
 - **Accessibility**: Valhalla provides a bridge to transport worthy beings
 
 ### Role in PrimalMyst
-The Standard League represents hope and continuation - a stable reality where preserved consciousness can continue existing after their original world ends.
+The Eternal Realm represents hope and continuation - a stable reality where preserved consciousness can continue existing after their original world ends.
 
 ## Current Player Reality Instance
 
@@ -110,9 +110,9 @@ Instance transitions represent the ultimate expression of "endings as beginnings
 Those who gain cross-instance awareness bear the responsibility of memory preservation for their entire world.
 
 ## Related Content
-- [Cosmic Rhythms](cosmic-rhythms.md) - The patterns governing instance transitions
+- [Seasonal World Reset (Diegetic Framing)](../diegetic-framing/seasonal-world-reset.md) - In-world explanation for instance transitions
 - [Valhalla](valhalla.md) - The sanctuary that preserves consciousness
-- [Standard League](standard-league.md) - The stable destination instance
+- [League System Mechanics](../mechanics/league-system.md) - Rules for seasons, resets, and migration
 - [Myrielle the Hidden](myrielle-the-hidden.md) - The only being existing outside instances
 - [God-Slayer Path](epilogue-god-slayer.md) - The mechanism for earning transcendence
 

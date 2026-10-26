@@ -1,0 +1,19 @@
+{
+  "id": "mana-belt-locks-index",
+  "name": "Mana Belt Locks Index",
+  "description": "Index of belt locks themed around mana storage and casting support",
+  "version": "1.0.0",
+  "parent_type": "belt_locks",
+  "resource": "mana",
+  "general_description": "Belt lock attachments that hold reserves of mana or improve channeling efficiency.",
+  "existing_items": [
+    "belt-lock-mana-reservoir.json"
+  ],
+  "metadata": {
+    "created": "2025-08-12T10:05:00Z",
+    "last_updated": "2025-08-12T10:05:00Z",
+    "author": "PrimalMyst Development Team",
+    "canonical": true,
+    "version": "1.0.0"
+  }
+}

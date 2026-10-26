@@ -1,0 +1,82 @@
+{
+  "hexagon_id": "core-thematic-hexagon",
+  "name": "PrimalMyst Core Thematic Hexagon",
+  "description": "Minimal canonical mapping of the thematic hexagon. Elements, gods, and attributes are arranged by the hexagon-core: start at Position 1 (North) and proceed clockwise.",
+  "hexagon_core_reference": "data/json/core-systems/layers/hexagon-core.json",
+  "positions": [
+    {
+      "position": 1,
+      "color": "red",
+      "direction": "north",
+      "element": "fire",
+      "god": "Ifrisurtr",
+      "tier": "primal",
+      "attribute": "strength",
+      "armor_type": null,
+      "resource": "health"
+    },
+    {
+      "position": 2,
+      "color": "yellow",
+      "direction": "north_east",
+      "element": "metal",
+      "god": "Longares",
+      "tier": "sovereign",
+      "attribute": "constitution",
+      "armor_type": "armor",
+      "resource": null
+    },
+    {
+      "position": 3,
+      "color": "green",
+      "direction": "south_east",
+      "element": "air",
+      "god": "Kitsunrir",
+      "tier": "primal",
+      "attribute": "dexterity",
+      "armor_type": null,
+      "resource": "stamina"
+    },
+    {
+      "position": 4,
+      "color": "cyan",
+      "direction": "south",
+      "element": "lightning",
+      "god": "Gryphozeus",
+      "tier": "sovereign",
+      "attribute": "wisdom",
+      "armor_type": "energy_shield",
+      "resource": null
+    },
+    {
+      "position": 5,
+      "color": "blue",
+      "direction": "south_west",
+      "element": "water",
+      "god": "Tiamangandr",
+      "tier": "primal",
+      "attribute": "intelligence",
+      "armor_type": null,
+      "resource": "mana"
+    },
+    {
+      "position": 6,
+      "color": "magenta",
+      "direction": "north_west",
+      "element": "shadow",
+      "god": "Anubastet",
+      "tier": "sovereign",
+      "attribute": "charisma",
+      "armor_type": "evasion",
+      "resource": null
+    }
+  ],
+  "triads": {
+    "primary_rgb": [1, 3, 5],
+    "secondary_cmy": [2, 4, 6]
+  },
+  "references": [
+    "data/json/core-systems/layers/hexagon-core.json",
+    "HEXAGONAL_SYSTEMS_MAPPING_DRAFT.md"
+  ]
+}

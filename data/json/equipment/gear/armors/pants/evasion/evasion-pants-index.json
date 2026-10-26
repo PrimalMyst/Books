@@ -1,0 +1,23 @@
+{
+  "id": "evasion-pants-index",
+  "name": "Evasion Type Pants Index",
+  "description": "Index of pure evasion type pants focused on mobility and leg agility",
+  "version": "1.0.0",
+  "armor_type": "evasion",
+  "god_alignment": "Anubiseth (Sovereign)",
+  "hexagonal_position": 6,
+  "color": "Magenta",
+  "general_description": "Light pants, agility leggings, and movement-focused legwear designed for maximum mobility and stride flexibility. These pants enhance running speed and jumping ability.",
+  "existing_items": [
+    "silk-agility-leggings.json"
+  ],
+  "metadata": {
+    "created": "2025-08-11T21:00:00Z",
+    "last_updated": "2025-08-11T21:00:00Z",
+    "author": "PrimalMyst Development Team",
+    "canonical": true,
+    "notes": "Simplified index focusing on categorization with existing items list",
+    "hexagonal_integration": "Complete",
+    "version": "1.0.0"
+  }
+}

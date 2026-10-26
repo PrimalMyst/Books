@@ -1,0 +1,23 @@
+{
+  "id": "armor-body-armors-index",
+  "name": "Armor Type Body Armors Index",
+  "description": "Index of pure armor type body armors focused on physical damage reduction",
+  "version": "1.0.0",
+  "armor_type": "armor",
+  "god_alignment": "Marsalis (Sovereign)",
+  "hexagonal_position": 2,
+  "color": "Yellow",
+  "general_description": "Heavy chest plates, metal vests, and full plate armor designed for maximum torso protection. These armors prioritize physical defense and durability for frontline warriors.",
+  "existing_items": [
+    "steel-plate-cuirass.json"
+  ],
+  "metadata": {
+    "created": "2025-08-11T20:40:00Z",
+    "last_updated": "2025-08-11T20:40:00Z",
+    "author": "PrimalMyst Development Team",
+    "canonical": true,
+    "notes": "Simplified index focusing on categorization with existing items list",
+    "hexagonal_integration": "Complete",
+    "version": "1.0.0"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "health-earrings-index",
+  "name": "Health Earrings Index",
+  "description": "Index of earrings themed around vitality, recovery, and maximum health",
+  "version": "1.0.0",
+  "parent_type": "earrings",
+  "resource": "health",
+  "general_description": "Earrings that enhance life force through increased maximum health, regeneration, and healing efficiency.",
+  "existing_items": [
+    "earrings-of-renewal.json"
+  ],
+  "metadata": {
+    "created": "2025-08-12T10:05:00Z",
+    "last_updated": "2025-08-12T10:05:00Z",
+    "author": "PrimalMyst Development Team",
+    "canonical": true,
+    "version": "1.0.0"
+  }
+}

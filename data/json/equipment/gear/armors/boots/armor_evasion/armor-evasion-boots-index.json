@@ -1,0 +1,23 @@
+{
+  "id": "armor-evasion-boots-index",
+  "name": "Armor-Evasion Hybrid Boots Index",
+  "description": "Index of hybrid armor-evasion boots combining protection with mobility",
+  "version": "1.0.0",
+  "armor_type": "armor_evasion",
+  "god_alignment": "Marsalis + Anubiseth (Sovereign)",
+  "hexagonal_positions": [2, 6],
+  "colors": "Yellow + Magenta",
+  "general_description": "Flexible chain boots and reinforced leather footwear that balance protection with mobility, featuring articulated ankle joints and comfort-focused design.",
+  "existing_items": [
+    "flexible-chain-boots.json"
+  ],
+  "metadata": {
+    "created": "2025-08-11T21:10:00Z",
+    "last_updated": "2025-08-11T21:10:00Z",
+    "author": "PrimalMyst Development Team",
+    "canonical": true,
+    "notes": "Simplified index focusing on categorization with existing items list",
+    "hexagonal_integration": "Complete",
+    "version": "1.0.0"
+  }
+}

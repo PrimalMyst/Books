@@ -1,0 +1,10 @@
+{
+  "id": "wand-of-fire",
+  "name": "Wand of Fire",
+  "school": "arcane",
+  "category": "one_handed",
+  "type": "wand",
+  "element": "fire",
+  "rarity": "common",
+  "stats": { "spell_power_percent": 8, "cast_speed_percent": 4 }
+}

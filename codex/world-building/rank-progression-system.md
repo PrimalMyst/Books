@@ -36,8 +36,8 @@ PrimalMyst employs a 100-level progression system divided into six distinct rank
 - Social recognition and access to humanoid-only areas/services
 
 **Divine Influence Requirements**:
-- Minimum one Fundamental God influence (Pyrion, Glacius, or Voltharion)
-- Minimum one Primal God influence (Serafina, Aurelius, or Korthak)
+- Minimum one Primal God influence (Ifrisurtr, Kitsunrir, or Tiamangandr)
+- Minimum one Sovereign God influence (Longares, Gryphozeus, or Bastenyx)
 - Myrielle's influence only through bonded mounts/companions (indirect)
 
 ---

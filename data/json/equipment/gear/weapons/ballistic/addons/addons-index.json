@@ -1,0 +1,7 @@
+{
+  "id": "marksmanship-addons",
+  "name": "Marksmanship · Addons",
+  "types": [
+    { "type": "quivers", "index_file": "quivers/quivers-index.json" }
+  ]
+}

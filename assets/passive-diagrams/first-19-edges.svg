@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="700" viewBox="0 0 700 700">
+  <style>
+    .hex { fill: none; stroke: #888; stroke-width: 2; stroke-dasharray: 6 6; }
+    .edge-selected { stroke: #222; stroke-width: 4; stroke-dasharray: none; }
+    .edge-dotted { stroke: #aaa; stroke-width: 2; stroke-dasharray: 6 6; }
+    .active { fill: #ff4d4d; stroke: #b30000; stroke-width: 3; }
+    .label { font-family: Arial, sans-serif; font-size: 13px; fill: #333; }
+    .legend rect { fill: none; stroke: none; }
+  </style>
+
+  <!-- Helpers -->
+  <defs>
+    <!-- Flat-top hexagon at center (0,0) with side a=30 -->
+    <!-- Vertices relative to center: (a,0) (a/2,h/2) (-a/2,h/2) (-a,0) (-a/2,-h/2) (a/2,-h/2)  with h = sqrt(3)*a -->
+    <g id="hex-a30">
+      <polygon points="30,0 15,25.9808 -15,25.9808 -30,0 -15,-25.9808 15,-25.9808" />
+    </g>
+  </defs>
+
+  <!-- Layout params -->
+  <script type="application/ecmascript"><![CDATA[
+    // (Not executed; kept for documentation only)
+    // Flat-top axial -> pixel: x = a*1.5*q, y = a*sqrt(3)*(r + q/2)
+  ]]></script>
+
+  <!-- Centers -->
+  <!-- Using a=30, h=51.9615, center at (350,350) -->
+  <!-- Axial ring-1 centers offsets: (q,r): (1,0),(1,-1),(0,-1),(-1,0),(-1,1),(0,1) -->
+  <!-- Pixel centers: x=45*q, y=51.9615*(r + q/2) -->
+  <!-- Precompute -->
+  <!-- Center -->
+  <g id="center" transform="translate(350,350)">
+    <use href="#hex-a30" class="active" />
+  </g>
+
+  <!-- Ring-1 neighbors -->
+  <g id="nE"  transform="translate(350+45, 350+25.9808)"><use href="#hex-a30" class="hex"/></g>
+  <g id="nNE" transform="translate(350+45, 350-25.9808)"><use href="#hex-a30" class="hex"/></g>
+  <g id="nNW" transform="translate(350+0,  350-51.9615)"><use href="#hex-a30" class="hex"/></g>
+  <g id="nW"  transform="translate(350-45, 350-25.9808)"><use href="#hex-a30" class="hex"/></g>
+  <g id="nSW" transform="translate(350-45, 350+25.9808)"><use href="#hex-a30" class="hex"/></g>
+  <g id="nSE" transform="translate(350+0,  350+51.9615)"><use href="#hex-a30" class="hex"/></g>
+
+  <!-- Function to draw edges: we approximate by redrawing specific segments per hex. -->
+  <!-- For each neighbor hex, mark three "outer" edges as selected (solid), rest remain dotted via base polygon styling. -->
+
+  <!-- E neighbor outer edges: choose edges roughly on outward half: (v0-v1), (v5-v0), (v1-v2) -->
+  <g transform="translate(395,375.9808)">
+    <line x1="30" y1="0" x2="15" y2="25.9808" class="edge-selected"/>
+    <line x1="15" y1="-25.9808" x2="30" y2="0" class="edge-selected"/>
+    <line x1="15" y1="25.9808" x2="-15" y2="25.9808" class="edge-selected"/>
+  </g>
+
+  <!-- NE neighbor outer edges: (v5-v0), (v4-v5), (v0-v1) -->
+  <g transform="translate(395,324.0192)">
+    <line x1="15" y1="-25.9808" x2="30" y2="0" class="edge-selected"/>
+    <line x1="-15" y1="-25.9808" x2="15" y2="-25.9808" class="edge-selected"/>
+    <line x1="30" y1="0" x2="15" y2="25.9808" class="edge-selected"/>
+  </g>
+
+  <!-- NW neighbor outer edges: (v4-v5), (v3-v4), (v5-v0) -->
+  <g transform="translate(350,298.0385)">
+    <line x1="-15" y1="-25.9808" x2="15" y2="-25.9808" class="edge-selected"/>
+    <line x1="-30" y1="0" x2="-15" y2="-25.9808" class="edge-selected"/>
+    <line x1="15" y1="-25.9808" x2="30" y2="0" class="edge-selected"/>
+  </g>
+
+  <!-- W neighbor outer edges: (v2-v3), (v3-v4), (v4-v5) -->
+  <g transform="translate(305,324.0192)">
+    <line x1="-15" y1="25.9808" x2="-30" y2="0" class="edge-selected"/>
+    <line x1="-30" y1="0" x2="-15" y2="-25.9808" class="edge-selected"/>
+    <line x1="-15" y1="-25.9808" x2="15" y2="-25.9808" class="edge-selected"/>
+  </g>
+
+  <!-- SW neighbor outer edges: (v1-v2), (v2-v3), (v3-v4) -->
+  <g transform="translate(305,375.9808)">
+    <line x1="15" y1="25.9808" x2="-15" y2="25.9808" class="edge-selected"/>
+    <line x1="-15" y1="25.9808" x2="-30" y2="0" class="edge-selected"/>
+    <line x1="-30" y1="0" x2="-15" y2="-25.9808" class="edge-selected"/>
+  </g>
+
+  <!-- SE neighbor outer edges: (v0-v1), (v1-v2), (v5-v0) -->
+  <g transform="translate(350,401.9615)">
+    <line x1="30" y1="0" x2="15" y2="25.9808" class="edge-selected"/>
+    <line x1="15" y1="25.9808" x2="-15" y2="25.9808" class="edge-selected"/>
+    <line x1="15" y1="-25.9808" x2="30" y2="0" class="edge-selected"/>
+  </g>
+
+  <!-- 19th edge: one ring edge between two adjacent neighbors (E and NE) -->
+  <!-- Approximate by drawing a segment between E.v1 and NE.v0 -->
+  <line x1="410" y1="401.9616" x2="425" y2="324.0192" class="edge-selected"/>
+
+  <!-- Center boundary emphasized (already active) -->
+  <g transform="translate(350,350)">
+    <polygon points="30,0 15,25.9808 -15,25.9808 -30,0 -15,-25.9808 15,-25.9808" fill="none" stroke="#660000" stroke-width="4"/>
+  </g>
+
+  <!-- Legend -->
+  <g class="legend" transform="translate(30,30)">
+    <rect width="280" height="110"/>
+    <text class="label" x="0" y="15">Legend</text>
+    <g transform="translate(0,25)">
+      <polygon points="30,0 15,25.9808 -15,25.9808 -30,0 -15,-25.9808 15,-25.9808" class="active"/>
+      <text class="label" x="50" y="5">Active cell (center)</text>
+    </g>
+    <g transform="translate(0,65)">
+      <line x1="-30" y1="0" x2="30" y2="0" class="edge-selected"/>
+      <text class="label" x="50" y="5">Selected edge</text>
+    </g>
+    <g transform="translate(0,95)">
+      <line x1="-30" y1="0" x2="30" y2="0" class="edge-dotted"/>
+      <text class="label" x="50" y="5">Unselected edge</text>
+    </g>
+  </g>
+
+  <!-- Caption -->
+  <text x="350" y="40" text-anchor="middle" class="label">Worst-case first 19 allocations: 18 outward edges + 1 ring edge; no new cells active</text>
+</svg>

@@ -1,0 +1,27 @@
+{
+  "id": "earrings-of-renewal",
+  "name": "Earrings of Renewal",
+  "type": "earrings",
+  "tier": "mortal",
+  "rarity": "uncommon",
+  "description": "Twin loops inset with verdant stones that accelerate natural recovery.",
+  "flavor_text": "Each breath restores, each moment mends.",
+  "stats": {
+    "max_health": 30,
+    "health_regen": 2,
+    "requirements": {
+      "level": 8
+    }
+  },
+  "properties": {
+    "slot": "earrings",
+    "category": "health"
+  },
+  "metadata": {
+    "created": "2025-08-12T10:05:00Z",
+    "last_updated": "2025-08-12T10:05:00Z",
+    "author": "PrimalMyst Development Team",
+    "canonical": true,
+    "version": "1.0.0"
+  }
+}

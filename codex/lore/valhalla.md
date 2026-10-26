@@ -1,7 +1,7 @@
 # Valhalla - Memory Preservation Sanctuary
 
 ## Summary
-Valhalla is the sacred sanctuary that preserves consciousness and memories across reality instance transitions. Access is granted through Myrielle's essence after defeating her in the God-Slayer confrontation, enabling worthy souls to transcend world endings and continue their existence in the stable Standard League reality instance.
+Valhalla is the sacred sanctuary that preserves consciousness and memories across reality instance transitions. Access is granted through Myrielle's essence after defeating her in the God-Slayer confrontation, enabling worthy souls to transcend world endings and continue their existence in the stable Eternal Realm reality instance.
 
 ## Core Nature
 
@@ -61,10 +61,10 @@ Valhalla is the sacred sanctuary that preserves consciousness and memories acros
 - **Mentorship Roles**: Helping newly arrived consciousness adapt to sanctuary
 - **Cosmic Perspective**: Understanding the broader patterns of instance destruction
 
-## Standard League Integration
+## Eternal Realm Integration
 
 ### Transition Bridge
-- **Reality Instance Access**: Valhalla serves as gateway to Standard League
+- **Reality Instance Access**: Valhalla serves as gateway to the Eternal Realm
 - **Preparation Phase**: Time to adapt to new cosmic rules and limitations
 - **Memory Anchoring**: Ensuring original experiences remain accessible
 - **Identity Stabilization**: Maintaining core self while adapting to new reality
@@ -125,7 +125,8 @@ Valhalla fulfills the deepest desire of the Mist Seekers and all who fear being 
 ## Related Content
 - [Myrielle the Hidden](myrielle-the-hidden.md) - The goddess who enables access
 - [God-Slayer Path](epilogue-god-slayer.md) - The primary route to sanctuary
-- [Standard League](standard-league.md) - The stable destination instance
+- [League System Mechanics](../mechanics/league-system.md) - Rules for seasonal transition and migration
+- [Seasonal World Reset (Diegetic Framing)](../diegetic-framing/seasonal-world-reset.md) - In-world explanation for transitions
 - [Memory Preservation](memory-preservation.md) - The core mission
 - [The Mist Seekers](mist-seekers.md) - Those who desperately hoped for preservation
 

@@ -1,0 +1,10 @@
+{
+  "id": "grimoire-of-air",
+  "name": "Grimoire of Air",
+  "school": "arcane",
+  "category": "one_handed",
+  "type": "grimoire",
+  "element": "air",
+  "rarity": "uncommon",
+  "stats": { "spell_power_percent": 10, "cast_speed_percent": 3 }
+}

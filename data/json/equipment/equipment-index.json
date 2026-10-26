@@ -1,0 +1,31 @@
+{
+  "id": "equipment-index",
+  "name": "Equipment System Index",
+  "description": "Main index for all equipment categories in PrimalMyst",
+  "version": "1.0.0",
+  "equipment_categories": {
+    "gear": {
+      "description": "Customizable equipment that players can enhance and modify",
+      "index_file": "gear-index.json",
+      "subcategories": ["armors", "weapons", "accessories"]
+    },
+    "items": {
+      "description": "Fixed utility items with predetermined properties",
+      "index_file": "items-index.json", 
+      "subcategories": ["consumables", "materials", "cosmetics"]
+    }
+  },
+  "system_overview": {
+    "total_categories": 2,
+    "gear_focus": "Enhancement and customization systems",
+    "items_focus": "Utility and resource management"
+  },
+  "metadata": {
+    "created": "2025-08-11T21:30:00Z",
+    "last_updated": "2025-08-11T21:30:00Z",
+    "author": "PrimalMyst Development Team",
+    "canonical": true,
+    "notes": "Main equipment system index with category organization",
+    "version": "1.0.0"
+  }
+}

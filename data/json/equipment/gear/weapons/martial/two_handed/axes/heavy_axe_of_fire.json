@@ -1,0 +1,10 @@
+{
+  "id": "heavy-axe-of-fire",
+  "name": "Heavy Axe of Fire",
+  "school": "martial",
+  "category": "two_handed",
+  "type": "axe",
+  "element": "fire",
+  "rarity": "uncommon",
+  "stats": { "base_damage": 72, "attack_speed": 0.9 }
+}

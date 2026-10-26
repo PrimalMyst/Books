@@ -1,0 +1,28 @@
+{
+  "id": "amulet-of-stalwart-spirit",
+  "name": "Amulet of Stalwart Spirit",
+  "type": "amulet",
+  "tier": "mortal",
+  "rarity": "rare",
+  "description": "A bronze disc engraved with marching lines that embolden the wearer's endurance.",
+  "flavor_text": "Step after step, the mountain is moved.",
+  "stats": {
+    "max_stamina": 60,
+    "stamina_regen": 4,
+    "movement_efficiency": 4,
+    "requirements": {
+      "level": 14
+    }
+  },
+  "properties": {
+    "slot": "amulet",
+    "category": "stamina"
+  },
+  "metadata": {
+    "created": "2025-08-12T10:05:00Z",
+    "last_updated": "2025-08-12T10:05:00Z",
+    "author": "PrimalMyst Development Team",
+    "canonical": true,
+    "version": "1.0.0"
+  }
+}

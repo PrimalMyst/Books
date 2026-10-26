@@ -1,0 +1,23 @@
+{
+  "id": "energy-shield-evasion-pants-index",
+  "name": "Energy Shield-Evasion Hybrid Pants Index",
+  "description": "Index of hybrid energy shield-evasion pants combining magical protection with mobility",
+  "version": "1.0.0",
+  "armor_type": "energy_shield_evasion",
+  "god_alignment": "Zeusara + Anubiseth (Sovereign)",
+  "hexagonal_positions": [4, 6],
+  "colors": "Cyan + Magenta",
+  "general_description": "Mystical agility pants and ethereal legwear that blend magical protection with enhanced mobility through enchanted materials and movement-enhancing magic.",
+  "existing_items": [
+    "ethereal-wind-leggings.json"
+  ],
+  "metadata": {
+    "created": "2025-08-11T21:00:00Z",
+    "last_updated": "2025-08-11T21:00:00Z",
+    "author": "PrimalMyst Development Team",
+    "canonical": true,
+    "notes": "Simplified index focusing on categorization with existing items list",
+    "hexagonal_integration": "Complete",
+    "version": "1.0.0"
+  }
+}

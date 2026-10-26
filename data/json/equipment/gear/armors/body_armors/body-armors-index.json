@@ -1,0 +1,43 @@
+{
+  "id": "body-armors-index",
+  "name": "Body Armor Types Index",
+  "description": "Index and classification of body armor types in PrimalMyst",
+  "version": "1.0.0",
+  "slot_type": "body_armor",
+  "general_description": "Body armor provides the primary defensive layer protecting vital organs and torso, aligning with the hexagonal system's Sovereign god positions (2, 4, 6) for specialized or hybrid defense approaches.",
+  "armor_type_subfolders": {
+    "armor": {
+      "folder": "armor",
+      "index_file": "armor/armor-body-armors-index.json"
+    },
+    "energy_shield": {
+      "folder": "energy_shield",
+      "index_file": "energy_shield/energy-shield-body-armors-index.json"
+    },
+    "evasion": {
+      "folder": "evasion",
+      "index_file": "evasion/evasion-body-armors-index.json"
+    },
+    "armor_energy_shield": {
+      "folder": "armor_energy_shield",
+      "index_file": "armor_energy_shield/armor-energy-shield-body-armors-index.json"
+    },
+    "armor_evasion": {
+      "folder": "armor_evasion",
+      "index_file": "armor_evasion/armor-evasion-body-armors-index.json"
+    },
+    "energy_shield_evasion": {
+      "folder": "energy_shield_evasion",
+      "index_file": "energy_shield_evasion/energy-shield-evasion-body-armors-index.json"
+    }
+  },
+  "metadata": {
+    "created": "2025-08-11T20:10:00Z",
+    "last_updated": "2025-08-11T20:30:00Z",
+    "author": "PrimalMyst Development Team",
+    "canonical": true,
+    "notes": "Simplified body armor types index with subfolder references",
+    "hexagonal_integration": "Complete",
+    "version": "1.0.0"
+  }
+}

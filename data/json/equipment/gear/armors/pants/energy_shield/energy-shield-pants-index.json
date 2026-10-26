@@ -1,0 +1,23 @@
+{
+  "id": "energy-shield-pants-index",
+  "name": "Energy Shield Type Pants Index",
+  "description": "Index of pure energy shield type pants focused on magical leg protection",
+  "version": "1.0.0",
+  "armor_type": "energy_shield",
+  "god_alignment": "Zeusara (Sovereign)",
+  "hexagonal_position": 4,
+  "color": "Cyan",
+  "general_description": "Mystical robes, arcane leg wraps, and spellcaster's lower garments designed to enhance magical abilities while protecting the legs. These pants channel energy for both casting and defense.",
+  "existing_items": [
+    "arcane-silk-leg-wraps.json"
+  ],
+  "metadata": {
+    "created": "2025-08-11T21:00:00Z",
+    "last_updated": "2025-08-11T21:00:00Z",
+    "author": "PrimalMyst Development Team",
+    "canonical": true,
+    "notes": "Simplified index focusing on categorization with existing items list",
+    "hexagonal_integration": "Complete",
+    "version": "1.0.0"
+  }
+}

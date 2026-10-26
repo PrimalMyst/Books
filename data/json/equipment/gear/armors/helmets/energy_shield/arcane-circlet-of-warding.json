@@ -1,0 +1,37 @@
+{
+  "id": "arcane-circlet-of-warding",
+  "name": "Arcane Circlet of Warding",
+  "description": "A delicate silver circlet adorned with sapphires that pulse with protective magical energy",
+  "version": "1.0.0",
+  "item_type": "helmet",
+  "armor_type": "energy_shield",
+  "rarity": "uncommon",
+  "level_requirement": 10,
+  "item_level": 12,
+  "base_stats": {
+    "energy_shield": 32,
+    "mana_capacity": 20,
+    "weight": 0.3
+  },
+  "hexagonal_alignment": {
+    "god": "Zeusara (Sovereign)",
+    "position": 4,
+    "color": "Cyan",
+    "element": "Mystical Protection",
+    "domain": "Magic and Wisdom"
+  },
+  "special_properties": {
+    "mage_sight": "Reveals magical auras and enchantments",
+    "ward_resonance": "Increases effectiveness of protective spells by 15%",
+    "mental_clarity": "Immunity to confusion and mental interference"
+  },
+  "metadata": {
+    "created": "2025-08-11T20:35:00Z",
+    "last_updated": "2025-08-11T20:35:00Z",
+    "author": "PrimalMyst Development Team",
+    "canonical": true,
+    "notes": "Example energy shield helmet with Zeusara alignment",
+    "balance_tested": true,
+    "version": "1.0.0"
+  }
+}

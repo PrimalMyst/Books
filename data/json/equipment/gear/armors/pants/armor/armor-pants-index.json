@@ -1,0 +1,23 @@
+{
+  "id": "armor-pants-index",
+  "name": "Armor Type Pants Index",
+  "description": "Index of pure armor type pants focused on leg and hip protection",
+  "version": "1.0.0",
+  "armor_type": "armor",
+  "god_alignment": "Marsalis (Sovereign)",
+  "hexagonal_position": 2,
+  "color": "Yellow",
+  "general_description": "Heavy leg armor, steel greaves, and protective legwear designed for maximum lower body protection. These pants prioritize defense for warriors in close combat situations.",
+  "existing_items": [
+    "steel-plate-greaves.json"
+  ],
+  "metadata": {
+    "created": "2025-08-11T21:00:00Z",
+    "last_updated": "2025-08-11T21:00:00Z",
+    "author": "PrimalMyst Development Team",
+    "canonical": true,
+    "notes": "Simplified index focusing on categorization with existing items list",
+    "hexagonal_integration": "Complete",
+    "version": "1.0.0"
+  }
+}

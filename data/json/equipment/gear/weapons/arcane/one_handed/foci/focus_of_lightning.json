@@ -1,0 +1,10 @@
+{
+  "id": "focus-of-lightning",
+  "name": "Focus of Lightning",
+  "school": "arcane",
+  "category": "one_handed",
+  "type": "focus",
+  "element": "lightning",
+  "rarity": "uncommon",
+  "stats": { "spell_power_percent": 9, "channel_stability_percent": 5 }
+}

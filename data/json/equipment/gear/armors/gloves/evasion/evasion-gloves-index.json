@@ -1,0 +1,23 @@
+{
+  "id": "evasion-gloves-index",
+  "name": "Evasion Type Gloves Index",
+  "description": "Index of pure evasion type gloves focused on dexterity and fine motor control",
+  "version": "1.0.0",
+  "armor_type": "evasion",
+  "god_alignment": "Anubiseth (Sovereign)",
+  "hexagonal_position": 6,
+  "color": "Magenta",
+  "general_description": "Light gloves, fingerless mitts, and agility-focused handwear designed for maximum dexterity and precision. These gloves enhance fine motor skills and weapon handling.",
+  "existing_items": [
+    "silk-fingerless-gloves.json"
+  ],
+  "metadata": {
+    "created": "2025-08-11T20:50:00Z",
+    "last_updated": "2025-08-11T20:50:00Z",
+    "author": "PrimalMyst Development Team",
+    "canonical": true,
+    "notes": "Simplified index focusing on categorization with existing items list",
+    "hexagonal_integration": "Complete",
+    "version": "1.0.0"
+  }
+}

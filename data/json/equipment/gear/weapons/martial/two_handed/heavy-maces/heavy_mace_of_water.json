@@ -1,0 +1,10 @@
+{
+  "id": "heavy-mace-of-water",
+  "name": "Heavy Mace of Water",
+  "school": "martial",
+  "category": "two_handed",
+  "type": "heavy_mace",
+  "element": "water",
+  "rarity": "uncommon",
+  "stats": { "base_damage": 64, "attack_speed": 0.95, "stagger_power": 12 }
+}

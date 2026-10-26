@@ -7,32 +7,32 @@ The Six Realms represent the divine domains connected to Yggdrasil's great branc
 
 ### Yggdrasil's Structure
 The World Tree supports six great branches, each one anchoring a realm:
-- **Upper Crown**: Three realms representing the Fundamental Gods' direct manifestations
-- **Middle Section**: Three realms representing the Primal Gods' active rule
+- **Upper Crown**: Three realms representing the Primal Gods' elemental domains
+- **Middle Section**: Three realms representing the Sovereign Gods' active rule
 - **Between Spaces**: Myrielle's misty domain flowing between all realms
 
 ### Branch Distribution
-**Crown Branches (Fundamental Manifestations)**:
-- **Eastern Crown**: Pyrion's Forge - The Flame Realm
-- **Western Crown**: Glacius' Archive - The Frost Realm  
-- **Northern Crown**: Voltharion's Web - The Lightning Realm
+**Crown Branches (Primal Manifestations)**:
+- **Eastern Crown**: Ifrisurtr's Volcanic Forge - The Flame Realm
+- **Southern Crown**: Kitsunrir's Storm Hunting Grounds - The Air Realm
+- **Western Crown**: Tiamangandr's Abyssal Archive - The Water Realm
 
-**Middle Branches (Primal Domains)**:
-- **Southern Middle**: Serafina's Court - The Shadow Realm
-- **Eastern Middle**: Aurelius's Sanctuary - The Radiance Realm
-- **Western Middle**: Korthak's Arena - The Might Realm
+**Middle Branches (Sovereign Domains)**:
+- **Northeastern Middle**: Longares' Gilded Battlefield - The Metal Realm
+- **Eastern Middle**: Gryphozeus's Sky Tribunal - The Lightning Realm
+- **Northwestern Middle**: Bastenyx's Twilight Threshold - The Shadow Realm
 
 ### Divine Foundation
-The Fundamental Trio's power flows through Yggdrasil's core structure:
-- **Pyrion's Heartwood**: Provides energy to all six realms
-- **Glacius' Bark**: Preserves structural integrity and memories
-- **Voltharion's Branches**: Enables communication and travel between realms
+The Primal Trio's power flows through Yggdrasil's core structure:
+- **Ifrisurtr's Heartwood**: Provides fire-energy to all six realms
+- **Tiamangandr's Root-Coil**: Preserves structural integrity and memories in icy depths
+- **Kitsunrir's Branches**: Enables swift wind-currents and movement between realms
 
-## The Crown Realms (Fundamental Manifestations)
+## The Crown Realms (Primal Manifestations)
 
-### Pyrion's Forge - The Flame Realm
+### Ifrisurtr's Volcanic Forge - The Flame Realm
 **Location**: Eastern Crown Branch
-**Patron**: Pyrion, the First Flame (Fundamental)
+**Patron**: Ifrisurtr, the Ash Phoenix (Primal) — *Ifrit + Surtr*
 
 **Realm Characteristics**:
 - **Environment**: Eternal forges, rivers of molten creation, transformative fire storms
@@ -47,10 +47,10 @@ The Fundamental Trio's power flows through Yggdrasil's core structure:
 - **Transformation Entities**: Creatures that embody change itself
 
 **Divine Influence**:
-- **Direct Manifestation**: Pyrion's power flows directly through every flame
-- **Creation Enhancement**: All crafting, forging, and creation activities are magnified
+- **Direct Manifestation**: Ifrisurtr's apocalyptic fire flows directly through every flame
+- **Rebirth Enhancement**: All death-and-renewal cycles are magnified
 - **Purification Process**: Transformative fire cleanses and renews all who enter
-- **Energy Generation**: The realm constantly produces power for all other realms
+- **Energy Generation**: The realm constantly produces fire-energy for all other realms
 
 **Access and Trials**:
 - **Entry Requirement**: Must withstand transformative fire without losing core identity
@@ -58,15 +58,15 @@ The Fundamental Trio's power flows through Yggdrasil's core structure:
 - **Rewards**: Enhanced transformation abilities, fire mastery, creative inspiration
 - **Risks**: Identity dissolution if unable to maintain self through change
 
-### Glacius' Archive - The Frost Realm
+### Tiamangandr's Abyssal Archive - The Water Realm
 **Location**: Western Crown Branch
-**Patron**: Glacius, the Eternal Frost (Fundamental)
+**Patron**: Tiamangandr, the Frozen Coil (Primal) — *Tiamat + Jörmungandr*
 
 **Realm Characteristics**:
-- **Environment**: Crystalline libraries, frozen memory palaces, infinite ice formations
+- **Environment**: Crystalline deep-water archives, frozen memory coils, abyssal ice formations
 - **Atmosphere**: Crystalline mists that preserve and reveal memories of all ages
-- **Temporal Flow**: Time moves in perfect preservation - all moments equally accessible
-- **Spatial Properties**: Crystalline structures that store information in their atomic structure
+- **Temporal Flow**: Time moves in perfect preservation — all moments equally accessible
+- **Spatial Properties**: Crystalline structures that store information in their frozen lattice
 
 **Inhabitants**:
 - **Ice Guardians**: Protectors of preserved knowledge and memory
@@ -75,9 +75,9 @@ The Fundamental Trio's power flows through Yggdrasil's core structure:
 - **Preservation Spirits**: Entities that embody permanence and continuity
 
 **Divine Influence**:
-- **Perfect Preservation**: All knowledge and experience becomes permanently stored
+- **Perfect Preservation**: All knowledge and experience becomes permanently frozen and stored
 - **Memory Enhancement**: Complete recall and access to preserved information
-- **Structural Stability**: Provides foundation that prevents cosmic dissolution
+- **Structural Stability**: Tiamangandr's coils prevent cosmic dissolution
 - **Knowledge Integration**: Wisdom from all reality instances becomes accessible
 
 **Access and Trials**:
@@ -86,113 +86,113 @@ The Fundamental Trio's power flows through Yggdrasil's core structure:
 - **Rewards**: Enhanced memory abilities, knowledge access, wisdom integration
 - **Risks**: Overwhelming exposure to infinite preserved experiences
 
-### Voltharion's Web - The Lightning Realm
-**Location**: Northern Crown Branch
-**Patron**: Voltharion, the Cosmic Spark (Fundamental)
+### Kitsunrir's Storm Hunting Grounds - The Air Realm
+**Location**: Southern Crown Branch
+**Patron**: Kitsunrir, the Storm-Tailed Hunter (Primal) — *Fenrir + Nine-Tailed Kitsune*
 
 **Realm Characteristics**:
-- **Environment**: Infinite electrical networks, crackling communication webs, connection nodes
-- **Atmosphere**: Energy-charged mists carrying messages across all possible distances
-- **Temporal Flow**: Time moves in instant connections - simultaneous across all points
-- **Spatial Properties**: Space becomes networked, with instant travel between connection points
+- **Environment**: Boundless storm-swept hunting plains, fox-fire illusion forests, oath-binding wind currents
+- **Atmosphere**: Storm-charged mists carrying swiftness and illusory shifting forms
+- **Temporal Flow**: Time moves in swift hunting bursts — instant movement, sudden reversals
+- **Spatial Properties**: Space constantly shifts through wind-illusion; movement is boundless
 
 **Inhabitants**:
-- **Lightning Dancers**: Beings of pure electrical consciousness
-- **Message Spirits**: Entities that carry communication across cosmic distances
-- **Connection Entities**: Consciousness focused on creating and maintaining links
-- **Network Guardians**: Protectors of the cosmic communication infrastructure
+- **Stormrunners**: Beings of pure wind and lightning speed
+- **Illusory Hunters**: Entities that embody the art of misdirection and chase
+- **Fox-Fire Guardians**: Consciousness dedicated to oath-keeping and trickery
+- **Storm-Tail Warriors**: Protectors of the boundless hunting wilds
 
 **Divine Influence**:
-- **Instant Communication**: Perfect connection with any consciousness in the network
-- **Divine Revelation**: Direct access to cosmic knowledge and understanding
-- **Reality Networking**: All parts of existence become interconnected
-- **Consciousness Linking**: Ability to share experiences and understanding directly
+- **Illusion Mastery**: All deception-based movement and misdirection is amplified
+- **Speed Enhancement**: Movement and reaction time are magnified beyond mortal limits
+- **Oath Binding**: Promises made within the realm become cosmically enforced
+- **Storm Connection**: Ability to ride wind-currents and call lightning storms
 
 **Access and Trials**:
-- **Entry Requirement**: Preparation to experience connection with all realm consciousness
-- **Trial Nature**: Tests of communication, empathy, and cosmic understanding
-- **Rewards**: Enhanced networking abilities, divine revelation access, consciousness expansion
-- **Risks**: Identity dissolution through excessive connection and consciousness merging
+- **Entry Requirement**: Willingness to be tested through illusion and to honor all oaths
+- **Trial Nature**: Tests of swiftness, cleverness, and oath-keeping
+- **Rewards**: Enhanced air mastery, illusion abilities, storm-calling
+- **Risks**: Getting lost in illusion mazes; breaking oaths binds the trespasser
 
-## The Middle Realms (Primal Domains)
+## The Middle Realms (Sovereign Domains)
 
-### Serafina's Court - The Shadow Realm
-**Location**: Southern Middle Branch
-**Patron**: Serafina, the Shadow Empress (Primal)
+### Bastenyx's Twilight Threshold - The Shadow Realm
+**Location**: Northwestern Middle Branch
+**Patron**: Bastenyx, the Nightclaw Sphinx (Sovereign) — *Bastet + Nyx*
 
 **Realm Characteristics**:
-- **Environment**: Ever-changing shadow palaces, revolutionary art installations, creative chaos
-- **Atmosphere**: Wildly shifting mists carrying essence of beneficial change and creative destruction
-- **Temporal Flow**: Time moves unpredictably - rapid changes, sudden reversals, creative bursts
-- **Spatial Properties**: Reality constantly reshapes according to creative and revolutionary principles
+- **Environment**: Twilight threshold palaces, moonlit claw arenas, star-shadow shifting terrain
+- **Atmosphere**: Liminal mists carrying essence of transition, guardianship, and sphinx riddles
+- **Temporal Flow**: Time moves in threshold cycles — dusk-to-dawn rhythms, liminal passages
+- **Spatial Properties**: Reality sits always at the edge of two states, never fully in one
 
 **Inhabitants**:
-- **Chaos Artists**: Creators of beneficial disorder and revolutionary beauty
-- **Revolution Spirits**: Beings dedicated to preventing stagnation and promoting change
-- **Change Agents**: Consciousness focused on transformation and improvement
-- **Creative Destroyers**: Entities that eliminate harmful structures to enable growth
+- **Moonlit Guardians**: Protectors of thresholds and transitional spaces
+- **Shadow Sages**: Beings dedicated to wisdom of the unseen
+- **Sphinx Riddle-Keepers**: Consciousness focused on testing the worthy
+- **Night Sentinels**: Entities that watch over those crossing dangerous thresholds
 
 **Divine Influence**:
-- **Anti-Stagnation**: Impossible to become stuck in routine or harmful patterns
-- **Creative Enhancement**: All artistic and innovative activities are amplified
-- **Beneficial Chaos**: Random events tend toward positive and growth-promoting outcomes
-- **Revolutionary Spirit**: Enhanced ability to challenge and improve existing systems
+- **Threshold Navigation**: Movement between states and realms becomes easier
+- **Shadow Enhancement**: All stealth and liminal abilities are amplified
+- **Wisdom Revelation**: Hidden truths emerge through riddle and observation
+- **Protective Darkness**: Shadow becomes a shield for those under Bastenyx's guardianship
 
 **Access and Trials**:
-- **Entry Requirement**: Embrace change and willingness to abandon rigid thinking
-- **Trial Nature**: Tests of creativity, adaptability, and revolutionary spirit
-- **Rewards**: Enhanced chaos magic, creative abilities, transformation mastery
-- **Risks**: Excessive change leading to loss of stability and core identity
+- **Entry Requirement**: Willingness to stand at the threshold and answer the sphinx's riddle
+- **Trial Nature**: Tests of wisdom, guardianship, and comfort with ambiguity
+- **Rewards**: Enhanced shadow magic, threshold mastery, protective darkness
+- **Risks**: Answering the riddle incorrectly traps the seeker at the threshold forever
 
-### Aurelius's Sanctuary - The Radiance Realm
+### Gryphozeus's Sky Tribunal - The Lightning Realm
 **Location**: Eastern Middle Branch
-**Patron**: Aurelius, the Radiant Sphere (Primal)
+**Patron**: Gryphozeus, the Thunder Griffin (Sovereign) — *Zeus + Griffin*
 
 **Realm Characteristics**:
-- **Environment**: Healing light temples, truth-revealing crystal formations, protective barriers
-- **Atmosphere**: Radiant mists carrying essence of truth, healing, and protective order
-- **Temporal Flow**: Time moves in healing rhythms - cycles of restoration and growth
-- **Spatial Properties**: Space organized for optimal protection, healing, and truth revelation
+- **Environment**: Celestial sky tribunal courts, blazing halls of divine law, radiant crystal truth formations
+- **Atmosphere**: Radiant lightning-charged mists carrying essence of truth, authority, and celestial justice
+- **Temporal Flow**: Time moves in judicial rhythms — cycles of deliberation and righteous judgment
+- **Spatial Properties**: Space organized for optimal truth revelation, protection, and divine authority
 
 **Inhabitants**:
-- **Light Guardians**: Protectors dedicated to shielding innocents from harm
-- **Healing Spirits**: Beings focused on restoration and recovery
-- **Truth Seekers**: Consciousness dedicated to revealing and understanding reality
-- **Protection Entities**: Entities that create and maintain safe spaces
+- **Sky Tribunal Guards**: Protectors of celestial law and divine order
+- **Lightning Witnesses**: Beings focused on recording and revealing truth
+- **Griffin Sentinels**: Consciousness dedicated to upholding justice and guarding sacred places
+- **Thunder Heralds**: Entities that carry divine judgment across the realm
 
 **Divine Influence**:
-- **Truth Revelation**: All deception becomes impossible, reality is revealed clearly
-- **Healing Enhancement**: All restoration and recovery activities are amplified
+- **Truth Revelation**: All deception becomes impossible; reality is revealed in lightning clarity
+- **Judgment Enhancement**: All decisions carry divine authority and celestial weight
 - **Protection Amplification**: Defensive abilities and sanctuary creation are enhanced
-- **Moral Clarity**: Right and wrong become clearly distinguishable
+- **Moral Clarity**: Right and wrong become clearly distinguishable in Gryphozeus's light
 
 **Access and Trials**:
-- **Entry Requirement**: Pure intentions and willingness to face absolute truth about oneself
-- **Trial Nature**: Tests of honesty, compassion, and protective dedication
-- **Rewards**: Enhanced healing abilities, truth detection, protection magic
-- **Risks**: Overwhelming exposure to absolute truth and moral responsibility
+- **Entry Requirement**: Pure intentions and willingness to face celestial truth about oneself
+- **Trial Nature**: Tests of honesty, authority, and righteous purpose
+- **Rewards**: Enhanced lightning abilities, truth detection, celestial protection
+- **Risks**: Overwhelming exposure to absolute truth and moral responsibility under divine scrutiny
 
-### Korthak's Arena - The Might Realm
-**Location**: Western Middle Branch
-**Patron**: Korthak, the Dragon King (Primal)
+### Longares' Gilded Battlefield - The Metal Realm
+**Location**: Northeastern Middle Branch
+**Patron**: Longares, the Auric Dragon King (Sovereign) — *Dragon + Ares*
 
 **Realm Characteristics**:
-- **Environment**: Eternal training grounds, honorable combat arenas, strength-testing obstacles
-- **Atmosphere**: Disciplined mists carrying essence of honor, strength, and worthy challenge
-- **Temporal Flow**: Time moves in training cycles - periods of challenge followed by rest and growth
-- **Spatial Properties**: Space configured for optimal training, fair combat, and strength development
+- **Environment**: Gilded honor arenas, golden lamellar training grounds, disciplined combat plains
+- **Atmosphere**: Disciplined golden mists carrying essence of honor, strength, and the warrior's code
+- **Temporal Flow**: Time moves in training cycles — periods of challenge followed by reflection and growth
+- **Spatial Properties**: Space configured for optimal training, fair combat, and metallic strength development
 
 **Inhabitants**:
-- **Honor Guards**: Warriors dedicated to fair combat and noble principles
-- **Training Spirits**: Beings focused on helping others develop strength and discipline
-- **Combat Masters**: Consciousness dedicated to perfecting martial skills and techniques
-- **Discipline Entities**: Entities that embody self-control and persistent effort
+- **Honor Wardens**: Warriors dedicated to fair combat and Longares' noble principles
+- **Auric Dragon Disciples**: Beings focused on helping others develop strength and discipline
+- **Gilded Combat Masters**: Consciousness dedicated to perfecting martial skills and metal mastery
+- **Discipline Forgeborn**: Entities that embody self-control and the persistence of metal
 
 **Divine Influence**:
 - **Honor Enforcement**: Dishonorable behavior becomes impossible within the realm
-- **Strength Enhancement**: All physical and mental development activities are amplified
-- **Fair Combat**: All conflicts become balanced and respectful tests of skill
-- **Discipline Cultivation**: Enhanced focus, persistence, and self-control
+- **Metal Strength Enhancement**: All physical and metallic crafting activities are amplified
+- **Fair Combat**: All conflicts become balanced and respectful tests of martial skill
+- **Discipline Cultivation**: Enhanced focus, persistence, and auric self-control
 
 **Access and Trials**:
 - **Entry Requirement**: Respect for opponents and commitment to honorable behavior
@@ -202,17 +202,17 @@ The Fundamental Trio's power flows through Yggdrasil's core structure:
 
 ## Inter-Realm Relationships
 
-### Fundamental-Primal Connections
-Each Primal realm receives power from the Fundamental realms:
-- **Serafina's Court**: Draws transformative energy from Pyrion's Forge
-- **Aurelius's Sanctuary**: Uses preserved wisdom from Glacius' Archive
-- **Korthak's Arena**: Employs networking power from Voltharion's Web
+### Primal-Sovereign Connections
+Each Sovereign realm draws power from the adjacent Primal realms:
+- **Bastenyx's Threshold**: Draws shadow-depth from Tiamangandr's Coil and Kitsunrir's storm-illusions
+- **Gryphozeus's Tribunal**: Uses preserved wisdom from Tiamangandr's Archive and Kitsunrir's swift revelation
+- **Longares' Battlefield**: Employs forge-strength from Ifrisurtr's Volcanic Forge and Kitsunrir's hunting drive
 
 ### Realm Opposition Dynamics
 Some realms have natural tensions:
-- **Fire vs. Frost**: Creation/change vs. preservation/stability
-- **Shadow vs. Radiance**: Chaos/revolution vs. order/protection
-- **Lightning vs. Might**: Connection/revelation vs. individual/discipline
+- **Fire vs. Water**: Ifrisurtr's apocalyptic rebirth vs. Tiamangandr's icy preservation
+- **Shadow vs. Lightning**: Bastenyx's hidden threshold vs. Gryphozeus's celestial clarity
+- **Metal vs. Air**: Longares' disciplined structure vs. Kitsunrir's boundless illusory wind
 
 ### Harmonic Convergence
 When all six realms align in perfect harmony:
@@ -284,7 +284,7 @@ After Myrielle's absorption of defeated gods:
 - **[The Fundamental Trio](./fundamental-trio.md)**: Gods whose power flows through the Crown realms
 - **[The Primal Trio](./primal-trio.md)**: Gods who actively rule the Middle realms
 - **[Pantheon Trial System](./pantheon-trials.md)**: The system for accessing realm trials
-- **[Cosmic Rhythms](./cosmic-rhythms.md)**: The patterns that affect inter-realm relationships
-- **[Epilogue: God-Slayer](./epilogue-god-slayer.md)**: The final confrontations within each realm's essence
+- **[Seasonal World Reset (Diegetic Framing)](../diegetic-framing/seasonal-world-reset.md)**: The in-world pattern that affects inter-realm transitions
+- **[Epilogue: God-Slayer](./story-arc/4-epilogue-god-slayer.md)**: The final confrontations within each realm's essence
 - **[Divine Positioning](./divine-positioning.md)**: The alignment system that affects realm access
 - **[Myrielle the Hidden](./myrielle-the-hidden.md)**: The goddess who exists in the spaces between realms

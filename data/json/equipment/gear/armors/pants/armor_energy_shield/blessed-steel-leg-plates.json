@@ -1,0 +1,32 @@
+{
+  "id": "blessed-steel-leg-plates",
+  "name": "Blessed Steel Leg Plates",
+  "type": "pants",
+  "tier": "mortal",
+  "rarity": "rare",
+  "description": "Heavy leg armor blessed by divine priests and enhanced with protective enchantments. The holy blessing creates a protective aura around the legs that deflects both physical and magical attacks.",
+  "flavor_text": "Forged in sacred flame and blessed by divine light, these leg plates represent the perfect union of martial protection and holy power.",
+  "stats": {
+    "armor": 30,
+    "energy_shield": 23,
+    "requirements": {
+      "level": 18,
+      "strength": 22,
+      "intelligence": 15
+    }
+  },
+  "properties": {
+    "slot": "pants",
+    "armor_type": "armor_energy_shield",
+    "material": "blessed_steel",
+    "weight": "heavy",
+    "durability": 90
+  },
+  "metadata": {
+    "created": "2025-08-11T21:05:00Z",
+    "last_updated": "2025-08-11T21:05:00Z",
+    "author": "PrimalMyst Development Team",
+    "canonical": true,
+    "version": "1.0.0"
+  }
+}

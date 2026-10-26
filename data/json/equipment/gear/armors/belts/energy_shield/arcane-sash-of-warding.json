@@ -1,0 +1,66 @@
+{
+  "id": "arcane-sash-of-warding",
+  "name": "Arcane Sash of Warding",
+  "description": "A shimmering silk sash woven with protective enchantments and mystical energy channels",
+  "version": "1.0.0",
+  "item_type": "belt",
+  "armor_type": "energy_shield",
+  "rarity": "uncommon",
+  "level_requirement": 12,
+  "item_level": 15,
+  "base_stats": {
+    "energy_shield": 35,
+    "mana_capacity": 25,
+    "weight": 0.8
+  },
+  "hexagonal_alignment": {
+    "god": "Zeusara (Sovereign)",
+    "position": 4,
+    "color": "Cyan",
+    "element": "Mystical Protection",
+    "domain": "Magic and Energy"
+  },
+  "physical_properties": {
+    "material": "Enchanted silk with silver threading",
+    "construction": "Woven with protective ward patterns",
+    "closure_type": "Mystical energy clasp",
+    "enchanted_pockets": 2,
+    "energy_channels": 4,
+    "length": "adjustable 24-38 inches",
+    "width": "4 inches"
+  },
+  "defensive_properties": {
+    "energy_shield": 35,
+    "magical_damage_reduction": "15%",
+    "spell_resistance": "Medium",
+    "mana_regeneration": "+20%",
+    "dispel_resistance": "+25%"
+  },
+  "utility_properties": {
+    "mana_capacity_bonus": "+25 MP",
+    "enchanted_storage": "2 extra-dimensional pockets",
+    "spell_component_organization": "Automatic sorting",
+    "energy_channeling": "Enhances spell casting efficiency by 8%"
+  },
+  "stat_modifiers": {
+    "intelligence": "+2",
+    "wisdom": "+1",
+    "mana_capacity": "+25",
+    "spell_power": "+5%"
+  },
+  "special_properties": {
+    "ward_weaver": "Increases effectiveness of protective spells by 12%",
+    "mystical_storage": "Enchanted pockets hold twice normal capacity",
+    "energy_focus": "Reduces mana costs for belt-stored spell components by 10%"
+  },
+  "flavor_text": "Crafted in the Celestial Workshops of the Arcane University, this sash pulses with gentle cyan light that responds to the wearer's magical aura. The silver threads form intricate ward patterns that have protected countless mages through their studies and adventures.",
+  "metadata": {
+    "created": "2025-08-11T20:25:00Z",
+    "last_updated": "2025-08-11T20:25:00Z",
+    "author": "PrimalMyst Development Team",
+    "canonical": true,
+    "notes": "Example energy shield type belt with Zeusara alignment",
+    "balance_tested": true,
+    "version": "1.0.0"
+  }
+}

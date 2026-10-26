@@ -1,0 +1,27 @@
+{
+  "id": "ring-of-vitality",
+  "name": "Ring of Vitality",
+  "type": "ring",
+  "tier": "mortal",
+  "rarity": "uncommon",
+  "description": "A polished band etched with life runes that strengthen the wearer's life force.",
+  "flavor_text": "Its surface hums softly with the rhythm of a steady heartbeat.",
+  "stats": {
+    "max_health": 50,
+    "health_regen": 3,
+    "requirements": {
+      "level": 10
+    }
+  },
+  "properties": {
+    "slot": "ring",
+    "category": "health"
+  },
+  "metadata": {
+    "created": "2025-08-12T10:05:00Z",
+    "last_updated": "2025-08-12T10:05:00Z",
+    "author": "PrimalMyst Development Team",
+    "canonical": true,
+    "version": "1.0.0"
+  }
+}

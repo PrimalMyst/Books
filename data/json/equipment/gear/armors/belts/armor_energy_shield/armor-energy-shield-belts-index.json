@@ -1,0 +1,23 @@
+{
+  "id": "armor-energy-shield-belts-index",
+  "name": "Armor-Energy Shield Hybrid Belts Index",
+  "description": "Index of hybrid armor-energy shield belts combining physical and magical protection",
+  "version": "1.0.0",
+  "armor_type": "armor_energy_shield",
+  "god_alignment": "Marsalis + Zeusara (Sovereign)",
+  "hexagonal_positions": [2, 4],
+  "colors": "Yellow + Cyan",
+  "general_description": "Enchanted heavy belts and blessed utility chains that combine reinforced construction with magical enhancement. These belts offer balanced physical and mystical protection through dual-layer defense systems.",
+  "existing_items": [
+    "blessed-steel-utility-belt.json"
+  ],
+  "metadata": {
+    "created": "2025-08-11T20:25:00Z",
+    "last_updated": "2025-08-11T20:25:00Z",
+    "author": "PrimalMyst Development Team",
+    "canonical": true,
+    "notes": "Simplified index focusing on categorization with existing items list",
+    "hexagonal_integration": "Complete",
+    "version": "1.0.0"
+  }
+}

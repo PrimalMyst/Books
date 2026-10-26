@@ -1,0 +1,6 @@
+{
+  "id": "wands-index",
+  "name": "Wands (One-Handed · Arcane)",
+  "examples": ["wand_of_fire.json"],
+  "notes": "Element is an item attribute."
+}

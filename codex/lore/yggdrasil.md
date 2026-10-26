@@ -21,47 +21,47 @@ Yggdrasil's Divine Summit is the ultimate location in PrimalMyst - a massive wor
 
 ## Divine Flower Portals
 
-### Pyrion's Forge-Flame Blossom
-- **Location**: Southeast corner of the honeycomb platform
-- **Appearance**: Molten metal petals that pulse with creative fire
-- **Portal Access**: Gateway to Pyrion's enhanced forge realm
+### Ifrisurtr's Ember-Forge Blossom
+- **Location**: Eastern corner of the honeycomb platform
+- **Appearance**: Smoldering ash-and-flame petals that pulse with apocalyptic fire
+- **Portal Access**: Gateway to Ifrisurtr's enhanced volcanic forge realm
 - **Power Level**: Level 96 → 97 progression
-- **Enhancement**: Myrielle's creative force amplifies forge mastery
+- **Enhancement**: Myrielle's rebirth energy amplifies cyclical flame mastery
 
-### Aquarix's Deep-Current Bloom
-- **Location**: South corner of the honeycomb platform
-- **Appearance**: Flowing water petals that shift like ocean currents
-- **Portal Access**: Gateway to Aquarix's enhanced depth realm
+### Tiamangandr's Frozen-Coil Bloom
+- **Location**: Western corner of the honeycomb platform
+- **Appearance**: Crystalline ice-coil petals that shift in abyssal currents
+- **Portal Access**: Gateway to Tiamangandr's enhanced abyssal archive realm
 - **Power Level**: Level 97 → 98 progression
-- **Enhancement**: Myrielle's adaptive wisdom deepens water mastery
+- **Enhancement**: Myrielle's preservation wisdom deepens coil-memory mastery
 
-### Verdania's Life-Bloom Spiral
-- **Location**: Southwest corner of the honeycomb platform
-- **Appearance**: Living petals that grow and shift in endless cycles
-- **Portal Access**: Gateway to Verdania's enhanced life realm
+### Kitsunrir's Storm-Gale Spiral
+- **Location**: Southern corner of the honeycomb platform
+- **Appearance**: Fox-fire and storm petals that constantly shift in illusory winds
+- **Portal Access**: Gateway to Kitsunrir's enhanced storm hunting grounds
 - **Power Level**: Level 98 → 99 progression
-- **Enhancement**: Myrielle's nurturing essence amplifies life force
+- **Enhancement**: Myrielle's transitional energy amplifies storm-tail illusion mastery
 
-### Umbros's Shadow-Petal Void
-- **Location**: Northwest corner of the honeycomb platform
-- **Appearance**: Petals of pure darkness that absorb light and mystery
-- **Portal Access**: Gateway to Umbros's enhanced shadow realm
+### Bastenyx's Nightclaw-Shadow Void
+- **Location**: Northwestern corner of the honeycomb platform
+- **Appearance**: Petals of twilight shadow and moonlit darkness that guard thresholds
+- **Portal Access**: Gateway to Bastenyx's enhanced twilight threshold realm
 - **Power Level**: Level 99 → 100 progression
-- **Enhancement**: Myrielle's hidden nature merges with shadow mastery
+- **Enhancement**: Myrielle's hidden nature merges with nightclaw shadow wisdom
 
-### Luxara's Light-Blossom Radiance
-- **Location**: North corner of the honeycomb platform
-- **Appearance**: Brilliant petals of pure illumination that reveal all truths
-- **Portal Access**: Gateway to Luxara's enhanced light realm
+### Gryphozeus's Thunder-Griffin Radiance
+- **Location**: Northeastern corner of the honeycomb platform
+- **Appearance**: Brilliant lightning-charged petals that crackle with celestial authority
+- **Portal Access**: Gateway to Gryphozeus's enhanced sky tribunal realm
 - **Power Level**: Level 100 → 100+ progression
-- **Enhancement**: Myrielle's truth-seeking enhances divine illumination
+- **Enhancement**: Myrielle's truth-seeking enhances divine lightning judgment
 
-### Zephyros's Wind-Spiral Crown
-- **Location**: Northeast corner of the honeycomb platform
-- **Appearance**: Petals of crystallized wind that constantly shift and change
-- **Portal Access**: Gateway to Zephyros's enhanced wind realm
+### Longares' Auric-Drake Blossom
+- **Location**: North corner of the honeycomb platform
+- **Appearance**: Golden-scaled metal petals that gleam with disciplined honor
+- **Portal Access**: Gateway to Longares' enhanced gilded battlefield realm
 - **Power Level**: Level 100+ → Maximum progression
-- **Enhancement**: Myrielle's transformative power amplifies change mastery
+- **Enhancement**: Myrielle's transformative power amplifies auric dragon mastery
 
 ## Central Platform - Myrielle's Domain
 

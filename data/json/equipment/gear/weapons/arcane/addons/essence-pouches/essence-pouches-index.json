@@ -1,0 +1,6 @@
+{
+  "id": "essence-pouches-index",
+  "name": "Essence Pouches (Addons · Arcane)",
+  "examples": ["essence_pouch_of_shadow.json"],
+  "notes": "Element is an item attribute."
+}

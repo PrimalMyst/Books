@@ -1,0 +1,23 @@
+{
+  "id": "armor-energy-shield-body-armors-index",
+  "name": "Armor-Energy Shield Hybrid Body Armors Index",
+  "description": "Index of hybrid armor-energy shield body armors combining physical and magical protection",
+  "version": "1.0.0",
+  "armor_type": "armor_energy_shield",
+  "god_alignment": "Marsalis + Zeusara (Sovereign)",
+  "hexagonal_positions": [2, 4],
+  "colors": "Yellow + Cyan",
+  "general_description": "Enchanted plate mail and blessed heavy robes that combine robust construction with magical enhancement for balanced physical and mystical torso protection.",
+  "existing_items": [
+    "blessed-steel-plate-mail.json"
+  ],
+  "metadata": {
+    "created": "2025-08-11T20:40:00Z",
+    "last_updated": "2025-08-11T20:40:00Z",
+    "author": "PrimalMyst Development Team",
+    "canonical": true,
+    "notes": "Simplified index focusing on categorization with existing items list",
+    "hexagonal_integration": "Complete",
+    "version": "1.0.0"
+  }
+}

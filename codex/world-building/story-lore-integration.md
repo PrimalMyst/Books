@@ -15,8 +15,8 @@ This document explains how the five-act story structure integrates with all exis
 - **Initial Manifestation (10-24)**: Minimum one influence from each accessible tier emerges
 
 **Accessible Divine Influences**:
-- **Fundamental Tier**: Choose one of Pyrion, Glacius, or Voltharion
-- **Primal Tier**: Choose one of Serafina, Aurelius, or Korthak  
+- **Primal Tier**: Choose one of Ifrisurtr, Kitsunrir, or Tiamangandr
+- **Sovereign Tier**: Choose one of Longares, Gryphozeus, or Bastenyx  
 - **Myrielle's Influence**: Only through bonded mounts/companions (indirect)
 
 #### **Act 1 & Act 2 (Levels 25-69)**

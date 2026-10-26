@@ -1,0 +1,23 @@
+{
+  "id": "energy-shield-belts-index",
+  "name": "Energy Shield Type Belts Index",
+  "description": "Index of pure energy shield type belts focused on magical damage mitigation",
+  "version": "1.0.0",
+  "armor_type": "energy_shield",
+  "god_alignment": "Zeusara (Sovereign)",
+  "hexagonal_position": 4,
+  "color": "Cyan",
+  "general_description": "Magical sashes, divine cord belts, and enchanted chains designed for mystical protection. These belts channel magical energy for defense while providing utility through enchanted storage and energy manipulation capabilities.",
+  "existing_items": [
+    "arcane-sash-of-warding.json"
+  ],
+  "metadata": {
+    "created": "2025-08-11T20:25:00Z",
+    "last_updated": "2025-08-11T20:25:00Z",
+    "author": "PrimalMyst Development Team",
+    "canonical": true,
+    "notes": "Simplified index focusing on categorization with existing items list",
+    "hexagonal_integration": "Complete",
+    "version": "1.0.0"
+  }
+}

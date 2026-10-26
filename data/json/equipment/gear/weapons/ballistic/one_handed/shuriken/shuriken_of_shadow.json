@@ -1,0 +1,10 @@
+{
+  "id": "shuriken-of-shadow",
+  "name": "Shuriken of Shadow",
+  "school": "ballistic",
+  "category": "one_handed",
+  "type": "shuriken",
+  "element": "shadow",
+  "rarity": "common",
+  "stats": { "base_damage": 10, "projectile_speed_percent": 20, "crit_chance_percent": 4 }
+}

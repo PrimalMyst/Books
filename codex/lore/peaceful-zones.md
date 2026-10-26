@@ -101,9 +101,9 @@ Peaceful Zones are special areas where Myrielle's essence creates safe havens th
 
 ### Enhanced Benefits for Divine Favor
 **Aligned Positioning Bonuses**:
-- **Serafina Alignment**: Enhanced creativity, innovation inspiration, beneficial change acceleration
-- **Aurelius Alignment**: Improved healing effects, truth revelation, enhanced protection
-- **Korthak Alignment**: Better training facilities, discipline enhancement, honor recognition
+- **Bastenyx Alignment**: Enhanced creativity, shadow-wisdom inspiration, threshold navigation
+- **Gryphozeus Alignment**: Improved truth revelation, celestial protection, enhanced judgment clarity
+- **Longares Alignment**: Better training facilities, discipline enhancement, honor recognition
 
 **Multi-Alignment Synthesis**:
 - **Dual Alignment**: Combined effects create unique synthesis benefits
@@ -224,7 +224,7 @@ Peaceful Zones are special areas where Myrielle's essence creates safe havens th
 - **[Adventurer Guilds](./adventurer-guilds.md)**: The secret churches that anchor peaceful zone infrastructure
 - **[Memory Preservation](./memory-preservation.md)**: The consciousness storage systems integrated into peaceful zones
 - **[Divine Positioning](./divine-positioning.md)**: How divine favor affects peaceful zone benefits
-- **[Act 1: Divine Trials](./act1-divine-trials.md)**: Introduction to peaceful zones and their effects
-- **[Act 2: Eldritch Ascension](./act2-eldritch-ascension.md)**: Peaceful zone expansion and enhancement
-- **[Act 3: Cosmic Ascendant](./act3-cosmic-ascendant.md)**: Maximum peaceful zone development
+- **[Act 1: Divine Trials](./story-arc/1-act1-divine-trials.md)**: Introduction to peaceful zones and their effects
+- **[Act 2: Eldritch Ascension](./story-arc/2-act2-eldritch-ascension.md)**: Peaceful zone expansion and enhancement
+- **[Act 3: Cosmic Ascendant](./story-arc/3-act3-cosmic-ascendant.md)**: Maximum peaceful zone development
 - **[Reality Instances](./reality-instances.md)**: How peaceful zones help stabilize universe containers

@@ -1,0 +1,33 @@
+{
+  "id": "ethereal-wind-boots",
+  "name": "Ethereal Wind Boots",
+  "type": "boots",
+  "tier": "mortal",
+  "rarity": "rare",
+  "description": "Mystical boots that seem to be woven from captured wind, constantly shifting and flowing around the feet. They provide magical protection while enhancing mobility through ethereal properties.",
+  "flavor_text": "Crafted from the essence of mountain breezes and morning mist, these boots grant the wearer the grace of the wind and the protection of the eternal sky.",
+  "stats": {
+    "energy_shield": 18,
+    "evasion": 15,
+    "movement_speed": 18,
+    "requirements": {
+      "level": 16,
+      "intelligence": 18,
+      "dexterity": 18
+    }
+  },
+  "properties": {
+    "slot": "boots",
+    "armor_type": "energy_shield_evasion",
+    "material": "ethereal_wind",
+    "weight": "ethereal",
+    "durability": 75
+  },
+  "metadata": {
+    "created": "2025-08-11T21:15:00Z",
+    "last_updated": "2025-08-11T21:15:00Z",
+    "author": "PrimalMyst Development Team",
+    "canonical": true,
+    "version": "1.0.0"
+  }
+}
