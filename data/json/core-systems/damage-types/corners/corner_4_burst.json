@@ -1,6 +1,6 @@
 {
-  "id": "corner_4_overwhelm",
-  "label": "Overwhelm",
+  "id": "corner_4_burst",
+  "label": "Burst",
   "hexagonal_position": 4,
   "hexagon_corner": "cyan",
   "delivery_profile": "High-magnitude impacts, slams, or wide AoE spell bursts.",

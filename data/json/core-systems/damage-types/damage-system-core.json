@@ -8,9 +8,9 @@
 			"summary": "Single-target strikes resolved instantly.",
 			"examples": ["weapon_swings", "projectile_shots", "quick_spells"]
 		},
-		"overwhelm": {
-			"label": "Overwhelm",
-			"summary": "Large-impact events such as slams, shockwaves, or wide-area spells.",
+		"burst": {
+			"label": "Burst",
+			"summary": "High-magnitude damage from impacts, slams, shockwaves, or wide-area spells.",
 			"examples": ["ground_slams", "meteor_impacts", "massive_chain_spells"]
 		},
 		"dot": {
@@ -21,7 +21,7 @@
 	},
 	"damage_files": {
 		"hit": "corners/corner_2_hit.json",
-		"overwhelm": "corners/corner_4_overwhelm.json",
+		"burst": "corners/corner_4_burst.json",
 		"dot": "corners/corner_6_dot.json"
 	},
 	"universal_rules": {
